@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { ArrowRight, BookOpen, Clock, Target, CheckCircle, ChevronRight, Award, HardHat, FileText, GraduationCap } from "lucide-react";
+import { ArrowRight, BookOpen, Clock, Target, CheckCircle, ChevronRight, Award, HardHat, FileText, GraduationCap, Shield, BookMarked, Building2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/theme-toggle";
 
@@ -480,7 +480,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-3 gap-6 mb-12">
             <a 
               href="https://skilledtradesbc.ca/" 
               target="_blank" 
@@ -534,6 +534,88 @@ export default function HomePage() {
                 Occupational health and safety regulations for crane operations
               </p>
             </a>
+
+            <a 
+              href="https://bccranesafety.ca/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-background border border-border p-6 card-hover group"
+            >
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 bg-accent flex items-center justify-center">
+                  <Shield className="w-5 h-5 text-accent-foreground" />
+                </div>
+                <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity ml-auto" />
+              </div>
+              <h3 className="font-semibold group-hover:text-accent transition-colors">BC Crane Safety</h3>
+              <p className="text-sm text-muted-foreground mt-2">
+                Provincial authority responsible for crane operator certification in British Columbia
+              </p>
+            </a>
+
+            <a 
+              href="https://fulford.ca/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-background border border-border p-6 card-hover group"
+            >
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 bg-accent flex items-center justify-center">
+                  <GraduationCap className="w-5 h-5 text-accent-foreground" />
+                </div>
+                <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity ml-auto" />
+              </div>
+              <h3 className="font-semibold group-hover:text-accent transition-colors">Fulford Certification</h3>
+              <p className="text-sm text-muted-foreground mt-2">
+                Crane operator and rigger certification services in Western Canada
+              </p>
+            </a>
+          </div>
+
+          {/* Standards Section */}
+          <div className="border-t border-border pt-12">
+            <div className="text-center mb-8">
+              <span className="category-label">Standards</span>
+              <h3 className="font-display text-2xl font-bold mt-2">Industry Standards & References</h3>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+              <a 
+                href="https://www.asme.org/codes-standards/find-codes-standards/b30-series-safety-standard-cranes-derricks-hoists-hooks-jacks-slings" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-background border border-border p-6 card-hover group"
+              >
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-10 h-10 bg-foreground flex items-center justify-center">
+                    <BookMarked className="w-5 h-5 text-background" />
+                  </div>
+                  <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity ml-auto" />
+                </div>
+                <h3 className="font-semibold group-hover:text-accent transition-colors">ASME B30 Safety Standard</h3>
+                <p className="text-sm text-muted-foreground mt-2">
+                  American Society of Mechanical Engineers standard for cranes, derricks, hoists, hooks, jacks, and slings
+                </p>
+              </a>
+
+              <a 
+                href="https://www.csagroup.org/store/product/Z248-17/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-background border border-border p-6 card-hover group"
+              >
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-10 h-10 bg-foreground flex items-center justify-center">
+                    <Building2 className="w-5 h-5 text-background" />
+                  </div>
+                  <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity ml-auto" />
+                </div>
+                <h3 className="font-semibold group-hover:text-accent transition-colors">CSA Z248</h3>
+                <p className="text-sm text-muted-foreground mt-2">
+                  Canadian Standards Association code for tower cranes covering design, construction, and operation
+                </p>
+              </a>
+            </div>
           </div>
         </div>
       </section>
