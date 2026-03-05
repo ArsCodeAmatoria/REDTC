@@ -22680,5 +22680,705 @@
     ],
     "correctAnswer": "d",
     "category": "Rigging Angle Math"
+  },
+  {
+    "id": 815,
+    "question": "What is the area of a circle with a diameter of 4 m?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6.28 m²",
+        "explanation": "Incorrect. This would be circumference, not area."
+      },
+      {
+        "id": "b",
+        "text": "12.57 m²",
+        "explanation": "Correct. Radius = 2 m. Area = πr² = 3.1416 × 2² = 3.1416 × 4 = 12.57 m²."
+      },
+      {
+        "id": "c",
+        "text": "16 m²",
+        "explanation": "Incorrect. This would be diameter squared, not the circle formula."
+      },
+      {
+        "id": "d",
+        "text": "25.13 m²",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 816,
+    "question": "What is the perimeter (circumference) of a circle with diameter 10 m?",
+    "options": [
+      {
+        "id": "a",
+        "text": "15.7 m",
+        "explanation": "Incorrect. This would be for diameter 5 m."
+      },
+      {
+        "id": "b",
+        "text": "31.42 m",
+        "explanation": "Correct. Circumference = πD = 3.1416 × 10 = 31.42 m."
+      },
+      {
+        "id": "c",
+        "text": "62.8 m",
+        "explanation": "Incorrect. This would be for diameter 20 m."
+      },
+      {
+        "id": "d",
+        "text": "78.5 m",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 817,
+    "question": "MATERIAL DENSITIES: Concrete = 2,400 kg/m³ | Steel = 7,850 kg/m³ — A circular concrete slab has a diameter of 6 m and thickness of 0.2 m. What is its weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6,780 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "b",
+        "text": "13,570 kg",
+        "explanation": "Correct. Radius = 3 m. Area = πr² = 3.1416 × 9 = 28.27 m². Volume = 28.27 × 0.2 = 5.65 m³. Weight = 5.65 × 2,400 = 13,570 kg."
+      },
+      {
+        "id": "c",
+        "text": "22,000 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "5,000 kg",
+        "explanation": "Incorrect. This is too light for the volume."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 818,
+    "question": "What is the volume of a cylinder with radius = 1 m and height = 5 m?",
+    "options": [
+      {
+        "id": "a",
+        "text": "7.85 m³",
+        "explanation": "Incorrect. This would be for height 2.5 m."
+      },
+      {
+        "id": "b",
+        "text": "15.71 m³",
+        "explanation": "Correct. Volume = πr²h = 3.1416 × 1² × 5 = 15.71 m³."
+      },
+      {
+        "id": "c",
+        "text": "31.42 m³",
+        "explanation": "Incorrect. This would be for height 10 m."
+      },
+      {
+        "id": "d",
+        "text": "3.14 m³",
+        "explanation": "Incorrect. This would be for height 1 m."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 819,
+    "question": "MATERIAL DENSITIES: Concrete = 2,400 kg/m³ | Steel = 7,850 kg/m³ — A steel cylinder has radius = 0.5 m and height = 4 m. What is the approximate weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "12,300 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "b",
+        "text": "24,650 kg",
+        "explanation": "Correct. Volume = πr²h = 3.1416 × 0.25 × 4 = 3.14 m³. Weight = 3.14 × 7,850 = 24,650 kg."
+      },
+      {
+        "id": "c",
+        "text": "9,800 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "31,000 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 820,
+    "question": "What happens to cylinder volume if height doubles?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Remains same",
+        "explanation": "Incorrect. Height directly affects volume."
+      },
+      {
+        "id": "b",
+        "text": "Volume doubles",
+        "explanation": "Correct. Cylinder volume = πr²h. Since h is multiplied directly, doubling h doubles the volume."
+      },
+      {
+        "id": "c",
+        "text": "Volume triples",
+        "explanation": "Incorrect. Volume doubles, not triples."
+      },
+      {
+        "id": "d",
+        "text": "Volume halves",
+        "explanation": "Incorrect. Volume increases, not decreases."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 821,
+    "question": "What is the formula for volume of a cone?",
+    "options": [
+      {
+        "id": "a",
+        "text": "πr²h",
+        "explanation": "Incorrect. This is the cylinder formula."
+      },
+      {
+        "id": "b",
+        "text": "(1/3)πr²h",
+        "explanation": "Correct. A cone has 1/3 the volume of a cylinder with the same base and height."
+      },
+      {
+        "id": "c",
+        "text": "2πrh",
+        "explanation": "Incorrect. This is surface area formula."
+      },
+      {
+        "id": "d",
+        "text": "πr²",
+        "explanation": "Incorrect. This is circle area, not cone volume."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 822,
+    "question": "A cone has radius = 2 m and height = 6 m. What is the volume?",
+    "options": [
+      {
+        "id": "a",
+        "text": "12.57 m³",
+        "explanation": "Incorrect. This would be for a smaller cone."
+      },
+      {
+        "id": "b",
+        "text": "25.13 m³",
+        "explanation": "Correct. Volume = (1/3)πr²h = (1/3) × 3.1416 × 4 × 6 = (1/3) × 75.4 = 25.13 m³."
+      },
+      {
+        "id": "c",
+        "text": "37.7 m³",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "50.26 m³",
+        "explanation": "Incorrect. This would be for a cylinder, not a cone."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 823,
+    "question": "MATERIAL DENSITIES: Concrete = 2,400 kg/m³ | Steel = 7,850 kg/m³ — A concrete cone has volume = 10 m³. What is the weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "12,000 kg",
+        "explanation": "Incorrect. This uses wrong density."
+      },
+      {
+        "id": "b",
+        "text": "24,000 kg",
+        "explanation": "Correct. Weight = Volume × Density = 10 × 2,400 = 24,000 kg."
+      },
+      {
+        "id": "c",
+        "text": "30,000 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "18,000 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 824,
+    "question": "What is the formula for volume of a sphere?",
+    "options": [
+      {
+        "id": "a",
+        "text": "πr²h",
+        "explanation": "Incorrect. This is the cylinder formula."
+      },
+      {
+        "id": "b",
+        "text": "(4/3)πr³",
+        "explanation": "Correct. Sphere volume = (4/3)πr³."
+      },
+      {
+        "id": "c",
+        "text": "πd²",
+        "explanation": "Incorrect. This is not a standard formula."
+      },
+      {
+        "id": "d",
+        "text": "2πr",
+        "explanation": "Incorrect. This is circumference."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 825,
+    "question": "A sphere has radius 1 m. What is its volume?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2.1 m³",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "b",
+        "text": "4.19 m³",
+        "explanation": "Correct. V = (4/3)πr³ = (4/3) × 3.1416 × 1³ = 4.19 m³."
+      },
+      {
+        "id": "c",
+        "text": "3.14 m³",
+        "explanation": "Incorrect. This would be circle area times 1."
+      },
+      {
+        "id": "d",
+        "text": "6.28 m³",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 826,
+    "question": "MATERIAL DENSITIES: Concrete = 2,400 kg/m³ | Steel = 7,850 kg/m³ — A steel sphere has volume = 2 m³. What is its weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "10,000 kg",
+        "explanation": "Incorrect. This uses wrong density."
+      },
+      {
+        "id": "b",
+        "text": "12,000 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "c",
+        "text": "15,700 kg",
+        "explanation": "Correct. Weight = Volume × Density = 2 × 7,850 = 15,700 kg."
+      },
+      {
+        "id": "d",
+        "text": "20,000 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 827,
+    "question": "MATERIAL DENSITIES: Concrete = 2,400 kg/m³ | Steel = 7,850 kg/m³ — A cylindrical concrete column has radius = 0.5 m and height = 3 m. What is its weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3,500 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "b",
+        "text": "5,650 kg",
+        "explanation": "Correct. Volume = πr²h = 3.1416 × 0.25 × 3 = 2.36 m³. Weight = 2.36 × 2,400 = 5,650 kg."
+      },
+      {
+        "id": "c",
+        "text": "8,000 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "10,000 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 828,
+    "question": "What happens to circle area if radius doubles?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Doubles",
+        "explanation": "Incorrect. Area increases by the square of the radius change."
+      },
+      {
+        "id": "b",
+        "text": "Triples",
+        "explanation": "Incorrect. Area increases by 4×, not 3×."
+      },
+      {
+        "id": "c",
+        "text": "Quadruples",
+        "explanation": "Correct. Area = πr². If r doubles, area = π(2r)² = 4πr², which is 4× the original."
+      },
+      {
+        "id": "d",
+        "text": "Remains same",
+        "explanation": "Incorrect. Radius directly affects area."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 829,
+    "question": "What happens to sphere volume if radius doubles?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Doubles",
+        "explanation": "Incorrect. Volume increases by the cube of the radius change."
+      },
+      {
+        "id": "b",
+        "text": "Quadruples",
+        "explanation": "Incorrect. Volume increases by 8×, not 4×."
+      },
+      {
+        "id": "c",
+        "text": "Increases eight times",
+        "explanation": "Correct. Volume = (4/3)πr³. If r doubles, volume = (4/3)π(2r)³ = 8 × (4/3)πr³, which is 8× the original."
+      },
+      {
+        "id": "d",
+        "text": "Triples",
+        "explanation": "Incorrect. Volume increases by 8×, not 3×."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 830,
+    "question": "What is the circumference of a circle with radius 5 m?",
+    "options": [
+      {
+        "id": "a",
+        "text": "15.7 m",
+        "explanation": "Incorrect. This would be for radius 2.5 m."
+      },
+      {
+        "id": "b",
+        "text": "31.42 m",
+        "explanation": "Correct. Circumference = 2πr = 2 × 3.1416 × 5 = 31.42 m."
+      },
+      {
+        "id": "c",
+        "text": "62.83 m",
+        "explanation": "Incorrect. This would be for radius 10 m."
+      },
+      {
+        "id": "d",
+        "text": "78.5 m",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 831,
+    "question": "A circular tank has diameter = 8 m. What is its circumference?",
+    "options": [
+      {
+        "id": "a",
+        "text": "18 m",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "b",
+        "text": "20 m",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "c",
+        "text": "25.13 m",
+        "explanation": "Correct. Circumference = πD = 3.1416 × 8 = 25.13 m."
+      },
+      {
+        "id": "d",
+        "text": "40 m",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 832,
+    "question": "MATERIAL DENSITIES: Concrete = 2,400 kg/m³ | Steel = 7,850 kg/m³ — A concrete cylinder has radius = 1 m and height = 2 m. What is its weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "b",
+        "text": "15,080 kg",
+        "explanation": "Correct. Volume = πr²h = 3.1416 × 1 × 2 = 6.28 m³. Weight = 6.28 × 2,400 = 15,080 kg."
+      },
+      {
+        "id": "c",
+        "text": "12,000 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "18,000 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 833,
+    "question": "MATERIAL DENSITIES: Concrete = 2,400 kg/m³ | Steel = 7,850 kg/m³ — A steel cylinder has radius = 0.4 m and height = 3 m. What is its weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "8,000 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "b",
+        "text": "11,840 kg",
+        "explanation": "Correct. Volume = πr²h = 3.1416 × 0.16 × 3 = 1.51 m³. Weight = 1.51 × 7,850 = 11,840 kg."
+      },
+      {
+        "id": "c",
+        "text": "15,000 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 834,
+    "question": "MATERIAL DENSITIES: Concrete = 2,400 kg/m³ | Steel = 7,850 kg/m³ — A circular steel plate has diameter = 2 m and thickness = 0.1 m. What is its weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,500 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "b",
+        "text": "2,460 kg",
+        "explanation": "Correct. Radius = 1 m. Area = πr² = 3.14 m². Volume = 3.14 × 0.1 = 0.314 m³. Weight = 0.314 × 7,850 ≈ 2,460 kg."
+      },
+      {
+        "id": "c",
+        "text": "4,000 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "3,200 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 835,
+    "question": "Why must crane operators estimate load weight accurately?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduce radius",
+        "explanation": "Incorrect. Weight estimation doesn't affect radius."
+      },
+      {
+        "id": "b",
+        "text": "Prevent crane overload",
+        "explanation": "Correct. Accurate weight estimation is critical to ensure the crane capacity is not exceeded, preventing structural failure or tipping."
+      },
+      {
+        "id": "c",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. Weight estimation doesn't increase speed."
+      },
+      {
+        "id": "d",
+        "text": "Reduce rigging",
+        "explanation": "Incorrect. Weight estimation doesn't reduce rigging needs."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 836,
+    "question": "Which shape formula is most commonly used when lifting pipes or columns?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sphere",
+        "explanation": "Incorrect. Pipes and columns are not spherical."
+      },
+      {
+        "id": "b",
+        "text": "Cone",
+        "explanation": "Incorrect. Pipes and columns are not conical."
+      },
+      {
+        "id": "c",
+        "text": "Cylinder",
+        "explanation": "Correct. Pipes and columns are cylindrical shapes, so the cylinder volume formula (πr²h) is used."
+      },
+      {
+        "id": "d",
+        "text": "Rectangle",
+        "explanation": "Incorrect. Pipes and columns are round, not rectangular."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 837,
+    "question": "Which shape formula is used for round tanks?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cone",
+        "explanation": "Incorrect. Most tanks are not conical."
+      },
+      {
+        "id": "b",
+        "text": "Sphere",
+        "explanation": "Incorrect. Most tanks are cylindrical, not spherical."
+      },
+      {
+        "id": "c",
+        "text": "Cylinder",
+        "explanation": "Correct. Round tanks are typically cylindrical, using the formula πr²h for volume."
+      },
+      {
+        "id": "d",
+        "text": "Circle only",
+        "explanation": "Incorrect. Tanks have volume (3D), not just area (2D)."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 838,
+    "question": "Which formula calculates circle area?",
+    "options": [
+      {
+        "id": "a",
+        "text": "πd²",
+        "explanation": "Incorrect. This is not the standard formula."
+      },
+      {
+        "id": "b",
+        "text": "πr²",
+        "explanation": "Correct. Circle area = π × radius squared."
+      },
+      {
+        "id": "c",
+        "text": "2πr",
+        "explanation": "Incorrect. This is circumference, not area."
+      },
+      {
+        "id": "d",
+        "text": "πrh",
+        "explanation": "Incorrect. This is not a standard formula."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Geometry & Weight"
+  },
+  {
+    "id": 839,
+    "question": "Which formula calculates cylinder volume?",
+    "options": [
+      {
+        "id": "a",
+        "text": "πr²h",
+        "explanation": "Correct. Cylinder volume = π × radius squared × height."
+      },
+      {
+        "id": "b",
+        "text": "(4/3)πr³",
+        "explanation": "Incorrect. This is sphere volume."
+      },
+      {
+        "id": "c",
+        "text": "πr²",
+        "explanation": "Incorrect. This is circle area, not volume."
+      },
+      {
+        "id": "d",
+        "text": "2πrh",
+        "explanation": "Incorrect. This is lateral surface area."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Geometry & Weight"
   }
 ]

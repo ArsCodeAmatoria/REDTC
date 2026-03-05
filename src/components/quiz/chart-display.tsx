@@ -76,6 +76,40 @@ function formatNumber(numStr: string): string {
   return num.toLocaleString() + " kg";
 }
 
+interface RiggingAngleRow {
+  angle: string;
+  multiplier: string;
+}
+
+interface MaterialDensityRow {
+  material: string;
+  density: string;
+}
+
+function parseRiggingAngle(chartString: string): { rows: RiggingAngleRow[] } | null {
+  if (!chartString.startsWith("RIGGING ANGLE MULTIPLIERS:")) return null;
+  
+  const rows: RiggingAngleRow[] = [
+    { angle: "90°", multiplier: "1.0×" },
+    { angle: "60°", multiplier: "1.15×" },
+    { angle: "45°", multiplier: "1.41×" },
+    { angle: "30°", multiplier: "2.0×" },
+  ];
+  
+  return { rows };
+}
+
+function parseMaterialDensities(chartString: string): { rows: MaterialDensityRow[] } | null {
+  if (!chartString.startsWith("MATERIAL DENSITIES:")) return null;
+  
+  const rows: MaterialDensityRow[] = [
+    { material: "Concrete", density: "2,400 kg/m³" },
+    { material: "Steel", density: "7,850 kg/m³" },
+  ];
+  
+  return { rows };
+}
+
 function extractQuestionText(fullText: string): string {
   if (fullText.startsWith("LOAD CHART:")) {
     const match = fullText.match(/\(Hook block = \d+\s*kg\)\s*—\s*(.+)/);
@@ -85,13 +119,101 @@ function extractQuestionText(fullText: string): string {
     const match = fullText.match(/Hook \+ rigging = \d+\s*kg\s*—\s*(.+)/);
     return match ? match[1] : fullText;
   }
+  if (fullText.startsWith("RIGGING ANGLE MULTIPLIERS:")) {
+    const match = fullText.match(/RIGGING ANGLE MULTIPLIERS:[^—]+—\s*(.+)/);
+    return match ? match[1] : fullText;
+  }
+  if (fullText.startsWith("MATERIAL DENSITIES:")) {
+    const match = fullText.match(/MATERIAL DENSITIES:[^—]+—\s*(.+)/);
+    return match ? match[1] : fullText;
+  }
   return fullText;
 }
 
 export function ChartDisplay({ questionText }: ChartDisplayProps) {
   const loadChart = parseLoadChart(questionText);
   const hoistChart = parseHoistChart(questionText);
+  const riggingAngle = parseRiggingAngle(questionText);
+  const materialDensities = parseMaterialDensities(questionText);
   const actualQuestion = extractQuestionText(questionText);
+
+  if (riggingAngle) {
+    return (
+      <div className="space-y-4">
+        <div className="rounded-lg border border-border bg-muted/30 p-3 sm:p-4">
+          <div className="mb-3">
+            <span className="text-xs font-semibold uppercase tracking-wider text-accent">
+              Rigging Angle Multipliers
+            </span>
+          </div>
+          <Table>
+            <TableHeader>
+              <TableRow className="border-border/50 hover:bg-transparent">
+                <TableHead className="text-xs font-semibold text-foreground">Sling Angle</TableHead>
+                <TableHead className="text-xs font-semibold text-foreground text-right">Tension Multiplier</TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              {riggingAngle.rows.map((row, i) => (
+                <TableRow key={i} className="border-border/30 hover:bg-muted/50">
+                  <TableCell className="font-medium text-xs sm:text-sm">{row.angle}</TableCell>
+                  <TableCell className="text-right text-xs sm:text-sm tabular-nums">
+                    <span className={`inline-flex items-center rounded px-1.5 py-0.5 text-xs font-medium ${
+                      row.angle === "90°" 
+                        ? "bg-green-500/10 text-green-400" 
+                        : row.angle === "60°" 
+                        ? "bg-green-500/10 text-green-400"
+                        : row.angle === "45°"
+                        ? "bg-yellow-500/10 text-yellow-400" 
+                        : "bg-red-500/10 text-red-400"
+                    }`}>
+                      {row.multiplier}
+                    </span>
+                  </TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </div>
+        <h2 className="font-display text-xl md:text-2xl font-semibold leading-snug">
+          {actualQuestion}
+        </h2>
+      </div>
+    );
+  }
+
+  if (materialDensities) {
+    return (
+      <div className="space-y-4">
+        <div className="rounded-lg border border-border bg-muted/30 p-3 sm:p-4">
+          <div className="mb-3">
+            <span className="text-xs font-semibold uppercase tracking-wider text-accent">
+              Material Densities
+            </span>
+          </div>
+          <Table>
+            <TableHeader>
+              <TableRow className="border-border/50 hover:bg-transparent">
+                <TableHead className="text-xs font-semibold text-foreground">Material</TableHead>
+                <TableHead className="text-xs font-semibold text-foreground text-right">Density</TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              {materialDensities.rows.map((row, i) => (
+                <TableRow key={i} className="border-border/30 hover:bg-muted/50">
+                  <TableCell className="font-medium text-xs sm:text-sm">{row.material}</TableCell>
+                  <TableCell className="text-right text-xs sm:text-sm tabular-nums">{row.density}</TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </div>
+        <h2 className="font-display text-xl md:text-2xl font-semibold leading-snug">
+          {actualQuestion}
+        </h2>
+      </div>
+    );
+  }
 
   if (loadChart) {
     return (
@@ -191,5 +313,8 @@ export function ChartDisplay({ questionText }: ChartDisplayProps) {
 }
 
 export function hasChart(questionText: string): boolean {
-  return questionText.startsWith("LOAD CHART:") || questionText.startsWith("HOIST CHART:");
+  return questionText.startsWith("LOAD CHART:") || 
+         questionText.startsWith("HOIST CHART:") ||
+         questionText.startsWith("RIGGING ANGLE MULTIPLIERS:") ||
+         questionText.startsWith("MATERIAL DENSITIES:");
 }
