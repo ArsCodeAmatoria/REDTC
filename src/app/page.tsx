@@ -673,73 +673,60 @@ export default function HomePage() {
       {/* Categories Section */}
       <section className="border-b border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="flex items-center justify-between mb-8">
-            <div>
-              <span className="category-label">Topics</span>
-              <h2 className="font-display text-2xl font-bold mt-1">Question Categories</h2>
-            </div>
-            <Link href="/test/review" className="hidden sm:flex items-center gap-1 text-sm font-medium hover:text-accent transition-colors">
-              View all
-              <ChevronRight className="w-4 h-4" />
-            </Link>
+          {/* Section Header */}
+          <div className="text-center mb-10">
+            <span className="category-label">Topics</span>
+            <h2 className="font-display text-2xl md:text-3xl font-bold mt-1">Question Categories</h2>
+            <p className="text-sm text-muted-foreground mt-2">1,124 questions across exam topics</p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6">
-            {/* Featured Categories */}
-            <div className="grid grid-cols-2 gap-3">
-              {categories.slice(0, 2).map((category, index) => (
-                <motion.div
-                  key={category.name}
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ delay: 0.05 * index }}
-                >
-                  <Link href={(category as { isCharts?: boolean }).isCharts ? "/load-charts" : "/test/review"}>
-                    <div className="bg-accent/5 border border-accent/20 p-5 h-full hover:border-accent transition-colors group">
-                      <div className="flex items-center gap-2 mb-3">
-                        <div className="w-1.5 h-6 bg-accent" />
-                        {(category as { isCharts?: boolean }).isCharts ? (
-                          <FileSpreadsheet className="w-4 h-4 text-accent" />
-                        ) : (
-                          <Calculator className="w-4 h-4 text-accent" />
-                        )}
-                      </div>
+          {/* Featured: Load Charts & PDF Practice */}
+          <div className="grid sm:grid-cols-2 gap-4 mb-8">
+            {categories.slice(0, 2).map((category, index) => (
+              <motion.div key={category.name} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.05 * index }}>
+                <Link href={(category as { isCharts?: boolean }).isCharts ? "/load-charts" : "/test/review"}>
+                  <div className="bg-accent/5 border border-accent/20 p-5 h-full hover:border-accent transition-colors group">
+                    <div className="flex items-center gap-2 mb-2">
+                      {(category as { isCharts?: boolean }).isCharts ? (
+                        <FileSpreadsheet className="w-4 h-4 text-accent" />
+                      ) : (
+                        <Calculator className="w-4 h-4 text-accent" />
+                      )}
                       <h3 className="font-semibold text-sm group-hover:text-accent transition-colors">{category.name}</h3>
-                      <p className="text-2xl font-display font-bold mt-2">
-                        {(category as { isCharts?: boolean }).isCharts ? "14" : category.count}
-                      </p>
-                      <p className="text-xs text-muted-foreground">
-                        {(category as { isCharts?: boolean }).isCharts ? "crane charts" : "questions"}
-                      </p>
+                    </div>
+                    <p className="text-2xl font-display font-bold">
+                      {(category as { isCharts?: boolean }).isCharts ? "14" : category.count}
+                    </p>
+                    <p className="text-xs text-muted-foreground mt-0.5">
+                      {(category as { isCharts?: boolean }).isCharts ? "crane charts" : "questions"}
+                    </p>
+                  </div>
+                </Link>
+              </motion.div>
+            ))}
+          </div>
+
+          {/* All Topics: Grouped by theme */}
+          <div className="space-y-6">
+            <div className="flex items-center justify-between">
+              <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">All Topics</h3>
+              <Link href="/test/review" className="text-xs font-medium hover:text-accent transition-colors flex items-center gap-1">
+                Review all
+                <ChevronRight className="w-3.5 h-3.5" />
+              </Link>
+            </div>
+
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {categories.slice(2).map((category, index) => (
+                <motion.div key={category.name} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.02 * index }}>
+                  <Link href="/test/review">
+                    <div className="flex items-center justify-between p-3 bg-muted/20 border border-border hover:border-accent/50 hover:bg-muted/30 transition-colors group">
+                      <span className="text-sm group-hover:text-accent transition-colors truncate pr-3">{category.name}</span>
+                      <span className="text-sm font-semibold text-muted-foreground flex-shrink-0">{category.count}</span>
                     </div>
                   </Link>
                 </motion.div>
               ))}
-            </div>
-
-            {/* Other Categories Grid */}
-            <div className="bg-muted/20 border border-border p-4">
-              <div className="flex items-center justify-between mb-4">
-                <h3 className="font-semibold text-sm">All Topics</h3>
-                <span className="text-xs text-muted-foreground">1,124 questions total</span>
-              </div>
-              <div className="grid grid-cols-2 gap-x-6 gap-y-2">
-                {categories.slice(2).map((category, index) => (
-                  <motion.div
-                    key={category.name}
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 0.05 * (index + 2) }}
-                  >
-                    <Link href="/test/review">
-                      <div className="flex items-center justify-between py-2 border-b border-border/30 hover:border-accent/50 transition-colors group">
-                        <span className="text-xs group-hover:text-accent transition-colors truncate pr-2">{category.name}</span>
-                        <span className="text-xs text-muted-foreground font-medium">{category.count}</span>
-                      </div>
-                    </Link>
-                  </motion.div>
-                ))}
-              </div>
             </div>
           </div>
         </div>
