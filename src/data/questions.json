@@ -24388,5 +24388,285 @@
     ],
     "correctAnswer": "c",
     "category": "Parts of Line - Mechanical Advantage"
+  },
+  {
+    "id": 876,
+    "question": "CAPACITY RULE: Safe Load = LOWEST of (Radius Capacity OR Gear Capacity) — A tower crane load chart shows 20 m radius = 6,000 kg. The crane is in Gear 1, which has a maximum hoist capacity of 5,000 kg. What is the maximum load that can be lifted safely at 20 m?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. The gear capacity limits the lift, not the radius chart."
+      },
+      {
+        "id": "b",
+        "text": "5,000 kg",
+        "explanation": "Correct. Even though the radius chart allows 6,000 kg, the gear capacity limits the lift to 5,000 kg. The lowest limit always controls the lift."
+      },
+      {
+        "id": "c",
+        "text": "4,500 kg",
+        "explanation": "Incorrect. The limit is exactly 5,000 kg."
+      },
+      {
+        "id": "d",
+        "text": "3,000 kg",
+        "explanation": "Incorrect. This is too conservative."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Radius vs Gear Capacity"
+  },
+  {
+    "id": 877,
+    "question": "CAPACITY RULE: Safe Load = LOWEST of (Radius Capacity OR Gear Capacity) — A crane is lifting at 25 m radius. Load chart shows 25 m = 4,200 kg. The crane is in high gear, which allows 3,500 kg. What is the safe load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "4,200 kg",
+        "explanation": "Incorrect. The gear capacity is lower and controls the lift."
+      },
+      {
+        "id": "b",
+        "text": "3,500 kg",
+        "explanation": "Correct. The hoist gear limitation overrides the radius capacity. High gear provides faster hoisting but lower lifting capacity."
+      },
+      {
+        "id": "c",
+        "text": "4,000 kg",
+        "explanation": "Incorrect. The limit is exactly 3,500 kg."
+      },
+      {
+        "id": "d",
+        "text": "3,800 kg",
+        "explanation": "Incorrect. The limit is exactly 3,500 kg."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Radius vs Gear Capacity"
+  },
+  {
+    "id": 878,
+    "question": "CAPACITY RULE: Safe Load = LOWEST of (Radius Capacity OR Gear Capacity) — A tower crane load chart shows 15 m radius = 8,000 kg. The hoist system is rated for 10,000 kg. What controls the lift?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hoist capacity",
+        "explanation": "Incorrect. The radius capacity is lower."
+      },
+      {
+        "id": "b",
+        "text": "Radius capacity",
+        "explanation": "Correct. The radius capacity (8,000 kg) is lower than the hoist limit (10,000 kg), so it becomes the controlling factor. Safe load = 8,000 kg."
+      },
+      {
+        "id": "c",
+        "text": "Wind limit",
+        "explanation": "Incorrect. Wind is not the limiting factor here."
+      },
+      {
+        "id": "d",
+        "text": "Block weight",
+        "explanation": "Incorrect. Block weight affects payload but isn't the primary limit."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Radius vs Gear Capacity"
+  },
+  {
+    "id": 879,
+    "question": "CAPACITY RULE: Safe Load = LOWEST of (Radius Capacity OR Gear Capacity) — At 30 m radius, the load chart shows 3,200 kg capacity. The hoist gear allows 6,000 kg. What is the safe lifting limit?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3,200 kg",
+        "explanation": "Correct. Even though the hoist could lift more, the radius structural limit controls the lift. This protects: jib structure, tower compression forces, and overturning moment."
+      },
+      {
+        "id": "b",
+        "text": "4,000 kg",
+        "explanation": "Incorrect. Cannot exceed radius chart limit."
+      },
+      {
+        "id": "c",
+        "text": "5,000 kg",
+        "explanation": "Incorrect. Cannot exceed radius chart limit."
+      },
+      {
+        "id": "d",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. The radius limit is much lower."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Radius vs Gear Capacity"
+  },
+  {
+    "id": 880,
+    "question": "CAPACITY RULE: Safe Load = LOWEST of (Radius Capacity OR Gear Capacity) — A crane is lifting 4,000 kg. Load chart at 22 m radius allows 4,500 kg. However the crane is in fast gear, rated for 3,500 kg. What must the operator do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue the lift",
+        "explanation": "Incorrect. The load exceeds the gear capacity."
+      },
+      {
+        "id": "b",
+        "text": "Reduce radius",
+        "explanation": "Incorrect. This doesn't solve the gear capacity problem."
+      },
+      {
+        "id": "c",
+        "text": "Change to low gear",
+        "explanation": "Correct. The load (4,000 kg) exceeds the fast gear limit (3,500 kg). Switching to low gear increases hoist torque capacity."
+      },
+      {
+        "id": "d",
+        "text": "Increase parts of line",
+        "explanation": "Incorrect. This affects line tension, not gear capacity."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Radius vs Gear Capacity"
+  },
+  {
+    "id": 881,
+    "question": "CAPACITY RULE: Safe Load = LOWEST of (Radius Capacity OR Gear Capacity) — A crane is lifting 5,500 kg. Load chart: 18 m radius = 6,000 kg. The hoist gear limit is 6,500 kg. Is the lift safe?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No",
+        "explanation": "Incorrect. Both limits allow the lift."
+      },
+      {
+        "id": "b",
+        "text": "Yes",
+        "explanation": "Correct. Both limits allow the lift: Radius capacity = 6,000 kg, Gear limit = 6,500 kg. Load = 5,500 kg is within both limits."
+      },
+      {
+        "id": "c",
+        "text": "Only with more parts of line",
+        "explanation": "Incorrect. The lift is already safe."
+      },
+      {
+        "id": "d",
+        "text": "Only with reduced radius",
+        "explanation": "Incorrect. The lift is already safe."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Radius vs Gear Capacity"
+  },
+  {
+    "id": 882,
+    "question": "CAPACITY RULE: Safe Load = LOWEST of (Radius Capacity OR Gear Capacity) — At 35 m radius, the chart allows 2,800 kg. The hoist gear allows 4,000 kg. The operator attempts to lift 3,000 kg. What is the problem?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gear overload",
+        "explanation": "Incorrect. The gear can handle 4,000 kg."
+      },
+      {
+        "id": "b",
+        "text": "Radius overload",
+        "explanation": "Correct. Even though the hoist gear could lift it, the radius capacity is exceeded. 3,000 kg > 2,800 kg allowed at 35 m."
+      },
+      {
+        "id": "c",
+        "text": "Hoist rope overload",
+        "explanation": "Incorrect. The rope isn't the issue here."
+      },
+      {
+        "id": "d",
+        "text": "Block overload",
+        "explanation": "Incorrect. The block isn't the issue here."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Radius vs Gear Capacity"
+  },
+  {
+    "id": 883,
+    "question": "CAPACITY RULE: Safe Load = LOWEST of (Radius Capacity OR Gear Capacity) — A crane has: Low gear = 8,000 kg, High gear = 4,000 kg. Load chart: 20 m radius = 5,000 kg. The operator lifts 4,800 kg in high gear. What is the result?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Safe lift",
+        "explanation": "Incorrect. The gear capacity is exceeded."
+      },
+      {
+        "id": "b",
+        "text": "Gear overload",
+        "explanation": "Correct. High gear capacity = 4,000 kg. Load = 4,800 kg. Even though the radius allows it, the high gear cannot lift that load."
+      },
+      {
+        "id": "c",
+        "text": "Radius overload",
+        "explanation": "Incorrect. The radius allows 5,000 kg."
+      },
+      {
+        "id": "d",
+        "text": "Line overload",
+        "explanation": "Incorrect. Line tension isn't the issue here."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Radius vs Gear Capacity"
+  },
+  {
+    "id": 884,
+    "question": "CAPACITY RULE: Safe Load = LOWEST of (Radius Capacity OR Gear Capacity) — A crane is lifting 6,000 kg. Load chart: 16 m radius = 7,000 kg. The hoist gear limit is 5,500 kg. What is the safe maximum load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "7,000 kg",
+        "explanation": "Incorrect. The gear limits the lift."
+      },
+      {
+        "id": "b",
+        "text": "6,500 kg",
+        "explanation": "Incorrect. The gear limit is 5,500 kg."
+      },
+      {
+        "id": "c",
+        "text": "5,500 kg",
+        "explanation": "Correct. The gear capacity becomes the controlling factor. Operators must always compare radius chart AND gear capacity."
+      },
+      {
+        "id": "d",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. This exceeds the gear limit."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Radius vs Gear Capacity"
+  },
+  {
+    "id": 885,
+    "question": "CAPACITY RULE: Safe Load = LOWEST of (Radius Capacity OR Gear Capacity) — A crane load chart shows: 18 m radius = 6,500 kg. Hook block weight = 1,500 kg. Hoist gear limit = 6,000 kg. What is the maximum load that can be lifted?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6,500 kg",
+        "explanation": "Incorrect. Must subtract hook block and consider gear limit."
+      },
+      {
+        "id": "b",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. Must subtract hook block weight from gear limit."
+      },
+      {
+        "id": "c",
+        "text": "4,500 kg",
+        "explanation": "Correct. Gear limit (6,000 kg) - Hook block (1,500 kg) = 4,500 kg available payload. Even though radius allows 6,500 kg, the gear and block weight limit the lift. This is a master-level trap question."
+      },
+      {
+        "id": "d",
+        "text": "5,000 kg",
+        "explanation": "Incorrect. The calculation shows 4,500 kg."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Radius vs Gear Capacity"
   }
 ]

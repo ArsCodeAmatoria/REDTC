@@ -5,7 +5,7 @@
 **Red Seal Tower Crane Exam Practice**
 
 [![Live Site](https://img.shields.io/badge/Live_Site-redtc.vercel.app-black?style=for-the-badge)](https://redtc.vercel.app)
-[![Questions](https://img.shields.io/badge/Questions-875-yellow?style=for-the-badge)](https://redtc.vercel.app/test/review)
+[![Questions](https://img.shields.io/badge/Questions-885-yellow?style=for-the-badge)](https://redtc.vercel.app/test/review)
 [![Pass Rate](https://img.shields.io/badge/Pass_Rate-70%25-green?style=for-the-badge)](https://redtc.vercel.app/test)
 
 Practice for your BC Red Seal Tower Crane Operator certification exam.
@@ -33,7 +33,7 @@ The Red Seal endorsement allows certified operators to work anywhere in Canada.
 
 | Total Questions | Per Test | Passing Score |
 |:---------------:|:--------:|:-------------:|
-| 875 | 10 | 70% |
+| 885 | 10 | 70% |
 
 Each practice test randomly selects 10 questions from the question bank.<br />
 Questions include detailed explanations for both correct and incorrect answers.
