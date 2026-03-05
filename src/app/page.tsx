@@ -664,31 +664,26 @@ export default function HomePage() {
               </div>
 
               {/* Standards */}
-              <div className="pt-4">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="h-px flex-1 bg-border" />
-                  <span className="text-xs font-bold uppercase tracking-wider text-muted-foreground">Standards</span>
-                  <div className="h-px flex-1 bg-border" />
-                </div>
-                <div className="flex flex-wrap gap-3">
+              <div className="pt-6 border-t border-border">
+                <span className="text-xs font-bold uppercase tracking-wider text-muted-foreground">Industry Standards</span>
+                <div className="mt-3 flex flex-wrap gap-x-6 gap-y-2">
                   <a
                     href="https://www.asme.org/codes-standards/find-codes-standards/b30-series-safety-standard-cranes-derricks-hoists-hooks-jacks-slings"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-4 py-2 bg-foreground text-background text-sm font-medium hover:bg-foreground/80 transition-colors"
+                    className="group inline-flex items-center gap-1 text-sm font-medium hover:text-accent transition-colors"
                   >
-                    ASME B30
-                    <ChevronRight className="w-4 h-4" />
+                    <span className="border-b border-transparent group-hover:border-accent">ASME B30</span>
+                    <ChevronRight className="w-3 h-3 opacity-50 group-hover:opacity-100" />
                   </a>
-
                   <a
                     href="https://www.csagroup.org/store/product/Z248-17/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-4 py-2 bg-foreground text-background text-sm font-medium hover:bg-foreground/80 transition-colors"
+                    className="group inline-flex items-center gap-1 text-sm font-medium hover:text-accent transition-colors"
                   >
-                    CSA Z248
-                    <ChevronRight className="w-4 h-4" />
+                    <span className="border-b border-transparent group-hover:border-accent">CSA Z248</span>
+                    <ChevronRight className="w-3 h-3 opacity-50 group-hover:opacity-100" />
                   </a>
                 </div>
               </div>
