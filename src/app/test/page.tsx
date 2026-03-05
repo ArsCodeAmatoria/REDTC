@@ -1,12 +1,14 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, RotateCcw, Check, X, Home, Clock, Trophy, Zap } from "lucide-react";
+import { ArrowLeft, ArrowRight, RotateCcw, Check, X, Home, Clock, Trophy, Zap, Star, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { QuestionCard, ProgressBar } from "@/components/quiz";
 import { useTest } from "@/hooks/use-test";
+import { useGameStats } from "@/hooks/use-game-stats";
+import { BADGES } from "@/lib/gamification";
 import questionsData from "@/data/questions.json";
 import type { Question } from "@/types/question";
 
@@ -68,15 +70,41 @@ export default function TestPage() {
     passPercentage,
     totalTestTime,
     timingStats,
+    questionTimings,
   } = useTest(questions);
 
   const [playerName, setPlayerName] = useState("");
   const [leaderboard, setLeaderboard] = useState<LeaderboardEntry[]>([]);
   const [hasSubmitted, setHasSubmitted] = useState(false);
+  const hasRecordedStats = useRef(false);
+
+  const {
+    stats,
+    levelInfo,
+    newlyUnlockedBadges,
+    completeTest,
+    clearNewBadges,
+  } = useGameStats();
 
   useEffect(() => {
     setLeaderboard(getLeaderboard());
   }, []);
+
+  // Record game stats when test completes
+  useEffect(() => {
+    if (isComplete && !hasRecordedStats.current && totalTestTime > 0) {
+      hasRecordedStats.current = true;
+      completeTest({
+        correctCount: results.correctCount,
+        totalQuestions: results.totalQuestions,
+        totalTime: totalTestTime,
+        questionTimings: questionTimings,
+        passed: results.passed,
+        isPerfect: results.percentage === 100,
+        categories: [], // We'd need to track categories per question
+      });
+    }
+  }, [isComplete, totalTestTime, results, completeTest, questionTimings]);
 
   const handleSubmitScore = () => {
     if (!playerName.trim()) return;
@@ -178,6 +206,56 @@ export default function TestPage() {
               <div>Slowest: <span className="text-foreground font-medium">{formatTime(timingStats.slowest)}</span></div>
             </div>
 
+            {/* XP and Level */}
+            <div className="bg-muted/30 border border-border p-4 space-y-3">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                  <Star className="w-5 h-5 text-accent" />
+                  <span className="font-bold">Level {levelInfo.level}</span>
+                  <span className="text-muted-foreground">· {levelInfo.name}</span>
+                </div>
+                <span className="text-accent font-bold">{stats.xp} XP</span>
+              </div>
+              <div className="h-2 bg-muted">
+                <div 
+                  className="h-full bg-accent transition-all duration-500"
+                  style={{ width: `${levelInfo.progress}%` }}
+                />
+              </div>
+              <div className="text-xs text-muted-foreground text-center">
+                {levelInfo.currentXp} / {levelInfo.nextLevelXp} XP to next level
+              </div>
+            </div>
+
+            {/* New Badges */}
+            {newlyUnlockedBadges.length > 0 && (
+              <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                className="bg-accent/10 border border-accent p-4 space-y-3"
+              >
+                <div className="flex items-center gap-2 text-accent">
+                  <Trophy className="w-5 h-5" />
+                  <span className="font-bold">New Badge{newlyUnlockedBadges.length > 1 ? 's' : ''} Unlocked!</span>
+                </div>
+                <div className="flex flex-wrap gap-3">
+                  {newlyUnlockedBadges.map((badgeId) => {
+                    const badge = BADGES.find((b) => b.id === badgeId);
+                    if (!badge) return null;
+                    return (
+                      <div key={badgeId} className="flex items-center gap-2 bg-background px-3 py-2 border border-border">
+                        <span className="text-2xl">{badge.icon}</span>
+                        <div>
+                          <div className="font-medium text-sm">{badge.name}</div>
+                          <div className="text-xs text-muted-foreground">{badge.description}</div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </motion.div>
+            )}
+
             <p className="text-center text-sm text-muted-foreground">
               Required: {passPercentage}% · From {totalQuestionsInBank} total questions
             </p>
@@ -255,6 +333,8 @@ export default function TestPage() {
                 onClick={() => {
                   setHasSubmitted(false);
                   setPlayerName("");
+                  hasRecordedStats.current = false;
+                  clearNewBadges();
                   resetTest();
                 }} 
                 className={`w-full ${isPassed ? 'bg-accent text-accent-foreground hover:bg-accent/90' : ''}`}
