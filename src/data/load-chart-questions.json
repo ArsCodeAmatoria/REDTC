@@ -1356,6 +1356,188 @@
           "correctAnswer": "b"
         }
       ]
+    },
+    {
+      "id": "potain-igo-t-139",
+      "name": "Potain Igo T 139",
+      "manufacturer": "Potain",
+      "model": "Igo T 139",
+      "type": "self-erecting",
+      "pdfFile": "potainigot138.pdf",
+      "description": "Self-erecting tower crane with variable jib angles (0°, 10°, 30°). 8 tonne max capacity. Multiple jib lengths up to 55m. Features Potain Plus mode.",
+      "specifications": {
+        "maxCapacity": "8,000 kg (0° jib)",
+        "maxJibLength": "55 m",
+        "tipCapacity": "1,000 kg (55m, 0°)",
+        "maxTowerHeight": "H+3 (40.7m with 55m jib)"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": "What type of crane is the Potain Igo T 139?",
+          "options": [
+            { "id": "a", "text": "Flat-top tower crane", "explanation": "Incorrect. Flat-top cranes have fixed horizontal jibs and require external assembly." },
+            { "id": "b", "text": "Self-erecting tower crane", "explanation": "Correct. The Igo T series are Potain's self-erecting cranes. They fold for road transport and can erect themselves on site without a mobile crane. The 'Igo T' designation indicates this class." },
+            { "id": "c", "text": "Luffing jib tower crane", "explanation": "Incorrect. Luffing jibs pivot at the tower top to change radius - the Igo T tilts its entire jib to fixed angles." },
+            { "id": "d", "text": "Crawler crane", "explanation": "Incorrect. The Igo T is a stationary tower crane, not a crawler." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 2,
+          "question": "What standards does the Potain Igo T 139 comply with?",
+          "options": [
+            { "id": "a", "text": "ANSI B30.3 only", "explanation": "Incorrect. ANSI is an American standard; this crane references European standards." },
+            { "id": "b", "text": "EN 14439 and FEM 1.001-A3", "explanation": "Correct. The chart shows compliance with EN 14439 C25-D25, EN 14439 C50-D50, and FEM 1.001-A3 - all European crane standards." },
+            { "id": "c", "text": "ISO 9001 only", "explanation": "Incorrect. ISO 9001 is a quality management standard, not a crane design standard." },
+            { "id": "d", "text": "OSHA 1926", "explanation": "Incorrect. OSHA is US operational regulations, not crane design standards." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 3,
+          "question": "With the 55m jib at 0° (horizontal) in standard mode (Configuration 1), what is the capacity at 55m radius (jib tip)?",
+          "options": [
+            { "id": "a", "text": "1,000 kg", "explanation": "Correct. At 55m radius with the horizontal jib in standard mode, capacity is 1,000 kg. This is the minimum capacity at maximum reach." },
+            { "id": "b", "text": "1,200 kg", "explanation": "Incorrect. 1,200 kg is the Potain Plus capacity at 55m, not standard mode." },
+            { "id": "c", "text": "8,000 kg", "explanation": "Incorrect. 8,000 kg is only available at minimum radius (10m)." },
+            { "id": "d", "text": "800 kg", "explanation": "Incorrect. Check the load chart for the correct tip capacity." }
+          ],
+          "correctAnswer": "a"
+        },
+        {
+          "id": 4,
+          "question": "What is the maximum lifting capacity of the Igo T 139 and at what radius?",
+          "options": [
+            { "id": "a", "text": "6,000 kg at 12m", "explanation": "Incorrect. The crane can lift more than 6,000 kg." },
+            { "id": "b", "text": "8,000 kg at 10m radius (with jib horizontal)", "explanation": "Correct. Maximum capacity is 8,000 kg, available at the minimum working radius of 10m with the jib in horizontal position (0°)." },
+            { "id": "c", "text": "8,000 kg at 3.7m radius", "explanation": "Incorrect. 3.7m is the minimum radius but not where max capacity is achieved in the working chart." },
+            { "id": "d", "text": "4,000 kg at 16m", "explanation": "Incorrect. 4,000 kg is the maximum capacity when the jib is raised to 30°." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 5,
+          "question": "CRITICAL: The Igo T 139 has three jib angle options: 0°, 10°, and 30°. What happens to maximum capacity when the jib is raised from 0° to 30°?",
+          "options": [
+            { "id": "a", "text": "Capacity increases because the jib is shorter", "explanation": "Incorrect. Capacity decreases, not increases." },
+            { "id": "b", "text": "Capacity decreases from 8,000 kg to 4,000 kg", "explanation": "Correct. At 0° (horizontal), max capacity is 8,000 kg. At 30°, max capacity drops to only 4,000 kg. The raised jib position changes the crane's geometry and reduces lifting capacity." },
+            { "id": "c", "text": "Capacity stays the same at 8,000 kg", "explanation": "Incorrect. The jib angle significantly affects capacity." },
+            { "id": "d", "text": "Capacity increases to 10,000 kg", "explanation": "Incorrect. Raising the jib reduces, not increases capacity." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 6,
+          "question": "What is Potain Plus mode?",
+          "options": [
+            { "id": "a", "text": "A premium subscription service", "explanation": "Incorrect. Potain Plus is an operational mode, not a subscription." },
+            { "id": "b", "text": "An enhanced capacity mode that increases load limits above standard curves", "explanation": "Correct. Potain Plus provides higher capacities than standard mode. For example, at 55m tip capacity increases from 1,000 kg (standard) to 1,200 kg (Potain Plus) - a 20% increase." },
+            { "id": "c", "text": "A faster hoisting speed mode", "explanation": "Incorrect. Potain Plus affects capacity, not speed." },
+            { "id": "d", "text": "An anti-collision system", "explanation": "Incorrect. Anti-collision is a separate feature." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 7,
+          "question": "Using the 55m jib at 0°, what is the capacity at 30m radius in standard mode vs Potain Plus mode?",
+          "options": [
+            { "id": "a", "text": "Standard: 2,300 kg / Plus: 2,550 kg", "explanation": "Correct. At 30m with the 55m horizontal jib: standard mode shows 2,300 kg while Potain Plus shows 2,550 kg - an increase of 250 kg (about 11%)." },
+            { "id": "b", "text": "Standard: 2,550 kg / Plus: 2,300 kg", "explanation": "Incorrect. You have the values reversed - Plus mode has higher capacity." },
+            { "id": "c", "text": "Both modes: 2,300 kg", "explanation": "Incorrect. Potain Plus provides increased capacity over standard mode." },
+            { "id": "d", "text": "Standard: 3,000 kg / Plus: 3,500 kg", "explanation": "Incorrect. These values are too high for 30m radius with 55m jib." }
+          ],
+          "correctAnswer": "a"
+        },
+        {
+          "id": 8,
+          "question": "TRAP: When the jib is raised to 10°, what happens to the capacity across most of the working range?",
+          "options": [
+            { "id": "a", "text": "Capacity remains high (8,000 kg) at close radii", "explanation": "Incorrect. At 10° jib angle, capacity is dramatically reduced." },
+            { "id": "b", "text": "Capacity drops to a constant 1,300 kg across most radii", "explanation": "Correct. At 10° jib angle, capacity is limited to only 1,300 kg across most of the working range. This is a significant reduction from 8,000 kg at 0°. The 10° position extends reach but severely limits capacity." },
+            { "id": "c", "text": "Capacity increases due to better geometry", "explanation": "Incorrect. The 10° position has much lower capacity than horizontal." },
+            { "id": "d", "text": "Capacity is 4,000 kg constant", "explanation": "Incorrect. 4,000 kg is the max at 30°, not 10°." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 9,
+          "question": "What is the total counterweight required for operating the Igo T 139 at 50m jib length?",
+          "options": [
+            { "id": "a", "text": "26,500 kg", "explanation": "Incorrect. This is insufficient for full operation." },
+            { "id": "b", "text": "48,600 kg (12 blocks × 4,050 kg each)", "explanation": "Correct. The chart specifies 48,600 kg of counterweight consisting of 12 ballast blocks at 4,050 kg each. This is required for stable operation at 50m jib configuration." },
+            { "id": "c", "text": "35,000 kg", "explanation": "Incorrect. Check the counterweight specifications on the chart." },
+            { "id": "d", "text": "60,000 kg", "explanation": "Incorrect. This exceeds the specified counterweight." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 10,
+          "question": "How many different jib length configurations are available for the Igo T 139?",
+          "options": [
+            { "id": "a", "text": "2 (42m and 55m)", "explanation": "Incorrect. More jib lengths are available." },
+            { "id": "b", "text": "5 (33.4m, 42m, 47m, 50m, and 55m)", "explanation": "Correct. The load chart shows capacity tables for 5 different jib lengths: 33.4m, 42m, 47m, 50m, and 55m. Shorter jibs have higher tip capacity but less reach." },
+            { "id": "c", "text": "3 (40m, 50m, 55m)", "explanation": "Incorrect. The available lengths are different." },
+            { "id": "d", "text": "1 (55m only)", "explanation": "Incorrect. Multiple jib configurations are available." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 11,
+          "question": "COMPLEX: A contractor needs to lift 3,500 kg at 24m radius. With the jib horizontal (0°), which is the SHORTEST jib configuration that can make this lift?",
+          "options": [
+            { "id": "a", "text": "33.4m jib (shows 5,100 kg at 24m)", "explanation": "Correct. The 33.4m jib shows 5,100 kg capacity at 24m in standard mode - more than sufficient for 3,500 kg. Shorter jibs have higher capacity at the same radius." },
+            { "id": "b", "text": "42m jib", "explanation": "Incorrect. While the 42m jib works (4,500 kg at 24m), a shorter jib is available." },
+            { "id": "c", "text": "47m jib", "explanation": "Incorrect. The 47m jib works but the 33.4m is shorter." },
+            { "id": "d", "text": "55m jib is the only option", "explanation": "Incorrect. The 55m jib has the lowest capacity at 24m (3,000 kg standard) - still sufficient but not the shortest option." }
+          ],
+          "correctAnswer": "a"
+        },
+        {
+          "id": 12,
+          "question": "What tower height configurations are available with the 55m jib?",
+          "options": [
+            { "id": "a", "text": "Only one fixed height", "explanation": "Incorrect. Multiple height configurations are available." },
+            { "id": "b", "text": "H+0, H+1, H+2, and H+3 (ranging from 19.7m to 40.7m under-hook height)", "explanation": "Correct. The chart shows four height configurations for the 55m jib: H+0 (19.7-22.7m), H+1 (25.7-28.7m), H+2 (31.7-34.7m), and H+3 (37.7-40.7m). Height depends on tower sections installed." },
+            { "id": "c", "text": "H+0 and H+1 only", "explanation": "Incorrect. More configurations are available." },
+            { "id": "d", "text": "Up to 60m hook height", "explanation": "Incorrect. Maximum hook height is approximately 40.7m." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 13,
+          "question": "What is the maximum road transport speed for the Igo T 139?",
+          "options": [
+            { "id": "a", "text": "50 km/h", "explanation": "Incorrect. This is the maximum wind speed for erection, not transport speed." },
+            { "id": "b", "text": "80 km/h", "explanation": "Correct. The transport axle (J215M) is rated for 80 km/h road transport. The crane folds into a compact configuration for highway transport." },
+            { "id": "c", "text": "30 km/h", "explanation": "Incorrect. The crane can be transported faster than this." },
+            { "id": "d", "text": "120 km/h", "explanation": "Incorrect. This would exceed safe transport speeds for construction equipment." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 14,
+          "question": "What is the Power Control function on the Igo T 139?",
+          "options": [
+            { "id": "a", "text": "Controls the power supply voltage", "explanation": "Incorrect. Power Control is about winch speed adaptation, not voltage." },
+            { "id": "b", "text": "Adapts winch speeds to the available power supply", "explanation": "Correct. Power Control automatically adjusts winch speeds based on the available electrical power. This allows the crane to operate efficiently on sites with limited power supply by reducing speeds rather than overloading the supply." },
+            { "id": "c", "text": "Emergency power shutdown system", "explanation": "Incorrect. Emergency systems are separate from Power Control." },
+            { "id": "d", "text": "Solar power integration", "explanation": "Incorrect. Power Control relates to grid power adaptation, not solar." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 15,
+          "question": "TRAP: Why would an operator choose the 10° jib angle over the 0° horizontal position?",
+          "options": [
+            { "id": "a", "text": "To increase lifting capacity", "explanation": "Incorrect. The 10° position has much LOWER capacity (1,300 kg vs 8,000 kg max)." },
+            { "id": "b", "text": "To extend reach with light loads - the 10° position allows reaching further at constant 1,300 kg capacity", "explanation": "Correct. At 10°, the 55m jib can reach up to 54.2m radius (vs 55m at 0°) while maintaining 1,300 kg capacity. It's useful when you need extra height clearance or specific geometry for light loads, not for heavy lifts." },
+            { "id": "c", "text": "It's the only position allowed in high winds", "explanation": "Incorrect. Wind restrictions are separate from jib angle choice." },
+            { "id": "d", "text": "To reduce counterweight requirements", "explanation": "Incorrect. Counterweight is the same regardless of jib angle during operation." }
+          ],
+          "correctAnswer": "b"
+        }
+      ]
     }
   ]
 }

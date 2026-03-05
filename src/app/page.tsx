@@ -10,7 +10,7 @@ import questionsData from "@/data/questions.json";
 
 const categories = [
   { name: "Load Charts & Parts of Line", count: 140, color: "bg-accent" },
-  { name: "PDF Load Chart Practice", count: 111, color: "bg-accent", isCharts: true },
+  { name: "PDF Load Chart Practice", count: 126, color: "bg-accent", isCharts: true },
   { name: "Advanced Operations & Traps", count: 95, color: "bg-foreground" },
   { name: "Master Level Questions", count: 100, color: "bg-foreground" },
   { name: "Rigging & Sling Angles", count: 85, color: "bg-foreground" },
@@ -600,17 +600,22 @@ export default function HomePage() {
                     <h4 className="font-semibold text-sm mt-1">91 K</h4>
                     <p className="text-xs text-muted-foreground">48m, 6t</p>
                   </div>
+                  <div className="bg-background border border-border p-4">
+                    <span className="text-xs text-accent font-medium">Potain</span>
+                    <h4 className="font-semibold text-sm mt-1">Igo T 139</h4>
+                    <p className="text-xs text-muted-foreground">55m, 8t</p>
+                  </div>
                 </div>
               </div>
               
               {/* Stats */}
               <div className="bg-muted/30 border border-border p-4 flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-display font-bold">8</div>
+                  <div className="text-2xl font-display font-bold">9</div>
                   <div className="text-xs text-muted-foreground">Crane charts</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-display font-bold">111</div>
+                  <div className="text-2xl font-display font-bold">126</div>
                   <div className="text-xs text-muted-foreground">Questions</div>
                 </div>
                 <div>
@@ -657,7 +662,7 @@ export default function HomePage() {
                     </div>
                     <h3 className="font-medium mt-3 group-hover:text-accent transition-colors">{category.name}</h3>
                     <p className="text-sm text-muted-foreground mt-1">
-                      {(category as { isCharts?: boolean }).isCharts ? "8 crane charts" : `${category.count}+ questions`}
+                      {(category as { isCharts?: boolean }).isCharts ? "9 crane charts" : `${category.count}+ questions`}
                     </p>
                   </div>
                 </Link>
