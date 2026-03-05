@@ -25312,5 +25312,285 @@
     ],
     "correctAnswer": "c",
     "category": "Weather Judgment"
+  },
+  {
+    "id": 909,
+    "question": "OVERLAP RULE: >18 m (60 ft) overlap requires anti-collision system — Two tower cranes are working on the same site. Their jibs overlap by 20 m. What must be installed?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load limiter",
+        "explanation": "Incorrect. Load limiters don't prevent crane collisions."
+      },
+      {
+        "id": "b",
+        "text": "Wind sensor",
+        "explanation": "Incorrect. Wind sensors don't prevent crane collisions."
+      },
+      {
+        "id": "c",
+        "text": "Anti-collision system",
+        "explanation": "Correct. More than 18 m (60 ft) of overlap requires an anti-collision system. This prevents jib collision, hook block collision, and trolley collision. Standard requirement on dense urban sites."
+      },
+      {
+        "id": "d",
+        "text": "Tagline system",
+        "explanation": "Incorrect. Taglines don't prevent crane collisions."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Multi-Crane Operations"
+  },
+  {
+    "id": 910,
+    "question": "OVERLAP FORMULA: Overlap = (Jib A + Jib B) − Tower Distance — Two cranes: Crane A = 50 m jib, Crane B = 45 m jib. Distance between towers = 70 m. How much overlap exists?",
+    "options": [
+      {
+        "id": "a",
+        "text": "15 m",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "b",
+        "text": "25 m",
+        "explanation": "Correct. Overlap = (50 + 45) − 70 = 95 − 70 = 25 m. Since this exceeds 18 m, anti-collision is required."
+      },
+      {
+        "id": "c",
+        "text": "30 m",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "20 m",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Multi-Crane Operations"
+  },
+  {
+    "id": 911,
+    "question": "CLEARANCE RULE: Minimum 2 ft from structures — A tower crane hook block passes 1 ft from a scaffold. Is this acceptable?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes",
+        "explanation": "Incorrect. This violates minimum clearance requirements."
+      },
+      {
+        "id": "b",
+        "text": "No",
+        "explanation": "Correct. Minimum clearance rule: 2 ft clearance from structures or obstacles. This prevents load snagging, collision damage, and rigging failure."
+      },
+      {
+        "id": "c",
+        "text": "Only if slow speed",
+        "explanation": "Incorrect. Speed doesn't override clearance requirements."
+      },
+      {
+        "id": "d",
+        "text": "Only with taglines",
+        "explanation": "Incorrect. Taglines don't override clearance requirements."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Clearance Rules"
+  },
+  {
+    "id": 912,
+    "question": "POWERLINE RULE: Minimum 10 ft from lines under 50 kV — A crane is operating near a 13 kV power line. Minimum clearance required is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "5 ft",
+        "explanation": "Incorrect. This is too close."
+      },
+      {
+        "id": "b",
+        "text": "8 ft",
+        "explanation": "Incorrect. This is too close."
+      },
+      {
+        "id": "c",
+        "text": "10 ft",
+        "explanation": "Correct. Standard crane safety rule: Minimum 10 ft clearance from energized lines under 50 kV. Higher voltages require greater distance."
+      },
+      {
+        "id": "d",
+        "text": "15 ft",
+        "explanation": "Incorrect. While safer, 10 ft is the minimum standard."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Powerline Safety"
+  },
+  {
+    "id": 913,
+    "question": "CAPACITY RULE: Safe Load = LOWEST of (Radius OR Gear) after wind reduction — Load chart: 30 m = 3,000 kg. High gear limit = 2,800 kg. Wind reduction = 10%. What is the safe load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3,000 kg",
+        "explanation": "Incorrect. Must apply wind reduction."
+      },
+      {
+        "id": "b",
+        "text": "2,700 kg",
+        "explanation": "Incorrect. Must compare with gear limit."
+      },
+      {
+        "id": "c",
+        "text": "2,520 kg",
+        "explanation": "Correct. Step 1: Wind reduction: 3,000 × 0.90 = 2,700 kg. Step 2: Compare with gear (2,800 kg). Lower = 2,700 kg. Step 3: With safety margin, 2,520 kg. Always check: radius, gear, wind reduction."
+      },
+      {
+        "id": "d",
+        "text": "2,800 kg",
+        "explanation": "Incorrect. Radius after wind reduction is lower than gear."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Combined Limits"
+  },
+  {
+    "id": 914,
+    "question": "RIGGING ANGLE MULTIPLIERS: 90°=1.0 | 60°=1.15 | 45°=1.41 | 30°=2.0 — Two slings support a 2,000 kg load. Each sling forms a 60° angle from horizontal. What happens to sling tension?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension increases",
+        "explanation": "Correct. As sling angle becomes flatter, horizontal force increases and tension increases dramatically. At 60° from horizontal, tension is significantly higher than half the load weight."
+      },
+      {
+        "id": "b",
+        "text": "Tension decreases",
+        "explanation": "Incorrect. Flatter angles increase tension."
+      },
+      {
+        "id": "c",
+        "text": "No change",
+        "explanation": "Incorrect. Angle directly affects tension."
+      },
+      {
+        "id": "d",
+        "text": "Load weight decreases",
+        "explanation": "Incorrect. Load weight doesn't change."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Master - Rigging Angles"
+  },
+  {
+    "id": 915,
+    "question": "RIGGING ANGLE MULTIPLIERS: 90°=1.0 | 60°=1.15 | 45°=1.41 | 30°=2.0 — Two slings support a 2,000 kg load at 30° from horizontal. What happens?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sling tension equals load weight",
+        "explanation": "Incorrect. Tension exceeds load weight at this angle."
+      },
+      {
+        "id": "b",
+        "text": "Sling tension becomes extremely high",
+        "explanation": "Correct. At 30° angle, the 2.0× multiplier means each sling carries the full load weight. Very flat angles multiply tension dangerously. Rule: Never rig below 30° sling angle."
+      },
+      {
+        "id": "c",
+        "text": "Sling tension decreases",
+        "explanation": "Incorrect. Flatter angles increase tension."
+      },
+      {
+        "id": "d",
+        "text": "Load becomes lighter",
+        "explanation": "Incorrect. Load weight doesn't change."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Rigging Angles"
+  },
+  {
+    "id": 916,
+    "question": "A signalperson gives a hoist up signal, but the operator cannot see the load clearly. What should the operator do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Follow signal immediately",
+        "explanation": "Incorrect. Never lift if load condition is unknown."
+      },
+      {
+        "id": "b",
+        "text": "Increase speed",
+        "explanation": "Incorrect. Speed doesn't resolve visibility issues."
+      },
+      {
+        "id": "c",
+        "text": "Stop and confirm load condition",
+        "explanation": "Correct. Operators must never lift if: load condition is unknown, rigging cannot be confirmed, or communication is unclear. Safety overrides signals."
+      },
+      {
+        "id": "d",
+        "text": "Continue slowly",
+        "explanation": "Incorrect. Speed doesn't resolve visibility issues."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Signalperson"
+  },
+  {
+    "id": 917,
+    "question": "Two workers begin giving signals to the crane operator. What should the operator do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Follow closest signalperson",
+        "explanation": "Incorrect. Distance doesn't determine authority."
+      },
+      {
+        "id": "b",
+        "text": "Follow supervisor signals",
+        "explanation": "Incorrect. Must stop first, not continue."
+      },
+      {
+        "id": "c",
+        "text": "Stop until one designated signalperson is confirmed",
+        "explanation": "Correct. Only one signalperson must control crane signals. Multiple signals create confusion, miscommunication, and accident risk."
+      },
+      {
+        "id": "d",
+        "text": "Continue lifting slowly",
+        "explanation": "Incorrect. Must stop, not continue."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Signalperson"
+  },
+  {
+    "id": 918,
+    "question": "TOTAL LOAD RULE: Max Load = Chart Capacity − Hook Block − Rigging — Load chart: 20 m = 6,000 kg. Hook block = 1,200 kg. Rigging = 300 kg. What is the maximum load weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. Must subtract hook block and rigging."
+      },
+      {
+        "id": "b",
+        "text": "5,000 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "c",
+        "text": "4,500 kg",
+        "explanation": "Correct. Total capacity includes all suspended weight: 6,000 − 1,200 (block) − 300 (rigging) = 4,500 kg allowable load. Always include: hook block, rigging, lifting devices."
+      },
+      {
+        "id": "d",
+        "text": "4,800 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Load Chart"
   }
 ]

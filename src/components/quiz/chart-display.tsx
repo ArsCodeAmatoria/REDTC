@@ -130,6 +130,22 @@ function parseLightningDistance(chartString: string): boolean {
   return chartString.startsWith("LIGHTNING DISTANCE:");
 }
 
+function parseOverlapRule(chartString: string): boolean {
+  return chartString.startsWith("OVERLAP RULE:") || chartString.startsWith("OVERLAP FORMULA:");
+}
+
+function parseClearanceRule(chartString: string): boolean {
+  return chartString.startsWith("CLEARANCE RULE:");
+}
+
+function parsePowerlineRule(chartString: string): boolean {
+  return chartString.startsWith("POWERLINE RULE:");
+}
+
+function parseTotalLoadRule(chartString: string): boolean {
+  return chartString.startsWith("TOTAL LOAD RULE:");
+}
+
 function extractQuestionText(fullText: string): string {
   if (fullText.startsWith("LOAD CHART:")) {
     const match = fullText.match(/\(Hook block = \d+\s*kg\)\s*—\s*(.+)/);
@@ -167,6 +183,22 @@ function extractQuestionText(fullText: string): string {
     const match = fullText.match(/LIGHTNING DISTANCE:[^—]+—\s*(.+)/);
     return match ? match[1] : fullText;
   }
+  if (fullText.startsWith("OVERLAP RULE:") || fullText.startsWith("OVERLAP FORMULA:")) {
+    const match = fullText.match(/OVERLAP (?:RULE|FORMULA):[^—]+—\s*(.+)/);
+    return match ? match[1] : fullText;
+  }
+  if (fullText.startsWith("CLEARANCE RULE:")) {
+    const match = fullText.match(/CLEARANCE RULE:[^—]+—\s*(.+)/);
+    return match ? match[1] : fullText;
+  }
+  if (fullText.startsWith("POWERLINE RULE:")) {
+    const match = fullText.match(/POWERLINE RULE:[^—]+—\s*(.+)/);
+    return match ? match[1] : fullText;
+  }
+  if (fullText.startsWith("TOTAL LOAD RULE:")) {
+    const match = fullText.match(/TOTAL LOAD RULE:[^—]+—\s*(.+)/);
+    return match ? match[1] : fullText;
+  }
   return fullText;
 }
 
@@ -180,7 +212,99 @@ export function ChartDisplay({ questionText }: ChartDisplayProps) {
   const windReduction = parseWindReduction(questionText);
   const sailArea = parseSailArea(questionText);
   const lightningDistance = parseLightningDistance(questionText);
+  const overlapRule = parseOverlapRule(questionText);
+  const clearanceRule = parseClearanceRule(questionText);
+  const powerlineRule = parsePowerlineRule(questionText);
+  const totalLoadRule = parseTotalLoadRule(questionText);
   const actualQuestion = extractQuestionText(questionText);
+
+  if (overlapRule) {
+    const isFormula = questionText.startsWith("OVERLAP FORMULA:");
+    return (
+      <div className="space-y-4">
+        <div className="rounded-lg border border-border bg-muted/30 p-3 sm:p-4">
+          <div className="mb-2">
+            <span className="text-xs font-semibold uppercase tracking-wider text-accent">
+              {isFormula ? "Overlap Formula" : "Overlap Rule"}
+            </span>
+          </div>
+          <div className="font-mono text-sm sm:text-base text-foreground">
+            {isFormula ? (
+              "Overlap = (Jib A + Jib B) − Tower Distance"
+            ) : (
+              <><span className="text-red-400">&gt;18 m (60 ft)</span> overlap requires anti-collision</>
+            )}
+          </div>
+        </div>
+        <h2 className="font-display text-xl md:text-2xl font-semibold leading-snug">
+          {actualQuestion}
+        </h2>
+      </div>
+    );
+  }
+
+  if (clearanceRule) {
+    return (
+      <div className="space-y-4">
+        <div className="rounded-lg border border-border bg-muted/30 p-3 sm:p-4">
+          <div className="mb-2">
+            <span className="text-xs font-semibold uppercase tracking-wider text-accent">
+              Clearance Rule
+            </span>
+          </div>
+          <div className="font-mono text-sm sm:text-base text-foreground">
+            Minimum <span className="text-yellow-400">2 ft</span> from structures
+          </div>
+        </div>
+        <h2 className="font-display text-xl md:text-2xl font-semibold leading-snug">
+          {actualQuestion}
+        </h2>
+      </div>
+    );
+  }
+
+  if (powerlineRule) {
+    return (
+      <div className="space-y-4">
+        <div className="rounded-lg border border-border bg-muted/30 p-3 sm:p-4">
+          <div className="mb-2">
+            <span className="text-xs font-semibold uppercase tracking-wider text-accent">
+              Powerline Rule
+            </span>
+          </div>
+          <div className="font-mono text-sm sm:text-base text-foreground">
+            Minimum <span className="text-red-400">10 ft</span> from lines under 50 kV
+          </div>
+          <div className="mt-2 text-xs text-muted-foreground">
+            Higher voltages require greater distance
+          </div>
+        </div>
+        <h2 className="font-display text-xl md:text-2xl font-semibold leading-snug">
+          {actualQuestion}
+        </h2>
+      </div>
+    );
+  }
+
+  if (totalLoadRule) {
+    return (
+      <div className="space-y-4">
+        <div className="rounded-lg border border-border bg-muted/30 p-3 sm:p-4">
+          <div className="mb-2">
+            <span className="text-xs font-semibold uppercase tracking-wider text-accent">
+              Total Load Rule
+            </span>
+          </div>
+          <div className="font-mono text-sm sm:text-base text-foreground">
+            Max Load = Chart Capacity − Hook Block − Rigging
+          </div>
+        </div>
+        <h2 className="font-display text-xl md:text-2xl font-semibold leading-snug">
+          {actualQuestion}
+        </h2>
+      </div>
+    );
+  }
 
   if (sailArea) {
     return (
@@ -482,5 +606,10 @@ export function hasChart(questionText: string): boolean {
          questionText.startsWith("CAPACITY RULE:") ||
          questionText.startsWith("WIND REDUCTION FORMULA:") ||
          questionText.startsWith("SAIL AREA FORMULA:") ||
-         questionText.startsWith("LIGHTNING DISTANCE:");
+         questionText.startsWith("LIGHTNING DISTANCE:") ||
+         questionText.startsWith("OVERLAP RULE:") ||
+         questionText.startsWith("OVERLAP FORMULA:") ||
+         questionText.startsWith("CLEARANCE RULE:") ||
+         questionText.startsWith("POWERLINE RULE:") ||
+         questionText.startsWith("TOTAL LOAD RULE:");
 }
