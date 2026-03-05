@@ -19880,5 +19880,705 @@
     ],
     "correctAnswer": "c",
     "category": "Operator Responsibility"
+  },
+  {
+    "id": 715,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — A load weighs 3,200 kg. Rigging weighs 200 kg. Hook block weighs 400 kg. Lift radius is 25 m. Which gear can safely perform the lift?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gear 1",
+        "explanation": "Incorrect. While Gear 1 works, a lower gear is sufficient."
+      },
+      {
+        "id": "b",
+        "text": "Gear 2",
+        "explanation": "Correct. Total load: 3200 + 200 + 400 = 3,800 kg. At 25 m, Gear 2 capacity = 5,000 kg. 3,800 kg is within Gear 2 capacity. Gear 3 = 3,500 kg is insufficient."
+      },
+      {
+        "id": "c",
+        "text": "Gear 3",
+        "explanation": "Incorrect. Gear 3 capacity at 25 m is only 3,500 kg, which is less than 3,800 kg total load."
+      },
+      {
+        "id": "d",
+        "text": "No gear possible",
+        "explanation": "Incorrect. Gear 2 can handle this load."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Chart - Gear Selection"
+  },
+  {
+    "id": 716,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — A 4,600 kg load must be lifted at 20 m radius. Rigging and hook total 500 kg. Which gear is required?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gear 1",
+        "explanation": "Correct. Total weight: 4,600 + 500 = 5,100 kg. At 20 m, Gear 1 = 8,000 kg, Gear 2 = 6,000 kg. Both work, but Gear 1 provides the safest margin."
+      },
+      {
+        "id": "b",
+        "text": "Gear 2",
+        "explanation": "Incorrect. While technically possible, Gear 1 provides better safety margin."
+      },
+      {
+        "id": "c",
+        "text": "Gear 3",
+        "explanation": "Incorrect. Gear 3 capacity at 20 m is only 4,000 kg."
+      },
+      {
+        "id": "d",
+        "text": "Lift not possible",
+        "explanation": "Incorrect. Multiple gears can handle this load."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Load Chart - Gear Selection"
+  },
+  {
+    "id": 717,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — A 2,000 kg load must be placed at 35 m radius. Rigging and hook equal 500 kg. What is the correct gear?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gear 1",
+        "explanation": "Incorrect. A lower gear is sufficient."
+      },
+      {
+        "id": "b",
+        "text": "Gear 2",
+        "explanation": "Incorrect. A lower gear is sufficient."
+      },
+      {
+        "id": "c",
+        "text": "Gear 3",
+        "explanation": "Correct. Total weight: 2,000 + 500 = 2,500 kg. At 35 m, Gear 3 capacity = 2,500 kg. Exactly matches capacity."
+      },
+      {
+        "id": "d",
+        "text": "Lift not possible",
+        "explanation": "Incorrect. Gear 3 can handle this load."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Chart - Gear Selection"
+  },
+  {
+    "id": 718,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — A load weighing 5,800 kg including rigging must be lifted at 20 m radius. Which gear must be used?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gear 1",
+        "explanation": "Correct. At 20 m: Gear 1 = 8,000 kg, Gear 2 = 6,000 kg. 5,800 kg fits Gear 2 but is very close to limit. Gear 1 provides safe margin."
+      },
+      {
+        "id": "b",
+        "text": "Gear 2",
+        "explanation": "Incorrect. While technically possible, 5,800 kg is too close to Gear 2's 6,000 kg limit."
+      },
+      {
+        "id": "c",
+        "text": "Gear 3",
+        "explanation": "Incorrect. Gear 3 capacity at 20 m is only 4,000 kg."
+      },
+      {
+        "id": "d",
+        "text": "Lift not possible",
+        "explanation": "Incorrect. Gear 1 can handle this load."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Load Chart - Gear Selection"
+  },
+  {
+    "id": 719,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — A 4,200 kg load including hook and rigging is lifted at 30 m radius. Which gear is acceptable?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gear 1",
+        "explanation": "Correct. At 30 m, Gear 1 capacity = 5,000 kg. Gear 2 = 4,000 kg is insufficient for 4,200 kg."
+      },
+      {
+        "id": "b",
+        "text": "Gear 2",
+        "explanation": "Incorrect. Gear 2 capacity at 30 m is only 4,000 kg, which is less than 4,200 kg."
+      },
+      {
+        "id": "c",
+        "text": "Gear 3",
+        "explanation": "Incorrect. Gear 3 capacity at 30 m is only 3,000 kg."
+      },
+      {
+        "id": "d",
+        "text": "Lift not possible",
+        "explanation": "Incorrect. Gear 1 can handle this load."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Load Chart - Gear Selection"
+  },
+  {
+    "id": 720,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — A 3,000 kg load is lifted at 40 m radius. Hook and rigging equal 300 kg. What is the correct result?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gear 1",
+        "explanation": "Incorrect. Total load exceeds even Gear 1 capacity."
+      },
+      {
+        "id": "b",
+        "text": "Gear 2",
+        "explanation": "Incorrect. Total load exceeds Gear 2 capacity."
+      },
+      {
+        "id": "c",
+        "text": "Gear 3",
+        "explanation": "Incorrect. Total load exceeds Gear 3 capacity."
+      },
+      {
+        "id": "d",
+        "text": "Lift not possible",
+        "explanation": "Correct. Total: 3,000 + 300 = 3,300 kg. At 40 m, max capacity (Gear 1) = 3,200 kg. Lift exceeds chart capacity."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Load Chart - Gear Selection"
+  },
+  {
+    "id": 721,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — A load of 3,600 kg including rigging is lifted at 25 m. Which gear is required?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gear 1",
+        "explanation": "Correct. At 25 m, Gear 1 = 6,500 kg, Gear 2 = 5,000 kg. 3,600 kg fits both, but Gear 1 allows higher hoisting power and margin."
+      },
+      {
+        "id": "b",
+        "text": "Gear 2",
+        "explanation": "Incorrect. While possible, Gear 1 provides better margin."
+      },
+      {
+        "id": "c",
+        "text": "Gear 3",
+        "explanation": "Incorrect. Gear 3 capacity at 25 m is only 3,500 kg."
+      },
+      {
+        "id": "d",
+        "text": "Lift not possible",
+        "explanation": "Incorrect. Multiple gears can handle this load."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Load Chart - Gear Selection"
+  },
+  {
+    "id": 722,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — At 30 m radius, what is the maximum load using Gear 3?",
+    "options": [
+      {
+        "id": "a",
+        "text": "4,000 kg",
+        "explanation": "Incorrect. That's Gear 2 capacity at 30 m."
+      },
+      {
+        "id": "b",
+        "text": "3,500 kg",
+        "explanation": "Incorrect. That's Gear 3 capacity at 25 m."
+      },
+      {
+        "id": "c",
+        "text": "3,000 kg",
+        "explanation": "Correct. Load chart shows Gear 3 at 30 m = 3,000 kg."
+      },
+      {
+        "id": "d",
+        "text": "2,500 kg",
+        "explanation": "Incorrect. That's Gear 3 capacity at 35 m."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Chart - Gear Selection"
+  },
+  {
+    "id": 723,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — A 4,900 kg load including rigging must be lifted at 25 m. What gear must be used?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gear 1",
+        "explanation": "Correct. Gear 2 capacity = 5,000 kg is very close to 4,900 kg. Since rigging variation or dynamic load may occur, Gear 1 (6,500 kg) is the safer choice."
+      },
+      {
+        "id": "b",
+        "text": "Gear 2",
+        "explanation": "Incorrect. 4,900 kg is too close to Gear 2's 5,000 kg limit."
+      },
+      {
+        "id": "c",
+        "text": "Gear 3",
+        "explanation": "Incorrect. Gear 3 capacity at 25 m is only 3,500 kg."
+      },
+      {
+        "id": "d",
+        "text": "Lift not possible",
+        "explanation": "Incorrect. Gear 1 can handle this load."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Load Chart - Gear Selection"
+  },
+  {
+    "id": 724,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — A 2,300 kg load including hook is lifted at 35 m. What gear should be used?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gear 1",
+        "explanation": "Incorrect. A lower gear is sufficient."
+      },
+      {
+        "id": "b",
+        "text": "Gear 2",
+        "explanation": "Incorrect. A lower gear is sufficient."
+      },
+      {
+        "id": "c",
+        "text": "Gear 3",
+        "explanation": "Correct. At 35 m, Gear 3 capacity = 2,500 kg. 2,300 kg fits within limit."
+      },
+      {
+        "id": "d",
+        "text": "Lift not possible",
+        "explanation": "Incorrect. Gear 3 can handle this load."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Chart - Gear Selection"
+  },
+  {
+    "id": 725,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — A crane lifts 3,000 kg at 30 m. If the trolley moves out to 35 m, what happens?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Capacity increases",
+        "explanation": "Incorrect. Capacity always decreases with radius."
+      },
+      {
+        "id": "b",
+        "text": "Capacity decreases",
+        "explanation": "Correct. Increasing radius increases leverage on the crane. Capacity always decreases as radius increases."
+      },
+      {
+        "id": "c",
+        "text": "Capacity stays the same",
+        "explanation": "Incorrect. Radius directly affects capacity."
+      },
+      {
+        "id": "d",
+        "text": "Capacity doubles",
+        "explanation": "Incorrect. Capacity decreases, not increases."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Chart - Radius"
+  },
+  {
+    "id": 726,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — If the crane must lift 5,000 kg at 30 m (Gear 1 limit), what must happen to lift the same load safely?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase radius",
+        "explanation": "Incorrect. This would reduce capacity."
+      },
+      {
+        "id": "b",
+        "text": "Decrease radius",
+        "explanation": "Correct. Moving the trolley inward increases capacity, providing safety margin."
+      },
+      {
+        "id": "c",
+        "text": "Increase wind speed",
+        "explanation": "Incorrect. Wind doesn't improve capacity."
+      },
+      {
+        "id": "d",
+        "text": "Increase rigging",
+        "explanation": "Incorrect. More rigging increases total load."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Chart - Radius"
+  },
+  {
+    "id": 727,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — At 15 m radius, what is the maximum load in Gear 1?",
+    "options": [
+      {
+        "id": "a",
+        "text": "8,000 kg",
+        "explanation": "Incorrect. That's Gear 1 at 20 m."
+      },
+      {
+        "id": "b",
+        "text": "9,000 kg",
+        "explanation": "Incorrect. This value is not on the chart."
+      },
+      {
+        "id": "c",
+        "text": "10,000 kg",
+        "explanation": "Correct. At 15 m, Gear 1 capacity = 10,000 kg."
+      },
+      {
+        "id": "d",
+        "text": "12,000 kg",
+        "explanation": "Incorrect. That's Gear 1 at 10 m."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Chart - Radius"
+  },
+  {
+    "id": 728,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — At 40 m radius, which gear has the lowest capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gear 1",
+        "explanation": "Incorrect. Gear 1 has the highest capacity at any radius."
+      },
+      {
+        "id": "b",
+        "text": "Gear 2",
+        "explanation": "Incorrect. Gear 2 is in the middle."
+      },
+      {
+        "id": "c",
+        "text": "Gear 3",
+        "explanation": "Correct. Gear 3 always has the lowest capacity. At 40 m, Gear 3 = 2,000 kg."
+      },
+      {
+        "id": "d",
+        "text": "All equal",
+        "explanation": "Incorrect. Different gears have different capacities."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Chart - Radius"
+  },
+  {
+    "id": 729,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — If a crane lifts 4,000 kg at 30 m, what happens if the trolley moves inward to 20 m?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Capacity decreases",
+        "explanation": "Incorrect. Shorter radius means higher capacity."
+      },
+      {
+        "id": "b",
+        "text": "Capacity unchanged",
+        "explanation": "Incorrect. Radius affects capacity."
+      },
+      {
+        "id": "c",
+        "text": "Capacity increases",
+        "explanation": "Correct. Moving inward to 20 m increases available capacity (e.g., Gear 1 goes from 5,000 kg to 8,000 kg)."
+      },
+      {
+        "id": "d",
+        "text": "Crane becomes unstable",
+        "explanation": "Incorrect. Shorter radius improves stability."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Chart - Radius"
+  },
+  {
+    "id": 730,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — Why must rigging weight be included when reading load charts?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It improves speed",
+        "explanation": "Incorrect. Rigging doesn't affect speed."
+      },
+      {
+        "id": "b",
+        "text": "It adds to total lifted weight",
+        "explanation": "Correct. Rigging weight must be included because it adds to the total suspended load the crane must lift."
+      },
+      {
+        "id": "c",
+        "text": "It reduces swing",
+        "explanation": "Incorrect. That's not why it's included in calculations."
+      },
+      {
+        "id": "d",
+        "text": "It stabilizes crane",
+        "explanation": "Incorrect. Rigging doesn't stabilize the crane."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Chart - Safety"
+  },
+  {
+    "id": 731,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — Which weight must always be included in load calculations?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Signal person",
+        "explanation": "Incorrect. Signal person is not suspended from the crane."
+      },
+      {
+        "id": "b",
+        "text": "Crane cab",
+        "explanation": "Incorrect. Cab is part of the crane structure."
+      },
+      {
+        "id": "c",
+        "text": "Hook block",
+        "explanation": "Correct. Hook block weight (400 kg in this chart) must always be included as it's suspended from the crane."
+      },
+      {
+        "id": "d",
+        "text": "Counterweight",
+        "explanation": "Incorrect. Counterweight is part of crane structure."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Chart - Safety"
+  },
+  {
+    "id": 732,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — Load charts assume which condition?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Crane overloaded",
+        "explanation": "Incorrect. Charts show safe limits."
+      },
+      {
+        "id": "b",
+        "text": "Level crane and ideal conditions",
+        "explanation": "Correct. Load charts assume the crane is level, on firm ground, in calm conditions."
+      },
+      {
+        "id": "c",
+        "text": "High wind",
+        "explanation": "Incorrect. Charts assume calm conditions."
+      },
+      {
+        "id": "d",
+        "text": "Swinging load",
+        "explanation": "Incorrect. Charts assume static loads."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Chart - Safety"
+  },
+  {
+    "id": 733,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — If the crane is not level, what happens?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Capacity increases",
+        "explanation": "Incorrect. Capacity decreases or becomes unpredictable."
+      },
+      {
+        "id": "b",
+        "text": "Load chart is no longer accurate",
+        "explanation": "Correct. Load charts are calculated for level cranes. If not level, the chart values are no longer valid."
+      },
+      {
+        "id": "c",
+        "text": "Radius decreases",
+        "explanation": "Incorrect. Level doesn't directly change radius."
+      },
+      {
+        "id": "d",
+        "text": "Hook weight disappears",
+        "explanation": "Incorrect. Hook weight doesn't change."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Chart - Safety"
+  },
+  {
+    "id": 734,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — Why must operators never exceed chart capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Faster lift",
+        "explanation": "Incorrect. Exceeding capacity doesn't improve speed."
+      },
+      {
+        "id": "b",
+        "text": "Structural overload risk",
+        "explanation": "Correct. Exceeding chart capacity risks structural failure or crane tipping."
+      },
+      {
+        "id": "c",
+        "text": "Reduce radius",
+        "explanation": "Incorrect. Exceeding capacity doesn't reduce radius."
+      },
+      {
+        "id": "d",
+        "text": "Improve signal communication",
+        "explanation": "Incorrect. Capacity has nothing to do with signals."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Chart - Safety"
+  },
+  {
+    "id": 735,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — A crane chart shows 4,000 kg at 35 m (Gear 1). If rigging and hook equal 600 kg, what is the maximum load weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "4,000 kg",
+        "explanation": "Incorrect. Must subtract rigging and hook."
+      },
+      {
+        "id": "b",
+        "text": "3,400 kg",
+        "explanation": "Correct. 4,000 - 600 = 3,400 kg available for the load."
+      },
+      {
+        "id": "c",
+        "text": "3,600 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "3,800 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Chart - Reasoning"
+  },
+  {
+    "id": 736,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — If a load weighs 2,800 kg and rigging weighs 300 kg, what is the minimum capacity required?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,800 kg",
+        "explanation": "Incorrect. Must include rigging."
+      },
+      {
+        "id": "b",
+        "text": "3,100 kg",
+        "explanation": "Correct. Total = 2,800 + 300 = 3,100 kg minimum capacity required."
+      },
+      {
+        "id": "c",
+        "text": "3,000 kg",
+        "explanation": "Incorrect. This is less than the total."
+      },
+      {
+        "id": "d",
+        "text": "3,200 kg",
+        "explanation": "Incorrect. This is more than needed."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Chart - Reasoning"
+  },
+  {
+    "id": 737,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — Which factor affects load chart capacity most?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Paint color",
+        "explanation": "Incorrect. Paint doesn't affect capacity."
+      },
+      {
+        "id": "b",
+        "text": "Operator experience",
+        "explanation": "Incorrect. Experience doesn't change structural limits."
+      },
+      {
+        "id": "c",
+        "text": "Radius",
+        "explanation": "Correct. Radius is the primary factor affecting load chart capacity. As radius increases, capacity decreases."
+      },
+      {
+        "id": "d",
+        "text": "Signal person",
+        "explanation": "Incorrect. Signal person doesn't affect capacity."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Chart - Reasoning"
+  },
+  {
+    "id": 738,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — When a crane swings a load outward, radius typically:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Decreases",
+        "explanation": "Incorrect. Swinging outward increases radius."
+      },
+      {
+        "id": "b",
+        "text": "Increases",
+        "explanation": "Correct. Moving the load outward increases the radius from the crane center."
+      },
+      {
+        "id": "c",
+        "text": "Stays same",
+        "explanation": "Incorrect. Outward movement changes radius."
+      },
+      {
+        "id": "d",
+        "text": "Disappears",
+        "explanation": "Incorrect. Radius always exists during a lift."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Chart - Reasoning"
+  },
+  {
+    "id": 739,
+    "question": "LOAD CHART: 10m→G1:12000/G2:8000/G3:5000 | 15m→G1:10000/G2:7000/G3:4500 | 20m→G1:8000/G2:6000/G3:4000 | 25m→G1:6500/G2:5000/G3:3500 | 30m→G1:5000/G2:4000/G3:3000 | 35m→G1:4000/G2:3200/G3:2500 | 40m→G1:3200/G2:2500/G3:2000 (Hook block = 400 kg) — Why should operators err to the larger radius when estimating?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase speed",
+        "explanation": "Incorrect. Radius choice doesn't affect speed."
+      },
+      {
+        "id": "b",
+        "text": "Reduce rigging",
+        "explanation": "Incorrect. Radius choice doesn't affect rigging."
+      },
+      {
+        "id": "c",
+        "text": "Prevent overload",
+        "explanation": "Correct. Capacity decreases with radius. Choosing the larger radius ensures safe calculation by using the lower capacity value."
+      },
+      {
+        "id": "d",
+        "text": "Reduce hook weight",
+        "explanation": "Incorrect. Radius choice doesn't affect hook weight."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Chart - Reasoning"
   }
 ]
