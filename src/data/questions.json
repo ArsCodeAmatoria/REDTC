@@ -9266,5 +9266,1405 @@
     ],
     "correctAnswer": "d",
     "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 332,
+    "question": "A crane lifts 8,000 kg using a 2-part line. What is the approximate tension in each line (ignoring friction)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "8,000 kg",
+        "explanation": "Incorrect. This would be the tension with only 1 part of line."
+      },
+      {
+        "id": "b",
+        "text": "4,000 kg",
+        "explanation": "Correct. Load ÷ parts of line = 8,000 ÷ 2 = 4,000 kg per line. Each rope segment carries an equal share of the load."
+      },
+      {
+        "id": "c",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 4, not 2."
+      },
+      {
+        "id": "d",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. This is not the correct calculation for 2 parts of line."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 333,
+    "question": "A 12,000 kg load is lifted using a 4-part line. What is the load per line?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 2, not 4."
+      },
+      {
+        "id": "b",
+        "text": "3,500 kg",
+        "explanation": "Incorrect. This is not the correct calculation."
+      },
+      {
+        "id": "c",
+        "text": "3,000 kg",
+        "explanation": "Correct. 12,000 ÷ 4 = 3,000 kg per line. This calculation helps verify that the rope and hoist system are not overloaded."
+      },
+      {
+        "id": "d",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 6, not 4."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 334,
+    "question": "A crane is lifting 18,000 kg using a 6-part line. What is the tension in each line?",
+    "options": [
+      {
+        "id": "a",
+        "text": "4,500 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 4, not 6."
+      },
+      {
+        "id": "b",
+        "text": "3,000 kg",
+        "explanation": "Correct. 18,000 ÷ 6 = 3,000 kg per line. More parts of line reduce the tension on each rope segment."
+      },
+      {
+        "id": "c",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 9, not 6."
+      },
+      {
+        "id": "d",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 3, not 6."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 335,
+    "question": "A crane is lifting 10,000 kg using 5 parts of line. What is the approximate load per line?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3,000 kg",
+        "explanation": "Incorrect. This is not the correct calculation for 5 parts of line."
+      },
+      {
+        "id": "b",
+        "text": "2,000 kg",
+        "explanation": "Correct. 10,000 ÷ 5 = 2,000 kg per line."
+      },
+      {
+        "id": "c",
+        "text": "1,500 kg",
+        "explanation": "Incorrect. This is not the correct calculation."
+      },
+      {
+        "id": "d",
+        "text": "5,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 2, not 5."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 336,
+    "question": "A crane has a maximum line pull of 2,500 kg per rope. Using 4 parts of line, what is the maximum theoretical load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "5,000 kg",
+        "explanation": "Incorrect. This would be the result of multiplying by 2, not 4."
+      },
+      {
+        "id": "b",
+        "text": "7,500 kg",
+        "explanation": "Incorrect. This would be the result of multiplying by 3, not 4."
+      },
+      {
+        "id": "c",
+        "text": "10,000 kg",
+        "explanation": "Correct. Maximum load = Line pull × parts of line = 2,500 × 4 = 10,000 kg."
+      },
+      {
+        "id": "d",
+        "text": "12,000 kg",
+        "explanation": "Incorrect. This would be the result of multiplying by 4.8, not 4."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 337,
+    "question": "A load weighs 9,000 kg. Rigging weighs 400 kg. Hook block weighs 300 kg. What is the total suspended load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "9,300 kg",
+        "explanation": "Incorrect. This only adds load and hook block, forgetting rigging."
+      },
+      {
+        "id": "b",
+        "text": "9,400 kg",
+        "explanation": "Incorrect. This only adds load and rigging, forgetting hook block."
+      },
+      {
+        "id": "c",
+        "text": "9,700 kg",
+        "explanation": "Correct. Total load includes everything suspended: 9,000 + 400 + 300 = 9,700 kg."
+      },
+      {
+        "id": "d",
+        "text": "10,000 kg",
+        "explanation": "Incorrect. This is not the correct sum."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 338,
+    "question": "A 6,500 kg load is lifted with 350 kg rigging and 250 kg hook block. Total hook load equals:",
+    "options": [
+      {
+        "id": "a",
+        "text": "6,850 kg",
+        "explanation": "Incorrect. This only adds load and rigging."
+      },
+      {
+        "id": "b",
+        "text": "7,000 kg",
+        "explanation": "Incorrect. This is not the correct sum."
+      },
+      {
+        "id": "c",
+        "text": "7,100 kg",
+        "explanation": "Correct. 6,500 + 350 + 250 = 7,100 kg."
+      },
+      {
+        "id": "d",
+        "text": "7,250 kg",
+        "explanation": "Incorrect. This is not the correct sum."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 339,
+    "question": "A crane lifts a 14,000 kg load with 500 kg rigging and 600 kg hook block. What is the total suspended weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "14,500 kg",
+        "explanation": "Incorrect. This only adds load and rigging."
+      },
+      {
+        "id": "b",
+        "text": "14,900 kg",
+        "explanation": "Incorrect. This is not the correct sum."
+      },
+      {
+        "id": "c",
+        "text": "15,100 kg",
+        "explanation": "Correct. 14,000 + 500 + 600 = 15,100 kg."
+      },
+      {
+        "id": "d",
+        "text": "15,500 kg",
+        "explanation": "Incorrect. This is not the correct sum."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 340,
+    "question": "A crane's chart capacity at a radius is 12,000 kg. Hook block and rigging total 800 kg. What is the maximum load weight allowed?",
+    "options": [
+      {
+        "id": "a",
+        "text": "12,000 kg",
+        "explanation": "Incorrect. This ignores the hook block and rigging weight."
+      },
+      {
+        "id": "b",
+        "text": "11,200 kg",
+        "explanation": "Correct. Total chart capacity includes hook gear: 12,000 − 800 = 11,200 kg maximum load."
+      },
+      {
+        "id": "c",
+        "text": "11,500 kg",
+        "explanation": "Incorrect. This is not the correct calculation."
+      },
+      {
+        "id": "d",
+        "text": "10,800 kg",
+        "explanation": "Incorrect. This subtracts too much."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 341,
+    "question": "Why must hook block weight always be included in load calculations?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It affects crane radius",
+        "explanation": "Incorrect. Hook block weight does not affect radius."
+      },
+      {
+        "id": "b",
+        "text": "It increases hoist speed",
+        "explanation": "Incorrect. Hook block weight does not increase hoist speed."
+      },
+      {
+        "id": "c",
+        "text": "It contributes to the total suspended load on the crane",
+        "explanation": "Correct. The crane supports everything below the hoist line. Ignoring hook weight can overload the crane unknowingly."
+      },
+      {
+        "id": "d",
+        "text": "It changes boom angle",
+        "explanation": "Incorrect. Hook block weight does not change boom angle."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 342,
+    "question": "What happens to hoist speed when the number of parts of line increases?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increases",
+        "explanation": "Incorrect. More parts of line decrease hoist speed."
+      },
+      {
+        "id": "b",
+        "text": "Remains the same",
+        "explanation": "Incorrect. Hoist speed is directly affected by parts of line."
+      },
+      {
+        "id": "c",
+        "text": "Decreases",
+        "explanation": "Correct. More parts of line mean more rope movement required, so hook speed slows down."
+      },
+      {
+        "id": "d",
+        "text": "Stops completely",
+        "explanation": "Incorrect. The hoist still operates, just slower."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 343,
+    "question": "What happens to lifting capacity when parts of line increase?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Decreases",
+        "explanation": "Incorrect. More parts of line increase lifting capacity."
+      },
+      {
+        "id": "b",
+        "text": "Increases",
+        "explanation": "Correct. More parts of line distribute the load, allowing heavier lifts."
+      },
+      {
+        "id": "c",
+        "text": "Stays the same",
+        "explanation": "Incorrect. Lifting capacity is directly affected by parts of line."
+      },
+      {
+        "id": "d",
+        "text": "Depends only on boom length",
+        "explanation": "Incorrect. Boom length is separate from reeving configuration."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 344,
+    "question": "Which condition causes the fastest hook speed?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6 parts of line",
+        "explanation": "Incorrect. More parts means slower hook speed."
+      },
+      {
+        "id": "b",
+        "text": "4 parts of line",
+        "explanation": "Incorrect. This is faster than 6 but not the fastest option."
+      },
+      {
+        "id": "c",
+        "text": "2 parts of line",
+        "explanation": "Incorrect. This is faster than 4 but not the fastest option."
+      },
+      {
+        "id": "d",
+        "text": "1 part of line",
+        "explanation": "Correct. Fewer parts of line mean less rope travel, so the hook moves fastest with 1 part."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 345,
+    "question": "Which setup produces the greatest mechanical advantage?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1 part line",
+        "explanation": "Incorrect. Fewer parts means less mechanical advantage."
+      },
+      {
+        "id": "b",
+        "text": "2 parts line",
+        "explanation": "Incorrect. This has less advantage than 4 or 6 parts."
+      },
+      {
+        "id": "c",
+        "text": "4 parts line",
+        "explanation": "Incorrect. This has less advantage than 6 parts."
+      },
+      {
+        "id": "d",
+        "text": "6 parts line",
+        "explanation": "Correct. More parts of line create greater mechanical advantage, reducing rope tension."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 346,
+    "question": "Why might a crane operator reduce parts of line for lighter loads?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduce swing",
+        "explanation": "Incorrect. Parts of line do not affect swing."
+      },
+      {
+        "id": "b",
+        "text": "Increase stability",
+        "explanation": "Incorrect. Parts of line do not affect stability."
+      },
+      {
+        "id": "c",
+        "text": "Increase hoist speed",
+        "explanation": "Correct. Less reeving increases lifting speed for lighter loads."
+      },
+      {
+        "id": "d",
+        "text": "Reduce radius",
+        "explanation": "Incorrect. Parts of line do not affect radius."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 347,
+    "question": "A crane has 60 m of line reeved through a 3-part line system. What is the maximum hook travel?",
+    "options": [
+      {
+        "id": "a",
+        "text": "60 m",
+        "explanation": "Incorrect. This would only apply to 1 part of line."
+      },
+      {
+        "id": "b",
+        "text": "30 m",
+        "explanation": "Incorrect. This would be the result with 2 parts of line."
+      },
+      {
+        "id": "c",
+        "text": "20 m",
+        "explanation": "Correct. Hook travel = Line length ÷ parts of line = 60 ÷ 3 = 20 m."
+      },
+      {
+        "id": "d",
+        "text": "15 m",
+        "explanation": "Incorrect. This would be the result with 4 parts of line."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 348,
+    "question": "A crane has 80 m of hoist rope reeved through 4 parts of line. Hook travel equals:",
+    "options": [
+      {
+        "id": "a",
+        "text": "80 m",
+        "explanation": "Incorrect. This ignores the parts of line calculation."
+      },
+      {
+        "id": "b",
+        "text": "40 m",
+        "explanation": "Incorrect. This would be the result with 2 parts of line."
+      },
+      {
+        "id": "c",
+        "text": "20 m",
+        "explanation": "Correct. 80 ÷ 4 = 20 m hook travel."
+      },
+      {
+        "id": "d",
+        "text": "16 m",
+        "explanation": "Incorrect. This would be the result with 5 parts of line."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 349,
+    "question": "A crane has 100 m of hoist rope with 5 parts of line. Hook travel equals:",
+    "options": [
+      {
+        "id": "a",
+        "text": "30 m",
+        "explanation": "Incorrect. This is not the correct calculation."
+      },
+      {
+        "id": "b",
+        "text": "20 m",
+        "explanation": "Correct. 100 ÷ 5 = 20 m."
+      },
+      {
+        "id": "c",
+        "text": "25 m",
+        "explanation": "Incorrect. This would be the result with 4 parts of line."
+      },
+      {
+        "id": "d",
+        "text": "40 m",
+        "explanation": "Incorrect. This would be the result with 2.5 parts of line."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 350,
+    "question": "Why does adding parts of line reduce hook travel?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Less rope length",
+        "explanation": "Incorrect. Rope length stays the same."
+      },
+      {
+        "id": "b",
+        "text": "More friction",
+        "explanation": "Incorrect. While friction increases, this is not why hook travel decreases."
+      },
+      {
+        "id": "c",
+        "text": "Rope passes multiple times through the block system",
+        "explanation": "Correct. Each part of line shares the rope length, reducing vertical hook travel."
+      },
+      {
+        "id": "d",
+        "text": "Hoist motor slows",
+        "explanation": "Incorrect. Motor speed is constant; the rope arrangement affects travel."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 351,
+    "question": "If hook travel must increase, what change is usually required?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Add parts of line",
+        "explanation": "Incorrect. Adding parts reduces hook travel."
+      },
+      {
+        "id": "b",
+        "text": "Reduce parts of line",
+        "explanation": "Correct. Fewer parts of line allow greater hook travel distance."
+      },
+      {
+        "id": "c",
+        "text": "Increase counterweight",
+        "explanation": "Incorrect. Counterweight does not affect hook travel."
+      },
+      {
+        "id": "d",
+        "text": "Increase boom length",
+        "explanation": "Incorrect. Boom length does not affect hook travel distance."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 352,
+    "question": "A crane lifts 20,000 kg using 4 parts of line. Approximate line tension:",
+    "options": [
+      {
+        "id": "a",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. This is not the correct calculation."
+      },
+      {
+        "id": "b",
+        "text": "5,000 kg",
+        "explanation": "Correct. 20,000 ÷ 4 = 5,000 kg per line."
+      },
+      {
+        "id": "c",
+        "text": "4,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 5."
+      },
+      {
+        "id": "d",
+        "text": "3,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by about 6.7."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 353,
+    "question": "If friction adds 10% extra load to each line, a 20,000 kg load on a 4-part line produces approximately:",
+    "options": [
+      {
+        "id": "a",
+        "text": "5,000 kg",
+        "explanation": "Incorrect. This ignores the friction factor."
+      },
+      {
+        "id": "b",
+        "text": "5,500 kg",
+        "explanation": "Correct. Base load per line: 5,000 kg. Add friction (~10%): 5,000 + 500 = 5,500 kg."
+      },
+      {
+        "id": "c",
+        "text": "4,800 kg",
+        "explanation": "Incorrect. Friction increases tension, not decreases it."
+      },
+      {
+        "id": "d",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. This would be 20% friction, not 10%."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 354,
+    "question": "A crane line pull limit is 4,000 kg per line. Using 3 parts of line, maximum load is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "8,000 kg",
+        "explanation": "Incorrect. This would be the result of multiplying by 2."
+      },
+      {
+        "id": "b",
+        "text": "12,000 kg",
+        "explanation": "Correct. 4,000 × 3 = 12,000 kg."
+      },
+      {
+        "id": "c",
+        "text": "10,000 kg",
+        "explanation": "Incorrect. This would be the result of multiplying by 2.5."
+      },
+      {
+        "id": "d",
+        "text": "15,000 kg",
+        "explanation": "Incorrect. This would be the result of multiplying by 3.75."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 355,
+    "question": "A load weighs 11,000 kg, rigging 500 kg, hook block 500 kg. Total suspended load:",
+    "options": [
+      {
+        "id": "a",
+        "text": "11,500 kg",
+        "explanation": "Incorrect. This only adds one of the additional weights."
+      },
+      {
+        "id": "b",
+        "text": "12,000 kg",
+        "explanation": "Correct. 11,000 + 500 + 500 = 12,000 kg."
+      },
+      {
+        "id": "c",
+        "text": "12,500 kg",
+        "explanation": "Incorrect. This adds too much."
+      },
+      {
+        "id": "d",
+        "text": "11,800 kg",
+        "explanation": "Incorrect. This is not the correct sum."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 356,
+    "question": "Which factor increases line tension beyond calculated values?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Boom length",
+        "explanation": "Incorrect. Boom length does not directly affect line tension calculations."
+      },
+      {
+        "id": "b",
+        "text": "Hook height",
+        "explanation": "Incorrect. Hook height does not increase line tension."
+      },
+      {
+        "id": "c",
+        "text": "Sheave friction",
+        "explanation": "Correct. Sheave friction creates extra resistance, increasing line tension beyond theoretical calculations."
+      },
+      {
+        "id": "d",
+        "text": "Wind direction",
+        "explanation": "Incorrect. Wind direction does not directly increase line tension in calculations."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 357,
+    "question": "The purpose of multiple parts of line is primarily to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase boom height",
+        "explanation": "Incorrect. Parts of line do not affect boom height."
+      },
+      {
+        "id": "b",
+        "text": "Increase swing speed",
+        "explanation": "Incorrect. Parts of line do not affect swing speed."
+      },
+      {
+        "id": "c",
+        "text": "Reduce rope tension",
+        "explanation": "Correct. Mechanical advantage reduces load per rope segment."
+      },
+      {
+        "id": "d",
+        "text": "Increase radius",
+        "explanation": "Incorrect. Parts of line do not affect radius."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 358,
+    "question": "Which component changes when reeving is modified?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Boom angle",
+        "explanation": "Incorrect. Boom angle is independent of reeving."
+      },
+      {
+        "id": "b",
+        "text": "Counterweight",
+        "explanation": "Incorrect. Counterweight is not changed by reeving modifications."
+      },
+      {
+        "id": "c",
+        "text": "Hook speed",
+        "explanation": "Correct. Reeving directly affects hook speed and lifting capacity."
+      },
+      {
+        "id": "d",
+        "text": "Tower height",
+        "explanation": "Incorrect. Tower height is independent of reeving."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 359,
+    "question": "A crane lifts 24,000 kg using 6 parts of line. Line tension:",
+    "options": [
+      {
+        "id": "a",
+        "text": "3,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 8."
+      },
+      {
+        "id": "b",
+        "text": "4,000 kg",
+        "explanation": "Correct. 24,000 ÷ 6 = 4,000 kg per line."
+      },
+      {
+        "id": "c",
+        "text": "5,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 4.8."
+      },
+      {
+        "id": "d",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 4."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 360,
+    "question": "Which component determines maximum line pull?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Boom angle",
+        "explanation": "Incorrect. Boom angle does not determine line pull capacity."
+      },
+      {
+        "id": "b",
+        "text": "Hoist drum and motor capacity",
+        "explanation": "Correct. The hoist system design determines maximum line pull."
+      },
+      {
+        "id": "c",
+        "text": "Counterweight",
+        "explanation": "Incorrect. Counterweight affects stability, not line pull."
+      },
+      {
+        "id": "d",
+        "text": "Tower height",
+        "explanation": "Incorrect. Tower height does not affect line pull capacity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 361,
+    "question": "Increasing parts of line has which effect on rope wear?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduces wear per line",
+        "explanation": "Correct. Load is spread across more rope segments, reducing wear on each."
+      },
+      {
+        "id": "b",
+        "text": "Increases wear",
+        "explanation": "Incorrect. More parts distribute the load, reducing individual wear."
+      },
+      {
+        "id": "c",
+        "text": "No effect",
+        "explanation": "Incorrect. Parts of line directly affect rope loading and wear."
+      },
+      {
+        "id": "d",
+        "text": "Causes overheating",
+        "explanation": "Incorrect. Reeving does not cause rope overheating."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 362,
+    "question": "A crane lifts 16,000 kg using 4 parts of line. Each line carries:",
+    "options": [
+      {
+        "id": "a",
+        "text": "4,000 kg",
+        "explanation": "Correct. 16,000 ÷ 4 = 4,000 kg per line."
+      },
+      {
+        "id": "b",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 8."
+      },
+      {
+        "id": "c",
+        "text": "8,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 2."
+      },
+      {
+        "id": "d",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. This is not the correct calculation."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 363,
+    "question": "A crane lifts 15,000 kg using 3 parts of line. Line tension:",
+    "options": [
+      {
+        "id": "a",
+        "text": "4,000 kg",
+        "explanation": "Incorrect. This is not the correct calculation."
+      },
+      {
+        "id": "b",
+        "text": "5,000 kg",
+        "explanation": "Correct. 15,000 ÷ 3 = 5,000 kg per line."
+      },
+      {
+        "id": "c",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 2.5."
+      },
+      {
+        "id": "d",
+        "text": "3,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 5."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 364,
+    "question": "A crane lifts 21,000 kg using 7 parts of line. Line tension:",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 10.5."
+      },
+      {
+        "id": "b",
+        "text": "3,000 kg",
+        "explanation": "Correct. 21,000 ÷ 7 = 3,000 kg per line."
+      },
+      {
+        "id": "c",
+        "text": "4,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 5.25."
+      },
+      {
+        "id": "d",
+        "text": "5,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 4.2."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 365,
+    "question": "Why might a crane operator increase parts of line before a heavy lift?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduce swing",
+        "explanation": "Incorrect. Parts of line do not affect swing."
+      },
+      {
+        "id": "b",
+        "text": "Increase reach",
+        "explanation": "Incorrect. Parts of line do not affect reach."
+      },
+      {
+        "id": "c",
+        "text": "Reduce line tension",
+        "explanation": "Correct. Heavy lifts require lower tension per rope to stay within rope capacity limits."
+      },
+      {
+        "id": "d",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. More parts of line decrease hoist speed."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 366,
+    "question": "If line pull capacity is exceeded, the likely result is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Faster hoist speed",
+        "explanation": "Incorrect. Exceeding capacity does not increase speed."
+      },
+      {
+        "id": "b",
+        "text": "Increased radius",
+        "explanation": "Incorrect. Radius is not affected by line pull."
+      },
+      {
+        "id": "c",
+        "text": "Rope failure or hoist overload",
+        "explanation": "Correct. Exceeding line pull may cause rope or hoist system failure."
+      },
+      {
+        "id": "d",
+        "text": "Boom collapse",
+        "explanation": "Incorrect. Line pull primarily affects the hoist system, not boom structure."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 367,
+    "question": "Load: 10,000 kg. Rigging: 400 kg. Hook block: 300 kg. Total load:",
+    "options": [
+      {
+        "id": "a",
+        "text": "10,400 kg",
+        "explanation": "Incorrect. This only adds load and rigging."
+      },
+      {
+        "id": "b",
+        "text": "10,700 kg",
+        "explanation": "Correct. 10,000 + 400 + 300 = 10,700 kg."
+      },
+      {
+        "id": "c",
+        "text": "10,500 kg",
+        "explanation": "Incorrect. This is not the correct sum."
+      },
+      {
+        "id": "d",
+        "text": "11,000 kg",
+        "explanation": "Incorrect. This adds too much."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 368,
+    "question": "Increasing parts of line affects which two factors most directly?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Boom angle and radius",
+        "explanation": "Incorrect. These are not affected by reeving."
+      },
+      {
+        "id": "b",
+        "text": "Hook height and tower strength",
+        "explanation": "Incorrect. These are not directly affected by reeving."
+      },
+      {
+        "id": "c",
+        "text": "Hook speed and line tension",
+        "explanation": "Correct. Reeving changes mechanical advantage and lifting speed."
+      },
+      {
+        "id": "d",
+        "text": "Counterweight and wind load",
+        "explanation": "Incorrect. These are not affected by reeving."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 369,
+    "question": "A crane lifting 30,000 kg using 6 parts of line produces tension of:",
+    "options": [
+      {
+        "id": "a",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 5."
+      },
+      {
+        "id": "b",
+        "text": "5,000 kg",
+        "explanation": "Correct. 30,000 ÷ 6 = 5,000 kg per line."
+      },
+      {
+        "id": "c",
+        "text": "4,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 7.5."
+      },
+      {
+        "id": "d",
+        "text": "7,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by about 4.3."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 370,
+    "question": "What must always be checked before reeving changes are made?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Weather conditions",
+        "explanation": "Incorrect. Weather does not determine reeving configuration."
+      },
+      {
+        "id": "b",
+        "text": "Signal person position",
+        "explanation": "Incorrect. Signal person position is not related to reeving."
+      },
+      {
+        "id": "c",
+        "text": "Manufacturer reeving chart",
+        "explanation": "Correct. Crane manufacturers specify approved reeving configurations."
+      },
+      {
+        "id": "d",
+        "text": "Site supervisor approval",
+        "explanation": "Incorrect. While approval may be needed, the manufacturer specifications are the primary reference."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 371,
+    "question": "What factor reduces theoretical lifting capacity in real conditions?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Boom angle",
+        "explanation": "Incorrect. Boom angle affects capacity differently, not through friction."
+      },
+      {
+        "id": "b",
+        "text": "Sheave friction",
+        "explanation": "Correct. Friction reduces mechanical efficiency, lowering actual lifting capacity from theoretical values."
+      },
+      {
+        "id": "c",
+        "text": "Counterweight size",
+        "explanation": "Incorrect. Counterweight affects stability, not rope system efficiency."
+      },
+      {
+        "id": "d",
+        "text": "Tower height",
+        "explanation": "Incorrect. Tower height does not affect rope system efficiency."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 372,
+    "question": "12,000 kg on 3 parts of line equals what tension per line?",
+    "options": [
+      {
+        "id": "a",
+        "text": "4,000 kg",
+        "explanation": "Correct. 12,000 ÷ 3 = 4,000 kg per line."
+      },
+      {
+        "id": "b",
+        "text": "3,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 4."
+      },
+      {
+        "id": "c",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 2."
+      },
+      {
+        "id": "d",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 6."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 373,
+    "question": "16,000 kg on 4 parts of line equals what tension per line?",
+    "options": [
+      {
+        "id": "a",
+        "text": "4,000 kg",
+        "explanation": "Correct. 16,000 ÷ 4 = 4,000 kg per line."
+      },
+      {
+        "id": "b",
+        "text": "5,000 kg",
+        "explanation": "Incorrect. This is not the correct calculation."
+      },
+      {
+        "id": "c",
+        "text": "3,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by about 5.3."
+      },
+      {
+        "id": "d",
+        "text": "8,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 2."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 374,
+    "question": "20,000 kg on 5 parts of line equals what tension per line?",
+    "options": [
+      {
+        "id": "a",
+        "text": "4,000 kg",
+        "explanation": "Correct. 20,000 ÷ 5 = 4,000 kg per line."
+      },
+      {
+        "id": "b",
+        "text": "5,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 4."
+      },
+      {
+        "id": "c",
+        "text": "3,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by about 6.7."
+      },
+      {
+        "id": "d",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 10."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 375,
+    "question": "18,000 kg on 6 parts of line equals what tension per line?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3,000 kg",
+        "explanation": "Correct. 18,000 ÷ 6 = 3,000 kg per line."
+      },
+      {
+        "id": "b",
+        "text": "4,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 4.5."
+      },
+      {
+        "id": "c",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 9."
+      },
+      {
+        "id": "d",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 3."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 376,
+    "question": "24,000 kg on 8 parts of line equals what tension per line?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3,000 kg",
+        "explanation": "Correct. 24,000 ÷ 8 = 3,000 kg per line."
+      },
+      {
+        "id": "b",
+        "text": "4,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 6."
+      },
+      {
+        "id": "c",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 12."
+      },
+      {
+        "id": "d",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 4."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 377,
+    "question": "15,000 kg on 5 parts of line equals what tension per line?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3,000 kg",
+        "explanation": "Correct. 15,000 ÷ 5 = 3,000 kg per line."
+      },
+      {
+        "id": "b",
+        "text": "4,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 3.75."
+      },
+      {
+        "id": "c",
+        "text": "5,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 3."
+      },
+      {
+        "id": "d",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 7.5."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 378,
+    "question": "10,000 kg on 2 parts of line equals what tension per line?",
+    "options": [
+      {
+        "id": "a",
+        "text": "5,000 kg",
+        "explanation": "Correct. 10,000 ÷ 2 = 5,000 kg per line."
+      },
+      {
+        "id": "b",
+        "text": "4,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 2.5."
+      },
+      {
+        "id": "c",
+        "text": "10,000 kg",
+        "explanation": "Incorrect. This ignores the parts of line division."
+      },
+      {
+        "id": "d",
+        "text": "2,500 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 4."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 379,
+    "question": "9,000 kg on 3 parts of line equals what tension per line?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3,000 kg",
+        "explanation": "Correct. 9,000 ÷ 3 = 3,000 kg per line."
+      },
+      {
+        "id": "b",
+        "text": "4,500 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 2."
+      },
+      {
+        "id": "c",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 4.5."
+      },
+      {
+        "id": "d",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 1.5."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 380,
+    "question": "12,000 kg on 6 parts of line equals what tension per line?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,000 kg",
+        "explanation": "Correct. 12,000 ÷ 6 = 2,000 kg per line."
+      },
+      {
+        "id": "b",
+        "text": "3,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 4."
+      },
+      {
+        "id": "c",
+        "text": "4,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 3."
+      },
+      {
+        "id": "d",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 2."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 381,
+    "question": "14,000 kg on 7 parts of line equals what tension per line?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,000 kg",
+        "explanation": "Correct. 14,000 ÷ 7 = 2,000 kg per line."
+      },
+      {
+        "id": "b",
+        "text": "3,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by about 4.7."
+      },
+      {
+        "id": "c",
+        "text": "7,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 2."
+      },
+      {
+        "id": "d",
+        "text": "4,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 3.5."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Load Line & Parts of Line"
   }
 ]
