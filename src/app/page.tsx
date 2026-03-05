@@ -77,7 +77,7 @@ export default function HomePage() {
           <div className="flex items-center justify-between h-14">
             <Link href="/" className="flex items-center gap-2">
               <div className="w-8 h-8 bg-accent flex items-center justify-center">
-                <span className="font-display text-lg font-black text-accent-foreground" style={{ transform: 'scaleX(-1)' }}>b</span>
+                <span className="text-xl font-black text-accent-foreground" style={{ transform: 'scaleX(-1)', fontFamily: 'Arial Black, sans-serif' }}>b</span>
               </div>
               <span className="font-display text-xl font-black tracking-tight hidden sm:block">REDTC</span>
             </Link>
@@ -454,6 +454,83 @@ export default function HomePage() {
               <p className="text-sm text-muted-foreground pt-4">
                 * Percentages based on National Occupational Analysis for Tower Crane Operator trade.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Master Exam Section */}
+      <section className="border-b border-border bg-muted/20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6">
+              <div>
+                <span className="category-label">Simulation</span>
+                <h2 className="font-display text-3xl md:text-4xl font-bold mt-2">Master Exam Mode</h2>
+              </div>
+              <div className="space-y-4 text-muted-foreground">
+                <p>
+                  Ready to test yourself under real exam conditions? Our <strong className="text-foreground">Master Exam</strong> simulates 
+                  the actual Red Seal certification examination with 120 questions and a strict 4-hour time limit.
+                </p>
+                <p>
+                  This comprehensive test draws from our entire question bank of 305 questions, covering all exam topics 
+                  including advanced load calculations, structural engineering concepts, rigging mastery, and emergency scenarios.
+                </p>
+                <p>
+                  The timer cannot be paused once started, and unanswered questions count as incorrect — just like the real exam. 
+                  Use this mode when you&apos;re ready for a full dress rehearsal before your certification day.
+                </p>
+              </div>
+              <div className="pt-2">
+                <Link href="/test/master">
+                  <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
+                    <Timer className="mr-2 h-4 w-4" />
+                    Start Master Exam
+                  </Button>
+                </Link>
+              </div>
+            </div>
+            <div className="space-y-4">
+              <div className="grid grid-cols-2 gap-4">
+                <div className="bg-background border border-border p-6 text-center">
+                  <div className="text-4xl font-display font-bold">120</div>
+                  <div className="text-sm text-muted-foreground mt-1">Questions</div>
+                </div>
+                <div className="bg-background border border-border p-6 text-center">
+                  <div className="text-4xl font-display font-bold">4:00</div>
+                  <div className="text-sm text-muted-foreground mt-1">Hours</div>
+                </div>
+                <div className="bg-background border border-border p-6 text-center">
+                  <div className="text-4xl font-display font-bold">70%</div>
+                  <div className="text-sm text-muted-foreground mt-1">Pass Rate</div>
+                </div>
+                <div className="bg-background border border-border p-6 text-center">
+                  <div className="text-4xl font-display font-bold">305</div>
+                  <div className="text-sm text-muted-foreground mt-1">Question Bank</div>
+                </div>
+              </div>
+              <div className="bg-background border border-border p-4 space-y-2">
+                <div className="text-sm font-medium">Master Exam includes:</div>
+                <ul className="text-sm text-muted-foreground space-y-1">
+                  <li className="flex items-center gap-2">
+                    <div className="w-1.5 h-1.5 bg-accent" />
+                    Countdown timer with low-time warning
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <div className="w-1.5 h-1.5 bg-accent" />
+                    Randomized question selection
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <div className="w-1.5 h-1.5 bg-accent" />
+                    Auto-submit when time expires
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <div className="w-1.5 h-1.5 bg-accent" />
+                    Detailed results breakdown
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
