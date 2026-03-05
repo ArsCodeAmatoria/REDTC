@@ -21,7 +21,7 @@ const categories = [
 const features = [
   {
     label: "Practice",
-    title: "311 exam questions with detailed explanations",
+    title: "321 exam questions with detailed explanations",
     description: "Every question includes why the correct answer is right and why others are wrong.",
   },
   {
@@ -137,7 +137,7 @@ export default function HomePage() {
                 className="space-y-6"
               >
                 <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
-                  Practice with 311 questions including Master Level problems covering advanced calculations, 
+                  Practice with 321 questions including Master Level problems covering advanced calculations, 
                   structural engineering, and emergency scenarios.
                 </p>
 
@@ -173,7 +173,7 @@ export default function HomePage() {
 
                 <div className="grid grid-cols-3 gap-4">
                   <div className="space-y-1">
-                    <div className="text-4xl font-display font-bold">311</div>
+                    <div className="text-4xl font-display font-bold">321</div>
                     <div className="text-sm text-muted-foreground">Questions</div>
                   </div>
                   <div className="space-y-1">
@@ -468,7 +468,7 @@ export default function HomePage() {
                   the actual Red Seal certification examination with 120 questions and a strict 4-hour time limit.
                 </p>
                 <p>
-                  This comprehensive test draws from our entire question bank of 311 questions, covering all exam topics 
+                  This comprehensive test draws from our entire question bank of 321 questions, covering all exam topics 
                   including advanced load calculations, structural engineering concepts, rigging mastery, and emergency scenarios.
                 </p>
                 <p>
@@ -500,7 +500,7 @@ export default function HomePage() {
                   <div className="text-sm text-muted-foreground mt-1">Pass Rate</div>
                 </div>
                 <div className="bg-background border border-border p-6 text-center">
-                  <div className="text-4xl font-display font-bold">311</div>
+                  <div className="text-4xl font-display font-bold">321</div>
                   <div className="text-sm text-muted-foreground mt-1">Question Bank</div>
                 </div>
               </div>

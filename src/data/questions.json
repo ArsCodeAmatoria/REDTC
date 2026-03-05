@@ -8706,5 +8706,285 @@
     ],
     "correctAnswer": "c",
     "category": "Crane Clearance & Overlap"
+  },
+  {
+    "id": 312,
+    "question": "What is the minimum clearance that must be maintained between moving crane components and fixed structures during tower crane operation?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6 in",
+        "explanation": "Incorrect. 6 inches is far too close and creates significant collision risk from crane movement, structural flex, or minor operator variations."
+      },
+      {
+        "id": "b",
+        "text": "1 ft",
+        "explanation": "Incorrect. 1 ft does not provide adequate safety margin for crane operations near fixed structures."
+      },
+      {
+        "id": "c",
+        "text": "2 ft",
+        "explanation": "Correct. A minimum clearance of 2 ft (0.6 m) must be maintained between crane components and any fixed object such as buildings, scaffolding, formwork, and structural steel. This clearance prevents contact caused by crane movement, structural flex, or minor operator input variations."
+      },
+      {
+        "id": "d",
+        "text": "5 ft",
+        "explanation": "Incorrect. While 5 ft provides extra safety margin, the minimum required clearance is 2 ft (0.6 m)."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Crane Clearance & Overlap"
+  },
+  {
+    "id": 313,
+    "question": "A tower crane slews close to a concrete structure. The counterjib will pass 1 ft away from the structure. What should the operator do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue slowly",
+        "explanation": "Incorrect. Slowing down does not make the clearance violation safe. The 2 ft minimum must be maintained."
+      },
+      {
+        "id": "b",
+        "text": "Continue with signaler guidance",
+        "explanation": "Incorrect. A signaler cannot override minimum clearance requirements. The 2 ft rule must be followed."
+      },
+      {
+        "id": "c",
+        "text": "Stop and maintain the required 2 ft clearance",
+        "explanation": "Correct. The 2 ft clearance rule is a minimum requirement. Operating closer than this creates risk of crane structure collision, sudden structural loading, and load instability. The operator must never allow crane components to pass within less than 2 ft of a structure."
+      },
+      {
+        "id": "d",
+        "text": "Only reduce swing speed",
+        "explanation": "Incorrect. Reducing speed alone does not address the clearance violation. The minimum 2 ft clearance must be maintained."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Crane Clearance & Overlap"
+  },
+  {
+    "id": 314,
+    "question": "The 2 ft clearance rule applies to which of the following?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only the load",
+        "explanation": "Incorrect. The 2 ft rule applies to crane structure, not just the load. Loads require additional clearance since they can swing."
+      },
+      {
+        "id": "b",
+        "text": "Only the hook block",
+        "explanation": "Incorrect. The rule applies to all crane structural components, not just the hook block."
+      },
+      {
+        "id": "c",
+        "text": "Crane structural components during movement",
+        "explanation": "Correct. The 2 ft rule applies to the crane structure itself, including the jib, counterjib, machinery deck, tower sections, and trolley frame. The load requires additional clearance since loads can swing beyond the crane structure."
+      },
+      {
+        "id": "d",
+        "text": "Only the trolley",
+        "explanation": "Incorrect. The rule applies to all crane structural components, not just the trolley."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Crane Clearance & Overlap"
+  },
+  {
+    "id": 315,
+    "question": "When operating near energized power lines, what is the typical minimum safe approach distance used in many crane safety standards?",
+    "options": [
+      {
+        "id": "a",
+        "text": "10 ft",
+        "explanation": "Correct. A 10 ft minimum clearance is commonly used for cranes working near lower-voltage overhead power lines. This clearance exists because electricity can arc through air, energize the crane without direct contact, and travel through the load line to ground personnel. Actual required distance may increase with voltage."
+      },
+      {
+        "id": "b",
+        "text": "4 ft",
+        "explanation": "Incorrect. 4 ft is insufficient clearance from energized power lines and creates extreme electrical hazard."
+      },
+      {
+        "id": "c",
+        "text": "2 ft",
+        "explanation": "Incorrect. 2 ft is the structural clearance rule, not the power line clearance. Power lines require much greater distance."
+      },
+      {
+        "id": "d",
+        "text": "20 ft",
+        "explanation": "Incorrect. While 20 ft may be required for higher voltages, the basic minimum for lower-voltage lines is typically 10 ft."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Crane Clearance & Overlap"
+  },
+  {
+    "id": 316,
+    "question": "A tower crane boom passes 8 ft from a 12 kV overhead power line. What is the correct action?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue carefully",
+        "explanation": "Incorrect. Continuing violates electrical safety requirements and creates severe hazard."
+      },
+      {
+        "id": "b",
+        "text": "Reduce hoist speed",
+        "explanation": "Incorrect. Speed reduction does not address the clearance violation."
+      },
+      {
+        "id": "c",
+        "text": "Use tag lines only",
+        "explanation": "Incorrect. Tag lines do not provide electrical protection or restore safe clearance."
+      },
+      {
+        "id": "d",
+        "text": "Stop operation because the minimum clearance is violated",
+        "explanation": "Correct. Since the minimum clearance is 10 ft, operating within 8 ft violates electrical safety requirements. Even without contact, electrical arcing can occur, the crane structure may become energized, and severe injury or death can result. Operations must stop until safe clearance is restored."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Crane Clearance & Overlap"
+  },
+  {
+    "id": 317,
+    "question": "Which of the following is the primary reason the 10 ft rule exists near power lines?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Crane stability",
+        "explanation": "Incorrect. Crane stability is not affected by power line proximity."
+      },
+      {
+        "id": "b",
+        "text": "Signal visibility",
+        "explanation": "Incorrect. Signal visibility is not the reason for power line clearance rules."
+      },
+      {
+        "id": "c",
+        "text": "Electrical arcing potential",
+        "explanation": "Correct. Electricity can jump across air gaps, especially under high voltage or humidity. The 10 ft rule provides a buffer to prevent arc flash, crane energization, and ground electrocution hazards."
+      },
+      {
+        "id": "d",
+        "text": "Load chart accuracy",
+        "explanation": "Incorrect. Load charts are not affected by power line proximity."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Crane Clearance & Overlap"
+  },
+  {
+    "id": 318,
+    "question": "If wind causes a suspended load to swing toward a structure that is exactly 2 ft away from the crane jib, what is the safest action?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue lifting",
+        "explanation": "Incorrect. Continuing with a swinging load near the minimum clearance creates collision risk."
+      },
+      {
+        "id": "b",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. Increasing speed can worsen load swing and does not address the clearance issue."
+      },
+      {
+        "id": "c",
+        "text": "Increase the operating clearance before continuing",
+        "explanation": "Correct. The 2 ft rule applies to the crane structure, not the swinging load. Because loads can swing several feet due to wind, starting or stopping motion, and uneven load balance, operators must allow additional clearance beyond 2 ft when loads may swing."
+      },
+      {
+        "id": "d",
+        "text": "Ignore load swing",
+        "explanation": "Incorrect. Ignoring load swing creates collision hazard and is unsafe practice."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Crane Clearance & Overlap"
+  },
+  {
+    "id": 319,
+    "question": "When working near power lines, which person must confirm the safe working clearance distance?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Signal person",
+        "explanation": "Incorrect. Signal persons direct lifts but are not qualified to determine electrical clearance distances."
+      },
+      {
+        "id": "b",
+        "text": "Crane oiler",
+        "explanation": "Incorrect. Crane oilers handle maintenance, not electrical safety clearance determinations."
+      },
+      {
+        "id": "c",
+        "text": "Operator alone",
+        "explanation": "Incorrect. The operator must never guess electrical clearance distances without qualified guidance."
+      },
+      {
+        "id": "d",
+        "text": "Qualified person or site authority coordinating with the utility",
+        "explanation": "Correct. Electrical hazards require coordination with the power utility, site safety authority, and a qualified person. The operator must never guess electrical clearance distances."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Crane Clearance & Overlap"
+  },
+  {
+    "id": 320,
+    "question": "Which situation violates the 2 ft crane clearance rule?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Counterjib passing 4 ft from scaffold",
+        "explanation": "Incorrect. 4 ft exceeds the 2 ft minimum and is acceptable."
+      },
+      {
+        "id": "b",
+        "text": "Hook passing 3 ft from building",
+        "explanation": "Incorrect. 3 ft exceeds the 2 ft minimum and is acceptable for the hook."
+      },
+      {
+        "id": "c",
+        "text": "Jib passing 1 ft from steel column",
+        "explanation": "Correct. The crane structure itself must maintain at least 2 ft clearance. Passing 1 ft from a structure violates this rule and creates a collision hazard."
+      },
+      {
+        "id": "d",
+        "text": "Load passing 5 ft from wall",
+        "explanation": "Incorrect. 5 ft provides adequate clearance for the load."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Crane Clearance & Overlap"
+  },
+  {
+    "id": 321,
+    "question": "Why is maintaining proper clearance distances especially important in urban construction sites?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Higher crane speeds",
+        "explanation": "Incorrect. Urban sites don't necessarily have higher crane speeds."
+      },
+      {
+        "id": "b",
+        "text": "Larger loads",
+        "explanation": "Incorrect. Load size is not the primary reason clearance is critical in urban sites."
+      },
+      {
+        "id": "c",
+        "text": "Limited space and nearby structures increase collision risk",
+        "explanation": "Correct. Urban sites often involve tight crane placement, adjacent buildings, multiple cranes, and restricted airspace. Maintaining the 2 ft and 10 ft rules helps prevent structural collision, electrical hazards, and dropped loads."
+      },
+      {
+        "id": "d",
+        "text": "Reduced visibility",
+        "explanation": "Incorrect. While visibility may be reduced, the primary concern is limited space and collision risk."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Crane Clearance & Overlap"
   }
 ]
