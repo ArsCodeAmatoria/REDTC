@@ -25872,5 +25872,285 @@
     ],
     "correctAnswer": "b",
     "category": "Slewing Brake"
+  },
+  {
+    "id": 929,
+    "question": "A tower crane operator is slewing with a 2,500 kg load at 35 m radius. The load begins to swing outward. What is the correct action?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Apply slewing brake immediately",
+        "explanation": "Incorrect. Sudden braking increases load swing, shock loading, and structural stress."
+      },
+      {
+        "id": "b",
+        "text": "Increase slewing speed",
+        "explanation": "Incorrect. This would amplify the swing problem."
+      },
+      {
+        "id": "c",
+        "text": "Gradually slow slewing using the control lever",
+        "explanation": "Correct. Reduce slew speed gradually, allow load swing to settle, and maintain smooth control. The slewing brake should not be used to abruptly stop motion."
+      },
+      {
+        "id": "d",
+        "text": "Hoist the load quickly",
+        "explanation": "Incorrect. Quick hoisting while swinging creates more instability."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Trap - Slewing"
+  },
+  {
+    "id": 930,
+    "question": "A crane is lifting 3,000 kg at a 30 m radius. During slewing the load swings outward to 33 m radius. What happens?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Capacity increases",
+        "explanation": "Incorrect. Capacity decreases with increased radius."
+      },
+      {
+        "id": "b",
+        "text": "Load weight decreases",
+        "explanation": "Incorrect. Load weight remains constant."
+      },
+      {
+        "id": "c",
+        "text": "Crane capacity decreases",
+        "explanation": "Correct. Crane capacity depends heavily on radius. When a load swings outward, radius increases, leverage on the crane increases, and safe lifting capacity decreases. Many crane failures occur because dynamic swing increases radius unexpectedly."
+      },
+      {
+        "id": "d",
+        "text": "Hoist speed increases",
+        "explanation": "Incorrect. Hoist speed is not affected by swing."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Trap - Radius Amplification"
+  },
+  {
+    "id": 931,
+    "question": "An operator suddenly applies the slewing brake while rotating a load. What is the most likely result?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load weight decreases",
+        "explanation": "Incorrect. Load weight doesn't change."
+      },
+      {
+        "id": "b",
+        "text": "Shock loading on the crane structure",
+        "explanation": "Correct. Abrupt braking creates dynamic load forces, stress on slewing gears, and stress on the slewing ring. Smooth control prevents structural shock."
+      },
+      {
+        "id": "c",
+        "text": "Hook block rises",
+        "explanation": "Incorrect. The hook block position isn't affected by slewing brake."
+      },
+      {
+        "id": "d",
+        "text": "Rigging tension decreases",
+        "explanation": "Incorrect. Sudden stops typically increase forces, not decrease them."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Trap - Shock Loading"
+  },
+  {
+    "id": 932,
+    "question": "An operator continues hoisting while the hook block approaches the boom tip. What dangerous condition may occur?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Over-radius condition",
+        "explanation": "Incorrect. This is a different hazard."
+      },
+      {
+        "id": "b",
+        "text": "Two-blocking",
+        "explanation": "Correct. Two-blocking occurs when the hook block contacts the boom tip or sheaves. This can cause cable failure, mechanical damage, and sudden load drop. Modern cranes have anti two-block systems, but operators must still remain aware."
+      },
+      {
+        "id": "c",
+        "text": "Anti-collision failure",
+        "explanation": "Incorrect. Anti-collision systems address crane-to-crane issues."
+      },
+      {
+        "id": "d",
+        "text": "Gear overload",
+        "explanation": "Incorrect. This is not the primary hazard."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Trap - Two-Blocking"
+  },
+  {
+    "id": 933,
+    "question": "If the anti two-block device fails, what must the operator do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue lifting slowly",
+        "explanation": "Incorrect. Operating without this safety device is extremely dangerous."
+      },
+      {
+        "id": "b",
+        "text": "Reset the alarm and continue",
+        "explanation": "Incorrect. The device must be repaired, not bypassed."
+      },
+      {
+        "id": "c",
+        "text": "Stop operations and report the issue",
+        "explanation": "Correct. The anti two-block device is a critical safety system. Operating without it risks cable failure and catastrophic load drop."
+      },
+      {
+        "id": "d",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. This would make the situation more dangerous."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Trap - Two-Block Protection"
+  },
+  {
+    "id": 934,
+    "question": "Two tower cranes are working on the same site. The anti-collision system stops the crane unexpectedly during a lift. What should the operator do first?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Override the system immediately",
+        "explanation": "Incorrect. Overriding without understanding the cause is dangerous."
+      },
+      {
+        "id": "b",
+        "text": "Continue lifting slowly",
+        "explanation": "Incorrect. The system stopped for a reason."
+      },
+      {
+        "id": "c",
+        "text": "Stop and determine the cause of the stop signal",
+        "explanation": "Correct. Anti-collision systems prevent crane-to-crane collision, hook collision, and jib collision. Overrides should only occur under controlled procedures."
+      },
+      {
+        "id": "d",
+        "text": "Increase slewing speed",
+        "explanation": "Incorrect. This could cause a collision."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Trap - Anti-Collision"
+  },
+  {
+    "id": 935,
+    "question": "When is it acceptable to override an anti-collision system?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Whenever it slows production",
+        "explanation": "Incorrect. Production concerns never justify safety overrides."
+      },
+      {
+        "id": "b",
+        "text": "When the operator is experienced",
+        "explanation": "Incorrect. Experience alone doesn't justify overrides."
+      },
+      {
+        "id": "c",
+        "text": "Only under authorized procedures and supervision",
+        "explanation": "Correct. Override is usually permitted only when system malfunction occurs, authorized supervisor approves, and operator maintains visual clearance. Improper override can cause crane collisions."
+      },
+      {
+        "id": "d",
+        "text": "Whenever cranes are far apart",
+        "explanation": "Incorrect. Distance alone doesn't justify override."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Trap - Anti-Collision Override"
+  },
+  {
+    "id": 936,
+    "question": "A load begins to swing while the crane slews. What happens to the effective radius?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Radius decreases",
+        "explanation": "Incorrect. Swing typically increases radius."
+      },
+      {
+        "id": "b",
+        "text": "Radius remains constant",
+        "explanation": "Incorrect. Swing causes radius variation."
+      },
+      {
+        "id": "c",
+        "text": "Radius may increase significantly",
+        "explanation": "Correct. When loads swing, centrifugal force pushes load outward, effective radius increases, and crane capacity decreases. This is called radius amplification."
+      },
+      {
+        "id": "d",
+        "text": "Radius disappears",
+        "explanation": "Incorrect. Radius always exists."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Trap - Swing Amplification"
+  },
+  {
+    "id": 937,
+    "question": "A crane is lifting a large wall panel when wind begins pushing the load outward. What is the safest action?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase slewing speed",
+        "explanation": "Incorrect. This would increase instability."
+      },
+      {
+        "id": "b",
+        "text": "Apply slewing brake quickly",
+        "explanation": "Incorrect. Sudden braking causes shock loading."
+      },
+      {
+        "id": "c",
+        "text": "Lower the load to a safe position",
+        "explanation": "Correct. Flat loads behave like sails. Wind increases load swing, radius, and structural stress. Safest action is land the load immediately."
+      },
+      {
+        "id": "d",
+        "text": "Hoist higher",
+        "explanation": "Incorrect. Hoisting higher increases wind exposure."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Trap - Wind + Slew"
+  },
+  {
+    "id": 938,
+    "question": "During precise placement of a load, the operator lightly applies the slewing brake. What is the purpose?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase lifting capacity",
+        "explanation": "Incorrect. The brake doesn't affect capacity."
+      },
+      {
+        "id": "b",
+        "text": "Increase swing speed",
+        "explanation": "Incorrect. Braking doesn't increase speed."
+      },
+      {
+        "id": "c",
+        "text": "Prevent slow rotational drift",
+        "explanation": "Correct. Light brake pressure can stabilize crane rotation and help align loads precisely. But it must not be used to stop motion abruptly."
+      },
+      {
+        "id": "d",
+        "text": "Reduce load weight",
+        "explanation": "Incorrect. The brake doesn't affect load weight."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Trap - Brake Holding"
   }
 ]
