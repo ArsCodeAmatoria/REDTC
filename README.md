@@ -85,7 +85,16 @@ To obtain your Red Seal Tower Crane Operator certification in BC:
 
 [SkilledTradesBC](https://skilledtradesbc.ca/) — Apprenticeship registration<br />
 [Red Seal Program](https://www.red-seal.ca/) — National exam specifications<br />
-[WorkSafeBC](https://www.worksafebc.com/) — Safety regulations
+[WorkSafeBC](https://www.worksafebc.com/) — Safety regulations<br />
+[BC Crane Safety](https://bccranesafety.ca/) — Provincial certification authority<br />
+[Fulford Certification](https://fulford.ca/) — Crane operator certification services
+
+---
+
+## Standards and References
+
+[ASME B30 Safety Standard](https://www.asme.org/codes-standards/find-codes-standards/b30-series-safety-standard-cranes-derricks-hoists-hooks-jacks-slings) — Cranes and related equipment<br />
+[CSA Z248](https://www.csagroup.org/store/product/Z248-17/) — Code for tower cranes
 
 ---
 
