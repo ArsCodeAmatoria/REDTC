@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, BookOpen, ChevronRight, Award, HardHat, FileText, GraduationCap, Shield, Timer, FileSpreadsheet } from "lucide-react";
+import { ArrowRight, BookOpen, ChevronRight, Award, HardHat, FileText, GraduationCap, Shield, Timer, FileSpreadsheet, Calculator } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import questionsData from "@/data/questions.json";
@@ -673,33 +673,64 @@ export default function HomePage() {
               <ChevronRight className="w-4 h-4" />
             </Link>
           </div>
-          
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
-            {categories.map((category, index) => (
-              <motion.div
-                key={category.name}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.05 * index }}
-              >
-                <Link href={(category as { isCharts?: boolean }).isCharts ? "/load-charts" : "/test/review"}>
-                  <div className="bg-background p-5 h-full card-hover group">
-                    <div className="flex items-start justify-between">
-                      <div className={`w-2 h-2 mt-1 ${index <= 1 ? 'bg-accent' : 'bg-muted-foreground/30'}`} />
-                      {(category as { isCharts?: boolean }).isCharts ? (
-                        <FileSpreadsheet className="w-4 h-4 text-accent opacity-70 group-hover:opacity-100 transition-opacity" />
-                      ) : (
-                        <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
-                      )}
+
+          <div className="grid md:grid-cols-2 gap-6">
+            {/* Featured Categories */}
+            <div className="grid grid-cols-2 gap-3">
+              {categories.slice(0, 2).map((category, index) => (
+                <motion.div
+                  key={category.name}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 0.05 * index }}
+                >
+                  <Link href={(category as { isCharts?: boolean }).isCharts ? "/load-charts" : "/test/review"}>
+                    <div className="bg-accent/5 border border-accent/20 p-5 h-full hover:border-accent transition-colors group">
+                      <div className="flex items-center gap-2 mb-3">
+                        <div className="w-1.5 h-6 bg-accent" />
+                        {(category as { isCharts?: boolean }).isCharts ? (
+                          <FileSpreadsheet className="w-4 h-4 text-accent" />
+                        ) : (
+                          <Calculator className="w-4 h-4 text-accent" />
+                        )}
+                      </div>
+                      <h3 className="font-semibold text-sm group-hover:text-accent transition-colors">{category.name}</h3>
+                      <p className="text-2xl font-display font-bold mt-2">
+                        {(category as { isCharts?: boolean }).isCharts ? "14" : category.count}
+                      </p>
+                      <p className="text-xs text-muted-foreground">
+                        {(category as { isCharts?: boolean }).isCharts ? "crane charts" : "questions"}
+                      </p>
                     </div>
-                    <h3 className="font-medium mt-3 group-hover:text-accent transition-colors">{category.name}</h3>
-                    <p className="text-sm text-muted-foreground mt-1">
-                      {(category as { isCharts?: boolean }).isCharts ? "14 crane charts" : `${category.count}+ questions`}
-                    </p>
-                  </div>
-                </Link>
-              </motion.div>
-            ))}
+                  </Link>
+                </motion.div>
+              ))}
+            </div>
+
+            {/* Other Categories Grid */}
+            <div className="bg-muted/20 border border-border p-4">
+              <div className="flex items-center justify-between mb-4">
+                <h3 className="font-semibold text-sm">All Topics</h3>
+                <span className="text-xs text-muted-foreground">948 questions total</span>
+              </div>
+              <div className="grid grid-cols-2 gap-x-6 gap-y-2">
+                {categories.slice(2).map((category, index) => (
+                  <motion.div
+                    key={category.name}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 0.05 * (index + 2) }}
+                  >
+                    <Link href="/test/review">
+                      <div className="flex items-center justify-between py-2 border-b border-border/30 hover:border-accent/50 transition-colors group">
+                        <span className="text-xs group-hover:text-accent transition-colors truncate pr-2">{category.name}</span>
+                        <span className="text-xs text-muted-foreground font-medium">{category.count}</span>
+                      </div>
+                    </Link>
+                  </motion.div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>
