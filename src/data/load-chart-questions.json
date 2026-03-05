@@ -1902,6 +1902,188 @@
           "correctAnswer": "b"
         }
       ]
+    },
+    {
+      "id": "terex-ctl-260a-18",
+      "name": "Terex CTL 260A-18",
+      "manufacturer": "Terex",
+      "model": "CTL 260A-18",
+      "type": "luffing",
+      "pdfFile": "terexctl260a18.pdf",
+      "description": "Luffing jib tower crane with 60m max jib. 18 tonne max capacity. Features T-Link, Anticollision, and Zoning systems. Three reeving configurations (9t, 13.5t, 18t).",
+      "specifications": {
+        "maxCapacity": "18.00 t",
+        "maxJibLength": "60 m",
+        "tipCapacity": "2.15 t (60m, 9t line)",
+        "maxTowerHeight": "84.40 m (HD23 tower)"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": "What type of crane is the Terex CTL 260A-18?",
+          "options": [
+            { "id": "a", "text": "Flat-top tower crane", "explanation": "Incorrect. Flat-top cranes use trolley travel along a horizontal jib." },
+            { "id": "b", "text": "Luffing jib tower crane", "explanation": "Correct. The CTL 260A-18 is a luffing jib crane - the jib pivots up and down to change radius. The 'CTL' designation indicates Terex's luffing crane series. The hook is fixed at the jib tip." },
+            { "id": "c", "text": "Self-erecting crane", "explanation": "Incorrect. This is a conventional tower crane requiring mobile crane assembly." },
+            { "id": "d", "text": "Hammerhead crane", "explanation": "Incorrect. Hammerhead cranes have a horizontal jib with trolley." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 2,
+          "question": "What is the maximum lifting capacity of the CTL 260A-18?",
+          "options": [
+            { "id": "a", "text": "9 tonnes", "explanation": "Incorrect. This is the medium reeving line capacity." },
+            { "id": "b", "text": "13.5 tonnes", "explanation": "Incorrect. This is the intermediate reeving line capacity." },
+            { "id": "c", "text": "18 tonnes", "explanation": "Correct. Maximum capacity is 18 tonnes using the heaviest reeving configuration (4-fall). This is achieved at radii up to approximately 17.9m with the 40m jib configuration." },
+            { "id": "d", "text": "2.15 tonnes", "explanation": "Incorrect. This is the tip capacity at maximum 60m radius." }
+          ],
+          "correctAnswer": "c"
+        },
+        {
+          "id": 3,
+          "question": "The load chart shows three capacity lines: 9t, 13.5t, and 18t. What do these represent?",
+          "options": [
+            { "id": "a", "text": "Different crane models", "explanation": "Incorrect. These are all for the same CTL 260A-18 crane." },
+            { "id": "b", "text": "Different reeving configurations (2-fall, 3-fall, 4-fall) with different max capacities", "explanation": "Correct. The 9t line uses lighter reeving for faster speeds at moderate loads. The 13.5t line is intermediate. The 18t line uses maximum reeving (4-fall) for heavy lifts but slower speeds. Each has different reach capabilities." },
+            { "id": "c", "text": "Different wind speed ratings", "explanation": "Incorrect. Wind ratings don't determine capacity lines." },
+            { "id": "d", "text": "Different counterweight settings only", "explanation": "Incorrect. While counterweight varies, the primary difference is reeving configuration." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 4,
+          "question": "Using the 60m jib with the 9t line, what is the capacity at 50m radius?",
+          "options": [
+            { "id": "a", "text": "2.15 t", "explanation": "Incorrect. This is the tip capacity at 60m." },
+            { "id": "b", "text": "3.30 t", "explanation": "Correct. At 50m radius with the 60m jib using the 9t line, capacity is 3.30 tonnes. The 9t line provides extended reach but lower capacity at longer radii." },
+            { "id": "c", "text": "4.20 t", "explanation": "Incorrect. This is the 13.5t/18t line capacity at 50m with shorter jibs." },
+            { "id": "d", "text": "9.00 t", "explanation": "Incorrect. 9t is only available at close radii (under ~34m)." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 5,
+          "question": "COMPLEX: You need to lift 10 tonnes to 35m radius using the 45m jib. Which reeving line can make this lift?",
+          "options": [
+            { "id": "a", "text": "9t line only", "explanation": "Incorrect. The 9t line's maximum capacity is only 9 tonnes." },
+            { "id": "b", "text": "13.5t line - shows 10.04t capacity at 35m with 45m jib", "explanation": "Correct. At 35m radius with 45m jib: the 9t line maxes at 9t (insufficient). The 13.5t line shows 10.04t (sufficient). The 18t line shows 10.04t (also works but slower). Choose 13.5t for better speed." },
+            { "id": "c", "text": "18t line only", "explanation": "Incorrect. Both 13.5t and 18t lines can make this lift." },
+            { "id": "d", "text": "None - impossible lift", "explanation": "Incorrect. The 13.5t and 18t lines can both handle this load." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 6,
+          "question": "What is the jib angle range for the CTL 260A-18?",
+          "options": [
+            { "id": "a", "text": "0° to 45°", "explanation": "Incorrect. Luffing cranes typically have much steeper angles." },
+            { "id": "b", "text": "15° (max radius) to 85° (min radius)", "explanation": "Correct. The jib luffs from 15° (nearly horizontal, maximum radius) to 85° (nearly vertical, minimum radius). At 85° the hook is close to the tower for minimum radius operations." },
+            { "id": "c", "text": "Fixed at 30°", "explanation": "Incorrect. The jib is adjustable, not fixed." },
+            { "id": "d", "text": "90° only", "explanation": "Incorrect. The maximum angle is 85°, and it's variable." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 7,
+          "question": "What is the minimum out-of-service jib angle?",
+          "options": [
+            { "id": "a", "text": "15°", "explanation": "Incorrect. 15° is the in-service minimum angle (max radius)." },
+            { "id": "b", "text": "55° to 65° depending on configuration", "explanation": "Correct. When out of service (parked), the jib must be raised to 55-65° to reduce the wind sail area and moment arm. This is higher than the in-service minimum of 15°." },
+            { "id": "c", "text": "85°", "explanation": "Incorrect. 85° is maximum angle, not the out-of-service requirement." },
+            { "id": "d", "text": "0° (horizontal)", "explanation": "Incorrect. Leaving a luffing jib horizontal out of service creates dangerous wind loads." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 8,
+          "question": "The CTL 260A-18 can use three different tower systems. Which provides the maximum height?",
+          "options": [
+            { "id": "a", "text": "H20 tower - 47.95m", "explanation": "Incorrect. This is not the tallest option." },
+            { "id": "b", "text": "HD23 tower with R3 basement - up to 84.40m", "explanation": "Correct. The HD23 heavy-duty tower with R3 basement configuration provides maximum hook height of 84.40m (under FEM 1001 with 30m jib). This makes it suitable for high-rise construction." },
+            { "id": "c", "text": "TS23 tower - 47.60m", "explanation": "Incorrect. TS23 is similar height to H20." },
+            { "id": "d", "text": "All towers have the same height", "explanation": "Incorrect. Tower heights vary significantly by system." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 9,
+          "question": "What special features are listed for the CTL 260A-18?",
+          "options": [
+            { "id": "a", "text": "Power Plus and Power Match", "explanation": "Incorrect. These are Terex flat-top crane features." },
+            { "id": "b", "text": "T-Link, Anticollision, and Zoning systems", "explanation": "Correct. The crane features T-Link (telematics/connectivity), Anticollision (prevents crane-to-crane or crane-to-obstacle collisions), and Zoning (restricts operation to defined areas). These are modern safety and management systems." },
+            { "id": "c", "text": "WOLFF-Boost and Micromove", "explanation": "Incorrect. These are WOLFF crane features." },
+            { "id": "d", "text": "No special features", "explanation": "Incorrect. Several advanced features are listed." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 10,
+          "question": "IMPORTANT: The load chart includes a note about rope weight. What adjustment may be needed?",
+          "options": [
+            { "id": "a", "text": "No adjustment needed", "explanation": "Incorrect. The chart specifically notes rope weight is not included." },
+            { "id": "b", "text": "Deduct rope weight (1.3 kg/m) from capacity for actual lifting height", "explanation": "Correct. The chart states 'Load diagram not consider rope weight: p = 1.3 kg/m'. For tall lifts, you must deduct the weight of rope paid out. Example: 100m of rope = 130 kg deduction from capacity." },
+            { "id": "c", "text": "Add 10% to all capacities", "explanation": "Incorrect. This would be unsafe - capacity should be reduced, not increased." },
+            { "id": "d", "text": "Only applies to 18t line", "explanation": "Incorrect. Rope weight affects all configurations." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 11,
+          "question": "What are the two luffing winch options and their full-cycle times?",
+          "options": [
+            { "id": "a", "text": "Single option only", "explanation": "Incorrect. Two luffing winch options are available." },
+            { "id": "b", "text": "LFC 45 (45 kW, 2.5 min cycle) or LFC 67 (67 kW, 1.8 min cycle)", "explanation": "Correct. The LFC 45 provides 2.5 minutes for a full luff cycle (15° to 85°), while the more powerful LFC 67 completes the same cycle in 1.8 minutes. Faster luffing improves productivity on repetitive lift cycles." },
+            { "id": "c", "text": "Both complete in 1 minute", "explanation": "Incorrect. Luffing cycles are longer than 1 minute." },
+            { "id": "d", "text": "Luffing time is 10 minutes", "explanation": "Incorrect. Modern luffing cranes are much faster." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 12,
+          "question": "What power supply does the CTL 260A-18 require with the LFC 67 luffing winch?",
+          "options": [
+            { "id": "a", "text": "60 kVA, single phase", "explanation": "Incorrect. Tower cranes require three-phase power and more capacity." },
+            { "id": "b", "text": "165 kVA average, 400V-50Hz or 460V-60Hz", "explanation": "Correct. With the LFC 67 luffing winch, the crane requires 165 kVA average consumption at 400V-50Hz (European) or 460V-60Hz (American). The LFC 45 option requires 123 kVA." },
+            { "id": "c", "text": "220V residential power", "explanation": "Incorrect. Residential power is insufficient." },
+            { "id": "d", "text": "45 kW only", "explanation": "Incorrect. 45 kW is just the luffing motor power, not total supply." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 13,
+          "question": "TRAP: Looking at the 45m jib configuration, why does the chart show '*' with '+ 200 kg' for some entries?",
+          "options": [
+            { "id": "a", "text": "Chart error", "explanation": "Incorrect. This is intentional notation." },
+            { "id": "b", "text": "Shorter jib configurations (30-50m) get +200 kg bonus capacity on the 13.5t line", "explanation": "Correct. The note '* = +200 kg [50m - 45m - 40m - 35m - 30m]' indicates that for shorter jib configurations using the 13.5t line, an additional 200 kg capacity is available. This accounts for reduced jib self-weight on shorter configurations." },
+            { "id": "c", "text": "Deduct 200 kg from all loads", "explanation": "Incorrect. The asterisk indicates an addition, not a deduction." },
+            { "id": "d", "text": "Maximum capacity is 200 kg", "explanation": "Incorrect. This misinterprets the notation entirely." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 14,
+          "question": "The chart shows two standards: FEM 1005 C25 and FEM 1001. What is the difference?",
+          "options": [
+            { "id": "a", "text": "Different countries", "explanation": "Incorrect. Both are European standards." },
+            { "id": "b", "text": "FEM 1001 allows greater tower heights than FEM 1005 C25 for the same jib length", "explanation": "Correct. FEM 1001 is an older, more permissive standard. FEM 1005 with C25 classification is the current EN 14439 equivalent with stricter requirements. The height tables show FEM 1001 often permits taller configurations than FEM 1005 C25." },
+            { "id": "c", "text": "No practical difference", "explanation": "Incorrect. The standards have different height allowances." },
+            { "id": "d", "text": "FEM 1005 allows taller towers", "explanation": "Incorrect. It's the opposite - FEM 1001 is typically more permissive." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 15,
+          "question": "COMPLEX: You're lifting 6 tonnes to 40m radius using the 55m jib. Using the 13.5t line, the chart shows 6.13t capacity. What is the actual available capacity considering 80m of rope out?",
+          "options": [
+            { "id": "a", "text": "6.13 t (rope weight doesn't matter)", "explanation": "Incorrect. Rope weight must be considered for tall lifts." },
+            { "id": "b", "text": "6.03 t (6.13t minus 0.104t rope weight: 80m × 1.3 kg/m = 104 kg)", "explanation": "Correct. Rope weight: 80m × 1.3 kg/m = 104 kg = 0.104t. Chart capacity 6.13t - 0.104t = 6.026t available. Since the load is 6.00t, this lift is still possible but with minimal margin. Always verify rope deduction on tall lifts!" },
+            { "id": "c", "text": "7.13 t (add rope weight)", "explanation": "Incorrect. Rope weight reduces available capacity, not increases it." },
+            { "id": "d", "text": "5.00 t", "explanation": "Incorrect. This underestimates the available capacity." }
+          ],
+          "correctAnswer": "b"
+        }
+      ]
     }
   ]
 }

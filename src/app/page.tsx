@@ -10,7 +10,7 @@ import questionsData from "@/data/questions.json";
 
 const categories = [
   { name: "Load Charts & Parts of Line", count: 140, color: "bg-accent" },
-  { name: "PDF Load Chart Practice", count: 156, color: "bg-accent", isCharts: true },
+  { name: "PDF Load Chart Practice", count: 171, color: "bg-accent", isCharts: true },
   { name: "Advanced Operations & Traps", count: 95, color: "bg-foreground" },
   { name: "Master Level Questions", count: 100, color: "bg-foreground" },
   { name: "Rigging & Sling Angles", count: 85, color: "bg-foreground" },
@@ -603,16 +603,23 @@ export default function HomePage() {
                   </div>
                   <span className="text-xs text-muted-foreground">55m · 12t</span>
                 </div>
-                <div className="flex items-center justify-between py-2">
+                <div className="flex items-center justify-between py-2 border-b border-border/50">
                   <div>
                     <span className="text-xs text-muted-foreground">WOLFF</span>
                     <p className="font-medium text-sm">355 B US</p>
                   </div>
                   <span className="text-xs text-muted-foreground">60m · 28t</span>
                 </div>
+                <div className="flex items-center justify-between py-2">
+                  <div>
+                    <span className="text-xs text-muted-foreground">Terex</span>
+                    <p className="font-medium text-sm">CTL 260A-18</p>
+                  </div>
+                  <span className="text-xs text-muted-foreground">60m · 18t</span>
+                </div>
               </div>
               <div className="mt-4 pt-3 border-t border-border/50 text-center">
-                <span className="text-sm font-medium text-accent">3 Charts</span>
+                <span className="text-sm font-medium text-accent">4 Charts</span>
               </div>
             </div>
 
@@ -648,11 +655,11 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 bg-background border border-border p-5">
             <div className="flex items-center gap-8">
               <div className="text-center sm:text-left">
-                <div className="text-2xl font-display font-bold">11</div>
+                <div className="text-2xl font-display font-bold">12</div>
                 <div className="text-xs text-muted-foreground">Charts</div>
               </div>
               <div className="text-center sm:text-left">
-                <div className="text-2xl font-display font-bold">156</div>
+                <div className="text-2xl font-display font-bold">171</div>
                 <div className="text-xs text-muted-foreground">Questions</div>
               </div>
               <div className="text-center sm:text-left">
@@ -704,7 +711,7 @@ export default function HomePage() {
                     </div>
                     <h3 className="font-medium mt-3 group-hover:text-accent transition-colors">{category.name}</h3>
                     <p className="text-sm text-muted-foreground mt-1">
-                      {(category as { isCharts?: boolean }).isCharts ? "11 crane charts" : `${category.count}+ questions`}
+                      {(category as { isCharts?: boolean }).isCharts ? "12 crane charts" : `${category.count}+ questions`}
                     </p>
                   </div>
                 </Link>
