@@ -146,6 +146,10 @@ function parseTotalLoadRule(chartString: string): boolean {
   return chartString.startsWith("TOTAL LOAD RULE:");
 }
 
+function parseOperatorRule(chartString: string): boolean {
+  return chartString.startsWith("OPERATOR RULE:");
+}
+
 function extractQuestionText(fullText: string): string {
   if (fullText.startsWith("LOAD CHART:")) {
     const match = fullText.match(/\(Hook block = \d+\s*kg\)\s*—\s*(.+)/);
@@ -199,6 +203,10 @@ function extractQuestionText(fullText: string): string {
     const match = fullText.match(/TOTAL LOAD RULE:[^—]+—\s*(.+)/);
     return match ? match[1] : fullText;
   }
+  if (fullText.startsWith("OPERATOR RULE:")) {
+    const match = fullText.match(/OPERATOR RULE:[^—]+—\s*(.+)/);
+    return match ? match[1] : fullText;
+  }
   return fullText;
 }
 
@@ -216,7 +224,28 @@ export function ChartDisplay({ questionText }: ChartDisplayProps) {
   const clearanceRule = parseClearanceRule(questionText);
   const powerlineRule = parsePowerlineRule(questionText);
   const totalLoadRule = parseTotalLoadRule(questionText);
+  const operatorRule = parseOperatorRule(questionText);
   const actualQuestion = extractQuestionText(questionText);
+
+  if (operatorRule) {
+    return (
+      <div className="space-y-4">
+        <div className="rounded-lg border border-border bg-muted/30 p-3 sm:p-4">
+          <div className="mb-2">
+            <span className="text-xs font-semibold uppercase tracking-wider text-accent">
+              Operator Rule
+            </span>
+          </div>
+          <div className="font-mono text-sm sm:text-base text-foreground">
+            Control motion with the <span className="text-green-400">motor</span> — hold position with the <span className="text-yellow-400">brake</span>
+          </div>
+        </div>
+        <h2 className="font-display text-xl md:text-2xl font-semibold leading-snug">
+          {actualQuestion}
+        </h2>
+      </div>
+    );
+  }
 
   if (overlapRule) {
     const isFormula = questionText.startsWith("OVERLAP FORMULA:");
@@ -611,5 +640,6 @@ export function hasChart(questionText: string): boolean {
          questionText.startsWith("OVERLAP FORMULA:") ||
          questionText.startsWith("CLEARANCE RULE:") ||
          questionText.startsWith("POWERLINE RULE:") ||
-         questionText.startsWith("TOTAL LOAD RULE:");
+         questionText.startsWith("TOTAL LOAD RULE:") ||
+         questionText.startsWith("OPERATOR RULE:");
 }

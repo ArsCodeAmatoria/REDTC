@@ -25592,5 +25592,285 @@
     ],
     "correctAnswer": "c",
     "category": "Master - Load Chart"
+  },
+  {
+    "id": 919,
+    "question": "What is the primary purpose of the slewing brake on a tower crane?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. The slewing brake doesn't affect hoist speed."
+      },
+      {
+        "id": "b",
+        "text": "Lock the trolley in place",
+        "explanation": "Incorrect. The trolley has its own brake system."
+      },
+      {
+        "id": "c",
+        "text": "Control or stop crane rotation (slewing)",
+        "explanation": "Correct. The slewing brake is used to slow or stop crane rotation, stabilize the crane during positioning, and prevent unwanted rotation."
+      },
+      {
+        "id": "d",
+        "text": "Increase lifting capacity",
+        "explanation": "Incorrect. The slewing brake doesn't affect lifting capacity."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Slewing Brake"
+  },
+  {
+    "id": 920,
+    "question": "When a tower crane is parked in high winds, the slewing brake should be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fully locked",
+        "explanation": "Incorrect. Locking the brake in high winds creates dangerous structural loads."
+      },
+      {
+        "id": "b",
+        "text": "Tightened halfway",
+        "explanation": "Incorrect. Partial engagement doesn't allow proper weather-vaning."
+      },
+      {
+        "id": "c",
+        "text": "Released so the crane can weather-vane",
+        "explanation": "Correct. In high winds the crane must rotate freely with the wind. This reduces structural stress on the tower, slewing ring, and jib."
+      },
+      {
+        "id": "d",
+        "text": "Engaged intermittently",
+        "explanation": "Incorrect. The crane needs continuous free rotation in high winds."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Slewing Brake"
+  },
+  {
+    "id": 921,
+    "question": "The slewing brake should NOT be used while the crane is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Parking the crane",
+        "explanation": "Incorrect. The brake is appropriate for parking."
+      },
+      {
+        "id": "b",
+        "text": "Actively slewing under load",
+        "explanation": "Correct. Using the slewing brake abruptly during motion can cause shock loading, uncontrolled swing, and stress on the slewing gear. Rotation should be controlled using the slew motor control, not the brake."
+      },
+      {
+        "id": "c",
+        "text": "Positioning the hook",
+        "explanation": "Incorrect. Light braking may help with precise positioning."
+      },
+      {
+        "id": "d",
+        "text": "Aligning the jib",
+        "explanation": "Incorrect. The brake can assist with alignment."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Slewing Brake"
+  },
+  {
+    "id": 922,
+    "question": "When positioning a load precisely at a long radius, the slewing brake may be used to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase load capacity",
+        "explanation": "Incorrect. The brake doesn't affect capacity."
+      },
+      {
+        "id": "b",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. The brake doesn't affect hoist speed."
+      },
+      {
+        "id": "c",
+        "text": "Prevent drift in the slewing mechanism",
+        "explanation": "Correct. Small brake pressure can help hold the crane steady when placing loads precisely. However, it must be used gently and carefully."
+      },
+      {
+        "id": "d",
+        "text": "Reduce wind speed",
+        "explanation": "Incorrect. The brake can't affect wind."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Slewing Brake"
+  },
+  {
+    "id": 923,
+    "question": "An operator suddenly applies the slewing brake while the crane is rotating quickly. What may occur?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load becomes lighter",
+        "explanation": "Incorrect. Load weight doesn't change."
+      },
+      {
+        "id": "b",
+        "text": "Shock loading on the crane structure",
+        "explanation": "Correct. Abrupt braking causes sudden rotational stop, dynamic load forces, and structural stress. This can damage the slewing ring, tower structure, and gear systems."
+      },
+      {
+        "id": "c",
+        "text": "Hoist line tension decreases",
+        "explanation": "Incorrect. Sudden stops typically increase forces."
+      },
+      {
+        "id": "d",
+        "text": "Gear ratio changes",
+        "explanation": "Incorrect. Gear ratios are fixed."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Slewing Brake"
+  },
+  {
+    "id": 924,
+    "question": "At the end of the shift in normal weather conditions, the slewing brake is typically:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Released completely",
+        "explanation": "Incorrect. The crane should be secured in normal conditions."
+      },
+      {
+        "id": "b",
+        "text": "Engaged to secure the crane",
+        "explanation": "Correct. During normal shutdown the crane is secured using slewing brake, trolley parking position, and hook block position. However, during storm conditions the crane must be allowed to weather-vane."
+      },
+      {
+        "id": "c",
+        "text": "Locked permanently",
+        "explanation": "Incorrect. The brake isn't permanently locked."
+      },
+      {
+        "id": "d",
+        "text": "Removed",
+        "explanation": "Incorrect. The brake is never removed."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Slewing Brake"
+  },
+  {
+    "id": 925,
+    "question": "Why should the slewing brake not remain locked during strong winds?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It reduces lifting capacity",
+        "explanation": "Incorrect. Capacity isn't the concern."
+      },
+      {
+        "id": "b",
+        "text": "It slows hoist speed",
+        "explanation": "Incorrect. Hoist speed isn't the concern."
+      },
+      {
+        "id": "c",
+        "text": "Wind forces can twist the crane structure",
+        "explanation": "Correct. If the crane cannot rotate with the wind, wind pressure acts against the jib and structural loads increase dramatically. Allowing free slewing reduces wind resistance."
+      },
+      {
+        "id": "d",
+        "text": "It damages rigging",
+        "explanation": "Incorrect. Rigging isn't directly affected."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Slewing Brake"
+  },
+  {
+    "id": 926,
+    "question": "During final placement of a load, the operator may lightly apply the slewing brake to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase gear speed",
+        "explanation": "Incorrect. The brake doesn't increase speed."
+      },
+      {
+        "id": "b",
+        "text": "Reduce slow rotational drift",
+        "explanation": "Correct. Light braking helps hold the crane steady while riggers guide the load. This is common when placing steel beams, formwork panels, and precast components."
+      },
+      {
+        "id": "c",
+        "text": "Increase lifting capacity",
+        "explanation": "Incorrect. The brake doesn't affect capacity."
+      },
+      {
+        "id": "d",
+        "text": "Prevent hoisting",
+        "explanation": "Incorrect. The slewing brake doesn't affect hoisting."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Slewing Brake"
+  },
+  {
+    "id": 927,
+    "question": "Improper use of the slewing brake can damage:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Trolley rails",
+        "explanation": "Incorrect. Trolley rails aren't affected by the slewing brake."
+      },
+      {
+        "id": "b",
+        "text": "Hoist drum",
+        "explanation": "Incorrect. The hoist drum isn't connected to slewing."
+      },
+      {
+        "id": "c",
+        "text": "Slewing ring bearings and gears",
+        "explanation": "Correct. The slewing ring supports the entire rotating upper structure. Shock loads from improper braking can cause gear damage, bearing wear, and structural stress."
+      },
+      {
+        "id": "d",
+        "text": "Hook block",
+        "explanation": "Incorrect. The hook block isn't directly affected."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Slewing Brake"
+  },
+  {
+    "id": 928,
+    "question": "OPERATOR RULE: Control motion with the motor — hold position with the brake — Which control should normally regulate slewing movement?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Slewing brake",
+        "explanation": "Incorrect. The brake is for holding position, not controlling motion."
+      },
+      {
+        "id": "b",
+        "text": "Slew motor control lever",
+        "explanation": "Correct. The slewing motor provides controlled rotation. The slewing brake is mainly used for holding position, parking, and preventing drift. Using the brake to stop motion abruptly creates shock loading, structural stress, and uncontrolled load swing."
+      },
+      {
+        "id": "c",
+        "text": "Hoist brake",
+        "explanation": "Incorrect. The hoist brake controls vertical movement."
+      },
+      {
+        "id": "d",
+        "text": "Trolley brake",
+        "explanation": "Incorrect. The trolley brake controls trolley position."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Slewing Brake"
   }
 ]
