@@ -38,8 +38,8 @@ The Red Seal endorsement allows certified operators to work anywhere in Canada.
 Each practice test randomly selects 10 questions from the question bank.<br />
 Questions include detailed explanations for both correct and incorrect answers.
 
-Includes **55 Master Level questions** covering advanced load calculations,<br />
-structural engineering concepts, and emergency response scenarios.
+Includes **100+ Master Level questions** covering advanced load calculations,<br />
+integrated physics problems, trap scenarios, and emergency response.
 
 ---
 
@@ -47,12 +47,12 @@ structural engineering concepts, and emergency response scenarios.
 
 | | |
 |:--|:--|
-| Safety and Legislation | Load Charts and Calculations |
-| Rigging and Slinging | Crane Components and Operation |
-| Site Operations and Planning | Inspection and Maintenance |
-| Climbing and Erection | Communication and Supervision |
-| Environmental Hazards | Emergency Procedures |
-| Structural Stability | Hoisting Systems |
+| Load Charts & Parts of Line | Advanced Operations & Traps |
+| Rigging & Sling Angles | Material Weight & Geometry |
+| Gear, Drive & Capacity | Structural & Mechanical |
+| Safety & BC Regulations | Weather & Environmental |
+| Slewing Brake Operations | Clearance & Site Scenarios |
+| Integrated Physics Problems | Master Level Calculations |
 
 ---
 
