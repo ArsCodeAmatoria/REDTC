@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { ThemeToggle } from "@/components/theme-toggle";
 
 export function Header() {
   return (
@@ -13,7 +12,6 @@ export function Header() {
         >
           REDTC
         </Link>
-        <ThemeToggle />
       </div>
     </header>
   );

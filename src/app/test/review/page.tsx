@@ -6,7 +6,6 @@ import Link from "next/link";
 import { ArrowLeft, ArrowRight, Home, ChevronDown, PawPrint } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { QuestionCard } from "@/components/quiz";
-import { ThemeToggle } from "@/components/theme-toggle";
 import questionsData from "@/data/questions.json";
 import type { Question } from "@/types/question";
 
@@ -110,7 +109,6 @@ export default function ReviewPage() {
                   Start Test
                 </Button>
               </Link>
-              <ThemeToggle />
             </div>
           </div>
         </div>

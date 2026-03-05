@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} ${playfair.variable} font-sans min-h-screen flex flex-col`}>
-        <ThemeProvider defaultTheme="system" storageKey="redtc-theme">
+        <ThemeProvider>
           <main className="flex-1">
             {children}
           </main>

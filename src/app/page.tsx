@@ -5,7 +5,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, BookOpen, ChevronRight, Award, HardHat, FileText, GraduationCap, Shield, Timer, PawPrint } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { ThemeToggle } from "@/components/theme-toggle";
 import questionsData from "@/data/questions.json";
 
 const categories = [
@@ -91,8 +90,6 @@ export default function HomePage() {
               <Link href="/test/review" className="px-3 py-2 text-sm font-bold hover:bg-muted transition-colors">
                 Questions
               </Link>
-              <div className="w-px h-6 bg-border mx-2 hidden sm:block" />
-              <ThemeToggle />
             </nav>
           </div>
         </div>

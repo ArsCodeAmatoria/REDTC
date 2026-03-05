@@ -5,7 +5,6 @@ import Link from "next/link";
 import { ArrowLeft, ArrowRight, RotateCcw, Check, X, Home, PawPrint } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { QuestionCard, ProgressBar } from "@/components/quiz";
-import { ThemeToggle } from "@/components/theme-toggle";
 import { useTest } from "@/hooks/use-test";
 import questionsData from "@/data/questions.json";
 import type { Question } from "@/types/question";
@@ -48,7 +47,6 @@ export default function TestPage() {
                 </div>
                 <span className="font-display text-xl font-bold tracking-tight hidden sm:block">REDTC</span>
               </Link>
-              <ThemeToggle />
             </div>
           </div>
         </header>
@@ -162,7 +160,6 @@ export default function TestPage() {
               <span className="text-sm text-muted-foreground hidden sm:block">
                 {passPercentage}% to pass
               </span>
-              <ThemeToggle />
             </div>
           </div>
         </div>
