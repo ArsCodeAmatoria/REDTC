@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, Home, ChevronDown, PawPrint } from "lucide-react";
+import { ArrowLeft, ArrowRight, Home, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { QuestionCard } from "@/components/quiz";
 import questionsData from "@/data/questions.json";
@@ -99,7 +99,7 @@ export default function ReviewPage() {
           <div className="flex items-center justify-between h-14">
             <Link href="/" className="flex items-center gap-2">
               <div className="w-8 h-8 bg-accent flex items-center justify-center">
-                <PawPrint className="w-5 h-5 text-accent-foreground" strokeWidth={2.5} />
+                <span className="text-xl font-black text-accent-foreground">R</span>
               </div>
               <span className="font-display text-xl font-bold tracking-tight hidden sm:block">REDTC</span>
             </Link>

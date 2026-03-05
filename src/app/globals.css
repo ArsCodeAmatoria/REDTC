@@ -4,20 +4,6 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 8%;
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 8%;
-    --muted: 0 0% 96%;
-    --muted-foreground: 0 0% 45%;
-    --border: 0 0% 90%;
-    --ring: 0 0% 8%;
-    --radius: 0px;
-    --accent: 50 100% 50%;
-    --accent-foreground: 0 0% 8%;
-  }
-
-  .dark {
     --background: 0 0% 7%;
     --foreground: 0 0% 98%;
     --card: 0 0% 10%;
@@ -26,6 +12,7 @@
     --muted-foreground: 0 0% 55%;
     --border: 0 0% 20%;
     --ring: 0 0% 98%;
+    --radius: 0px;
     --accent: 50 100% 50%;
     --accent-foreground: 0 0% 8%;
   }
