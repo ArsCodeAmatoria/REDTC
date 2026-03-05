@@ -1,26 +1,17 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, RotateCcw, Check, X, Home, Clock, Trophy, Zap, Star, BookOpen, Target, HardHat } from "lucide-react";
+import { ArrowLeft, ArrowRight, RotateCcw, Check, X, Home, Clock, BookOpen, Target, HardHat, Timer, BarChart3 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { QuestionCard, ProgressBar } from "@/components/quiz";
 import { useTest } from "@/hooks/use-test";
-import { useGameStats } from "@/hooks/use-game-stats";
-import { BADGES } from "@/lib/gamification";
 import questionsData from "@/data/questions.json";
 import type { Question } from "@/types/question";
 
 const questions = questionsData as Question[];
 const TOTAL_QUESTIONS = questions.length;
-
-interface LeaderboardEntry {
-  name: string;
-  score: number;
-  time: number;
-  date: string;
-}
 
 function formatTime(ms: number): string {
   const seconds = Math.floor(ms / 1000);
@@ -30,24 +21,6 @@ function formatTime(ms: number): string {
     return `${minutes}m ${remainingSeconds}s`;
   }
   return `${remainingSeconds}s`;
-}
-
-function getLeaderboard(): LeaderboardEntry[] {
-  if (typeof window === "undefined") return [];
-  const stored = localStorage.getItem("redtc-leaderboard");
-  return stored ? JSON.parse(stored) : [];
-}
-
-function saveToLeaderboard(entry: LeaderboardEntry): LeaderboardEntry[] {
-  const leaderboard = getLeaderboard();
-  leaderboard.push(entry);
-  leaderboard.sort((a, b) => {
-    if (b.score !== a.score) return b.score - a.score;
-    return a.time - b.time;
-  });
-  const top10 = leaderboard.slice(0, 10);
-  localStorage.setItem("redtc-leaderboard", JSON.stringify(top10));
-  return top10;
 }
 
 export default function TestPage() {
@@ -73,54 +46,7 @@ export default function TestPage() {
     passPercentage,
     totalTestTime,
     timingStats,
-    questionTimings,
   } = useTest(questions);
-
-  const [playerName, setPlayerName] = useState("");
-  const [leaderboard, setLeaderboard] = useState<LeaderboardEntry[]>([]);
-  const [hasSubmitted, setHasSubmitted] = useState(false);
-  const hasRecordedStats = useRef(false);
-
-  const {
-    stats,
-    levelInfo,
-    newlyUnlockedBadges,
-    completeTest,
-    clearNewBadges,
-  } = useGameStats();
-
-  useEffect(() => {
-    setLeaderboard(getLeaderboard());
-  }, []);
-
-  // Record game stats when test completes
-  useEffect(() => {
-    if (isComplete && !hasRecordedStats.current && totalTestTime > 0) {
-      hasRecordedStats.current = true;
-      completeTest({
-        correctCount: results.correctCount,
-        totalQuestions: results.totalQuestions,
-        totalTime: totalTestTime,
-        questionTimings: questionTimings,
-        passed: results.passed,
-        isPerfect: results.percentage === 100,
-        categories: [],
-      });
-    }
-  }, [isComplete, totalTestTime, results, completeTest, questionTimings]);
-
-  const handleSubmitScore = () => {
-    if (!playerName.trim()) return;
-    const entry: LeaderboardEntry = {
-      name: playerName.trim(),
-      score: results.percentage,
-      time: totalTestTime,
-      date: new Date().toLocaleDateString(),
-    };
-    const updated = saveToLeaderboard(entry);
-    setLeaderboard(updated);
-    setHasSubmitted(true);
-  };
 
   // Start screen
   if (!hasStarted) {
@@ -259,9 +185,9 @@ export default function TestPage() {
     const isPassed = results.passed;
     
     return (
-      <div className="min-h-screen">
+      <div className="min-h-screen flex flex-col">
         {/* Header */}
-        <header className="border-b border-border sticky top-0 bg-background/95 backdrop-blur z-50">
+        <header className="border-b border-border">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-14">
               <Link href="/" className="flex items-center gap-2">
@@ -274,221 +200,152 @@ export default function TestPage() {
           </div>
         </header>
 
-        <div className="max-w-2xl mx-auto px-4 py-12 md:py-16">
+        <div className="flex-1 px-4 py-12 md:py-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="space-y-8"
+            className="max-w-2xl mx-auto space-y-10"
           >
-            {/* Result */}
-            <div className="text-center space-y-6">
-              <motion.div
-                initial={{ scale: 0 }}
-                animate={{ scale: 1 }}
-                transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
-                className={`w-20 h-20 mx-auto flex items-center justify-center ${
-                  isPassed ? "bg-accent" : "bg-muted"
-                }`}
-              >
-                {isPassed ? (
-                  <Check className="w-10 h-10 text-accent-foreground" strokeWidth={2.5} />
-                ) : (
-                  <X className="w-10 h-10 text-muted-foreground" strokeWidth={2.5} />
-                )}
-              </motion.div>
-
-              <div>
-                <span className={`category-label ${!isPassed && 'text-muted-foreground'}`}>
-                  {isPassed ? "Passed" : "Not Passed"}
-                </span>
-                <h1 className="font-display text-6xl md:text-7xl font-bold mt-2">
+            {/* Result Header */}
+            <div className="text-center space-y-4">
+              <span className={`category-label ${!isPassed && 'text-muted-foreground'}`}>
+                {isPassed ? "Test Passed" : "Test Not Passed"}
+              </span>
+              <div className="flex items-center justify-center gap-4">
+                <motion.div
+                  initial={{ scale: 0 }}
+                  animate={{ scale: 1 }}
+                  transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
+                  className={`w-16 h-16 flex items-center justify-center ${
+                    isPassed ? "bg-accent" : "bg-muted"
+                  }`}
+                >
+                  {isPassed ? (
+                    <Check className="w-8 h-8 text-accent-foreground" strokeWidth={2.5} />
+                  ) : (
+                    <X className="w-8 h-8 text-muted-foreground" strokeWidth={2.5} />
+                  )}
+                </motion.div>
+                <h1 className="font-display text-6xl md:text-7xl font-bold">
                   {results.percentage}%
                 </h1>
               </div>
+              <p className="text-muted-foreground">
+                {isPassed 
+                  ? "Great work! You've demonstrated solid knowledge of tower crane operations."
+                  : `You need ${passPercentage}% to pass. Review the material and try again.`
+                }
+              </p>
+            </div>
+
+            {/* Score Breakdown */}
+            <div className="grid grid-cols-2 gap-4">
+              <div className="text-center p-6 border border-border bg-muted/20">
+                <div className="text-4xl font-display font-bold text-accent">{results.correctCount}</div>
+                <div className="text-sm text-muted-foreground mt-2">Correct Answers</div>
+              </div>
+              <div className="text-center p-6 border border-border bg-muted/20">
+                <div className="text-4xl font-display font-bold">{results.incorrectCount}</div>
+                <div className="text-sm text-muted-foreground mt-2">Incorrect Answers</div>
+              </div>
             </div>
 
             <div className="h-px bg-border" />
 
-            {/* Stats Grid */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-              <div className="text-center p-4 bg-muted/30 border border-border">
-                <div className="text-2xl font-display font-bold text-accent">{results.correctCount}</div>
-                <div className="text-xs text-muted-foreground mt-1">Correct</div>
-              </div>
-              <div className="text-center p-4 bg-muted/30 border border-border">
-                <div className="text-2xl font-display font-bold">{results.incorrectCount}</div>
-                <div className="text-xs text-muted-foreground mt-1">Incorrect</div>
-              </div>
-              <div className="text-center p-4 bg-muted/30 border border-border">
-                <div className="text-2xl font-display font-bold flex items-center justify-center gap-1">
-                  <Clock className="w-4 h-4 text-muted-foreground" />
-                  {formatTime(totalTestTime)}
+            {/* Time Statistics */}
+            <div className="space-y-6">
+              <h2 className="font-display text-xl font-bold text-center">Time Statistics</h2>
+              <div className="grid sm:grid-cols-3 gap-4">
+                <div className="flex flex-col items-center text-center p-4 space-y-2">
+                  <div className="w-10 h-10 bg-accent/10 border border-accent/20 flex items-center justify-center">
+                    <Clock className="w-5 h-5 text-accent" />
+                  </div>
+                  <div className="text-2xl font-display font-bold">{formatTime(totalTestTime)}</div>
+                  <p className="text-xs text-muted-foreground">Total Time</p>
                 </div>
-                <div className="text-xs text-muted-foreground mt-1">Total Time</div>
-              </div>
-              <div className="text-center p-4 bg-muted/30 border border-border">
-                <div className="text-2xl font-display font-bold flex items-center justify-center gap-1">
-                  <Zap className="w-4 h-4 text-muted-foreground" />
-                  {formatTime(timingStats.average)}
+                <div className="flex flex-col items-center text-center p-4 space-y-2">
+                  <div className="w-10 h-10 bg-accent/10 border border-accent/20 flex items-center justify-center">
+                    <Timer className="w-5 h-5 text-accent" />
+                  </div>
+                  <div className="text-2xl font-display font-bold">{formatTime(timingStats.average)}</div>
+                  <p className="text-xs text-muted-foreground">Average per Question</p>
                 </div>
-                <div className="text-xs text-muted-foreground mt-1">Avg/Question</div>
+                <div className="flex flex-col items-center text-center p-4 space-y-2">
+                  <div className="w-10 h-10 bg-accent/10 border border-accent/20 flex items-center justify-center">
+                    <BarChart3 className="w-5 h-5 text-accent" />
+                  </div>
+                  <div className="text-2xl font-display font-bold">{formatTime(timingStats.fastest)}</div>
+                  <p className="text-xs text-muted-foreground">Fastest Answer</p>
+                </div>
               </div>
             </div>
-
-            {/* Time Stats */}
-            <div className="flex justify-center gap-8 text-sm text-muted-foreground">
-              <div>Fastest: <span className="text-foreground font-medium">{formatTime(timingStats.fastest)}</span></div>
-              <div>Slowest: <span className="text-foreground font-medium">{formatTime(timingStats.slowest)}</span></div>
-            </div>
-
-            {/* XP and Level */}
-            <div className="bg-muted/30 border border-border p-4 space-y-3">
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  <Star className="w-5 h-5 text-accent" />
-                  <span className="font-bold">Level {levelInfo.level}</span>
-                  <span className="text-muted-foreground">· {levelInfo.name}</span>
-                </div>
-                <span className="text-accent font-bold">{stats.xp} XP</span>
-              </div>
-              <div className="h-2 bg-muted">
-                <div 
-                  className="h-full bg-accent transition-all duration-500"
-                  style={{ width: `${levelInfo.progress}%` }}
-                />
-              </div>
-              <div className="text-xs text-muted-foreground text-center">
-                {levelInfo.currentXp} / {levelInfo.nextLevelXp} XP to next level
-              </div>
-            </div>
-
-            {/* New Badges */}
-            {newlyUnlockedBadges.length > 0 && (
-              <motion.div
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
-                className="bg-accent/10 border border-accent p-4 space-y-3"
-              >
-                <div className="flex items-center gap-2 text-accent">
-                  <Trophy className="w-5 h-5" />
-                  <span className="font-bold">New Badge{newlyUnlockedBadges.length > 1 ? 's' : ''} Unlocked!</span>
-                </div>
-                <div className="flex flex-wrap gap-3">
-                  {newlyUnlockedBadges.map((badgeId) => {
-                    const badge = BADGES.find((b) => b.id === badgeId);
-                    if (!badge) return null;
-                    return (
-                      <div key={badgeId} className="flex items-center gap-2 bg-background px-3 py-2 border border-border">
-                        <span className="text-2xl">{badge.icon}</span>
-                        <div>
-                          <div className="font-medium text-sm">{badge.name}</div>
-                          <div className="text-xs text-muted-foreground">{badge.description}</div>
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-              </motion.div>
-            )}
-
-            <p className="text-center text-sm text-muted-foreground">
-              Required: {passPercentage}% · From {totalQuestionsInBank} total questions
-            </p>
 
             <div className="h-px bg-border" />
 
-            {/* Leaderboard Entry */}
-            {!hasSubmitted ? (
-              <div className="space-y-4">
-                <div className="flex items-center gap-2">
-                  <Trophy className="w-5 h-5 text-accent" />
-                  <span className="font-bold">Add to Leaderboard</span>
+            {/* Test Info */}
+            <div className="space-y-4">
+              <h2 className="font-display text-xl font-bold text-center">Test Details</h2>
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                <div className="text-center p-3 border border-border">
+                  <div className="text-lg font-bold">{totalQuestions}</div>
+                  <div className="text-xs text-muted-foreground">Questions</div>
                 </div>
-                <div className="flex gap-2">
-                  <input
-                    type="text"
-                    placeholder="Enter your name"
-                    value={playerName}
-                    onChange={(e) => setPlayerName(e.target.value)}
-                    onKeyDown={(e) => e.key === "Enter" && handleSubmitScore()}
-                    className="flex-1 px-4 py-2 bg-muted border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-accent"
-                    maxLength={20}
-                  />
-                  <Button onClick={handleSubmitScore} disabled={!playerName.trim()}>
-                    Submit
-                  </Button>
+                <div className="text-center p-3 border border-border">
+                  <div className="text-lg font-bold">{passPercentage}%</div>
+                  <div className="text-xs text-muted-foreground">Pass Rate</div>
+                </div>
+                <div className="text-center p-3 border border-border">
+                  <div className="text-lg font-bold">{totalQuestionsInBank}</div>
+                  <div className="text-xs text-muted-foreground">In Question Bank</div>
+                </div>
+                <div className="text-center p-3 border border-border">
+                  <div className="text-lg font-bold">{formatTime(timingStats.slowest)}</div>
+                  <div className="text-xs text-muted-foreground">Slowest Answer</div>
                 </div>
               </div>
-            ) : (
-              <div className="text-center text-sm text-accent font-medium">
-                Score submitted!
-              </div>
-            )}
+            </div>
 
-            {/* Leaderboard */}
-            {leaderboard.length > 0 && (
-              <div className="space-y-4">
-                <div className="flex items-center gap-2">
-                  <Trophy className="w-5 h-5 text-accent" />
-                  <span className="font-bold">Top 10 Leaderboard</span>
-                </div>
-                <div className="border border-border divide-y divide-border">
-                  {leaderboard.map((entry, index) => (
-                    <div
-                      key={index}
-                      className={`flex items-center justify-between px-4 py-3 ${
-                        index === 0 ? "bg-accent/10" : index < 3 ? "bg-muted/30" : ""
-                      }`}
-                    >
-                      <div className="flex items-center gap-3">
-                        <span className={`w-6 text-center font-bold ${
-                          index === 0 ? "text-accent" : "text-muted-foreground"
-                        }`}>
-                          {index + 1}
-                        </span>
-                        <span className="font-medium">{entry.name}</span>
-                      </div>
-                      <div className="flex items-center gap-4 text-sm">
-                        <span className="text-muted-foreground">{formatTime(entry.time)}</span>
-                        <span className={`font-bold ${entry.score >= 70 ? "text-accent" : ""}`}>
-                          {entry.score}%
-                        </span>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
+            <div className="h-px bg-border" />
+
+            {/* Next Steps */}
+            <div className="space-y-4">
+              <h2 className="font-display text-xl font-bold text-center">
+                {isPassed ? "Keep Practicing" : "Next Steps"}
+              </h2>
+              <p className="text-center text-sm text-muted-foreground max-w-md mx-auto">
+                {isPassed 
+                  ? "Continue practicing to reinforce your knowledge. Try the Master Exam for a more comprehensive challenge."
+                  : "Review the questions you missed and focus on those topic areas. Consistent practice is key to passing the Red Seal exam."
+                }
+              </p>
+            </div>
 
             <div className="h-px bg-border" />
 
             {/* Actions */}
             <div className="space-y-3">
               <Button 
-                onClick={() => {
-                  setHasSubmitted(false);
-                  setPlayerName("");
-                  hasRecordedStats.current = false;
-                  clearNewBadges();
-                  resetTest();
-                }} 
-                className={`w-full ${isPassed ? 'bg-accent text-accent-foreground hover:bg-accent/90' : ''}`}
-                size="lg"
+                onClick={() => resetTest()} 
+                className="w-full bg-accent text-accent-foreground hover:bg-accent/90 h-14 text-lg font-bold"
               >
-                <RotateCcw className="mr-2 h-4 w-4" />
+                <RotateCcw className="mr-2 h-5 w-5" />
                 {isPassed ? "Practice Again" : "Try Again"}
               </Button>
-              <Link href="/test/review" className="block">
-                <Button variant="outline" className="w-full" size="lg">
-                  Review All Questions
-                </Button>
-              </Link>
-              <Link href="/" className="block">
-                <Button variant="ghost" className="w-full" size="lg">
-                  <Home className="mr-2 h-4 w-4" />
-                  Back to Home
-                </Button>
+              <div className="grid sm:grid-cols-2 gap-3">
+                <Link href="/test/master" className="block">
+                  <Button variant="outline" className="w-full" size="lg">
+                    Try Master Exam
+                  </Button>
+                </Link>
+                <Link href="/test/review" className="block">
+                  <Button variant="outline" className="w-full" size="lg">
+                    Review All Questions
+                  </Button>
+                </Link>
+              </div>
+              <Link href="/" className="block text-center text-sm text-muted-foreground hover:text-foreground transition-colors pt-2">
+                ← Back to Home
               </Link>
             </div>
           </motion.div>
