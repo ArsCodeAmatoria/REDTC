@@ -3,8 +3,13 @@
 import { useState, useCallback, useMemo, useEffect } from "react";
 import type { Question, TestState, TestResult } from "@/types/question";
 
-const QUESTIONS_PER_TEST = 10;
-const PASS_PERCENTAGE = 70;
+const DEFAULT_QUESTIONS_PER_TEST = 10;
+const DEFAULT_PASS_PERCENTAGE = 70;
+
+interface TestOptions {
+  questionsPerTest?: number;
+  passPercentage?: number;
+}
 
 function shuffleArray<T>(array: T[]): T[] {
   const shuffled = [...array];
@@ -15,7 +20,9 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled;
 }
 
-export function useTest(allQuestions: Question[]) {
+export function useTest(allQuestions: Question[], options: TestOptions = {}) {
+  const questionsPerTest = options.questionsPerTest || DEFAULT_QUESTIONS_PER_TEST;
+  const passPercentage = options.passPercentage || DEFAULT_PASS_PERCENTAGE;
   const [testQuestions, setTestQuestions] = useState<Question[]>([]);
   const [state, setState] = useState<TestState>({
     currentQuestionIndex: 0,
@@ -26,8 +33,8 @@ export function useTest(allQuestions: Question[]) {
 
   useEffect(() => {
     const shuffled = shuffleArray(allQuestions);
-    setTestQuestions(shuffled.slice(0, QUESTIONS_PER_TEST));
-  }, [allQuestions]);
+    setTestQuestions(shuffled.slice(0, questionsPerTest));
+  }, [allQuestions, questionsPerTest]);
 
   const currentQuestion = useMemo(
     () => testQuestions[state.currentQuestionIndex],
@@ -95,14 +102,14 @@ export function useTest(allQuestions: Question[]) {
 
   const resetTest = useCallback(() => {
     const shuffled = shuffleArray(allQuestions);
-    setTestQuestions(shuffled.slice(0, QUESTIONS_PER_TEST));
+    setTestQuestions(shuffled.slice(0, questionsPerTest));
     setState({
       currentQuestionIndex: 0,
       answers: {},
       showExplanation: false,
       isComplete: false,
     });
-  }, [allQuestions]);
+  }, [allQuestions, questionsPerTest]);
 
   const results = useMemo((): TestResult & { passed: boolean; passPercentage: number } => {
     const correctCount = testQuestions.reduce((count, question) => {
@@ -133,10 +140,10 @@ export function useTest(allQuestions: Question[]) {
       incorrectCount: testQuestions.length - correctCount,
       percentage,
       answers: answersWithResults,
-      passed: percentage >= PASS_PERCENTAGE,
-      passPercentage: PASS_PERCENTAGE,
+      passed: percentage >= passPercentage,
+      passPercentage,
     };
-  }, [testQuestions, state.answers]);
+  }, [testQuestions, state.answers, passPercentage]);
 
   const answeredCount = Object.keys(state.answers).length;
   const canGoNext = state.showExplanation;
@@ -161,7 +168,7 @@ export function useTest(allQuestions: Question[]) {
     canGoNext,
     canGoPrevious,
     isLastQuestion,
-    questionsPerTest: QUESTIONS_PER_TEST,
-    passPercentage: PASS_PERCENTAGE,
+    questionsPerTest,
+    passPercentage,
   };
 }

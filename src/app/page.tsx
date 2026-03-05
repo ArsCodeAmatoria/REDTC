@@ -3,9 +3,10 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, BookOpen, Clock, Target, CheckCircle, ChevronRight, Award, HardHat, FileText, GraduationCap, Shield, BookMarked, Building2 } from "lucide-react";
+import { ArrowRight, BookOpen, Clock, Target, CheckCircle, ChevronRight, Award, HardHat, FileText, GraduationCap, Shield, BookMarked, Building2, Timer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/theme-toggle";
+import questionsData from "@/data/questions.json";
 
 const categories = [
   { name: "Safety & Legislation", count: 20, color: "bg-accent" },
@@ -84,6 +85,9 @@ export default function HomePage() {
               <Link href="/test" className="px-3 py-2 text-sm font-medium hover:bg-muted transition-colors">
                 Practice
               </Link>
+              <Link href="/test/master" className="px-3 py-2 text-sm font-medium hover:bg-muted transition-colors hidden sm:block">
+                Master
+              </Link>
               <Link href="/test/review" className="px-3 py-2 text-sm font-medium hover:bg-muted transition-colors">
                 Questions
               </Link>
@@ -150,9 +154,10 @@ export default function HomePage() {
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </Button>
                   </Link>
-                  <Link href="/test/review">
+                  <Link href="/test/master">
                     <Button size="lg" variant="outline" className="w-full sm:w-auto">
-                      Browse All Questions
+                      <Timer className="mr-2 h-4 w-4" />
+                      Master Exam
                     </Button>
                   </Link>
                 </div>
@@ -652,22 +657,26 @@ export default function HomePage() {
               Start your exam preparation now
             </h2>
             <p className="text-muted-foreground">
-              10 random questions · 70% to pass · Detailed explanations for every answer
+              Choose a quick 10-question practice or simulate the full Red Seal exam
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-2">
               <Link href="/test">
                 <Button size="lg" className="w-full sm:w-auto bg-accent text-accent-foreground hover:bg-accent/90">
-                  Begin Practice Test
+                  Practice Test
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link>
-              <Link href="/test/review">
+              <Link href="/test/master">
                 <Button size="lg" variant="outline" className="w-full sm:w-auto">
-                  <BookOpen className="mr-2 h-4 w-4" />
-                  Browse Question Bank
+                  <Timer className="mr-2 h-4 w-4" />
+                  Master Exam (4 hrs)
                 </Button>
               </Link>
             </div>
+            <Link href="/test/review" className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-accent transition-colors">
+              Or browse all {questionsData.length} questions
+              <ChevronRight className="w-4 h-4" />
+            </Link>
           </div>
         </div>
       </section>
