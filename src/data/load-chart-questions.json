@@ -1720,6 +1720,188 @@
           "correctAnswer": "b"
         }
       ]
+    },
+    {
+      "id": "terex-sk-415-20",
+      "name": "Terex SK 415-20",
+      "manufacturer": "Terex",
+      "model": "SK 415-20",
+      "type": "hammerhead",
+      "pdfFile": "terexsk41520.pdf",
+      "description": "Hammerhead tower crane with 263 ft (80m) max jib. 44,093 lb (20t) max capacity. Imperial units. Features 2-fall and 4-fall configurations.",
+      "specifications": {
+        "maxCapacity": "44,093 lb (20 t)",
+        "maxJibLength": "263 ft (80 m)",
+        "tipCapacity": "5,071 lb (2-fall) / 3,307 lb (4-fall)",
+        "maxTowerHeight": "225.1 ft (C25)"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": "What type of crane is the Terex SK 415-20?",
+          "options": [
+            { "id": "a", "text": "Flat-top tower crane", "explanation": "Incorrect. Flat-top cranes have no cathead/peak structure above the jib." },
+            { "id": "b", "text": "Hammerhead tower crane", "explanation": "Correct. The SK 415-20 is a hammerhead design, featuring a distinctive 'A-frame' structure above the jib that houses the hoisting mechanism. The 'SK' designation indicates Terex's hammerhead series." },
+            { "id": "c", "text": "Luffing jib crane", "explanation": "Incorrect. Luffing jibs pivot to change radius - this crane uses trolley travel." },
+            { "id": "d", "text": "Self-erecting crane", "explanation": "Incorrect. The SK series requires mobile crane assembly." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 2,
+          "question": "CRITICAL: This load chart uses which unit system?",
+          "options": [
+            { "id": "a", "text": "Metric (tonnes, meters)", "explanation": "Incorrect. This chart uses imperial units, not metric." },
+            { "id": "b", "text": "Imperial (pounds, feet) - US market specification", "explanation": "Correct. The SK 415-20 chart uses imperial units: capacity in pounds (lb), radius in feet (ft). This is typical for US market crane specifications. Example: 44,093 lb = 20 tonnes, 263 ft = 80 m." },
+            { "id": "c", "text": "Mixed units (tonnes and feet)", "explanation": "Incorrect. The chart consistently uses imperial throughout." },
+            { "id": "d", "text": "SI units (Newtons, meters)", "explanation": "Incorrect. SI units are not used in crane load charts." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 3,
+          "question": "What is the maximum lifting capacity of the SK 415-20?",
+          "options": [
+            { "id": "a", "text": "22,046 lb (10 tonnes)", "explanation": "Incorrect. This is the 2-fall line capacity, not maximum." },
+            { "id": "b", "text": "44,093 lb (20 tonnes)", "explanation": "Correct. Maximum capacity is 44,093 lb, which equals 20 tonnes. This is achieved using the 4-fall (MC) line configuration at minimum radius." },
+            { "id": "c", "text": "5,071 lb", "explanation": "Incorrect. This is the tip capacity with 2-fall line." },
+            { "id": "d", "text": "66,000 lb", "explanation": "Incorrect. This exceeds the crane's maximum rating." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 4,
+          "question": "The chart shows two capacity lines: '22,046 lb' and '44,093 lb'. What do these represent?",
+          "options": [
+            { "id": "a", "text": "Different jib lengths", "explanation": "Incorrect. These are reeving configurations, not jib lengths." },
+            { "id": "b", "text": "2-fall (22,046 lb max) and 4-fall (44,093 lb max) reeving configurations", "explanation": "Correct. The 22,046 lb line uses 2-fall reeving for faster hoisting of lighter loads. The 44,093 lb (MC) line uses 4-fall reeving for maximum capacity but slower speeds. The 4-fall doubles capacity but halves speed." },
+            { "id": "c", "text": "Standard and Power Plus modes", "explanation": "Incorrect. This crane doesn't use Power Plus mode distinction." },
+            { "id": "d", "text": "Working and test capacities", "explanation": "Incorrect. Both are working capacities with different reeving." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 5,
+          "question": "Using the 262.5 ft jib with 2-fall (22,046 lb) line, what is the capacity at 164 ft radius?",
+          "options": [
+            { "id": "a", "text": "10,141 lb", "explanation": "Incorrect. This is the capacity at 147.6 ft radius." },
+            { "id": "b", "text": "8,378 lb", "explanation": "Correct. At 164 ft radius with the 262.5 ft jib using 2-fall line, capacity is 8,378 lb (approximately 3.8 tonnes)." },
+            { "id": "c", "text": "22,046 lb", "explanation": "Incorrect. Full 22,046 lb is only available at close radii." },
+            { "id": "d", "text": "5,071 lb", "explanation": "Incorrect. This is the tip capacity at 262.5 ft." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 6,
+          "question": "Using the 196.9 ft jib with 4-fall (44,093 lb) line, what is the capacity at 65.6 ft radius?",
+          "options": [
+            { "id": "a", "text": "22,046 lb", "explanation": "Incorrect. This is the 2-fall line capacity at this radius." },
+            { "id": "b", "text": "44,093 lb", "explanation": "Correct. At 65.6 ft minimum radius with the 196.9 ft jib using 4-fall (MC) line, full 44,093 lb capacity is available." },
+            { "id": "c", "text": "14,330 lb", "explanation": "Incorrect. This is the tip capacity for this jib configuration." },
+            { "id": "d", "text": "31,306 lb", "explanation": "Incorrect. Check the 4-fall line at minimum radius." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 7,
+          "question": "TRAP: Converting the tip capacity of the 262.5 ft jib (2-fall line): 5,071 lb equals approximately how many tonnes?",
+          "options": [
+            { "id": "a", "text": "5.07 tonnes", "explanation": "Incorrect. You cannot simply move the decimal point - 1 tonne ≠ 1,000 lb." },
+            { "id": "b", "text": "2.3 tonnes (5,071 lb ÷ 2,205 lb/tonne)", "explanation": "Correct. 1 metric tonne = 2,205 lb. So 5,071 lb ÷ 2,205 = 2.3 tonnes. Always verify unit conversions on imperial charts!" },
+            { "id": "c", "text": "11.2 tonnes", "explanation": "Incorrect. This is the wrong conversion factor." },
+            { "id": "d", "text": "0.5 tonnes", "explanation": "Incorrect. This significantly underestimates the capacity." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 8,
+          "question": "How many counterweight blocks are required for the 262.5 ft jib configuration?",
+          "options": [
+            { "id": "a", "text": "6 blocks", "explanation": "Incorrect. More counterweight is needed for maximum jib length." },
+            { "id": "b", "text": "8 blocks of 6,834 lb each (54,672 lb total)", "explanation": "Correct. The counterweight specification shows 'Bg (6,834 lb) × 8' for the longest jib configurations. 8 × 6,834 = 54,672 lb (approximately 24.8 tonnes) of counterweight." },
+            { "id": "c", "text": "4 blocks", "explanation": "Incorrect. This is insufficient for the longest jib." },
+            { "id": "d", "text": "10 blocks", "explanation": "Incorrect. Check the counterweight table for 262.5 ft jib." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 9,
+          "question": "What is the maximum under-hook height for the SK 415-20?",
+          "options": [
+            { "id": "a", "text": "186.4 ft", "explanation": "Incorrect. Higher configurations are available." },
+            { "id": "b", "text": "225.1 ft (approximately 68.6 m) with C25 rating", "explanation": "Correct. Maximum hook height is 225.1 ft using the TS 212 tower sections with appropriate basement configuration under EN 14439-C25 standards." },
+            { "id": "c", "text": "263 ft", "explanation": "Incorrect. This is the maximum jib length, not hook height." },
+            { "id": "d", "text": "300 ft", "explanation": "Incorrect. This exceeds the specified maximum." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 10,
+          "question": "According to the hoist mechanism data, what is the hoisting speed when lifting 44,093 lb (maximum capacity)?",
+          "options": [
+            { "id": "a", "text": "91.9 ft/min", "explanation": "Incorrect. This is the speed for 22,046 lb (2-fall)." },
+            { "id": "b", "text": "45.9 ft/min", "explanation": "Correct. At maximum capacity (44,093 lb) using 4-fall reeving, hoisting speed is 45.9 ft/min - exactly half the 2-fall speed because doubling the mechanical advantage halves the speed." },
+            { "id": "c", "text": "367.5 ft/min", "explanation": "Incorrect. This is the speed for very light loads (5,512 lb)." },
+            { "id": "d", "text": "72.2 ft/min", "explanation": "Incorrect. This is for 31,306 lb loads." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 11,
+          "question": "What is the out-of-service wind speed rating specified in EN 14439-C25?",
+          "options": [
+            { "id": "a", "text": "50 km/h", "explanation": "Incorrect. This is lower than the actual rating." },
+            { "id": "b", "text": "100 km/h from any direction", "explanation": "Correct. The chart specifies EN 14439-C25 out-of-service proof with wind from each side at 100 km/h. This is the storm condition the crane must withstand when not operating." },
+            { "id": "c", "text": "150 km/h", "explanation": "Incorrect. This exceeds the C25 standard rating." },
+            { "id": "d", "text": "No wind rating specified", "explanation": "Incorrect. The chart clearly states the wind requirement." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 12,
+          "question": "What power supply does the SK 415-20 require?",
+          "options": [
+            { "id": "a", "text": "60 kVA, single phase", "explanation": "Incorrect. Tower cranes require three-phase power." },
+            { "id": "b", "text": "132 kVA, 480V-60Hz (US) or 400V-50Hz (EU), 3-phase", "explanation": "Correct. The crane requires 132 kVA three-phase power at either 480V/60Hz (US standard) or 400V/50Hz (European standard). This is significantly more power than smaller cranes." },
+            { "id": "c", "text": "220V residential power", "explanation": "Incorrect. Residential power is insufficient for tower cranes." },
+            { "id": "d", "text": "66 kVA only", "explanation": "Incorrect. 66 kW is the hoist motor power, not total power requirement." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 13,
+          "question": "COMPLEX: A load weighs 15,000 lb and needs to reach 180.4 ft radius. Using the 196.9 ft jib, which reeving configuration can make this lift?",
+          "options": [
+            { "id": "a", "text": "Only 2-fall (22,046 lb line)", "explanation": "Incorrect. Check the 2-fall capacity at 180.4 ft radius." },
+            { "id": "b", "text": "Only 4-fall (44,093 lb line) - 2-fall shows only 6,173 lb at 180.4 ft while 4-fall shows 16,094 lb", "explanation": "Correct. At 180.4 ft with 196.9 ft jib: 2-fall capacity is only 6,173 lb (insufficient). The 4-fall line shows 16,094 lb capacity (sufficient for 15,000 lb). You must use 4-fall reeving." },
+            { "id": "c", "text": "Either configuration works", "explanation": "Incorrect. The 2-fall line has insufficient capacity at this radius." },
+            { "id": "d", "text": "Neither - need longer jib", "explanation": "Incorrect. The 4-fall configuration can make this lift." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 14,
+          "question": "Converting the maximum jib length: 263 ft equals approximately how many meters?",
+          "options": [
+            { "id": "a", "text": "263 m", "explanation": "Incorrect. Feet and meters are not equivalent - 1 foot ≈ 0.3 meters." },
+            { "id": "b", "text": "80 m (263 ft ÷ 3.28 ft/m)", "explanation": "Correct. 1 meter = 3.28 feet. So 263 ft ÷ 3.28 = 80.2 m. This is important when comparing imperial and metric crane specifications." },
+            { "id": "c", "text": "26.3 m", "explanation": "Incorrect. This uses the wrong conversion factor." },
+            { "id": "d", "text": "150 m", "explanation": "Incorrect. This significantly overestimates the length." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 15,
+          "question": "TRAP: Why does the shorter 114.8 ft jib configuration show capacity of 31,747 lb at its tip (111.5 ft), while the longer 262.5 ft jib only shows 5,071 lb at the same radius (using 2-fall)?",
+          "options": [
+            { "id": "a", "text": "Chart printing error", "explanation": "Incorrect. This is correct engineering behavior." },
+            { "id": "b", "text": "The 114.8 ft jib uses 4-fall (MC) line at its tip, while the long jib table shows 2-fall capacity", "explanation": "Correct. The short jib configurations show 4-fall (44,093 lb line) capacity. At 111.5 ft: the short jib's 4-fall capacity is 31,747 lb. The 262.5 ft jib 2-fall capacity at similar radius (~114.8 ft) is 14,771 lb. Different reeving AND less jib weight both contribute to higher capacity." },
+            { "id": "c", "text": "Different counterweight settings", "explanation": "Incorrect. The main factors are reeving configuration and jib weight." },
+            { "id": "d", "text": "Wind speed differences", "explanation": "Incorrect. Wind isn't the factor here." }
+          ],
+          "correctAnswer": "b"
+        }
+      ]
     }
   ]
 }

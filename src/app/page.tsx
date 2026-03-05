@@ -10,7 +10,7 @@ import questionsData from "@/data/questions.json";
 
 const categories = [
   { name: "Load Charts & Parts of Line", count: 140, color: "bg-accent" },
-  { name: "PDF Load Chart Practice", count: 141, color: "bg-accent", isCharts: true },
+  { name: "PDF Load Chart Practice", count: 156, color: "bg-accent", isCharts: true },
   { name: "Advanced Operations & Traps", count: 95, color: "bg-foreground" },
   { name: "Master Level Questions", count: 100, color: "bg-foreground" },
   { name: "Rigging & Sling Angles", count: 85, color: "bg-foreground" },
@@ -571,6 +571,11 @@ export default function HomePage() {
                     <h4 className="font-semibold text-sm mt-1">CTT 222-10</h4>
                     <p className="text-xs text-muted-foreground">65m, 10t</p>
                   </div>
+                  <div className="bg-background border border-border p-4">
+                    <span className="text-xs text-accent font-medium">Terex</span>
+                    <h4 className="font-semibold text-sm mt-1">SK 415-20</h4>
+                    <p className="text-xs text-muted-foreground">263ft, 44k lb</p>
+                  </div>
                 </div>
               </div>
               
@@ -616,11 +621,11 @@ export default function HomePage() {
               {/* Stats */}
               <div className="bg-muted/30 border border-border p-4 flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-display font-bold">10</div>
+                  <div className="text-2xl font-display font-bold">11</div>
                   <div className="text-xs text-muted-foreground">Crane charts</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-display font-bold">141</div>
+                  <div className="text-2xl font-display font-bold">156</div>
                   <div className="text-xs text-muted-foreground">Questions</div>
                 </div>
                 <div>
@@ -667,7 +672,7 @@ export default function HomePage() {
                     </div>
                     <h3 className="font-medium mt-3 group-hover:text-accent transition-colors">{category.name}</h3>
                     <p className="text-sm text-muted-foreground mt-1">
-                      {(category as { isCharts?: boolean }).isCharts ? "10 crane charts" : `${category.count}+ questions`}
+                      {(category as { isCharts?: boolean }).isCharts ? "11 crane charts" : `${category.count}+ questions`}
                     </p>
                   </div>
                 </Link>
