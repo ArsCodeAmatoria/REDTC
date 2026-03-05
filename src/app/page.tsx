@@ -9,14 +9,14 @@ import { Header } from "@/components/layout/header";
 import questionsData from "@/data/questions.json";
 
 const categories = [
-  { name: "Safety & Legislation", count: 20, color: "bg-accent" },
-  { name: "Load Charts & Calculations", count: 30, color: "bg-foreground" },
-  { name: "Rigging & Slinging", count: 30, color: "bg-foreground" },
-  { name: "Crane Components", count: 30, color: "bg-foreground" },
-  { name: "Site Operations", count: 30, color: "bg-foreground" },
-  { name: "Inspection & Maintenance", count: 20, color: "bg-foreground" },
-  { name: "Climbing & Erection", count: 20, color: "bg-foreground" },
-  { name: "Troubleshooting", count: 20, color: "bg-foreground" },
+  { name: "Load Charts & Parts of Line", count: 100, color: "bg-accent" },
+  { name: "Rigging & Sling Angles", count: 50, color: "bg-foreground" },
+  { name: "Gear, Drive & Capacity Limits", count: 45, color: "bg-foreground" },
+  { name: "Safety & BC Regulations", count: 40, color: "bg-foreground" },
+  { name: "Crane Operations & Site", count: 80, color: "bg-foreground" },
+  { name: "Structural & Mechanical", count: 40, color: "bg-foreground" },
+  { name: "Master Level Questions", count: 90, color: "bg-foreground" },
+  { name: "Material Weight Calculations", count: 10, color: "bg-foreground" },
 ];
 
 const features = [
