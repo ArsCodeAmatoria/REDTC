@@ -295,6 +295,154 @@
           "correctAnswer": "a"
         }
       ]
+    },
+    {
+      "id": "liebherr-550-ec-h",
+      "name": "Liebherr 550 EC-H 20 Litronic",
+      "manufacturer": "Liebherr",
+      "model": "550 EC-H 20 Litronic",
+      "pdfFile": "liebherrech.pdf",
+      "description": "Heavy-duty hammerhead tower crane with 81.5m max jib, 20 tonne max capacity. Features LM 1/LM 2 modes and Speed2Lift technology.",
+      "specifications": {
+        "maxCapacity": "20,000 kg",
+        "maxJibLength": "81.5 m",
+        "tipCapacity": "3,500 kg (LM 1) / 4,000 kg (LM 2)",
+        "maxHoistHeight": "80 m"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the maximum lifting capacity of the 550 EC-H 20?",
+          "options": [
+            { "id": "a", "text": "18,000 kg", "explanation": "Incorrect. The crane can lift more than this at minimum radius." },
+            { "id": "b", "text": "20,000 kg", "explanation": "Correct. The 550 EC-H 20 has a maximum capacity of 20 tonnes (20,000 kg). The '20' in the model name indicates this rating." },
+            { "id": "c", "text": "25,000 kg", "explanation": "Incorrect. This exceeds the crane's rated capacity." },
+            { "id": "d", "text": "55,000 kg", "explanation": "Incorrect. The '550' refers to the crane model series, not capacity." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 2,
+          "question": "Using the LM 1 chart (81.5m jib), what is the capacity at the jib tip (81.5m radius)?",
+          "options": [
+            { "id": "a", "text": "3,500 kg", "explanation": "Correct. At 81.5m radius in LM 1 mode, the capacity is 3.50 tonnes (3,500 kg)." },
+            { "id": "b", "text": "4,000 kg", "explanation": "Incorrect. 4,000 kg is the tip capacity in LM 2 mode, not LM 1." },
+            { "id": "c", "text": "4,260 kg", "explanation": "Incorrect. This is the capacity at 71.5m radius." },
+            { "id": "d", "text": "5,000 kg", "explanation": "Incorrect. This is higher than the actual tip capacity." }
+          ],
+          "correctAnswer": "a"
+        },
+        {
+          "id": 3,
+          "question": "According to the chart notes, up to what hoisting height are the lifting capacities valid?",
+          "options": [
+            { "id": "a", "text": "50 m", "explanation": "Incorrect. The 550 EC-H allows higher hoisting heights." },
+            { "id": "b", "text": "80 m", "explanation": "Correct. The chart states 'Lifting capacities valid up to 80 m hoisting height.'" },
+            { "id": "c", "text": "100 m", "explanation": "Incorrect. This crane's standard capacities are valid to 80m, unlike some luffing cranes that go to 100m." },
+            { "id": "d", "text": "120 m", "explanation": "Incorrect. The stated limit is 80m." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 4,
+          "question": "Using LM 1 mode (81.5m jib), what is the capacity at 41.5m radius?",
+          "options": [
+            { "id": "a", "text": "7,460 kg", "explanation": "Incorrect. This is the capacity at 47.0m radius." },
+            { "id": "b", "text": "8,680 kg", "explanation": "Correct. At 41.5m radius with the 81.5m jib in LM 1 mode, capacity is 8.68 tonnes (8,680 kg)." },
+            { "id": "c", "text": "9,930 kg", "explanation": "Incorrect. This is the capacity at 37.0m radius." },
+            { "id": "d", "text": "11,320 kg", "explanation": "Incorrect. This is the capacity at 33.0m radius." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 5,
+          "question": "What does the 'r' value in parentheses (e.g., 'r = 83.7' for 81.5m jib) indicate?",
+          "options": [
+            { "id": "a", "text": "The rope length", "explanation": "Incorrect. The 'r' refers to radius, not rope." },
+            { "id": "b", "text": "The actual maximum radius including trolley position", "explanation": "Correct. The 'r' value indicates the true maximum working radius when the trolley is at the jib tip. For the 81.5m jib, the actual maximum radius is 83.7m." },
+            { "id": "c", "text": "The reinforced jib option", "explanation": "Incorrect. Reinforced is indicated by 'r' after the model number, not in this context." },
+            { "id": "d", "text": "The rotation speed", "explanation": "Incorrect. This is unrelated to slewing speed." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 6,
+          "question": "Comparing LM 1 and LM 2 modes at 81.5m radius (81.5m jib), what are the respective capacities?",
+          "options": [
+            { "id": "a", "text": "LM 1: 3,500 kg / LM 2: 4,000 kg", "explanation": "Correct. LM 2 mode provides 4.00 tonnes at the tip compared to 3.50 tonnes in LM 1 mode - an increase of 500 kg (14% improvement)." },
+            { "id": "b", "text": "LM 1: 4,000 kg / LM 2: 4,500 kg", "explanation": "Incorrect. These values are higher than actual." },
+            { "id": "c", "text": "LM 1: 3,000 kg / LM 2: 3,500 kg", "explanation": "Incorrect. These values are lower than actual." },
+            { "id": "d", "text": "LM 1: 3,500 kg / LM 2: 3,500 kg", "explanation": "Incorrect. LM 2 provides higher capacity than LM 1." }
+          ],
+          "correctAnswer": "a"
+        },
+        {
+          "id": 7,
+          "question": "A structural steel beam weighs 15,000 kg. Using LM 1 mode (81.5m jib), what is the maximum radius for this lift?",
+          "options": [
+            { "id": "a", "text": "21.0 m", "explanation": "Incorrect. Capacity at 21m is 18,700 kg - the crane can reach further." },
+            { "id": "b", "text": "25.0 m", "explanation": "Correct. At 25.0m, capacity is 15,340 kg (sufficient). At 29.0m, capacity drops to 13,070 kg which is less than the 15,000 kg load." },
+            { "id": "c", "text": "29.0 m", "explanation": "Incorrect. At 29m, capacity is only 13,070 kg which is insufficient." },
+            { "id": "d", "text": "33.0 m", "explanation": "Incorrect. Capacity at 33m is only 11,320 kg." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 8,
+          "question": "With the 61.5m jib (LM 1), what is the capacity at 41.5m radius?",
+          "options": [
+            { "id": "a", "text": "8,680 kg", "explanation": "Incorrect. This is the capacity with the 81.5m jib at 41.5m." },
+            { "id": "b", "text": "9,180 kg", "explanation": "Incorrect. This is the capacity at 47.0m with the 61.5m jib." },
+            { "id": "c", "text": "10,230 kg", "explanation": "Correct. With the shorter 61.5m jib, capacity at 41.5m is 10.23 tonnes (10,230 kg) - higher than with the 81.5m jib due to reduced jib weight and moment." },
+            { "id": "d", "text": "11,800 kg", "explanation": "Incorrect. This is the capacity at 37.0m with the 61.5m jib." }
+          ],
+          "correctAnswer": "c"
+        },
+        {
+          "id": 9,
+          "question": "What is the 'Speed2Lift' feature mentioned in the Liebherr Connect specifications?",
+          "options": [
+            { "id": "a", "text": "Increases lifting capacity", "explanation": "Incorrect. Speed2Lift is about speed optimization, not capacity." },
+            { "id": "b", "text": "Pure 2-fall operation with maximum hoist speed", "explanation": "Correct. Speed2Lift provides pure 2-fall operation with maximum hoist speed, optimizing productivity for lighter loads that don't require 4-fall reeving." },
+            { "id": "c", "text": "Doubles the slewing speed", "explanation": "Incorrect. Speed2Lift relates to hoisting, not slewing." },
+            { "id": "d", "text": "Automatic speed adjustment based on load", "explanation": "Incorrect. While some systems do this, Speed2Lift specifically refers to optimized 2-fall operation." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 10,
+          "question": "With the 51.5m jib (LM 1), what is the maximum capacity at minimum radius?",
+          "options": [
+            { "id": "a", "text": "18,140 kg", "explanation": "Incorrect. This is the capacity at 25.0m radius." },
+            { "id": "b", "text": "20,000 kg", "explanation": "Correct. At minimum radius with any jib configuration, the crane can achieve its maximum rated capacity of 20 tonnes." },
+            { "id": "c", "text": "16,050 kg", "explanation": "Incorrect. This is the capacity at 29.0m radius." },
+            { "id": "d", "text": "14,160 kg", "explanation": "Incorrect. This is the capacity at 33.0m radius." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 11,
+          "question": "If rigging weighs 800 kg and hook block weighs 1,200 kg, what is the maximum actual load weight at 61.5m radius (81.5m jib, LM 1) where chart shows 5,270 kg?",
+          "options": [
+            { "id": "a", "text": "5,270 kg", "explanation": "Incorrect. You must subtract rigging and hook block weight from capacity." },
+            { "id": "b", "text": "4,270 kg", "explanation": "Incorrect. This only subtracts 1,000 kg." },
+            { "id": "c", "text": "3,270 kg", "explanation": "Correct. 5,270 kg capacity - 800 kg rigging - 1,200 kg hook block = 3,270 kg available for the actual load." },
+            { "id": "d", "text": "2,270 kg", "explanation": "Incorrect. This subtracts too much." }
+          ],
+          "correctAnswer": "c"
+        },
+        {
+          "id": 12,
+          "question": "Why does the 41.5m jib configuration allow full 20 tonne capacity out to 35.6m radius, while the 81.5m jib only allows it to 19.8m?",
+          "options": [
+            { "id": "a", "text": "The 41.5m jib has a larger hook block", "explanation": "Incorrect. Hook block size doesn't explain this difference." },
+            { "id": "b", "text": "Shorter jibs weigh less and create smaller overturning moments", "explanation": "Correct. The shorter jib weighs less, so more of the crane's capacity can be used for the load rather than supporting jib weight. Additionally, shorter reach means smaller moment arms." },
+            { "id": "c", "text": "The 41.5m jib uses different steel", "explanation": "Incorrect. The material is the same." },
+            { "id": "d", "text": "Longer jibs require more counterweight", "explanation": "Incorrect. While true, this doesn't directly explain the capacity range difference." }
+          ],
+          "correctAnswer": "b"
+        }
+      ]
     }
   ]
 }
