@@ -708,10 +708,10 @@ export default function HomePage() {
             </div>
 
             {/* Right - Image Card */}
-            <div className="lg:col-span-1 hidden lg:block">
-              <div className="fixed top-20 right-8 xl:right-[calc((100vw-1280px)/2+2rem)] w-[380px]">
+            <div className="lg:col-span-1">
+              <div className="sticky top-20">
                 <div className="relative overflow-hidden border-2 border-border bg-background shadow-lg">
-                  <div className="relative h-[480px]">
+                  <div className="relative h-[500px]">
                     <Image
                       src="/images/resources.png"
                       alt="Tower crane operator"
@@ -719,7 +719,7 @@ export default function HomePage() {
                       className="object-cover"
                     />
                   </div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-background via-background/30 to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-8">
                     <span className="category-label">Certification</span>
                     <h3 className="font-display text-2xl font-bold mt-2">Build Your Career</h3>
