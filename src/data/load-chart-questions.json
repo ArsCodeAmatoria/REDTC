@@ -147,6 +147,154 @@
           "correctAnswer": "b"
         }
       ]
+    },
+    {
+      "id": "liebherr-195-hc-lh",
+      "name": "Liebherr 195 HC-LH 6/12",
+      "manufacturer": "Liebherr",
+      "model": "195 HC-LH 6/12",
+      "pdfFile": "liebherrhclh.pdf",
+      "description": "Luffing jib tower crane with 55m max jib. 6 tonne (single fall) / 12 tonne (2-fall) capacity. Features level luffing and Load-Plus modes.",
+      "specifications": {
+        "maxCapacity": "6,000 kg (1-fall) / 12,000 kg (2-fall)",
+        "maxJibLength": "55.0 m",
+        "tipCapacity": "2,150 kg (55m, single) / 1,600 kg (55m, 2-fall)",
+        "maxHoistHeight": "100 m"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": "What type of crane is the 195 HC-LH, and how does it differ from a flat-top crane?",
+          "options": [
+            { "id": "a", "text": "Flat-top crane with trolley travel", "explanation": "Incorrect. This describes a saddle jib crane, not the HC-LH." },
+            { "id": "b", "text": "Luffing jib crane that changes radius by raising/lowering the boom", "explanation": "Correct. The HC-LH is a luffing jib crane. Unlike flat-top cranes where the trolley travels along a horizontal jib, luffing cranes change radius by changing the boom angle (luffing up or down)." },
+            { "id": "c", "text": "Mobile crane on tracks", "explanation": "Incorrect. This is a tower crane, not a mobile crane." },
+            { "id": "d", "text": "Hammerhead crane with fixed counterweight", "explanation": "Incorrect. Hammerhead describes a different crane configuration." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 2,
+          "question": "What is the maximum lifting capacity of the 195 HC-LH when using 2-fall reeving?",
+          "options": [
+            { "id": "a", "text": "6,000 kg", "explanation": "Incorrect. 6,000 kg is the maximum for single-fall reeving." },
+            { "id": "b", "text": "8,000 kg", "explanation": "Incorrect. 8,000 kg is the 2-fall capacity with the 55m jib, not the absolute maximum." },
+            { "id": "c", "text": "10,000 kg", "explanation": "Incorrect. 10,000 kg is the 2-fall capacity with the 50m jib." },
+            { "id": "d", "text": "12,000 kg", "explanation": "Correct. With 2-fall reeving on the 40m or 45m jib, the crane can lift 12 tonnes (12,000 kg) at minimum radius. The '6/12' in the model name indicates these capacities." }
+          ],
+          "correctAnswer": "d"
+        },
+        {
+          "id": 3,
+          "question": "Using the LM 1 chart with 55m jib in 2-fall configuration, what is the capacity at 30.0m radius?",
+          "options": [
+            { "id": "a", "text": "3,330 kg", "explanation": "Incorrect. This is the single-fall capacity at 30m." },
+            { "id": "b", "text": "3,890 kg", "explanation": "Correct. At 30.0m radius with 55m jib in 2-fall mode, capacity is 3.89 tonnes (3,890 kg)." },
+            { "id": "c", "text": "4,370 kg", "explanation": "Incorrect. This is the capacity at 27.5m radius." },
+            { "id": "d", "text": "5,420 kg", "explanation": "Incorrect. This is the 2-fall capacity at 30m with a 50m jib, not 55m." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 4,
+          "question": "With the 50m jib in 2-fall configuration (LM 1), what is the maximum capacity at 15.0m radius?",
+          "options": [
+            { "id": "a", "text": "6,000 kg", "explanation": "Incorrect. This is the single-fall maximum." },
+            { "id": "b", "text": "8,000 kg", "explanation": "Incorrect. This is the 55m jib 2-fall capacity." },
+            { "id": "c", "text": "10,000 kg", "explanation": "Correct. With the 50m jib in 2-fall mode, the maximum capacity is 10 tonnes (10,000 kg) at 15.0m radius." },
+            { "id": "d", "text": "12,000 kg", "explanation": "Incorrect. 12,000 kg is only achievable with shorter jib configurations (40m or 45m)." }
+          ],
+          "correctAnswer": "c"
+        },
+        {
+          "id": 5,
+          "question": "According to the chart notes, up to what hoisting height are the lifting capacities valid?",
+          "options": [
+            { "id": "a", "text": "50 m", "explanation": "Incorrect. The 195 HC-LH allows higher hoisting heights." },
+            { "id": "b", "text": "80 m", "explanation": "Incorrect. Check the chart notes." },
+            { "id": "c", "text": "100 m", "explanation": "Correct. The chart states 'Lifting capacities valid up to 100 m hoisting height.' Above 100m, capacity is reduced by the additional rope weight." },
+            { "id": "d", "text": "120 m", "explanation": "Incorrect. The stated limit is 100m." }
+          ],
+          "correctAnswer": "c"
+        },
+        {
+          "id": 6,
+          "question": "What happens to lifting capacity when hoisting height exceeds 100m?",
+          "options": [
+            { "id": "a", "text": "Capacity remains the same", "explanation": "Incorrect. The chart notes specify a reduction." },
+            { "id": "b", "text": "Capacity is reduced by the additional rope weight", "explanation": "Correct. The chart notes state that over 100m hoisting height, lifting capacity is reduced by the additional rope weight." },
+            { "id": "c", "text": "The crane cannot operate above 100m", "explanation": "Incorrect. The crane can operate higher, but with reduced capacity." },
+            { "id": "d", "text": "Only Load-Plus mode is available", "explanation": "Incorrect. This is not what the chart states." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 7,
+          "question": "Using the 45m jib with 2-fall reeving (LM 1), what is the capacity at 25.0m radius?",
+          "options": [
+            { "id": "a", "text": "6,420 kg", "explanation": "Incorrect. This is the capacity at 27.5m." },
+            { "id": "b", "text": "7,200 kg", "explanation": "Correct. At 25.0m radius with the 45m jib in 2-fall mode, capacity is 7.20 tonnes (7,200 kg)." },
+            { "id": "c", "text": "8,110 kg", "explanation": "Incorrect. This is the capacity at 22.5m radius." },
+            { "id": "d", "text": "9,180 kg", "explanation": "Incorrect. This is the capacity at 20.0m radius." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 8,
+          "question": "A load weighs 5,500 kg including rigging. Using the 50m jib with 2-fall reeving (LM 1), what is the maximum radius for this lift?",
+          "options": [
+            { "id": "a", "text": "25.0 m", "explanation": "Incorrect. Capacity at 25m is 6,810 kg - the crane can reach further." },
+            { "id": "b", "text": "27.5 m", "explanation": "Correct. At 27.5m, capacity is 6,070 kg (sufficient). At 30.0m, capacity drops to 5,420 kg which is less than the 5,500 kg load." },
+            { "id": "c", "text": "30.0 m", "explanation": "Incorrect. At 30m, capacity is only 5,420 kg which is insufficient." },
+            { "id": "d", "text": "32.5 m", "explanation": "Incorrect. Capacity at 32.5m is only 4,850 kg." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 9,
+          "question": "What is the 'Level luffing' feature mentioned in the Liebherr Connect specifications?",
+          "options": [
+            { "id": "a", "text": "Increases lifting capacity", "explanation": "Incorrect. Level luffing is about maintaining hook height, not capacity." },
+            { "id": "b", "text": "Automatic retention of hook height when changing radius", "explanation": "Correct. Level luffing automatically maintains the hook height (lowering depth) when the boom angle changes. This prevents the load from rising or falling as the operator changes radius." },
+            { "id": "c", "text": "Keeps the boom horizontal", "explanation": "Incorrect. The boom angle changes to change radius." },
+            { "id": "d", "text": "Automatic slewing brake engagement", "explanation": "Incorrect. This is unrelated to level luffing." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 10,
+          "question": "Why does a shorter jib (e.g., 40m) allow higher maximum capacity than a longer jib (e.g., 55m)?",
+          "options": [
+            { "id": "a", "text": "Shorter jibs are made of stronger steel", "explanation": "Incorrect. The material is the same." },
+            { "id": "b", "text": "Shorter jibs create less overturning moment at the same load", "explanation": "Correct. With a shorter jib, the maximum working radius is closer to the tower. This reduces the moment arm (leverage) and allows higher loads while maintaining crane stability." },
+            { "id": "c", "text": "Shorter jibs have more parts of line", "explanation": "Incorrect. Parts of line are determined by reeving configuration, not jib length." },
+            { "id": "d", "text": "The crane moves faster with shorter jibs", "explanation": "Incorrect. Speed is not the reason for capacity differences." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 11,
+          "question": "What is the maximum reach (tip radius) when using single-fall reeving with the 55m jib?",
+          "options": [
+            { "id": "a", "text": "30.9 m", "explanation": "Correct. The LM 1 table shows single-fall operation with 55m jib ranges from 3.0m to 30.9m radius (shown as '3.0 – 30.9' in the chart). Beyond 30.9m, 2-fall reeving is required." },
+            { "id": "b", "text": "40.0 m", "explanation": "Incorrect. Single-fall doesn't extend that far with the 55m jib." },
+            { "id": "c", "text": "47.5 m", "explanation": "Incorrect. This radius requires 2-fall reeving." },
+            { "id": "d", "text": "55.0 m", "explanation": "Incorrect. The jib tip radius is 55m, but single-fall has limited reach." }
+          ],
+          "correctAnswer": "a"
+        },
+        {
+          "id": 12,
+          "question": "Comparing single-fall vs 2-fall at 25.0m radius with 55m jib (LM 1), what are the respective capacities?",
+          "options": [
+            { "id": "a", "text": "Single: 4,080 kg / 2-fall: 4,900 kg", "explanation": "Correct. At 25.0m radius, single-fall provides 4.08t (4,080 kg) while 2-fall provides 4.90t (4,900 kg). The 2-fall configuration provides approximately 20% more capacity at this radius." },
+            { "id": "b", "text": "Single: 6,000 kg / 2-fall: 8,000 kg", "explanation": "Incorrect. These are maximum capacities at minimum radius, not at 25m." },
+            { "id": "c", "text": "Single: 3,330 kg / 2-fall: 3,890 kg", "explanation": "Incorrect. These are the capacities at 30m radius, not 25m." },
+            { "id": "d", "text": "Single: 5,030 kg / 2-fall: 6,220 kg", "explanation": "Incorrect. These are the capacities at 20m radius." }
+          ],
+          "correctAnswer": "a"
+        }
+      ]
     }
   ]
 }
