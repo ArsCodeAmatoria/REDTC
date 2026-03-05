@@ -87,12 +87,6 @@ export default function HomePage() {
               <Link href="/test/master" className="px-3 py-2 text-sm font-bold hover:bg-muted transition-colors hidden sm:block">
                 Master
               </Link>
-              <Link href="/profile" className="px-3 py-2 text-sm font-bold hover:bg-muted transition-colors">
-                Profile
-              </Link>
-              <Link href="/scores" className="px-3 py-2 text-sm font-bold hover:bg-muted transition-colors hidden sm:block">
-                Scores
-              </Link>
             </nav>
           </div>
         </div>
