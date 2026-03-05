@@ -99,7 +99,7 @@ export default function HomePage() {
         {/* Hero Image */}
         <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] w-full overflow-hidden">
           <Image
-            src="/images/header.png"
+            src="/images/header1.png"
             alt="Tower crane against sky"
             fill
             className="object-cover"
