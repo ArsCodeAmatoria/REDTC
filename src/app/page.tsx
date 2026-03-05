@@ -10,7 +10,7 @@ import questionsData from "@/data/questions.json";
 
 const categories = [
   { name: "Load Charts & Parts of Line", count: 140, color: "bg-accent" },
-  { name: "PDF Load Chart Practice", count: 126, color: "bg-accent", isCharts: true },
+  { name: "PDF Load Chart Practice", count: 141, color: "bg-accent", isCharts: true },
   { name: "Advanced Operations & Traps", count: 95, color: "bg-foreground" },
   { name: "Master Level Questions", count: 100, color: "bg-foreground" },
   { name: "Rigging & Sling Angles", count: 85, color: "bg-foreground" },
@@ -30,7 +30,7 @@ const features = [
   {
     label: "Charts",
     title: "Real manufacturer load charts (PDF)",
-    description: "Practice reading actual Liebherr, Potain, and WOLFF load charts — flat-top, luffing, and heavy-duty cranes.",
+    description: "Practice reading actual Liebherr, Potain, WOLFF, and Terex load charts — flat-top, luffing, and self-erecting cranes.",
   },
   {
     label: "Pass",
@@ -525,7 +525,7 @@ export default function HomePage() {
               <div className="space-y-4 text-muted-foreground">
                 <p>
                   Master the critical skill of reading <strong className="text-foreground">real manufacturer load charts</strong>. 
-                  Our collection includes actual Liebherr, Potain, and WOLFF PDF load charts covering different crane types used on modern construction sites.
+                  Our collection includes actual Liebherr, Potain, WOLFF, and Terex PDF load charts covering different crane types used on modern construction sites.
                 </p>
                 <p>
                   Open the chart in a separate window or monitor, then answer questions that test your ability to find capacities at 
@@ -565,6 +565,11 @@ export default function HomePage() {
                     <span className="text-xs text-accent font-medium">Potain</span>
                     <h4 className="font-semibold text-sm mt-1">MD 1600</h4>
                     <p className="text-xs text-muted-foreground">80m, 40t/64t</p>
+                  </div>
+                  <div className="bg-background border border-border p-4">
+                    <span className="text-xs text-accent font-medium">Terex</span>
+                    <h4 className="font-semibold text-sm mt-1">CTT 222-10</h4>
+                    <p className="text-xs text-muted-foreground">65m, 10t</p>
                   </div>
                 </div>
               </div>
@@ -611,15 +616,15 @@ export default function HomePage() {
               {/* Stats */}
               <div className="bg-muted/30 border border-border p-4 flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-display font-bold">9</div>
+                  <div className="text-2xl font-display font-bold">10</div>
                   <div className="text-xs text-muted-foreground">Crane charts</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-display font-bold">126</div>
+                  <div className="text-2xl font-display font-bold">141</div>
                   <div className="text-xs text-muted-foreground">Questions</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-display font-bold">3</div>
+                  <div className="text-2xl font-display font-bold">4</div>
                   <div className="text-xs text-muted-foreground">Manufacturers</div>
                 </div>
               </div>
@@ -662,7 +667,7 @@ export default function HomePage() {
                     </div>
                     <h3 className="font-medium mt-3 group-hover:text-accent transition-colors">{category.name}</h3>
                     <p className="text-sm text-muted-foreground mt-1">
-                      {(category as { isCharts?: boolean }).isCharts ? "9 crane charts" : `${category.count}+ questions`}
+                      {(category as { isCharts?: boolean }).isCharts ? "10 crane charts" : `${category.count}+ questions`}
                     </p>
                   </div>
                 </Link>

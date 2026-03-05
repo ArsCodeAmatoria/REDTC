@@ -1538,6 +1538,188 @@
           "correctAnswer": "b"
         }
       ]
+    },
+    {
+      "id": "terex-ctt-222-10",
+      "name": "Terex CTT 222-10",
+      "manufacturer": "Terex",
+      "model": "CTT 222-10",
+      "type": "flat-top",
+      "pdfFile": "terexctt22210.pdf",
+      "description": "Flat-top tower crane with 65m max jib. 10 tonne max capacity. Features Power Plus mode, Power Match, and multiple tower configurations.",
+      "specifications": {
+        "maxCapacity": "10,000 kg",
+        "maxJibLength": "65 m",
+        "tipCapacity": "2.10t (standard) / 2.38t (Power Plus)",
+        "maxTowerHeight": "79.8 m (TS212)"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": "What type of crane is the Terex CTT 222-10?",
+          "options": [
+            { "id": "a", "text": "Luffing jib tower crane", "explanation": "Incorrect. Luffing jibs pivot to change radius - this crane uses trolley travel." },
+            { "id": "b", "text": "Flat-top tower crane", "explanation": "Correct. The CTT 222-10 is a flat-top design, meaning it has no cathead/peak above the jib. The 'CTT' designation indicates Terex's City Tower series of flat-top cranes." },
+            { "id": "c", "text": "Self-erecting crane", "explanation": "Incorrect. Self-erecting cranes fold for transport. The CTT series requires mobile crane assembly." },
+            { "id": "d", "text": "Crawler crane", "explanation": "Incorrect. This is a fixed tower crane, not a crawler." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 2,
+          "question": "What European standard does the Terex CTT 222-10 comply with?",
+          "options": [
+            { "id": "a", "text": "EN 14439-C25 and FEM", "explanation": "Correct. The chart indicates compliance with EN 14439-C25 and FEM standards. These European standards govern tower crane design and safety." },
+            { "id": "b", "text": "ANSI B30.3 only", "explanation": "Incorrect. ANSI is an American standard; this crane primarily references European standards." },
+            { "id": "c", "text": "ISO 9001", "explanation": "Incorrect. ISO 9001 is quality management, not crane design." },
+            { "id": "d", "text": "OSHA 1926", "explanation": "Incorrect. OSHA is operational regulation, not design standards." }
+          ],
+          "correctAnswer": "a"
+        },
+        {
+          "id": 3,
+          "question": "What is the maximum lifting capacity of the CTT 222-10 and at what radius?",
+          "options": [
+            { "id": "a", "text": "8.40 tonnes at 20m", "explanation": "Incorrect. Higher capacity is available at shorter radius." },
+            { "id": "b", "text": "10 tonnes at 15m radius (minimum working radius)", "explanation": "Correct. The maximum capacity is 10 tonnes (hence '10' in the model name), available at the minimum working radius of 15m with the 10t configuration." },
+            { "id": "c", "text": "5 tonnes at any radius", "explanation": "Incorrect. 5t is the constant capacity in 5t mode, but 10t is available in 10t mode." },
+            { "id": "d", "text": "2.58 tonnes at 65m", "explanation": "Incorrect. This is the tip capacity, not maximum capacity." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 4,
+          "question": "Using the 65m jib in standard 10t mode, what is the capacity at the jib tip (65m radius)?",
+          "options": [
+            { "id": "a", "text": "2.10 tonnes", "explanation": "Correct. At 65m radius with the standard 10t configuration, capacity is 2.10 tonnes. The Power Plus mode increases this to 2.38 tonnes." },
+            { "id": "b", "text": "2.58 tonnes", "explanation": "Incorrect. 2.58t is stated as max length capacity but check the actual chart tables." },
+            { "id": "c", "text": "10 tonnes", "explanation": "Incorrect. 10 tonnes is only available at minimum radius." },
+            { "id": "d", "text": "5 tonnes", "explanation": "Incorrect. 5t mode has constant capacity over a limited radius range." }
+          ],
+          "correctAnswer": "a"
+        },
+        {
+          "id": 5,
+          "question": "What is Terex Power Plus mode?",
+          "options": [
+            { "id": "a", "text": "A faster slewing mode", "explanation": "Incorrect. Power Plus affects lifting capacity, not slewing." },
+            { "id": "b", "text": "An enhanced capacity mode that increases load limits above standard curves", "explanation": "Correct. Power Plus provides higher capacities than standard mode. For example, at 65m tip: standard is 2.10t vs Power Plus at 2.38t - a 13% increase. At 20m: 8.40t standard vs 9.30t Power Plus." },
+            { "id": "c", "text": "Emergency backup power", "explanation": "Incorrect. Power Plus is an operational mode, not backup power." },
+            { "id": "d", "text": "A power-saving eco mode", "explanation": "Incorrect. Power Plus increases capacity, not reduces power consumption." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 6,
+          "question": "The CTT 222-10 has both '5t' and '10t' configurations shown. What does the 5t configuration provide?",
+          "options": [
+            { "id": "a", "text": "Lower capacity for safety", "explanation": "Incorrect. The 5t mode has a specific purpose related to constant capacity zones." },
+            { "id": "b", "text": "Constant 5 tonne capacity out to a much further radius (e.g., 41.74m vs 21.44m for 10t)", "explanation": "Correct. The 5t configuration maintains 5,000 kg constant capacity to much greater radii. With the 45m jib: 5t mode holds constant to 41.74m, while 10t capacity drops below 5t by 21.44m. This is useful for repetitive lifts of moderate loads." },
+            { "id": "c", "text": "Reduced counterweight requirements", "explanation": "Incorrect. Counterweight is determined by jib length, not operating mode." },
+            { "id": "d", "text": "Higher hoisting speeds", "explanation": "Incorrect. Hoisting speed is related to load weight, not the rated mode." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 7,
+          "question": "Using the 65m jib with Power Plus, what is the capacity at 40m radius?",
+          "options": [
+            { "id": "a", "text": "3.85 tonnes", "explanation": "Incorrect. This is the standard mode capacity at 40m." },
+            { "id": "b", "text": "4.30 tonnes", "explanation": "Correct. With Power Plus on the 65m jib, capacity at 40m is 4.30 tonnes, compared to 3.85 tonnes in standard mode - an 11.7% increase." },
+            { "id": "c", "text": "5.00 tonnes", "explanation": "Incorrect. 5t constant is only available in 5t mode to limited radii." },
+            { "id": "d", "text": "10.00 tonnes", "explanation": "Incorrect. 10t is only available at minimum radius." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 8,
+          "question": "What is Terex Power Match?",
+          "options": [
+            { "id": "a", "text": "Matches crane power to the load weight", "explanation": "Incorrect. Power Match relates to power supply adaptation." },
+            { "id": "b", "text": "Adapts the crane's operation to the available power supply on site", "explanation": "Correct. Power Match allows the crane to operate efficiently on sites with varying or limited power supply by automatically adjusting performance to match available electrical power." },
+            { "id": "c", "text": "Synchronizes multiple cranes", "explanation": "Incorrect. Anti-collision systems handle crane coordination, not Power Match." },
+            { "id": "d", "text": "Matches trolley speed to hoist speed", "explanation": "Incorrect. Power Match is about electrical supply, not motion coordination." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 9,
+          "question": "The counterweight table shows A (3.5t), AX (4.5t), and B (0.8t) blocks. For a 65m jib configuration, the table shows '3, 2, 5'. What does this mean?",
+          "options": [
+            { "id": "a", "text": "3 lifts at A, 2 at AX, 5 at B radius", "explanation": "Incorrect. These are counterweight quantities, not lift counts." },
+            { "id": "b", "text": "3 × A blocks (10.5t) + 2 × AX blocks (9t) + 5 × B blocks (4t) = 23.5t total counterweight", "explanation": "Correct. The counterweight configuration requires 3 'A' blocks (3×3.5t=10.5t), 2 'AX' blocks (2×4.5t=9t), and 5 'B' blocks (5×0.8t=4t), totaling 23.5 tonnes of counterweight." },
+            { "id": "c", "text": "Tower section counts", "explanation": "Incorrect. Tower sections are specified separately." },
+            { "id": "d", "text": "Jib section counts", "explanation": "Incorrect. Jib sections are different components." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 10,
+          "question": "How many different tower systems are available for the CTT 222-10?",
+          "options": [
+            { "id": "a", "text": "One (TS16)", "explanation": "Incorrect. Multiple tower options are available." },
+            { "id": "b", "text": "Four (TS16, TS21, H20, TS212)", "explanation": "Correct. The chart shows four different tower systems: TS16 (1.6m sections), TS21 (2.1m sections), H20 (heavy duty), and TS212 (2.12m hybrid). Each offers different height capabilities and foundation requirements." },
+            { "id": "c", "text": "Two (small and large)", "explanation": "Incorrect. Four distinct tower types are specified." },
+            { "id": "d", "text": "Six tower options", "explanation": "Incorrect. Four main tower types are shown." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 11,
+          "question": "What is the maximum under-hook height achievable with the CTT 222-10?",
+          "options": [
+            { "id": "a", "text": "53.10 m (with TS16 tower)", "explanation": "Incorrect. Higher configurations are available." },
+            { "id": "b", "text": "79.80 m (with TS212 tower and R basement)", "explanation": "Correct. The TS212 tower with R (rail) basement achieves 79.80m maximum under-hook height according to FEM 1001 standards. This is the tallest freestanding configuration." },
+            { "id": "c", "text": "65 m (same as jib length)", "explanation": "Incorrect. Hook height is independent of jib length." },
+            { "id": "d", "text": "100 m with climbing", "explanation": "Incorrect. Check the specified maximum heights in the chart." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 12,
+          "question": "According to the hoist mechanism data, what is the hoisting speed when lifting 10 tonnes?",
+          "options": [
+            { "id": "a", "text": "36 m/min", "explanation": "Incorrect. This is the speed for 5 tonnes, not 10 tonnes." },
+            { "id": "b", "text": "18 m/min", "explanation": "Correct. At 10 tonnes, hoisting speed is 18 m/min. At 5 tonnes, speed increases to 36 m/min. The relationship is inverse - heavier loads mean slower speeds due to constant motor power." },
+            { "id": "c", "text": "110 m/min", "explanation": "Incorrect. This is the speed for very light loads (1.25t)." },
+            { "id": "d", "text": "50 m/min", "explanation": "Incorrect. This is the speed for 3.5 tonnes." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 13,
+          "question": "COMPLEX: A contractor needs to lift 6,000 kg at 30m radius. Using the 65m jib, which mode(s) can make this lift?",
+          "options": [
+            { "id": "a", "text": "Neither standard nor Power Plus mode", "explanation": "Incorrect. Check the capacities at 30m radius in Power Plus mode." },
+            { "id": "b", "text": "Only Power Plus mode (5.97t available vs 5.36t standard)", "explanation": "Correct. At 30m radius with 65m jib: Standard mode = 5.36t (insufficient for 6t). Power Plus mode = 5.97t (sufficient for 6t). Only Power Plus can make this lift." },
+            { "id": "c", "text": "Both modes can make this lift", "explanation": "Incorrect. Standard mode at 30m is only 5.36t, less than 6t required." },
+            { "id": "d", "text": "Only standard mode", "explanation": "Incorrect. Standard mode has less capacity at 30m than Power Plus." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 14,
+          "question": "TRAP: Comparing the 65m jib to the 45m jib at 45m radius - why does the shorter jib have HIGHER capacity (4.40t vs 3.34t)?",
+          "options": [
+            { "id": "a", "text": "Chart error", "explanation": "Incorrect. This is correct physics - shorter jibs are more efficient at their maximum radius." },
+            { "id": "b", "text": "The 45m jib has no excess jib weight beyond the load point, while the 65m jib has 20m of extra jib creating additional moment", "explanation": "Correct. At 45m radius: the 45m jib is at its tip with all weight contributing to load capacity. The 65m jib still has 20m of jib extending beyond 45m, adding weight that reduces capacity for the actual load." },
+            { "id": "c", "text": "Different reeving configurations", "explanation": "Incorrect. Same hoist system is used regardless of jib length." },
+            { "id": "d", "text": "Wind affects longer jibs more", "explanation": "Incorrect. Wind isn't the primary factor in static load charts." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 15,
+          "question": "What power supply does the CTT 222-10 require?",
+          "options": [
+            { "id": "a", "text": "220V single phase", "explanation": "Incorrect. Tower cranes require three-phase power." },
+            { "id": "b", "text": "400V-50Hz or 460V-60Hz, 60 kVA", "explanation": "Correct. The crane requires 400V at 50Hz (European) or 460V at 60Hz (American frequency), with 60 kVA power supply. The Power Match feature helps adapt to varying site conditions." },
+            { "id": "c", "text": "Diesel generator only", "explanation": "Incorrect. The crane is electrically powered, though can use generator supply." },
+            { "id": "d", "text": "12V DC", "explanation": "Incorrect. This voltage is far too low for tower crane operation." }
+          ],
+          "correctAnswer": "b"
+        }
+      ]
     }
   ]
 }
