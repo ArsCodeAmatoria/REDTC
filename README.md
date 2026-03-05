@@ -15,7 +15,7 @@
 
 ## Features
 
-- **200 Practice Questions** — Comprehensive question bank covering all Red Seal Tower Crane topics
+- **250 Practice Questions** — Comprehensive question bank covering all Red Seal Tower Crane topics
 - **Randomized Tests** — Each test presents 10 random questions for varied practice sessions
 - **Instant Feedback** — Detailed explanations for every answer, including why incorrect options are wrong
 - **Review Mode** — Browse the entire question bank by category

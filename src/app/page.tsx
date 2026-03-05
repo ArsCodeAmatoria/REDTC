@@ -20,7 +20,7 @@ const categories = [
 const features = [
   {
     label: "Practice",
-    title: "200 exam questions with detailed explanations",
+    title: "250 exam questions with detailed explanations",
     description: "Every question includes why the correct answer is right and why others are wrong.",
   },
   {
@@ -116,7 +116,7 @@ export default function HomePage() {
                 </h1>
                 
                 <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
-                  Practice with 200 questions covering everything from load charts to safety regulations. 
+                  Practice with 250 questions covering everything from load charts to safety regulations. 
                   Get instant feedback and detailed explanations.
                 </p>
 
@@ -151,7 +151,7 @@ export default function HomePage() {
 
                 <div className="grid grid-cols-3 gap-4">
                   <div className="space-y-1">
-                    <div className="text-4xl font-display font-bold">200</div>
+                    <div className="text-4xl font-display font-bold">250</div>
                     <div className="text-sm text-muted-foreground">Questions</div>
                   </div>
                   <div className="space-y-1">

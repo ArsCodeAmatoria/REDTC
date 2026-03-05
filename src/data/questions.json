@@ -5598,5 +5598,1405 @@
     ],
     "correctAnswer": "b",
     "category": "Troubleshooting & Failure Prevention"
+  },
+  {
+    "id": 201,
+    "question": "The primary force resisting overturning in a tower crane is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hoist line tension",
+        "explanation": "Incorrect. Hoist line tension lifts the load but doesn't resist overturning."
+      },
+      {
+        "id": "b",
+        "text": "Counterweight and foundation reaction",
+        "explanation": "Correct. Stability comes from the counterweight creating a resisting moment and the foundation transferring forces into the ground. Without adequate foundation reaction, the crane can overturn."
+      },
+      {
+        "id": "c",
+        "text": "Slew motor torque",
+        "explanation": "Incorrect. Slew motor controls rotation, not stability against overturning."
+      },
+      {
+        "id": "d",
+        "text": "Jib weight only",
+        "explanation": "Incorrect. Jib weight contributes but is not the primary stabilizing force."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Structural & Stability Principles"
+  },
+  {
+    "id": 202,
+    "question": "Tie-ins on a tower crane primarily reduce:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load weight",
+        "explanation": "Incorrect. Tie-ins don't affect load weight."
+      },
+      {
+        "id": "b",
+        "text": "Mast deflection",
+        "explanation": "Correct. Tie-ins connect the mast to the structure, limiting lateral movement and bending caused by wind and load moments. This allows greater freestanding height."
+      },
+      {
+        "id": "c",
+        "text": "Hoist speed",
+        "explanation": "Incorrect. Tie-ins don't affect hoist speed."
+      },
+      {
+        "id": "d",
+        "text": "Sling tension",
+        "explanation": "Incorrect. Tie-ins don't affect rigging tension."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Structural & Stability Principles"
+  },
+  {
+    "id": 203,
+    "question": "Excessive mast compression can result from:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Light loads",
+        "explanation": "Incorrect. Light loads create minimal compression forces."
+      },
+      {
+        "id": "b",
+        "text": "High counterweight",
+        "explanation": "Incorrect. Counterweight is positioned to balance, not overload the mast."
+      },
+      {
+        "id": "c",
+        "text": "Heavy load at short radius",
+        "explanation": "Correct. Heavy loads near the mast increase vertical compression forces through the mast structure. Maximum capacity at minimum radius creates the highest mast compression."
+      },
+      {
+        "id": "d",
+        "text": "Slow hoisting",
+        "explanation": "Incorrect. Hoisting speed doesn't directly affect mast compression."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Structural & Stability Principles"
+  },
+  {
+    "id": 204,
+    "question": "The counter-jib supports:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load block",
+        "explanation": "Incorrect. The load block hangs from the main jib, not the counter-jib."
+      },
+      {
+        "id": "b",
+        "text": "Operator cab",
+        "explanation": "Incorrect. The operator cab is typically on the slewing unit, not the counter-jib."
+      },
+      {
+        "id": "c",
+        "text": "Counterweights and machinery",
+        "explanation": "Correct. The counter-jib balances the main jib and supports counterweights, hoist winch, and machinery deck. This creates the resisting moment against the load."
+      },
+      {
+        "id": "d",
+        "text": "Tie-ins",
+        "explanation": "Incorrect. Tie-ins connect to the mast, not the counter-jib."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Structural & Stability Principles"
+  },
+  {
+    "id": 205,
+    "question": "Overturning moment is calculated as:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load ÷ Radius",
+        "explanation": "Incorrect. Division gives the wrong relationship."
+      },
+      {
+        "id": "b",
+        "text": "Load × Radius",
+        "explanation": "Correct. Moment = Force × Distance. The overturning moment equals the load weight multiplied by the radius (horizontal distance from mast). Increasing radius increases the overturning force."
+      },
+      {
+        "id": "c",
+        "text": "Radius ÷ Load",
+        "explanation": "Incorrect. This inverts the relationship."
+      },
+      {
+        "id": "d",
+        "text": "Counterweight × Height",
+        "explanation": "Incorrect. This doesn't calculate overturning moment."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Structural & Stability Principles"
+  },
+  {
+    "id": 206,
+    "question": "A freestanding crane has lower maximum height because of:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduced wind",
+        "explanation": "Incorrect. Wind increases with height regardless of crane configuration."
+      },
+      {
+        "id": "b",
+        "text": "Increased capacity",
+        "explanation": "Incorrect. Freestanding doesn't increase capacity."
+      },
+      {
+        "id": "c",
+        "text": "Stability limits",
+        "explanation": "Correct. Without tie-ins, the mast must resist all bending forces alone, limiting allowable height. Tie-ins transfer lateral forces to the building, allowing greater height."
+      },
+      {
+        "id": "d",
+        "text": "Shorter jib",
+        "explanation": "Incorrect. Jib length is independent of freestanding height."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Structural & Stability Principles"
+  },
+  {
+    "id": 207,
+    "question": "Crane base settlement can lead to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increased capacity",
+        "explanation": "Incorrect. Settlement decreases stability, not increases capacity."
+      },
+      {
+        "id": "b",
+        "text": "Misalignment and instability",
+        "explanation": "Correct. Uneven settlement shifts load paths and can lead to dangerous tilting. The crane may become out of plumb, affecting all stability calculations and potentially causing collapse."
+      },
+      {
+        "id": "c",
+        "text": "Reduced wind",
+        "explanation": "Incorrect. Settlement doesn't affect wind conditions."
+      },
+      {
+        "id": "d",
+        "text": "Faster hoisting",
+        "explanation": "Incorrect. Settlement doesn't improve hoisting."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Structural & Stability Principles"
+  },
+  {
+    "id": 208,
+    "question": "The mast primarily carries:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension only",
+        "explanation": "Incorrect. The mast carries compression, not tension."
+      },
+      {
+        "id": "b",
+        "text": "Compression and bending forces",
+        "explanation": "Correct. The mast transfers vertical loads (compression from load, counterweight, and crane weight) and resists bending from moments caused by load position and wind."
+      },
+      {
+        "id": "c",
+        "text": "Shear only",
+        "explanation": "Incorrect. While shear exists, compression and bending are primary."
+      },
+      {
+        "id": "d",
+        "text": "Electrical load",
+        "explanation": "Incorrect. Electrical systems are separate from structural loading."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Structural & Stability Principles"
+  },
+  {
+    "id": 209,
+    "question": "Counterweight position is designed to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Balance load moment",
+        "explanation": "Correct. Counterweights create a resisting moment opposite the load moment. Their position on the counter-jib is calculated to provide stability across the crane's operating range."
+      },
+      {
+        "id": "b",
+        "text": "Increase wind resistance",
+        "explanation": "Incorrect. Counterweight position is for balance, not wind management."
+      },
+      {
+        "id": "c",
+        "text": "Increase swing speed",
+        "explanation": "Incorrect. Counterweight doesn't affect swing speed directly."
+      },
+      {
+        "id": "d",
+        "text": "Reduce mast height",
+        "explanation": "Incorrect. Counterweight position doesn't determine mast height."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Structural & Stability Principles"
+  },
+  {
+    "id": 210,
+    "question": "Wind load increases proportionally with:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Weight of load",
+        "explanation": "Incorrect. Wind force depends on surface area, not weight."
+      },
+      {
+        "id": "b",
+        "text": "Surface area exposed",
+        "explanation": "Correct. Larger surface area means greater wind pressure force. Flat loads like panels experience much higher wind loading than compact loads of the same weight."
+      },
+      {
+        "id": "c",
+        "text": "Counterweight mass",
+        "explanation": "Incorrect. Counterweight doesn't affect wind loading on the load."
+      },
+      {
+        "id": "d",
+        "text": "Hoist rope length",
+        "explanation": "Incorrect. Rope length doesn't significantly affect wind load."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Structural & Stability Principles"
+  },
+  {
+    "id": 211,
+    "question": "The purpose of a hoist drum groove is to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduce rope strength",
+        "explanation": "Incorrect. Grooves protect rope, not weaken it."
+      },
+      {
+        "id": "b",
+        "text": "Properly seat wire rope",
+        "explanation": "Correct. Grooves guide rope alignment, reduce crushing between layers, and ensure proper spooling. This extends rope life and maintains consistent operation."
+      },
+      {
+        "id": "c",
+        "text": "Increase speed",
+        "explanation": "Incorrect. Grooves don't affect hoisting speed."
+      },
+      {
+        "id": "d",
+        "text": "Reduce load",
+        "explanation": "Incorrect. Grooves don't affect load capacity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Hoisting & Mechanical Systems"
+  },
+  {
+    "id": 212,
+    "question": "Multiple-part line systems primarily increase:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Speed",
+        "explanation": "Incorrect. More parts actually decrease line speed."
+      },
+      {
+        "id": "b",
+        "text": "Mechanical advantage",
+        "explanation": "Correct. More parts share the load and increase lifting capacity through mechanical advantage. A 4-part line can lift 4 times what a single line can with the same rope."
+      },
+      {
+        "id": "c",
+        "text": "Radius",
+        "explanation": "Incorrect. Line parts don't affect radius."
+      },
+      {
+        "id": "d",
+        "text": "Wind load",
+        "explanation": "Incorrect. Line configuration doesn't affect wind."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Hoisting & Mechanical Systems"
+  },
+  {
+    "id": 213,
+    "question": "A slipping clutch may cause:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Faster hoisting",
+        "explanation": "Incorrect. Slippage reduces effective power transfer."
+      },
+      {
+        "id": "b",
+        "text": "Loss of load control",
+        "explanation": "Correct. Slippage reduces torque transfer and can cause uncontrolled movement. The load may drift or drop unexpectedly when the clutch cannot hold."
+      },
+      {
+        "id": "c",
+        "text": "Increased capacity",
+        "explanation": "Incorrect. A slipping clutch decreases effective capacity."
+      },
+      {
+        "id": "d",
+        "text": "Reduced tension",
+        "explanation": "Incorrect. Slippage doesn't beneficially reduce tension."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Hoisting & Mechanical Systems"
+  },
+  {
+    "id": 214,
+    "question": "Slew ring bearings must be inspected for:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Paint",
+        "explanation": "Incorrect. Paint condition isn't critical for bearing function."
+      },
+      {
+        "id": "b",
+        "text": "Excess play or wear",
+        "explanation": "Correct. Wear in slew bearings can lead to instability and failure. Excessive play indicates worn races or rolling elements requiring attention."
+      },
+      {
+        "id": "c",
+        "text": "Colour fading",
+        "explanation": "Incorrect. Color is cosmetic, not functional."
+      },
+      {
+        "id": "d",
+        "text": "Decals",
+        "explanation": "Incorrect. Decals don't affect bearing performance."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Hoisting & Mechanical Systems"
+  },
+  {
+    "id": 215,
+    "question": "Limit switches prevent:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Electrical grounding",
+        "explanation": "Incorrect. Grounding is handled by other systems."
+      },
+      {
+        "id": "b",
+        "text": "Overtravel or overhoisting",
+        "explanation": "Correct. Limit switches stop motion before dangerous mechanical contact occurs, preventing two-blocking, over-lowering, or exceeding travel limits."
+      },
+      {
+        "id": "c",
+        "text": "Wind",
+        "explanation": "Incorrect. Limit switches don't affect wind."
+      },
+      {
+        "id": "d",
+        "text": "Load sway",
+        "explanation": "Incorrect. Sway control requires different systems."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Hoisting & Mechanical Systems"
+  },
+  {
+    "id": 216,
+    "question": "A two-block condition occurs when:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load touches ground",
+        "explanation": "Incorrect. Ground contact is a different condition."
+      },
+      {
+        "id": "b",
+        "text": "Hook contacts boom tip",
+        "explanation": "Correct. Two-blocking occurs when the hook block contacts the boom tip sheaves. This can cause sudden rope failure from the extreme tension created."
+      },
+      {
+        "id": "c",
+        "text": "Jib strikes mast",
+        "explanation": "Incorrect. This would be a collision, not two-blocking."
+      },
+      {
+        "id": "d",
+        "text": "Counterweight contacts wall",
+        "explanation": "Incorrect. This is an obstruction collision, not two-blocking."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Hoisting & Mechanical Systems"
+  },
+  {
+    "id": 217,
+    "question": "Anti-two-block devices are required to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase speed",
+        "explanation": "Incorrect. These devices are safety features, not speed enhancers."
+      },
+      {
+        "id": "b",
+        "text": "Prevent line failure",
+        "explanation": "Correct. Anti-two-block devices automatically stop hoisting before block contact, preventing the catastrophic line failure that results from two-blocking."
+      },
+      {
+        "id": "c",
+        "text": "Increase radius",
+        "explanation": "Incorrect. These devices don't affect radius."
+      },
+      {
+        "id": "d",
+        "text": "Reduce wind",
+        "explanation": "Incorrect. These devices don't affect wind."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Hoisting & Mechanical Systems"
+  },
+  {
+    "id": 218,
+    "question": "The purpose of a slew brake is to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lift loads",
+        "explanation": "Incorrect. The hoist system lifts loads, not the slew brake."
+      },
+      {
+        "id": "b",
+        "text": "Control rotation",
+        "explanation": "Correct. The slew brake controls and stops the rotation of the crane superstructure, allowing precise positioning and preventing uncontrolled swing."
+      },
+      {
+        "id": "c",
+        "text": "Increase radius",
+        "explanation": "Incorrect. Slew brake doesn't affect radius."
+      },
+      {
+        "id": "d",
+        "text": "Increase capacity",
+        "explanation": "Incorrect. Slew brake doesn't affect lifting capacity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Hoisting & Mechanical Systems"
+  },
+  {
+    "id": 219,
+    "question": "Gear tooth pitting indicates:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Proper lubrication",
+        "explanation": "Incorrect. Pitting indicates lubrication or loading problems."
+      },
+      {
+        "id": "b",
+        "text": "Wear and fatigue",
+        "explanation": "Correct. Pitting is surface fatigue damage from repeated loading cycles. It appears as small craters on gear tooth surfaces and indicates the gear is wearing out."
+      },
+      {
+        "id": "c",
+        "text": "Increased strength",
+        "explanation": "Incorrect. Pitting weakens gears, not strengthens them."
+      },
+      {
+        "id": "d",
+        "text": "Lower load",
+        "explanation": "Incorrect. Pitting doesn't indicate reduced loading."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Hoisting & Mechanical Systems"
+  },
+  {
+    "id": 220,
+    "question": "Hoist motor overheating may result from:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Light loads",
+        "explanation": "Incorrect. Light loads generate minimal heat."
+      },
+      {
+        "id": "b",
+        "text": "Continuous heavy operation",
+        "explanation": "Correct. Prolonged heavy lifting increases thermal load on the motor. Motors are rated for duty cycles—continuous heavy operation exceeds design limits and causes overheating."
+      },
+      {
+        "id": "c",
+        "text": "Calm wind",
+        "explanation": "Incorrect. Wind conditions don't significantly affect motor temperature."
+      },
+      {
+        "id": "d",
+        "text": "Short radius",
+        "explanation": "Incorrect. Radius doesn't directly cause motor overheating."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Hoisting & Mechanical Systems"
+  },
+  {
+    "id": 221,
+    "question": "A load with shifting contents requires:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Faster lift",
+        "explanation": "Incorrect. Faster lifting increases shifting risk."
+      },
+      {
+        "id": "b",
+        "text": "Securing contents before lift",
+        "explanation": "Correct. Shifting loads alter center of gravity mid-lift, potentially causing dangerous tipping or swing. Contents must be secured or contained before lifting."
+      },
+      {
+        "id": "c",
+        "text": "Longer sling",
+        "explanation": "Incorrect. Sling length doesn't address content shifting."
+      },
+      {
+        "id": "d",
+        "text": "Smaller hook",
+        "explanation": "Incorrect. Hook size doesn't prevent content shifting."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Rigging & Load Control"
+  },
+  {
+    "id": 222,
+    "question": "Using two cranes to lift one load is called:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tandem lift",
+        "explanation": "Correct. A tandem lift involves two or more cranes working together to lift a single load. This requires detailed planning and coordination."
+      },
+      {
+        "id": "b",
+        "text": "Split rig",
+        "explanation": "Incorrect. Split rig isn't the standard term."
+      },
+      {
+        "id": "c",
+        "text": "Dual hook",
+        "explanation": "Incorrect. Dual hook refers to crane configurations, not multi-crane lifts."
+      },
+      {
+        "id": "d",
+        "text": "Offset lift",
+        "explanation": "Incorrect. Offset lift isn't the correct term."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Advanced Rigging & Load Control"
+  },
+  {
+    "id": 223,
+    "question": "Tandem lifts require:",
+    "options": [
+      {
+        "id": "a",
+        "text": "No planning",
+        "explanation": "Incorrect. Tandem lifts require extensive planning."
+      },
+      {
+        "id": "b",
+        "text": "Detailed lift plan",
+        "explanation": "Correct. Load share, communication, crane capacities, and coordination must be engineered. Tandem lifts are complex critical lifts requiring documented planning."
+      },
+      {
+        "id": "c",
+        "text": "Higher speed",
+        "explanation": "Incorrect. Tandem lifts require slower, more controlled movements."
+      },
+      {
+        "id": "d",
+        "text": "Fewer signalers",
+        "explanation": "Incorrect. Tandem lifts typically require more personnel for coordination."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Rigging & Load Control"
+  },
+  {
+    "id": 224,
+    "question": "Unequal crane capacities in tandem lift require:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Equal load share",
+        "explanation": "Incorrect. Equal sharing would overload the smaller crane."
+      },
+      {
+        "id": "b",
+        "text": "Load distribution based on capacity",
+        "explanation": "Correct. Each crane must carry a proportion of the load that doesn't exceed its capacity at the working radius. The smaller crane typically carries less."
+      },
+      {
+        "id": "c",
+        "text": "Guessing",
+        "explanation": "Incorrect. Load distribution must be calculated, never guessed."
+      },
+      {
+        "id": "d",
+        "text": "Removing rigging",
+        "explanation": "Incorrect. Rigging is essential for the lift."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Rigging & Load Control"
+  },
+  {
+    "id": 225,
+    "question": "Centre of gravity not directly under hook may cause:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Stable lift",
+        "explanation": "Incorrect. Off-center CG causes instability."
+      },
+      {
+        "id": "b",
+        "text": "Load rotation",
+        "explanation": "Correct. When the center of gravity isn't directly below the hook point, the load will rotate or tilt to achieve equilibrium, potentially causing uncontrolled movement."
+      },
+      {
+        "id": "c",
+        "text": "Increased capacity",
+        "explanation": "Incorrect. Off-center CG doesn't increase capacity."
+      },
+      {
+        "id": "d",
+        "text": "Reduced tension",
+        "explanation": "Incorrect. Off-center CG can increase tension in some sling legs."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Rigging & Load Control"
+  },
+  {
+    "id": 226,
+    "question": "Choker hitch reduces sling capacity because of:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increased tension at choke point",
+        "explanation": "Correct. The choker hitch creates a sharp bend that increases stress concentration and friction at the choke point, reducing effective capacity to about 75-80% of straight pull."
+      },
+      {
+        "id": "b",
+        "text": "Shorter sling",
+        "explanation": "Incorrect. Sling length isn't the primary factor."
+      },
+      {
+        "id": "c",
+        "text": "Lower radius",
+        "explanation": "Incorrect. Crane radius doesn't affect choker hitch capacity reduction."
+      },
+      {
+        "id": "d",
+        "text": "Wind",
+        "explanation": "Incorrect. Wind doesn't affect hitch capacity calculations."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Advanced Rigging & Load Control"
+  },
+  {
+    "id": 227,
+    "question": "Basket hitch generally provides:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lower capacity than vertical",
+        "explanation": "Incorrect. Basket hitch provides higher capacity."
+      },
+      {
+        "id": "b",
+        "text": "Greater capacity than single vertical",
+        "explanation": "Correct. A basket hitch uses two legs of the sling to share the load, effectively doubling capacity compared to a single vertical hitch (assuming proper angles)."
+      },
+      {
+        "id": "c",
+        "text": "No tension",
+        "explanation": "Incorrect. Both legs carry tension in a basket hitch."
+      },
+      {
+        "id": "d",
+        "text": "Double weight",
+        "explanation": "Incorrect. It provides double capacity, not double weight."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Rigging & Load Control"
+  },
+  {
+    "id": 228,
+    "question": "A load with large flat surface is vulnerable to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gravity",
+        "explanation": "Incorrect. All loads are affected by gravity equally per unit mass."
+      },
+      {
+        "id": "b",
+        "text": "Wind force",
+        "explanation": "Correct. Large flat surfaces catch wind like a sail. Wind loading can significantly exceed calculated static loads, causing dangerous swing and shock loading."
+      },
+      {
+        "id": "c",
+        "text": "Counterweight",
+        "explanation": "Incorrect. Counterweight doesn't directly affect the load."
+      },
+      {
+        "id": "d",
+        "text": "Tie-in",
+        "explanation": "Incorrect. Tie-ins don't interact with the load."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Rigging & Load Control"
+  },
+  {
+    "id": 229,
+    "question": "Tag lines should never be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Held firmly",
+        "explanation": "Incorrect. Tag lines should be held firmly for control."
+      },
+      {
+        "id": "b",
+        "text": "Wrapped around body",
+        "explanation": "Correct. Wrapping tag lines around any body part creates risk of being pulled into or dragged by the moving load. Tag lines must be held, never wrapped or tied to the body."
+      },
+      {
+        "id": "c",
+        "text": "Used in wind",
+        "explanation": "Incorrect. Tag lines are especially important in wind."
+      },
+      {
+        "id": "d",
+        "text": "Tied to load",
+        "explanation": "Incorrect. Tag lines are typically attached to loads."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Rigging & Load Control"
+  },
+  {
+    "id": 230,
+    "question": "Before lifting precast panels, operator must confirm:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lunch schedule",
+        "explanation": "Incorrect. Scheduling doesn't affect lift safety."
+      },
+      {
+        "id": "b",
+        "text": "Embedded lifting points rating",
+        "explanation": "Correct. Precast panels have cast-in lifting inserts with specific load ratings. These must be confirmed adequate for the panel weight and lift configuration."
+      },
+      {
+        "id": "c",
+        "text": "Mast alignment",
+        "explanation": "Incorrect. While important, this isn't specific to precast lifts."
+      },
+      {
+        "id": "d",
+        "text": "Tie-in torque",
+        "explanation": "Incorrect. Tie-in torque isn't specific to precast panel lifts."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Rigging & Load Control"
+  },
+  {
+    "id": 231,
+    "question": "Operating near excavations increases risk of:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wind load",
+        "explanation": "Incorrect. Excavations don't affect wind loading."
+      },
+      {
+        "id": "b",
+        "text": "Foundation instability",
+        "explanation": "Correct. Excavations can undermine crane foundations or reduce soil bearing capacity, leading to settlement or collapse. Safe distances from excavation edges must be maintained."
+      },
+      {
+        "id": "c",
+        "text": "Hoist overheating",
+        "explanation": "Incorrect. Excavations don't affect hoist temperature."
+      },
+      {
+        "id": "d",
+        "text": "Over-slewing",
+        "explanation": "Incorrect. Excavations don't cause over-slewing."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Environmental & Site Hazards"
+  },
+  {
+    "id": 232,
+    "question": "High wind gusts can cause:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduced radius",
+        "explanation": "Incorrect. Wind doesn't reduce working radius."
+      },
+      {
+        "id": "b",
+        "text": "Load sway and shock loading",
+        "explanation": "Correct. Gusts cause unpredictable load movement, creating dynamic shock loads that can exceed rated capacity. Sudden stops to control sway amplify these forces."
+      },
+      {
+        "id": "c",
+        "text": "Increased capacity",
+        "explanation": "Incorrect. Wind decreases effective capacity."
+      },
+      {
+        "id": "d",
+        "text": "Stable lift",
+        "explanation": "Incorrect. Gusts cause instability, not stability."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Environmental & Site Hazards"
+  },
+  {
+    "id": 233,
+    "question": "Rain primarily affects crane operation by:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increasing capacity",
+        "explanation": "Incorrect. Rain doesn't increase capacity."
+      },
+      {
+        "id": "b",
+        "text": "Reducing visibility and traction",
+        "explanation": "Correct. Rain reduces operator visibility, makes walking surfaces slippery, and can affect electrical systems. These hazards require extra caution during rain."
+      },
+      {
+        "id": "c",
+        "text": "Increasing counterweight",
+        "explanation": "Incorrect. Rain doesn't meaningfully affect counterweight."
+      },
+      {
+        "id": "d",
+        "text": "Reducing mast load",
+        "explanation": "Incorrect. Rain adds slight weight but doesn't reduce loads."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Environmental & Site Hazards"
+  },
+  {
+    "id": 234,
+    "question": "Frost on walking surfaces creates hazard of:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Electrical failure",
+        "explanation": "Incorrect. Frost doesn't typically cause electrical failure."
+      },
+      {
+        "id": "b",
+        "text": "Slips and falls",
+        "explanation": "Correct. Frost creates extremely slippery conditions on ladders, platforms, and walkways. Falls from height are a leading cause of crane-related fatalities."
+      },
+      {
+        "id": "c",
+        "text": "Increased lift height",
+        "explanation": "Incorrect. Frost doesn't affect lift height."
+      },
+      {
+        "id": "d",
+        "text": "Reduced wind",
+        "explanation": "Incorrect. Frost doesn't reduce wind."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Environmental & Site Hazards"
+  },
+  {
+    "id": 235,
+    "question": "Construction debris near base may:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Improve stability",
+        "explanation": "Incorrect. Debris doesn't improve stability."
+      },
+      {
+        "id": "b",
+        "text": "Obstruct safe access",
+        "explanation": "Correct. Debris around the crane base blocks emergency access, creates trip hazards, and can interfere with counterweight swing radius."
+      },
+      {
+        "id": "c",
+        "text": "Increase foundation strength",
+        "explanation": "Incorrect. Debris doesn't strengthen foundations."
+      },
+      {
+        "id": "d",
+        "text": "Reduce load",
+        "explanation": "Incorrect. Debris doesn't affect load weight."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Environmental & Site Hazards"
+  },
+  {
+    "id": 236,
+    "question": "Working near airports requires awareness of:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Concrete curing",
+        "explanation": "Incorrect. Airports don't specifically relate to concrete."
+      },
+      {
+        "id": "b",
+        "text": "Airspace regulations",
+        "explanation": "Correct. Cranes near airports may penetrate controlled airspace and require notification or permits from aviation authorities. Crane height and lighting requirements may apply."
+      },
+      {
+        "id": "c",
+        "text": "Hoist rope colour",
+        "explanation": "Incorrect. Rope color isn't an airport concern."
+      },
+      {
+        "id": "d",
+        "text": "Mast bolts",
+        "explanation": "Incorrect. This is standard maintenance, not airport-specific."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Environmental & Site Hazards"
+  },
+  {
+    "id": 237,
+    "question": "Operating in extreme cold may affect:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Steel brittleness",
+        "explanation": "Correct. Extreme cold causes steel to become brittle and more susceptible to fracture. This affects structural components, wire rope, and rigging hardware."
+      },
+      {
+        "id": "b",
+        "text": "Load chart",
+        "explanation": "Incorrect. Load charts don't change with temperature."
+      },
+      {
+        "id": "c",
+        "text": "Radius only",
+        "explanation": "Incorrect. Cold affects multiple factors, not just radius."
+      },
+      {
+        "id": "d",
+        "text": "Counterweight size",
+        "explanation": "Incorrect. Counterweight size doesn't change with temperature."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Environmental & Site Hazards"
+  },
+  {
+    "id": 238,
+    "question": "Sun glare can impact:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Electrical capacity",
+        "explanation": "Incorrect. Glare doesn't affect electrical systems."
+      },
+      {
+        "id": "b",
+        "text": "Operator visibility",
+        "explanation": "Correct. Sun glare can temporarily blind operators, making it difficult to see loads, signals, or obstacles. Proper cab positioning and sun shields help mitigate this."
+      },
+      {
+        "id": "c",
+        "text": "Mast compression",
+        "explanation": "Incorrect. Glare doesn't affect structural loading."
+      },
+      {
+        "id": "d",
+        "text": "Load weight",
+        "explanation": "Incorrect. Glare doesn't change load weight."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Environmental & Site Hazards"
+  },
+  {
+    "id": 239,
+    "question": "Poor communication increases risk of:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Perfect lifts",
+        "explanation": "Incorrect. Poor communication leads to errors, not perfection."
+      },
+      {
+        "id": "b",
+        "text": "Misinterpreted signals",
+        "explanation": "Correct. Clear communication is essential for safe crane operation. Misinterpreted signals can lead to wrong movements, collisions, or dropped loads."
+      },
+      {
+        "id": "c",
+        "text": "Lower radius",
+        "explanation": "Incorrect. Communication doesn't affect radius."
+      },
+      {
+        "id": "d",
+        "text": "Reduced tension",
+        "explanation": "Incorrect. Communication doesn't reduce rigging tension."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Environmental & Site Hazards"
+  },
+  {
+    "id": 240,
+    "question": "Public protection measures include:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Faster lifts",
+        "explanation": "Incorrect. Speed doesn't protect the public."
+      },
+      {
+        "id": "b",
+        "text": "Barricades and exclusion zones",
+        "explanation": "Correct. Public protection requires physical barriers, signage, and exclusion zones to prevent unauthorized persons from entering areas where overhead lifting occurs."
+      },
+      {
+        "id": "c",
+        "text": "Larger counterweight",
+        "explanation": "Incorrect. Counterweight doesn't protect the public."
+      },
+      {
+        "id": "d",
+        "text": "Removing signaler",
+        "explanation": "Incorrect. Signalers enhance safety, not reduce it."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Environmental & Site Hazards"
+  },
+  {
+    "id": 241,
+    "question": "In case of power failure while lifting, operator should:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Jump from cab",
+        "explanation": "Incorrect. Jumping is dangerous and unnecessary."
+      },
+      {
+        "id": "b",
+        "text": "Follow emergency procedures",
+        "explanation": "Correct. Emergency procedures include setting brakes, notifying ground crew, and following site-specific protocols for power restoration or emergency lowering."
+      },
+      {
+        "id": "c",
+        "text": "Increase load",
+        "explanation": "Incorrect. Cannot increase load without power, and shouldn't regardless."
+      },
+      {
+        "id": "d",
+        "text": "Override controls",
+        "explanation": "Incorrect. Overriding controls during power failure is dangerous."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Emergency & Abnormal Situations"
+  },
+  {
+    "id": 242,
+    "question": "If load becomes snagged, operator should:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase hoist power",
+        "explanation": "Incorrect. Forcing a snagged load can cause shock loading or structural damage."
+      },
+      {
+        "id": "b",
+        "text": "Stop and investigate",
+        "explanation": "Correct. Snagged loads must be carefully assessed. Attempting to force free can cause sudden release and dangerous rebound or overloading."
+      },
+      {
+        "id": "c",
+        "text": "Swing faster",
+        "explanation": "Incorrect. Swinging a snagged load worsens the situation."
+      },
+      {
+        "id": "d",
+        "text": "Lower counterweight",
+        "explanation": "Incorrect. Counterweight adjustment doesn't address snagging."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Emergency & Abnormal Situations"
+  },
+  {
+    "id": 243,
+    "question": "Sudden high wind during lift requires:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue quickly",
+        "explanation": "Incorrect. Rushing in high wind increases danger."
+      },
+      {
+        "id": "b",
+        "text": "Lower load safely",
+        "explanation": "Correct. When wind suddenly increases beyond safe limits, the load should be lowered to the ground as safely as possible and operations suspended."
+      },
+      {
+        "id": "c",
+        "text": "Increase radius",
+        "explanation": "Incorrect. Increasing radius in high wind worsens stability."
+      },
+      {
+        "id": "d",
+        "text": "Ignore",
+        "explanation": "Incorrect. Ignoring wind is dangerous and irresponsible."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Emergency & Abnormal Situations"
+  },
+  {
+    "id": 244,
+    "question": "Structural impact to mast from another crane requires:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Immediate inspection",
+        "explanation": "Correct. Any structural impact requires immediate inspection by qualified personnel before continuing operations. Hidden damage could lead to catastrophic failure."
+      },
+      {
+        "id": "b",
+        "text": "Continue if small",
+        "explanation": "Incorrect. Even small impacts can cause structural damage."
+      },
+      {
+        "id": "c",
+        "text": "Paint repair",
+        "explanation": "Incorrect. Paint repair doesn't address structural concerns."
+      },
+      {
+        "id": "d",
+        "text": "Increased load",
+        "explanation": "Incorrect. Loading a potentially damaged crane is extremely dangerous."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Emergency & Abnormal Situations"
+  },
+  {
+    "id": 245,
+    "question": "Electrical fire in cab requires:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Water only",
+        "explanation": "Incorrect. Water on electrical fires is extremely dangerous."
+      },
+      {
+        "id": "b",
+        "text": "Proper fire extinguisher",
+        "explanation": "Correct. Electrical fires require Class C or ABC rated extinguishers. CO2 or dry chemical extinguishers are appropriate. Water must never be used on electrical fires."
+      },
+      {
+        "id": "c",
+        "text": "Ignoring",
+        "explanation": "Incorrect. Ignoring a fire is life-threatening."
+      },
+      {
+        "id": "d",
+        "text": "Opening windows",
+        "explanation": "Incorrect. Opening windows feeds oxygen to the fire."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Emergency & Abnormal Situations"
+  },
+  {
+    "id": 246,
+    "question": "Evacuation procedures must be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Known before emergency",
+        "explanation": "Correct. Operators must know evacuation procedures before an emergency occurs. During an emergency is too late to learn escape routes and rescue procedures."
+      },
+      {
+        "id": "b",
+        "text": "Learned after",
+        "explanation": "Incorrect. Learning during emergency is too late."
+      },
+      {
+        "id": "c",
+        "text": "Optional",
+        "explanation": "Incorrect. Evacuation knowledge is mandatory, not optional."
+      },
+      {
+        "id": "d",
+        "text": "Only for supervisor",
+        "explanation": "Incorrect. All personnel must know evacuation procedures."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Emergency & Abnormal Situations"
+  },
+  {
+    "id": 247,
+    "question": "Emergency descent devices are used when:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Climbing",
+        "explanation": "Incorrect. Normal climbing uses standard access."
+      },
+      {
+        "id": "b",
+        "text": "Normal shutdown",
+        "explanation": "Incorrect. Normal descent uses standard access."
+      },
+      {
+        "id": "c",
+        "text": "Operator must evacuate at height",
+        "explanation": "Correct. Emergency descent devices provide rapid evacuation when normal access is blocked by fire, structural failure, or other emergencies."
+      },
+      {
+        "id": "d",
+        "text": "Wind is calm",
+        "explanation": "Incorrect. Calm wind doesn't require emergency descent."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Emergency & Abnormal Situations"
+  },
+  {
+    "id": 248,
+    "question": "After an overload event, crane must be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Immediately reused",
+        "explanation": "Incorrect. Immediate reuse after overload is dangerous."
+      },
+      {
+        "id": "b",
+        "text": "Inspected before returning to service",
+        "explanation": "Correct. Overload events can cause structural damage, brake wear, or rope damage that isn't immediately visible. Qualified inspection is required before resuming operations."
+      },
+      {
+        "id": "c",
+        "text": "Painted",
+        "explanation": "Incorrect. Painting doesn't address overload damage."
+      },
+      {
+        "id": "d",
+        "text": "Speed tested",
+        "explanation": "Incorrect. Speed testing doesn't verify structural integrity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Emergency & Abnormal Situations"
+  },
+  {
+    "id": 249,
+    "question": "Incident reporting ensures:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Blame assignment only",
+        "explanation": "Incorrect. Proper incident reporting isn't about blame."
+      },
+      {
+        "id": "b",
+        "text": "Safety improvement and documentation",
+        "explanation": "Correct. Incident reporting creates documentation for regulatory compliance and enables analysis to prevent future occurrences. It's about learning and improving safety systems."
+      },
+      {
+        "id": "c",
+        "text": "Slower work",
+        "explanation": "Incorrect. Reporting doesn't inherently slow work."
+      },
+      {
+        "id": "d",
+        "text": "Higher capacity",
+        "explanation": "Incorrect. Reporting doesn't affect crane capacity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Emergency & Abnormal Situations"
+  },
+  {
+    "id": 250,
+    "question": "The best prevention against crane accidents is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Experience alone",
+        "explanation": "Incorrect. Experience without following limits can lead to complacency."
+      },
+      {
+        "id": "b",
+        "text": "Planning, communication, and adherence to limits",
+        "explanation": "Correct. Safe crane operation requires the combination of proper lift planning, clear communication between all parties, and strict adherence to rated capacities and procedures."
+      },
+      {
+        "id": "c",
+        "text": "Larger loads",
+        "explanation": "Incorrect. Larger loads increase risk, not reduce it."
+      },
+      {
+        "id": "d",
+        "text": "Faster hoisting",
+        "explanation": "Incorrect. Speed increases accident risk."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Emergency & Abnormal Situations"
   }
 ]

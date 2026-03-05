@@ -34,6 +34,11 @@ const categories = [
   "Rigging Practices",
   "Operational Hazards",
   "Troubleshooting & Failure Prevention",
+  "Structural & Stability Principles",
+  "Hoisting & Mechanical Systems",
+  "Advanced Rigging & Load Control",
+  "Environmental & Site Hazards",
+  "Emergency & Abnormal Situations",
 ];
 
 export default function ReviewPage() {
