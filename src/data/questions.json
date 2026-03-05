@@ -21140,5 +21140,705 @@
     ],
     "correctAnswer": "c",
     "category": "Multi-Gear Traps"
+  },
+  {
+    "id": 760,
+    "question": "You see lightning and hear thunder 5 seconds later. Approximately how far away is the lightning?",
+    "options": [
+      {
+        "id": "a",
+        "text": "0.5 mile",
+        "explanation": "Incorrect. This would be about 2.5 seconds."
+      },
+      {
+        "id": "b",
+        "text": "1 mile",
+        "explanation": "Correct. Sound travels roughly 1 mile every 5 seconds. 5 seconds = 1 mile away."
+      },
+      {
+        "id": "c",
+        "text": "2 miles",
+        "explanation": "Incorrect. This would be about 10 seconds."
+      },
+      {
+        "id": "d",
+        "text": "5 miles",
+        "explanation": "Incorrect. This would be about 25 seconds."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Weather - Lightning"
+  },
+  {
+    "id": 761,
+    "question": "You count 25 seconds between lightning and thunder. How far away is the storm?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3 miles",
+        "explanation": "Incorrect. 3 miles would be about 15 seconds."
+      },
+      {
+        "id": "b",
+        "text": "4 miles",
+        "explanation": "Incorrect. 4 miles would be about 20 seconds."
+      },
+      {
+        "id": "c",
+        "text": "5 miles",
+        "explanation": "Correct. 25 ÷ 5 = 5 miles."
+      },
+      {
+        "id": "d",
+        "text": "10 miles",
+        "explanation": "Incorrect. 10 miles would be about 50 seconds."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Weather - Lightning"
+  },
+  {
+    "id": 762,
+    "question": "Lightning is seen and thunder follows 10 seconds later. What is the distance?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2 miles",
+        "explanation": "Correct. 10 ÷ 5 = 2 miles."
+      },
+      {
+        "id": "b",
+        "text": "3 miles",
+        "explanation": "Incorrect. 3 miles would be about 15 seconds."
+      },
+      {
+        "id": "c",
+        "text": "4 miles",
+        "explanation": "Incorrect. 4 miles would be about 20 seconds."
+      },
+      {
+        "id": "d",
+        "text": "5 miles",
+        "explanation": "Incorrect. 5 miles would be about 25 seconds."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Weather - Lightning"
+  },
+  {
+    "id": 763,
+    "question": "Why are tower cranes particularly vulnerable to lightning?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Paint attracts lightning",
+        "explanation": "Incorrect. Paint doesn't attract lightning."
+      },
+      {
+        "id": "b",
+        "text": "They are tall conductive structures",
+        "explanation": "Correct. Crane masts and jibs are tall grounded metal structures, making them ideal lightning strike points."
+      },
+      {
+        "id": "c",
+        "text": "Steel cables generate electricity",
+        "explanation": "Incorrect. Cables don't generate electricity."
+      },
+      {
+        "id": "d",
+        "text": "Counterweights attract storms",
+        "explanation": "Incorrect. Counterweights don't attract storms."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Weather - Lightning"
+  },
+  {
+    "id": 764,
+    "question": "What should an operator do when lightning approaches within dangerous distance?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue lifting slowly",
+        "explanation": "Incorrect. Operations must stop during lightning danger."
+      },
+      {
+        "id": "b",
+        "text": "Lower loads only",
+        "explanation": "Incorrect. All operations should stop, not just modify."
+      },
+      {
+        "id": "c",
+        "text": "Stop operations and secure the crane",
+        "explanation": "Correct. When lightning approaches, operators must stop operations, secure all loads, and evacuate to safety."
+      },
+      {
+        "id": "d",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. This is dangerous during lightning."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Weather - Lightning"
+  },
+  {
+    "id": 765,
+    "question": "Strong wind affects crane loads primarily by:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increasing hook weight",
+        "explanation": "Incorrect. Wind doesn't change hook weight."
+      },
+      {
+        "id": "b",
+        "text": "Increasing sail area effect of the load",
+        "explanation": "Correct. Wind acts on the exposed surface area of loads, creating lateral forces that affect stability and control."
+      },
+      {
+        "id": "c",
+        "text": "Reducing trolley speed",
+        "explanation": "Incorrect. Wind doesn't directly reduce trolley speed."
+      },
+      {
+        "id": "d",
+        "text": "Increasing counterweight",
+        "explanation": "Incorrect. Wind doesn't affect counterweight."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Weather - Wind"
+  },
+  {
+    "id": 766,
+    "question": "Wind acting on large panels or forms can cause:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increased hoist speed",
+        "explanation": "Incorrect. Wind doesn't increase hoist speed."
+      },
+      {
+        "id": "b",
+        "text": "Reduced radius",
+        "explanation": "Incorrect. Wind typically increases effective radius."
+      },
+      {
+        "id": "c",
+        "text": "Load instability and uncontrolled swing",
+        "explanation": "Correct. Large flat surfaces act like sails, causing unpredictable load movement and dangerous swinging."
+      },
+      {
+        "id": "d",
+        "text": "Reduced load weight",
+        "explanation": "Incorrect. Wind doesn't reduce load weight."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Weather - Wind"
+  },
+  {
+    "id": 767,
+    "question": "Why must wind speeds be monitored continuously?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wind increases hook height",
+        "explanation": "Incorrect. Wind doesn't increase hook height."
+      },
+      {
+        "id": "b",
+        "text": "Wind conditions can change rapidly",
+        "explanation": "Correct. Wind speed and direction can change quickly, potentially creating dangerous conditions without warning."
+      },
+      {
+        "id": "c",
+        "text": "Wind changes gear ratios",
+        "explanation": "Incorrect. Wind doesn't affect gear ratios."
+      },
+      {
+        "id": "d",
+        "text": "Wind reduces rigging strength",
+        "explanation": "Incorrect. Wind doesn't directly reduce rigging strength."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Weather - Wind"
+  },
+  {
+    "id": 768,
+    "question": "Large flat loads such as form panels or drywall are dangerous in wind because they:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. They don't affect hoist speed."
+      },
+      {
+        "id": "b",
+        "text": "Act like sails",
+        "explanation": "Correct. Large flat surfaces catch wind and create significant lateral forces, making loads difficult to control."
+      },
+      {
+        "id": "c",
+        "text": "Reduce crane stability",
+        "explanation": "Incorrect. While they can affect the crane, the primary issue is their sail effect."
+      },
+      {
+        "id": "d",
+        "text": "Increase hook friction",
+        "explanation": "Incorrect. They don't affect hook friction."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Weather - Wind"
+  },
+  {
+    "id": 769,
+    "question": "If wind begins pushing the load outward during a lift, what happens to radius?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Radius decreases",
+        "explanation": "Incorrect. Outward movement increases radius."
+      },
+      {
+        "id": "b",
+        "text": "Radius unchanged",
+        "explanation": "Incorrect. Wind pushing load outward changes radius."
+      },
+      {
+        "id": "c",
+        "text": "Radius increases",
+        "explanation": "Correct. Wind pushing the load outward increases the effective radius, which reduces crane capacity."
+      },
+      {
+        "id": "d",
+        "text": "Radius disappears",
+        "explanation": "Incorrect. Radius always exists during a lift."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Weather - Wind"
+  },
+  {
+    "id": 770,
+    "question": "Extreme cold can affect cranes by:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increasing steel strength",
+        "explanation": "Incorrect. Cold actually reduces steel toughness."
+      },
+      {
+        "id": "b",
+        "text": "Reducing hydraulic efficiency and material toughness",
+        "explanation": "Correct. Cold thickens hydraulic fluids and makes steel more brittle, reducing overall crane performance and safety."
+      },
+      {
+        "id": "c",
+        "text": "Increasing hoist speed",
+        "explanation": "Incorrect. Cold typically slows mechanical systems."
+      },
+      {
+        "id": "d",
+        "text": "Increasing counterweight",
+        "explanation": "Incorrect. Cold doesn't change counterweight."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Weather - Temperature"
+  },
+  {
+    "id": 771,
+    "question": "Why must operators warm hydraulic systems in very cold weather?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduce load weight",
+        "explanation": "Incorrect. Warming doesn't affect load weight."
+      },
+      {
+        "id": "b",
+        "text": "Hydraulic oil thickens in cold temperatures",
+        "explanation": "Correct. Cold hydraulic oil becomes viscous and doesn't flow properly, reducing system performance and potentially causing damage."
+      },
+      {
+        "id": "c",
+        "text": "Reduce wind effect",
+        "explanation": "Incorrect. Warming doesn't affect wind."
+      },
+      {
+        "id": "d",
+        "text": "Improve signal communication",
+        "explanation": "Incorrect. Warming doesn't affect signals."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Weather - Temperature"
+  },
+  {
+    "id": 772,
+    "question": "Steel becomes more brittle when:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Heated",
+        "explanation": "Incorrect. Heat generally makes steel more ductile."
+      },
+      {
+        "id": "b",
+        "text": "Extremely cold",
+        "explanation": "Correct. Steel loses toughness at very low temperatures, becoming more prone to cracking under stress."
+      },
+      {
+        "id": "c",
+        "text": "Wet",
+        "explanation": "Incorrect. Moisture causes corrosion but not brittleness."
+      },
+      {
+        "id": "d",
+        "text": "Painted",
+        "explanation": "Incorrect. Paint doesn't affect steel brittleness."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Weather - Temperature"
+  },
+  {
+    "id": 773,
+    "question": "Cold weather can cause what problem in wire ropes?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rope expansion",
+        "explanation": "Incorrect. Cold causes contraction, not expansion."
+      },
+      {
+        "id": "b",
+        "text": "Increased elasticity",
+        "explanation": "Incorrect. Cold reduces elasticity."
+      },
+      {
+        "id": "c",
+        "text": "Reduced flexibility and potential brittleness",
+        "explanation": "Correct. Cold wire ropes become stiff and less flexible, and the lubricants may thicken or freeze."
+      },
+      {
+        "id": "d",
+        "text": "Increased strength",
+        "explanation": "Incorrect. Cold doesn't increase rope strength."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Weather - Temperature"
+  },
+  {
+    "id": 774,
+    "question": "Why should cranes be operated carefully during very cold starts?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Counterweight changes",
+        "explanation": "Incorrect. Counterweight doesn't change significantly."
+      },
+      {
+        "id": "b",
+        "text": "Lubricants and hydraulics need time to circulate",
+        "explanation": "Correct. Cold fluids need time to warm and flow properly to provide adequate lubrication and hydraulic pressure."
+      },
+      {
+        "id": "c",
+        "text": "Hook weight increases",
+        "explanation": "Incorrect. Hook weight doesn't change."
+      },
+      {
+        "id": "d",
+        "text": "Radius changes",
+        "explanation": "Incorrect. Radius doesn't change due to cold starts."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Weather - Temperature"
+  },
+  {
+    "id": 775,
+    "question": "Heat causes steel crane components to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Contract",
+        "explanation": "Incorrect. Heat causes expansion, not contraction."
+      },
+      {
+        "id": "b",
+        "text": "Remain unchanged",
+        "explanation": "Incorrect. All materials respond to temperature changes."
+      },
+      {
+        "id": "c",
+        "text": "Expand",
+        "explanation": "Correct. Steel expands when heated due to thermal expansion."
+      },
+      {
+        "id": "d",
+        "text": "Weaken immediately",
+        "explanation": "Incorrect. Normal heat doesn't immediately weaken steel."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Weather - Temperature"
+  },
+  {
+    "id": 776,
+    "question": "Why is thermal expansion important for long crane jibs?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increases lifting capacity",
+        "explanation": "Incorrect. Thermal expansion doesn't increase capacity."
+      },
+      {
+        "id": "b",
+        "text": "Small expansion over long distances can affect alignment",
+        "explanation": "Correct. On long jibs, even small per-meter expansion accumulates to noticeable changes in alignment and geometry."
+      },
+      {
+        "id": "c",
+        "text": "Reduces hook weight",
+        "explanation": "Incorrect. Thermal expansion doesn't affect hook weight."
+      },
+      {
+        "id": "d",
+        "text": "Changes counterweight",
+        "explanation": "Incorrect. Counterweight isn't affected by thermal expansion."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Weather - Temperature"
+  },
+  {
+    "id": 777,
+    "question": "During extreme heat, metal expansion can affect:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load weight",
+        "explanation": "Incorrect. Heat doesn't change load weight."
+      },
+      {
+        "id": "b",
+        "text": "Hook height",
+        "explanation": "Incorrect. Heat doesn't significantly affect hook height."
+      },
+      {
+        "id": "c",
+        "text": "Mechanical tolerances and alignment",
+        "explanation": "Correct. Thermal expansion changes the fit between moving parts and can affect structural alignment."
+      },
+      {
+        "id": "d",
+        "text": "Counterweight mass",
+        "explanation": "Incorrect. Mass doesn't change with temperature."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Weather - Temperature"
+  },
+  {
+    "id": 778,
+    "question": "Why must crane brakes be monitored during extreme heat?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wind increases braking",
+        "explanation": "Incorrect. Wind doesn't affect brake performance."
+      },
+      {
+        "id": "b",
+        "text": "Heat can reduce braking efficiency",
+        "explanation": "Correct. Extreme heat can cause brake fade, reducing stopping power and potentially allowing uncontrolled movement."
+      },
+      {
+        "id": "c",
+        "text": "Hook expands",
+        "explanation": "Incorrect. Hook expansion isn't the primary concern."
+      },
+      {
+        "id": "d",
+        "text": "Rigging shortens",
+        "explanation": "Incorrect. Heat causes expansion, not shortening."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Weather - Temperature"
+  },
+  {
+    "id": 779,
+    "question": "Sun heating one side of a crane structure can cause:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increased load weight",
+        "explanation": "Incorrect. Sun doesn't affect load weight."
+      },
+      {
+        "id": "b",
+        "text": "Reduced hoist speed",
+        "explanation": "Incorrect. Sun heating doesn't directly affect hoist speed."
+      },
+      {
+        "id": "c",
+        "text": "Uneven thermal expansion",
+        "explanation": "Correct. Differential heating causes one side to expand more than the other, potentially affecting alignment and creating stress."
+      },
+      {
+        "id": "d",
+        "text": "Increased gear capacity",
+        "explanation": "Incorrect. Sun doesn't affect gear capacity."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Weather - Temperature"
+  },
+  {
+    "id": 780,
+    "question": "Rain primarily affects crane operations by:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increasing load weight",
+        "explanation": "Incorrect. Rain may add minor weight but that's not the primary effect."
+      },
+      {
+        "id": "b",
+        "text": "Reducing visibility and traction",
+        "explanation": "Correct. Rain reduces visibility for operators and signal persons, and creates slippery surfaces for workers."
+      },
+      {
+        "id": "c",
+        "text": "Increasing radius",
+        "explanation": "Incorrect. Rain doesn't affect radius."
+      },
+      {
+        "id": "d",
+        "text": "Increasing gear speed",
+        "explanation": "Incorrect. Rain doesn't affect gear speed."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Weather - Environmental"
+  },
+  {
+    "id": 781,
+    "question": "Ice buildup on a crane can cause:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduced load weight",
+        "explanation": "Incorrect. Ice adds weight, not reduces it."
+      },
+      {
+        "id": "b",
+        "text": "Additional unexpected weight",
+        "explanation": "Correct. Ice accumulation adds unplanned weight to the crane structure and potentially to loads, affecting capacity calculations."
+      },
+      {
+        "id": "c",
+        "text": "Reduced hook size",
+        "explanation": "Incorrect. Ice doesn't reduce hook size."
+      },
+      {
+        "id": "d",
+        "text": "Reduced wind effect",
+        "explanation": "Incorrect. Ice may actually increase wind effect due to altered surfaces."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Weather - Environmental"
+  },
+  {
+    "id": 782,
+    "question": "Snow accumulation on loads can create:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduced load capacity",
+        "explanation": "Incorrect. Snow doesn't directly reduce capacity."
+      },
+      {
+        "id": "b",
+        "text": "Increased hook height",
+        "explanation": "Incorrect. Snow doesn't affect hook height."
+      },
+      {
+        "id": "c",
+        "text": "Hidden additional weight",
+        "explanation": "Correct. Snow adds weight that may not be accounted for in load calculations, potentially causing overload."
+      },
+      {
+        "id": "d",
+        "text": "Reduced radius",
+        "explanation": "Incorrect. Snow doesn't reduce radius."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Weather - Environmental"
+  },
+  {
+    "id": 783,
+    "question": "Fog primarily creates which hazard?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increased wind",
+        "explanation": "Incorrect. Fog doesn't increase wind."
+      },
+      {
+        "id": "b",
+        "text": "Reduced visibility",
+        "explanation": "Correct. Fog severely limits visibility, making it difficult for operators to see loads, landing zones, and signal persons."
+      },
+      {
+        "id": "c",
+        "text": "Increased hook friction",
+        "explanation": "Incorrect. Fog doesn't affect hook friction."
+      },
+      {
+        "id": "d",
+        "text": "Increased load weight",
+        "explanation": "Incorrect. Fog doesn't affect load weight."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Weather - Environmental"
+  },
+  {
+    "id": 784,
+    "question": "Why must weather forecasts be monitored during crane operations?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To increase lift speed",
+        "explanation": "Incorrect. Forecasts aren't used to increase speed."
+      },
+      {
+        "id": "b",
+        "text": "To anticipate dangerous environmental changes",
+        "explanation": "Correct. Weather forecasts help operators prepare for incoming storms, wind changes, temperature extremes, and other hazards."
+      },
+      {
+        "id": "c",
+        "text": "To reduce hook weight",
+        "explanation": "Incorrect. Forecasts don't affect hook weight."
+      },
+      {
+        "id": "d",
+        "text": "To change counterweight",
+        "explanation": "Incorrect. Forecasts don't require counterweight changes."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Weather - Environmental"
   }
 ]
