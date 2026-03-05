@@ -8986,5 +8986,285 @@
     ],
     "correctAnswer": "c",
     "category": "Crane Clearance & Overlap"
+  },
+  {
+    "id": 322,
+    "question": "A crane is lifting 10,000 kg using a 4-part line. Ignoring friction, what is the tension on each part of line?",
+    "options": [
+      {
+        "id": "a",
+        "text": "10,000 kg",
+        "explanation": "Incorrect. This would be the tension if using only 1 part of line, not 4."
+      },
+      {
+        "id": "b",
+        "text": "2,500 kg",
+        "explanation": "Correct. The load is divided evenly among the parts of line. Formula: Load ÷ Parts of Line = 10,000 ÷ 4 = 2,500 kg per line. In real conditions, friction slightly increases line tension."
+      },
+      {
+        "id": "c",
+        "text": "5,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 2, not 4 parts of line."
+      },
+      {
+        "id": "d",
+        "text": "4,000 kg",
+        "explanation": "Incorrect. This is not the correct calculation for 4 parts of line."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 323,
+    "question": "A load weighs 12,000 kg and the rigging weighs 500 kg. The hook block weighs 350 kg. What is the total suspended load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "12,000 kg",
+        "explanation": "Incorrect. This only accounts for the load itself, not rigging or hook block."
+      },
+      {
+        "id": "b",
+        "text": "12,350 kg",
+        "explanation": "Incorrect. This includes load and hook block but forgets the rigging weight."
+      },
+      {
+        "id": "c",
+        "text": "12,850 kg",
+        "explanation": "Correct. Total suspended load includes everything below the hook: load + rigging + hook block = 12,000 + 500 + 350 = 12,850 kg. This is the weight that must be checked against the load chart capacity."
+      },
+      {
+        "id": "d",
+        "text": "13,000 kg",
+        "explanation": "Incorrect. This is not the correct sum of load, rigging, and hook block weights."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 324,
+    "question": "A crane has a maximum line pull of 3,000 kg per line. With a 5-part line, what is the maximum load that can be lifted (ignoring friction)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "10,000 kg",
+        "explanation": "Incorrect. This would be the result of multiplying by 3.33, not 5."
+      },
+      {
+        "id": "b",
+        "text": "12,000 kg",
+        "explanation": "Incorrect. This would be the result of multiplying by 4, not 5."
+      },
+      {
+        "id": "c",
+        "text": "15,000 kg",
+        "explanation": "Correct. Maximum load = Line pull × parts of line = 3,000 × 5 = 15,000 kg. Friction in sheaves normally reduces this slightly in practice."
+      },
+      {
+        "id": "d",
+        "text": "18,000 kg",
+        "explanation": "Incorrect. This would be the result of multiplying by 6, not 5."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 325,
+    "question": "A crane is configured with 2 parts of line and lifting near its maximum capacity. What happens if the operator increases to 4 parts of line?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load chart capacity decreases",
+        "explanation": "Incorrect. Adding parts of line increases lifting capacity, not decreases it."
+      },
+      {
+        "id": "b",
+        "text": "Hoist speed increases",
+        "explanation": "Incorrect. Adding parts of line decreases hoist speed because more rope must travel through the system."
+      },
+      {
+        "id": "c",
+        "text": "Hoist speed decreases but lifting capacity increases",
+        "explanation": "Correct. Adding parts of line increases mechanical advantage and reduces load on each rope segment. However, hoist speed decreases because more rope must travel through the system."
+      },
+      {
+        "id": "d",
+        "text": "Radius decreases",
+        "explanation": "Incorrect. Parts of line do not affect crane radius."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 326,
+    "question": "A crane lifts a 16,000 kg load with a 4-part line. What is the approximate tension in each line?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. This is not the correct calculation for 4 parts of line."
+      },
+      {
+        "id": "b",
+        "text": "4,000 kg",
+        "explanation": "Correct. Formula: Load ÷ Parts of line = 16,000 ÷ 4 = 4,000 kg per line. Real-world tension will be slightly higher due to friction."
+      },
+      {
+        "id": "c",
+        "text": "8,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 2, not 4."
+      },
+      {
+        "id": "d",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 8, not 4."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 327,
+    "question": "Which of the following increases when parts of line are reduced?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mechanical advantage",
+        "explanation": "Incorrect. Mechanical advantage decreases when parts of line are reduced."
+      },
+      {
+        "id": "b",
+        "text": "Rope life",
+        "explanation": "Incorrect. Rope life typically decreases due to higher tension on each line."
+      },
+      {
+        "id": "c",
+        "text": "Hoist speed",
+        "explanation": "Correct. When parts of line are reduced, the rope travels fewer times through sheaves so the hook moves faster. However, load capacity decreases and line tension increases."
+      },
+      {
+        "id": "d",
+        "text": "Load capacity",
+        "explanation": "Incorrect. Load capacity decreases when parts of line are reduced."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 328,
+    "question": "A crane hook block weighs 400 kg and the rigging weighs 300 kg. The load itself is 7,500 kg. What is the actual hook load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "7,500 kg",
+        "explanation": "Incorrect. This only accounts for the load, not rigging or hook block weight."
+      },
+      {
+        "id": "b",
+        "text": "7,800 kg",
+        "explanation": "Incorrect. This includes load and rigging but forgets hook block weight."
+      },
+      {
+        "id": "c",
+        "text": "8,200 kg",
+        "explanation": "Correct. Total suspended weight includes load + rigging + hook block = 7,500 + 300 + 400 = 8,200 kg. Many exam questions test whether operators forget to include hook block weight."
+      },
+      {
+        "id": "d",
+        "text": "8,500 kg",
+        "explanation": "Incorrect. This is not the correct sum of the given weights."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 329,
+    "question": "Why is increasing the number of parts of line sometimes necessary for heavy lifts?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To reduce crane radius",
+        "explanation": "Incorrect. Parts of line do not affect crane radius."
+      },
+      {
+        "id": "b",
+        "text": "To increase boom length",
+        "explanation": "Incorrect. Parts of line do not affect boom length."
+      },
+      {
+        "id": "c",
+        "text": "To reduce tension on each rope segment",
+        "explanation": "Correct. More parts of line distribute load across multiple rope segments, reduce individual line tension, and allow heavier loads to be lifted safely."
+      },
+      {
+        "id": "d",
+        "text": "To increase wind resistance",
+        "explanation": "Incorrect. Parts of line do not affect wind resistance."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 330,
+    "question": "A crane lifts 18,000 kg using a 6-part line. What is the approximate load on each line?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3,000 kg",
+        "explanation": "Correct. Formula: Load ÷ Parts of line = 18,000 ÷ 6 = 3,000 kg per line. This calculation is essential when verifying line pull limits."
+      },
+      {
+        "id": "b",
+        "text": "4,500 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 4, not 6."
+      },
+      {
+        "id": "c",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 3, not 6."
+      },
+      {
+        "id": "d",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This would be the result of dividing by 9, not 6."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 331,
+    "question": "Which of the following must always be included when calculating total load on the crane?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wind speed",
+        "explanation": "Incorrect. While wind affects operations, it is not part of the total suspended load calculation."
+      },
+      {
+        "id": "b",
+        "text": "Hook height",
+        "explanation": "Incorrect. Hook height does not affect total suspended load weight."
+      },
+      {
+        "id": "c",
+        "text": "Boom angle",
+        "explanation": "Incorrect. Boom angle affects capacity but is not part of load weight calculation."
+      },
+      {
+        "id": "d",
+        "text": "Hook block and rigging weight",
+        "explanation": "Correct. The crane must lift the load plus rigging, hook block, and lifting devices. Failing to include these can exceed crane capacity without realizing it."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Load Line & Parts of Line"
   }
 ]
