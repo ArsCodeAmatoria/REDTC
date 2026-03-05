@@ -105,6 +105,35 @@ export default function TestPage() {
     setLeaderboard(getLeaderboard());
   }, []);
 
+  // Record game stats when test completes
+  useEffect(() => {
+    if (isComplete && !hasRecordedStats.current && totalTestTime > 0) {
+      hasRecordedStats.current = true;
+      completeTest({
+        correctCount: results.correctCount,
+        totalQuestions: results.totalQuestions,
+        totalTime: totalTestTime,
+        questionTimings: questionTimings,
+        passed: results.passed,
+        isPerfect: results.percentage === 100,
+        categories: [],
+      });
+    }
+  }, [isComplete, totalTestTime, results, completeTest, questionTimings]);
+
+  const handleSubmitScore = () => {
+    if (!playerName.trim()) return;
+    const entry: LeaderboardEntry = {
+      name: playerName.trim(),
+      score: results.percentage,
+      time: totalTestTime,
+      date: new Date().toLocaleDateString(),
+    };
+    const updated = saveToLeaderboard(entry);
+    setLeaderboard(updated);
+    setHasSubmitted(true);
+  };
+
   // Start screen
   if (!hasStarted) {
     return (
@@ -170,24 +199,6 @@ export default function TestPage() {
       </div>
     );
   }
-
-  // Record game stats when test completes
-  useEffect(() => {
-    if (isComplete && !hasRecordedStats.current && totalTestTime > 0) {
-      hasRecordedStats.current = true;
-      completeTest({
-        correctCount: results.correctCount,
-        totalQuestions: results.totalQuestions,
-        totalTime: totalTestTime,
-        questionTimings: questionTimings,
-        passed: results.passed,
-        isPerfect: results.percentage === 100,
-        categories: [], // We'd need to track categories per question
-      });
-    }
-  }, [isComplete, totalTestTime, results, completeTest, questionTimings]);
-
-  const handleSubmitScore = () => {
     if (!playerName.trim()) return;
     const entry: LeaderboardEntry = {
       name: playerName.trim(),
