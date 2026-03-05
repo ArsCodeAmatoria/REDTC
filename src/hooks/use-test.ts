@@ -1,8 +1,7 @@
 "use client";
 
 import { useState, useCallback, useMemo, useEffect, useRef } from "react";
-import type { Question, TestState, TestResult, Difficulty } from "@/types/question";
-import { getDifficultyForCategory } from "@/lib/difficulty";
+import type { Question, TestState, TestResult } from "@/types/question";
 
 const DEFAULT_QUESTIONS_PER_TEST = 10;
 const DEFAULT_PASS_PERCENTAGE = 70;
@@ -10,7 +9,6 @@ const DEFAULT_PASS_PERCENTAGE = 70;
 interface TestOptions {
   questionsPerTest?: number;
   passPercentage?: number;
-  difficulty?: Difficulty | "all";
 }
 
 export interface QuestionTiming {
@@ -31,7 +29,6 @@ function shuffleArray<T>(array: T[]): T[] {
 export function useTest(allQuestions: Question[], options: TestOptions = {}) {
   const questionsPerTest = options.questionsPerTest || DEFAULT_QUESTIONS_PER_TEST;
   const passPercentage = options.passPercentage || DEFAULT_PASS_PERCENTAGE;
-  const difficulty = options.difficulty || "all";
   const [testQuestions, setTestQuestions] = useState<Question[]>([]);
   const [state, setState] = useState<TestState>({
     currentQuestionIndex: 0,
@@ -46,20 +43,11 @@ export function useTest(allQuestions: Question[], options: TestOptions = {}) {
   const [totalTestTime, setTotalTestTime] = useState<number>(0);
 
   useEffect(() => {
-    let filteredQuestions = allQuestions;
-    
-    if (difficulty !== "all") {
-      filteredQuestions = allQuestions.filter((q) => {
-        const qDifficulty = q.difficulty || getDifficultyForCategory(q.category);
-        return qDifficulty === difficulty;
-      });
-    }
-    
-    const shuffled = shuffleArray(filteredQuestions);
+    const shuffled = shuffleArray(allQuestions);
     setTestQuestions(shuffled.slice(0, questionsPerTest));
     testStartTime.current = Date.now();
     questionStartTime.current = Date.now();
-  }, [allQuestions, questionsPerTest, difficulty]);
+  }, [allQuestions, questionsPerTest]);
 
   const currentQuestion = useMemo(
     () => testQuestions[state.currentQuestionIndex],
