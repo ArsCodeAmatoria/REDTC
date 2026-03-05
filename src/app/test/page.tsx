@@ -3,28 +3,17 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, RotateCcw, Check, X, Home, Clock, Trophy, Zap, Star, User } from "lucide-react";
+import { ArrowLeft, ArrowRight, RotateCcw, Check, X, Home, Clock, Trophy, Zap, Star, BookOpen, Target, HardHat } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { QuestionCard, ProgressBar } from "@/components/quiz";
 import { useTest } from "@/hooks/use-test";
 import { useGameStats } from "@/hooks/use-game-stats";
 import { BADGES } from "@/lib/gamification";
-import { getDifficultyForCategory } from "@/lib/difficulty";
 import questionsData from "@/data/questions.json";
-import type { Question, Difficulty } from "@/types/question";
+import type { Question } from "@/types/question";
 
 const questions = questionsData as Question[];
-
-function countQuestionsByDifficulty(qs: Question[]): Record<string, number> {
-  const counts = { all: qs.length, easy: 0, medium: 0, hard: 0 };
-  qs.forEach((q) => {
-    const diff = q.difficulty || getDifficultyForCategory(q.category);
-    counts[diff]++;
-  });
-  return counts;
-}
-
-const difficultyCounts = countQuestionsByDifficulty(questions);
+const TOTAL_QUESTIONS = questions.length;
 
 interface LeaderboardEntry {
   name: string;
@@ -62,7 +51,6 @@ function saveToLeaderboard(entry: LeaderboardEntry): LeaderboardEntry[] {
 }
 
 export default function TestPage() {
-  const [selectedDifficulty, setSelectedDifficulty] = useState<Difficulty | "all">("all");
   const [hasStarted, setHasStarted] = useState(false);
 
   const {
@@ -86,7 +74,7 @@ export default function TestPage() {
     totalTestTime,
     timingStats,
     questionTimings,
-  } = useTest(questions, { difficulty: hasStarted ? selectedDifficulty : "all" });
+  } = useTest(questions);
 
   const [playerName, setPlayerName] = useState("");
   const [leaderboard, setLeaderboard] = useState<LeaderboardEntry[]>([]);
@@ -151,49 +139,116 @@ export default function TestPage() {
           </div>
         </header>
 
-        <div className="flex-1 flex items-center justify-center px-4">
+        <div className="flex-1 px-4 py-12 md:py-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="w-full max-w-md text-center space-y-10"
+            className="max-w-2xl mx-auto space-y-10"
           >
-            <div className="space-y-3">
-              <h1 className="font-display text-5xl font-bold">Practice</h1>
-              <p className="text-muted-foreground">10 questions · 70% to pass</p>
+            {/* Header */}
+            <div className="text-center space-y-4">
+              <span className="category-label">Practice Mode</span>
+              <h1 className="font-display text-5xl md:text-6xl font-bold">Quick Practice</h1>
+              <p className="text-lg text-muted-foreground max-w-md mx-auto">
+                Test your knowledge with 10 randomly selected questions from our question bank.
+              </p>
             </div>
 
-            <div className="flex flex-wrap justify-center gap-2">
-              {[
-                { key: "all", label: "All", count: difficultyCounts.all },
-                { key: "easy", label: "Easy", count: difficultyCounts.easy },
-                { key: "medium", label: "Medium", count: difficultyCounts.medium },
-                { key: "hard", label: "Hard", count: difficultyCounts.hard },
-              ].map((item) => (
-                <button
-                  key={item.key}
-                  onClick={() => setSelectedDifficulty(item.key as Difficulty | "all")}
-                  className={`px-4 py-2 text-sm font-medium transition-all ${
-                    selectedDifficulty === item.key
-                      ? "bg-accent text-accent-foreground"
-                      : "bg-muted text-muted-foreground hover:text-foreground"
-                  }`}
-                >
-                  {item.label}
-                  <span className="ml-1.5 opacity-60">{item.count}</span>
-                </button>
-              ))}
+            {/* Stats Cards */}
+            <div className="grid grid-cols-3 gap-4">
+              <div className="text-center p-4 border border-border bg-muted/20">
+                <div className="text-3xl font-display font-bold text-accent">10</div>
+                <div className="text-xs text-muted-foreground mt-1">Questions</div>
+              </div>
+              <div className="text-center p-4 border border-border bg-muted/20">
+                <div className="text-3xl font-display font-bold text-accent">70%</div>
+                <div className="text-xs text-muted-foreground mt-1">To Pass</div>
+              </div>
+              <div className="text-center p-4 border border-border bg-muted/20">
+                <div className="text-3xl font-display font-bold text-accent">{TOTAL_QUESTIONS}</div>
+                <div className="text-xs text-muted-foreground mt-1">In Bank</div>
+              </div>
             </div>
 
-            <Button
-              onClick={() => setHasStarted(true)}
-              className="w-full bg-accent text-accent-foreground hover:bg-accent/90 h-12 text-base"
-            >
-              Start
-            </Button>
+            <div className="h-px bg-border" />
 
-            <Link href="/" className="block text-sm text-muted-foreground hover:text-foreground transition-colors">
-              ← Back
-            </Link>
+            {/* What to Expect */}
+            <div className="space-y-6">
+              <h2 className="font-display text-xl font-bold text-center">What to Expect</h2>
+              <div className="grid sm:grid-cols-3 gap-4">
+                <div className="flex flex-col items-center text-center p-4 space-y-2">
+                  <div className="w-10 h-10 bg-accent/10 border border-accent/20 flex items-center justify-center">
+                    <BookOpen className="w-5 h-5 text-accent" />
+                  </div>
+                  <h3 className="font-bold text-sm">Multiple Choice</h3>
+                  <p className="text-xs text-muted-foreground">
+                    Each question has 4 options with detailed explanations after answering.
+                  </p>
+                </div>
+                <div className="flex flex-col items-center text-center p-4 space-y-2">
+                  <div className="w-10 h-10 bg-accent/10 border border-accent/20 flex items-center justify-center">
+                    <Target className="w-5 h-5 text-accent" />
+                  </div>
+                  <h3 className="font-bold text-sm">Instant Feedback</h3>
+                  <p className="text-xs text-muted-foreground">
+                    See correct answers immediately with explanations for each question.
+                  </p>
+                </div>
+                <div className="flex flex-col items-center text-center p-4 space-y-2">
+                  <div className="w-10 h-10 bg-accent/10 border border-accent/20 flex items-center justify-center">
+                    <HardHat className="w-5 h-5 text-accent" />
+                  </div>
+                  <h3 className="font-bold text-sm">Real Exam Topics</h3>
+                  <p className="text-xs text-muted-foreground">
+                    Questions cover safety, load charts, rigging, operations, and more.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="h-px bg-border" />
+
+            {/* Topics Covered */}
+            <div className="space-y-4">
+              <h2 className="font-display text-xl font-bold text-center">Topics Covered</h2>
+              <div className="flex flex-wrap justify-center gap-2">
+                {[
+                  "Safety & Legislation",
+                  "Load Charts & Calculations",
+                  "Rigging & Slinging",
+                  "Crane Components",
+                  "Communication",
+                  "Site Conditions",
+                  "Inspection & Maintenance",
+                  "Emergency Procedures",
+                ].map((topic) => (
+                  <span
+                    key={topic}
+                    className="px-3 py-1.5 text-xs font-medium bg-muted/50 border border-border"
+                  >
+                    {topic}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div className="h-px bg-border" />
+
+            {/* CTA */}
+            <div className="space-y-4">
+              <Button
+                onClick={() => setHasStarted(true)}
+                className="w-full bg-accent text-accent-foreground hover:bg-accent/90 h-14 text-lg font-bold"
+              >
+                Start Practice Test
+              </Button>
+              <p className="text-center text-xs text-muted-foreground">
+                Questions are randomly selected each time you practice.
+              </p>
+              <Link href="/" className="block text-center text-sm text-muted-foreground hover:text-foreground transition-colors">
+                ← Back to Home
+              </Link>
+            </div>
           </motion.div>
         </div>
       </div>
@@ -424,20 +479,6 @@ export default function TestPage() {
                 <RotateCcw className="mr-2 h-4 w-4" />
                 {isPassed ? "Practice Again" : "Try Again"}
               </Button>
-              <Button
-                variant="outline"
-                onClick={() => {
-                  setHasSubmitted(false);
-                  setPlayerName("");
-                  hasRecordedStats.current = false;
-                  clearNewBadges();
-                  setHasStarted(false);
-                }}
-                className="w-full"
-                size="lg"
-              >
-                Change Difficulty
-              </Button>
               <Link href="/test/review" className="block">
                 <Button variant="outline" className="w-full" size="lg">
                   Review All Questions
@@ -479,20 +520,9 @@ export default function TestPage() {
               </div>
               <span className="font-display text-xl font-bold tracking-tight hidden sm:block">REDTC</span>
             </Link>
-            <div className="flex items-center gap-4">
-              {selectedDifficulty !== "all" && (
-                <span className={`text-xs font-bold uppercase px-2 py-1 ${
-                  selectedDifficulty === "easy" ? "bg-green-500/20 text-green-500" :
-                  selectedDifficulty === "medium" ? "bg-yellow-500/20 text-yellow-500" :
-                  "bg-red-500/20 text-red-500"
-                }`}>
-                  {selectedDifficulty}
-                </span>
-              )}
-              <span className="text-sm text-muted-foreground hidden sm:block">
-                {passPercentage}% to pass
-              </span>
-            </div>
+            <span className="text-sm text-muted-foreground">
+              {passPercentage}% to pass
+            </span>
           </div>
         </div>
       </header>
