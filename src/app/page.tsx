@@ -9,16 +9,16 @@ import { Header } from "@/components/layout/header";
 import questionsData from "@/data/questions.json";
 
 const categories = [
-  { name: "Load Charts & Parts of Line", count: 130, color: "bg-accent" },
-  { name: "Crane Operations & Site", count: 115, color: "bg-foreground" },
-  { name: "Master Level Questions", count: 120, color: "bg-foreground" },
-  { name: "Structural & Mechanical", count: 75, color: "bg-foreground" },
+  { name: "Load Charts & Parts of Line", count: 140, color: "bg-accent" },
+  { name: "Advanced Operations & Traps", count: 95, color: "bg-foreground" },
+  { name: "Master Level Questions", count: 100, color: "bg-foreground" },
+  { name: "Rigging & Sling Angles", count: 85, color: "bg-foreground" },
+  { name: "Material Weight & Geometry", count: 80, color: "bg-foreground" },
+  { name: "Structural & Mechanical", count: 70, color: "bg-foreground" },
   { name: "Gear, Drive & Capacity", count: 65, color: "bg-foreground" },
-  { name: "Material Weight & Conversions", count: 60, color: "bg-foreground" },
-  { name: "Rigging & Sling Angles", count: 55, color: "bg-foreground" },
-  { name: "Safety & BC Regulations", count: 50, color: "bg-foreground" },
-  { name: "Weather & Environmental", count: 45, color: "bg-foreground" },
-  { name: "Scenarios & Theory", count: 70, color: "bg-foreground" },
+  { name: "Safety, Regulations & Comms", count: 60, color: "bg-foreground" },
+  { name: "Weather & Environmental", count: 50, color: "bg-foreground" },
+  { name: "Slewing, Clearance & Scenarios", count: 55, color: "bg-foreground" },
 ];
 
 const features = [
