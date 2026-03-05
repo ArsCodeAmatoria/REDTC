@@ -577,7 +577,7 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-5 gap-8 lg:gap-12">
             {/* Left - Image Card */}
             <div className="lg:col-span-2">
-              <div className="sticky top-20 border border-border bg-muted/30">
+              <div className="sticky top-20 border border-border bg-muted/30 relative overflow-hidden">
                 <Image
                   src="/images/resources3.png"
                   alt="Tower crane operator"
@@ -585,10 +585,10 @@ export default function HomePage() {
                   height={600}
                   className="w-full h-auto"
                 />
-                <div className="p-6 border-t border-border">
+                <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 via-black/50 to-transparent">
                   <span className="category-label">Certification</span>
-                  <h3 className="font-display text-xl font-bold mt-2">Build Your Career</h3>
-                  <p className="text-sm text-muted-foreground mt-2">Red Seal opens doors across Canada</p>
+                  <h3 className="font-display text-xl font-bold mt-2 text-white">Build Your Career</h3>
+                  <p className="text-sm text-white/70 mt-2">Red Seal opens doors across Canada</p>
                 </div>
               </div>
             </div>
@@ -605,15 +605,15 @@ export default function HomePage() {
                 href="https://bccranesafety.ca/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block bg-accent p-6 hover:bg-accent/90 transition-colors group"
+                className="block p-6 border border-border hover:border-accent transition-colors group"
               >
                 <div className="flex items-start justify-between">
                   <div>
-                    <span className="text-xs font-bold uppercase tracking-wider text-accent-foreground/70">Featured</span>
-                    <h3 className="font-display text-xl font-bold text-accent-foreground mt-1">BC Crane Safety</h3>
-                    <p className="text-accent-foreground/80 mt-2">Provincial authority for crane operator certification in British Columbia</p>
+                    <span className="text-xs font-bold uppercase tracking-wider text-accent">Featured</span>
+                    <h3 className="font-display text-xl font-bold mt-1 group-hover:text-accent transition-colors">BC Crane Safety</h3>
+                    <p className="text-muted-foreground mt-2">Provincial authority for crane operator certification in British Columbia</p>
                   </div>
-                  <ChevronRight className="w-5 h-5 text-accent-foreground mt-1" />
+                  <ChevronRight className="w-5 h-5 text-muted-foreground group-hover:text-accent mt-1 transition-colors" />
                 </div>
               </a>
 
