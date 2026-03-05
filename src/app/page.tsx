@@ -516,124 +516,156 @@ export default function HomePage() {
       {/* Load Chart Practice Section */}
       <section className="border-b border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <div>
-                <span className="category-label">Real Charts</span>
-                <h2 className="font-display text-3xl md:text-4xl font-bold mt-2">Load Chart Practice</h2>
+          <div className="mb-10">
+            <span className="category-label">Real Charts</span>
+            <h2 className="font-display text-3xl md:text-4xl font-bold mt-2">Load Chart Practice</h2>
+            <p className="text-muted-foreground mt-4 max-w-2xl">
+              Master reading <strong className="text-foreground">real manufacturer load charts</strong> from Liebherr, Potain, WOLFF, and Terex.
+              Open charts in a separate window, then answer questions exactly like you&apos;ll do on the job.
+            </p>
+          </div>
+
+          {/* Charts Grid by Type */}
+          <div className="grid md:grid-cols-3 gap-6 mb-8">
+            {/* Flat-Top & Hammerhead */}
+            <div className="bg-muted/20 border border-border p-5">
+              <div className="flex items-center gap-2 mb-4">
+                <div className="w-1.5 h-6 bg-accent" />
+                <h3 className="font-display font-semibold">Flat-Top & Hammerhead</h3>
               </div>
-              <div className="space-y-4 text-muted-foreground">
-                <p>
-                  Master the critical skill of reading <strong className="text-foreground">real manufacturer load charts</strong>. 
-                  Our collection includes actual Liebherr, Potain, WOLFF, and Terex PDF load charts covering different crane types used on modern construction sites.
-                </p>
-                <p>
-                  Open the chart in a separate window or monitor, then answer questions that test your ability to find capacities at 
-                  specific radii, understand operating modes, and calculate actual load limits — exactly like you&apos;ll do on the job.
-                </p>
+              <div className="space-y-2.5">
+                <div className="flex items-center justify-between py-2 border-b border-border/50">
+                  <div>
+                    <span className="text-xs text-muted-foreground">Liebherr</span>
+                    <p className="font-medium text-sm">470 EC-B 20</p>
+                  </div>
+                  <span className="text-xs text-muted-foreground">83m · 20t</span>
+                </div>
+                <div className="flex items-center justify-between py-2 border-b border-border/50">
+                  <div>
+                    <span className="text-xs text-muted-foreground">Liebherr</span>
+                    <p className="font-medium text-sm">550 EC-H 20</p>
+                  </div>
+                  <span className="text-xs text-muted-foreground">81.5m · 20t</span>
+                </div>
+                <div className="flex items-center justify-between py-2 border-b border-border/50">
+                  <div>
+                    <span className="text-xs text-muted-foreground">Potain</span>
+                    <p className="font-medium text-sm">MDT 189</p>
+                  </div>
+                  <span className="text-xs text-muted-foreground">60m · 8t</span>
+                </div>
+                <div className="flex items-center justify-between py-2 border-b border-border/50">
+                  <div>
+                    <span className="text-xs text-muted-foreground">Potain</span>
+                    <p className="font-medium text-sm">MD 1600</p>
+                  </div>
+                  <span className="text-xs text-muted-foreground">80m · 64t</span>
+                </div>
+                <div className="flex items-center justify-between py-2 border-b border-border/50">
+                  <div>
+                    <span className="text-xs text-muted-foreground">Terex</span>
+                    <p className="font-medium text-sm">CTT 222-10</p>
+                  </div>
+                  <span className="text-xs text-muted-foreground">65m · 10t</span>
+                </div>
+                <div className="flex items-center justify-between py-2">
+                  <div>
+                    <span className="text-xs text-muted-foreground">Terex</span>
+                    <p className="font-medium text-sm">SK 415-20</p>
+                  </div>
+                  <span className="text-xs text-muted-foreground">80m · 20t</span>
+                </div>
               </div>
-              <div className="pt-2">
-                <Link href="/load-charts">
-                  <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
-                    <FileSpreadsheet className="mr-2 h-4 w-4" />
-                    Practice with Load Charts
-                  </Button>
-                </Link>
+              <div className="mt-4 pt-3 border-t border-border/50 text-center">
+                <span className="text-sm font-medium text-accent">6 Charts</span>
               </div>
             </div>
-            <div className="space-y-6">
-              {/* Flat-Top & Hammerhead */}
-              <div>
-                <h3 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-3">Flat-Top & Hammerhead</h3>
-                <div className="grid grid-cols-2 gap-3">
-                  <div className="bg-background border border-border p-4">
-                    <span className="text-xs text-accent font-medium">Liebherr</span>
-                    <h4 className="font-semibold text-sm mt-1">470 EC-B 20</h4>
-                    <p className="text-xs text-muted-foreground">83m, 20t</p>
+
+            {/* Luffing Jib */}
+            <div className="bg-muted/20 border border-border p-5">
+              <div className="flex items-center gap-2 mb-4">
+                <div className="w-1.5 h-6 bg-accent" />
+                <h3 className="font-display font-semibold">Luffing Jib</h3>
+              </div>
+              <div className="space-y-2.5">
+                <div className="flex items-center justify-between py-2 border-b border-border/50">
+                  <div>
+                    <span className="text-xs text-muted-foreground">Liebherr</span>
+                    <p className="font-medium text-sm">195 HC-LH</p>
                   </div>
-                  <div className="bg-background border border-border p-4">
-                    <span className="text-xs text-accent font-medium">Liebherr</span>
-                    <h4 className="font-semibold text-sm mt-1">550 EC-H 20</h4>
-                    <p className="text-xs text-muted-foreground">81.5m, 20t</p>
+                  <span className="text-xs text-muted-foreground">55m · 12t</span>
+                </div>
+                <div className="flex items-center justify-between py-2 border-b border-border/50">
+                  <div>
+                    <span className="text-xs text-muted-foreground">Liebherr</span>
+                    <p className="font-medium text-sm">NC-LH 12-55</p>
                   </div>
-                  <div className="bg-background border border-border p-4">
-                    <span className="text-xs text-accent font-medium">Potain</span>
-                    <h4 className="font-semibold text-sm mt-1">MDT 189</h4>
-                    <p className="text-xs text-muted-foreground">197ft, 8.8 USt</p>
+                  <span className="text-xs text-muted-foreground">55m · 12t</span>
+                </div>
+                <div className="flex items-center justify-between py-2">
+                  <div>
+                    <span className="text-xs text-muted-foreground">WOLFF</span>
+                    <p className="font-medium text-sm">355 B US</p>
                   </div>
-                  <div className="bg-background border border-border p-4">
-                    <span className="text-xs text-accent font-medium">Potain</span>
-                    <h4 className="font-semibold text-sm mt-1">MD 1600</h4>
-                    <p className="text-xs text-muted-foreground">80m, 40t/64t</p>
-                  </div>
-                  <div className="bg-background border border-border p-4">
-                    <span className="text-xs text-accent font-medium">Terex</span>
-                    <h4 className="font-semibold text-sm mt-1">CTT 222-10</h4>
-                    <p className="text-xs text-muted-foreground">65m, 10t</p>
-                  </div>
-                  <div className="bg-background border border-border p-4">
-                    <span className="text-xs text-accent font-medium">Terex</span>
-                    <h4 className="font-semibold text-sm mt-1">SK 415-20</h4>
-                    <p className="text-xs text-muted-foreground">263ft, 44k lb</p>
-                  </div>
+                  <span className="text-xs text-muted-foreground">60m · 28t</span>
                 </div>
               </div>
-              
-              {/* Luffing Jib */}
-              <div>
-                <h3 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-3">Luffing Jib</h3>
-                <div className="grid grid-cols-2 gap-3">
-                  <div className="bg-background border border-border p-4">
-                    <span className="text-xs text-accent font-medium">Liebherr</span>
-                    <h4 className="font-semibold text-sm mt-1">195 HC-LH</h4>
-                    <p className="text-xs text-muted-foreground">55m, 6t/12t</p>
-                  </div>
-                  <div className="bg-background border border-border p-4">
-                    <span className="text-xs text-accent font-medium">Liebherr</span>
-                    <h4 className="font-semibold text-sm mt-1">NC-LH 12-55</h4>
-                    <p className="text-xs text-muted-foreground">55m, 12t</p>
-                  </div>
-                  <div className="bg-background border border-border p-4">
-                    <span className="text-xs text-accent font-medium">WOLFF</span>
-                    <h4 className="font-semibold text-sm mt-1">355 B US</h4>
-                    <p className="text-xs text-muted-foreground">60m, 28t</p>
-                  </div>
-                </div>
-              </div>
-              
-              {/* Self-Erecting */}
-              <div>
-                <h3 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-3">Self-Erecting</h3>
-                <div className="grid grid-cols-2 gap-3">
-                  <div className="bg-background border border-border p-4">
-                    <span className="text-xs text-accent font-medium">Liebherr</span>
-                    <h4 className="font-semibold text-sm mt-1">91 K</h4>
-                    <p className="text-xs text-muted-foreground">48m, 6t</p>
-                  </div>
-                  <div className="bg-background border border-border p-4">
-                    <span className="text-xs text-accent font-medium">Potain</span>
-                    <h4 className="font-semibold text-sm mt-1">Igo T 139</h4>
-                    <p className="text-xs text-muted-foreground">55m, 8t</p>
-                  </div>
-                </div>
-              </div>
-              
-              {/* Stats */}
-              <div className="bg-muted/30 border border-border p-4 flex items-center justify-between">
-                <div>
-                  <div className="text-2xl font-display font-bold">11</div>
-                  <div className="text-xs text-muted-foreground">Crane charts</div>
-                </div>
-                <div>
-                  <div className="text-2xl font-display font-bold">156</div>
-                  <div className="text-xs text-muted-foreground">Questions</div>
-                </div>
-                <div>
-                  <div className="text-2xl font-display font-bold">4</div>
-                  <div className="text-xs text-muted-foreground">Manufacturers</div>
-                </div>
+              <div className="mt-4 pt-3 border-t border-border/50 text-center">
+                <span className="text-sm font-medium text-accent">3 Charts</span>
               </div>
             </div>
+
+            {/* Self-Erecting */}
+            <div className="bg-muted/20 border border-border p-5">
+              <div className="flex items-center gap-2 mb-4">
+                <div className="w-1.5 h-6 bg-accent" />
+                <h3 className="font-display font-semibold">Self-Erecting</h3>
+              </div>
+              <div className="space-y-2.5">
+                <div className="flex items-center justify-between py-2 border-b border-border/50">
+                  <div>
+                    <span className="text-xs text-muted-foreground">Liebherr</span>
+                    <p className="font-medium text-sm">91 K</p>
+                  </div>
+                  <span className="text-xs text-muted-foreground">48m · 6t</span>
+                </div>
+                <div className="flex items-center justify-between py-2">
+                  <div>
+                    <span className="text-xs text-muted-foreground">Potain</span>
+                    <p className="font-medium text-sm">Igo T 139</p>
+                  </div>
+                  <span className="text-xs text-muted-foreground">55m · 8t</span>
+                </div>
+              </div>
+              <div className="mt-4 pt-3 border-t border-border/50 text-center">
+                <span className="text-sm font-medium text-accent">2 Charts</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Bottom Bar */}
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4 bg-background border border-border p-5">
+            <div className="flex items-center gap-8">
+              <div className="text-center sm:text-left">
+                <div className="text-2xl font-display font-bold">11</div>
+                <div className="text-xs text-muted-foreground">Charts</div>
+              </div>
+              <div className="text-center sm:text-left">
+                <div className="text-2xl font-display font-bold">156</div>
+                <div className="text-xs text-muted-foreground">Questions</div>
+              </div>
+              <div className="text-center sm:text-left">
+                <div className="text-2xl font-display font-bold">4</div>
+                <div className="text-xs text-muted-foreground">Brands</div>
+              </div>
+            </div>
+            <Link href="/load-charts">
+              <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
+                <FileSpreadsheet className="mr-2 h-4 w-4" />
+                Start Practicing
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
