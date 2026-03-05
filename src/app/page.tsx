@@ -577,22 +577,21 @@ export default function HomePage() {
       {/* Resources Section */}
       <section className="border-b border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="grid lg:grid-cols-5 gap-12">
+          <div className="grid lg:grid-cols-5 gap-8 lg:gap-12">
             {/* Left - Image Card */}
             <div className="lg:col-span-2">
-              <div className="sticky top-20">
-                <div className="relative h-[400px] lg:h-[500px] overflow-hidden">
-                  <Image
-                    src="/images/resources.png"
-                    alt="Tower crane operator"
-                    fill
-                    className="object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-background/90 to-transparent" />
-                  <div className="absolute bottom-0 left-0 right-0 p-6">
-                    <span className="category-label">Certification</span>
-                    <h3 className="font-display text-2xl font-bold mt-2">Build Your Career</h3>
-                  </div>
+              <div className="sticky top-20 border border-border bg-muted/30">
+                <Image
+                  src="/images/resources.png"
+                  alt="Tower crane operator"
+                  width={500}
+                  height={600}
+                  className="w-full h-auto"
+                />
+                <div className="p-6 border-t border-border">
+                  <span className="category-label">Certification</span>
+                  <h3 className="font-display text-xl font-bold mt-2">Build Your Career</h3>
+                  <p className="text-sm text-muted-foreground mt-2">Red Seal opens doors across Canada</p>
                 </div>
               </div>
             </div>
@@ -604,81 +603,92 @@ export default function HomePage() {
                 <h2 className="font-display text-3xl md:text-4xl font-bold mt-2">Official Resources</h2>
               </div>
 
-              {/* Resource Links */}
-              <div className="space-y-2">
-                <a
-                  href="https://bccranesafety.ca/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-between py-3 border-b border-border hover:text-accent transition-colors group"
-                >
-                  <span className="font-medium">BC Crane Safety</span>
-                  <span className="text-sm text-muted-foreground group-hover:text-accent">Provincial certification authority</span>
-                </a>
+              {/* Featured Resource */}
+              <a
+                href="https://bccranesafety.ca/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block bg-accent p-6 hover:bg-accent/90 transition-colors group"
+              >
+                <div className="flex items-start justify-between">
+                  <div>
+                    <span className="text-xs font-bold uppercase tracking-wider text-accent-foreground/70">Featured</span>
+                    <h3 className="font-display text-xl font-bold text-accent-foreground mt-1">BC Crane Safety</h3>
+                    <p className="text-accent-foreground/80 mt-2">Provincial authority for crane operator certification in British Columbia</p>
+                  </div>
+                  <ChevronRight className="w-5 h-5 text-accent-foreground mt-1" />
+                </div>
+              </a>
 
+              {/* Resource Grid */}
+              <div className="grid sm:grid-cols-2 gap-4">
                 <a
                   href="https://skilledtradesbc.ca/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-between py-3 border-b border-border hover:text-accent transition-colors group"
+                  className="group p-4 border-l-4 border-accent bg-muted/30 hover:bg-muted/50 transition-colors"
                 >
-                  <span className="font-medium">SkilledTradesBC</span>
-                  <span className="text-sm text-muted-foreground group-hover:text-accent">Apprenticeship registration</span>
+                  <h3 className="font-bold group-hover:text-accent transition-colors">SkilledTradesBC</h3>
+                  <p className="text-sm text-muted-foreground mt-1">Apprenticeship registration</p>
                 </a>
 
                 <a
                   href="https://www.red-seal.ca/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-between py-3 border-b border-border hover:text-accent transition-colors group"
+                  className="group p-4 border-l-4 border-accent bg-muted/30 hover:bg-muted/50 transition-colors"
                 >
-                  <span className="font-medium">Red Seal Program</span>
-                  <span className="text-sm text-muted-foreground group-hover:text-accent">National exam standards</span>
+                  <h3 className="font-bold group-hover:text-accent transition-colors">Red Seal Program</h3>
+                  <p className="text-sm text-muted-foreground mt-1">National exam standards</p>
                 </a>
 
                 <a
                   href="https://www.worksafebc.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-between py-3 border-b border-border hover:text-accent transition-colors group"
+                  className="group p-4 border-l-4 border-foreground/20 hover:border-accent bg-muted/30 hover:bg-muted/50 transition-colors"
                 >
-                  <span className="font-medium">WorkSafeBC</span>
-                  <span className="text-sm text-muted-foreground group-hover:text-accent">Safety regulations</span>
+                  <h3 className="font-bold group-hover:text-accent transition-colors">WorkSafeBC</h3>
+                  <p className="text-sm text-muted-foreground mt-1">Safety regulations</p>
                 </a>
 
                 <a
                   href="https://fulford.ca/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-between py-3 border-b border-border hover:text-accent transition-colors group"
+                  className="group p-4 border-l-4 border-foreground/20 hover:border-accent bg-muted/30 hover:bg-muted/50 transition-colors"
                 >
-                  <span className="font-medium">Fulford Certification</span>
-                  <span className="text-sm text-muted-foreground group-hover:text-accent">Training in Western Canada</span>
+                  <h3 className="font-bold group-hover:text-accent transition-colors">Fulford Certification</h3>
+                  <p className="text-sm text-muted-foreground mt-1">Training in Western Canada</p>
                 </a>
               </div>
 
               {/* Standards */}
-              <div className="pt-6">
-                <h3 className="font-display text-lg font-bold mb-4">Industry Standards</h3>
-                <div className="space-y-2">
+              <div className="pt-4">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="h-px flex-1 bg-border" />
+                  <span className="text-xs font-bold uppercase tracking-wider text-muted-foreground">Standards</span>
+                  <div className="h-px flex-1 bg-border" />
+                </div>
+                <div className="flex flex-wrap gap-3">
                   <a
                     href="https://www.asme.org/codes-standards/find-codes-standards/b30-series-safety-standard-cranes-derricks-hoists-hooks-jacks-slings"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-between py-3 border-b border-border hover:text-accent transition-colors group"
+                    className="inline-flex items-center gap-2 px-4 py-2 bg-foreground text-background text-sm font-medium hover:bg-foreground/80 transition-colors"
                   >
-                    <span className="font-medium">ASME B30</span>
-                    <span className="text-sm text-muted-foreground group-hover:text-accent">Cranes & lifting equipment</span>
+                    ASME B30
+                    <ChevronRight className="w-4 h-4" />
                   </a>
 
                   <a
                     href="https://www.csagroup.org/store/product/Z248-17/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-between py-3 border-b border-border hover:text-accent transition-colors group"
+                    className="inline-flex items-center gap-2 px-4 py-2 bg-foreground text-background text-sm font-medium hover:bg-foreground/80 transition-colors"
                   >
-                    <span className="font-medium">CSA Z248</span>
-                    <span className="text-sm text-muted-foreground group-hover:text-accent">Tower crane code</span>
+                    CSA Z248
+                    <ChevronRight className="w-4 h-4" />
                   </a>
                 </div>
               </div>
