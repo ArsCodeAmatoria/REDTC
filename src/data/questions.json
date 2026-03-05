@@ -19050,5 +19050,835 @@
     ],
     "correctAnswer": "d",
     "category": "Master Operations"
+  },
+  {
+    "id": 685,
+    "question": "A crane load chart shows: 20 m → 5000 kg, 25 m → 3800 kg. A concrete bucket weighs 3200 kg. Rigging and hook block weigh 600 kg. What is the total lifted weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3,200 kg",
+        "explanation": "Incorrect. This is only the bucket weight."
+      },
+      {
+        "id": "b",
+        "text": "3,500 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "3,800 kg",
+        "explanation": "Correct. Total weight = load + rigging = 3200 + 600 = 3,800 kg."
+      },
+      {
+        "id": "d",
+        "text": "4,200 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Scenario Calculations"
+  },
+  {
+    "id": 686,
+    "question": "Load chart shows 3800 kg capacity at 25 m. Total lift weight is 3800 kg. Is the lift safe at 25 m radius?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes",
+        "explanation": "Correct. The lift equals capacity (3800 kg = 3800 kg), so technically allowed but should be approached cautiously with no safety margin."
+      },
+      {
+        "id": "b",
+        "text": "No",
+        "explanation": "Incorrect. The lift is at capacity, which is allowed."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Scenario Calculations"
+  },
+  {
+    "id": 687,
+    "question": "A load weighs 4200 kg. Load chart: 18 m → 5200 kg, 22 m → 4300 kg, 25 m → 3900 kg. What is the farthest safe radius?",
+    "options": [
+      {
+        "id": "a",
+        "text": "18 m",
+        "explanation": "Incorrect. The crane can lift further."
+      },
+      {
+        "id": "b",
+        "text": "22 m",
+        "explanation": "Correct. 4200 kg is below 4300 kg capacity at 22 m, but above 3900 kg at 25 m. Maximum safe radius is 22 m."
+      },
+      {
+        "id": "c",
+        "text": "25 m",
+        "explanation": "Incorrect. Capacity at 25 m (3900 kg) is less than the load."
+      },
+      {
+        "id": "d",
+        "text": "30 m",
+        "explanation": "Incorrect. This radius is not on the chart."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Scenario Calculations"
+  },
+  {
+    "id": 688,
+    "question": "A steel beam weighs 75 lb/ft and is 40 ft long. What is the total weight in pounds?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,000 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "3,000 lb",
+        "explanation": "Correct. 75 × 40 = 3,000 lb."
+      },
+      {
+        "id": "c",
+        "text": "3,500 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "4,000 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Scenario Calculations"
+  },
+  {
+    "id": 689,
+    "question": "A beam weighs 3000 lb. Convert to kilograms. (1 kg = 2.2 lb)",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,200 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "1,360 kg",
+        "explanation": "Correct. 3000 ÷ 2.2 = 1,364 kg ≈ 1,360 kg."
+      },
+      {
+        "id": "c",
+        "text": "1,500 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "1,800 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Scenario Calculations"
+  },
+  {
+    "id": 690,
+    "question": "Load chart capacity at 24 m is 4200 kg. The operator estimates radius is between 24 m and 26 m. Which radius should be used?",
+    "options": [
+      {
+        "id": "a",
+        "text": "24 m",
+        "explanation": "Incorrect. This could lead to overloading."
+      },
+      {
+        "id": "b",
+        "text": "26 m",
+        "explanation": "Correct. Operators must err to the larger radius to avoid overloading when radius is uncertain."
+      },
+      {
+        "id": "c",
+        "text": "25 m",
+        "explanation": "Incorrect. Use the maximum possible radius."
+      },
+      {
+        "id": "d",
+        "text": "23 m",
+        "explanation": "Incorrect. This understates the actual radius."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Radius Estimation"
+  },
+  {
+    "id": 691,
+    "question": "A blind pick is occurring behind a structure. Who must guide the operator?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Supervisor",
+        "explanation": "Incorrect. A designated signal person is required."
+      },
+      {
+        "id": "b",
+        "text": "Rigger",
+        "explanation": "Incorrect. A designated signal person is required."
+      },
+      {
+        "id": "c",
+        "text": "Designated signal person",
+        "explanation": "Correct. Only a designated signal person may communicate instructions during blind picks."
+      },
+      {
+        "id": "d",
+        "text": "Any worker",
+        "explanation": "Incorrect. Only designated personnel may give signals."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Radius Estimation"
+  },
+  {
+    "id": 692,
+    "question": "Two signal persons give different signals. What must the operator do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Follow supervisor",
+        "explanation": "Incorrect. Conflicting signals require immediate stop."
+      },
+      {
+        "id": "b",
+        "text": "Continue lift",
+        "explanation": "Incorrect. This is unsafe."
+      },
+      {
+        "id": "c",
+        "text": "Stop immediately",
+        "explanation": "Correct. Conflicting signals require immediate stop until clear communication is established."
+      },
+      {
+        "id": "d",
+        "text": "Choose one signal",
+        "explanation": "Incorrect. Operations must stop."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Radius Estimation"
+  },
+  {
+    "id": 693,
+    "question": "A 4000 kg load is lifted using two slings at 60°. What is the approximate tension per sling?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This doesn't account for the angle."
+      },
+      {
+        "id": "b",
+        "text": "2,310 kg",
+        "explanation": "Correct. Formula: Load ÷ (2 × sin(angle)). 4000 ÷ 1.732 ≈ 2,310 kg."
+      },
+      {
+        "id": "c",
+        "text": "2,500 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "2,800 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging Scenarios"
+  },
+  {
+    "id": 694,
+    "question": "Same 4000 kg load with sling angle 30°. What is the tension per sling?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,500 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "3,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "4,000 kg",
+        "explanation": "Correct. sin(30°) = 0.5. 4000 ÷ (2 × 0.5) = 4,000 kg per sling. Low angles dramatically increase tension!"
+      },
+      {
+        "id": "d",
+        "text": "4,500 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging Scenarios"
+  },
+  {
+    "id": 695,
+    "question": "A form panel measures 5 m × 3 m. What is its sail area?",
+    "options": [
+      {
+        "id": "a",
+        "text": "12 m²",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "15 m²",
+        "explanation": "Correct. Area = length × width = 5 × 3 = 15 m²."
+      },
+      {
+        "id": "c",
+        "text": "18 m²",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "20 m²",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Wind Scenarios"
+  },
+  {
+    "id": 696,
+    "question": "Which load is most dangerous in high winds?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Steel beam",
+        "explanation": "Incorrect. Small surface area relative to weight."
+      },
+      {
+        "id": "b",
+        "text": "Concrete bucket",
+        "explanation": "Incorrect. Compact shape."
+      },
+      {
+        "id": "c",
+        "text": "Large wall form",
+        "explanation": "Correct. Flat surfaces create wind sail forces, making large panels extremely dangerous in wind."
+      },
+      {
+        "id": "d",
+        "text": "Engine block",
+        "explanation": "Incorrect. Heavy and compact."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Wind Scenarios"
+  },
+  {
+    "id": 697,
+    "question": "Wind speed doubles. Wind force increases approximately:",
+    "options": [
+      {
+        "id": "a",
+        "text": "2×",
+        "explanation": "Incorrect. Wind force increases with velocity squared."
+      },
+      {
+        "id": "b",
+        "text": "4×",
+        "explanation": "Correct. Wind pressure increases roughly with velocity squared. Double speed = 4× force."
+      },
+      {
+        "id": "c",
+        "text": "6×",
+        "explanation": "Incorrect. The relationship is squared."
+      },
+      {
+        "id": "d",
+        "text": "8×",
+        "explanation": "Incorrect. The relationship is squared, not cubed."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Wind Scenarios"
+  },
+  {
+    "id": 698,
+    "question": "What is the minimum clearance between crane and structure during slewing?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1 ft",
+        "explanation": "Incorrect. This is too close."
+      },
+      {
+        "id": "b",
+        "text": "2 ft",
+        "explanation": "Correct. Standard crane safety rule is 2 ft clearance."
+      },
+      {
+        "id": "c",
+        "text": "5 ft",
+        "explanation": "Incorrect. While safe, the minimum is 2 ft."
+      },
+      {
+        "id": "d",
+        "text": "10 ft",
+        "explanation": "Incorrect. The minimum is 2 ft."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Clearance Scenarios"
+  },
+  {
+    "id": 699,
+    "question": "What is the minimum clearance between operating cranes?",
+    "options": [
+      {
+        "id": "a",
+        "text": "5 ft",
+        "explanation": "Incorrect. This is too close."
+      },
+      {
+        "id": "b",
+        "text": "10 ft",
+        "explanation": "Correct. Minimum safe separation between cranes is 10 ft."
+      },
+      {
+        "id": "c",
+        "text": "15 ft",
+        "explanation": "Incorrect. The minimum is 10 ft."
+      },
+      {
+        "id": "d",
+        "text": "20 ft",
+        "explanation": "Incorrect. The minimum is 10 ft."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Clearance Scenarios"
+  },
+  {
+    "id": 700,
+    "question": "What is the minimum vertical clearance for overlapping tower cranes?",
+    "options": [
+      {
+        "id": "a",
+        "text": "30 ft",
+        "explanation": "Incorrect. This is insufficient."
+      },
+      {
+        "id": "b",
+        "text": "40 ft",
+        "explanation": "Incorrect. This is insufficient."
+      },
+      {
+        "id": "c",
+        "text": "60 ft (18 m)",
+        "explanation": "Correct. Standard overlap clearance is 60 ft / 18 m."
+      },
+      {
+        "id": "d",
+        "text": "100 ft",
+        "explanation": "Incorrect. The requirement is 60 ft."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Clearance Scenarios"
+  },
+  {
+    "id": 701,
+    "question": "What is the minimum distance from powerlines up to 75 kV?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3 m",
+        "explanation": "Incorrect. This is too close."
+      },
+      {
+        "id": "b",
+        "text": "5 m",
+        "explanation": "Correct. Canadian electrical safety standard requires 5 m minimum."
+      },
+      {
+        "id": "c",
+        "text": "7 m",
+        "explanation": "Incorrect. While safe, the minimum is 5 m."
+      },
+      {
+        "id": "d",
+        "text": "10 m",
+        "explanation": "Incorrect. This may be for higher voltages."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Powerline Safety"
+  },
+  {
+    "id": 702,
+    "question": "Electricity can arc across air when:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rope touches line",
+        "explanation": "Incorrect. This is direct contact, not arcing."
+      },
+      {
+        "id": "b",
+        "text": "Voltage is high enough",
+        "explanation": "Correct. High voltage can jump air gaps through electrical arcing."
+      },
+      {
+        "id": "c",
+        "text": "Load is heavy",
+        "explanation": "Incorrect. Load weight doesn't affect arcing."
+      },
+      {
+        "id": "d",
+        "text": "Crane is grounded",
+        "explanation": "Incorrect. Grounding affects current path, not arcing distance."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Powerline Safety"
+  },
+  {
+    "id": 703,
+    "question": "Line pull = 2500 kg, Parts of line = 4. What is the maximum lifting capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "8,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "10,000 kg",
+        "explanation": "Correct. 2500 × 4 = 10,000 kg."
+      },
+      {
+        "id": "c",
+        "text": "12,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "15,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Parts of Line Scenarios"
+  },
+  {
+    "id": 704,
+    "question": "Gross capacity is 10,000 kg. Hook block weight = 800 kg. What is the net lifting capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "9,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "9,200 kg",
+        "explanation": "Correct. 10,000 - 800 = 9,200 kg net capacity."
+      },
+      {
+        "id": "c",
+        "text": "9,500 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "10,000 kg",
+        "explanation": "Incorrect. Must subtract hook block weight."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Parts of Line Scenarios"
+  },
+  {
+    "id": 705,
+    "question": "Which action creates the highest dynamic force?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Slow hoisting",
+        "explanation": "Incorrect. Slow movements minimize dynamic forces."
+      },
+      {
+        "id": "b",
+        "text": "Sudden stop during swing",
+        "explanation": "Correct. Stopping moving loads multiplies forces, creating high dynamic loading."
+      },
+      {
+        "id": "c",
+        "text": "Slow slewing",
+        "explanation": "Incorrect. Slow movements minimize dynamic forces."
+      },
+      {
+        "id": "d",
+        "text": "Vertical lifting",
+        "explanation": "Incorrect. Vertical lifting alone doesn't create high dynamic force."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Dynamic Loading"
+  },
+  {
+    "id": 706,
+    "question": "Load swing occurs when:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hoisting vertically",
+        "explanation": "Incorrect. Vertical motion doesn't cause swing."
+      },
+      {
+        "id": "b",
+        "text": "Rapid slewing or trolley travel",
+        "explanation": "Correct. Horizontal movement creates pendulum motion, causing load swing."
+      },
+      {
+        "id": "c",
+        "text": "Slow lifting",
+        "explanation": "Incorrect. Slow movements minimize swing."
+      },
+      {
+        "id": "d",
+        "text": "Rigging is tight",
+        "explanation": "Incorrect. Tight rigging doesn't cause swing."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Dynamic Loading"
+  },
+  {
+    "id": 707,
+    "question": "A 3000 kg load at 25 m radius produces what moment?",
+    "options": [
+      {
+        "id": "a",
+        "text": "60,000 kg·m",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "75,000 kg·m",
+        "explanation": "Correct. Moment = weight × radius = 3000 × 25 = 75,000 kg·m."
+      },
+      {
+        "id": "c",
+        "text": "80,000 kg·m",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "90,000 kg·m",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Stability Scenarios"
+  },
+  {
+    "id": 708,
+    "question": "Which increases crane tipping risk most?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rope wear",
+        "explanation": "Incorrect. Rope wear affects strength, not tipping."
+      },
+      {
+        "id": "b",
+        "text": "Increasing radius",
+        "explanation": "Correct. Moment increases with radius, making increased radius the primary tipping risk."
+      },
+      {
+        "id": "c",
+        "text": "Slow lifting",
+        "explanation": "Incorrect. Slow lifting doesn't increase tipping risk."
+      },
+      {
+        "id": "d",
+        "text": "Lower hook",
+        "explanation": "Incorrect. Hook height doesn't primarily affect tipping."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Stability Scenarios"
+  },
+  {
+    "id": 709,
+    "question": "Who has final authority to stop a lift?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Supervisor",
+        "explanation": "Incorrect. The operator has final authority."
+      },
+      {
+        "id": "b",
+        "text": "Rigger",
+        "explanation": "Incorrect. The operator has final authority."
+      },
+      {
+        "id": "c",
+        "text": "Signal person",
+        "explanation": "Incorrect. The operator has final authority."
+      },
+      {
+        "id": "d",
+        "text": "Crane operator",
+        "explanation": "Correct. The operator is legally responsible for safe operation and has final authority."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Operator Responsibility"
+  },
+  {
+    "id": 710,
+    "question": "Before lifting, the operator must verify:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load weight",
+        "explanation": "Incorrect. This is only part of verification."
+      },
+      {
+        "id": "b",
+        "text": "Radius",
+        "explanation": "Incorrect. This is only part of verification."
+      },
+      {
+        "id": "c",
+        "text": "Rigging",
+        "explanation": "Incorrect. This is only part of verification."
+      },
+      {
+        "id": "d",
+        "text": "All of the above",
+        "explanation": "Correct. All factors affect lift safety and must be verified before lifting."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Operator Responsibility"
+  },
+  {
+    "id": 711,
+    "question": "If wind becomes unsafe during a lift:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Finish lift quickly",
+        "explanation": "Incorrect. Rushing increases danger."
+      },
+      {
+        "id": "b",
+        "text": "Continue slowly",
+        "explanation": "Incorrect. Unsafe conditions require stopping."
+      },
+      {
+        "id": "c",
+        "text": "Stop operations",
+        "explanation": "Correct. Unsafe wind requires stopping operations and securing the load."
+      },
+      {
+        "id": "d",
+        "text": "Reduce load",
+        "explanation": "Incorrect. Cannot reduce load mid-lift."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Operator Responsibility"
+  },
+  {
+    "id": 712,
+    "question": "Which load creates greatest instability in wind?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dense steel block",
+        "explanation": "Incorrect. Small surface area relative to weight."
+      },
+      {
+        "id": "b",
+        "text": "Concrete bucket",
+        "explanation": "Incorrect. Compact shape."
+      },
+      {
+        "id": "c",
+        "text": "Large light panel",
+        "explanation": "Correct. Large surface area increases wind force, creating instability."
+      },
+      {
+        "id": "d",
+        "text": "Engine",
+        "explanation": "Incorrect. Heavy and compact."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Operator Responsibility"
+  },
+  {
+    "id": 713,
+    "question": "A crane lifting near capacity should move:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Quickly",
+        "explanation": "Incorrect. Quick movement creates dynamic forces."
+      },
+      {
+        "id": "b",
+        "text": "Slowly and smoothly",
+        "explanation": "Correct. Smooth motion reduces dynamic forces when operating near capacity."
+      },
+      {
+        "id": "c",
+        "text": "Rapidly",
+        "explanation": "Incorrect. Rapid movement creates dynamic forces."
+      },
+      {
+        "id": "d",
+        "text": "With sudden stops",
+        "explanation": "Incorrect. Sudden stops create dynamic forces."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Operator Responsibility"
+  },
+  {
+    "id": 714,
+    "question": "The most common cause of crane overload is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rope failure",
+        "explanation": "Incorrect. Rope failure is usually a result."
+      },
+      {
+        "id": "b",
+        "text": "Weather",
+        "explanation": "Incorrect. Weather is a factor but not the most common cause."
+      },
+      {
+        "id": "c",
+        "text": "Incorrect load weight estimation",
+        "explanation": "Correct. Operators often underestimate load weight, making incorrect estimation the most common cause of overload."
+      },
+      {
+        "id": "d",
+        "text": "Signal error",
+        "explanation": "Incorrect. Signal errors cause other problems."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Operator Responsibility"
   }
 ]
