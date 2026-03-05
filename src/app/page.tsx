@@ -10,7 +10,7 @@ import questionsData from "@/data/questions.json";
 
 const categories = [
   { name: "Load Charts & Parts of Line", count: 140, color: "bg-accent" },
-  { name: "PDF Load Chart Practice", count: 186, color: "bg-accent", isCharts: true },
+  { name: "PDF Load Chart Practice", count: 201, color: "bg-accent", isCharts: true },
   { name: "Advanced Operations & Traps", count: 95, color: "bg-foreground" },
   { name: "Master Level Questions", count: 100, color: "bg-foreground" },
   { name: "Rigging & Sling Angles", count: 85, color: "bg-foreground" },
@@ -30,7 +30,7 @@ const features = [
   {
     label: "Charts",
     title: "Real manufacturer load charts (PDF)",
-    description: "Practice reading actual Liebherr, Potain, WOLFF, Terex, and Krøll load charts — flat-top, luffing, and self-erecting cranes.",
+    description: "Practice reading actual Liebherr, Potain, WOLFF, Terex, Krøll, and Pecco load charts — flat-top, luffing, and self-erecting cranes.",
   },
   {
     label: "Pass",
@@ -520,7 +520,7 @@ export default function HomePage() {
             <span className="category-label">Real Charts</span>
             <h2 className="font-display text-3xl md:text-4xl font-bold mt-2">Load Chart Practice</h2>
             <p className="text-muted-foreground mt-4 max-w-2xl">
-              Master reading <strong className="text-foreground">real manufacturer load charts</strong> from Liebherr, Potain, WOLFF, Terex, and Krøll.
+              Master reading <strong className="text-foreground">real manufacturer load charts</strong> from Liebherr, Potain, WOLFF, Terex, Krøll, and Pecco.
               Open charts in a separate window, then answer questions exactly like you&apos;ll do on the job.
             </p>
           </div>
@@ -583,9 +583,16 @@ export default function HomePage() {
                   </div>
                   <span className="text-xs text-muted-foreground">80m · 24t</span>
                 </div>
+                <div className="flex items-center justify-between py-2">
+                  <div>
+                    <span className="text-xs text-muted-foreground">Pecco</span>
+                    <p className="font-medium text-sm">SK 180</p>
+                  </div>
+                  <span className="text-xs text-muted-foreground">60m · 12.5t</span>
+                </div>
               </div>
               <div className="mt-4 pt-3 border-t border-border/50 text-center">
-                <span className="text-sm font-medium text-accent">7 Charts</span>
+                <span className="text-sm font-medium text-accent">8 Charts</span>
               </div>
             </div>
 
@@ -662,15 +669,15 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 bg-background border border-border p-5">
             <div className="flex items-center gap-8">
               <div className="text-center sm:text-left">
-                <div className="text-2xl font-display font-bold">13</div>
+                <div className="text-2xl font-display font-bold">14</div>
                 <div className="text-xs text-muted-foreground">Charts</div>
               </div>
               <div className="text-center sm:text-left">
-                <div className="text-2xl font-display font-bold">186</div>
+                <div className="text-2xl font-display font-bold">201</div>
                 <div className="text-xs text-muted-foreground">Questions</div>
               </div>
               <div className="text-center sm:text-left">
-                <div className="text-2xl font-display font-bold">5</div>
+                <div className="text-2xl font-display font-bold">6</div>
                 <div className="text-xs text-muted-foreground">Brands</div>
               </div>
             </div>
@@ -718,7 +725,7 @@ export default function HomePage() {
                     </div>
                     <h3 className="font-medium mt-3 group-hover:text-accent transition-colors">{category.name}</h3>
                     <p className="text-sm text-muted-foreground mt-1">
-                      {(category as { isCharts?: boolean }).isCharts ? "13 crane charts" : `${category.count}+ questions`}
+                      {(category as { isCharts?: boolean }).isCharts ? "14 crane charts" : `${category.count}+ questions`}
                     </p>
                   </div>
                 </Link>

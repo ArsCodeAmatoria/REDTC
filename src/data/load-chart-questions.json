@@ -2266,6 +2266,188 @@
           "correctAnswer": "b"
         }
       ]
+    },
+    {
+      "id": "pecco-sk-180",
+      "name": "Pecco SK 180",
+      "manufacturer": "Pecco",
+      "model": "SK 180",
+      "type": "flat-top",
+      "pdfFile": "peccoSK180.pdf",
+      "description": "Flat-top tower crane with 196 ft (60m) max jib. 27,600 lbs (12.5t) max capacity with 4-part line. Distributed by Morrow Equipment. Features 4-speed gearbox and top climbing capability.",
+      "specifications": {
+        "maxCapacity": "27,600 lbs / 12,500 kg (4-part)",
+        "maxJibLength": "196 ft / 59.7 m",
+        "tipCapacity": "4,900 lbs / 2,200 kg (2-part)",
+        "maxTowerHeight": "233.7 ft / 71.2 m"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": "What type of crane is the Pecco SK 180?",
+          "options": [
+            { "id": "a", "text": "Luffing jib tower crane", "explanation": "Incorrect. The SK 180 uses a horizontal jib with trolley travel." },
+            { "id": "b", "text": "Flat-top tower crane", "explanation": "Correct. The Pecco SK 180 is a flat-top design with horizontal jib and trolley. It's distributed in North America by Morrow Equipment. The trolley travels along the jib to change radius." },
+            { "id": "c", "text": "Self-erecting crane", "explanation": "Incorrect. This is a conventional tower crane requiring mobile crane assembly." },
+            { "id": "d", "text": "Mobile crane", "explanation": "Incorrect. This is a fixed tower crane." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 2,
+          "question": "What is the maximum lifting capacity of the SK 180?",
+          "options": [
+            { "id": "a", "text": "13,800 lbs (6,250 kg)", "explanation": "Incorrect. This is the 2-part line maximum capacity." },
+            { "id": "b", "text": "27,600 lbs (12,500 kg) with 4-part line", "explanation": "Correct. Maximum capacity is 27,600 lbs (12,500 kg) using 4-part reeving. The 2-part line maxes at 13,800 lbs (6,250 kg) but offers faster hoisting speeds for lighter loads." },
+            { "id": "c", "text": "4,900 lbs (2,200 kg)", "explanation": "Incorrect. This is the tip capacity at maximum radius." },
+            { "id": "d", "text": "50,000 lbs", "explanation": "Incorrect. This exceeds the crane's maximum rating." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 3,
+          "question": "Using the 196 ft jib with 2-part line, what is the capacity at 150 ft radius?",
+          "options": [
+            { "id": "a", "text": "13,800 lbs", "explanation": "Incorrect. Full capacity is only available at closer radii." },
+            { "id": "b", "text": "6,700 lbs (3,040 kg)", "explanation": "Correct. At 150 ft radius with the 196 ft jib using 2-part line, capacity is 6,700 lbs (3,040 kg). Capacity decreases as radius increases." },
+            { "id": "c", "text": "4,900 lbs", "explanation": "Incorrect. This is the tip capacity at 196 ft." },
+            { "id": "d", "text": "10,800 lbs", "explanation": "Incorrect. This is the capacity at 101 ft radius." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 4,
+          "question": "Using the 196 ft jib with 4-part line, what is the capacity at 120 ft radius?",
+          "options": [
+            { "id": "a", "text": "27,600 lbs", "explanation": "Incorrect. Maximum 4-part capacity requires much closer radius." },
+            { "id": "b", "text": "8,100 lbs (3,670 kg)", "explanation": "Correct. At 120 ft radius with 196 ft jib using 4-part line, capacity is 8,100 lbs (3,670 kg). Note that 4-part doesn't always give higher capacity at long radii - compare with 2-part which gives 8,700 lbs at same radius." },
+            { "id": "c", "text": "4,200 lbs", "explanation": "Incorrect. This is the 4-part tip capacity." },
+            { "id": "d", "text": "15,000 lbs", "explanation": "Incorrect. Check the 4-part load chart at 120 ft." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 5,
+          "question": "TRAP: At 120 ft radius with the 196 ft jib, which reeving configuration gives HIGHER capacity?",
+          "options": [
+            { "id": "a", "text": "4-part always has higher capacity", "explanation": "Incorrect. This is a common misconception. At longer radii, 2-part can actually have higher capacity." },
+            { "id": "b", "text": "2-part: 8,700 lbs vs 4-part: 8,100 lbs - the 2-part line wins!", "explanation": "Correct. Surprisingly, at 120 ft radius the 2-part line (8,700 lbs) beats the 4-part line (8,100 lbs). This is because the 4-part line starts at higher capacity (27,600 vs 13,800 lbs) but the curves cross at longer radii. Always check both charts!" },
+            { "id": "c", "text": "Both are equal", "explanation": "Incorrect. They have different capacities at this radius." },
+            { "id": "d", "text": "Neither can reach 120 ft", "explanation": "Incorrect. Both configurations can operate at 120 ft radius." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 6,
+          "question": "What are the five available jib lengths on the SK 180?",
+          "options": [
+            { "id": "a", "text": "100, 150, 200, 250, 300 ft", "explanation": "Incorrect. These are not the actual jib options." },
+            { "id": "b", "text": "101, 135, 168, 185, and 196 ft (30.8, 41.1, 51.2, 56.4, 59.7 m)", "explanation": "Correct. The SK 180 offers five jib configurations. Shorter jibs have higher tip capacity - the 101 ft jib can lift 13,800 lbs (2-part) at its tip, while the 196 ft jib only lifts 4,900 lbs at its tip." },
+            { "id": "c", "text": "Single 196 ft jib only", "explanation": "Incorrect. Multiple jib lengths are available." },
+            { "id": "d", "text": "50, 100, 150, 196 ft", "explanation": "Incorrect. These aren't the correct jib lengths." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 7,
+          "question": "What is the hoist motor power and type?",
+          "options": [
+            { "id": "a", "text": "50 hp DC motor", "explanation": "Incorrect. The crane uses a larger AC motor." },
+            { "id": "b", "text": "105 hp (78 kW) AC motor with 4-speed gearbox and eddy current brake", "explanation": "Correct. The hoist uses a 105 hp (78 kW) AC motor with a 4-speed gearbox featuring remote-controlled gear shifting. The eddy current brake provides smooth, controlled stopping." },
+            { "id": "c", "text": "6.4 hp motor", "explanation": "Incorrect. 6.4 hp is the trolley motor power." },
+            { "id": "d", "text": "350 kW generator", "explanation": "Incorrect. 350 kW is the minimum generator size, not motor power." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 8,
+          "question": "What is the maximum hoist speed with 2-part line in Gear 4?",
+          "options": [
+            { "id": "a", "text": "112 fpm (34 m/min)", "explanation": "Incorrect. This is Gear 1 speed." },
+            { "id": "b", "text": "440 fpm (134 m/min) for loads up to 5,500 lbs", "explanation": "Correct. Gear 4 with 2-part line reaches 440 fpm (134 m/min) - extremely fast for a tower crane! This speed is only available for loads up to 5,500 lbs (2,500 kg). Heavier loads require lower gears." },
+            { "id": "c", "text": "56 fpm (17 m/min)", "explanation": "Incorrect. This is Gear 1 speed for 4-part line." },
+            { "id": "d", "text": "249 fpm", "explanation": "Incorrect. This is the trolley speed." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 9,
+          "question": "What power supply does the SK 180 require?",
+          "options": [
+            { "id": "a", "text": "Single phase 240V", "explanation": "Incorrect. Tower cranes require three-phase power." },
+            { "id": "b", "text": "3-phase 480V, 60 Hz, 250 Ampere service, minimum 350 kW generator", "explanation": "Correct. The crane requires 3-phase 480V at 60 Hz (US standard) with 250A service. A minimum 350 kW generator is specified as critical for safe operation. Note: Do NOT use open Delta transformers." },
+            { "id": "c", "text": "400V, 50 Hz European power", "explanation": "Incorrect. This is a US-market specification using 480V/60Hz." },
+            { "id": "d", "text": "Any available power", "explanation": "Incorrect. Specific power requirements must be met." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 10,
+          "question": "The SK 180 uses two tower section types. What are they?",
+          "options": [
+            { "id": "a", "text": "Light and Heavy duty", "explanation": "Incorrect. They're designated S16 and S35." },
+            { "id": "b", "text": "S16 (14'-11\", 5,500 lbs) and S35 (19'-5\", 8,900 lbs)", "explanation": "Correct. S16 sections are 14'-11\" (4.55m) tall weighing 5,500 lbs. S35 sections are 19'-5\" (5.92m) tall weighing 8,900 lbs. Configuration I uses S35 lower sections with S16 upper sections via a transition piece." },
+            { "id": "c", "text": "Single tower type only", "explanation": "Incorrect. Two section types are used." },
+            { "id": "d", "text": "S10 and S20", "explanation": "Incorrect. The designations are S16 and S35." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 11,
+          "question": "What is the maximum freestanding height with S16 tower?",
+          "options": [
+            { "id": "a", "text": "100 ft (30.5m)", "explanation": "Incorrect. The crane can stand taller freestanding." },
+            { "id": "b", "text": "128 ft (39.0m) standard, or 137'-11\" (42.0m) with hydraulic top climbing unit", "explanation": "Correct. Maximum freestanding height is 128 ft with standard configuration, or nearly 138 ft with the hydraulic top climbing unit. Beyond this, tie-ins to the structure are required." },
+            { "id": "c", "text": "233.7 ft (71.2m)", "explanation": "Incorrect. This is maximum tied height, not freestanding." },
+            { "id": "d", "text": "50 ft (15m)", "explanation": "Incorrect. The crane can stand much taller." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 12,
+          "question": "IMPORTANT: What special requirement applies when hook height exceeds 330 ft (100m)?",
+          "options": [
+            { "id": "a", "text": "No special requirements", "explanation": "Incorrect. There's a critical safety requirement." },
+            { "id": "b", "text": "Reduce tower sections above uppermost tie-in by 1 section", "explanation": "Correct. When hook height exceeds 330 ft (100m), you MUST reduce the number of tower sections above the uppermost tie-in location by 1 section. This accounts for increased wind loads and moments at extreme heights." },
+            { "id": "c", "text": "Double the counterweight", "explanation": "Incorrect. The requirement relates to tower sections." },
+            { "id": "d", "text": "Use 4-part line only", "explanation": "Incorrect. The requirement is about tower configuration." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 13,
+          "question": "What is the swing (slewing) configuration?",
+          "options": [
+            { "id": "a", "text": "Single 10 hp motor at 0.5 rpm", "explanation": "Incorrect. The swing uses dual motors." },
+            { "id": "b", "text": "2 × 6.4 hp (2 × 4.8 kW) motors at 1 rpm", "explanation": "Correct. The swing drive uses two 6.4 hp (4.8 kW) motors providing 1 rpm rotation speed. Dual motors provide redundancy and smooth slewing control." },
+            { "id": "c", "text": "105 hp motor at 2 rpm", "explanation": "Incorrect. 105 hp is the hoist motor." },
+            { "id": "d", "text": "Hydraulic swing only", "explanation": "Incorrect. The crane uses electric motors." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 14,
+          "question": "What are the tie-in spacing limits?",
+          "options": [
+            { "id": "a", "text": "Fixed at 50 ft intervals", "explanation": "Incorrect. Tie-in spacing varies." },
+            { "id": "b", "text": "44'-3\" (13.5m) minimum to 103'-5\" (31.5m) maximum", "explanation": "Correct. Tie-in spacing ranges from 44'-3\" (13.5m) minimum to 103'-5\" (31.5m) maximum. Actual spacing depends on site conditions, tower configuration, and structural analysis." },
+            { "id": "c", "text": "No limits - any spacing works", "explanation": "Incorrect. Tie-in spacing has strict limits." },
+            { "id": "d", "text": "Must tie at every floor", "explanation": "Incorrect. Tie-in spacing is engineered, not per floor." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 15,
+          "question": "COMPLEX: You need to lift 15,000 lbs to 90 ft radius using the 168 ft jib. Which reeving and what's the capacity?",
+          "options": [
+            { "id": "a", "text": "2-part with 13,800 lbs capacity - insufficient", "explanation": "Correct analysis that 2-part is insufficient, but there's a better answer." },
+            { "id": "b", "text": "4-part required - shows 16,100 lbs capacity at 90 ft with 168 ft jib", "explanation": "Correct. The 2-part line maxes at 13,800 lbs (insufficient for 15,000 lbs). The 4-part line with 168 ft jib shows 16,100 lbs at 90 ft radius - sufficient with 1,100 lbs margin. Always verify the specific jib/radius combination." },
+            { "id": "c", "text": "Either reeving works", "explanation": "Incorrect. 2-part cannot lift 15,000 lbs regardless of radius." },
+            { "id": "d", "text": "Impossible - need larger crane", "explanation": "Incorrect. The 4-part configuration can handle this lift." }
+          ],
+          "correctAnswer": "b"
+        }
+      ]
     }
   ]
 }
