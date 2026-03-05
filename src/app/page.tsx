@@ -13,7 +13,7 @@ const categories = [
   { name: "PDF Load Chart Practice", count: 201, color: "bg-accent", isCharts: true },
   { name: "Advanced Operations & Traps", count: 95, color: "bg-foreground" },
   { name: "Master Level Questions", count: 100, color: "bg-foreground" },
-  { name: "Rigging & Sling Angles", count: 120, color: "bg-foreground" },
+  { name: "Rigging & Sling Angles", count: 150, color: "bg-foreground" },
   { name: "Material Weight & Geometry", count: 80, color: "bg-foreground" },
   { name: "Structural & Mechanical", count: 70, color: "bg-foreground" },
   { name: "Gear, Drive & Capacity", count: 65, color: "bg-foreground" },
@@ -27,7 +27,7 @@ const categories = [
 const features = [
   {
     label: "Practice",
-    title: "1054 exam questions with detailed explanations",
+    title: "1,084 exam questions with detailed explanations",
     description: "Every question includes why the correct answer is right and why others are wrong.",
   },
   {
@@ -123,7 +123,7 @@ export default function HomePage() {
                 className="space-y-6"
               >
                 <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
-                  Practice with 1,054 questions including Master Level problems covering advanced calculations, 
+                  Practice with 1,084 questions including Master Level problems covering advanced calculations, 
                   structural engineering, and emergency scenarios.
                 </p>
 
@@ -159,7 +159,7 @@ export default function HomePage() {
 
                 <div className="grid grid-cols-3 gap-4">
                   <div className="space-y-1">
-                    <div className="text-4xl font-display font-bold">1054</div>
+                    <div className="text-4xl font-display font-bold">1,084</div>
                     <div className="text-sm text-muted-foreground">Questions</div>
                   </div>
                   <div className="space-y-1">
@@ -454,8 +454,9 @@ export default function HomePage() {
                   the actual Red Seal certification examination with 120 questions and a strict 4-hour time limit.
                 </p>
                 <p>
-                  This comprehensive test draws from our entire question bank of 1,054 questions, covering all exam topics 
-                  including advanced load calculations, structural engineering concepts, rigging mastery, and emergency scenarios.
+                  This comprehensive test draws from our entire question bank of 1,285+ questions — including load chart 
+                  questions with links to open the chart PDF. Covers all exam topics: advanced load calculations, structural 
+                  engineering, rigging mastery, load chart reading, and emergency scenarios.
                 </p>
                 <p>
                   The timer cannot be paused once started, and unanswered questions count as incorrect — just like the real exam. 
@@ -486,13 +487,17 @@ export default function HomePage() {
                   <div className="text-sm text-muted-foreground mt-1">Pass Rate</div>
                 </div>
                 <div className="bg-background border border-border p-6 text-center">
-                  <div className="text-4xl font-display font-bold">1054</div>
+                  <div className="text-4xl font-display font-bold">1,285+</div>
                   <div className="text-sm text-muted-foreground mt-1">Question Bank</div>
                 </div>
               </div>
               <div className="bg-background border border-border p-4 space-y-2">
                 <div className="text-sm font-medium">Master Exam includes:</div>
                 <ul className="text-sm text-muted-foreground space-y-1">
+                  <li className="flex items-center gap-2">
+                    <div className="w-1.5 h-1.5 bg-accent" />
+                    Load chart questions with Open Chart PDF link
+                  </li>
                   <li className="flex items-center gap-2">
                     <div className="w-1.5 h-1.5 bg-accent" />
                     Countdown timer with low-time warning
@@ -714,7 +719,7 @@ export default function HomePage() {
             <div className="bg-muted/20 border border-border p-4">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="font-semibold text-sm">All Topics</h3>
-                <span className="text-xs text-muted-foreground">1,054 questions total</span>
+                <span className="text-xs text-muted-foreground">1,084 questions total</span>
               </div>
               <div className="grid grid-cols-2 gap-x-6 gap-y-2">
                 {categories.slice(2).map((category, index) => (

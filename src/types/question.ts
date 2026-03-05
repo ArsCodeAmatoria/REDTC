@@ -11,6 +11,10 @@ export interface Question {
   correctAnswer: string;
   category?: string;
   difficulty?: Difficulty;
+  /** PDF filename for load chart questions - enables "Open Chart" link */
+  chartPdf?: string;
+  /** Chart name for display (e.g. "Liebherr 470 EC-B") */
+  chartName?: string;
 }
 
 export interface TestState {

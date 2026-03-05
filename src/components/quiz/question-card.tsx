@@ -5,6 +5,7 @@ import type { Question } from "@/types/question";
 import { AnswerOption } from "./answer-option";
 import { ExplanationPanel } from "./explanation-panel";
 import { ChartDisplay } from "./chart-display";
+import { FileSpreadsheet, ExternalLink } from "lucide-react";
 
 interface QuestionCardProps {
   question: Question;
@@ -25,6 +26,9 @@ export function QuestionCard({
   totalQuestions,
   isReviewMode = false,
 }: QuestionCardProps) {
+  const chartPdf = question.chartPdf;
+  const chartName = question.chartName;
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -35,7 +39,7 @@ export function QuestionCard({
     >
       {/* Question Header */}
       <div className="space-y-4">
-        <div className="flex items-center gap-3">
+        <div className="flex flex-wrap items-center gap-3">
           <span className="category-label">Question {questionNumber}</span>
           {question.category && (
             <>
@@ -44,6 +48,18 @@ export function QuestionCard({
             </>
           )}
         </div>
+        {chartPdf && (
+          <a
+            href={`/load-charts/${chartPdf}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 py-2 px-3 border border-accent/40 bg-accent/5 text-sm font-medium text-accent hover:bg-accent/10 hover:border-accent transition-colors w-fit"
+          >
+            <FileSpreadsheet className="w-4 h-4" />
+            Open {chartName || "Load Chart"} (PDF)
+            <ExternalLink className="w-3.5 h-3.5" />
+          </a>
+        )}
         <ChartDisplay questionText={question.question} />
       </div>
 

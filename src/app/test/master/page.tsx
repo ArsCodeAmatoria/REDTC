@@ -9,9 +9,27 @@ import { QuestionCard, ProgressBar } from "@/components/quiz";
 import { Header } from "@/components/layout/header";
 import { useTest } from "@/hooks/use-test";
 import questionsData from "@/data/questions.json";
+import loadChartData from "@/data/load-chart-questions.json";
 import type { Question } from "@/types/question";
 
-const questions = questionsData as Question[];
+const generalQuestions = questionsData as Question[];
+
+/** Flatten load chart questions with unique IDs and chart metadata for Master Exam */
+const LOAD_CHART_ID_OFFSET = 10000;
+const masterLoadChartQuestions: Question[] = (() => {
+  let id = LOAD_CHART_ID_OFFSET;
+  return loadChartData.charts.flatMap((chart) =>
+    chart.questions.map((q) => ({
+      ...q,
+      id: id++,
+      category: `Load Chart: ${chart.name}`,
+      chartPdf: chart.pdfFile,
+      chartName: chart.name,
+    }))
+  );
+})();
+
+const questions: Question[] = [...generalQuestions, ...masterLoadChartQuestions];
 
 const MASTER_QUESTIONS = 120;
 const MASTER_PASS_PERCENTAGE = 70;
@@ -103,7 +121,7 @@ export default function MasterTestPage() {
             </div>
 
             <p className="text-muted-foreground">
-              This exam simulates real Red Seal examination conditions with 120 questions and a 4-hour time limit.
+              This exam simulates real Red Seal examination conditions with 120 questions and a 4-hour time limit. Includes load chart questions—open the chart link when needed.
             </p>
 
             <div className="grid grid-cols-3 gap-4 py-6">
@@ -129,6 +147,7 @@ export default function MasterTestPage() {
               <ul className="text-sm text-muted-foreground space-y-1 ml-6">
                 <li>• The timer will start immediately</li>
                 <li>• You cannot pause the exam</li>
+                <li>• Load chart questions include an &quot;Open Chart&quot; link</li>
                 <li>• Unanswered questions count as incorrect</li>
                 <li>• Review your answers before time expires</li>
               </ul>

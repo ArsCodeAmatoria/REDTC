@@ -29400,5 +29400,845 @@
     ],
     "correctAnswer": "c",
     "category": "Test Blocks & Commissioning"
+  },
+  {
+    "id": 1055,
+    "question": "A 2-leg chain sling has the following capacity on the tag: Vertical: 3.2 t per leg; 60° angle: 2.8 t per leg. What is the maximum load that can be lifted using both legs at 60°?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2.8 t",
+        "explanation": "Incorrect. That's the capacity per leg, not total."
+      },
+      {
+        "id": "b",
+        "text": "3.2 t",
+        "explanation": "Incorrect. 3.2 t is the vertical capacity per leg."
+      },
+      {
+        "id": "c",
+        "text": "5.6 t",
+        "explanation": "Correct. Each leg supports 2.8 t at 60°. 2 legs = 2.8 × 2 = 5.6 t"
+      },
+      {
+        "id": "d",
+        "text": "6.4 t",
+        "explanation": "Incorrect. That would use vertical capacity; at 60° use the angle rating."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1056,
+    "question": "A sling is rated: Vertical capacity = 2 t. It is used in a choker hitch. What is the new working load limit?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1.0 t",
+        "explanation": "Incorrect. Choke reduction is 75%, not 50%."
+      },
+      {
+        "id": "b",
+        "text": "1.5 t",
+        "explanation": "Correct. Standard choke reduction = 75% capacity. 2 × 0.75 = 1.5 t"
+      },
+      {
+        "id": "c",
+        "text": "1.75 t",
+        "explanation": "Incorrect. Choke reduces to 75%, not 87.5%."
+      },
+      {
+        "id": "d",
+        "text": "2.0 t",
+        "explanation": "Incorrect. Choker hitch reduces capacity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1057,
+    "question": "Two vertical choker slings are used on a load. Each sling tag shows: Vertical capacity = 2 t. What is the total safe lifting capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2 t",
+        "explanation": "Incorrect. Two slings provide more than single capacity."
+      },
+      {
+        "id": "b",
+        "text": "3 t",
+        "explanation": "Correct. Each sling choked: 2 × 0.75 = 1.5 t. Two slings: 1.5 + 1.5 = 3 t"
+      },
+      {
+        "id": "c",
+        "text": "4 t",
+        "explanation": "Incorrect. Choke reduces each sling to 75%."
+      },
+      {
+        "id": "d",
+        "text": "6 t",
+        "explanation": "Incorrect. That ignores the choker reduction."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1058,
+    "question": "A sling has: Vertical capacity = 2 t. Used in a basket hitch with vertical legs. What is the maximum capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2 t",
+        "explanation": "Incorrect. Basket hitch doubles vertical capacity."
+      },
+      {
+        "id": "b",
+        "text": "3 t",
+        "explanation": "Incorrect. Vertical basket doubles to 4 t."
+      },
+      {
+        "id": "c",
+        "text": "4 t",
+        "explanation": "Correct. Basket doubles capacity. 2 × 2 = 4 t"
+      },
+      {
+        "id": "d",
+        "text": "6 t",
+        "explanation": "Incorrect. Basket doubles, not triples."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1059,
+    "question": "A sling has: Vertical capacity = 2 t. Used in a basket hitch at 60°. What is the approximate capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2 t",
+        "explanation": "Incorrect. Vertical basket is 4 t; angle reduces it."
+      },
+      {
+        "id": "b",
+        "text": "3 t",
+        "explanation": "Correct. Angle reduction factor at 60° ≈ 0.866. Vertical basket = 4 t. 4 × 0.866 ≈ 3.46 t. Rounded practical capacity ≈ 3 t"
+      },
+      {
+        "id": "c",
+        "text": "3.5 t",
+        "explanation": "Incorrect. 3.46 rounds to 3 t for practical use."
+      },
+      {
+        "id": "d",
+        "text": "4 t",
+        "explanation": "Incorrect. That's vertical basket; angle reduces capacity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1060,
+    "question": "Two sling legs support a load at 30° from horizontal. What happens to the sling tension?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension decreases",
+        "explanation": "Incorrect. Flatter angles increase tension."
+      },
+      {
+        "id": "b",
+        "text": "Tension remains same",
+        "explanation": "Incorrect. Sling angle directly affects tension."
+      },
+      {
+        "id": "c",
+        "text": "Tension increases significantly",
+        "explanation": "Correct. As sling angle decreases, tension increases rapidly. 30° is very dangerous."
+      },
+      {
+        "id": "d",
+        "text": "Sling capacity doubles",
+        "explanation": "Incorrect. Flatter angles reduce effective capacity."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1061,
+    "question": "What is the minimum recommended sling angle for most lifting operations?",
+    "options": [
+      {
+        "id": "a",
+        "text": "15°",
+        "explanation": "Incorrect. 15° creates dangerous tension levels."
+      },
+      {
+        "id": "b",
+        "text": "30°",
+        "explanation": "Incorrect. 30° is below recommended minimum."
+      },
+      {
+        "id": "c",
+        "text": "45°",
+        "explanation": "Correct. Most rigging standards recommend 45° minimum to avoid excessive tension."
+      },
+      {
+        "id": "d",
+        "text": "60°",
+        "explanation": "Incorrect. 60° is good but 45° is the minimum recommended."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1062,
+    "question": "A sling rated 2 t vertical is used in a basket hitch and a choker hitch. Which configuration has greater capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Choker",
+        "explanation": "Incorrect. Choker reduces to 75% (1.5 t)."
+      },
+      {
+        "id": "b",
+        "text": "Basket",
+        "explanation": "Correct. Basket hitch doubles capacity (4 t), choke reduces to 75% (1.5 t)."
+      },
+      {
+        "id": "c",
+        "text": "Equal",
+        "explanation": "Incorrect. Basket doubles, choker reduces."
+      },
+      {
+        "id": "d",
+        "text": "Depends on sling material",
+        "explanation": "Incorrect. The capacity ratios apply regardless of material."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1063,
+    "question": "A 2-leg sling supports a load but one leg is shorter, causing uneven angles. What is the correct assumption?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load divides equally",
+        "explanation": "Incorrect. Uneven angles cause unequal loading."
+      },
+      {
+        "id": "b",
+        "text": "Shorter leg carries more load",
+        "explanation": "Correct. Shorter leg becomes more vertical and takes higher load."
+      },
+      {
+        "id": "c",
+        "text": "Longer leg carries more load",
+        "explanation": "Incorrect. The more vertical (shorter) leg carries more."
+      },
+      {
+        "id": "d",
+        "text": "Both legs carry half",
+        "explanation": "Incorrect. Uneven geometry means unequal distribution."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1064,
+    "question": "A sling capacity tag is missing. What must the rigger do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Estimate capacity",
+        "explanation": "Incorrect. Estimating is unsafe."
+      },
+      {
+        "id": "b",
+        "text": "Use it carefully",
+        "explanation": "Incorrect. Care doesn't replace verified capacity."
+      },
+      {
+        "id": "c",
+        "text": "Remove sling from service",
+        "explanation": "Correct. Unmarked sling = cannot verify WLL → remove from service."
+      },
+      {
+        "id": "d",
+        "text": "Use at half capacity",
+        "explanation": "Incorrect. Unknown capacity cannot be assumed."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1065,
+    "question": "A chain sling tag shows: Grade 80, WLL = 3 t. What does WLL mean?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Maximum breaking strength",
+        "explanation": "Incorrect. WLL is the safe working load, not breaking strength."
+      },
+      {
+        "id": "b",
+        "text": "Safe working load",
+        "explanation": "Correct. WLL = Working Load Limit. Safe lifting load."
+      },
+      {
+        "id": "c",
+        "text": "Load before deformation",
+        "explanation": "Incorrect. WLL is the rated safe load."
+      },
+      {
+        "id": "d",
+        "text": "Maximum testing load",
+        "explanation": "Incorrect. WLL is for normal operation, not testing."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1066,
+    "question": "Two sling legs lift 4 t at 60° angle. What is approximate tension per leg?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2 t",
+        "explanation": "Incorrect. Tension formula: Load / (2 × sin(angle))."
+      },
+      {
+        "id": "b",
+        "text": "2.3 t",
+        "explanation": "Correct. Tension = Load / (2 × sin(angle)). sin 60° ≈ 0.866. 4 / (2 × 0.866) = 4 / 1.732 ≈ 2.3 t"
+      },
+      {
+        "id": "c",
+        "text": "3 t",
+        "explanation": "Incorrect. Check the tension formula."
+      },
+      {
+        "id": "d",
+        "text": "4 t",
+        "explanation": "Incorrect. Each leg carries less than total load."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1067,
+    "question": "Where should the choker eye sit on the sling?",
+    "options": [
+      {
+        "id": "a",
+        "text": "On the load corner",
+        "explanation": "Incorrect. The eye attaches to the hook."
+      },
+      {
+        "id": "b",
+        "text": "On sling body",
+        "explanation": "Incorrect. The choker eye goes in the hook."
+      },
+      {
+        "id": "c",
+        "text": "In the throat of the hook",
+        "explanation": "Correct. Choker eye must sit properly in hook bowl."
+      },
+      {
+        "id": "d",
+        "text": "Against sharp edge",
+        "explanation": "Incorrect. Sharp edges damage slings."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1068,
+    "question": "When slings contact sharp edges, the rigger must:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tighten sling",
+        "explanation": "Incorrect. Tightening doesn't protect from sharp edges."
+      },
+      {
+        "id": "b",
+        "text": "Use edge protection",
+        "explanation": "Correct. Sharp edges can cut slings."
+      },
+      {
+        "id": "c",
+        "text": "Double the sling",
+        "explanation": "Incorrect. Doubling doesn't solve edge damage risk."
+      },
+      {
+        "id": "d",
+        "text": "Reduce crane radius",
+        "explanation": "Incorrect. Radius doesn't address sharp edges."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1069,
+    "question": "A 4-leg sling is attached to a load. Which assumption is correct?",
+    "options": [
+      {
+        "id": "a",
+        "text": "All 4 legs share the load equally",
+        "explanation": "Incorrect. Uneven distribution is expected."
+      },
+      {
+        "id": "b",
+        "text": "Only 3 legs carry the load",
+        "explanation": "Correct. Rigging design assumes only 3 legs carry load due to uneven distribution."
+      },
+      {
+        "id": "c",
+        "text": "Only 2 legs carry the load",
+        "explanation": "Incorrect. Standard assumption is 3 legs, not 2."
+      },
+      {
+        "id": "d",
+        "text": "Load depends on crane capacity",
+        "explanation": "Incorrect. The 3-leg assumption is for sling design, not crane."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1070,
+    "question": "What is the minimum chain grade permitted for overhead lifting with cranes?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Grade 30",
+        "explanation": "Incorrect. Grade 30 is too low for overhead lifting."
+      },
+      {
+        "id": "b",
+        "text": "Grade 43",
+        "explanation": "Incorrect. Grade 43 is not approved for overhead lifting."
+      },
+      {
+        "id": "c",
+        "text": "Grade 70",
+        "explanation": "Incorrect. Grade 70 is transport chain, not for overhead lifting."
+      },
+      {
+        "id": "d",
+        "text": "Grade 80",
+        "explanation": "Correct. Grade 80 alloy chain is the minimum grade approved for overhead lifting."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1071,
+    "question": "A Grade 100 chain is approximately how much stronger than a Grade 80 chain of the same diameter?",
+    "options": [
+      {
+        "id": "a",
+        "text": "10%",
+        "explanation": "Incorrect. The increase is higher."
+      },
+      {
+        "id": "b",
+        "text": "15%",
+        "explanation": "Incorrect. Grade 100 provides about 25% higher WLL."
+      },
+      {
+        "id": "c",
+        "text": "25%",
+        "explanation": "Correct. Grade 100 provides about 25% higher working load limit than Grade 80."
+      },
+      {
+        "id": "d",
+        "text": "50%",
+        "explanation": "Incorrect. 50% is the Grade 80 to Grade 120 increase."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1072,
+    "question": "A Grade 120 chain compared to a Grade 100 chain has approximately:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Same capacity",
+        "explanation": "Incorrect. Grade 120 has higher capacity."
+      },
+      {
+        "id": "b",
+        "text": "10% more capacity",
+        "explanation": "Incorrect. The increase is about 20%."
+      },
+      {
+        "id": "c",
+        "text": "20% more capacity",
+        "explanation": "Correct. Grade 120 provides about 20% higher WLL than Grade 100."
+      },
+      {
+        "id": "d",
+        "text": "40% more capacity",
+        "explanation": "Incorrect. The increase is approximately 20%."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1073,
+    "question": "A Grade 80 chain sling has a WLL of 4 t. If replaced with the same diameter Grade 100 chain, the approximate capacity becomes:",
+    "options": [
+      {
+        "id": "a",
+        "text": "4.4 t",
+        "explanation": "Incorrect. Grade 100 is about 25% higher."
+      },
+      {
+        "id": "b",
+        "text": "5 t",
+        "explanation": "Correct. Grade 100 ≈ 25% increase. 4 × 1.25 = 5 t"
+      },
+      {
+        "id": "c",
+        "text": "6 t",
+        "explanation": "Incorrect. That would be 50% increase (Grade 120)."
+      },
+      {
+        "id": "d",
+        "text": "8 t",
+        "explanation": "Incorrect. 8 t would double the capacity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1074,
+    "question": "TRAP: A chain is stamped \"G100\". What does the 100 represent?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Diameter in mm",
+        "explanation": "Incorrect. Diameter is shown separately on the tag."
+      },
+      {
+        "id": "b",
+        "text": "Tensile strength class of alloy steel",
+        "explanation": "Correct. Chain grades refer to minimum tensile strength classification of alloy steel."
+      },
+      {
+        "id": "c",
+        "text": "Breaking strength in tons",
+        "explanation": "Incorrect. The grade is not breaking strength."
+      },
+      {
+        "id": "d",
+        "text": "Manufacturing batch",
+        "explanation": "Incorrect. Grades indicate material strength classification."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1075,
+    "question": "Why might a rigger choose Grade 100 instead of Grade 80?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cheaper",
+        "explanation": "Incorrect. Higher grade chain typically costs more."
+      },
+      {
+        "id": "b",
+        "text": "Less inspection required",
+        "explanation": "Incorrect. Inspection requirements are similar."
+      },
+      {
+        "id": "c",
+        "text": "Higher capacity with same chain size",
+        "explanation": "Correct. Higher grade chain allows higher WLL with same diameter."
+      },
+      {
+        "id": "d",
+        "text": "Less reduction at sling angles",
+        "explanation": "Incorrect. Only chain size affects capacity; grade does not change angle reduction."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1076,
+    "question": "A Grade 80 chain has WLL 8 t. What is the approximate capacity of the same diameter Grade 120 chain?",
+    "options": [
+      {
+        "id": "a",
+        "text": "9 t",
+        "explanation": "Incorrect. Grade 120 is about 50% stronger than Grade 80."
+      },
+      {
+        "id": "b",
+        "text": "10 t",
+        "explanation": "Incorrect. That would be only 25% increase."
+      },
+      {
+        "id": "c",
+        "text": "12 t",
+        "explanation": "Correct. Grade 120 ≈ 50% stronger than Grade 80. 8 × 1.5 = 12 t"
+      },
+      {
+        "id": "d",
+        "text": "16 t",
+        "explanation": "Incorrect. That would double the capacity."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1077,
+    "question": "Why are transport chains (Grade 70) not used for overhead lifting?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Too heavy",
+        "explanation": "Incorrect. Weight is not the primary reason."
+      },
+      {
+        "id": "b",
+        "text": "Too expensive",
+        "explanation": "Incorrect. Cost is not the issue."
+      },
+      {
+        "id": "c",
+        "text": "Not designed for overhead lifting loads",
+        "explanation": "Correct. Grade 70 is transport chain, not rated for overhead lifting."
+      },
+      {
+        "id": "d",
+        "text": "Not strong enough in tension",
+        "explanation": "Incorrect. The issue is that it's not designed/rated for overhead lifting, not purely strength."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1078,
+    "question": "TRAP: Two Grade 100 chain sling legs lift a load at 30°. Does chain grade affect angle reduction?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes",
+        "explanation": "Incorrect. Angle reduction is geometry-based."
+      },
+      {
+        "id": "b",
+        "text": "No",
+        "explanation": "Correct. Angle reduction depends on geometry, not chain grade. Higher grade simply starts with higher capacity."
+      },
+      {
+        "id": "c",
+        "text": "Only Grade 120",
+        "explanation": "Incorrect. No chain grade affects angle reduction."
+      },
+      {
+        "id": "d",
+        "text": "Only Grade 80",
+        "explanation": "Incorrect. Angle reduction applies equally to all grades."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1079,
+    "question": "A Grade 80 sling has WLL 10 t. What is the approximate WLL of the same size Grade 100 sling?",
+    "options": [
+      {
+        "id": "a",
+        "text": "10 t",
+        "explanation": "Incorrect. Grade 100 has higher capacity."
+      },
+      {
+        "id": "b",
+        "text": "11 t",
+        "explanation": "Incorrect. 25% increase = 12.5 t."
+      },
+      {
+        "id": "c",
+        "text": "12.5 t",
+        "explanation": "Correct. 10 × 1.25 = 12.5 t"
+      },
+      {
+        "id": "d",
+        "text": "15 t",
+        "explanation": "Incorrect. That would be 50% increase."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1080,
+    "question": "A lift requires 9 t capacity. Available slings: Grade 80 WLL = 8 t, Grade 100 WLL = 10 t. Which sling is acceptable?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Grade 80",
+        "explanation": "Incorrect. Grade 80 is below required capacity."
+      },
+      {
+        "id": "b",
+        "text": "Grade 100",
+        "explanation": "Correct. Grade 80 is below required capacity. Grade 100 at 10 t meets the 9 t requirement."
+      },
+      {
+        "id": "c",
+        "text": "Both",
+        "explanation": "Incorrect. Grade 80 cannot lift 9 t."
+      },
+      {
+        "id": "d",
+        "text": "Neither",
+        "explanation": "Incorrect. Grade 100 meets the requirement."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1081,
+    "question": "Why might Grade 100 or 120 chains be preferred on large jobs?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They rust less",
+        "explanation": "Incorrect. Corrosion resistance is not the main advantage."
+      },
+      {
+        "id": "b",
+        "text": "Less inspection needed",
+        "explanation": "Incorrect. Inspection requirements are similar."
+      },
+      {
+        "id": "c",
+        "text": "Smaller chain can lift same load",
+        "explanation": "Correct. Higher grade = higher capacity per diameter, so rigging can be lighter and easier to handle."
+      },
+      {
+        "id": "d",
+        "text": "No sling angle reduction",
+        "explanation": "Incorrect. Angle reduction applies to all grades."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1082,
+    "question": "TRAP: A Grade 80 chain sling is replaced with Grade 120 of same size. What is the approximate increase?",
+    "options": [
+      {
+        "id": "a",
+        "text": "20%",
+        "explanation": "Incorrect. That's Grade 100 to Grade 120."
+      },
+      {
+        "id": "b",
+        "text": "30%",
+        "explanation": "Incorrect. Grade 80 to 120 is about 50%."
+      },
+      {
+        "id": "c",
+        "text": "50%",
+        "explanation": "Correct. Grade 120 ≈ 50% stronger than Grade 80."
+      },
+      {
+        "id": "d",
+        "text": "100%",
+        "explanation": "Incorrect. That would double the capacity."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1083,
+    "question": "A sling tag reads: Grade 100 – 3/8\" chain – WLL 4.5 t. What information is most important to verify before lifting?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Chain color",
+        "explanation": "Incorrect. Color doesn't affect capacity."
+      },
+      {
+        "id": "b",
+        "text": "Chain length",
+        "explanation": "Incorrect. Length affects sling angle, but WLL is primary for capacity."
+      },
+      {
+        "id": "c",
+        "text": "Working Load Limit",
+        "explanation": "Correct. WLL must be verified to ensure the sling can handle the load."
+      },
+      {
+        "id": "d",
+        "text": "Manufacturer",
+        "explanation": "Incorrect. Manufacturer is secondary to verified capacity."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1084,
+    "question": "TRAP: A 2-leg Grade 80 sling has WLL 6 t per leg vertical. What is the vertical bridle capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6 t",
+        "explanation": "Incorrect. Two legs double the capacity."
+      },
+      {
+        "id": "b",
+        "text": "9 t",
+        "explanation": "Incorrect. Vertical = 6 + 6 = 12 t."
+      },
+      {
+        "id": "c",
+        "text": "12 t",
+        "explanation": "Correct. 6 + 6 = 12 t vertical. Angle reductions apply after."
+      },
+      {
+        "id": "d",
+        "text": "18 t",
+        "explanation": "Incorrect. That would require 3 legs or incorrect calculation."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
   }
 ]
