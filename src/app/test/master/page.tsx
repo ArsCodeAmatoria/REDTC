@@ -287,7 +287,7 @@ export default function MasterTestPage() {
           <div className="flex items-center justify-between h-14">
             <Link href="/" className="flex items-center gap-2">
               <div className="w-8 h-8 bg-accent flex items-center justify-center">
-                <PawPrint className="w-5 h-5 text-accent-foreground" />
+                <PawPrint className="w-5 h-5 text-accent-foreground" strokeWidth={2.5} />
               </div>
               <span className="font-display text-xl font-bold tracking-tight hidden sm:block">REDTC</span>
             </Link>
