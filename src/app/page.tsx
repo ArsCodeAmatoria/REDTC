@@ -10,7 +10,7 @@ import questionsData from "@/data/questions.json";
 
 const categories = [
   { name: "Load Charts & Parts of Line", count: 140, color: "bg-accent" },
-  { name: "PDF Load Chart Practice", count: 36, color: "bg-accent", isCharts: true },
+  { name: "PDF Load Chart Practice", count: 51, color: "bg-accent", isCharts: true },
   { name: "Advanced Operations & Traps", count: 95, color: "bg-foreground" },
   { name: "Master Level Questions", count: 100, color: "bg-foreground" },
   { name: "Rigging & Sling Angles", count: 85, color: "bg-foreground" },
@@ -542,18 +542,18 @@ export default function HomePage() {
               </div>
             </div>
             <div className="space-y-4">
-              <div className="grid grid-cols-1 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="bg-background border border-border p-5">
                   <div className="flex items-center gap-3 mb-3">
                     <div className="w-10 h-10 bg-accent flex items-center justify-center">
                       <FileText className="w-5 h-5 text-accent-foreground" />
                     </div>
                     <div>
-                      <h3 className="font-semibold">470 EC-B 20</h3>
-                      <p className="text-sm text-muted-foreground">Flat-top tower crane</p>
+                      <h3 className="font-semibold">Liebherr 470 EC-B</h3>
+                      <p className="text-sm text-muted-foreground">Flat-top crane</p>
                     </div>
                   </div>
-                  <p className="text-sm text-muted-foreground">83m jib, 20t capacity. LM 1 & Load-Plus modes.</p>
+                  <p className="text-sm text-muted-foreground">83m jib, 20t. Metric units.</p>
                 </div>
                 <div className="bg-background border border-border p-5">
                   <div className="flex items-center gap-3 mb-3">
@@ -561,11 +561,11 @@ export default function HomePage() {
                       <FileText className="w-5 h-5 text-foreground" />
                     </div>
                     <div>
-                      <h3 className="font-semibold">195 HC-LH 6/12</h3>
+                      <h3 className="font-semibold">Liebherr 195 HC-LH</h3>
                       <p className="text-sm text-muted-foreground">Luffing jib crane</p>
                     </div>
                   </div>
-                  <p className="text-sm text-muted-foreground">55m jib, 6t/12t capacity. Level luffing feature.</p>
+                  <p className="text-sm text-muted-foreground">55m jib, 6t/12t. Level luffing.</p>
                 </div>
                 <div className="bg-background border border-border p-5">
                   <div className="flex items-center gap-3 mb-3">
@@ -573,11 +573,23 @@ export default function HomePage() {
                       <FileText className="w-5 h-5 text-foreground" />
                     </div>
                     <div>
-                      <h3 className="font-semibold">550 EC-H 20</h3>
-                      <p className="text-sm text-muted-foreground">Hammerhead tower crane</p>
+                      <h3 className="font-semibold">Liebherr 550 EC-H</h3>
+                      <p className="text-sm text-muted-foreground">Hammerhead crane</p>
                     </div>
                   </div>
-                  <p className="text-sm text-muted-foreground">81.5m jib, 20t capacity. Speed2Lift technology.</p>
+                  <p className="text-sm text-muted-foreground">81.5m jib, 20t. Speed2Lift.</p>
+                </div>
+                <div className="bg-background border border-border p-5">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-10 h-10 bg-accent flex items-center justify-center">
+                      <FileText className="w-5 h-5 text-accent-foreground" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold">Potain MDT 189</h3>
+                      <p className="text-sm text-muted-foreground">Top-slewing crane</p>
+                    </div>
+                  </div>
+                  <p className="text-sm text-muted-foreground">197ft jib, 8.8 USt. Imperial units.</p>
                 </div>
               </div>
               <div className="bg-muted/30 border border-border p-4">
@@ -589,11 +601,15 @@ export default function HomePage() {
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="w-1.5 h-1.5 bg-accent" />
-                    Understanding LM 1 vs LM 2 / Load-Plus modes
+                    Metric vs Imperial unit conversions
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="w-1.5 h-1.5 bg-accent" />
                     Calculating net load after rigging deductions
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <div className="w-1.5 h-1.5 bg-accent" />
+                    Complex trap questions and scenarios
                   </li>
                 </ul>
               </div>
@@ -636,7 +652,7 @@ export default function HomePage() {
                     </div>
                     <h3 className="font-medium mt-3 group-hover:text-accent transition-colors">{category.name}</h3>
                     <p className="text-sm text-muted-foreground mt-1">
-                      {(category as { isCharts?: boolean }).isCharts ? "3 crane charts" : `${category.count}+ questions`}
+                      {(category as { isCharts?: boolean }).isCharts ? "4 crane charts" : `${category.count}+ questions`}
                     </p>
                   </div>
                 </Link>

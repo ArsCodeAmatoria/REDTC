@@ -443,6 +443,187 @@
           "correctAnswer": "b"
         }
       ]
+    },
+    {
+      "id": "potain-mdt-189",
+      "name": "Potain MDT 189",
+      "manufacturer": "Potain",
+      "model": "MDT 189",
+      "pdfFile": "potainmdt189.pdf",
+      "description": "Top-slewing tower crane with 197 ft max jib, 8.8 US ton capacity. Uses imperial units (feet/US tons). Features Potain Plus mode.",
+      "specifications": {
+        "maxCapacity": "8.8 US tons (17,600 lbs)",
+        "maxJibLength": "197 ft (60 m)",
+        "tipCapacity": "1.7 USt (197 ft jib)",
+        "maxHoistHeight": "Varies by mast configuration"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": "UNIT CONVERSION TRAP: The Potain MDT 189 has a maximum capacity of 8.8 US tons. What is this in metric tonnes?",
+          "options": [
+            { "id": "a", "text": "8.8 metric tonnes", "explanation": "Incorrect. This is a common trap! US tons and metric tonnes are NOT the same. 1 US ton = 2,000 lbs, while 1 metric tonne = 2,205 lbs." },
+            { "id": "b", "text": "8.0 metric tonnes", "explanation": "Correct. 8.8 US tons × 2,000 lbs/USt ÷ 2,205 lbs/t = 7.98 tonnes ≈ 8.0 metric tonnes. Always verify which unit system a chart uses!" },
+            { "id": "c", "text": "9.7 metric tonnes", "explanation": "Incorrect. This would be the result if you multiplied instead of converting properly." },
+            { "id": "d", "text": "17.6 metric tonnes", "explanation": "Incorrect. 17,600 is the capacity in pounds, not tonnes." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 2,
+          "question": "Using the 197 ft jib, what is the capacity at the jib tip (197 ft radius)?",
+          "options": [
+            { "id": "a", "text": "1.7 US tons", "explanation": "Correct. At maximum radius of 197 ft, the capacity is 1.7 US tons (3,400 lbs)." },
+            { "id": "b", "text": "1.9 US tons", "explanation": "Incorrect. This is the capacity at 187 ft radius." },
+            { "id": "c", "text": "2.05 US tons", "explanation": "Incorrect. This is the capacity at 180 ft radius." },
+            { "id": "d", "text": "8.8 US tons", "explanation": "Incorrect. 8.8 USt is the maximum capacity at minimum radius, not at the tip." }
+          ],
+          "correctAnswer": "a"
+        },
+        {
+          "id": 3,
+          "question": "TRICK QUESTION: At 82 ft radius with a 197 ft jib, the chart shows 6.6 USt capacity. At the same 82 ft radius with a 131 ft jib, capacity is 7.7 USt. Why is capacity HIGHER with the shorter jib at the SAME radius?",
+          "options": [
+            { "id": "a", "text": "The chart has a printing error", "explanation": "Incorrect. The chart is correct - this is fundamental crane physics." },
+            { "id": "b", "text": "The 131 ft jib weighs less, leaving more capacity for the load", "explanation": "Correct. Even at identical radii, the longer jib weighs more. That extra jib weight uses up some of the crane's moment capacity, leaving less for the actual load." },
+            { "id": "c", "text": "The 131 ft jib has more parts of line", "explanation": "Incorrect. Parts of line affect hoisting, not capacity at a given radius." },
+            { "id": "d", "text": "Wind loads are lower on shorter jibs", "explanation": "Incorrect. While true, this isn't why the chart shows different capacities - the chart already accounts for standard conditions." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 4,
+          "question": "Using the 180 ft jib, what is the capacity at 98 ft radius?",
+          "options": [
+            { "id": "a", "text": "5.1 US tons", "explanation": "Incorrect. This is the capacity at 98 ft with the 197 ft jib." },
+            { "id": "b", "text": "5.6 US tons", "explanation": "Correct. With the 180 ft jib at 98 ft radius, capacity is 5.6 US tons." },
+            { "id": "c", "text": "6.2 US tons", "explanation": "Incorrect. This is the capacity at 98 ft with the 148 ft jib." },
+            { "id": "d", "text": "6.8 US tons", "explanation": "Incorrect. This is the Potain Plus capacity, not standard." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 5,
+          "question": "COMPLEX CALCULATION: A load weighs 9,500 lbs including rigging. Using the 164 ft jib, what is the maximum radius for this lift? (Note: 1 USt = 2,000 lbs)",
+          "options": [
+            { "id": "a", "text": "89 ft", "explanation": "Incorrect. At 89 ft, capacity is 6.6 USt (13,200 lbs) - you can reach further." },
+            { "id": "b", "text": "98 ft", "explanation": "Incorrect. At 98 ft, capacity is 5.8 USt (11,600 lbs) - still more than needed, you can reach further." },
+            { "id": "c", "text": "115 ft", "explanation": "Correct. 9,500 lbs ÷ 2,000 = 4.75 USt required. At 115 ft, capacity is 4.9 USt (9,800 lbs) - sufficient. At 121 ft, capacity drops to 4.5 USt (9,000 lbs) which is LESS than the 9,500 lbs needed." },
+            { "id": "d", "text": "131 ft", "explanation": "Incorrect. At 131 ft, capacity is only 4.1 USt (8,200 lbs) - insufficient for the 9,500 lb load." }
+          ],
+          "correctAnswer": "c"
+        },
+        {
+          "id": 6,
+          "question": "What does 'Potain Plus' mode provide?",
+          "options": [
+            { "id": "a", "text": "Faster trolley speed", "explanation": "Incorrect. Potain Plus affects capacity, not trolley speed." },
+            { "id": "b", "text": "Increased lifting capacity at the same radius", "explanation": "Correct. Potain Plus load curves provide slightly higher capacities. For example, at 197 ft tip, standard is 1.7 USt while Plus mode offers 1.85 USt." },
+            { "id": "c", "text": "Extended jib length", "explanation": "Incorrect. Jib length remains the same." },
+            { "id": "d", "text": "Reduced power consumption", "explanation": "Incorrect. Potain Plus is about capacity, not power." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 7,
+          "question": "TRAP QUESTION: The MDT 189 chart shows capacities for jibs from 82 ft to 197 ft. A rigger assumes the 82 ft jib can lift 8.8 USt anywhere along its length. Is this correct?",
+          "options": [
+            { "id": "a", "text": "Yes, shorter jibs maintain full capacity throughout", "explanation": "Incorrect. This is a dangerous assumption! Even short jibs have capacity curves." },
+            { "id": "b", "text": "No, capacity still decreases as radius increases even on short jibs", "explanation": "Correct. Looking at the 82 ft jib row, capacity is 8.8 USt at 56 ft but drops to 8.1 USt at 82 ft radius. Capacity ALWAYS decreases with radius - there are no exceptions." },
+            { "id": "c", "text": "Yes, the 82 ft jib is rated at 8.8 USt for all radii", "explanation": "Incorrect. Check the load chart carefully - even the shortest jib shows decreasing capacity." },
+            { "id": "d", "text": "It depends on the hook height", "explanation": "Incorrect. While hook height affects some configurations, this doesn't make the statement true." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 8,
+          "question": "Using the 148 ft jib, at what radius does capacity first drop below 5.0 US tons?",
+          "options": [
+            { "id": "a", "text": "105 ft", "explanation": "Incorrect. At 105 ft, capacity is still 5.8 USt." },
+            { "id": "b", "text": "115 ft", "explanation": "Incorrect. At 115 ft, capacity is 5.2 USt - still above 5.0." },
+            { "id": "c", "text": "121 ft", "explanation": "Correct. At 121 ft radius with 148 ft jib, capacity drops to 4.9 USt - the first value below 5.0 USt." },
+            { "id": "d", "text": "131 ft", "explanation": "Incorrect. At 131 ft, capacity is 4.4 USt - already well below 5.0." }
+          ],
+          "correctAnswer": "c"
+        },
+        {
+          "id": 9,
+          "question": "COMPLEX: A contractor needs to lift 4.0 USt loads at 140 ft radius. Which is the SHORTEST jib that can perform this lift?",
+          "options": [
+            { "id": "a", "text": "148 ft jib", "explanation": "Correct. The 148 ft jib at 138 ft shows 4.2 USt, and at 148 ft tip shows 3.9 USt. Interpolating to 140 ft gives approximately 4.1 USt - just enough for the 4.0 USt load. This is the shortest jib that reaches 140 ft with sufficient capacity." },
+            { "id": "b", "text": "164 ft jib", "explanation": "Incorrect. The 164 ft jib would work (showing 3.9 USt at 138 ft and 3.5 USt at 148 ft, ~3.8 USt at 140 ft) but wait - that's less than 4.0 USt! So 164 ft jib actually doesn't work. The 148 ft jib is the answer." },
+            { "id": "c", "text": "180 ft jib", "explanation": "Incorrect. The 180 ft jib at 138 ft shows only 3.5 USt - insufficient for 4.0 USt load." },
+            { "id": "d", "text": "197 ft jib", "explanation": "Incorrect. The 197 ft jib at 138 ft shows only 3.2 USt - insufficient." }
+          ],
+          "correctAnswer": "a"
+        },
+        {
+          "id": 10,
+          "question": "The chart shows the 33 LVF hoist has 951 ft of rope. If operating at 200 ft hook height with 4-part line, approximately how much horizontal rope travel is available?",
+          "options": [
+            { "id": "a", "text": "151 ft", "explanation": "Incorrect. With 4-part line, you use 4x the vertical distance in rope." },
+            { "id": "b", "text": "751 ft", "explanation": "Incorrect. Check your calculation." },
+            { "id": "c", "text": "About 150 ft of effective travel after accounting for rope on drum", "explanation": "Correct. With 4-part reeving at 200 ft height, you use 800 ft of rope just for height (200 × 4). This leaves only 151 ft of rope, but some must remain on the drum. Actual travel is very limited at this height." },
+            { "id": "d", "text": "951 ft", "explanation": "Incorrect. You cannot use all rope for travel - height uses rope too." }
+          ],
+          "correctAnswer": "c"
+        },
+        {
+          "id": 11,
+          "question": "TRICK: Looking at the base ballast table, why do taller tower configurations require MORE ballast even with the same jib length?",
+          "options": [
+            { "id": "a", "text": "Taller towers are heavier", "explanation": "Incorrect. Tower weight is supported by the foundation, not ballast." },
+            { "id": "b", "text": "Wind loads increase with height, requiring more stability", "explanation": "Correct. Higher towers catch more wind and have a longer moment arm to the base. The ballast counteracts these increased overturning forces." },
+            { "id": "c", "text": "The chart has errors at different heights", "explanation": "Incorrect. The chart is correct - this is proper engineering." },
+            { "id": "d", "text": "Taller towers lift heavier loads", "explanation": "Incorrect. Tower height doesn't increase lifting capacity." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 12,
+          "question": "According to the specifications, what wind standard does this chart reference for out-of-service conditions?",
+          "options": [
+            { "id": "a", "text": "EN 14439 only", "explanation": "Incorrect. While EN 14439 is mentioned, there's a specific US standard referenced." },
+            { "id": "b", "text": "ASCE 7-10 with 115 mph wind zone", "explanation": "Correct. The chart notes reference ASCE 7-10, Wind Zone with 115 mph ultimate design wind speed, reduced to 98 mph design speed using the 0.85 factor for temporary structures." },
+            { "id": "c", "text": "OSHA 1926", "explanation": "Incorrect. OSHA is a safety regulation, not a wind load standard." },
+            { "id": "d", "text": "CSA Z248", "explanation": "Incorrect. This is a Canadian standard, not the one referenced." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 13,
+          "question": "HARD CALCULATION: A 7,000 lb steel beam needs to be lifted at 120 ft radius. The hook block weighs 617 lbs and rigging weighs 400 lbs. Using the 164 ft jib, is this lift possible?",
+          "options": [
+            { "id": "a", "text": "Yes, with margin to spare", "explanation": "Incorrect. The margin is not substantial - calculate precisely." },
+            { "id": "b", "text": "Yes, but with only about 10% margin", "explanation": "Correct. Total load = 7,000 + 617 + 400 = 8,017 lbs = 4.01 USt. At 121 ft radius (closest chart point), capacity is 4.5 USt (9,000 lbs). Margin = (9,000 - 8,017) ÷ 9,000 = 10.9%. Lift is possible but margins are tight." },
+            { "id": "c", "text": "No, total load exceeds capacity at 120 ft", "explanation": "Incorrect. 8,017 lbs (4.01 USt) is less than the 9,000 lbs (4.5 USt) capacity at 121 ft." },
+            { "id": "d", "text": "Cannot determine without knowing hook height", "explanation": "Incorrect. The standard chart applies to normal operating conditions." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 14,
+          "question": "The counter-jib ballast table shows CAU blocks at 7,937 lbs and CAV blocks at 2,425 lbs. For a 197 ft jib, the chart shows 3 CAU + 4 CAV blocks needed. What is the total counter-jib ballast weight?",
+          "options": [
+            { "id": "a", "text": "23,810 lbs", "explanation": "Incorrect. Check your multiplication." },
+            { "id": "b", "text": "33,511 lbs", "explanation": "Correct. (3 × 7,937) + (4 × 2,425) = 23,811 + 9,700 = 33,511 lbs. The chart confirms '33,510 lbs' for this configuration." },
+            { "id": "c", "text": "41,448 lbs", "explanation": "Incorrect. This calculation is wrong." },
+            { "id": "d", "text": "10,362 lbs", "explanation": "Incorrect. This only accounts for some of the blocks." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 15,
+          "question": "CRITICAL THINKING: An operator notices the Potain MDT 189 chart shows capacities in US tons while they're used to metric tonnes. They're planning a 7 metric tonne lift at 100 ft radius with the 164 ft jib. The chart shows 5.8 USt at 98 ft. Should they proceed?",
+          "options": [
+            { "id": "a", "text": "Yes, 5.8 USt is greater than 7 tonnes", "explanation": "Incorrect. DANGER! You're comparing different units. 5.8 US tons ≠ 5.8 metric tonnes." },
+            { "id": "b", "text": "No, must convert units first - 7 tonnes = 7.7 USt which exceeds 5.8 USt capacity", "explanation": "Correct. 7 metric tonnes × 2,205 lbs/t ÷ 2,000 lbs/USt = 7.72 US tons required. Capacity of 5.8 USt is insufficient. This lift would overload the crane by 33%!" },
+            { "id": "c", "text": "Yes, the difference between US tons and metric tonnes is negligible", "explanation": "Incorrect. The ~10% difference between unit systems is NOT negligible and can cause serious overloading." },
+            { "id": "d", "text": "Need more information about wind conditions", "explanation": "Incorrect. The unit conversion issue is the critical problem here." }
+          ],
+          "correctAnswer": "b"
+        }
+      ]
     }
   ]
 }
