@@ -6998,5 +6998,1545 @@
     ],
     "correctAnswer": "b",
     "category": "Emergency & Abnormal Situations"
+  },
+  {
+    "id": 251,
+    "question": "A 12,000 kg load at 28 m radius creates how much moment?",
+    "options": [
+      {
+        "id": "a",
+        "text": "336,000 kg·m",
+        "explanation": "Correct. Moment = Load × Radius. 12,000 × 28 = 336,000 kg·m. Overturning moment increases linearly with radius. Moment control is the foundation of crane stability calculations."
+      },
+      {
+        "id": "b",
+        "text": "240,000 kg·m",
+        "explanation": "Incorrect. This would be 12,000 × 20 m radius."
+      },
+      {
+        "id": "c",
+        "text": "428,000 kg·m",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "196,000 kg·m",
+        "explanation": "Incorrect. This would be approximately 12,000 × 16.3 m."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Master - Advanced Load Calculations"
+  },
+  {
+    "id": 252,
+    "question": "A crane rated 8,000 kg at 30 m lifts 7,200 kg. What percent of capacity is used?",
+    "options": [
+      {
+        "id": "a",
+        "text": "80%",
+        "explanation": "Incorrect. 80% would be 6,400 kg."
+      },
+      {
+        "id": "b",
+        "text": "85%",
+        "explanation": "Incorrect. 85% would be 6,800 kg."
+      },
+      {
+        "id": "c",
+        "text": "90%",
+        "explanation": "Correct. 7,200 ÷ 8,000 = 0.90 = 90%. Operating consistently above 85-90% capacity increases fatigue accumulation on structural members."
+      },
+      {
+        "id": "d",
+        "text": "95%",
+        "explanation": "Incorrect. 95% would be 7,600 kg."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Advanced Load Calculations"
+  },
+  {
+    "id": 253,
+    "question": "A 4-part line supports 16,000 kg. What is approximate load per part (ignoring friction)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This would be for an 8-part line."
+      },
+      {
+        "id": "b",
+        "text": "4,000 kg",
+        "explanation": "Correct. 16,000 ÷ 4 = 4,000 kg per part. Parts of line divide tension equally in ideal conditions without friction losses."
+      },
+      {
+        "id": "c",
+        "text": "8,000 kg",
+        "explanation": "Incorrect. This would be for a 2-part line."
+      },
+      {
+        "id": "d",
+        "text": "16,000 kg",
+        "explanation": "Incorrect. This would be for a single-part line."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Advanced Load Calculations"
+  },
+  {
+    "id": 254,
+    "question": "Increasing radius by 20% while load remains constant will:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Decrease moment",
+        "explanation": "Incorrect. Increased radius increases moment."
+      },
+      {
+        "id": "b",
+        "text": "Increase moment by 20%",
+        "explanation": "Correct. Moment is directly proportional to radius. A 20% radius increase produces a 20% increase in moment when load is constant."
+      },
+      {
+        "id": "c",
+        "text": "Increase moment by 40%",
+        "explanation": "Incorrect. The relationship is linear, not squared."
+      },
+      {
+        "id": "d",
+        "text": "Not affect moment",
+        "explanation": "Incorrect. Radius directly affects moment calculation."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Advanced Load Calculations"
+  },
+  {
+    "id": 255,
+    "question": "75 kN equals approximately:",
+    "options": [
+      {
+        "id": "a",
+        "text": "7,650 kg",
+        "explanation": "Correct. 75,000 N ÷ 9.81 m/s² ≈ 7,645 kg. To convert kilonewtons to kilograms, divide by 9.81 (acceleration due to gravity)."
+      },
+      {
+        "id": "b",
+        "text": "750 kg",
+        "explanation": "Incorrect. This is off by a factor of 10."
+      },
+      {
+        "id": "c",
+        "text": "7,500 kg",
+        "explanation": "Incorrect. Close but not accounting for proper conversion factor."
+      },
+      {
+        "id": "d",
+        "text": "76,500 kg",
+        "explanation": "Incorrect. This is off by a factor of 10."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Master - Advanced Load Calculations"
+  },
+  {
+    "id": 256,
+    "question": "A load shifts 1.5 m outward during lift. The crane was operating at 95% capacity. The operator should:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue",
+        "explanation": "Incorrect. Continuing with increased radius at near-capacity is dangerous."
+      },
+      {
+        "id": "b",
+        "text": "Stop and recalculate",
+        "explanation": "Correct. Even a 1.5 m increase at 95% utilization can push crane beyond rated moment. The new radius must be checked against load chart before proceeding."
+      },
+      {
+        "id": "c",
+        "text": "Increase speed",
+        "explanation": "Incorrect. Speed doesn't address the capacity concern."
+      },
+      {
+        "id": "d",
+        "text": "Lower counterweight",
+        "explanation": "Incorrect. Lowering counterweight would reduce stability, not improve it."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Advanced Load Calculations"
+  },
+  {
+    "id": 257,
+    "question": "A 60° sling angle produces more tension than a 90° angle because:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load increases",
+        "explanation": "Incorrect. The load weight doesn't change with sling angle."
+      },
+      {
+        "id": "b",
+        "text": "Vertical component decreases",
+        "explanation": "Correct. As angle flattens from vertical (90°), the vertical lifting component of each sling leg decreases, requiring higher sling tension to support the same load."
+      },
+      {
+        "id": "c",
+        "text": "Radius changes",
+        "explanation": "Incorrect. Crane radius is independent of sling angle."
+      },
+      {
+        "id": "d",
+        "text": "Counterweight shifts",
+        "explanation": "Incorrect. Counterweight position doesn't change with sling angle."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Advanced Load Calculations"
+  },
+  {
+    "id": 258,
+    "question": "Shock loading most significantly affects:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Static calculations",
+        "explanation": "Incorrect. Static calculations assume smooth loading."
+      },
+      {
+        "id": "b",
+        "text": "Structural members",
+        "explanation": "Correct. Shock loads can exceed static values by 20-50% or more, overstressing structural members, wire rope, and rigging hardware."
+      },
+      {
+        "id": "c",
+        "text": "Paint finish",
+        "explanation": "Incorrect. Paint is cosmetic, not structural."
+      },
+      {
+        "id": "d",
+        "text": "Load chart text",
+        "explanation": "Incorrect. Load charts don't change from shock loading."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Advanced Load Calculations"
+  },
+  {
+    "id": 259,
+    "question": "A 10,000 kg load with 800 kg rigging equals:",
+    "options": [
+      {
+        "id": "a",
+        "text": "10,000 kg total",
+        "explanation": "Incorrect. This ignores the rigging weight."
+      },
+      {
+        "id": "b",
+        "text": "10,800 kg total",
+        "explanation": "Correct. Total suspended load must always include rigging weight. 10,000 + 800 = 10,800 kg."
+      },
+      {
+        "id": "c",
+        "text": "9,200 kg total",
+        "explanation": "Incorrect. You add rigging weight, not subtract."
+      },
+      {
+        "id": "d",
+        "text": "11,600 kg total",
+        "explanation": "Incorrect. This adds rigging weight twice."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Advanced Load Calculations"
+  },
+  {
+    "id": 260,
+    "question": "Reducing line parts from 6 to 3 will:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Double capacity",
+        "explanation": "Incorrect. Reducing parts decreases capacity."
+      },
+      {
+        "id": "b",
+        "text": "Halve capacity",
+        "explanation": "Incorrect. This describes capacity change but misses speed effect."
+      },
+      {
+        "id": "c",
+        "text": "Double speed, reduce capacity",
+        "explanation": "Correct. Halving the line parts doubles line speed but halves the mechanical advantage, reducing lifting capacity proportionally."
+      },
+      {
+        "id": "d",
+        "text": "Increase moment",
+        "explanation": "Incorrect. Line parts don't directly affect moment."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Advanced Load Calculations"
+  },
+  {
+    "id": 261,
+    "question": "Operating at 90% capacity with 15% wind load increase results in:",
+    "options": [
+      {
+        "id": "a",
+        "text": "90% effective loading",
+        "explanation": "Incorrect. Wind adds to the loading."
+      },
+      {
+        "id": "b",
+        "text": "Over 100% effective loading",
+        "explanation": "Correct. Wind force adds horizontal load which increases effective moment. 90% + additional wind loading exceeds rated capacity, creating an overload condition."
+      },
+      {
+        "id": "c",
+        "text": "95% effective loading",
+        "explanation": "Incorrect. This underestimates wind effect."
+      },
+      {
+        "id": "d",
+        "text": "85% effective loading",
+        "explanation": "Incorrect. Wind increases loading, not decreases."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Advanced Load Calculations"
+  },
+  {
+    "id": 262,
+    "question": "Interpolating load chart between 24 m (8,000 kg) and 26 m (7,200 kg) at 25 m gives approximately:",
+    "options": [
+      {
+        "id": "a",
+        "text": "8,000 kg",
+        "explanation": "Incorrect. Capacity decreases with radius."
+      },
+      {
+        "id": "b",
+        "text": "7,600 kg",
+        "explanation": "Correct. Linear interpolation: midpoint between 8,000 and 7,200 = 7,600 kg. (8,000 + 7,200) ÷ 2 = 7,600 kg."
+      },
+      {
+        "id": "c",
+        "text": "7,200 kg",
+        "explanation": "Incorrect. This is the capacity at 26 m."
+      },
+      {
+        "id": "d",
+        "text": "7,000 kg",
+        "explanation": "Incorrect. This over-reduces the capacity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Advanced Load Calculations"
+  },
+  {
+    "id": 263,
+    "question": "Dynamic load factor from sudden stop can increase load by:",
+    "options": [
+      {
+        "id": "a",
+        "text": "5% or less",
+        "explanation": "Incorrect. Dynamic factors are typically much higher."
+      },
+      {
+        "id": "b",
+        "text": "25% or more",
+        "explanation": "Correct. Dynamic loading from sudden stops can increase effective load by 25% or more depending on acceleration rate and load mass. This is why smooth operation is critical."
+      },
+      {
+        "id": "c",
+        "text": "10% maximum",
+        "explanation": "Incorrect. This underestimates dynamic effects."
+      },
+      {
+        "id": "d",
+        "text": "No increase",
+        "explanation": "Incorrect. Sudden stops always create dynamic amplification."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Advanced Load Calculations"
+  },
+  {
+    "id": 264,
+    "question": "In a tandem lift with 60/40 capacity split of 20,000 kg total, load shares are:",
+    "options": [
+      {
+        "id": "a",
+        "text": "10,000 kg / 10,000 kg",
+        "explanation": "Incorrect. This is equal split, not 60/40."
+      },
+      {
+        "id": "b",
+        "text": "12,000 kg / 8,000 kg",
+        "explanation": "Correct. 60% of 20,000 = 12,000 kg for larger crane. 40% of 20,000 = 8,000 kg for smaller crane. Load distribution must reflect crane capacity ratio."
+      },
+      {
+        "id": "c",
+        "text": "15,000 kg / 5,000 kg",
+        "explanation": "Incorrect. This is 75/25 split."
+      },
+      {
+        "id": "d",
+        "text": "14,000 kg / 6,000 kg",
+        "explanation": "Incorrect. This is 70/30 split."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Advanced Load Calculations"
+  },
+  {
+    "id": 265,
+    "question": "Sling tension at 45° for a 10,000 kg load using two slings is approximately:",
+    "options": [
+      {
+        "id": "a",
+        "text": "5,000 kg per sling",
+        "explanation": "Incorrect. This ignores the angle factor."
+      },
+      {
+        "id": "b",
+        "text": "7,070 kg per sling",
+        "explanation": "Correct. T = Load ÷ (2 × sin 45°) = 10,000 ÷ (2 × 0.707) = 10,000 ÷ 1.414 ≈ 7,070 kg per sling."
+      },
+      {
+        "id": "c",
+        "text": "10,000 kg per sling",
+        "explanation": "Incorrect. Each sling doesn't carry the full load."
+      },
+      {
+        "id": "d",
+        "text": "3,535 kg per sling",
+        "explanation": "Incorrect. This calculation is inverted."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Advanced Load Calculations"
+  },
+  {
+    "id": 266,
+    "question": "Overturning occurs when:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Counterweight moment exceeds load moment",
+        "explanation": "Incorrect. This is the stable condition."
+      },
+      {
+        "id": "b",
+        "text": "Resisting moment equals load moment",
+        "explanation": "Incorrect. Equal moments create equilibrium, not overturning."
+      },
+      {
+        "id": "c",
+        "text": "Load moment exceeds resisting moment",
+        "explanation": "Correct. Stability condition fails when resisting moment is less than overturning moment. The crane tips when load moment overcomes counterweight and foundation resistance."
+      },
+      {
+        "id": "d",
+        "text": "Hoist speed increases",
+        "explanation": "Incorrect. Speed alone doesn't cause overturning."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Structural Engineering"
+  },
+  {
+    "id": 267,
+    "question": "Mast compression is highest when:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load at maximum radius",
+        "explanation": "Incorrect. Max radius has lighter capacity, thus less compression."
+      },
+      {
+        "id": "b",
+        "text": "Load at short radius",
+        "explanation": "Correct. Short radius allows heavier loads, which increases vertical compression forces through the mast structure. Maximum capacity at minimum radius creates highest mast compression."
+      },
+      {
+        "id": "c",
+        "text": "No load",
+        "explanation": "Incorrect. No load means minimal compression."
+      },
+      {
+        "id": "d",
+        "text": "Crane is free-slewing",
+        "explanation": "Incorrect. Free-slewing doesn't affect compression."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Structural Engineering"
+  },
+  {
+    "id": 268,
+    "question": "Tie-ins primarily resist:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Vertical load",
+        "explanation": "Incorrect. Foundation carries vertical loads."
+      },
+      {
+        "id": "b",
+        "text": "Horizontal bending",
+        "explanation": "Correct. Tie-ins reduce mast slenderness and lateral deflection by transferring horizontal forces to the building structure."
+      },
+      {
+        "id": "c",
+        "text": "Hoist tension",
+        "explanation": "Incorrect. Hoist tension is internal to the crane."
+      },
+      {
+        "id": "d",
+        "text": "Electrical load",
+        "explanation": "Incorrect. Tie-ins are structural, not electrical."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Structural Engineering"
+  },
+  {
+    "id": 269,
+    "question": "Foundation must resist:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Shear only",
+        "explanation": "Incorrect. Foundation resists multiple forces."
+      },
+      {
+        "id": "b",
+        "text": "Bending only",
+        "explanation": "Incorrect. This is incomplete."
+      },
+      {
+        "id": "c",
+        "text": "Overturning and shear",
+        "explanation": "Correct. Foundation must transfer vertical compression, horizontal shear, and overturning moment safely into the soil."
+      },
+      {
+        "id": "d",
+        "text": "Wind only",
+        "explanation": "Incorrect. Foundation resists all crane forces."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Structural Engineering"
+  },
+  {
+    "id": 270,
+    "question": "Increasing counterweight without engineering approval may:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase stability safely",
+        "explanation": "Incorrect. Unauthorized modifications are dangerous."
+      },
+      {
+        "id": "b",
+        "text": "Overstress structure",
+        "explanation": "Correct. Additional counterweight increases mast compression and foundation reactions. This can overstress components not designed for the additional load."
+      },
+      {
+        "id": "c",
+        "text": "Reduce mast load",
+        "explanation": "Incorrect. More counterweight increases mast compression."
+      },
+      {
+        "id": "d",
+        "text": "Decrease bending",
+        "explanation": "Incorrect. It doesn't necessarily decrease bending."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Structural Engineering"
+  },
+  {
+    "id": 271,
+    "question": "Mast buckling risk increases with:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Shorter mast height",
+        "explanation": "Incorrect. Shorter masts are more stable."
+      },
+      {
+        "id": "b",
+        "text": "Unsupported mast height",
+        "explanation": "Correct. Buckling risk increases with unsupported (free-standing) height. This is why tie-ins are required for tall cranes—they reduce effective unsupported length."
+      },
+      {
+        "id": "c",
+        "text": "More tie-ins",
+        "explanation": "Incorrect. More tie-ins reduce buckling risk."
+      },
+      {
+        "id": "d",
+        "text": "Lighter loads",
+        "explanation": "Incorrect. Lighter loads reduce compression and buckling risk."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Structural Engineering"
+  },
+  {
+    "id": 272,
+    "question": "Wind force increases with:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wind speed linearly",
+        "explanation": "Incorrect. The relationship is not linear."
+      },
+      {
+        "id": "b",
+        "text": "Square of wind velocity",
+        "explanation": "Correct. Wind force is proportional to velocity squared (F ∝ V²). Doubling wind speed quadruples the force."
+      },
+      {
+        "id": "c",
+        "text": "Load weight",
+        "explanation": "Incorrect. Load weight doesn't affect wind force."
+      },
+      {
+        "id": "d",
+        "text": "Counterweight mass",
+        "explanation": "Incorrect. Counterweight doesn't affect wind force."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Structural Engineering"
+  },
+  {
+    "id": 273,
+    "question": "Structural fatigue occurs from:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Single overload only",
+        "explanation": "Incorrect. Single overload causes immediate damage, not fatigue."
+      },
+      {
+        "id": "b",
+        "text": "Cyclic loading even below rated capacity",
+        "explanation": "Correct. Fatigue damage accumulates from repeated load cycles even when each cycle is below rated capacity. This is why crane design includes fatigue life calculations."
+      },
+      {
+        "id": "c",
+        "text": "Paint damage",
+        "explanation": "Incorrect. Paint is cosmetic."
+      },
+      {
+        "id": "d",
+        "text": "Low wind conditions",
+        "explanation": "Incorrect. Low wind doesn't cause fatigue."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Structural Engineering"
+  },
+  {
+    "id": 274,
+    "question": "Structural deflection must remain:",
+    "options": [
+      {
+        "id": "a",
+        "text": "At zero",
+        "explanation": "Incorrect. Some deflection is normal and expected."
+      },
+      {
+        "id": "b",
+        "text": "Within manufacturer limits",
+        "explanation": "Correct. All structures deflect under load. Deflection must stay within manufacturer specifications to ensure safe operation and structural integrity."
+      },
+      {
+        "id": "c",
+        "text": "Unlimited",
+        "explanation": "Incorrect. Excessive deflection indicates overloading or damage."
+      },
+      {
+        "id": "d",
+        "text": "Increasing over time",
+        "explanation": "Incorrect. Increasing deflection indicates problems."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Structural Engineering"
+  },
+  {
+    "id": 275,
+    "question": "Sling tension at 30° from horizontal is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lower than vertical",
+        "explanation": "Incorrect. Lower angles increase tension."
+      },
+      {
+        "id": "b",
+        "text": "Equal to vertical",
+        "explanation": "Incorrect. Angle affects tension significantly."
+      },
+      {
+        "id": "c",
+        "text": "Much higher than vertical",
+        "explanation": "Correct. At 30°, tension increases dramatically. T = Load ÷ (2 × sin 30°) = Load ÷ (2 × 0.5) = Load. Each sling carries the full load weight at 30°."
+      },
+      {
+        "id": "d",
+        "text": "Zero",
+        "explanation": "Incorrect. Slings always carry tension when loaded."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Rigging"
+  },
+  {
+    "id": 276,
+    "question": "A choker hitch reduces capacity because of:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increased friction and bending",
+        "explanation": "Correct. The sling bends sharply at the choke point, creating stress concentration and friction that reduces effective capacity to about 75-80% of rated."
+      },
+      {
+        "id": "b",
+        "text": "Lower radius",
+        "explanation": "Incorrect. Crane radius is unrelated to hitch type."
+      },
+      {
+        "id": "c",
+        "text": "Increased speed",
+        "explanation": "Incorrect. Hitch type doesn't affect speed."
+      },
+      {
+        "id": "d",
+        "text": "Reduced tension",
+        "explanation": "Incorrect. Choker actually increases localized stress."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Master - Rigging"
+  },
+  {
+    "id": 277,
+    "question": "Tandem lift requires:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Informal agreement",
+        "explanation": "Incorrect. Tandem lifts require formal documentation."
+      },
+      {
+        "id": "b",
+        "text": "Engineered lift plan",
+        "explanation": "Correct. Load share, communication, crane capacities, and coordination must be engineered and documented. Tandem lifts are critical lifts requiring formal planning."
+      },
+      {
+        "id": "c",
+        "text": "Faster operation",
+        "explanation": "Incorrect. Tandem lifts require slower, more controlled movements."
+      },
+      {
+        "id": "d",
+        "text": "Equal crane models",
+        "explanation": "Incorrect. Different cranes can perform tandem lifts with proper load distribution."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Rigging"
+  },
+  {
+    "id": 278,
+    "question": "Unequal sling length results in:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Equal load distribution",
+        "explanation": "Incorrect. Unequal lengths cause unequal loading."
+      },
+      {
+        "id": "b",
+        "text": "Load imbalance",
+        "explanation": "Correct. The shorter sling carries a higher percentage of the load. This can cause tilting and overstress one sling while underutilizing another."
+      },
+      {
+        "id": "c",
+        "text": "Reduced tension",
+        "explanation": "Incorrect. One sling will have increased tension."
+      },
+      {
+        "id": "d",
+        "text": "Increased crane capacity",
+        "explanation": "Incorrect. Sling configuration doesn't increase crane capacity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Rigging"
+  },
+  {
+    "id": 279,
+    "question": "Spreader beam purpose is to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase load weight",
+        "explanation": "Incorrect. Spreader beam adds weight but that's not its purpose."
+      },
+      {
+        "id": "b",
+        "text": "Maintain sling angle and reduce compression",
+        "explanation": "Correct. Spreader beams keep slings vertical or at optimal angles and prevent inward crushing forces on the load from angled slings."
+      },
+      {
+        "id": "c",
+        "text": "Increase swing",
+        "explanation": "Incorrect. Spreaders don't affect swing."
+      },
+      {
+        "id": "d",
+        "text": "Reduce hoist height",
+        "explanation": "Incorrect. Spreaders actually reduce available headroom."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Rigging"
+  },
+  {
+    "id": 280,
+    "question": "Basket hitch doubles capacity only if:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load is heavy",
+        "explanation": "Incorrect. Weight doesn't determine hitch effectiveness."
+      },
+      {
+        "id": "b",
+        "text": "Sling legs are symmetric and vertical",
+        "explanation": "Correct. Basket hitch doubles vertical leg capacity only when both legs share the load equally. Asymmetric rigging or angled legs reduce effective capacity."
+      },
+      {
+        "id": "c",
+        "text": "Wind is calm",
+        "explanation": "Incorrect. Wind doesn't affect hitch capacity."
+      },
+      {
+        "id": "d",
+        "text": "Hook is large",
+        "explanation": "Incorrect. Hook size doesn't determine hitch capacity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Rigging"
+  },
+  {
+    "id": 281,
+    "question": "Wire rope clip orientation requires:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Random placement",
+        "explanation": "Incorrect. Clip orientation is critical."
+      },
+      {
+        "id": "b",
+        "text": "Saddle on live end",
+        "explanation": "Correct. 'Never saddle a dead horse'—the U-bolt goes on the dead end, saddle on the live (load-bearing) end to prevent rope crushing."
+      },
+      {
+        "id": "c",
+        "text": "Saddle on dead end",
+        "explanation": "Incorrect. This reverses correct orientation."
+      },
+      {
+        "id": "d",
+        "text": "Clips upside down",
+        "explanation": "Incorrect. This is improper installation."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Rigging"
+  },
+  {
+    "id": 282,
+    "question": "Two-blocking primarily damages:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Counterweight",
+        "explanation": "Incorrect. Counterweight is not affected."
+      },
+      {
+        "id": "b",
+        "text": "Hoist rope",
+        "explanation": "Correct. Two-blocking creates extreme tension that can snap the hoist rope. The sudden failure can cause load drop and structural damage."
+      },
+      {
+        "id": "c",
+        "text": "Mast",
+        "explanation": "Incorrect. Mast is secondary to rope failure."
+      },
+      {
+        "id": "d",
+        "text": "Tie-in",
+        "explanation": "Incorrect. Tie-ins are not directly affected."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Mechanical Systems"
+  },
+  {
+    "id": 283,
+    "question": "Slew bearing excessive play indicates:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Normal wear",
+        "explanation": "Incorrect. Excessive play is beyond normal wear."
+      },
+      {
+        "id": "b",
+        "text": "Structural risk",
+        "explanation": "Correct. Excess play in slew bearings affects stability and can lead to catastrophic failure. Bearing condition directly impacts safe crane operation."
+      },
+      {
+        "id": "c",
+        "text": "Increased capacity",
+        "explanation": "Incorrect. Play reduces safe operation, not increases capacity."
+      },
+      {
+        "id": "d",
+        "text": "Reduced wind load",
+        "explanation": "Incorrect. Bearing condition doesn't affect wind."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Mechanical Systems"
+  },
+  {
+    "id": 284,
+    "question": "Hoist brake failure under load requires:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue lift",
+        "explanation": "Incorrect. Continuing without brake control is extremely dangerous."
+      },
+      {
+        "id": "b",
+        "text": "Immediate shutdown",
+        "explanation": "Correct. Loss of braking is a critical hazard. The crane must be shut down immediately and the load secured before any troubleshooting."
+      },
+      {
+        "id": "c",
+        "text": "Increase speed",
+        "explanation": "Incorrect. Speed makes the situation more dangerous."
+      },
+      {
+        "id": "d",
+        "text": "Add counterweight",
+        "explanation": "Incorrect. Counterweight doesn't address brake failure."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Mechanical Systems"
+  },
+  {
+    "id": 285,
+    "question": "Gear tooth spalling indicates:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Proper lubrication",
+        "explanation": "Incorrect. Spalling indicates lubrication or loading problems."
+      },
+      {
+        "id": "b",
+        "text": "Fatigue failure",
+        "explanation": "Correct. Spalling is surface fatigue failure from cyclic stress. Metal flakes off gear teeth indicating the component is wearing out."
+      },
+      {
+        "id": "c",
+        "text": "Increased torque capacity",
+        "explanation": "Incorrect. Spalling reduces capacity."
+      },
+      {
+        "id": "d",
+        "text": "Overwind condition",
+        "explanation": "Incorrect. Overwind is unrelated to gear condition."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Mechanical Systems"
+  },
+  {
+    "id": 286,
+    "question": "Limit switches are designed to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase capacity",
+        "explanation": "Incorrect. Limit switches are safety devices."
+      },
+      {
+        "id": "b",
+        "text": "Prevent mechanical overtravel",
+        "explanation": "Correct. Limit switches stop motion before dangerous mechanical contact occurs, preventing two-blocking, over-lowering, or exceeding travel limits."
+      },
+      {
+        "id": "c",
+        "text": "Reduce swing",
+        "explanation": "Incorrect. Swing is controlled separately."
+      },
+      {
+        "id": "d",
+        "text": "Increase wind limit",
+        "explanation": "Incorrect. Limit switches don't affect wind ratings."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Mechanical Systems"
+  },
+  {
+    "id": 287,
+    "question": "LMI sensor drift requires:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ignoring",
+        "explanation": "Incorrect. LMI accuracy is critical for safety."
+      },
+      {
+        "id": "b",
+        "text": "Recalibration",
+        "explanation": "Correct. Load Moment Indicator sensor drift causes inaccurate readings. Regular calibration ensures the safety system provides accurate warnings."
+      },
+      {
+        "id": "c",
+        "text": "Increased loading",
+        "explanation": "Incorrect. Inaccurate LMI requires correction, not increased loading."
+      },
+      {
+        "id": "d",
+        "text": "Faster operation",
+        "explanation": "Incorrect. Speed doesn't address calibration."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Mechanical Systems"
+  },
+  {
+    "id": 288,
+    "question": "Wind force increases with:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Radius only",
+        "explanation": "Incorrect. Radius doesn't affect wind force."
+      },
+      {
+        "id": "b",
+        "text": "Surface area",
+        "explanation": "Correct. Larger exposed surface area increases wind force. Flat loads like panels experience significantly higher wind loading than compact loads."
+      },
+      {
+        "id": "c",
+        "text": "Counterweight",
+        "explanation": "Incorrect. Counterweight doesn't affect wind force on load."
+      },
+      {
+        "id": "d",
+        "text": "Mast height only",
+        "explanation": "Incorrect. While wind increases with height, surface area is the direct factor."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Environmental Risk"
+  },
+  {
+    "id": 289,
+    "question": "Free-slewing in storm conditions allows crane to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Resist wind rigidly",
+        "explanation": "Incorrect. Rigid resistance increases stress."
+      },
+      {
+        "id": "b",
+        "text": "Weather-vane",
+        "explanation": "Correct. Free-slewing allows the jib to align with wind direction like a weather vane, reducing stress on slew mechanism and structure."
+      },
+      {
+        "id": "c",
+        "text": "Lift heavier",
+        "explanation": "Incorrect. Storm conditions require shutdown, not increased loading."
+      },
+      {
+        "id": "d",
+        "text": "Lock rotation",
+        "explanation": "Incorrect. Locking prevents weather-vaning."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Environmental Risk"
+  },
+  {
+    "id": 290,
+    "question": "Operating near excavations risks:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increased hoist speed",
+        "explanation": "Incorrect. Excavations don't affect hoist speed."
+      },
+      {
+        "id": "b",
+        "text": "Foundation instability",
+        "explanation": "Correct. Excavations can undermine crane foundations or reduce soil bearing capacity. Safe distances from excavation edges must be maintained."
+      },
+      {
+        "id": "c",
+        "text": "Reduced wind",
+        "explanation": "Incorrect. Excavations don't reduce wind."
+      },
+      {
+        "id": "d",
+        "text": "Load drop",
+        "explanation": "Incorrect. While possible, foundation instability is the primary risk."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Environmental Risk"
+  },
+  {
+    "id": 291,
+    "question": "Ice accumulation affects:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Appearance only",
+        "explanation": "Incorrect. Ice has significant operational effects."
+      },
+      {
+        "id": "b",
+        "text": "Weight and aerodynamics",
+        "explanation": "Correct. Ice adds weight to structural members and changes aerodynamic profile, increasing wind loading. Both effects reduce safe operating margins."
+      },
+      {
+        "id": "c",
+        "text": "Counterweight mass",
+        "explanation": "Incorrect. Ice doesn't significantly affect counterweight."
+      },
+      {
+        "id": "d",
+        "text": "Sling rating",
+        "explanation": "Incorrect. Sling ratings are fixed values."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Environmental Risk"
+  },
+  {
+    "id": 292,
+    "question": "Night lifts require:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduced capacity automatically",
+        "explanation": "Incorrect. Capacity isn't automatically reduced at night."
+      },
+      {
+        "id": "b",
+        "text": "Adequate lighting and communication",
+        "explanation": "Correct. Night operations require proper lighting for operator visibility and clear communication systems since visual signals may be impaired."
+      },
+      {
+        "id": "c",
+        "text": "Higher speed",
+        "explanation": "Incorrect. Night conditions typically require more caution, not speed."
+      },
+      {
+        "id": "d",
+        "text": "No signaler",
+        "explanation": "Incorrect. Signalers are more important at night."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Environmental Risk"
+  },
+  {
+    "id": 293,
+    "question": "Lightning requires:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continued operation",
+        "explanation": "Incorrect. Lightning is a serious hazard."
+      },
+      {
+        "id": "b",
+        "text": "Shutdown and evacuation",
+        "explanation": "Correct. Tower cranes are lightning targets. Operations must stop and personnel must evacuate to ground level immediately when lightning is in the area."
+      },
+      {
+        "id": "c",
+        "text": "Faster lifting",
+        "explanation": "Incorrect. Speed doesn't protect against lightning."
+      },
+      {
+        "id": "d",
+        "text": "Increased radius",
+        "explanation": "Incorrect. Radius doesn't affect lightning risk."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Environmental Risk"
+  },
+  {
+    "id": 294,
+    "question": "After overload event, crane must be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Returned to service immediately",
+        "explanation": "Incorrect. Immediate reuse after overload is dangerous."
+      },
+      {
+        "id": "b",
+        "text": "Inspected and assessed",
+        "explanation": "Correct. Overload events can cause structural damage, brake wear, or rope damage that isn't immediately visible. Qualified inspection is required before resuming operations."
+      },
+      {
+        "id": "c",
+        "text": "Painted",
+        "explanation": "Incorrect. Painting doesn't address structural concerns."
+      },
+      {
+        "id": "d",
+        "text": "Speed tested",
+        "explanation": "Incorrect. Speed testing doesn't verify structural integrity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Emergency Response"
+  },
+  {
+    "id": 295,
+    "question": "Load snag during lift requires:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increased hoist force",
+        "explanation": "Incorrect. Forcing can cause shock loading or structural damage."
+      },
+      {
+        "id": "b",
+        "text": "Immediate stop and investigation",
+        "explanation": "Correct. Snagged loads must be carefully assessed. Attempting to force free can cause sudden release, dangerous rebound, or overloading."
+      },
+      {
+        "id": "c",
+        "text": "Faster swing",
+        "explanation": "Incorrect. Swinging a snagged load worsens the situation."
+      },
+      {
+        "id": "d",
+        "text": "Lower counterweight",
+        "explanation": "Incorrect. Counterweight adjustment doesn't address snagging."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Emergency Response"
+  },
+  {
+    "id": 296,
+    "question": "Sudden structural impact to mast requires:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue operation",
+        "explanation": "Incorrect. Continuing with potential damage is dangerous."
+      },
+      {
+        "id": "b",
+        "text": "Engineering inspection",
+        "explanation": "Correct. Any structural impact requires inspection by qualified personnel before continuing. Hidden damage could lead to catastrophic failure."
+      },
+      {
+        "id": "c",
+        "text": "Paint repair",
+        "explanation": "Incorrect. Paint repair doesn't address structural concerns."
+      },
+      {
+        "id": "d",
+        "text": "Tie-in adjustment",
+        "explanation": "Incorrect. Tie-in adjustment doesn't verify structural integrity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Emergency Response"
+  },
+  {
+    "id": 297,
+    "question": "Electrical fire in cab requires:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Water",
+        "explanation": "Incorrect. Water on electrical fires causes electrocution hazard."
+      },
+      {
+        "id": "b",
+        "text": "Correct class extinguisher",
+        "explanation": "Correct. Electrical fires require Class C or ABC rated extinguishers. CO2 or dry chemical are appropriate. Never use water on electrical fires."
+      },
+      {
+        "id": "c",
+        "text": "Ignoring",
+        "explanation": "Incorrect. Ignoring a fire is life-threatening."
+      },
+      {
+        "id": "d",
+        "text": "Increased ventilation",
+        "explanation": "Incorrect. Ventilation feeds oxygen to the fire."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Emergency Response"
+  },
+  {
+    "id": 298,
+    "question": "Slipping brake indicates:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Normal wear",
+        "explanation": "Incorrect. Slipping brakes are not normal."
+      },
+      {
+        "id": "b",
+        "text": "Critical safety defect",
+        "explanation": "Correct. A slipping brake compromises load control and is a critical defect requiring immediate attention. Operations must stop until repaired."
+      },
+      {
+        "id": "c",
+        "text": "Higher capacity",
+        "explanation": "Incorrect. Brake condition doesn't increase capacity."
+      },
+      {
+        "id": "d",
+        "text": "Reduced radius",
+        "explanation": "Incorrect. Brake slippage doesn't affect radius."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Emergency Response"
+  },
+  {
+    "id": 299,
+    "question": "Emergency descent devices are used when:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Normal climbing",
+        "explanation": "Incorrect. Normal access uses standard methods."
+      },
+      {
+        "id": "b",
+        "text": "Operator must evacuate at height",
+        "explanation": "Correct. Emergency descent devices provide rapid evacuation when normal access is blocked by fire, structural failure, or other emergencies."
+      },
+      {
+        "id": "c",
+        "text": "End of shift",
+        "explanation": "Incorrect. Normal descent at shift end."
+      },
+      {
+        "id": "d",
+        "text": "Calm conditions",
+        "explanation": "Incorrect. Calm conditions don't require emergency descent."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Emergency Response"
+  },
+  {
+    "id": 300,
+    "question": "Structural cracks require:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Monitoring only",
+        "explanation": "Incorrect. Cracks require immediate action."
+      },
+      {
+        "id": "b",
+        "text": "Immediate removal from service",
+        "explanation": "Correct. Structural cracks are critical defects. The crane must be removed from service immediately for engineering assessment and repair."
+      },
+      {
+        "id": "c",
+        "text": "Painting over",
+        "explanation": "Incorrect. Hiding cracks is dangerous."
+      },
+      {
+        "id": "d",
+        "text": "Continued operation at reduced capacity",
+        "explanation": "Incorrect. No operation is safe with structural cracks."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Emergency Response"
+  },
+  {
+    "id": 301,
+    "question": "Mast bolt elongation indicates:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Proper installation",
+        "explanation": "Incorrect. Elongation is a sign of problems."
+      },
+      {
+        "id": "b",
+        "text": "Overstress condition",
+        "explanation": "Correct. Bolt elongation indicates the bolts have been overstressed beyond their yield point. This requires immediate engineering assessment."
+      },
+      {
+        "id": "c",
+        "text": "Normal operation",
+        "explanation": "Incorrect. Elongation is not normal."
+      },
+      {
+        "id": "d",
+        "text": "Increased strength",
+        "explanation": "Incorrect. Elongation weakens bolts."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Emergency Response"
+  },
+  {
+    "id": 302,
+    "question": "Repeated overload alarms require:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Overriding the system",
+        "explanation": "Incorrect. Overriding safety systems is dangerous and illegal."
+      },
+      {
+        "id": "b",
+        "text": "System verification",
+        "explanation": "Correct. Repeated alarms may indicate actual overloading or LMI malfunction. Both require investigation—verify load weights, radius, and system calibration."
+      },
+      {
+        "id": "c",
+        "text": "Ignoring",
+        "explanation": "Incorrect. Safety alarms must never be ignored."
+      },
+      {
+        "id": "d",
+        "text": "Faster lifting",
+        "explanation": "Incorrect. Speed doesn't address alarm causes."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Emergency Response"
+  },
+  {
+    "id": 303,
+    "question": "Legal liability rests with operator when:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Following supervisor instructions",
+        "explanation": "Incorrect. Operators can refuse unsafe orders."
+      },
+      {
+        "id": "b",
+        "text": "Knowingly exceeding limits",
+        "explanation": "Correct. Operators bear legal responsibility for knowingly operating beyond rated limits, regardless of who gave the instruction. Right to refuse unsafe work is protected by law."
+      },
+      {
+        "id": "c",
+        "text": "Equipment malfunctions",
+        "explanation": "Incorrect. Malfunctions may not be operator's fault."
+      },
+      {
+        "id": "d",
+        "text": "Weather changes",
+        "explanation": "Incorrect. Sudden weather isn't operator negligence."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Emergency Response"
+  },
+  {
+    "id": 304,
+    "question": "Critical lift documentation must include:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Operator lunch schedule",
+        "explanation": "Incorrect. This is not relevant to lift safety."
+      },
+      {
+        "id": "b",
+        "text": "Weight, radius, wind, rigging, contingency planning",
+        "explanation": "Correct. Critical lift plans must document all factors: load weight, working radius, wind conditions, rigging configuration, and contingency procedures."
+      },
+      {
+        "id": "c",
+        "text": "Paint colors",
+        "explanation": "Incorrect. Cosmetic details aren't relevant."
+      },
+      {
+        "id": "d",
+        "text": "Radio frequency only",
+        "explanation": "Incorrect. Communication is just one element."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Emergency Response"
+  },
+  {
+    "id": 305,
+    "question": "Root cause analysis includes:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Blame assignment only",
+        "explanation": "Incorrect. Root cause analysis is about learning, not blame."
+      },
+      {
+        "id": "b",
+        "text": "Mechanical, human, and environmental factors",
+        "explanation": "Correct. Comprehensive root cause analysis examines all contributing factors: equipment condition, human actions/decisions, environmental conditions, and systemic issues."
+      },
+      {
+        "id": "c",
+        "text": "Paint inspection",
+        "explanation": "Incorrect. Paint is not a root cause factor."
+      },
+      {
+        "id": "d",
+        "text": "Speed testing",
+        "explanation": "Incorrect. Speed testing is not root cause analysis."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Emergency Response"
   }
 ]

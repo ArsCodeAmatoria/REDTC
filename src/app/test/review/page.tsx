@@ -39,6 +39,12 @@ const categories = [
   "Advanced Rigging & Load Control",
   "Environmental & Site Hazards",
   "Emergency & Abnormal Situations",
+  "Master - Advanced Load Calculations",
+  "Master - Structural Engineering",
+  "Master - Rigging",
+  "Master - Mechanical Systems",
+  "Master - Environmental Risk",
+  "Master - Emergency Response",
 ];
 
 export default function ReviewPage() {
