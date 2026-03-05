@@ -2084,6 +2084,188 @@
           "correctAnswer": "b"
         }
       ]
+    },
+    {
+      "id": "kroll-k630f",
+      "name": "Krøll K630F",
+      "manufacturer": "Krøll",
+      "model": "K630F",
+      "type": "flat-top",
+      "pdfFile": "krollk630f.pdf",
+      "description": "Danish flat-top tower crane with 24 tonne max capacity. Features stepless controls, 2-part and 4-part reeving options. FEM 1.001 and EN 14439 certified.",
+      "specifications": {
+        "maxCapacity": "24 t (4-part)",
+        "maxJibLength": "80 m",
+        "tipCapacity": "~4.5 t",
+        "maxTowerHeight": "Variable configurations"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": "What type of crane is the Krøll K630F?",
+          "options": [
+            { "id": "a", "text": "Luffing jib tower crane", "explanation": "Incorrect. The K630F uses a horizontal jib with trolley travel." },
+            { "id": "b", "text": "Flat-top tower crane", "explanation": "Correct. The K630F is a flat-top design with no cathead/peak above the jib. The trolley travels along the horizontal jib to change radius. Krøll is a Danish manufacturer known for heavy-duty flat-top cranes." },
+            { "id": "c", "text": "Self-erecting crane", "explanation": "Incorrect. This is a conventional tower crane requiring mobile crane assembly." },
+            { "id": "d", "text": "Mobile crane", "explanation": "Incorrect. This is a fixed tower crane." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 2,
+          "question": "What is the maximum lifting capacity of the K630F?",
+          "options": [
+            { "id": "a", "text": "12 tonnes", "explanation": "Incorrect. This is the maximum for 2-part reeving only." },
+            { "id": "b", "text": "24 tonnes", "explanation": "Correct. Maximum capacity is 24 tonnes using 4-part reeving. The crane can lift up to 12 tonnes with 2-part reeving for faster speeds on lighter loads." },
+            { "id": "c", "text": "6 tonnes", "explanation": "Incorrect. This is well below the crane's maximum." },
+            { "id": "d", "text": "48 tonnes", "explanation": "Incorrect. This exceeds the crane's rating." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 3,
+          "question": "The K630F offers 2-part and 4-part reeving. What is the relationship between them?",
+          "options": [
+            { "id": "a", "text": "4-part has double the capacity but half the speed of 2-part", "explanation": "Correct. 4-part reeving doubles the mechanical advantage (24t vs 12t max), but the hoist speed is halved. Example: at light loads, 2-part reaches 136 m/min while 4-part reaches 68 m/min. Choose based on load weight and required cycle time." },
+            { "id": "b", "text": "Both have the same capacity and speed", "explanation": "Incorrect. The reeving configurations have different capacity and speed characteristics." },
+            { "id": "c", "text": "2-part has higher capacity", "explanation": "Incorrect. More parts of line = more capacity." },
+            { "id": "d", "text": "4-part is faster", "explanation": "Incorrect. More parts of line = slower speed." }
+          ],
+          "correctAnswer": "a"
+        },
+        {
+          "id": 4,
+          "question": "What is the maximum hoist speed with 2-part reeving when lifting loads under 1.2 tonnes?",
+          "options": [
+            { "id": "a", "text": "34 m/min", "explanation": "Incorrect. This is the speed at higher loads (5.0-12.0t)." },
+            { "id": "b", "text": "136 m/min", "explanation": "Correct. With 2-part reeving and loads 0-1.2 tonnes, maximum hoist speed is 136 m/min. This is the fastest hoisting speed available on this crane, used for light loads or empty hook travel." },
+            { "id": "c", "text": "68 m/min", "explanation": "Incorrect. This is the light-load speed for 4-part reeving." },
+            { "id": "d", "text": "17 m/min", "explanation": "Incorrect. This is the slowest 4-part speed at maximum load." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 5,
+          "question": "What is the hoist speed when lifting 20 tonnes using 4-part reeving?",
+          "options": [
+            { "id": "a", "text": "68 m/min", "explanation": "Incorrect. This speed is for loads under 2.4 tonnes." },
+            { "id": "b", "text": "37 m/min", "explanation": "Incorrect. This speed is for loads 2.4-10.0 tonnes." },
+            { "id": "c", "text": "17 m/min", "explanation": "Correct. For loads 10.0-24.0 tonnes using 4-part reeving, hoist speed is 17 m/min. Heavy loads require slower speeds to maintain control and stay within motor power limits." },
+            { "id": "d", "text": "136 m/min", "explanation": "Incorrect. This is the maximum 2-part speed for very light loads." }
+          ],
+          "correctAnswer": "c"
+        },
+        {
+          "id": 6,
+          "question": "What is the hoist motor power on the K630F?",
+          "options": [
+            { "id": "a", "text": "16 kW", "explanation": "Incorrect. This is the trolley motor power." },
+            { "id": "b", "text": "30 kW", "explanation": "Incorrect. This is the combined slew motor power." },
+            { "id": "c", "text": "85 kW", "explanation": "Correct. The hoist winch motor is 85 kW - the largest motor on the crane. This powers the main lifting function with the 550m drum capacity." },
+            { "id": "d", "text": "28 kW", "explanation": "Incorrect. This is the travel motor total." }
+          ],
+          "correctAnswer": "c"
+        },
+        {
+          "id": 7,
+          "question": "How much hoist rope can the drum hold?",
+          "options": [
+            { "id": "a", "text": "75 m on 1 layer", "explanation": "Incorrect. This is the trolley drum capacity." },
+            { "id": "b", "text": "550 m on 6 layers", "explanation": "Correct. The hoist drum holds 550 meters of rope across 6 layers. This allows for very tall tower configurations. The 20mm diameter wire has a 330 kN minimum breaking load with safety factor 5." },
+            { "id": "c", "text": "250 m on 3 layers", "explanation": "Incorrect. The actual capacity is much larger." },
+            { "id": "d", "text": "100 m on 1 layer", "explanation": "Incorrect. Tower cranes need much more rope capacity." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 8,
+          "question": "What is the slewing configuration on the K630F?",
+          "options": [
+            { "id": "a", "text": "Single 30 kW motor", "explanation": "Incorrect. The slew uses multiple smaller motors." },
+            { "id": "b", "text": "3 × 10 kW motors, 0-0.6 rpm speed", "explanation": "Correct. The slew drive uses three 10 kW motors (30 kW total) providing variable speed from 0 to 0.6 rpm. This multi-motor arrangement provides redundancy and smooth control." },
+            { "id": "c", "text": "4 × 7 kW motors", "explanation": "Incorrect. This is the travel (undercarriage) motor configuration." },
+            { "id": "d", "text": "Single 85 kW motor", "explanation": "Incorrect. 85 kW is the hoist motor." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 9,
+          "question": "What is the trolley travel speed on the K630F?",
+          "options": [
+            { "id": "a", "text": "25 m/min", "explanation": "Incorrect. This is the rail travel speed." },
+            { "id": "b", "text": "70 m/min maximum", "explanation": "Correct. Trolley speed is 0-70 m/min regardless of load (0-24t). The 16 kW trolley motor provides this speed with stepless variable control for precise positioning." },
+            { "id": "c", "text": "136 m/min", "explanation": "Incorrect. This is the maximum hoist speed." },
+            { "id": "d", "text": "0.6 rpm", "explanation": "Incorrect. This is the slew speed (rotation), not linear trolley speed." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 10,
+          "question": "What power supply does the K630F require?",
+          "options": [
+            { "id": "a", "text": "220V single phase", "explanation": "Incorrect. Tower cranes require three-phase power." },
+            { "id": "b", "text": "400-480V, 50/60 Hz, 150 kVA consumption", "explanation": "Correct. The crane accepts both European (400V/50Hz) and American (480V/60Hz) power standards. It consumes 150 kVA with a 160A main fuse. A 350 kVA generator is recommended for site power." },
+            { "id": "c", "text": "12V DC battery", "explanation": "Incorrect. Tower cranes use AC mains power." },
+            { "id": "d", "text": "85 kW only", "explanation": "Incorrect. 85 kW is the hoist motor, not total supply." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 11,
+          "question": "What generator size does Krøll recommend for the K630F?",
+          "options": [
+            { "id": "a", "text": "150 kVA (same as consumption)", "explanation": "Incorrect. Generators need headroom above consumption." },
+            { "id": "b", "text": "350 kVA", "explanation": "Correct. Krøll recommends a 350 kVA generator - more than double the 150 kVA average consumption. This accounts for motor starting currents, simultaneous operations, and power factor. Never size a generator exactly to consumption." },
+            { "id": "c", "text": "85 kVA", "explanation": "Incorrect. This is the hoist motor power only." },
+            { "id": "d", "text": "50 kVA", "explanation": "Incorrect. This is far too small." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 12,
+          "question": "What supply cable is required for a 200m cable run to the crane?",
+          "options": [
+            { "id": "a", "text": "4 × 70 mm²", "explanation": "Incorrect. This is only suitable up to 175m." },
+            { "id": "b", "text": "4 × 95 mm²", "explanation": "Correct. For cable lengths 175-250m, use 4 × 95 mm². For 0-175m, 4 × 70 mm² is sufficient. Longer runs need larger cables to compensate for voltage drop." },
+            { "id": "c", "text": "4 × 50 mm²", "explanation": "Incorrect. This is undersized for 200m." },
+            { "id": "d", "text": "2 × 70 mm²", "explanation": "Incorrect. Three-phase power requires 4 conductors." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 13,
+          "question": "What standards is the K630F certified to?",
+          "options": [
+            { "id": "a", "text": "ANSI B30.3 only", "explanation": "Incorrect. This is an American standard; Krøll is European." },
+            { "id": "b", "text": "FEM 1.001-HC1/A3/E3 and EN 14439:2009-C25", "explanation": "Correct. The crane meets FEM 1.001 (European crane federation standard, HC1 duty class, A3/E3 classifications) and EN 14439:2009 with C25 wind rating. These are the key European tower crane standards." },
+            { "id": "c", "text": "No certification", "explanation": "Incorrect. European cranes must be certified." },
+            { "id": "d", "text": "ISO 9001 only", "explanation": "Incorrect. ISO 9001 is quality management, not crane design." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 14,
+          "question": "What special control feature does the K630F offer?",
+          "options": [
+            { "id": "a", "text": "On/off controls only", "explanation": "Incorrect. The crane has more sophisticated controls." },
+            { "id": "b", "text": "Completely stepless controls with creeping speed down to 0.5% of maximum", "explanation": "Correct. All motions (hoist, trolley, slew, travel) are stepless - meaning infinitely variable, not stepped speeds. Creeping speed can go as low as 0.5% of maximum for precise positioning. This ensures smooth, jerk-free operation." },
+            { "id": "c", "text": "Three fixed speed settings", "explanation": "Incorrect. The crane uses stepless (variable) control." },
+            { "id": "d", "text": "Manual controls only", "explanation": "Incorrect. The crane has sophisticated electronic controls." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 15,
+          "question": "COMPLEX: You need to lift 8 tonnes. Which reeving should you use and what will be the approximate hoist speed?",
+          "options": [
+            { "id": "a", "text": "2-part at 74 m/min", "explanation": "Incorrect. 2-part maximum capacity is 12t, but 8t falls in the 5.0-12.0t range at only 34 m/min." },
+            { "id": "b", "text": "2-part at 34 m/min - within 12t limit, fastest option for this load", "explanation": "Correct. 8 tonnes is within 2-part capacity (12t max). At 5.0-12.0t range, speed is 34 m/min. With 4-part, 8t would be in the 2.4-10.0t range at 37 m/min - slightly faster but unnecessary complexity. 2-part is the practical choice." },
+            { "id": "c", "text": "Must use 4-part at 17 m/min", "explanation": "Incorrect. 8 tonnes doesn't require 4-part reeving." },
+            { "id": "d", "text": "Cannot lift 8 tonnes", "explanation": "Incorrect. Both reeving options can handle 8 tonnes." }
+          ],
+          "correctAnswer": "b"
+        }
+      ]
     }
   ]
 }
