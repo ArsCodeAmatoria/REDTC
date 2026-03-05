@@ -805,6 +805,187 @@
           "correctAnswer": "c"
         }
       ]
+    },
+    {
+      "id": "liebherr-nc-lh-12-55",
+      "name": "Liebherr NC-LH 12-55",
+      "manufacturer": "Liebherr",
+      "model": "NC-LH 12-55",
+      "pdfFile": "liebherrnclh.pdf",
+      "description": "Luffing jib tower crane with 55m max jib. 12 tonne max capacity (4-fall). Features Level Luffing, Load-Plus, and Micromove.",
+      "specifications": {
+        "maxCapacity": "12 t (4-fall) / 6 t (2-fall)",
+        "maxJibLength": "55 m",
+        "tipCapacity": "1.55t (55m, 4-fall)",
+        "maxHoistHeight": "100 m (standard)"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": "What type of crane is the Liebherr NC-LH 12-55?",
+          "options": [
+            { "id": "a", "text": "Flat-top tower crane", "explanation": "Incorrect. Flat-top cranes have horizontal jibs without a tower head." },
+            { "id": "b", "text": "Luffing jib tower crane", "explanation": "Correct. The NC-LH is a luffing jib crane - the 'LH' stands for Luffing High. The jib angle can be changed to vary the radius while minimizing swing footprint." },
+            { "id": "c", "text": "Hammerhead tower crane", "explanation": "Incorrect. Hammerhead cranes have a fixed horizontal jib with trolley travel." },
+            { "id": "d", "text": "Self-erecting tower crane", "explanation": "Incorrect. Self-erecting cranes are smaller, mobile units." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 2,
+          "question": "Using the 4-fall (12t) configuration with 45m jib, what is the maximum capacity at minimum radius (3.0m)?",
+          "options": [
+            { "id": "a", "text": "6 tonnes", "explanation": "Incorrect. This is the 2-fall capacity." },
+            { "id": "b", "text": "8 tonnes", "explanation": "Incorrect. This is the 4-fall capacity with 55m jib at minimum radius." },
+            { "id": "c", "text": "12 tonnes", "explanation": "Correct. With the 45m jib in 4-fall mode, the crane achieves its full 12 tonne rating at minimum radius." },
+            { "id": "d", "text": "10 tonnes", "explanation": "Incorrect. This is the 4-fall capacity with 50m jib at minimum radius." }
+          ],
+          "correctAnswer": "c"
+        },
+        {
+          "id": 3,
+          "question": "TRAP: Looking at the 4-fall chart, the 55m jib shows 8t max capacity while the 45m jib shows 12t. Why can't the 55m jib achieve the full 12t rating?",
+          "options": [
+            { "id": "a", "text": "The motor is weaker for longer jibs", "explanation": "Incorrect. The same hoist motor is used regardless of jib length." },
+            { "id": "b", "text": "The longer jib creates more overturning moment at the same load, so capacity must be reduced", "explanation": "Correct. Even at minimum radius (3.0m), the 55m jib's additional weight and moment arm reduce the maximum safe load. The crane's structural limits dictate lower starting capacity for longer jibs." },
+            { "id": "c", "text": "Longer jibs have slower hoisting speeds", "explanation": "Incorrect. Speed doesn't affect capacity ratings." },
+            { "id": "d", "text": "It's a printing error in the chart", "explanation": "Incorrect. This is intentional engineering design." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 4,
+          "question": "The chart states 'Lifting capacities valid up to 100 m hoisting height.' What happens above 100m?",
+          "options": [
+            { "id": "a", "text": "The crane cannot operate above 100m", "explanation": "Incorrect. The crane can work at greater heights with the SNLK+ feature." },
+            { "id": "b", "text": "Capacity is reduced by the additional rope weight", "explanation": "Correct. Above 100m hoist height, the weight of the extra rope hanging down must be deducted from capacity. More rope = less available payload." },
+            { "id": "c", "text": "Wind limits become more restrictive", "explanation": "Incorrect. While wind affects operations, the 100m limit specifically relates to rope weight." },
+            { "id": "d", "text": "The crane must switch to 2-fall mode", "explanation": "Incorrect. Reeving configuration is independent of hoist height." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 5,
+          "question": "What is the 'Level Luffing' feature mentioned in the NC-LH specifications?",
+          "options": [
+            { "id": "a", "text": "Keeping the crane level on uneven ground", "explanation": "Incorrect. This describes foundation/base leveling, not level luffing." },
+            { "id": "b", "text": "Automatic retention of hook height when changing radius", "explanation": "Correct. Level luffing automatically adjusts hoist rope as the jib angle changes, keeping the hook at the same elevation. This allows horizontal load movement without vertical drift - critical for precise positioning." },
+            { "id": "c", "text": "Locking the jib at horizontal position", "explanation": "Incorrect. Luffing jibs are designed to operate at various angles." },
+            { "id": "d", "text": "Maintaining constant slewing speed", "explanation": "Incorrect. This has nothing to do with level luffing." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 6,
+          "question": "Using LM 1 mode (2-fall) with 55m jib, what is the capacity at 25m radius?",
+          "options": [
+            { "id": "a", "text": "3.97 tonnes", "explanation": "Correct. In LM 1 (2-fall) mode with 55m jib at 25m radius, capacity is 3.97 tonnes." },
+            { "id": "b", "text": "4.88 tonnes", "explanation": "Incorrect. This is the 4-fall capacity at 25m." },
+            { "id": "c", "text": "6.00 tonnes", "explanation": "Incorrect. 6t is only available at minimum radius in 2-fall mode." },
+            { "id": "d", "text": "5.40 tonnes", "explanation": "Incorrect. This is a Load-Plus capacity, not standard LM 1." }
+          ],
+          "correctAnswer": "a"
+        },
+        {
+          "id": 7,
+          "question": "What is the purpose of 'Load-Plus' mode on the NC-LH?",
+          "options": [
+            { "id": "a", "text": "Permanently increases all capacity ratings", "explanation": "Incorrect. Load-Plus is for temporary, individual lifts only." },
+            { "id": "b", "text": "Temporary lifting capacity increase for individual lifts under controlled conditions", "explanation": "Correct. Load-Plus allows exceeding standard LM 1 ratings for specific lifts, with additional safety measures. Compare the Load-Plus chart to LM 1 - values are higher at each radius." },
+            { "id": "c", "text": "Doubles the hoist line capacity", "explanation": "Incorrect. Reeving configuration is separate from Load-Plus." },
+            { "id": "d", "text": "Reduces wind speed limits", "explanation": "Incorrect. Load-Plus doesn't change wind ratings." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 8,
+          "question": "What is 'Micromove' used for on this crane?",
+          "options": [
+            { "id": "a", "text": "Moving the crane on rails at slow speed", "explanation": "Incorrect. Micromove is an operational feature, not for crane travel." },
+            { "id": "b", "text": "Fine positioning mode for precise load placement", "explanation": "Correct. Micromove allows ultra-slow, precise movements for delicate positioning - essential when setting steel, glass panels, or other items requiring exact placement." },
+            { "id": "c", "text": "Automatic collision avoidance", "explanation": "Incorrect. That's the ACS (Anti-Collision System) feature." },
+            { "id": "d", "text": "Remote control operation", "explanation": "Incorrect. Remote control is a separate feature from Micromove." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 9,
+          "question": "COMPLEX: Using 4-fall configuration with 40m jib, a load of 8 tonnes needs to be placed at 20m radius. Is this within capacity?",
+          "options": [
+            { "id": "a", "text": "Yes, capacity at 20m is 9.72 tonnes", "explanation": "Correct. With 40m jib in 4-fall mode, capacity at 20m radius is 9.72t. The 8t load is safely within limits (82% capacity utilization)." },
+            { "id": "b", "text": "No, must use Load-Plus mode", "explanation": "Incorrect. Standard capacity is sufficient for this lift." },
+            { "id": "c", "text": "No, maximum capacity is 6 tonnes", "explanation": "Incorrect. You're reading the 2-fall chart, not 4-fall." },
+            { "id": "d", "text": "Yes, but only with the 30m jib", "explanation": "Incorrect. The 40m jib has adequate capacity at this radius." }
+          ],
+          "correctAnswer": "a"
+        },
+        {
+          "id": 10,
+          "question": "Looking at the out-of-service positions, why does the 55m jib have a reduced out-of-service radius option (10.0m instead of 14.6m)?",
+          "options": [
+            { "id": "a", "text": "To reduce wind loads when parked", "explanation": "Incorrect. While wind is a factor, this isn't the primary reason for the option." },
+            { "id": "b", "text": "To reduce the swing footprint in confined sites - achieved by raising jib to steeper angle (78.9° vs 74.0°)", "explanation": "Correct. The 'reduced' option raises the jib to 78.9° instead of 74.0°, bringing the jib tip closer to the tower and reducing the out-of-service swing radius from 14.6m to 10.0m. Essential for tight urban sites." },
+            { "id": "c", "text": "To save fuel during non-operation", "explanation": "Incorrect. Out-of-service position doesn't affect fuel consumption." },
+            { "id": "d", "text": "Required by safety regulations", "explanation": "Incorrect. It's an optional configuration, not a requirement." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 11,
+          "question": "Why is a luffing jib crane like the NC-LH often preferred over a flat-top crane on urban construction sites?",
+          "options": [
+            { "id": "a", "text": "Higher maximum capacity ratings", "explanation": "Incorrect. Capacity depends on the specific crane model, not the type." },
+            { "id": "b", "text": "Smaller slewing radius - the jib can be raised to avoid oversailing neighboring properties", "explanation": "Correct. By raising the luffing jib to reduce radius, the crane avoids swinging over adjacent buildings or airspace. This is critical in dense urban areas where property boundaries and flight paths must be respected." },
+            { "id": "c", "text": "Faster hoisting speeds", "explanation": "Incorrect. Speed depends on hoist motor, not crane type." },
+            { "id": "d", "text": "Lower cost to rent", "explanation": "Incorrect. Luffing jibs are typically more expensive than flat-tops." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 12,
+          "question": "The hoist specifications show the 45kW hoist can lift 6t at 0-39 m/min or 1.05t at 0-103 m/min. What determines the speed?",
+          "options": [
+            { "id": "a", "text": "Operator preference only", "explanation": "Incorrect. Physics constrains the relationship between load and speed." },
+            { "id": "b", "text": "The load weight - heavier loads mean slower hoisting due to motor power limits", "explanation": "Correct. With constant motor power (Power = Force × Speed), heavier loads require more force, leaving less power available for speed. Light loads can be hoisted much faster than heavy loads." },
+            { "id": "c", "text": "The jib length selected", "explanation": "Incorrect. Jib length affects capacity, not hoist speed." },
+            { "id": "d", "text": "Weather conditions", "explanation": "Incorrect. Weather doesn't directly determine hoist speeds." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 13,
+          "question": "HARD: A contractor needs to lift 10 tonnes. Looking at the 4-fall chart, which jib length(s) can achieve this at minimum radius?",
+          "options": [
+            { "id": "a", "text": "Only the 30m jib (shows 12t at 3m)", "explanation": "Incorrect. While 30m works, it's not the only option." },
+            { "id": "b", "text": "30m, 35m, 40m, and 45m jibs (all show 12t at 3m radius)", "explanation": "Correct. All four shorter jibs achieve 12t at minimum radius. Only the 50m jib (10t) and 55m jib (8t) fall below the 10t requirement." },
+            { "id": "c", "text": "Any jib length can lift 10t at minimum radius", "explanation": "Incorrect. The 55m jib only achieves 8t at minimum radius." },
+            { "id": "d", "text": "Only the 50m jib (exactly 10t)", "explanation": "Incorrect. While 50m achieves exactly 10t, shorter jibs exceed 10t." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 14,
+          "question": "The counterweight table shows 5 blocks (28.0t total) for the 55m, 50m, 45m, 40m, and 35m jibs, but only 4 blocks (22.4t) for the 30m jib. Why?",
+          "options": [
+            { "id": "a", "text": "Shorter jibs have lighter loads", "explanation": "Incorrect. Maximum capacity is the same (12t) for 30m-45m jibs." },
+            { "id": "b", "text": "The shorter jib creates less overturning moment, requiring less counterweight to balance", "explanation": "Correct. Counterweight must balance the jib's moment. A 30m jib at maximum load creates less moment than a 55m jib, so less counterweight is needed. Over-counterweighting would be wasteful and potentially unsafe." },
+            { "id": "c", "text": "Cost savings on concrete", "explanation": "Incorrect. Safety engineering, not cost, determines counterweight requirements." },
+            { "id": "d", "text": "The 30m configuration uses a different tower", "explanation": "Incorrect. Tower selection is independent of counterweight requirements." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 15,
+          "question": "CRITICAL: An operator using 2-fall (LM 1) mode with 50m jib sees capacity of 6.00t at 17.5m radius. They then switch to 4-fall mode. What is the new capacity at the same radius?",
+          "options": [
+            { "id": "a", "text": "6.00 tonnes (same as 2-fall)", "explanation": "Incorrect. 4-fall mode provides higher capacity." },
+            { "id": "b", "text": "12.00 tonnes (doubled)", "explanation": "Incorrect. While 4-fall doubles the line pull, capacity doesn't simply double at all radii." },
+            { "id": "c", "text": "9.95 tonnes", "explanation": "Incorrect. 9.95t is the capacity at 15m radius, not 17.5m." },
+            { "id": "d", "text": "8.71 tonnes", "explanation": "Correct. In 4-fall mode with 50m jib at 17.5m radius, capacity is 8.71t. The increase isn't a simple doubling because the crane's structural moment limits also apply." }
+          ],
+          "correctAnswer": "d"
+        }
+      ]
     }
   ]
 }

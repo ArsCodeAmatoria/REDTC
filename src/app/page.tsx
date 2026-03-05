@@ -10,7 +10,7 @@ import questionsData from "@/data/questions.json";
 
 const categories = [
   { name: "Load Charts & Parts of Line", count: 140, color: "bg-accent" },
-  { name: "PDF Load Chart Practice", count: 66, color: "bg-accent", isCharts: true },
+  { name: "PDF Load Chart Practice", count: 81, color: "bg-accent", isCharts: true },
   { name: "Advanced Operations & Traps", count: 95, color: "bg-foreground" },
   { name: "Master Level Questions", count: 100, color: "bg-foreground" },
   { name: "Rigging & Sling Angles", count: 85, color: "bg-foreground" },
@@ -542,7 +542,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="space-y-4">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div className="bg-background border border-border p-5">
                   <div className="flex items-center gap-3 mb-3">
                     <div className="w-10 h-10 bg-accent flex items-center justify-center">
@@ -581,6 +581,18 @@ export default function HomePage() {
                 </div>
                 <div className="bg-background border border-border p-5">
                   <div className="flex items-center gap-3 mb-3">
+                    <div className="w-10 h-10 bg-foreground/10 flex items-center justify-center">
+                      <FileText className="w-5 h-5 text-foreground" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold">Liebherr NC-LH 12-55</h3>
+                      <p className="text-sm text-muted-foreground">Luffing jib crane</p>
+                    </div>
+                  </div>
+                  <p className="text-sm text-muted-foreground">55m jib, 12t. Micromove.</p>
+                </div>
+                <div className="bg-background border border-border p-5">
+                  <div className="flex items-center gap-3 mb-3">
                     <div className="w-10 h-10 bg-accent flex items-center justify-center">
                       <FileText className="w-5 h-5 text-accent-foreground" />
                     </div>
@@ -593,8 +605,8 @@ export default function HomePage() {
                 </div>
                 <div className="bg-background border border-border p-5">
                   <div className="flex items-center gap-3 mb-3">
-                    <div className="w-10 h-10 bg-foreground/10 flex items-center justify-center">
-                      <FileText className="w-5 h-5 text-foreground" />
+                    <div className="w-10 h-10 bg-accent flex items-center justify-center">
+                      <FileText className="w-5 h-5 text-accent-foreground" />
                     </div>
                     <div>
                       <h3 className="font-semibold">Potain MD 1600</h3>
@@ -622,6 +634,10 @@ export default function HomePage() {
                   <li className="flex items-center gap-2">
                     <div className="w-1.5 h-1.5 bg-accent" />
                     Reeving configurations (2-fall vs 4-fall)
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <div className="w-1.5 h-1.5 bg-accent" />
+                    Level luffing and fine positioning
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="w-1.5 h-1.5 bg-accent" />
@@ -668,7 +684,7 @@ export default function HomePage() {
                     </div>
                     <h3 className="font-medium mt-3 group-hover:text-accent transition-colors">{category.name}</h3>
                     <p className="text-sm text-muted-foreground mt-1">
-                      {(category as { isCharts?: boolean }).isCharts ? "5 crane charts" : `${category.count}+ questions`}
+                      {(category as { isCharts?: boolean }).isCharts ? "6 crane charts" : `${category.count}+ questions`}
                     </p>
                   </div>
                 </Link>
