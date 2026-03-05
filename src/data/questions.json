@@ -14530,5 +14530,655 @@
     ],
     "correctAnswer": "c",
     "category": "Gear vs Radius Capacity"
+  },
+  {
+    "id": 520,
+    "question": "A crane chart shows 12,000 kg capacity at 14 m radius. Hoist system maximum = 10,000 kg. What is the maximum safe lift?",
+    "options": [
+      {
+        "id": "a",
+        "text": "12,000 kg",
+        "explanation": "Incorrect. The hoist system cannot lift this much."
+      },
+      {
+        "id": "b",
+        "text": "11,000 kg",
+        "explanation": "Incorrect. This exceeds hoist capacity."
+      },
+      {
+        "id": "c",
+        "text": "10,000 kg",
+        "explanation": "Correct. Even though the crane structure allows 12,000 kg, the hoist system limits the lift to 10,000 kg."
+      },
+      {
+        "id": "d",
+        "text": "9,000 kg",
+        "explanation": "Incorrect. The hoist can lift up to 10,000 kg."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 521,
+    "question": "Load weight = 7,800 kg, Rigging = 400 kg, Hook block = 600 kg. Crane capacity at radius = 9,500 kg. Is the lift safe?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes",
+        "explanation": "Correct. Total load: 7,800 + 400 + 600 = 8,800 kg. Since crane capacity is 9,500 kg and 8,800 < 9,500, the lift is safe."
+      },
+      {
+        "id": "b",
+        "text": "No",
+        "explanation": "Incorrect. Total load is 8,800 kg which is under the 9,500 kg capacity."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 522,
+    "question": "A hoist line pull is rated 3,500 kg per line. The crane is rigged with 3 parts of line. Maximum hoist lifting capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "7,000 kg",
+        "explanation": "Incorrect. This would be for 2 parts of line."
+      },
+      {
+        "id": "b",
+        "text": "9,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "10,500 kg",
+        "explanation": "Correct. Line pull × parts of line = 3,500 × 3 = 10,500 kg."
+      },
+      {
+        "id": "d",
+        "text": "12,000 kg",
+        "explanation": "Incorrect. This would require more parts of line or higher line pull."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 523,
+    "question": "A crane chart allows 9,000 kg at 20 m radius. However the hook block is rated 8,000 kg. What limits the lift?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Radius",
+        "explanation": "Incorrect. The crane structure allows more than the hook block."
+      },
+      {
+        "id": "b",
+        "text": "Hoist gear",
+        "explanation": "Incorrect. The hook block is the limiting factor here."
+      },
+      {
+        "id": "c",
+        "text": "Hook block capacity",
+        "explanation": "Correct. The hook block rating cannot be exceeded, even if crane capacity allows more."
+      },
+      {
+        "id": "d",
+        "text": "Parts of line",
+        "explanation": "Incorrect. Parts of line is not the limiting factor described."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 524,
+    "question": "Load = 6,500 kg, Hook block = 700 kg, Rigging = 300 kg, Crane capacity = 8,000 kg. Is lift safe?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes",
+        "explanation": "Correct. Total load: 6,500 + 700 + 300 = 7,500 kg. Since 7,500 < 8,000, the lift is safe."
+      },
+      {
+        "id": "b",
+        "text": "No",
+        "explanation": "Incorrect. Total load is 7,500 kg which is under the 8,000 kg capacity."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 525,
+    "question": "A crane is rated 15,000 kg at 10 m radius. Hoist capacity = 11,000 kg. What limits the lift?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hoist system capacity",
+        "explanation": "Correct. At short radius the crane structure can lift more than the hoist system. The hoist system becomes the limiting factor."
+      },
+      {
+        "id": "b",
+        "text": "Radius",
+        "explanation": "Incorrect. At short radius, structural capacity is very high."
+      },
+      {
+        "id": "c",
+        "text": "Rigging",
+        "explanation": "Incorrect. Rigging is not mentioned as a limiting factor here."
+      },
+      {
+        "id": "d",
+        "text": "Counterweight",
+        "explanation": "Incorrect. Counterweight is not the limiting factor in this scenario."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 526,
+    "question": "A crane has 4 parts of line with 3,000 kg line pull each. Maximum hoist capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "9,000 kg",
+        "explanation": "Incorrect. This would be for 3 parts of line."
+      },
+      {
+        "id": "b",
+        "text": "10,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "12,000 kg",
+        "explanation": "Correct. 3,000 × 4 = 12,000 kg."
+      },
+      {
+        "id": "d",
+        "text": "14,000 kg",
+        "explanation": "Incorrect. This would require higher line pull or more parts."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 527,
+    "question": "Load chart allows 6,500 kg at 28 m. Total suspended load = 6,200 kg. Wind begins to increase. What is safest action?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue lift",
+        "explanation": "Incorrect. Wind creates additional risk factors."
+      },
+      {
+        "id": "b",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. This would create more dynamic forces."
+      },
+      {
+        "id": "c",
+        "text": "Reassess lift due to dynamic loading",
+        "explanation": "Correct. Wind can create dynamic forces that increase effective load. With only 300 kg margin, the operator should reassess."
+      },
+      {
+        "id": "d",
+        "text": "Move trolley outward",
+        "explanation": "Incorrect. This would reduce capacity further."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 528,
+    "question": "A crane rated 8,000 kg at 24 m. Load = 7,600 kg, Hook block + rigging = 600 kg. Is lift safe?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes",
+        "explanation": "Incorrect. Total load exceeds capacity."
+      },
+      {
+        "id": "b",
+        "text": "No",
+        "explanation": "Correct. Total load: 7,600 + 600 = 8,200 kg. This exceeds the 8,000 kg crane capacity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 529,
+    "question": "Which situation most often causes hoist capacity to limit the lift?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Long radius",
+        "explanation": "Incorrect. At long radius, structural limits typically govern."
+      },
+      {
+        "id": "b",
+        "text": "Short radius heavy loads",
+        "explanation": "Correct. At short radius the crane structure has very high capacity, but hoist gear may not handle the load."
+      },
+      {
+        "id": "c",
+        "text": "High wind",
+        "explanation": "Incorrect. Wind affects dynamic loading but not hoist capacity directly."
+      },
+      {
+        "id": "d",
+        "text": "Large jib length",
+        "explanation": "Incorrect. Jib length affects radius limits, not hoist capacity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 530,
+    "question": "A crane uses 2 parts of line, each rated 4,000 kg. Maximum hoist load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "8,000 kg",
+        "explanation": "Correct. 4,000 × 2 = 8,000 kg."
+      },
+      {
+        "id": "c",
+        "text": "9,000 kg",
+        "explanation": "Incorrect. This exceeds the calculated capacity."
+      },
+      {
+        "id": "d",
+        "text": "10,000 kg",
+        "explanation": "Incorrect. This exceeds the calculated capacity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 531,
+    "question": "Crane chart capacity = 10,500 kg. Rigging capacity = 9,000 kg. What limits the lift?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Radius",
+        "explanation": "Incorrect. The crane structure allows more."
+      },
+      {
+        "id": "b",
+        "text": "Hoist system",
+        "explanation": "Incorrect. Rigging is the lower-rated component."
+      },
+      {
+        "id": "c",
+        "text": "Rigging capacity",
+        "explanation": "Correct. Rigging capacity of 9,000 kg is lower than chart capacity, so it governs the lift."
+      },
+      {
+        "id": "d",
+        "text": "Hook block",
+        "explanation": "Incorrect. Rigging capacity is the stated limit."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 532,
+    "question": "Load chart capacity = 7,200 kg. Total load = 7,200 kg. Wind increases slightly. What should operator consider?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lift remains safe",
+        "explanation": "Incorrect. There is no safety margin."
+      },
+      {
+        "id": "b",
+        "text": "Dynamic loading may exceed chart",
+        "explanation": "Correct. At exactly chart capacity with zero margin, any dynamic forces from wind will exceed safe limits."
+      },
+      {
+        "id": "c",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. This would add more dynamic forces."
+      },
+      {
+        "id": "d",
+        "text": "Swing crane faster",
+        "explanation": "Incorrect. This would increase dynamic loading."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 533,
+    "question": "Increasing parts of line results in:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Faster hoisting",
+        "explanation": "Incorrect. More parts of line reduces hoist speed."
+      },
+      {
+        "id": "b",
+        "text": "Greater lifting capacity",
+        "explanation": "Correct. Adding parts of line increases mechanical advantage, allowing heavier loads to be lifted."
+      },
+      {
+        "id": "c",
+        "text": "Increased swing speed",
+        "explanation": "Incorrect. Parts of line don't affect swing."
+      },
+      {
+        "id": "d",
+        "text": "Larger crane radius",
+        "explanation": "Incorrect. Parts of line don't affect radius."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 534,
+    "question": "A load requires 11,000 kg lift. Hoist system rated 3,500 kg per line. Minimum parts of line needed?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2",
+        "explanation": "Incorrect. 3,500 × 2 = 7,000 kg (insufficient)."
+      },
+      {
+        "id": "b",
+        "text": "3",
+        "explanation": "Incorrect. 3,500 × 3 = 10,500 kg (insufficient)."
+      },
+      {
+        "id": "c",
+        "text": "4",
+        "explanation": "Correct. 3,500 × 4 = 14,000 kg. This provides adequate capacity for the 11,000 kg load."
+      },
+      {
+        "id": "d",
+        "text": "5",
+        "explanation": "Incorrect. 4 parts is sufficient."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 535,
+    "question": "Which factor does NOT directly affect crane load chart capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Radius",
+        "explanation": "Incorrect. Radius directly affects load chart capacity."
+      },
+      {
+        "id": "b",
+        "text": "Boom length",
+        "explanation": "Incorrect. Boom length affects maximum radius and capacity."
+      },
+      {
+        "id": "c",
+        "text": "Gearbox ratio",
+        "explanation": "Correct. Gearbox ratio affects hoist system capacity, not the structural load chart capacity."
+      },
+      {
+        "id": "d",
+        "text": "Counterweight",
+        "explanation": "Incorrect. Counterweight affects crane stability and capacity."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 536,
+    "question": "Which component protects the hoist system from overload?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Limit switch",
+        "explanation": "Incorrect. Limit switches primarily prevent over-travel."
+      },
+      {
+        "id": "b",
+        "text": "Load moment indicator",
+        "explanation": "Correct. The load moment indicator (LMI) monitors load and radius to prevent overloading the crane and hoist system."
+      },
+      {
+        "id": "c",
+        "text": "Trolley brake",
+        "explanation": "Incorrect. Trolley brakes stop trolley movement."
+      },
+      {
+        "id": "d",
+        "text": "Swing brake",
+        "explanation": "Incorrect. Swing brakes stop slewing movement."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 537,
+    "question": "A crane rated 6,800 kg at 30 m. Load = 6,400 kg, Rigging + block = 500 kg. Is lift safe?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes",
+        "explanation": "Incorrect. Total load exceeds capacity."
+      },
+      {
+        "id": "b",
+        "text": "No",
+        "explanation": "Correct. Total load: 6,400 + 500 = 6,900 kg. This exceeds the 6,800 kg crane capacity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 538,
+    "question": "Which system physically lifts the load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Slew gear",
+        "explanation": "Incorrect. Slew gear rotates the crane."
+      },
+      {
+        "id": "b",
+        "text": "Hoist drum and gear system",
+        "explanation": "Correct. The hoist drum winds the rope, driven by the motor through the gearbox, to lift the load."
+      },
+      {
+        "id": "c",
+        "text": "Counterweight",
+        "explanation": "Incorrect. Counterweight provides balance, not lifting force."
+      },
+      {
+        "id": "d",
+        "text": "Trolley rails",
+        "explanation": "Incorrect. Trolley rails support horizontal movement."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 539,
+    "question": "What increases hoist line tension most?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Larger hook block",
+        "explanation": "Incorrect. Hook block adds weight but doesn't increase tension ratio."
+      },
+      {
+        "id": "b",
+        "text": "Higher crane mast",
+        "explanation": "Incorrect. Mast height doesn't directly affect line tension."
+      },
+      {
+        "id": "c",
+        "text": "Fewer parts of line",
+        "explanation": "Correct. Reducing parts of line reduces mechanical advantage, forcing each line to carry more of the load."
+      },
+      {
+        "id": "d",
+        "text": "Lower wind",
+        "explanation": "Incorrect. Lower wind reduces dynamic forces."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 540,
+    "question": "What must always be included when calculating crane load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load weight only",
+        "explanation": "Incorrect. Other suspended components must be included."
+      },
+      {
+        "id": "b",
+        "text": "All suspended components",
+        "explanation": "Correct. Total load includes load weight, hook block, rigging, and any other suspended equipment."
+      },
+      {
+        "id": "c",
+        "text": "Hook block only",
+        "explanation": "Incorrect. The load weight must also be included."
+      },
+      {
+        "id": "d",
+        "text": "Rigging only",
+        "explanation": "Incorrect. All components must be included."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 541,
+    "question": "When crane radius increases:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Capacity increases",
+        "explanation": "Incorrect. Capacity decreases with radius."
+      },
+      {
+        "id": "b",
+        "text": "Capacity decreases",
+        "explanation": "Correct. As radius increases, the crane's structural capacity decreases due to increased moment arm."
+      },
+      {
+        "id": "c",
+        "text": "Hoist speed increases",
+        "explanation": "Incorrect. Radius doesn't directly affect hoist speed."
+      },
+      {
+        "id": "d",
+        "text": "Hook weight decreases",
+        "explanation": "Incorrect. Hook weight is constant."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 542,
+    "question": "A crane lifts 9,000 kg at short radius. Hoist capacity = 8,500 kg. Safe?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes",
+        "explanation": "Incorrect. Load exceeds hoist capacity."
+      },
+      {
+        "id": "b",
+        "text": "No",
+        "explanation": "Correct. Even at short radius where structural capacity may be high, the hoist system limits the lift to 8,500 kg."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 543,
+    "question": "Which component often fails first when overloaded?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Counterweight",
+        "explanation": "Incorrect. Counterweights rarely fail from overload."
+      },
+      {
+        "id": "b",
+        "text": "Mast",
+        "explanation": "Incorrect. Mast is typically over-designed."
+      },
+      {
+        "id": "c",
+        "text": "Hoist rope or gearbox",
+        "explanation": "Correct. The hoist system components (rope, gearbox, drum) often have lower overload margins and are more susceptible to failure when limits are exceeded."
+      },
+      {
+        "id": "d",
+        "text": "Trolley rail",
+        "explanation": "Incorrect. Trolley rails don't typically fail from load overload."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Limiting Capacity"
+  },
+  {
+    "id": 544,
+    "question": "The correct procedure before every lift is to verify:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load weight only",
+        "explanation": "Incorrect. Multiple factors must be checked."
+      },
+      {
+        "id": "b",
+        "text": "Radius only",
+        "explanation": "Incorrect. Multiple factors must be checked."
+      },
+      {
+        "id": "c",
+        "text": "Gear capacity only",
+        "explanation": "Incorrect. Multiple factors must be checked."
+      },
+      {
+        "id": "d",
+        "text": "All limiting factors",
+        "explanation": "Correct. Before every lift, verify: load chart capacity, hoist system capacity, rigging capacity, and total suspended load. The lowest value governs."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Limiting Capacity"
   }
 ]
