@@ -199,17 +199,6 @@ export default function TestPage() {
       </div>
     );
   }
-    if (!playerName.trim()) return;
-    const entry: LeaderboardEntry = {
-      name: playerName.trim(),
-      score: results.percentage,
-      time: totalTestTime,
-      date: new Date().toLocaleDateString(),
-    };
-    const updated = saveToLeaderboard(entry);
-    setLeaderboard(updated);
-    setHasSubmitted(true);
-  };
 
   if (isComplete) {
     const isPassed = results.passed;
