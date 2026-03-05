@@ -624,6 +624,187 @@
           "correctAnswer": "b"
         }
       ]
+    },
+    {
+      "id": "potain-md-1600",
+      "name": "Potain MD 1600",
+      "manufacturer": "Potain",
+      "model": "MD 1600",
+      "pdfFile": "potainmd1600.pdf",
+      "description": "Heavy-duty top-slewing tower crane with 80m max jib. Dual capacity: 40 tonne (2-fall) or 64 tonne (4-fall). FEM 1.001-A3 standard.",
+      "specifications": {
+        "maxCapacity": "40t (2-fall) / 64t (4-fall)",
+        "maxJibLength": "80 m",
+        "tipCapacity": "17.4t (80m, 64t mode)",
+        "maxHoistHeight": "Varies by mast"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": "The MD 1600 has two capacity configurations: 40t and 64t. What determines which configuration is used?",
+          "options": [
+            { "id": "a", "text": "The jib length selected", "explanation": "Incorrect. Jib length affects radius, not the base capacity configuration." },
+            { "id": "b", "text": "The number of parts of line (reeving) - 2-fall for 40t, 4-fall for 64t", "explanation": "Correct. The 40t configuration uses 2-fall reeving (2 parts of line), while the 64t configuration uses 4-fall reeving (4 parts of line). More parts of line = higher capacity but slower hoisting." },
+            { "id": "c", "text": "The tower height", "explanation": "Incorrect. Tower height affects stability, not the base lifting configuration." },
+            { "id": "d", "text": "The operator's preference", "explanation": "Incorrect. The reeving must be physically configured - it's not just a setting." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 2,
+          "question": "Using the 64t configuration (4-fall) with 80m jib, what is the capacity at 50m radius?",
+          "options": [
+            { "id": "a", "text": "26.1 tonnes", "explanation": "Incorrect. This is the 40t configuration capacity at 50m." },
+            { "id": "b", "text": "31 tonnes", "explanation": "Correct. In 64t mode with 80m jib, the capacity at 50m radius is 31 tonnes." },
+            { "id": "c", "text": "32 tonnes", "explanation": "Incorrect. 32t is the capacity in the 'constant zone' between approximately 40-48m." },
+            { "id": "d", "text": "40 tonnes", "explanation": "Incorrect. This is the maximum capacity of the 40t configuration." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 3,
+          "question": "TRAP QUESTION: Looking at the 64t load curve for 80m jib, capacity stays constant at 32 tonnes between approximately 40m and 48.6m radius. Why does capacity plateau instead of continuously decreasing?",
+          "options": [
+            { "id": "a", "text": "The chart has a printing error in this zone", "explanation": "Incorrect. This is intentional design, not an error." },
+            { "id": "b", "text": "The trolley motor limits load in this zone", "explanation": "Incorrect. Motor limits affect speed, not capacity directly." },
+            { "id": "c", "text": "The hoist winch capacity (32t) becomes the limiting factor, not the crane's moment capacity", "explanation": "Correct. In this zone, the crane's structural moment capacity would allow more than 32t, but the 4-fall reeving on the hoist drum is limited to 32 tonnes. This creates a 'flat' section on the load curve." },
+            { "id": "d", "text": "Wind loads are calculated differently in this radius range", "explanation": "Incorrect. Wind calculations don't create flat zones in load curves." }
+          ],
+          "correctAnswer": "c"
+        },
+        {
+          "id": 4,
+          "question": "The load curve shows deductions of '-5.8t' for the 64t configuration and '-3.5t' for the 40t configuration. What do these deductions represent?",
+          "options": [
+            { "id": "a", "text": "Safety margin that must be maintained", "explanation": "Incorrect. These are actual weights, not safety factors." },
+            { "id": "b", "text": "Hook block and trolley weight that must be subtracted from chart capacity", "explanation": "Correct. The heavy-duty hook blocks for the 64t configuration weigh 5.8 tonnes. This must be deducted from chart capacities to determine actual load capacity." },
+            { "id": "c", "text": "Counterweight adjustment needed", "explanation": "Incorrect. Counterweight is separate from these deductions." },
+            { "id": "d", "text": "Wind load allowance", "explanation": "Incorrect. Wind loads are already factored into the base chart." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 5,
+          "question": "COMPLEX: Using the 64t configuration (80m jib), a precast panel weighs 25 tonnes. The hook block weighs 5.8t and rigging weighs 2t. At what maximum radius can this lift be performed?",
+          "options": [
+            { "id": "a", "text": "50m", "explanation": "Incorrect. Total load is 32.8t. At 50m, capacity is 31t - insufficient." },
+            { "id": "b", "text": "48m (within the constant zone)", "explanation": "Incorrect. Even in the constant zone, capacity is only 32t which is less than 32.8t total." },
+            { "id": "c", "text": "40m", "explanation": "Correct. Total = 25 + 5.8 + 2 = 32.8 tonnes. At 40m, capacity is 34.3t (sufficient). At 42m (constant zone start), capacity drops to 32t which is insufficient." },
+            { "id": "d", "text": "35m", "explanation": "Incorrect. While safe, this isn't the maximum radius - you can reach further." }
+          ],
+          "correctAnswer": "c"
+        },
+        {
+          "id": 6,
+          "question": "Using the 40t configuration (2-fall) with 80m jib, what is the capacity at 60m radius?",
+          "options": [
+            { "id": "a", "text": "21 tonnes", "explanation": "Correct. In 40t mode with 80m jib at 60m radius, capacity is 21 tonnes." },
+            { "id": "b", "text": "24.9 tonnes", "explanation": "Incorrect. This is the 64t configuration capacity at 60m." },
+            { "id": "c", "text": "26.1 tonnes", "explanation": "Incorrect. This is the capacity at 50m, not 60m." },
+            { "id": "d", "text": "20 tonnes", "explanation": "Incorrect. 20t is the capacity at 65m in the constant zone." }
+          ],
+          "correctAnswer": "a"
+        },
+        {
+          "id": 7,
+          "question": "TRICK: A rigger sees '40t' on the crane spec and assumes any load under 40 tonnes can be lifted anywhere. Looking at the 40t configuration with 80m jib, what is the ACTUAL capacity at 80m radius (jib tip)?",
+          "options": [
+            { "id": "a", "text": "40 tonnes", "explanation": "Incorrect. This dangerous assumption ignores how load charts work." },
+            { "id": "b", "text": "19.2 tonnes (before deductions)", "explanation": "Correct. At the 80m tip, capacity is only 19.2 tonnes - less than half the maximum rating. And after subtracting hook block (3.5t), only ~15.7t is available for actual load." },
+            { "id": "c", "text": "20 tonnes", "explanation": "Incorrect. 20t is the capacity in the constant zone (65-67m), not at the tip." },
+            { "id": "d", "text": "35 tonnes", "explanation": "Incorrect. This is far higher than actual tip capacity." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 8,
+          "question": "Why would a contractor choose the 40t (2-fall) configuration over the 64t (4-fall) configuration?",
+          "options": [
+            { "id": "a", "text": "40t configuration is always safer", "explanation": "Incorrect. Both configurations are safe when used within their ratings." },
+            { "id": "b", "text": "Faster hoisting speeds - 2-fall hoists twice as fast as 4-fall for the same motor speed", "explanation": "Correct. With 2-fall reeving, the hook travels twice as fast as with 4-fall (for the same drum speed). For lighter loads that don't need 64t capacity, the 40t configuration provides much faster cycle times." },
+            { "id": "c", "text": "Less counterweight required", "explanation": "Incorrect. Counterweight requirements depend on jib configuration, not reeving." },
+            { "id": "d", "text": "Longer jib reach available", "explanation": "Incorrect. Jib options are the same for both configurations." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 9,
+          "question": "The chart references FEM 1.001-A3 standard. What does this indicate?",
+          "options": [
+            { "id": "a", "text": "US OSHA compliance", "explanation": "Incorrect. FEM is a European standard, not US." },
+            { "id": "b", "text": "European crane design and safety standard", "explanation": "Correct. FEM (Fédération Européenne de la Manutention) 1.001-A3 is the European standard for crane design, including load calculations, safety factors, and wind conditions." },
+            { "id": "c", "text": "Canadian CSA certification", "explanation": "Incorrect. CSA is Canadian, FEM is European." },
+            { "id": "d", "text": "The crane's serial number prefix", "explanation": "Incorrect. FEM refers to a design standard." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 10,
+          "question": "Using the 64t configuration with 50m jib, what is the capacity at maximum radius (50m)?",
+          "options": [
+            { "id": "a", "text": "32 tonnes", "explanation": "Correct. With the 50m jib in 64t mode, the tip capacity at 50m is 32 tonnes. This falls within the hoist-limited constant zone." },
+            { "id": "b", "text": "36.8 tonnes", "explanation": "Incorrect. This is the capacity at 40m with the 50m jib." },
+            { "id": "c", "text": "42.7 tonnes", "explanation": "Incorrect. This is the capacity at 35m." },
+            { "id": "d", "text": "64 tonnes", "explanation": "Incorrect. 64t is only achievable at minimum radius." }
+          ],
+          "correctAnswer": "a"
+        },
+        {
+          "id": 11,
+          "question": "COMPLEX: Comparing the 64t (80m jib) to the 64t (50m jib) at 45m radius - which has higher capacity and why?",
+          "options": [
+            { "id": "a", "text": "Same capacity - radius is what matters, not jib length", "explanation": "Incorrect. Jib length significantly affects capacity at the same radius." },
+            { "id": "b", "text": "80m jib has higher capacity due to longer moment arm", "explanation": "Incorrect. This is backwards - longer jibs reduce capacity." },
+            { "id": "c", "text": "50m jib has higher capacity (32t vs ~32t) - shorter jib means less jib weight consuming capacity", "explanation": "Correct. At 45m radius: 50m jib shows 32t capacity, while 80m jib shows approximately 32t (in constant zone). They're similar here because both hit the hoist limit, but generally shorter jibs allow higher capacity at same radius." },
+            { "id": "d", "text": "Cannot compare - different configurations", "explanation": "Incorrect. Both use 64t (4-fall) configuration." }
+          ],
+          "correctAnswer": "c"
+        },
+        {
+          "id": 12,
+          "question": "The mechanisms section shows the 270 LVF 100 hoist at 400V-50Hz can lift 20t at 51 m/min or 5t at 139 m/min. What principle does this demonstrate?",
+          "options": [
+            { "id": "a", "text": "Heavier loads require more power", "explanation": "Incorrect. While true, this doesn't explain the speed relationship." },
+            { "id": "b", "text": "Inverse relationship between load and speed - power is constant, so lighter loads can be hoisted faster", "explanation": "Correct. The hoist motor has fixed power output. Power = Force × Speed. With constant power, reducing load (force) allows proportionally higher speed. This is why light loads fly up quickly." },
+            { "id": "c", "text": "The crane has variable speed drives", "explanation": "Incorrect. Variable drives exist but don't explain WHY speeds vary with load." },
+            { "id": "d", "text": "Safety limits require slower speeds for heavy loads", "explanation": "Incorrect. It's physics, not arbitrary safety limits." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 13,
+          "question": "HARD: A 45-tonne transformer needs to be lifted at 30m radius. Which configuration and jib length combination would you select?",
+          "options": [
+            { "id": "a", "text": "64t configuration with 80m jib", "explanation": "Incorrect. At 30m with 80m jib, capacity is only 40.7t - insufficient for 45t plus rigging." },
+            { "id": "b", "text": "64t configuration with 50m jib", "explanation": "Correct. At 30m with 50m jib, capacity is 50.4t. After deducting 5.8t for hook block, 44.6t remains. With minimal rigging (~1t), this is tight but workable. The 40m jib at 30m shows 53.6t - even better margin." },
+            { "id": "c", "text": "40t configuration with 50m jib", "explanation": "Incorrect. 40t configuration maximum is 40t - can't lift 45t regardless of radius." },
+            { "id": "d", "text": "64t configuration with 40m jib", "explanation": "Incorrect. While this would work (53.6t at 30m), it limits your radius more than necessary." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 14,
+          "question": "What is the minimum radius where the 64t configuration (any jib) can lift its full 64 tonne capacity?",
+          "options": [
+            { "id": "a", "text": "6.5 metres", "explanation": "Correct. All jib configurations show 64t capacity at 6.5m minimum radius. This is where trolley is closest to the tower." },
+            { "id": "b", "text": "10 metres", "explanation": "Incorrect. Capacity has already started decreasing by 10m." },
+            { "id": "c", "text": "24.1 metres", "explanation": "Incorrect. At 24.1m with 80m jib, capacity has dropped to 61.4t." },
+            { "id": "d", "text": "0 metres (at the tower)", "explanation": "Incorrect. Minimum working radius is 6.5m due to crane geometry." }
+          ],
+          "correctAnswer": "a"
+        },
+        {
+          "id": 15,
+          "question": "CRITICAL: An inexperienced operator reads '64t' on the crane and plans to lift a 60-tonne load at 25m radius using the 80m jib. The chart shows 61.4t at 24.1m and 49.4t at 25m. What critical error might they make?",
+          "options": [
+            { "id": "a", "text": "No error - 60t is less than 64t maximum", "explanation": "Incorrect. This ignores how to read the load chart properly." },
+            { "id": "b", "text": "They might use the wrong row (different jib length)", "explanation": "Incorrect. While possible, this isn't the main trap." },
+            { "id": "c", "text": "At 25m radius, capacity is only 49.4t (not 61.4t) - they're misreading the interpolation AND forgetting the 5.8t hook block deduction", "explanation": "Correct. Multiple errors: 1) At exactly 25m, capacity is 49.4t, not the 61.4t shown at 24.1m. 2) Must deduct 5.8t for hook block, leaving only 43.6t for load. The 60t load would overload the crane by ~38%!" },
+            { "id": "d", "text": "Wind conditions might reduce capacity", "explanation": "Incorrect. While true in extreme conditions, the chart trap is more immediate." }
+          ],
+          "correctAnswer": "c"
+        }
+      ]
     }
   ]
 }
