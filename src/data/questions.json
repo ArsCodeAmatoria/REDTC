@@ -26432,5 +26432,2973 @@
     ],
     "correctAnswer": "b",
     "category": "Integrated Physics - Combined Trap"
+  },
+  {
+    "id": 949,
+    "question": "When operating a self-erect tower crane using remote control, the operator must primarily ensure:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The crane mast remains within view",
+        "explanation": "Incorrect. While mast visibility helps, it's not the primary requirement."
+      },
+      {
+        "id": "b",
+        "text": "The operator maintains clear sight of the load and landing area",
+        "explanation": "Correct. Remote operation requires visual dominance of the load path and landing area since the operator is no longer in a fixed cab with full geometry awareness."
+      },
+      {
+        "id": "c",
+        "text": "The counterweights remain visible",
+        "explanation": "Incorrect. Counterweight visibility is not the primary concern during lifting."
+      },
+      {
+        "id": "d",
+        "text": "The hook block is above eye level",
+        "explanation": "Incorrect. Hook block position relative to eye level is not the critical factor."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Self-Erect & Remote Operation"
+  },
+  {
+    "id": 950,
+    "question": "A self-erect tower crane is typically used for:",
+    "options": [
+      {
+        "id": "a",
+        "text": "High-rise steel erection",
+        "explanation": "Incorrect. Self-erect cranes lack the height and capacity for high-rise steel work."
+      },
+      {
+        "id": "b",
+        "text": "Nuclear facility construction",
+        "explanation": "Incorrect. Nuclear facilities require specialized heavy-lift equipment."
+      },
+      {
+        "id": "c",
+        "text": "Low- to mid-rise construction sites",
+        "explanation": "Correct. Self-erect cranes are designed for low-rise construction, rapid setup, and tight urban jobsites."
+      },
+      {
+        "id": "d",
+        "text": "Offshore lifting operations",
+        "explanation": "Incorrect. Offshore operations require marine-rated cranes."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Self-Erect & Remote Operation"
+  },
+  {
+    "id": 951,
+    "question": "Before erecting a self-erect tower crane, the most critical requirement is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Installing the hook block",
+        "explanation": "Incorrect. Hook block installation comes after erection."
+      },
+      {
+        "id": "b",
+        "text": "Verifying mast pin lubrication",
+        "explanation": "Incorrect. While important for maintenance, it's not the most critical erection requirement."
+      },
+      {
+        "id": "c",
+        "text": "Ensuring the crane is properly leveled",
+        "explanation": "Correct. Improper leveling can cause structural instability during erection, making leveling one of the most critical setup steps."
+      },
+      {
+        "id": "d",
+        "text": "Engaging the swing brake",
+        "explanation": "Incorrect. Swing brake engagement is not the primary erection concern."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Self-Erect & Remote Operation"
+  },
+  {
+    "id": 952,
+    "question": "During remote operation, the operator must never stand:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Near the control receiver",
+        "explanation": "Incorrect. Being near the receiver is generally acceptable."
+      },
+      {
+        "id": "b",
+        "text": "On the crane base",
+        "explanation": "Incorrect. While not ideal, this isn't the primary prohibition."
+      },
+      {
+        "id": "c",
+        "text": "Beneath the crane structure or load path",
+        "explanation": "Correct. Remote operators must maintain personal safety positioning, avoiding standing under loads or structural components."
+      },
+      {
+        "id": "d",
+        "text": "Inside the exclusion zone",
+        "explanation": "Incorrect. Exclusion zones are typically for non-operators; the operator may need to be within working range."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Self-Erect & Remote Operation"
+  },
+  {
+    "id": 953,
+    "question": "Remote crane operation may reduce the operator's:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hoisting speed",
+        "explanation": "Incorrect. Remote operation doesn't inherently reduce hoist speed."
+      },
+      {
+        "id": "b",
+        "text": "Line capacity",
+        "explanation": "Incorrect. Crane capacity is not affected by remote operation."
+      },
+      {
+        "id": "c",
+        "text": "Depth perception",
+        "explanation": "Correct. Without a cab perspective, operators often experience reduced depth perception, which increases the risk of misjudging distances."
+      },
+      {
+        "id": "d",
+        "text": "Counterweight efficiency",
+        "explanation": "Incorrect. Counterweight function is mechanical, not affected by control method."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Self-Erect & Remote Operation"
+  },
+  {
+    "id": 954,
+    "question": "If radio signal interference occurs during remote crane operation, the operator should:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue slowly",
+        "explanation": "Incorrect. Continuing with compromised control is dangerous."
+      },
+      {
+        "id": "b",
+        "text": "Switch to higher speed",
+        "explanation": "Incorrect. Increasing speed during signal issues is extremely dangerous."
+      },
+      {
+        "id": "c",
+        "text": "Stop crane movement immediately",
+        "explanation": "Correct. Loss of signal integrity can result in uncontrolled crane motion, so operations must stop until signal reliability is restored."
+      },
+      {
+        "id": "d",
+        "text": "Engage the slewing brake",
+        "explanation": "Incorrect. While this might help, stopping all movement is the priority."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Self-Erect & Remote Operation"
+  },
+  {
+    "id": 955,
+    "question": "The primary structural risk during self-erection is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Over-hoisting",
+        "explanation": "Incorrect. Over-hoisting is an operational risk, not specific to self-erection."
+      },
+      {
+        "id": "b",
+        "text": "Outrigger settlement",
+        "explanation": "Correct. Self-erect cranes rely on outrigger stabilization, so ground settlement can cause dangerous instability."
+      },
+      {
+        "id": "c",
+        "text": "Hook block rotation",
+        "explanation": "Incorrect. Hook rotation is not a primary structural concern during erection."
+      },
+      {
+        "id": "d",
+        "text": "Rope twisting",
+        "explanation": "Incorrect. Rope twist is not the primary structural risk."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Self-Erect & Remote Operation"
+  },
+  {
+    "id": 956,
+    "question": "When using a remote control transmitter, the operator should:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hold it above shoulder height",
+        "explanation": "Incorrect. Transmitter height is not critical for operation."
+      },
+      {
+        "id": "b",
+        "text": "Keep the antenna pointed upward",
+        "explanation": "Incorrect. Antenna orientation varies by system and is not the primary concern."
+      },
+      {
+        "id": "c",
+        "text": "Perform a signal function check before lifting",
+        "explanation": "Correct. A pre-operation signal test confirms proper communication between transmitter and crane receiver."
+      },
+      {
+        "id": "d",
+        "text": "Disable emergency stop",
+        "explanation": "Incorrect. Emergency stop must never be disabled."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Self-Erect & Remote Operation"
+  },
+  {
+    "id": 957,
+    "question": "Compared to conventional tower cranes, self-erect cranes generally have:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Greater lifting heights",
+        "explanation": "Incorrect. Self-erect cranes are typically shorter than conventional tower cranes."
+      },
+      {
+        "id": "b",
+        "text": "Lower wind tolerance",
+        "explanation": "Correct. Due to lighter structure and shorter mast, wind limitations are lower for self-erect cranes."
+      },
+      {
+        "id": "c",
+        "text": "Higher hook speeds",
+        "explanation": "Incorrect. Hook speeds are not necessarily higher on self-erect cranes."
+      },
+      {
+        "id": "d",
+        "text": "Larger counterweights",
+        "explanation": "Incorrect. Self-erect cranes typically have smaller, proportional counterweights."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Self-Erect & Remote Operation"
+  },
+  {
+    "id": 958,
+    "question": "If the operator loses visual contact with the load during remote operation, the correct action is to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue slowly",
+        "explanation": "Incorrect. Continuing without visual control is dangerous."
+      },
+      {
+        "id": "b",
+        "text": "Rely on radio instructions",
+        "explanation": "Incorrect. Unless a qualified signalperson is directing, this is insufficient."
+      },
+      {
+        "id": "c",
+        "text": "Stop crane movement until visibility is restored",
+        "explanation": "Correct. Operators must maintain visual control of the load at all times unless a trained signalperson is directing the lift."
+      },
+      {
+        "id": "d",
+        "text": "Use maximum zoom binoculars",
+        "explanation": "Incorrect. Binoculars are not an acceptable substitute for proper positioning."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Self-Erect & Remote Operation"
+  },
+  {
+    "id": 959,
+    "question": "TRAP: A remote crane operator is standing too close to the crane base during a lift. The main hazard is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hook drift",
+        "explanation": "Incorrect. Hook drift is not the primary hazard from this position."
+      },
+      {
+        "id": "b",
+        "text": "Structural blind spot",
+        "explanation": "Incorrect. While visibility is affected, this isn't the main hazard."
+      },
+      {
+        "id": "c",
+        "text": "Being struck by rotating superstructure",
+        "explanation": "Correct. Standing near the base exposes the operator to slewing counterweight strike hazards."
+      },
+      {
+        "id": "d",
+        "text": "Reduced radio signal",
+        "explanation": "Incorrect. Signal strength is typically fine near the crane."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Self-Erect & Remote Operation"
+  },
+  {
+    "id": 960,
+    "question": "The safest place for a remote operator during lifting operations is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Beneath the jib",
+        "explanation": "Incorrect. Never position under the jib or load path."
+      },
+      {
+        "id": "b",
+        "text": "Near the mast base",
+        "explanation": "Incorrect. The mast base area has slewing hazards."
+      },
+      {
+        "id": "c",
+        "text": "At a position with full load visibility and escape path",
+        "explanation": "Correct. Operators should maintain situational awareness, escape routes, and clear sight lines."
+      },
+      {
+        "id": "d",
+        "text": "Directly beside the load",
+        "explanation": "Incorrect. Being beside the load is extremely dangerous."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Self-Erect & Remote Operation"
+  },
+  {
+    "id": 961,
+    "question": "Self-erect tower cranes are erected primarily using:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mobile cranes",
+        "explanation": "Incorrect. Self-erect cranes don't require mobile crane assistance."
+      },
+      {
+        "id": "b",
+        "text": "Hydraulic self-erection systems",
+        "explanation": "Correct. These cranes use integrated hydraulic cylinders to unfold and erect the mast and jib."
+      },
+      {
+        "id": "c",
+        "text": "Tower climbing frames",
+        "explanation": "Incorrect. Climbing frames are used for conventional tower crane height additions."
+      },
+      {
+        "id": "d",
+        "text": "Gantry lifting frames",
+        "explanation": "Incorrect. Gantry frames are not used for self-erect crane erection."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Self-Erect & Remote Operation"
+  },
+  {
+    "id": 962,
+    "question": "TRAP: During remote operation, the operator must monitor crane geometry because:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hook speed changes automatically",
+        "explanation": "Incorrect. Hook speed doesn't automatically change with geometry."
+      },
+      {
+        "id": "b",
+        "text": "Crane radius may increase without noticing",
+        "explanation": "Correct. Without a cab reference point, operators may misjudge radius, increasing overload risk."
+      },
+      {
+        "id": "c",
+        "text": "Rope tension drops",
+        "explanation": "Incorrect. Rope tension is not directly related to geometry monitoring."
+      },
+      {
+        "id": "d",
+        "text": "Wind speed decreases",
+        "explanation": "Incorrect. Wind speed is unrelated to crane geometry."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Self-Erect & Remote Operation"
+  },
+  {
+    "id": 963,
+    "question": "An operator must stop remote crane operations immediately if:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The load begins rotating",
+        "explanation": "Incorrect. Load rotation may require action but not necessarily immediate shutdown."
+      },
+      {
+        "id": "b",
+        "text": "The radio control battery fails",
+        "explanation": "Correct. Loss of transmitter power results in loss of control, requiring immediate shutdown."
+      },
+      {
+        "id": "c",
+        "text": "The hoist rope becomes slightly twisted",
+        "explanation": "Incorrect. Minor rope twist doesn't require immediate shutdown."
+      },
+      {
+        "id": "d",
+        "text": "The hook block touches the load",
+        "explanation": "Incorrect. The hook block touching the load is normal during rigging."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Self-Erect & Remote Operation"
+  },
+  {
+    "id": 964,
+    "question": "SCENARIO: A self-erect crane is operating remotely on a slab. The operator notices the outrigger pad slowly settling into soil. What should be done?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue lifting lighter loads",
+        "explanation": "Incorrect. Continuing operations with unstable foundation is dangerous."
+      },
+      {
+        "id": "b",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. Increasing speed doesn't address the stability issue."
+      },
+      {
+        "id": "c",
+        "text": "Stop operations and stabilize the crane",
+        "explanation": "Correct. Outrigger settlement indicates loss of stability, requiring immediate shutdown and correction."
+      },
+      {
+        "id": "d",
+        "text": "Reduce swing speed only",
+        "explanation": "Incorrect. Reducing swing speed alone doesn't address foundation settlement."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Self-Erect & Remote Operation"
+  },
+  {
+    "id": 965,
+    "question": "A sling has a rated vertical capacity of 1 ton. It is used in a two-leg vertical choke configuration. What is the maximum lifting capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1 ton",
+        "explanation": "Incorrect. This doesn't account for the two-leg configuration."
+      },
+      {
+        "id": "b",
+        "text": "1.25 tons",
+        "explanation": "Incorrect. This uses an incorrect reduction factor."
+      },
+      {
+        "id": "c",
+        "text": "1.5 tons",
+        "explanation": "Correct. A choke hitch reduces capacity to 75%. 1 ton × 0.75 = 0.75 ton per leg. With two vertical legs: 0.75 + 0.75 = 1.5 tons total capacity. This is a common Red Seal exam calculation trap."
+      },
+      {
+        "id": "d",
+        "text": "2 tons",
+        "explanation": "Incorrect. This assumes full vertical capacity without choke reduction."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 966,
+    "question": "Under OHSR Part 15, when lifting two or more pieces of material longer than 10 ft (3 m), the rigging must:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Use a single vertical sling",
+        "explanation": "Incorrect. A single sling is inadequate for multiple long pieces."
+      },
+      {
+        "id": "b",
+        "text": "Use two slings wrapped and choked",
+        "explanation": "Correct. BC regulations require two wrapped chokes when lifting multiple long pieces to prevent material shifting or sliding out of the rigging."
+      },
+      {
+        "id": "c",
+        "text": "Use a basket hitch only",
+        "explanation": "Incorrect. Basket hitches alone may allow material to slide out."
+      },
+      {
+        "id": "d",
+        "text": "Use shackles only",
+        "explanation": "Incorrect. Shackles alone don't secure multiple pieces properly."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 967,
+    "question": "In a basket hitch with vertical legs, the sling legs are:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Angled outward",
+        "explanation": "Incorrect. Angled legs indicate an inclined basket hitch."
+      },
+      {
+        "id": "b",
+        "text": "Parallel and vertical",
+        "explanation": "Correct. When the legs remain vertical, the load is evenly distributed and the sling can achieve up to double the vertical rating."
+      },
+      {
+        "id": "c",
+        "text": "Wrapped around the hook",
+        "explanation": "Incorrect. This describes a different rigging configuration."
+      },
+      {
+        "id": "d",
+        "text": "Connected with shackles",
+        "explanation": "Incorrect. Shackle connection doesn't define the leg orientation."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 968,
+    "question": "When a basket hitch has inclined legs, the sling capacity:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increases",
+        "explanation": "Incorrect. Inclined legs never increase capacity."
+      },
+      {
+        "id": "b",
+        "text": "Stays the same",
+        "explanation": "Incorrect. The angle always affects capacity."
+      },
+      {
+        "id": "c",
+        "text": "Decreases due to angle tension",
+        "explanation": "Correct. When sling legs angle outward, tension increases and capacity decreases. This is known as the sling angle effect."
+      },
+      {
+        "id": "d",
+        "text": "Doubles automatically",
+        "explanation": "Incorrect. Only vertical basket hitches can approach double capacity."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 969,
+    "question": "As the sling angle becomes smaller (flatter), the tension in each sling leg:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Decreases",
+        "explanation": "Incorrect. Flatter angles increase tension, not decrease it."
+      },
+      {
+        "id": "b",
+        "text": "Remains constant",
+        "explanation": "Incorrect. Sling angle directly affects tension."
+      },
+      {
+        "id": "c",
+        "text": "Increases",
+        "explanation": "Correct. A smaller sling angle dramatically increases tension, which can overload the sling even if the load weight stays the same."
+      },
+      {
+        "id": "d",
+        "text": "Becomes zero",
+        "explanation": "Incorrect. Tension increases with flatter angles, it doesn't disappear."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 970,
+    "question": "The preferred position for a rigger giving hand signals is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Standing behind the load",
+        "explanation": "Incorrect. This positions the rigger where they can't see the operator."
+      },
+      {
+        "id": "b",
+        "text": "Standing beside the crane",
+        "explanation": "Incorrect. This may not provide clear visibility of the load."
+      },
+      {
+        "id": "c",
+        "text": "Standing with back to the operator facing the load",
+        "explanation": "Correct. Standing with the back toward the crane operator allows the operator to see the rigger first, then the load behind them. This prevents the rigger from becoming visually hidden behind the load."
+      },
+      {
+        "id": "d",
+        "text": "Standing under the load",
+        "explanation": "Incorrect. Never stand under a suspended load."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 971,
+    "question": "If the rigger stands between the crane operator and the load, the primary hazard is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduced sling strength",
+        "explanation": "Incorrect. Rigger position doesn't affect sling strength."
+      },
+      {
+        "id": "b",
+        "text": "Visual obstruction of signals",
+        "explanation": "Correct. If the load blocks the operator's view, the signalperson disappears from sight, creating a dangerous blind lift situation."
+      },
+      {
+        "id": "c",
+        "text": "Increased hook speed",
+        "explanation": "Incorrect. Hook speed is unrelated to rigger position."
+      },
+      {
+        "id": "d",
+        "text": "Rope twisting",
+        "explanation": "Incorrect. Rope twist is caused by other factors."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 972,
+    "question": "When lifting a full concrete bucket, the crane boom will typically:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rise",
+        "explanation": "Incorrect. Heavy loads cause deflection, not rise."
+      },
+      {
+        "id": "b",
+        "text": "Deflect downward slightly",
+        "explanation": "Correct. Heavy loads cause boom deflection, meaning the boom bends slightly downward."
+      },
+      {
+        "id": "c",
+        "text": "Remain perfectly level",
+        "explanation": "Incorrect. All booms experience some deflection under load."
+      },
+      {
+        "id": "d",
+        "text": "Twist sideways",
+        "explanation": "Incorrect. Sideways twist would indicate a structural problem."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 973,
+    "question": "While pouring concrete, the boom will tend to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lower further",
+        "explanation": "Incorrect. The boom rises as the load decreases."
+      },
+      {
+        "id": "b",
+        "text": "Remain stable",
+        "explanation": "Incorrect. Changing load weight causes boom movement."
+      },
+      {
+        "id": "c",
+        "text": "Rise slightly as the load becomes lighter",
+        "explanation": "Correct. As concrete leaves the bucket, the load weight decreases, the boom deflection reduces, and the boom rises slightly. Operators must line down to maintain the correct hook height."
+      },
+      {
+        "id": "d",
+        "text": "Swing sideways",
+        "explanation": "Incorrect. Pouring doesn't cause sideways movement."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 974,
+    "question": "When lifting multiple pieces of material with improper rigging, the most likely hazard is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hook block overheating",
+        "explanation": "Incorrect. Hook blocks don't overheat from improper rigging."
+      },
+      {
+        "id": "b",
+        "text": "Load shifting or slipping",
+        "explanation": "Correct. Improper rigging of multiple pieces can cause load shift, one of the most common rigging accidents."
+      },
+      {
+        "id": "c",
+        "text": "Increased hoist speed",
+        "explanation": "Incorrect. Rigging doesn't affect hoist speed."
+      },
+      {
+        "id": "d",
+        "text": "Rope stretching",
+        "explanation": "Incorrect. Rope stretch is not the primary concern with improper rigging."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 975,
+    "question": "CALCULATION: A sling has a vertical rating of 2 tons. It is used in a two-leg vertical choke configuration. What is the maximum load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2 tons",
+        "explanation": "Incorrect. This doesn't account for the choke factor or two legs."
+      },
+      {
+        "id": "b",
+        "text": "3 tons",
+        "explanation": "Correct. Step 1: Apply choke reduction: 2 tons × 0.75 = 1.5 tons per leg. Step 2: Two legs: 1.5 × 2 = 3 tons total capacity."
+      },
+      {
+        "id": "c",
+        "text": "4 tons",
+        "explanation": "Incorrect. This assumes full capacity without choke reduction."
+      },
+      {
+        "id": "d",
+        "text": "1.5 tons",
+        "explanation": "Incorrect. This only accounts for one leg."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 976,
+    "question": "A rigger chokes two 12-ft steel beams with one sling. Is this acceptable under OHSR Part 15?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes",
+        "explanation": "Incorrect. One sling is not sufficient for multiple long pieces."
+      },
+      {
+        "id": "b",
+        "text": "Only if beams weigh under 1 ton",
+        "explanation": "Incorrect. Weight doesn't change the two-choke requirement for long pieces."
+      },
+      {
+        "id": "c",
+        "text": "No",
+        "explanation": "Correct. OHSR requires two wrapped chokes for two or more pieces that are 10 ft (3 m) or longer. This prevents rolling or sliding during the lift."
+      },
+      {
+        "id": "d",
+        "text": "Only if shackles are used",
+        "explanation": "Incorrect. Shackles don't satisfy the two-choke requirement."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 977,
+    "question": "TRAP: A rigger uses a basket hitch with inclined legs. Compared to a basket with vertical legs, the capacity will:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Double",
+        "explanation": "Incorrect. Only vertical basket hitches can approach double capacity."
+      },
+      {
+        "id": "b",
+        "text": "Stay the same",
+        "explanation": "Incorrect. Angle always affects capacity."
+      },
+      {
+        "id": "c",
+        "text": "Decrease",
+        "explanation": "Correct. Inclined legs introduce sling angle tension, reducing the effective lifting capacity."
+      },
+      {
+        "id": "d",
+        "text": "Triple",
+        "explanation": "Incorrect. Basket hitches never achieve triple capacity."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 978,
+    "question": "When the crane boom rises during a concrete pour, the operator should:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Boom down",
+        "explanation": "Incorrect. Boom down would change the radius, not address hook height."
+      },
+      {
+        "id": "b",
+        "text": "Line down",
+        "explanation": "Correct. The boom rises because load weight decreases. The operator must line down to maintain the correct hook height."
+      },
+      {
+        "id": "c",
+        "text": "Swing left",
+        "explanation": "Incorrect. Swinging doesn't address the hook height change."
+      },
+      {
+        "id": "d",
+        "text": "Engage swing brake",
+        "explanation": "Incorrect. The swing brake is unrelated to boom deflection."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 979,
+    "question": "The safest action if a load begins to rotate unexpectedly during lifting is to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. Increasing speed could worsen the rotation."
+      },
+      {
+        "id": "b",
+        "text": "Lower the load and stabilize",
+        "explanation": "Correct. Rotation indicates instability or uneven rigging. Lowering the load allows re-rigging safely."
+      },
+      {
+        "id": "c",
+        "text": "Swing the crane quickly",
+        "explanation": "Incorrect. Swinging could increase instability."
+      },
+      {
+        "id": "d",
+        "text": "Tighten the sling",
+        "explanation": "Incorrect. You cannot tighten a sling while the load is suspended."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 980,
+    "question": "Which control is used to raise and lower the load line?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Trolley control",
+        "explanation": "Incorrect. The trolley control moves the hook along the jib."
+      },
+      {
+        "id": "b",
+        "text": "Slew control",
+        "explanation": "Incorrect. The slew control rotates the crane."
+      },
+      {
+        "id": "c",
+        "text": "Hoist control",
+        "explanation": "Correct. The hoist control operates the drum and wire rope, allowing the operator to raise or lower the load. This is one of the four primary tower crane functions: Hoist (up/down), Trolley (in/out), Slew (rotate), and Luff (on luffing cranes)."
+      },
+      {
+        "id": "d",
+        "text": "Boom angle control",
+        "explanation": "Incorrect. Boom angle control is used on luffing cranes to change jib angle."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 981,
+    "question": "The trolley control is used to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Raise the boom",
+        "explanation": "Incorrect. Boom raising is done with luff controls on luffing cranes."
+      },
+      {
+        "id": "b",
+        "text": "Move the load horizontally along the jib",
+        "explanation": "Correct. The trolley moves the hook along the jib, changing the radius (reach). Since capacity decreases as radius increases, trolley movement directly affects lifting capacity."
+      },
+      {
+        "id": "c",
+        "text": "Rotate the crane",
+        "explanation": "Incorrect. Crane rotation is controlled by the slew control."
+      },
+      {
+        "id": "d",
+        "text": "Adjust the hook block",
+        "explanation": "Incorrect. The hook block is raised/lowered by the hoist control."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 982,
+    "question": "The slewing control allows the operator to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Raise the boom",
+        "explanation": "Incorrect. Boom angle is controlled by luff controls."
+      },
+      {
+        "id": "b",
+        "text": "Rotate the crane around the mast",
+        "explanation": "Correct. Slewing rotates the crane around its vertical axis. Most tower cranes allow 360-degree rotation, controlled by a joystick or lever in the cab."
+      },
+      {
+        "id": "c",
+        "text": "Move the trolley",
+        "explanation": "Incorrect. Trolley movement has its own dedicated control."
+      },
+      {
+        "id": "d",
+        "text": "Activate the LMI",
+        "explanation": "Incorrect. The LMI operates automatically and is not controlled by the slew function."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 983,
+    "question": "The purpose of the LMI (Load Moment Indicator) system is to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase lifting capacity",
+        "explanation": "Incorrect. The LMI monitors capacity but doesn't increase it."
+      },
+      {
+        "id": "b",
+        "text": "Monitor load weight and crane stability",
+        "explanation": "Correct. The Load Moment Indicator monitors critical operating parameters including load weight, radius (trolley position), crane configuration, and percentage of rated capacity. It helps prevent overloading or tipping conditions."
+      },
+      {
+        "id": "c",
+        "text": "Control the hoist brake",
+        "explanation": "Incorrect. The hoist brake is a separate mechanical system."
+      },
+      {
+        "id": "d",
+        "text": "Measure wind speed only",
+        "explanation": "Incorrect. While some LMIs display wind speed, that's not their primary purpose."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 984,
+    "question": "When the LMI shows 100% capacity, the operator should:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue lifting normally",
+        "explanation": "Incorrect. 100% is the maximum safe limit."
+      },
+      {
+        "id": "b",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. Speed changes don't address capacity limits."
+      },
+      {
+        "id": "c",
+        "text": "Stop increasing load moment",
+        "explanation": "Correct. 100% indicates the crane has reached maximum safe capacity for that configuration. Further increases in load weight or radius could overload the crane."
+      },
+      {
+        "id": "d",
+        "text": "Disable the system",
+        "explanation": "Incorrect. Disabling safety systems is never appropriate during normal operations."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 985,
+    "question": "The override key or switch on an LMI system should only be used:",
+    "options": [
+      {
+        "id": "a",
+        "text": "During normal lifting",
+        "explanation": "Incorrect. Overrides should never be used for normal operations."
+      },
+      {
+        "id": "b",
+        "text": "To increase lifting capacity",
+        "explanation": "Incorrect. Overrides don't increase actual capacity, they bypass safety limits."
+      },
+      {
+        "id": "c",
+        "text": "For authorized recovery or maintenance procedures",
+        "explanation": "Correct. Overrides bypass safety protections and are used only under strict procedures, typically by qualified personnel during recovery operations or crane servicing."
+      },
+      {
+        "id": "d",
+        "text": "When lifting concrete",
+        "explanation": "Incorrect. Concrete lifts follow normal operating procedures."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 986,
+    "question": "Many modern tower crane LMIs display:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rope diameter",
+        "explanation": "Incorrect. Rope diameter is not typically displayed on LMI systems."
+      },
+      {
+        "id": "b",
+        "text": "Wind speed",
+        "explanation": "Correct. Wind sensors provide real-time wind speed data because high winds can create dangerous side loads on the crane and load."
+      },
+      {
+        "id": "c",
+        "text": "Concrete weight",
+        "explanation": "Incorrect. Concrete weight is not a standard LMI display."
+      },
+      {
+        "id": "d",
+        "text": "Operator position",
+        "explanation": "Incorrect. LMIs don't track operator position."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 987,
+    "question": "The upper hoist limit switch prevents:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Over-slewing",
+        "explanation": "Incorrect. Slewing limits are controlled by separate systems."
+      },
+      {
+        "id": "b",
+        "text": "Two-blocking",
+        "explanation": "Correct. Two-blocking occurs when the hook block contacts the boom tip, which can cause rope damage or structural failure. The limit switch stops hoisting before this happens."
+      },
+      {
+        "id": "c",
+        "text": "Excessive wind",
+        "explanation": "Incorrect. Wind is monitored by separate sensors."
+      },
+      {
+        "id": "d",
+        "text": "Trolley derailment",
+        "explanation": "Incorrect. Trolley limits are controlled by separate switches."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 988,
+    "question": "The lower hoist limit switch prevents:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rope unspooling from the drum",
+        "explanation": "Correct. If the rope unwinds completely, it may come off the drum, which can cause severe damage or uncontrolled load drop."
+      },
+      {
+        "id": "b",
+        "text": "Boom collapse",
+        "explanation": "Incorrect. Boom collapse prevention involves structural and LMI systems."
+      },
+      {
+        "id": "c",
+        "text": "Trolley derailment",
+        "explanation": "Incorrect. Trolley derailment has its own limit switch."
+      },
+      {
+        "id": "d",
+        "text": "Slewing overload",
+        "explanation": "Incorrect. Slewing systems have separate protections."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 989,
+    "question": "The emergency stop button in the cab:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Stops only the hoist",
+        "explanation": "Incorrect. Emergency stop affects all crane functions."
+      },
+      {
+        "id": "b",
+        "text": "Stops all crane movement immediately",
+        "explanation": "Correct. The emergency stop cuts power to crane functions, halting operations immediately in dangerous situations."
+      },
+      {
+        "id": "c",
+        "text": "Slows crane movement",
+        "explanation": "Incorrect. Emergency stop is immediate, not gradual."
+      },
+      {
+        "id": "d",
+        "text": "Turns off the LMI",
+        "explanation": "Incorrect. Emergency stop halts movement, not just monitoring systems."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 990,
+    "question": "The climbing control system is used to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Raise the boom angle",
+        "explanation": "Incorrect. Boom angle is controlled by luff systems."
+      },
+      {
+        "id": "b",
+        "text": "Increase lifting capacity",
+        "explanation": "Incorrect. Climbing doesn't increase capacity."
+      },
+      {
+        "id": "c",
+        "text": "Raise the crane mast by inserting tower sections",
+        "explanation": "Correct. Climbing systems allow a tower crane to grow taller during construction by inserting additional mast sections using hydraulic climbing frames."
+      },
+      {
+        "id": "d",
+        "text": "Extend the jib",
+        "explanation": "Incorrect. Jib extension is not done with climbing controls."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 991,
+    "question": "Climbing controls should be used:",
+    "options": [
+      {
+        "id": "a",
+        "text": "During normal lifting operations",
+        "explanation": "Incorrect. Climbing is a separate operation from normal lifting."
+      },
+      {
+        "id": "b",
+        "text": "During tower crane height increases",
+        "explanation": "Correct. Climbing controls operate the hydraulic climbing frame that lifts the slewing unit to insert new mast sections."
+      },
+      {
+        "id": "c",
+        "text": "During wind events",
+        "explanation": "Incorrect. Climbing should not occur during high winds."
+      },
+      {
+        "id": "d",
+        "text": "During concrete pours",
+        "explanation": "Incorrect. Concrete pours use normal crane operations."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 992,
+    "question": "Before climbing a tower crane, the operator must ensure:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The crane is under load",
+        "explanation": "Incorrect. The crane must never be under load during climbing."
+      },
+      {
+        "id": "b",
+        "text": "The crane is free of load",
+        "explanation": "Correct. Climbing must occur without any suspended load, as loads introduce unstable forces into the crane structure."
+      },
+      {
+        "id": "c",
+        "text": "The trolley is at maximum radius",
+        "explanation": "Incorrect. Maximum radius creates imbalance during climbing."
+      },
+      {
+        "id": "d",
+        "text": "The hook block is raised to the top",
+        "explanation": "Incorrect. Hook position is not the primary safety concern."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 993,
+    "question": "Before climbing, the trolley is typically positioned:",
+    "options": [
+      {
+        "id": "a",
+        "text": "At maximum radius",
+        "explanation": "Incorrect. Maximum radius creates dangerous imbalance."
+      },
+      {
+        "id": "b",
+        "text": "Mid-jib",
+        "explanation": "Incorrect. Mid-jib is not the standard climbing position."
+      },
+      {
+        "id": "c",
+        "text": "At the specified climbing position (often near the mast)",
+        "explanation": "Correct. The trolley must be positioned to maintain balanced center of gravity during climbing operations."
+      },
+      {
+        "id": "d",
+        "text": "At the jib tip",
+        "explanation": "Incorrect. The jib tip position would create imbalance."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 994,
+    "question": "Modern crane cab displays may show:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load weight",
+        "explanation": "Incorrect. This is only part of what modern displays show."
+      },
+      {
+        "id": "b",
+        "text": "Radius",
+        "explanation": "Incorrect. This is only part of what modern displays show."
+      },
+      {
+        "id": "c",
+        "text": "Capacity percentage",
+        "explanation": "Incorrect. This is only part of what modern displays show."
+      },
+      {
+        "id": "d",
+        "text": "All of the above",
+        "explanation": "Correct. Advanced crane computer systems provide operators with multiple real-time data points including load weight, radius, and capacity percentage, helping ensure lifts remain within safe operating limits."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 995,
+    "question": "Even when using an LMI system, the operator must:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ignore the load chart",
+        "explanation": "Incorrect. The load chart should never be ignored."
+      },
+      {
+        "id": "b",
+        "text": "Rely entirely on the computer",
+        "explanation": "Incorrect. Operators must maintain independent knowledge."
+      },
+      {
+        "id": "c",
+        "text": "Understand and verify load chart limits",
+        "explanation": "Correct. The load chart remains the primary reference. The LMI is a monitoring aid, not a replacement for operator knowledge."
+      },
+      {
+        "id": "d",
+        "text": "Disable the LMI",
+        "explanation": "Incorrect. The LMI should remain active during operations."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 996,
+    "question": "Anti-collision systems are designed to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase lift speed",
+        "explanation": "Incorrect. Anti-collision systems are safety devices, not performance enhancers."
+      },
+      {
+        "id": "b",
+        "text": "Prevent cranes from interfering with each other",
+        "explanation": "Correct. On multi-crane sites, anti-collision systems monitor crane position, jib overlap, and trolley position to prevent cranes from striking each other or structures."
+      },
+      {
+        "id": "c",
+        "text": "Reduce hook weight",
+        "explanation": "Incorrect. Hook weight is not affected by anti-collision systems."
+      },
+      {
+        "id": "d",
+        "text": "Improve hoist power",
+        "explanation": "Incorrect. Hoist power is a mechanical specification."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 997,
+    "question": "The trolley limit switch prevents:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rope breakage",
+        "explanation": "Incorrect. Rope protection involves other systems."
+      },
+      {
+        "id": "b",
+        "text": "Trolley running off the jib",
+        "explanation": "Correct. Limit switches stop the trolley before reaching mechanical end stops, preventing derailment."
+      },
+      {
+        "id": "c",
+        "text": "Excessive wind",
+        "explanation": "Incorrect. Wind monitoring is a separate system."
+      },
+      {
+        "id": "d",
+        "text": "Overloading",
+        "explanation": "Incorrect. Overload protection is handled by the LMI."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 998,
+    "question": "The swing brake is used to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase rotation speed",
+        "explanation": "Incorrect. Brakes slow or stop movement, not increase it."
+      },
+      {
+        "id": "b",
+        "text": "Stop or hold crane rotation",
+        "explanation": "Correct. The swing brake prevents uncontrolled rotation, particularly in windy conditions or when positioning loads precisely."
+      },
+      {
+        "id": "c",
+        "text": "Raise the hook block",
+        "explanation": "Incorrect. Hook block movement is controlled by the hoist."
+      },
+      {
+        "id": "d",
+        "text": "Control the trolley",
+        "explanation": "Incorrect. Trolley movement has its own control system."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 999,
+    "question": "If the LMI displays a system fault, the operator should:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue lifting normally",
+        "explanation": "Incorrect. Operating with a faulty LMI is dangerous."
+      },
+      {
+        "id": "b",
+        "text": "Ignore the warning",
+        "explanation": "Incorrect. Safety warnings must never be ignored."
+      },
+      {
+        "id": "c",
+        "text": "Stop operations and report the issue",
+        "explanation": "Correct. A malfunctioning LMI means critical safety monitoring may be compromised. Operations must stop until the issue is resolved."
+      },
+      {
+        "id": "d",
+        "text": "Override the system",
+        "explanation": "Incorrect. Overriding a faulty system is extremely dangerous."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 1000,
+    "question": "TRAP: If the LMI shows 85% capacity, but the load chart indicates the lift exceeds the rated capacity, what should the operator do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Proceed with the lift",
+        "explanation": "Incorrect. The load chart takes precedence over LMI readings."
+      },
+      {
+        "id": "b",
+        "text": "Ignore the load chart",
+        "explanation": "Incorrect. The load chart is the legal operating limit."
+      },
+      {
+        "id": "c",
+        "text": "Trust the LMI instead",
+        "explanation": "Incorrect. The LMI is only a monitoring device that estimates load moment based on sensors."
+      },
+      {
+        "id": "d",
+        "text": "Follow the load chart and do not make the lift",
+        "explanation": "Correct. The load chart is the legal operating limit of the crane. The LMI is only a monitoring device that estimates load moment based on sensors. Operators must always follow the load chart, even if the LMI indicates the crane is within limits."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 1001,
+    "question": "TRAP: A load weighs 4,000 kg, and the rigging weighs 400 kg. If the LMI only reads 4,000 kg, what is the problem?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The LMI is malfunctioning",
+        "explanation": "Incorrect. This is normal LMI behavior."
+      },
+      {
+        "id": "b",
+        "text": "The LMI cannot automatically know rigging weight",
+        "explanation": "Correct. The LMI measures force in the hoist line, but it cannot identify what portion is load vs rigging. Operators must manually account for rigging weight when calculating lift loads."
+      },
+      {
+        "id": "c",
+        "text": "The crane is overloaded",
+        "explanation": "Incorrect. The crane may or may not be overloaded - the issue is incomplete weight accounting."
+      },
+      {
+        "id": "d",
+        "text": "The load chart is incorrect",
+        "explanation": "Incorrect. The load chart is accurate; the operator needs to account for total suspended weight."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 1002,
+    "question": "TRAP: If the trolley position sensor fails, the LMI may:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase lifting capacity",
+        "explanation": "Incorrect. Sensor failure doesn't increase capacity."
+      },
+      {
+        "id": "b",
+        "text": "Display incorrect load percentages",
+        "explanation": "Correct. The LMI calculates load moment using weight and radius. If the radius sensor is inaccurate, the entire load moment calculation becomes incorrect."
+      },
+      {
+        "id": "c",
+        "text": "Disable the crane immediately",
+        "explanation": "Incorrect. Not all systems have automatic shutdown for sensor failures."
+      },
+      {
+        "id": "d",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. Sensor failure doesn't affect hoist speed controls."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 1003,
+    "question": "The LMI typically does NOT calculate which factor?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load weight",
+        "explanation": "Incorrect. LMIs measure and calculate load weight."
+      },
+      {
+        "id": "b",
+        "text": "Radius",
+        "explanation": "Incorrect. LMIs track radius (trolley position)."
+      },
+      {
+        "id": "c",
+        "text": "Capacity percentage",
+        "explanation": "Incorrect. LMIs display capacity percentage."
+      },
+      {
+        "id": "d",
+        "text": "Wind load on the crane",
+        "explanation": "Correct. Wind creates side loading on the structure, which is not included in most LMI calculations. Operators must still follow wind operating limits separately."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 1004,
+    "question": "TRAP: An operator turns the LMI override key to complete a lift. This action should only be done:",
+    "options": [
+      {
+        "id": "a",
+        "text": "When lifting concrete",
+        "explanation": "Incorrect. Concrete lifts follow normal procedures."
+      },
+      {
+        "id": "b",
+        "text": "When lifting steel",
+        "explanation": "Incorrect. Steel lifts follow normal procedures."
+      },
+      {
+        "id": "c",
+        "text": "Under authorized recovery procedures or maintenance supervision",
+        "explanation": "Correct. Overriding the LMI bypasses safety protections and is typically restricted to qualified technicians or authorized procedures."
+      },
+      {
+        "id": "d",
+        "text": "Whenever the lift is slow",
+        "explanation": "Incorrect. Lift speed is not a valid reason to bypass safety systems."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 1005,
+    "question": "TRAP: An operator lifts a load at 20 m radius, and the LMI reads 40% capacity. The operator then moves the trolley out to 35 m without checking the chart. Why is this dangerous?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The hoist speed increases",
+        "explanation": "Incorrect. Hoist speed is not the concern here."
+      },
+      {
+        "id": "b",
+        "text": "Capacity decreases as radius increases",
+        "explanation": "Correct. Lifting capacity decreases rapidly as radius increases. A lift that is safe at 20 m may overload the crane at 35 m."
+      },
+      {
+        "id": "c",
+        "text": "The load becomes lighter",
+        "explanation": "Incorrect. The load weight doesn't change with radius."
+      },
+      {
+        "id": "d",
+        "text": "The crane becomes faster",
+        "explanation": "Incorrect. Crane speed is not affected by trolley position."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 1006,
+    "question": "The LMI may not properly account for:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rope diameter",
+        "explanation": "Incorrect. Rope diameter is a static specification."
+      },
+      {
+        "id": "b",
+        "text": "Hook color",
+        "explanation": "Incorrect. Hook color has no effect on crane operations."
+      },
+      {
+        "id": "c",
+        "text": "Dynamic shock loading",
+        "explanation": "Correct. Shock loading occurs when a load is jerked or suddenly stopped, creating forces higher than the static weight. The LMI may not respond quickly enough to detect these spikes."
+      },
+      {
+        "id": "d",
+        "text": "Operator fatigue",
+        "explanation": "Incorrect. Operator fatigue is a human factor, not a load factor."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 1007,
+    "question": "TRAP: If a load begins swinging, the LMI may display incorrect capacity readings because:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The crane becomes heavier",
+        "explanation": "Incorrect. The crane weight doesn't change."
+      },
+      {
+        "id": "b",
+        "text": "Dynamic forces change the load moment",
+        "explanation": "Correct. Swinging loads introduce dynamic forces that can temporarily increase tension in the hoist line."
+      },
+      {
+        "id": "c",
+        "text": "The rope shortens",
+        "explanation": "Incorrect. Rope length is not significantly affected by swing."
+      },
+      {
+        "id": "d",
+        "text": "The hook rotates",
+        "explanation": "Incorrect. Hook rotation doesn't affect LMI readings."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 1008,
+    "question": "TRAP: A crane operator says: 'The computer will stop the crane if it's overloaded.' Why is this statement dangerous?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The computer is inaccurate",
+        "explanation": "Incorrect. While computers can have errors, this isn't the main danger."
+      },
+      {
+        "id": "b",
+        "text": "The LMI is an aid, not a replacement for operator judgment",
+        "explanation": "Correct. Operators must always calculate loads and verify charts themselves. The LMI only provides additional monitoring."
+      },
+      {
+        "id": "c",
+        "text": "The load chart is outdated",
+        "explanation": "Incorrect. Load chart validity is a separate issue."
+      },
+      {
+        "id": "d",
+        "text": "The crane is manual",
+        "explanation": "Incorrect. This doesn't address the danger of over-reliance on automation."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 1009,
+    "question": "An LMI system usually cannot detect:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load weight",
+        "explanation": "Incorrect. LMIs measure load weight."
+      },
+      {
+        "id": "b",
+        "text": "Radius",
+        "explanation": "Incorrect. LMIs track radius."
+      },
+      {
+        "id": "c",
+        "text": "Another crane lifting the same load",
+        "explanation": "Correct. When two cranes share a load, the LMI on each crane only measures its own line tension. Load distribution may shift unexpectedly."
+      },
+      {
+        "id": "d",
+        "text": "Capacity percentage",
+        "explanation": "Incorrect. LMIs calculate and display capacity percentage."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 1010,
+    "question": "TRAP: If the hoist rope runs at an angle due to load swing or side pull, the LMI may:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase capacity",
+        "explanation": "Incorrect. Angled loading never increases capacity."
+      },
+      {
+        "id": "b",
+        "text": "Shut down the crane",
+        "explanation": "Incorrect. Most LMIs don't automatically detect rope angles."
+      },
+      {
+        "id": "c",
+        "text": "Display inaccurate load readings",
+        "explanation": "Correct. LMIs assume vertical loading conditions. Side loading introduces forces that sensors may not measure correctly."
+      },
+      {
+        "id": "d",
+        "text": "Double the load weight",
+        "explanation": "Incorrect. The display won't show double weight."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 1011,
+    "question": "If the LMI sensors are not calibrated correctly, the system may:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. Calibration doesn't affect hoist speed."
+      },
+      {
+        "id": "b",
+        "text": "Display incorrect load percentages",
+        "explanation": "Correct. Calibration ensures that the sensors measuring load tension, trolley position, and boom angle produce accurate calculations."
+      },
+      {
+        "id": "c",
+        "text": "Shut down immediately",
+        "explanation": "Incorrect. Poor calibration doesn't trigger automatic shutdown."
+      },
+      {
+        "id": "d",
+        "text": "Lock the trolley",
+        "explanation": "Incorrect. Calibration issues don't lock the trolley."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 1012,
+    "question": "TRAP: If a load is still partially resting on the ground, the LMI may show:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Full load weight",
+        "explanation": "Incorrect. The ground is still supporting part of the load."
+      },
+      {
+        "id": "b",
+        "text": "Lower load weight than actual",
+        "explanation": "Correct. Until the load is fully free of the ground, the crane is not carrying the full weight. Operators must lift slowly to verify actual load weight."
+      },
+      {
+        "id": "c",
+        "text": "Double weight",
+        "explanation": "Incorrect. Partial contact doesn't double the reading."
+      },
+      {
+        "id": "d",
+        "text": "Zero weight",
+        "explanation": "Incorrect. The LMI will show some weight being carried."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 1013,
+    "question": "If the LMI computer display fails, the operator should:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue lifting normally",
+        "explanation": "Incorrect. Operating without LMI monitoring is unsafe."
+      },
+      {
+        "id": "b",
+        "text": "Stop operations until the system is inspected",
+        "explanation": "Correct. Operating without an LMI may violate site safety requirements or manufacturer instructions."
+      },
+      {
+        "id": "c",
+        "text": "Disable alarms",
+        "explanation": "Incorrect. Disabling safety alarms is never appropriate."
+      },
+      {
+        "id": "d",
+        "text": "Reduce hoist speed",
+        "explanation": "Incorrect. Speed reduction doesn't address the monitoring failure."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 1014,
+    "question": "TRAP: If the LMI displays 95% capacity, the operator should recognize that:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The crane is safe",
+        "explanation": "Incorrect. 95% is dangerously close to the limit."
+      },
+      {
+        "id": "b",
+        "text": "The crane is extremely close to its maximum limit",
+        "explanation": "Correct. Even small changes in radius, wind, or load swing could push the crane into overload conditions."
+      },
+      {
+        "id": "c",
+        "text": "The crane is overloaded",
+        "explanation": "Incorrect. 95% is not technically overloaded, but it's critically close."
+      },
+      {
+        "id": "d",
+        "text": "The load is light",
+        "explanation": "Incorrect. 95% capacity indicates a heavy load relative to the crane's limit at that radius."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI"
+  },
+  {
+    "id": 1015,
+    "question": "During inspection of a wire rope sling, you find 6 broken wires in one rope lay. What should be done?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue using the sling",
+        "explanation": "Incorrect. Broken wires indicate serious structural damage."
+      },
+      {
+        "id": "b",
+        "text": "Use the sling only for light loads",
+        "explanation": "Incorrect. Damaged slings cannot be used for any loads."
+      },
+      {
+        "id": "c",
+        "text": "Repair the sling",
+        "explanation": "Incorrect. Wire rope slings with broken wires cannot be repaired for lifting use."
+      },
+      {
+        "id": "d",
+        "text": "Remove the sling from service",
+        "explanation": "Correct. Multiple broken wires within a rope lay indicate serious structural damage. Wire rope slings must be removed from service immediately when excessive broken wires are present. Broken wires weaken the rope and can lead to sudden catastrophic failure."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1016,
+    "question": "A wire rope sling has a visible kink in the rope. What is the correct action?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Straighten the rope and continue using it",
+        "explanation": "Incorrect. Kinks cannot be safely straightened."
+      },
+      {
+        "id": "b",
+        "text": "Use it only for vertical lifts",
+        "explanation": "Incorrect. Kinked rope is unsafe for any lift configuration."
+      },
+      {
+        "id": "c",
+        "text": "Cut off the damaged section",
+        "explanation": "Incorrect. Cutting shortens the sling and doesn't address potential hidden damage."
+      },
+      {
+        "id": "d",
+        "text": "Remove it from service",
+        "explanation": "Correct. A kink permanently damages the internal wire structure and creates uneven load distribution. Kinked wire rope cannot safely carry rated loads."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1017,
+    "question": "A nylon web sling has a deep cut across the edge fibers. What should be done?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tape the damaged section",
+        "explanation": "Incorrect. Tape cannot restore structural strength."
+      },
+      {
+        "id": "b",
+        "text": "Use it for lighter loads",
+        "explanation": "Incorrect. Cut slings are unsafe for any load."
+      },
+      {
+        "id": "c",
+        "text": "Turn the sling over",
+        "explanation": "Incorrect. Flipping the sling doesn't repair the damage."
+      },
+      {
+        "id": "d",
+        "text": "Remove it from service",
+        "explanation": "Correct. Synthetic slings rely on continuous fiber strength. Cuts or tears weaken the sling dramatically and can cause sudden failure under load."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1018,
+    "question": "A sling's identification tag is missing or unreadable. What should be done?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Estimate the sling capacity",
+        "explanation": "Incorrect. Estimating capacity is dangerous and violates safety standards."
+      },
+      {
+        "id": "b",
+        "text": "Use it only for small loads",
+        "explanation": "Incorrect. Without verified capacity, no load is safe."
+      },
+      {
+        "id": "c",
+        "text": "Mark a new tag manually",
+        "explanation": "Incorrect. Only qualified personnel can re-certify and tag slings."
+      },
+      {
+        "id": "d",
+        "text": "Remove the sling from service",
+        "explanation": "Correct. Without the tag, the rated capacity cannot be verified. Using unidentified rigging violates safety practices."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1019,
+    "question": "A shackle pin appears bent during inspection. What is the correct action?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hammer the pin straight",
+        "explanation": "Incorrect. Attempting to straighten hardware can cause further damage."
+      },
+      {
+        "id": "b",
+        "text": "Use the shackle for lighter loads",
+        "explanation": "Incorrect. Damaged shackles are unsafe for any load."
+      },
+      {
+        "id": "c",
+        "text": "Tighten the pin further",
+        "explanation": "Incorrect. Tightening doesn't address structural damage."
+      },
+      {
+        "id": "d",
+        "text": "Remove the shackle from service",
+        "explanation": "Correct. Bent pins indicate overloading or side loading. Structural integrity is compromised."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1020,
+    "question": "A crane hook is missing its safety latch. What should be done?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Use the hook carefully",
+        "explanation": "Incorrect. Operating without safety devices is not permitted."
+      },
+      {
+        "id": "b",
+        "text": "Install a temporary latch",
+        "explanation": "Incorrect. Temporary fixes are not acceptable for safety devices."
+      },
+      {
+        "id": "c",
+        "text": "Continue lifting with caution",
+        "explanation": "Incorrect. Caution doesn't replace proper safety equipment."
+      },
+      {
+        "id": "d",
+        "text": "Remove the hook from service until repaired",
+        "explanation": "Correct. Safety latches prevent slings from slipping out of the hook throat during load movement."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1021,
+    "question": "The hook throat opening is wider than its original shape. What does this indicate?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Normal wear",
+        "explanation": "Incorrect. Normal wear doesn't widen the throat."
+      },
+      {
+        "id": "b",
+        "text": "Heat expansion",
+        "explanation": "Incorrect. Permanent widening is not from temporary heat exposure."
+      },
+      {
+        "id": "c",
+        "text": "Possible overload damage",
+        "explanation": "Correct. A widened hook throat indicates plastic deformation, which occurs when the hook has been overloaded beyond its design capacity."
+      },
+      {
+        "id": "d",
+        "text": "Manufacturing defect",
+        "explanation": "Incorrect. If the hook was previously normal, widening indicates damage, not a defect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1022,
+    "question": "A chain sling shows visible elongation in several links. What does this indicate?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Normal wear",
+        "explanation": "Incorrect. Normal use doesn't stretch chain links."
+      },
+      {
+        "id": "b",
+        "text": "Manufacturing variation",
+        "explanation": "Incorrect. Manufacturing variations are consistent, not elongation."
+      },
+      {
+        "id": "c",
+        "text": "Overloading of the chain",
+        "explanation": "Correct. Chains stretch when subjected to forces beyond their rated capacity. Stretched links indicate the sling has been structurally weakened."
+      },
+      {
+        "id": "d",
+        "text": "Rust damage",
+        "explanation": "Incorrect. Rust causes pitting, not stretching."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1023,
+    "question": "A chain sling link appears twisted. What should be done?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Twist it back into position",
+        "explanation": "Incorrect. Attempting to reshape damaged hardware is dangerous."
+      },
+      {
+        "id": "b",
+        "text": "Continue using it",
+        "explanation": "Incorrect. Twisted links are structurally compromised."
+      },
+      {
+        "id": "c",
+        "text": "Heat the link to reshape it",
+        "explanation": "Incorrect. Heating changes the metal properties and weakens it further."
+      },
+      {
+        "id": "d",
+        "text": "Remove the sling from service",
+        "explanation": "Correct. Twisted links indicate severe stress or misuse and reduce the sling's strength."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1024,
+    "question": "A wire rope sling shows heavy rust and corrosion. What is the correct action?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lubricate and continue using it",
+        "explanation": "Incorrect. Lubrication doesn't restore corroded metal."
+      },
+      {
+        "id": "b",
+        "text": "Clean the rust",
+        "explanation": "Incorrect. Cleaning doesn't restore lost metal or strength."
+      },
+      {
+        "id": "c",
+        "text": "Inspect and remove from service if corrosion reduces strength",
+        "explanation": "Correct. Corrosion weakens the wire strands and reduces load capacity."
+      },
+      {
+        "id": "d",
+        "text": "Paint the rope",
+        "explanation": "Incorrect. Painting hides damage and doesn't restore strength."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1025,
+    "question": "A synthetic sling has melted fibers from heat exposure. What should be done?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cut away the melted section",
+        "explanation": "Incorrect. Cutting doesn't ensure the remaining fibers are undamaged."
+      },
+      {
+        "id": "b",
+        "text": "Use for lighter loads",
+        "explanation": "Incorrect. Heat-damaged slings are unsafe for any load."
+      },
+      {
+        "id": "c",
+        "text": "Continue using carefully",
+        "explanation": "Incorrect. Care doesn't restore structural integrity."
+      },
+      {
+        "id": "d",
+        "text": "Remove from service",
+        "explanation": "Correct. Heat damage permanently weakens synthetic fibers."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1026,
+    "question": "A wire rope sling shows birdcaging (wires separating outward). What does this indicate?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Proper lubrication",
+        "explanation": "Incorrect. Birdcaging is not a sign of good maintenance."
+      },
+      {
+        "id": "b",
+        "text": "Rope flexibility",
+        "explanation": "Incorrect. Birdcaging indicates damage, not flexibility."
+      },
+      {
+        "id": "c",
+        "text": "Severe internal rope damage",
+        "explanation": "Correct. Birdcaging indicates core failure or twisting damage and the sling must be removed from service."
+      },
+      {
+        "id": "d",
+        "text": "Surface wear",
+        "explanation": "Incorrect. Birdcaging is internal structural failure, not surface wear."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1027,
+    "question": "A section of wire rope appears flattened. What is the correct action?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rotate the sling",
+        "explanation": "Incorrect. Rotation doesn't repair flattening damage."
+      },
+      {
+        "id": "b",
+        "text": "Lubricate the rope",
+        "explanation": "Incorrect. Lubrication doesn't restore shape or strength."
+      },
+      {
+        "id": "c",
+        "text": "Continue lifting",
+        "explanation": "Incorrect. Flattened rope is structurally compromised."
+      },
+      {
+        "id": "d",
+        "text": "Remove from service",
+        "explanation": "Correct. Flattening indicates internal strand damage and reduces load capacity."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1028,
+    "question": "A web sling shows heavy abrasion along the edges. What should be done?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Use edge protection",
+        "explanation": "Incorrect. Edge protection prevents future damage but doesn't repair existing damage."
+      },
+      {
+        "id": "b",
+        "text": "Continue lifting",
+        "explanation": "Incorrect. Heavy abrasion compromises sling strength."
+      },
+      {
+        "id": "c",
+        "text": "Flip the sling",
+        "explanation": "Incorrect. Flipping doesn't restore damaged fibers."
+      },
+      {
+        "id": "d",
+        "text": "Remove it if fibers are significantly worn",
+        "explanation": "Correct. Edge abrasion weakens the load-bearing fibers."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1029,
+    "question": "A shackle is loaded sideways instead of vertically. What is the risk?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increased lifting capacity",
+        "explanation": "Incorrect. Side loading decreases safe capacity."
+      },
+      {
+        "id": "b",
+        "text": "Shackle failure due to side loading",
+        "explanation": "Correct. Shackles are designed for vertical loading. Side loading creates bending stress and possible failure."
+      },
+      {
+        "id": "c",
+        "text": "Improved load balance",
+        "explanation": "Incorrect. Side loading creates imbalance and stress."
+      },
+      {
+        "id": "d",
+        "text": "Reduced hook wear",
+        "explanation": "Incorrect. Hook wear is unrelated to shackle orientation."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1030,
+    "question": "A synthetic sling is tied in a knot to shorten it. What is the correct action?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tighten the knot",
+        "explanation": "Incorrect. Tightening makes the problem worse."
+      },
+      {
+        "id": "b",
+        "text": "Continue lifting",
+        "explanation": "Incorrect. Knotted slings have severely reduced capacity."
+      },
+      {
+        "id": "c",
+        "text": "Use the sling carefully",
+        "explanation": "Incorrect. Care doesn't restore lost capacity."
+      },
+      {
+        "id": "d",
+        "text": "Do not use the sling",
+        "explanation": "Correct. Knots significantly reduce sling strength, often by 50% or more."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1031,
+    "question": "The tip of the hook is chipped. What should be done?",
+    "options": [
+      {
+        "id": "a",
+        "text": "File the tip smooth",
+        "explanation": "Incorrect. Filing removes material and doesn't restore structural integrity."
+      },
+      {
+        "id": "b",
+        "text": "Continue using the hook",
+        "explanation": "Incorrect. Damaged hooks can cause rigging to slip."
+      },
+      {
+        "id": "c",
+        "text": "Reduce lifting capacity",
+        "explanation": "Incorrect. Capacity reduction doesn't address the safety hazard."
+      },
+      {
+        "id": "d",
+        "text": "Remove the hook from service",
+        "explanation": "Correct. Damage at the hook tip can cause improper sling seating and potential release."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1032,
+    "question": "A synthetic sling has been exposed to unknown chemicals. What should be done?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wash the sling",
+        "explanation": "Incorrect. Washing may not remove chemical damage to fibers."
+      },
+      {
+        "id": "b",
+        "text": "Use for lighter loads",
+        "explanation": "Incorrect. Unknown damage means unknown capacity."
+      },
+      {
+        "id": "c",
+        "text": "Inspect and test the sling",
+        "explanation": "Incorrect. Visual inspection may not detect chemical degradation."
+      },
+      {
+        "id": "d",
+        "text": "Remove from service unless confirmed safe",
+        "explanation": "Correct. Chemicals can degrade synthetic fibers, weakening the sling."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1033,
+    "question": "The master link of a sling shows cracks near the weld. What is the correct action?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Weld repair",
+        "explanation": "Incorrect. Field welding on rigging is not permitted."
+      },
+      {
+        "id": "b",
+        "text": "Continue using",
+        "explanation": "Incorrect. Cracked components can fail suddenly."
+      },
+      {
+        "id": "c",
+        "text": "Grind smooth",
+        "explanation": "Incorrect. Grinding removes material and doesn't repair cracks."
+      },
+      {
+        "id": "d",
+        "text": "Remove from service",
+        "explanation": "Correct. Cracked master links are a serious structural failure risk."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1034,
+    "question": "Who is responsible for inspecting rigging before use?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The crane manufacturer",
+        "explanation": "Incorrect. Manufacturers don't inspect rigging on site."
+      },
+      {
+        "id": "b",
+        "text": "The project manager",
+        "explanation": "Incorrect. Project managers oversee work but don't inspect each piece of rigging."
+      },
+      {
+        "id": "c",
+        "text": "The rigger or operator using the rigging",
+        "explanation": "Correct. Rigging must be visually inspected before each use to identify damage or wear."
+      },
+      {
+        "id": "d",
+        "text": "Only the safety officer",
+        "explanation": "Incorrect. While safety officers may audit, daily inspection is the user's responsibility."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1035,
+    "question": "What is the primary purpose of a test block used during crane commissioning?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To increase crane lifting capacity",
+        "explanation": "Incorrect. Test blocks don't increase capacity."
+      },
+      {
+        "id": "b",
+        "text": "To counterbalance the crane",
+        "explanation": "Incorrect. Counterweights serve that purpose."
+      },
+      {
+        "id": "c",
+        "text": "To verify crane safety systems and load limits",
+        "explanation": "Correct. Test blocks are known weights used to confirm proper operation of overload protection, load moment indicator (LMI), hoist limits, and crane capacity limits."
+      },
+      {
+        "id": "d",
+        "text": "To stabilize the tower",
+        "explanation": "Incorrect. Test blocks are used for verification, not tower stabilization."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Test Blocks & Commissioning"
+  },
+  {
+    "id": 1036,
+    "question": "A kicker attached to a test block is used to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Stabilize the load during testing",
+        "explanation": "Incorrect. The kicker adds weight, not stability."
+      },
+      {
+        "id": "b",
+        "text": "Increase crane lifting power",
+        "explanation": "Incorrect. Kickers don't increase crane power."
+      },
+      {
+        "id": "c",
+        "text": "Reduce rope tension",
+        "explanation": "Incorrect. Kickers increase load and tension."
+      },
+      {
+        "id": "d",
+        "text": "Trigger the crane's overload or limit protection",
+        "explanation": "Correct. The kicker adds additional weight beyond the rated test load so that the crane's overload protection system activates."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Test Blocks & Commissioning"
+  },
+  {
+    "id": 1037,
+    "question": "A kicker is usually approximately what percentage of the main test block weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1%",
+        "explanation": "Incorrect. 1% may be too small to reliably trigger the limit."
+      },
+      {
+        "id": "b",
+        "text": "5–10%",
+        "explanation": "Correct. A kicker is typically 5–10% of the test load. This small extra weight is enough to trigger the crane's limit switch or overload system."
+      },
+      {
+        "id": "c",
+        "text": "25%",
+        "explanation": "Incorrect. 25% would create excessive overload."
+      },
+      {
+        "id": "d",
+        "text": "50%",
+        "explanation": "Incorrect. 50% would be dangerously excessive."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Test Blocks & Commissioning"
+  },
+  {
+    "id": 1038,
+    "question": "During a kicker test, the crane first lifts:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The kicker only",
+        "explanation": "Incorrect. The kicker remains on the ground initially."
+      },
+      {
+        "id": "b",
+        "text": "The kicker and test block together",
+        "explanation": "Incorrect. The kicker is lifted after the test block."
+      },
+      {
+        "id": "c",
+        "text": "The main test block only",
+        "explanation": "Correct. The crane first lifts the main test block (rated load). When the kicker is picked up, the extra weight causes the protection system to trip."
+      },
+      {
+        "id": "d",
+        "text": "The hook block",
+        "explanation": "Incorrect. The hook block is part of the crane, not the test setup."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Test Blocks & Commissioning"
+  },
+  {
+    "id": 1039,
+    "question": "If the crane successfully lifts both the test block and kicker without tripping the system, this indicates:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Normal operation",
+        "explanation": "Incorrect. The system should have tripped."
+      },
+      {
+        "id": "b",
+        "text": "Excess hoist speed",
+        "explanation": "Incorrect. Speed doesn't affect limit activation."
+      },
+      {
+        "id": "c",
+        "text": "Possible malfunction of the overload protection system",
+        "explanation": "Correct. The overload protection system should activate before the kicker leaves the ground. If it does not trip, the system may be miscalibrated or faulty."
+      },
+      {
+        "id": "d",
+        "text": "Rope stretch",
+        "explanation": "Incorrect. Rope stretch doesn't prevent limit activation."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Test Blocks & Commissioning"
+  },
+  {
+    "id": 1040,
+    "question": "Test blocks must have:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Painted colors only",
+        "explanation": "Incorrect. Color doesn't verify weight."
+      },
+      {
+        "id": "b",
+        "text": "Manufacturer branding",
+        "explanation": "Incorrect. Branding alone doesn't provide weight verification."
+      },
+      {
+        "id": "c",
+        "text": "Clearly marked and verified weight",
+        "explanation": "Correct. The exact weight of test blocks must be known and documented so accurate testing can occur."
+      },
+      {
+        "id": "d",
+        "text": "Steel construction only",
+        "explanation": "Incorrect. Material alone doesn't ensure verified weight."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Test Blocks & Commissioning"
+  },
+  {
+    "id": 1041,
+    "question": "Test block lifting is often performed at the maximum rated radius to test:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rope tension",
+        "explanation": "Incorrect. Rope tension is not the primary test objective."
+      },
+      {
+        "id": "b",
+        "text": "Swing speed",
+        "explanation": "Incorrect. Swing speed is unrelated to load testing."
+      },
+      {
+        "id": "c",
+        "text": "Maximum load moment conditions",
+        "explanation": "Correct. Maximum radius produces the largest overturning moment, which tests the crane's moment limiting system."
+      },
+      {
+        "id": "d",
+        "text": "Brake temperature",
+        "explanation": "Incorrect. Brake testing is a separate procedure."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Test Blocks & Commissioning"
+  },
+  {
+    "id": 1042,
+    "question": "If the kicker is too heavy, the risk is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Faster testing",
+        "explanation": "Incorrect. Speed is not the concern."
+      },
+      {
+        "id": "b",
+        "text": "Rope twisting",
+        "explanation": "Incorrect. Rope twist is not the primary risk."
+      },
+      {
+        "id": "c",
+        "text": "Applying excessive overload beyond the intended limit",
+        "explanation": "Correct. The kicker should be small enough to safely trigger the limit, not dangerously overload the crane."
+      },
+      {
+        "id": "d",
+        "text": "Reduced hoist speed",
+        "explanation": "Incorrect. Hoist speed is not the concern."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Test Blocks & Commissioning"
+  },
+  {
+    "id": 1043,
+    "question": "How is the kicker typically attached to the test block?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Directly welded",
+        "explanation": "Incorrect. Welding would make the kicker lift with the block."
+      },
+      {
+        "id": "b",
+        "text": "Using wire ties",
+        "explanation": "Incorrect. Wire ties are not suitable for test block rigging."
+      },
+      {
+        "id": "c",
+        "text": "Suspended beneath the main test block with chain or rigging",
+        "explanation": "Correct. The kicker hangs below the main block, allowing it to remain on the ground until the crane tries to lift it."
+      },
+      {
+        "id": "d",
+        "text": "Bolted to the crane hook",
+        "explanation": "Incorrect. The kicker is attached to the test block, not the hook."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Test Blocks & Commissioning"
+  },
+  {
+    "id": 1044,
+    "question": "The overload system should activate when:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The test block leaves the ground",
+        "explanation": "Incorrect. The block alone is within rated capacity."
+      },
+      {
+        "id": "b",
+        "text": "The hook begins lifting",
+        "explanation": "Incorrect. The hook lifting starts with the test block only."
+      },
+      {
+        "id": "c",
+        "text": "The kicker begins to lift from the ground",
+        "explanation": "Correct. The overload limit should trip when the additional kicker weight is applied."
+      },
+      {
+        "id": "d",
+        "text": "The crane swings",
+        "explanation": "Incorrect. Swinging is unrelated to overload activation."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Test Blocks & Commissioning"
+  },
+  {
+    "id": 1045,
+    "question": "Test blocks are commonly used to verify:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Counterweight position",
+        "explanation": "Incorrect. Counterweight position is checked separately."
+      },
+      {
+        "id": "b",
+        "text": "Rope lubrication",
+        "explanation": "Incorrect. Lubrication is a maintenance item."
+      },
+      {
+        "id": "c",
+        "text": "Load Moment Indicator (LMI) calibration",
+        "explanation": "Correct. Because the test block weight is known, technicians can verify that the LMI displays the correct load value."
+      },
+      {
+        "id": "d",
+        "text": "Trolley speed",
+        "explanation": "Incorrect. Trolley speed is not verified with test blocks."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Test Blocks & Commissioning"
+  },
+  {
+    "id": 1046,
+    "question": "During test block lifting, personnel should:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Stand beside the load",
+        "explanation": "Incorrect. Personnel must stay clear of the load."
+      },
+      {
+        "id": "b",
+        "text": "Hold tag lines close to the hook",
+        "explanation": "Incorrect. Test blocks typically don't require tag lines and personnel shouldn't be close."
+      },
+      {
+        "id": "c",
+        "text": "Maintain a clear exclusion zone around the test area",
+        "explanation": "Correct. Test blocks are heavy loads, and safety exclusion zones must be maintained."
+      },
+      {
+        "id": "d",
+        "text": "Stand under the boom",
+        "explanation": "Incorrect. Never stand under suspended loads."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Test Blocks & Commissioning"
+  },
+  {
+    "id": 1047,
+    "question": "Kicker testing confirms that:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The crane can exceed rated capacity",
+        "explanation": "Incorrect. The test verifies the crane stops before exceeding capacity."
+      },
+      {
+        "id": "b",
+        "text": "The operator can handle overloads",
+        "explanation": "Incorrect. Operators should not operate in overload."
+      },
+      {
+        "id": "c",
+        "text": "The crane stops lifting when limits are exceeded",
+        "explanation": "Correct. This procedure verifies that safety systems intervene automatically when the crane reaches its limit."
+      },
+      {
+        "id": "d",
+        "text": "The rope can stretch safely",
+        "explanation": "Incorrect. Rope stretch is not the test objective."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Test Blocks & Commissioning"
+  },
+  {
+    "id": 1048,
+    "question": "Test block procedures are typically required after:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Painting the crane",
+        "explanation": "Incorrect. Painting doesn't affect load systems."
+      },
+      {
+        "id": "b",
+        "text": "Changing cab seats",
+        "explanation": "Incorrect. Cab equipment doesn't affect load monitoring."
+      },
+      {
+        "id": "c",
+        "text": "Major mechanical repairs or structural changes",
+        "explanation": "Correct. Major repairs may affect load monitoring systems, requiring verification before returning the crane to service."
+      },
+      {
+        "id": "d",
+        "text": "Daily inspections",
+        "explanation": "Incorrect. Daily inspections don't require full test block procedures."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Test Blocks & Commissioning"
+  },
+  {
+    "id": 1049,
+    "question": "During test block lifting, the operator must:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Swing the crane quickly",
+        "explanation": "Incorrect. Slow, controlled movement is required."
+      },
+      {
+        "id": "b",
+        "text": "Lift the kicker first",
+        "explanation": "Incorrect. The main test block is lifted first."
+      },
+      {
+        "id": "c",
+        "text": "Lift slowly and monitor crane system readings",
+        "explanation": "Correct. Slow lifting allows technicians to verify load indicator readings, system activation points, and brake response."
+      },
+      {
+        "id": "d",
+        "text": "Ignore LMI readings",
+        "explanation": "Incorrect. LMI readings are critical during testing."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Test Blocks & Commissioning"
+  },
+  {
+    "id": 1050,
+    "question": "The kicker must hang:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Above the test block",
+        "explanation": "Incorrect. The kicker must be below to stay on the ground initially."
+      },
+      {
+        "id": "b",
+        "text": "At the hook",
+        "explanation": "Incorrect. The kicker is suspended from the test block."
+      },
+      {
+        "id": "c",
+        "text": "Below the test block so it stays on the ground during the initial lift",
+        "explanation": "Correct. The kicker must remain on the ground until the crane attempts to lift it."
+      },
+      {
+        "id": "d",
+        "text": "Beside the boom",
+        "explanation": "Incorrect. The kicker is part of the load below the hook."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Test Blocks & Commissioning"
+  },
+  {
+    "id": 1051,
+    "question": "If the test block weight is incorrect, the result may be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Faster testing",
+        "explanation": "Incorrect. Speed is not the concern."
+      },
+      {
+        "id": "b",
+        "text": "Rope overheating",
+        "explanation": "Incorrect. Overheating may occur but isn't the primary consequence."
+      },
+      {
+        "id": "c",
+        "text": "Improper calibration verification of crane safety systems",
+        "explanation": "Correct. Incorrect weights make testing unreliable and unsafe."
+      },
+      {
+        "id": "d",
+        "text": "Increased lifting speed",
+        "explanation": "Incorrect. Speed is not affected by block weight accuracy."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Test Blocks & Commissioning"
+  },
+  {
+    "id": 1052,
+    "question": "Test block and kicker testing is commonly part of:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Daily crane startup",
+        "explanation": "Incorrect. Daily startup doesn't typically include full testing."
+      },
+      {
+        "id": "b",
+        "text": "Rigging inspection",
+        "explanation": "Incorrect. Rigging inspection is a separate procedure."
+      },
+      {
+        "id": "c",
+        "text": "Crane commissioning and certification",
+        "explanation": "Correct. These tests confirm that safety systems function correctly before crane operation begins."
+      },
+      {
+        "id": "d",
+        "text": "Weather checks",
+        "explanation": "Incorrect. Weather checks are unrelated."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Test Blocks & Commissioning"
+  },
+  {
+    "id": 1053,
+    "question": "When the overload limit trips, the crane should:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue lifting slowly",
+        "explanation": "Incorrect. Lifting must stop."
+      },
+      {
+        "id": "b",
+        "text": "Lower automatically",
+        "explanation": "Incorrect. Lowering may be possible but is not automatic in all systems."
+      },
+      {
+        "id": "c",
+        "text": "Stop hoisting further load",
+        "explanation": "Correct. The safety system prevents the crane from lifting beyond its rated capacity."
+      },
+      {
+        "id": "d",
+        "text": "Increase boom angle",
+        "explanation": "Incorrect. Boom angle change doesn't address the overload."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Test Blocks & Commissioning"
+  },
+  {
+    "id": 1054,
+    "question": "The overall goal of test block and kicker testing is to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Demonstrate lifting strength",
+        "explanation": "Incorrect. The goal is verification, not demonstration."
+      },
+      {
+        "id": "b",
+        "text": "Train operators",
+        "explanation": "Incorrect. Operator training may occur but isn't the primary goal."
+      },
+      {
+        "id": "c",
+        "text": "Verify that crane safety and protection systems function correctly",
+        "explanation": "Correct. These tests ensure that the crane will automatically stop dangerous lifting conditions."
+      },
+      {
+        "id": "d",
+        "text": "Increase crane capacity",
+        "explanation": "Incorrect. Testing doesn't increase capacity."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Test Blocks & Commissioning"
   }
 ]

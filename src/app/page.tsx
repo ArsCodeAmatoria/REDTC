@@ -13,18 +13,21 @@ const categories = [
   { name: "PDF Load Chart Practice", count: 201, color: "bg-accent", isCharts: true },
   { name: "Advanced Operations & Traps", count: 95, color: "bg-foreground" },
   { name: "Master Level Questions", count: 100, color: "bg-foreground" },
-  { name: "Rigging & Sling Angles", count: 85, color: "bg-foreground" },
+  { name: "Rigging & Sling Angles", count: 120, color: "bg-foreground" },
   { name: "Material Weight & Geometry", count: 80, color: "bg-foreground" },
   { name: "Structural & Mechanical", count: 70, color: "bg-foreground" },
   { name: "Gear, Drive & Capacity", count: 65, color: "bg-foreground" },
   { name: "Safety, Regulations & Comms", count: 60, color: "bg-foreground" },
   { name: "Weather & Environmental", count: 50, color: "bg-foreground" },
+  { name: "Self-Erect & Remote Operation", count: 16, color: "bg-foreground" },
+  { name: "Cab Controls & LMI", count: 35, color: "bg-foreground" },
+  { name: "Test Blocks & Commissioning", count: 20, color: "bg-foreground" },
 ];
 
 const features = [
   {
     label: "Practice",
-    title: "948 exam questions with detailed explanations",
+    title: "1054 exam questions with detailed explanations",
     description: "Every question includes why the correct answer is right and why others are wrong.",
   },
   {
@@ -120,7 +123,7 @@ export default function HomePage() {
                 className="space-y-6"
               >
                 <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
-                  Practice with 948 questions including Master Level problems covering advanced calculations, 
+                  Practice with 1,054 questions including Master Level problems covering advanced calculations, 
                   structural engineering, and emergency scenarios.
                 </p>
 
@@ -156,7 +159,7 @@ export default function HomePage() {
 
                 <div className="grid grid-cols-3 gap-4">
                   <div className="space-y-1">
-                    <div className="text-4xl font-display font-bold">948</div>
+                    <div className="text-4xl font-display font-bold">1054</div>
                     <div className="text-sm text-muted-foreground">Questions</div>
                   </div>
                   <div className="space-y-1">
@@ -371,7 +374,7 @@ export default function HomePage() {
       {/* Exam Details Section */}
       <section className="border-b border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="grid lg:grid-cols-2 gap-12">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <div>
                 <span className="category-label">The Exam</span>
@@ -451,7 +454,7 @@ export default function HomePage() {
                   the actual Red Seal certification examination with 120 questions and a strict 4-hour time limit.
                 </p>
                 <p>
-                  This comprehensive test draws from our entire question bank of 948 questions, covering all exam topics 
+                  This comprehensive test draws from our entire question bank of 1,054 questions, covering all exam topics 
                   including advanced load calculations, structural engineering concepts, rigging mastery, and emergency scenarios.
                 </p>
                 <p>
@@ -483,7 +486,7 @@ export default function HomePage() {
                   <div className="text-sm text-muted-foreground mt-1">Pass Rate</div>
                 </div>
                 <div className="bg-background border border-border p-6 text-center">
-                  <div className="text-4xl font-display font-bold">948</div>
+                  <div className="text-4xl font-display font-bold">1054</div>
                   <div className="text-sm text-muted-foreground mt-1">Question Bank</div>
                 </div>
               </div>
@@ -711,7 +714,7 @@ export default function HomePage() {
             <div className="bg-muted/20 border border-border p-4">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="font-semibold text-sm">All Topics</h3>
-                <span className="text-xs text-muted-foreground">948 questions total</span>
+                <span className="text-xs text-muted-foreground">1,054 questions total</span>
               </div>
               <div className="grid grid-cols-2 gap-x-6 gap-y-2">
                 {categories.slice(2).map((category, index) => (
