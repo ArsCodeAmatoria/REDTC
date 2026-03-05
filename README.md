@@ -9,7 +9,7 @@
 
 **Red Seal Tower Crane Exam Practice** — A modern, accessible practice exam platform for BC Red Seal Tower Crane certification.
 
-![REDTC Screenshot](images/screenshot.png)
+<img width="928" height="1232" alt="Image" src="https://github.com/user-attachments/assets/61cad24d-0d4a-4bfd-aa03-04531709e266" />
 
 ---
 
