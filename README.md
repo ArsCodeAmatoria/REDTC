@@ -4,7 +4,8 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
-[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=flat-square&logo=vercel)](https://vercel.com/)
+[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=flat-square&logo=vercel)](https://redtc.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=flat-square)](https://redtc.vercel.app)
 
 **Red Seal Tower Crane Exam Practice** — A modern, accessible practice exam platform for BC Red Seal Tower Crane certification.
 
@@ -54,7 +55,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/REDTC.git
+git clone https://github.com/ArsCodeAmatoria/REDTC.git
 
 # Navigate to the project directory
 cd REDTC
