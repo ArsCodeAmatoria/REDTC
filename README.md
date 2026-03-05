@@ -2,162 +2,81 @@
 
 # REDTC
 
-### Red Seal Tower Crane Exam Practice
+**Red Seal Tower Crane Exam Practice**
 
-[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)](https://redtc.vercel.app)
+[![Live Site](https://img.shields.io/badge/Live_Site-redtc.vercel.app-black?style=for-the-badge)](https://redtc.vercel.app)
+[![Questions](https://img.shields.io/badge/Questions-250-yellow?style=for-the-badge)](https://redtc.vercel.app/test/review)
+[![Pass Rate](https://img.shields.io/badge/Pass_Rate-70%25-green?style=for-the-badge)](https://redtc.vercel.app/test)
 
-A modern, accessible practice exam platform for BC Red Seal Tower Crane certification.
-
-[**Live Demo**](https://redtc.vercel.app) · [**Report Bug**](https://github.com/ArsCodeAmatoria/REDTC/issues) · [**Request Feature**](https://github.com/ArsCodeAmatoria/REDTC/issues)
+Practice for your BC Red Seal Tower Crane Operator certification exam.
 
 <br />
 
 <img src="https://github.com/user-attachments/assets/61cad24d-0d4a-4bfd-aa03-04531709e266" alt="REDTC Screenshot" width="600" />
 
-</div>
-
+<br />
 <br />
 
-## ✨ Features
-
-| Feature | Description |
-|---------|-------------|
-| **250 Questions** | Comprehensive question bank covering all Red Seal Tower Crane topics |
-| **Randomized Tests** | Each test presents 10 random questions for varied practice |
-| **Instant Feedback** | Detailed explanations for every answer |
-| **Review Mode** | Browse the entire question bank by category |
-| **Dark Mode** | Light/dark theme with system preference detection |
-| **Responsive** | Works on desktop, tablet, and mobile |
-
-<br />
-
-## 📊 Test Format
-
-<div align="center">
-
-| Questions | Per Test | Pass Rate |
-|:---------:|:--------:|:---------:|
-| **250** | **10** | **70%** |
+[**Start Practice Test**](https://redtc.vercel.app/test) | [**Browse Questions**](https://redtc.vercel.app/test/review)
 
 </div>
 
-<br />
+---
 
-## 📚 Topics Covered
+## About
 
-<table>
-<tr>
-<td>
+REDTC is a free practice exam platform for tower crane operators preparing for the **Red Seal Interprovincial Certification** in British Columbia. The Red Seal endorsement allows certified operators to work anywhere in Canada without additional examination.
 
-- Safety & Legislation
-- Load Charts & Calculations
-- Rigging & Slinging
-- Crane Components & Operation
-- Site Operations & Planning
+## Test Format
 
-</td>
-<td>
+| Total Questions | Per Test | Passing Score |
+|:---------------:|:--------:|:-------------:|
+| 250 | 10 | 70% |
 
-- Inspection & Maintenance
-- Climbing & Erection
-- Communication & Supervision
-- Environmental Hazards
-- Emergency Procedures
+Each practice test randomly selects 10 questions from the question bank. Questions include detailed explanations for both correct and incorrect answers.
 
-</td>
-</tr>
-</table>
+## Topics Covered
 
-<br />
+| Category | Category |
+|----------|----------|
+| Safety and Legislation | Load Charts and Calculations |
+| Rigging and Slinging | Crane Components and Operation |
+| Site Operations and Planning | Inspection and Maintenance |
+| Climbing and Erection | Communication and Supervision |
+| Environmental Hazards | Emergency Procedures |
+| Structural Stability | Hoisting Systems |
 
-## 🚀 Quick Start
+## Certification Requirements
 
-```bash
-# Clone the repository
-git clone https://github.com/ArsCodeAmatoria/REDTC.git
+To obtain your Red Seal Tower Crane Operator certification in BC:
 
-# Install dependencies
-cd REDTC && npm install
+| Requirement | Details |
+|-------------|---------|
+| **Work Hours** | 4,200 hours of supervised on-the-job training |
+| **Technical Training** | 3 levels at approved institutions |
+| **Duration** | 2-3 years typical apprenticeship |
+| **Exam** | 120 multiple choice questions, 4 hours, 70% to pass |
 
-# Start development server
-npm run dev
-```
+## Red Seal Exam Weighting
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+| Topic | Weight |
+|-------|:------:|
+| Crane Operations | 40% |
+| Crane Setup and Dismantling | 18% |
+| Rigging | 18% |
+| Occupational Skills | 12% |
+| Maintenance and Troubleshooting | 12% |
 
-<br />
+## Official Resources
 
-## 🛠 Tech Stack
-
-<div align="center">
-
-| Technology | Purpose |
-|------------|---------|
-| [Next.js 14](https://nextjs.org/) | React Framework |
-| [TypeScript](https://www.typescriptlang.org/) | Type Safety |
-| [Tailwind CSS](https://tailwindcss.com/) | Styling |
-| [shadcn/ui](https://ui.shadcn.com/) | UI Components |
-| [Framer Motion](https://www.framer.com/motion/) | Animations |
-| [Lucide React](https://lucide.dev/) | Icons |
-
-</div>
-
-<br />
-
-## 📁 Project Structure
-
-```
-REDTC/
-├── src/
-│   ├── app/                    # Next.js App Router pages
-│   │   ├── page.tsx            # Landing page
-│   │   └── test/
-│   │       ├── page.tsx        # Practice test
-│   │       └── review/         # Question review
-│   ├── components/
-│   │   ├── quiz/               # Quiz components
-│   │   └── ui/                 # UI primitives
-│   ├── data/
-│   │   └── questions.json      # 250 questions
-│   └── hooks/                  # Custom hooks
-└── public/                     # Static assets
-```
-
-<br />
-
-## 🤝 Contributing
-
-Contributions are welcome! 
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-<br />
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-<br />
-
-## 🔗 Resources
-
-- [SkilledTradesBC](https://skilledtradesbc.ca/) — Official apprenticeship registration
-- [Red Seal Program](https://www.red-seal.ca/) — National certification standards
-- [WorkSafeBC](https://www.worksafebc.com/) — Safety regulations
-
-<br />
+- [SkilledTradesBC](https://skilledtradesbc.ca/) — Apprenticeship registration and program information
+- [Red Seal Program](https://www.red-seal.ca/) — National Occupational Analysis and exam specifications
+- [WorkSafeBC](https://www.worksafebc.com/) — Occupational health and safety regulations
 
 ---
 
 <div align="center">
 
-Made with ☕ by [**Bigfoot Crane**](https://bigfootcrane.com/) — 2026
+**Made by [Bigfoot Crane](https://bigfootcrane.com/) — 2026**
 
 </div>
