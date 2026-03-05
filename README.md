@@ -19,13 +19,15 @@ Practice for your BC Red Seal Tower Crane Operator certification exam.
 
 [**Start Practice Test**](https://redtc.vercel.app/test) | [**Browse Questions**](https://redtc.vercel.app/test/review)
 
-</div>
-
 ---
 
 ## About
 
-REDTC is a free practice exam platform for tower crane operators preparing for the **Red Seal Interprovincial Certification** in British Columbia. The Red Seal endorsement allows certified operators to work anywhere in Canada without additional examination.
+REDTC is a free practice exam platform for tower crane operators preparing for the<br />
+**Red Seal Interprovincial Certification** in British Columbia.<br />
+The Red Seal endorsement allows certified operators to work anywhere in Canada.
+
+---
 
 ## Test Format
 
@@ -33,14 +35,18 @@ REDTC is a free practice exam platform for tower crane operators preparing for t
 |:---------------:|:--------:|:-------------:|
 | 305 | 10 | 70% |
 
-Each practice test randomly selects 10 questions from the question bank. Questions include detailed explanations for both correct and incorrect answers.
+Each practice test randomly selects 10 questions from the question bank.<br />
+Questions include detailed explanations for both correct and incorrect answers.
 
-Includes **55 Master Level questions** covering advanced load calculations, structural engineering concepts, and emergency response scenarios.
+Includes **55 Master Level questions** covering advanced load calculations,<br />
+structural engineering concepts, and emergency response scenarios.
+
+---
 
 ## Topics Covered
 
-| Category | Category |
-|----------|----------|
+| | |
+|:--|:--|
 | Safety and Legislation | Load Charts and Calculations |
 | Rigging and Slinging | Crane Components and Operation |
 | Site Operations and Planning | Inspection and Maintenance |
@@ -48,36 +54,40 @@ Includes **55 Master Level questions** covering advanced load calculations, stru
 | Environmental Hazards | Emergency Procedures |
 | Structural Stability | Hoisting Systems |
 
+---
+
 ## Certification Requirements
 
 To obtain your Red Seal Tower Crane Operator certification in BC:
 
 | Requirement | Details |
-|-------------|---------|
+|:-----------:|:-------:|
 | **Work Hours** | 4,200 hours of supervised on-the-job training |
 | **Technical Training** | 3 levels at approved institutions |
 | **Duration** | 2-3 years typical apprenticeship |
 | **Exam** | 120 multiple choice questions, 4 hours, 70% to pass |
 
+---
+
 ## Red Seal Exam Weighting
 
 | Topic | Weight |
-|-------|:------:|
+|:-----:|:------:|
 | Crane Operations | 40% |
 | Crane Setup and Dismantling | 18% |
 | Rigging | 18% |
 | Occupational Skills | 12% |
 | Maintenance and Troubleshooting | 12% |
 
-## Official Resources
-
-- [SkilledTradesBC](https://skilledtradesbc.ca/) — Apprenticeship registration and program information
-- [Red Seal Program](https://www.red-seal.ca/) — National Occupational Analysis and exam specifications
-- [WorkSafeBC](https://www.worksafebc.com/) — Occupational health and safety regulations
-
 ---
 
-<div align="center">
+## Official Resources
+
+[SkilledTradesBC](https://skilledtradesbc.ca/) — Apprenticeship registration<br />
+[Red Seal Program](https://www.red-seal.ca/) — National exam specifications<br />
+[WorkSafeBC](https://www.worksafebc.com/) — Safety regulations
+
+---
 
 **Made by [Bigfoot Crane](https://bigfootcrane.com/) — 2026**
 
