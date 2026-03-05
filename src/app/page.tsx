@@ -708,23 +708,37 @@ export default function HomePage() {
             </div>
 
             {/* Right - Image Card */}
-            <div className="lg:col-span-1">
-              <div className="sticky top-20">
-                <div className="relative overflow-hidden border border-border bg-background">
-                  <Image
-                    src="/images/resources.png"
-                    alt="Tower crane operator"
-                    width={400}
-                    height={500}
-                    className="w-full h-auto object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
-                  <div className="absolute bottom-0 left-0 right-0 p-6">
+            <div className="lg:col-span-1 hidden lg:block">
+              <div className="fixed top-20 right-8 xl:right-[calc((100vw-1280px)/2+2rem)] w-[380px]">
+                <div className="relative overflow-hidden border-2 border-border bg-background shadow-lg">
+                  <div className="relative h-[480px]">
+                    <Image
+                      src="/images/resources.png"
+                      alt="Tower crane operator"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent" />
+                  <div className="absolute bottom-0 left-0 right-0 p-8">
                     <span className="category-label">Certification</span>
-                    <h3 className="font-display text-xl font-bold mt-1">Build Your Career</h3>
-                    <p className="text-sm text-muted-foreground mt-2">
-                      Red Seal certification opens doors across Canada
+                    <h3 className="font-display text-2xl font-bold mt-2">Build Your Career</h3>
+                    <p className="text-muted-foreground mt-3">
+                      Red Seal certification opens doors to opportunities across Canada
                     </p>
+                    <div className="mt-4 pt-4 border-t border-border/50">
+                      <div className="flex items-center gap-4 text-sm">
+                        <div>
+                          <div className="font-bold">4,200</div>
+                          <div className="text-muted-foreground">Hours Required</div>
+                        </div>
+                        <div className="w-px h-8 bg-border" />
+                        <div>
+                          <div className="font-bold">70%</div>
+                          <div className="text-muted-foreground">Pass Rate</div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
