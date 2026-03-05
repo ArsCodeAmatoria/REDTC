@@ -582,7 +582,7 @@ export default function HomePage() {
             <div className="lg:col-span-2">
               <div className="sticky top-20 border border-border bg-muted/30">
                 <Image
-                  src="/images/resources1.png"
+                  src="/images/resources2.png"
                   alt="Tower crane operator"
                   width={500}
                   height={600}
