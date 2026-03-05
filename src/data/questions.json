@@ -16580,5 +16580,805 @@
     ],
     "correctAnswer": "c",
     "category": "Master - Load Calculations"
+  },
+  {
+    "id": 595,
+    "question": "A steel beam weighs 75 lb/ft. The beam length is 40 ft. What is the total weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,500 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "3,000 lb",
+        "explanation": "Correct. 75 × 40 = 3,000 lb."
+      },
+      {
+        "id": "c",
+        "text": "3,200 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "3,500 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 596,
+    "question": "A beam weighs 3000 lb. Convert to kilograms. (1 kg = 2.2 lb)",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,200 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "1,300 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "1,364 kg",
+        "explanation": "Correct. 3000 ÷ 2.2 = 1,364 kg."
+      },
+      {
+        "id": "d",
+        "text": "1,500 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 597,
+    "question": "A crane load chart shows 2500 kg capacity. A load weighs 4400 lb. Is the lift within capacity? (1 kg = 2.2 lb)",
+    "options": [
+      {
+        "id": "a",
+        "text": "No",
+        "explanation": "Incorrect. The converted load is within capacity."
+      },
+      {
+        "id": "b",
+        "text": "Yes",
+        "explanation": "Correct. Convert load: 4400 ÷ 2.2 = 2000 kg. Since 2000 kg < 2500 kg, the lift is within capacity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 598,
+    "question": "A steel plate weighs 490 lb. Convert to kilograms. (1 kg = 2.2 lb)",
+    "options": [
+      {
+        "id": "a",
+        "text": "180 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "200 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "223 kg",
+        "explanation": "Correct. 490 ÷ 2.2 = 223 kg."
+      },
+      {
+        "id": "d",
+        "text": "250 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 599,
+    "question": "A load weighs 6000 lb. Rigging weighs 200 lb. What is the total load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6,000 lb",
+        "explanation": "Incorrect. This doesn't include rigging."
+      },
+      {
+        "id": "b",
+        "text": "6,200 lb",
+        "explanation": "Correct. Load + rigging: 6000 + 200 = 6,200 lb."
+      },
+      {
+        "id": "c",
+        "text": "6,400 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "6,600 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 600,
+    "question": "Convert 6200 lb to kilograms. (1 kg = 2.2 lb)",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,500 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "2,818 kg",
+        "explanation": "Correct. 6200 ÷ 2.2 = 2,818 kg."
+      },
+      {
+        "id": "c",
+        "text": "3,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "3,200 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 601,
+    "question": "A crane chart shows 3000 kg capacity. A load weighs 2818 kg. Is the lift safe?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No",
+        "explanation": "Incorrect. The load is within capacity."
+      },
+      {
+        "id": "b",
+        "text": "Yes",
+        "explanation": "Correct. 2818 kg < 3000 kg, so the lift is safe."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 602,
+    "question": "A bundle weighs 2200 lb. Convert to tonnes. (1 tonne = 2200 lb)",
+    "options": [
+      {
+        "id": "a",
+        "text": "0.8 t",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "1 t",
+        "explanation": "Correct. 2200 lb = 1000 kg = 1 tonne."
+      },
+      {
+        "id": "c",
+        "text": "1.2 t",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "1.5 t",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 603,
+    "question": "Convert 50 ft to meters. (1 ft = 0.3048 m)",
+    "options": [
+      {
+        "id": "a",
+        "text": "12 m",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "14 m",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "15.2 m",
+        "explanation": "Correct. 50 × 0.3048 = 15.24 m."
+      },
+      {
+        "id": "d",
+        "text": "18 m",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 604,
+    "question": "Convert 30 m to feet. (1 m = 3.28 ft)",
+    "options": [
+      {
+        "id": "a",
+        "text": "85 ft",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "90 ft",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "98 ft",
+        "explanation": "Correct. 30 × 3.28 = 98.4 ft."
+      },
+      {
+        "id": "d",
+        "text": "110 ft",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 605,
+    "question": "A concrete bucket contains 1 cubic yard of concrete. Concrete weighs approximately 4000 lb per cubic yard. Convert this to kilograms. (1 kg = 2.2 lb)",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,500 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "1,600 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "1,818 kg",
+        "explanation": "Correct. 4000 ÷ 2.2 = 1,818 kg."
+      },
+      {
+        "id": "d",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 606,
+    "question": "A pallet weighs 5500 lb. Rigging weighs 220 lb. What is the total load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "5,600 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "5,720 lb",
+        "explanation": "Correct. 5500 + 220 = 5,720 lb."
+      },
+      {
+        "id": "c",
+        "text": "5,800 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "6,000 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 607,
+    "question": "Convert 5720 lb to kilograms. (1 kg = 2.2 lb)",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,400 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "2,600 kg",
+        "explanation": "Correct. 5720 ÷ 2.2 ≈ 2,600 kg."
+      },
+      {
+        "id": "c",
+        "text": "2,700 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "2,900 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 608,
+    "question": "A crane chart shows 2500 kg capacity. A load weighs 2600 kg. Is the lift safe?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No",
+        "explanation": "Correct. 2600 kg > 2500 kg. The lift exceeds capacity."
+      },
+      {
+        "id": "b",
+        "text": "Yes",
+        "explanation": "Incorrect. The load exceeds the crane's capacity."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 609,
+    "question": "Convert 20 ft radius to meters. (1 ft = 0.3048 m)",
+    "options": [
+      {
+        "id": "a",
+        "text": "5 m",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "6.1 m",
+        "explanation": "Correct. 20 × 0.3048 = 6.096 m."
+      },
+      {
+        "id": "c",
+        "text": "7.2 m",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "8 m",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 610,
+    "question": "Convert 10 m radius to feet. (1 m = 3.28 ft)",
+    "options": [
+      {
+        "id": "a",
+        "text": "25 ft",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "30 ft",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "32.8 ft",
+        "explanation": "Correct. 10 × 3.28 = 32.8 ft."
+      },
+      {
+        "id": "d",
+        "text": "40 ft",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 611,
+    "question": "A steel beam weighs 100 lb/ft. Length = 25 ft. What is the total weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,200 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "2,500 lb",
+        "explanation": "Correct. 100 × 25 = 2,500 lb."
+      },
+      {
+        "id": "c",
+        "text": "2,700 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "3,000 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 612,
+    "question": "Convert 2500 lb to kilograms. (1 kg = 2.2 lb)",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "1,136 kg",
+        "explanation": "Correct. 2500 ÷ 2.2 = 1,136 kg."
+      },
+      {
+        "id": "c",
+        "text": "1,200 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "1,400 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 613,
+    "question": "A load weighs 900 kg. Convert to pounds. (1 kg = 2.2 lb)",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,600 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "1,980 lb",
+        "explanation": "Correct. 900 × 2.2 = 1,980 lb."
+      },
+      {
+        "id": "c",
+        "text": "2,100 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "2,300 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 614,
+    "question": "Convert 1500 kg to pounds. (1 kg = 2.2 lb)",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,800 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "3,000 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "3,300 lb",
+        "explanation": "Correct. 1500 × 2.2 = 3,300 lb."
+      },
+      {
+        "id": "d",
+        "text": "3,600 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 615,
+    "question": "A crane load chart shows 3500 kg capacity. A load weighs 7200 lb. Convert the load to kg. (1 kg = 2.2 lb)",
+    "options": [
+      {
+        "id": "a",
+        "text": "3,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "3,273 kg",
+        "explanation": "Correct. 7200 ÷ 2.2 = 3,273 kg."
+      },
+      {
+        "id": "c",
+        "text": "3,500 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "3,600 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 616,
+    "question": "A load converts to 3273 kg. Crane capacity is 3500 kg. Is the lift within capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No",
+        "explanation": "Incorrect. The load is within capacity."
+      },
+      {
+        "id": "b",
+        "text": "Yes",
+        "explanation": "Correct. 3273 kg < 3500 kg. The lift is acceptable."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 617,
+    "question": "Convert 500 kg to pounds. (1 kg = 2.2 lb)",
+    "options": [
+      {
+        "id": "a",
+        "text": "900 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "1,000 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "1,100 lb",
+        "explanation": "Correct. 500 × 2.2 = 1,100 lb."
+      },
+      {
+        "id": "d",
+        "text": "1,300 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 618,
+    "question": "Convert 880 lb to kilograms. (1 kg = 2.2 lb)",
+    "options": [
+      {
+        "id": "a",
+        "text": "350 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "400 kg",
+        "explanation": "Correct. 880 ÷ 2.2 = 400 kg."
+      },
+      {
+        "id": "c",
+        "text": "420 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "450 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 619,
+    "question": "A load weighs 1800 lb. Rigging weighs 200 lb. What is the total weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,800 lb",
+        "explanation": "Incorrect. This doesn't include rigging."
+      },
+      {
+        "id": "b",
+        "text": "1,900 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "2,000 lb",
+        "explanation": "Correct. 1800 + 200 = 2,000 lb."
+      },
+      {
+        "id": "d",
+        "text": "2,200 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 620,
+    "question": "Convert 2000 lb to kilograms. (1 kg = 2.2 lb)",
+    "options": [
+      {
+        "id": "a",
+        "text": "800 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "909 kg",
+        "explanation": "Correct. 2000 ÷ 2.2 = 909 kg."
+      },
+      {
+        "id": "c",
+        "text": "1,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "1,100 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 621,
+    "question": "Convert 12 ft to meters. (1 ft = 0.3048 m)",
+    "options": [
+      {
+        "id": "a",
+        "text": "3 m",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "3.66 m",
+        "explanation": "Correct. 12 × 0.3048 = 3.66 m."
+      },
+      {
+        "id": "c",
+        "text": "4 m",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "4.5 m",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 622,
+    "question": "Convert 6 m to feet. (1 m = 3.28 ft)",
+    "options": [
+      {
+        "id": "a",
+        "text": "16 ft",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "19.7 ft",
+        "explanation": "Correct. 6 × 3.28 = 19.68 ft."
+      },
+      {
+        "id": "c",
+        "text": "22 ft",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "25 ft",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 623,
+    "question": "A load weighs 1.5 tonnes. Convert to pounds. (1 tonne = 2200 lb)",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,500 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "3,300 lb",
+        "explanation": "Correct. 1.5 × 2200 = 3,300 lb."
+      },
+      {
+        "id": "c",
+        "text": "3,500 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "4,000 lb",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Unit Conversions"
+  },
+  {
+    "id": 624,
+    "question": "Convert 4400 lb to tonnes. (1 tonne = 2200 lb)",
+    "options": [
+      {
+        "id": "a",
+        "text": "1 t",
+        "explanation": "Incorrect. This would be 2200 lb."
+      },
+      {
+        "id": "b",
+        "text": "1.5 t",
+        "explanation": "Incorrect. This would be 3300 lb."
+      },
+      {
+        "id": "c",
+        "text": "2 t",
+        "explanation": "Correct. 4400 ÷ 2200 = 2 tonnes."
+      },
+      {
+        "id": "d",
+        "text": "2.5 t",
+        "explanation": "Incorrect. This would be 5500 lb."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Unit Conversions"
   }
 ]
