@@ -10,7 +10,7 @@ export function Footer() {
           <div className="flex items-center gap-6">
             <Link href="/" className="flex items-center gap-2">
               <div className="w-6 h-6 bg-accent flex items-center justify-center">
-                <span className="font-display text-xs font-black text-accent-foreground">R</span>
+                <span className="font-display text-sm font-black text-accent-foreground" style={{ transform: 'scaleX(-1)' }}>b</span>
               </div>
               <span className="font-display text-lg font-bold tracking-tight">REDTC</span>
             </Link>

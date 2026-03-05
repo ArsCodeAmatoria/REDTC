@@ -77,18 +77,18 @@ export default function HomePage() {
           <div className="flex items-center justify-between h-14">
             <Link href="/" className="flex items-center gap-2">
               <div className="w-8 h-8 bg-accent flex items-center justify-center">
-                <span className="font-display text-sm font-black text-accent-foreground">R</span>
+                <span className="font-display text-lg font-black text-accent-foreground" style={{ transform: 'scaleX(-1)' }}>b</span>
               </div>
-              <span className="font-display text-xl font-bold tracking-tight hidden sm:block">REDTC</span>
+              <span className="font-display text-xl font-black tracking-tight hidden sm:block">REDTC</span>
             </Link>
-            <nav className="flex items-center gap-1 sm:gap-2">
-              <Link href="/test" className="px-3 py-2 text-sm font-medium hover:bg-muted transition-colors">
+            <nav className="flex items-center gap-1 sm:gap-3">
+              <Link href="/test" className="px-3 py-2 text-sm font-bold hover:bg-muted transition-colors">
                 Practice
               </Link>
-              <Link href="/test/master" className="px-3 py-2 text-sm font-medium hover:bg-muted transition-colors hidden sm:block">
+              <Link href="/test/master" className="px-3 py-2 text-sm font-bold hover:bg-muted transition-colors hidden sm:block">
                 Master
               </Link>
-              <Link href="/test/review" className="px-3 py-2 text-sm font-medium hover:bg-muted transition-colors">
+              <Link href="/test/review" className="px-3 py-2 text-sm font-bold hover:bg-muted transition-colors">
                 Questions
               </Link>
               <div className="w-px h-6 bg-border mx-2 hidden sm:block" />
@@ -614,14 +614,11 @@ export default function HomePage() {
                 rel="noopener noreferrer"
                 className="bg-background border border-border p-6 card-hover group"
               >
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-foreground flex items-center justify-center">
-                    <span className="text-xs font-bold text-background">B30</span>
-                  </div>
-                  <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity ml-auto" />
+                <div className="flex items-center justify-between mb-4">
+                  <h3 className="font-semibold group-hover:text-accent transition-colors">ASME B30 Safety Standard</h3>
+                  <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
                 </div>
-                <h3 className="font-semibold group-hover:text-accent transition-colors">ASME B30 Safety Standard</h3>
-                <p className="text-sm text-muted-foreground mt-2">
+                <p className="text-sm text-muted-foreground">
                   American Society of Mechanical Engineers standard for cranes, derricks, hoists, hooks, jacks, and slings
                 </p>
               </a>
@@ -632,14 +629,11 @@ export default function HomePage() {
                 rel="noopener noreferrer"
                 className="bg-background border border-border p-6 card-hover group"
               >
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-foreground flex items-center justify-center">
-                    <span className="text-xs font-bold text-background">Z248</span>
-                  </div>
-                  <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity ml-auto" />
+                <div className="flex items-center justify-between mb-4">
+                  <h3 className="font-semibold group-hover:text-accent transition-colors">CSA Z248</h3>
+                  <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
                 </div>
-                <h3 className="font-semibold group-hover:text-accent transition-colors">CSA Z248</h3>
-                <p className="text-sm text-muted-foreground mt-2">
+                <p className="text-sm text-muted-foreground">
                   Canadian Standards Association code for tower cranes covering design, construction, and operation
                 </p>
               </a>

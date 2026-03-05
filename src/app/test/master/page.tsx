@@ -93,7 +93,7 @@ export default function MasterTestPage() {
             <div className="flex items-center justify-between h-14">
               <Link href="/" className="flex items-center gap-2">
                 <div className="w-8 h-8 bg-accent flex items-center justify-center">
-                  <span className="font-display text-sm font-black text-accent-foreground">R</span>
+                  <span className="font-display text-lg font-black text-accent-foreground" style={{ transform: 'scaleX(-1)' }}>b</span>
                 </div>
                 <span className="font-display text-xl font-bold tracking-tight hidden sm:block">REDTC</span>
               </Link>
@@ -177,7 +177,7 @@ export default function MasterTestPage() {
             <div className="flex items-center justify-between h-14">
               <Link href="/" className="flex items-center gap-2">
                 <div className="w-8 h-8 bg-accent flex items-center justify-center">
-                  <span className="font-display text-sm font-black text-accent-foreground">R</span>
+                  <span className="font-display text-lg font-black text-accent-foreground" style={{ transform: 'scaleX(-1)' }}>b</span>
                 </div>
                 <span className="font-display text-xl font-bold tracking-tight hidden sm:block">REDTC</span>
               </Link>
@@ -287,7 +287,7 @@ export default function MasterTestPage() {
           <div className="flex items-center justify-between h-14">
             <Link href="/" className="flex items-center gap-2">
               <div className="w-8 h-8 bg-accent flex items-center justify-center">
-                <span className="font-display text-sm font-black text-accent-foreground">R</span>
+                <span className="font-display text-lg font-black text-accent-foreground" style={{ transform: 'scaleX(-1)' }}>b</span>
               </div>
               <span className="font-display text-xl font-bold tracking-tight hidden sm:block">REDTC</span>
             </Link>
