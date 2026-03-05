@@ -14250,5 +14250,285 @@
     ],
     "correctAnswer": "c",
     "category": "Gear & Drive Systems"
+  },
+  {
+    "id": 510,
+    "question": "A tower crane load chart shows 10,000 kg capacity at 15 m radius. The hoist system has a maximum lifting capacity of 8,000 kg. What is the maximum load that can be lifted at 15 m?",
+    "options": [
+      {
+        "id": "a",
+        "text": "10,000 kg",
+        "explanation": "Incorrect. The hoist system cannot lift this much."
+      },
+      {
+        "id": "b",
+        "text": "9,000 kg",
+        "explanation": "Incorrect. This exceeds hoist capacity."
+      },
+      {
+        "id": "c",
+        "text": "8,000 kg",
+        "explanation": "Correct. Even though the load chart allows 10,000 kg, the hoist system can only lift 8,000 kg. The lift is limited by the mechanical hoist capacity, not the crane structure. The lowest limiting capacity always governs the lift."
+      },
+      {
+        "id": "d",
+        "text": "7,500 kg",
+        "explanation": "Incorrect. The hoist can lift up to 8,000 kg."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Gear vs Radius Capacity"
+  },
+  {
+    "id": 511,
+    "question": "A crane chart allows 9,000 kg at 18 m radius. The hoist rope and gearbox are rated for 10,000 kg. What is the safe lifting capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "9,000 kg",
+        "explanation": "Correct. Here the structure of the crane limits the lift, not the hoist system. Even though the hoist can lift more, the crane would tip or overload structurally first. Therefore the radius chart governs."
+      },
+      {
+        "id": "b",
+        "text": "10,000 kg",
+        "explanation": "Incorrect. The crane structure cannot safely support this at 18 m radius."
+      },
+      {
+        "id": "c",
+        "text": "9,500 kg",
+        "explanation": "Incorrect. The load chart capacity must be used."
+      },
+      {
+        "id": "d",
+        "text": "8,000 kg",
+        "explanation": "Incorrect. The crane can safely lift 9,000 kg at this radius."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Gear vs Radius Capacity"
+  },
+  {
+    "id": 512,
+    "question": "A crane hoist system has a line pull limit of 4,000 kg per line. The hook block is rigged with 3 parts of line. Ignoring friction, what is the maximum load the hoist system can lift?",
+    "options": [
+      {
+        "id": "a",
+        "text": "8,000 kg",
+        "explanation": "Incorrect. This would be for 2 parts of line."
+      },
+      {
+        "id": "b",
+        "text": "10,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "12,000 kg",
+        "explanation": "Correct. Line pull × parts of line = 4,000 × 3 = 12,000 kg. This is the maximum hoist lifting capacity, regardless of the crane load chart."
+      },
+      {
+        "id": "d",
+        "text": "14,000 kg",
+        "explanation": "Incorrect. This would require more parts of line."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Gear vs Radius Capacity"
+  },
+  {
+    "id": 513,
+    "question": "A load chart allows 11,000 kg at a certain radius. However, the hoist drum and gearbox are rated for 9,000 kg maximum. Which value must be used?",
+    "options": [
+      {
+        "id": "a",
+        "text": "11,000 kg",
+        "explanation": "Incorrect. The hoist system cannot safely lift this weight."
+      },
+      {
+        "id": "b",
+        "text": "10,000 kg",
+        "explanation": "Incorrect. This still exceeds hoist capacity."
+      },
+      {
+        "id": "c",
+        "text": "9,000 kg",
+        "explanation": "Correct. Even though the crane structure can support 11,000 kg, the hoist system cannot safely lift that weight. The lift is limited by gearbox and hoist system capacity."
+      },
+      {
+        "id": "d",
+        "text": "8,000 kg",
+        "explanation": "Incorrect. The hoist can safely lift up to 9,000 kg."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Gear vs Radius Capacity"
+  },
+  {
+    "id": 514,
+    "question": "A crane is rigged with 2 parts of line, each capable of 3,500 kg line pull. What is the hoist lifting limit?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3,500 kg",
+        "explanation": "Incorrect. This is only one line's capacity."
+      },
+      {
+        "id": "b",
+        "text": "5,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "7,000 kg",
+        "explanation": "Correct. Hoist capacity = Line pull × parts of line = 3,500 × 2 = 7,000 kg."
+      },
+      {
+        "id": "d",
+        "text": "10,000 kg",
+        "explanation": "Incorrect. This would require more line capacity."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Gear vs Radius Capacity"
+  },
+  {
+    "id": 515,
+    "question": "At 20 m radius, the crane load chart allows 7,500 kg. The hoist system can lift 9,000 kg. What controls the lift?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hoist motor capacity",
+        "explanation": "Incorrect. The hoist can lift more than the chart allows."
+      },
+      {
+        "id": "b",
+        "text": "Gearbox rating",
+        "explanation": "Incorrect. The gearbox is not the limiting factor here."
+      },
+      {
+        "id": "c",
+        "text": "Radius load chart",
+        "explanation": "Correct. Because the crane structure limits the lift first, the operator must use the load chart value of 7,500 kg."
+      },
+      {
+        "id": "d",
+        "text": "Rigging weight",
+        "explanation": "Incorrect. Rigging weight reduces net capacity but doesn't control the limit here."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Gear vs Radius Capacity"
+  },
+  {
+    "id": 516,
+    "question": "At 10 m radius, the load chart allows 15,000 kg. However the crane is rigged with 2 parts of line, each rated for 4,000 kg. What is the maximum safe lift?",
+    "options": [
+      {
+        "id": "a",
+        "text": "15,000 kg",
+        "explanation": "Incorrect. The hoist system cannot lift this much."
+      },
+      {
+        "id": "b",
+        "text": "12,000 kg",
+        "explanation": "Incorrect. This exceeds the 2-part line capacity."
+      },
+      {
+        "id": "c",
+        "text": "8,000 kg",
+        "explanation": "Correct. Hoist capacity = 4,000 × 2 = 8,000 kg. The hoist system limits the lift, even though the crane structure could lift more."
+      },
+      {
+        "id": "d",
+        "text": "10,000 kg",
+        "explanation": "Incorrect. This exceeds the calculated hoist capacity."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Gear vs Radius Capacity"
+  },
+  {
+    "id": 517,
+    "question": "Why might an operator increase the number of parts of line?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase swing speed",
+        "explanation": "Incorrect. Parts of line don't affect swing speed."
+      },
+      {
+        "id": "b",
+        "text": "Increase crane radius",
+        "explanation": "Incorrect. Parts of line don't affect radius."
+      },
+      {
+        "id": "c",
+        "text": "Increase lifting capacity of the hoist system",
+        "explanation": "Correct. Adding parts of line increases mechanical advantage, reduces line tension, and increases hoist lifting capacity."
+      },
+      {
+        "id": "d",
+        "text": "Reduce load chart limits",
+        "explanation": "Incorrect. Parts of line don't change load chart values."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Gear vs Radius Capacity"
+  },
+  {
+    "id": 518,
+    "question": "Which situation requires the operator to check hoist gear capacity first?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lifting near maximum radius",
+        "explanation": "Incorrect. At maximum radius, structural limits typically govern."
+      },
+      {
+        "id": "b",
+        "text": "Lifting very heavy loads at short radius",
+        "explanation": "Correct. Near the crane mast (short radius), structural capacity is high. Heavy loads can exceed hoist or gearbox capacity before structural limits are reached."
+      },
+      {
+        "id": "c",
+        "text": "Swinging loads",
+        "explanation": "Incorrect. Swinging affects dynamic loading, not gear capacity."
+      },
+      {
+        "id": "d",
+        "text": "Wind conditions",
+        "explanation": "Incorrect. Wind affects operations but not gear capacity directly."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Gear vs Radius Capacity"
+  },
+  {
+    "id": 519,
+    "question": "What is the correct rule when evaluating crane lifting capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Use hoist capacity only",
+        "explanation": "Incorrect. Multiple factors must be considered."
+      },
+      {
+        "id": "b",
+        "text": "Use load chart only",
+        "explanation": "Incorrect. Load chart alone may not capture all limits."
+      },
+      {
+        "id": "c",
+        "text": "Use the lowest value of all limiting systems",
+        "explanation": "Correct. Every crane lift is limited by crane structural capacity, hoist system capacity, rigging capacity, and rope capacity. The lowest value always controls the lift."
+      },
+      {
+        "id": "d",
+        "text": "Average the capacities",
+        "explanation": "Incorrect. Averaging is never permitted for safety calculations."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Gear vs Radius Capacity"
   }
 ]
