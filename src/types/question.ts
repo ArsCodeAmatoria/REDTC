@@ -1,3 +1,5 @@
+export type Difficulty = "easy" | "medium" | "hard";
+
 export interface Question {
   id: number;
   question: string;
@@ -8,6 +10,7 @@ export interface Question {
   }[];
   correctAnswer: string;
   category?: string;
+  difficulty?: Difficulty;
 }
 
 export interface TestState {
