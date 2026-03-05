@@ -31,16 +31,15 @@ export function AnswerOption({
 
   return (
     <motion.button
-      whileHover={!disabled ? { x: 2 } : {}}
-      whileTap={!disabled ? { scale: 0.995 } : {}}
+      whileTap={!disabled ? { scale: 0.98 } : {}}
       onClick={onClick}
       disabled={disabled}
       className={cn(
         "w-full text-left transition-all duration-200 group",
-        "border p-4",
-        "flex items-start gap-4",
+        "border p-4 min-h-[56px]",
+        "flex items-start gap-3 sm:gap-4",
         disabled && "cursor-default",
-        !showResult && !disabled && "hover:border-foreground hover:bg-muted/30",
+        !showResult && !disabled && "hover:border-foreground hover:bg-muted/30 active:bg-muted/50",
         !showResult && isSelected && "bg-foreground text-background border-foreground",
         isCorrectAnswer && "bg-accent text-accent-foreground border-accent",
         isWrongSelection && "bg-muted border-muted-foreground/50"

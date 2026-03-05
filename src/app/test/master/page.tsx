@@ -287,27 +287,29 @@ export default function MasterTestPage() {
         </AnimatePresence>
 
         {/* Navigation */}
-        <div className="flex items-center justify-between mt-8 pt-8 border-t border-border">
+        <div className="flex items-center justify-between mt-8 pt-8 border-t border-border gap-2">
           <Button
             variant="outline"
             onClick={previousQuestion}
             disabled={!canGoPrevious}
+            className="min-h-[44px] px-3 sm:px-4"
           >
-            <ArrowLeft className="mr-2 h-4 w-4" />
-            Previous
+            <ArrowLeft className="h-4 w-4 sm:mr-2" />
+            <span className="hidden sm:inline">Previous</span>
           </Button>
 
-          <span className="text-sm text-muted-foreground">
+          <span className="text-sm text-muted-foreground whitespace-nowrap">
             {currentQuestionIndex + 1} / {totalQuestions}
           </span>
 
           <Button
             onClick={nextQuestion}
             disabled={!canGoNext}
-            className={canGoNext && isLastQuestion ? "bg-accent text-accent-foreground hover:bg-accent/90" : ""}
+            className={`min-h-[44px] px-3 sm:px-4 ${canGoNext && isLastQuestion ? "bg-accent text-accent-foreground hover:bg-accent/90" : ""}`}
           >
-            {isLastQuestion ? "Finish" : "Next"}
-            <ArrowRight className="ml-2 h-4 w-4" />
+            <span className="hidden sm:inline">{isLastQuestion ? "Finish" : "Next"}</span>
+            <span className="sm:hidden">{isLastQuestion ? "Done" : "Next"}</span>
+            <ArrowRight className="h-4 w-4 sm:ml-2" />
           </Button>
         </div>
       </div>

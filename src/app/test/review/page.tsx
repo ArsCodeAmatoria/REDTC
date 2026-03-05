@@ -171,33 +171,36 @@ export default function ReviewPage() {
         />
 
         {/* Navigation */}
-        <div className="flex items-center justify-between mt-8 pt-8 border-t border-border">
+        <div className="flex items-center justify-between mt-8 pt-8 border-t border-border gap-2">
           <Button
             variant="outline"
             onClick={goToPrevious}
             disabled={currentIndex === 0}
+            className="min-h-[44px] px-3 sm:px-4"
           >
-            <ArrowLeft className="mr-2 h-4 w-4" />
-            Previous
+            <ArrowLeft className="h-4 w-4 sm:mr-2" />
+            <span className="hidden sm:inline">Previous</span>
           </Button>
 
-          <span className="text-sm text-muted-foreground">
+          <span className="text-sm text-muted-foreground whitespace-nowrap">
             {currentIndex + 1} / {filteredQuestions.length}
           </span>
 
           <Button
             onClick={goToNext}
             disabled={currentIndex === filteredQuestions.length - 1}
+            className="min-h-[44px] px-3 sm:px-4"
           >
-            Next
-            <ArrowRight className="ml-2 h-4 w-4" />
+            <span className="hidden sm:inline">Next</span>
+            <span className="sm:hidden">Next</span>
+            <ArrowRight className="h-4 w-4 sm:ml-2" />
           </Button>
         </div>
 
         {/* Back to Home */}
         <div className="mt-8 pt-8 border-t border-border">
           <Link href="/" className="block">
-            <Button variant="ghost" className="w-full">
+            <Button variant="ghost" className="w-full min-h-[44px]">
               <Home className="mr-2 h-4 w-4" />
               Back to Home
             </Button>
