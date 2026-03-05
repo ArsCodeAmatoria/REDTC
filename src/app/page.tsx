@@ -10,7 +10,7 @@ import questionsData from "@/data/questions.json";
 
 const categories = [
   { name: "Load Charts & Parts of Line", count: 140, color: "bg-accent" },
-  { name: "PDF Load Chart Practice", count: 96, color: "bg-accent", isCharts: true },
+  { name: "PDF Load Chart Practice", count: 111, color: "bg-accent", isCharts: true },
   { name: "Advanced Operations & Traps", count: 95, color: "bg-foreground" },
   { name: "Master Level Questions", count: 100, color: "bg-foreground" },
   { name: "Rigging & Sling Angles", count: 85, color: "bg-foreground" },
@@ -541,125 +541,82 @@ export default function HomePage() {
                 </Link>
               </div>
             </div>
-            <div className="space-y-4">
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                <div className="bg-background border border-border p-5">
-                  <div className="flex items-center gap-3 mb-3">
-                    <div className="w-10 h-10 bg-accent flex items-center justify-center">
-                      <FileText className="w-5 h-5 text-accent-foreground" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold">Liebherr 470 EC-B</h3>
-                      <p className="text-sm text-muted-foreground">Flat-top crane</p>
-                    </div>
+            <div className="space-y-6">
+              {/* Flat-Top & Hammerhead */}
+              <div>
+                <h3 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-3">Flat-Top & Hammerhead</h3>
+                <div className="grid grid-cols-2 gap-3">
+                  <div className="bg-background border border-border p-4">
+                    <span className="text-xs text-accent font-medium">Liebherr</span>
+                    <h4 className="font-semibold text-sm mt-1">470 EC-B 20</h4>
+                    <p className="text-xs text-muted-foreground">83m, 20t</p>
                   </div>
-                  <p className="text-sm text-muted-foreground">83m jib, 20t. Metric units.</p>
-                </div>
-                <div className="bg-background border border-border p-5">
-                  <div className="flex items-center gap-3 mb-3">
-                    <div className="w-10 h-10 bg-foreground/10 flex items-center justify-center">
-                      <FileText className="w-5 h-5 text-foreground" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold">Liebherr 195 HC-LH</h3>
-                      <p className="text-sm text-muted-foreground">Luffing jib crane</p>
-                    </div>
+                  <div className="bg-background border border-border p-4">
+                    <span className="text-xs text-accent font-medium">Liebherr</span>
+                    <h4 className="font-semibold text-sm mt-1">550 EC-H 20</h4>
+                    <p className="text-xs text-muted-foreground">81.5m, 20t</p>
                   </div>
-                  <p className="text-sm text-muted-foreground">55m jib, 6t/12t. Level luffing.</p>
-                </div>
-                <div className="bg-background border border-border p-5">
-                  <div className="flex items-center gap-3 mb-3">
-                    <div className="w-10 h-10 bg-foreground/10 flex items-center justify-center">
-                      <FileText className="w-5 h-5 text-foreground" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold">Liebherr 550 EC-H</h3>
-                      <p className="text-sm text-muted-foreground">Hammerhead crane</p>
-                    </div>
+                  <div className="bg-background border border-border p-4">
+                    <span className="text-xs text-accent font-medium">Potain</span>
+                    <h4 className="font-semibold text-sm mt-1">MDT 189</h4>
+                    <p className="text-xs text-muted-foreground">197ft, 8.8 USt</p>
                   </div>
-                  <p className="text-sm text-muted-foreground">81.5m jib, 20t. Speed2Lift.</p>
-                </div>
-                <div className="bg-background border border-border p-5">
-                  <div className="flex items-center gap-3 mb-3">
-                    <div className="w-10 h-10 bg-foreground/10 flex items-center justify-center">
-                      <FileText className="w-5 h-5 text-foreground" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold">Liebherr NC-LH 12-55</h3>
-                      <p className="text-sm text-muted-foreground">Luffing jib crane</p>
-                    </div>
+                  <div className="bg-background border border-border p-4">
+                    <span className="text-xs text-accent font-medium">Potain</span>
+                    <h4 className="font-semibold text-sm mt-1">MD 1600</h4>
+                    <p className="text-xs text-muted-foreground">80m, 40t/64t</p>
                   </div>
-                  <p className="text-sm text-muted-foreground">55m jib, 12t. Micromove.</p>
-                </div>
-                <div className="bg-background border border-border p-5">
-                  <div className="flex items-center gap-3 mb-3">
-                    <div className="w-10 h-10 bg-accent flex items-center justify-center">
-                      <FileText className="w-5 h-5 text-accent-foreground" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold">Potain MDT 189</h3>
-                      <p className="text-sm text-muted-foreground">Top-slewing crane</p>
-                    </div>
-                  </div>
-                  <p className="text-sm text-muted-foreground">197ft jib, 8.8 USt. Imperial units.</p>
-                </div>
-                <div className="bg-background border border-border p-5">
-                  <div className="flex items-center gap-3 mb-3">
-                    <div className="w-10 h-10 bg-accent flex items-center justify-center">
-                      <FileText className="w-5 h-5 text-accent-foreground" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold">Potain MD 1600</h3>
-                      <p className="text-sm text-muted-foreground">Heavy-duty crane</p>
-                    </div>
-                  </div>
-                  <p className="text-sm text-muted-foreground">80m jib, 40t/64t. Dual capacity.</p>
-                </div>
-                <div className="bg-background border border-border p-5">
-                  <div className="flex items-center gap-3 mb-3">
-                    <div className="w-10 h-10 bg-foreground/10 flex items-center justify-center">
-                      <FileText className="w-5 h-5 text-foreground" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold">WOLFF 355 B US</h3>
-                      <p className="text-sm text-muted-foreground">Luffing jib crane</p>
-                    </div>
-                  </div>
-                  <p className="text-sm text-muted-foreground">60m jib, 28t. ANSI B30.3.</p>
                 </div>
               </div>
-              <div className="bg-muted/30 border border-border p-4">
-                <div className="text-sm font-medium mb-2">Skills you&apos;ll practice:</div>
-                <ul className="text-sm text-muted-foreground space-y-1">
-                  <li className="flex items-center gap-2">
-                    <div className="w-1.5 h-1.5 bg-accent" />
-                    Finding capacity at specific radii
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-1.5 h-1.5 bg-accent" />
-                    Metric vs Imperial unit conversions
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-1.5 h-1.5 bg-accent" />
-                    Calculating net load after rigging deductions
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-1.5 h-1.5 bg-accent" />
-                    Reeving configurations (2-fall vs 4-fall)
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-1.5 h-1.5 bg-accent" />
-                    Level luffing and fine positioning
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-1.5 h-1.5 bg-accent" />
-                    ANSI vs FEM compliance standards
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-1.5 h-1.5 bg-accent" />
-                    Complex trap questions and scenarios
-                  </li>
-                </ul>
+              
+              {/* Luffing Jib */}
+              <div>
+                <h3 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-3">Luffing Jib</h3>
+                <div className="grid grid-cols-2 gap-3">
+                  <div className="bg-background border border-border p-4">
+                    <span className="text-xs text-accent font-medium">Liebherr</span>
+                    <h4 className="font-semibold text-sm mt-1">195 HC-LH</h4>
+                    <p className="text-xs text-muted-foreground">55m, 6t/12t</p>
+                  </div>
+                  <div className="bg-background border border-border p-4">
+                    <span className="text-xs text-accent font-medium">Liebherr</span>
+                    <h4 className="font-semibold text-sm mt-1">NC-LH 12-55</h4>
+                    <p className="text-xs text-muted-foreground">55m, 12t</p>
+                  </div>
+                  <div className="bg-background border border-border p-4">
+                    <span className="text-xs text-accent font-medium">WOLFF</span>
+                    <h4 className="font-semibold text-sm mt-1">355 B US</h4>
+                    <p className="text-xs text-muted-foreground">60m, 28t</p>
+                  </div>
+                </div>
+              </div>
+              
+              {/* Self-Erecting */}
+              <div>
+                <h3 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-3">Self-Erecting</h3>
+                <div className="grid grid-cols-2 gap-3">
+                  <div className="bg-background border border-border p-4">
+                    <span className="text-xs text-accent font-medium">Liebherr</span>
+                    <h4 className="font-semibold text-sm mt-1">91 K</h4>
+                    <p className="text-xs text-muted-foreground">48m, 6t</p>
+                  </div>
+                </div>
+              </div>
+              
+              {/* Stats */}
+              <div className="bg-muted/30 border border-border p-4 flex items-center justify-between">
+                <div>
+                  <div className="text-2xl font-display font-bold">8</div>
+                  <div className="text-xs text-muted-foreground">Crane charts</div>
+                </div>
+                <div>
+                  <div className="text-2xl font-display font-bold">111</div>
+                  <div className="text-xs text-muted-foreground">Questions</div>
+                </div>
+                <div>
+                  <div className="text-2xl font-display font-bold">3</div>
+                  <div className="text-xs text-muted-foreground">Manufacturers</div>
+                </div>
               </div>
             </div>
           </div>
@@ -700,7 +657,7 @@ export default function HomePage() {
                     </div>
                     <h3 className="font-medium mt-3 group-hover:text-accent transition-colors">{category.name}</h3>
                     <p className="text-sm text-muted-foreground mt-1">
-                      {(category as { isCharts?: boolean }).isCharts ? "7 crane charts" : `${category.count}+ questions`}
+                      {(category as { isCharts?: boolean }).isCharts ? "8 crane charts" : `${category.count}+ questions`}
                     </p>
                   </div>
                 </Link>
