@@ -21840,5 +21840,845 @@
     ],
     "correctAnswer": "b",
     "category": "Weather - Environmental"
+  },
+  {
+    "id": 785,
+    "question": "Who has the final authority to stop a crane lift?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Site supervisor",
+        "explanation": "Incorrect. Supervisors don't have exclusive stop authority."
+      },
+      {
+        "id": "b",
+        "text": "Rigger",
+        "explanation": "Incorrect. Riggers don't have exclusive stop authority."
+      },
+      {
+        "id": "c",
+        "text": "Signalperson",
+        "explanation": "Incorrect. Signalpersons don't have exclusive stop authority."
+      },
+      {
+        "id": "d",
+        "text": "Anyone who sees a hazard",
+        "explanation": "Correct. Crane safety rules state any worker can give a stop signal if danger exists, and the operator must obey immediately."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Signalperson & Communication"
+  },
+  {
+    "id": 786,
+    "question": "Who normally directs crane movements during a lift?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Foreman",
+        "explanation": "Incorrect. Foremen supervise but don't typically direct crane movements."
+      },
+      {
+        "id": "b",
+        "text": "Rigger",
+        "explanation": "Incorrect. Riggers prepare loads but a signalperson directs movement."
+      },
+      {
+        "id": "c",
+        "text": "Designated signalperson",
+        "explanation": "Correct. A single designated signalperson prevents conflicting instructions."
+      },
+      {
+        "id": "d",
+        "text": "Any worker nearby",
+        "explanation": "Incorrect. Only designated personnel should direct crane movements."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Signalperson & Communication"
+  },
+  {
+    "id": 787,
+    "question": "Two workers give conflicting signals. What must the operator do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Follow the louder signal",
+        "explanation": "Incorrect. Volume doesn't determine authority."
+      },
+      {
+        "id": "b",
+        "text": "Follow supervisor",
+        "explanation": "Incorrect. Conflicting signals require immediate stop."
+      },
+      {
+        "id": "c",
+        "text": "Stop operations immediately",
+        "explanation": "Correct. Conflicting signals create unsafe conditions. The operator must stop until clear communication is established."
+      },
+      {
+        "id": "d",
+        "text": "Follow the rigger",
+        "explanation": "Incorrect. Conflicting signals require immediate stop."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Signalperson & Communication"
+  },
+  {
+    "id": 788,
+    "question": "If the signalperson cannot see the load, what must happen?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue lifting",
+        "explanation": "Incorrect. Blind spots create dangerous conditions."
+      },
+      {
+        "id": "b",
+        "text": "Move crane slowly",
+        "explanation": "Incorrect. Speed reduction doesn't solve visibility issues."
+      },
+      {
+        "id": "c",
+        "text": "Use additional signalperson or radio communication",
+        "explanation": "Correct. Blind areas require additional personnel or communication methods to maintain safe control."
+      },
+      {
+        "id": "d",
+        "text": "Ignore the blind area",
+        "explanation": "Incorrect. Blind areas must never be ignored."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Signalperson & Communication"
+  },
+  {
+    "id": 789,
+    "question": "What is the universal emergency signal?",
+    "options": [
+      {
+        "id": "a",
+        "text": "One arm raised",
+        "explanation": "Incorrect. One arm raised typically means hoist."
+      },
+      {
+        "id": "b",
+        "text": "Both arms raised",
+        "explanation": "Incorrect. Both arms raised is not the emergency signal."
+      },
+      {
+        "id": "c",
+        "text": "Rapidly waving both arms",
+        "explanation": "Correct. Rapidly crossing or waving both arms is the universal emergency stop signal."
+      },
+      {
+        "id": "d",
+        "text": "Hand on helmet",
+        "explanation": "Incorrect. This is not the emergency signal."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Signalperson & Communication"
+  },
+  {
+    "id": 790,
+    "question": "When using radio communication, instructions must be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fast",
+        "explanation": "Incorrect. Speed can lead to miscommunication."
+      },
+      {
+        "id": "b",
+        "text": "Loud",
+        "explanation": "Incorrect. Volume alone doesn't ensure understanding."
+      },
+      {
+        "id": "c",
+        "text": "Clear and confirmed",
+        "explanation": "Correct. Radio instructions must be clear, and the receiver should confirm understanding to prevent miscommunication."
+      },
+      {
+        "id": "d",
+        "text": "Repeated by others",
+        "explanation": "Incorrect. Only designated personnel should communicate."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Signalperson & Communication"
+  },
+  {
+    "id": 791,
+    "question": "If radio communication fails during a lift, the operator should:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue carefully",
+        "explanation": "Incorrect. Lost communication requires stopping."
+      },
+      {
+        "id": "b",
+        "text": "Lower load slowly",
+        "explanation": "Incorrect. Any movement without communication is dangerous."
+      },
+      {
+        "id": "c",
+        "text": "Stop crane movement immediately",
+        "explanation": "Correct. Lost communication during a lift creates dangerous conditions. All movement must stop until communication is restored."
+      },
+      {
+        "id": "d",
+        "text": "Increase speed",
+        "explanation": "Incorrect. This is extremely dangerous."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Signalperson & Communication"
+  },
+  {
+    "id": 792,
+    "question": "Why should only one signalperson direct a lift?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduce noise",
+        "explanation": "Incorrect. Noise reduction isn't the primary reason."
+      },
+      {
+        "id": "b",
+        "text": "Faster lifting",
+        "explanation": "Incorrect. Speed isn't the primary reason."
+      },
+      {
+        "id": "c",
+        "text": "Prevent conflicting signals",
+        "explanation": "Correct. Multiple signalpersons can give different instructions simultaneously, creating confusion and dangerous conditions."
+      },
+      {
+        "id": "d",
+        "text": "Reduce radius",
+        "explanation": "Incorrect. Signalperson count doesn't affect radius."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Signalperson & Communication"
+  },
+  {
+    "id": 793,
+    "question": "If the operator loses sight of the signalperson, what must happen?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue lifting slowly",
+        "explanation": "Incorrect. Any movement without visual contact is dangerous."
+      },
+      {
+        "id": "b",
+        "text": "Stop movement until communication is restored",
+        "explanation": "Correct. Visual signal operations require continuous line of sight. If contact is lost, movement must stop."
+      },
+      {
+        "id": "c",
+        "text": "Lower hook slightly",
+        "explanation": "Incorrect. Any movement without communication is dangerous."
+      },
+      {
+        "id": "d",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. This is extremely dangerous."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Signalperson & Communication"
+  },
+  {
+    "id": 794,
+    "question": "Who ensures the load is properly rigged before the lift?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Operator",
+        "explanation": "Incorrect. Operators control the crane but don't rig loads."
+      },
+      {
+        "id": "b",
+        "text": "Supervisor",
+        "explanation": "Incorrect. Supervisors oversee but don't typically rig."
+      },
+      {
+        "id": "c",
+        "text": "Rigger / signalperson team",
+        "explanation": "Correct. The rigger prepares and inspects the rigging, often working with the signalperson to ensure safe load attachment."
+      },
+      {
+        "id": "d",
+        "text": "Crane manufacturer",
+        "explanation": "Incorrect. Manufacturers don't rig individual loads."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Signalperson & Communication"
+  },
+  {
+    "id": 795,
+    "question": "The operator receives a signal that appears unsafe. What should they do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ignore signalperson",
+        "explanation": "Incorrect. Ignoring isn't appropriate, but questioning is."
+      },
+      {
+        "id": "b",
+        "text": "Follow signal anyway",
+        "explanation": "Incorrect. Operators must never follow unsafe instructions."
+      },
+      {
+        "id": "c",
+        "text": "Stop and question the instruction",
+        "explanation": "Correct. Operators have the authority and responsibility to refuse unsafe instructions and seek clarification."
+      },
+      {
+        "id": "d",
+        "text": "Call supervisor",
+        "explanation": "Incorrect. The immediate action is to stop and question."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Signalperson & Communication"
+  },
+  {
+    "id": 796,
+    "question": "Hand signals must be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fast",
+        "explanation": "Incorrect. Speed isn't the key requirement."
+      },
+      {
+        "id": "b",
+        "text": "Loud",
+        "explanation": "Incorrect. Hand signals are visual, not audible."
+      },
+      {
+        "id": "c",
+        "text": "Clear and visible to the operator",
+        "explanation": "Correct. The operator must be able to clearly see and understand all hand signals."
+      },
+      {
+        "id": "d",
+        "text": "Performed with both hands",
+        "explanation": "Incorrect. Not all signals require both hands."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Signalperson & Communication"
+  },
+  {
+    "id": 797,
+    "question": "Why should signalpersons stand clear of the load path?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Improve visibility",
+        "explanation": "Incorrect. While helpful, safety is the primary reason."
+      },
+      {
+        "id": "b",
+        "text": "Reduce wind",
+        "explanation": "Incorrect. Position doesn't affect wind."
+      },
+      {
+        "id": "c",
+        "text": "Avoid injury if load swings",
+        "explanation": "Correct. Loads can swing unexpectedly. Standing clear of the load path prevents serious injury."
+      },
+      {
+        "id": "d",
+        "text": "Increase lifting speed",
+        "explanation": "Incorrect. Position doesn't affect lift speed."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Signalperson & Communication"
+  },
+  {
+    "id": 798,
+    "question": "Which communication method is best in blind lifts?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Whistles",
+        "explanation": "Incorrect. Whistles have limited message capability."
+      },
+      {
+        "id": "b",
+        "text": "Hand signals",
+        "explanation": "Incorrect. Hand signals require line of sight."
+      },
+      {
+        "id": "c",
+        "text": "Two-way radio communication",
+        "explanation": "Correct. Radios allow continuous communication when the operator cannot see the load or signalperson."
+      },
+      {
+        "id": "d",
+        "text": "Yelling",
+        "explanation": "Incorrect. Yelling is unreliable and unprofessional."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Signalperson & Communication"
+  },
+  {
+    "id": 799,
+    "question": "If the operator receives a STOP signal, they must:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Slow the crane",
+        "explanation": "Incorrect. STOP means stop, not slow."
+      },
+      {
+        "id": "b",
+        "text": "Ask supervisor",
+        "explanation": "Incorrect. Stop first, ask questions later."
+      },
+      {
+        "id": "c",
+        "text": "Stop immediately",
+        "explanation": "Correct. A STOP signal must be obeyed immediately without question."
+      },
+      {
+        "id": "d",
+        "text": "Finish lift first",
+        "explanation": "Incorrect. STOP means stop immediately."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Signalperson & Communication"
+  },
+  {
+    "id": 800,
+    "question": "What is the biggest cause of crane communication accidents?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mechanical failure",
+        "explanation": "Incorrect. Mechanical issues are less common than communication problems."
+      },
+      {
+        "id": "b",
+        "text": "High wind",
+        "explanation": "Incorrect. Wind is an environmental factor, not communication."
+      },
+      {
+        "id": "c",
+        "text": "Poor communication",
+        "explanation": "Correct. Poor communication between operators, signalpersons, and workers is the leading cause of crane accidents."
+      },
+      {
+        "id": "d",
+        "text": "Hook failure",
+        "explanation": "Incorrect. Hook failures are relatively rare."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Signalperson & Communication"
+  },
+  {
+    "id": 801,
+    "question": "If the signalperson becomes distracted during a lift, the operator should:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue slowly",
+        "explanation": "Incorrect. Any movement without active communication is dangerous."
+      },
+      {
+        "id": "b",
+        "text": "Stop until signals resume",
+        "explanation": "Correct. If the signalperson isn't actively directing, the operator must stop and wait for their attention."
+      },
+      {
+        "id": "c",
+        "text": "Lower load slightly",
+        "explanation": "Incorrect. Any movement without direction is unsafe."
+      },
+      {
+        "id": "d",
+        "text": "Continue hoisting",
+        "explanation": "Incorrect. Continuing without direction is dangerous."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Signalperson & Communication"
+  },
+  {
+    "id": 802,
+    "question": "Why should radio messages be short and standardized?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduce battery use",
+        "explanation": "Incorrect. Battery conservation isn't the primary reason."
+      },
+      {
+        "id": "b",
+        "text": "Prevent confusion",
+        "explanation": "Correct. Short, standardized messages are easier to understand and less likely to be misinterpreted."
+      },
+      {
+        "id": "c",
+        "text": "Increase speed",
+        "explanation": "Incorrect. Speed isn't the primary goal."
+      },
+      {
+        "id": "d",
+        "text": "Improve signal strength",
+        "explanation": "Incorrect. Message length doesn't affect signal strength."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Signalperson & Communication"
+  },
+  {
+    "id": 803,
+    "question": "When should a signalperson give instructions?",
+    "options": [
+      {
+        "id": "a",
+        "text": "During crane movement",
+        "explanation": "Incorrect. Instructions should come before movement."
+      },
+      {
+        "id": "b",
+        "text": "After load swings",
+        "explanation": "Incorrect. Instructions should prevent problems, not react to them."
+      },
+      {
+        "id": "c",
+        "text": "Before crane movement begins",
+        "explanation": "Correct. Instructions should be given before movement so the operator knows what's expected."
+      },
+      {
+        "id": "d",
+        "text": "During hoisting only",
+        "explanation": "Incorrect. All movements require proper signaling."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Signalperson & Communication"
+  },
+  {
+    "id": 804,
+    "question": "What must happen before any lift begins?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Crane warmed up",
+        "explanation": "Incorrect. While important, communication confirmation is more critical."
+      },
+      {
+        "id": "b",
+        "text": "Load weighed",
+        "explanation": "Incorrect. While important, communication confirmation is essential."
+      },
+      {
+        "id": "c",
+        "text": "Operator and signalperson confirm communication method",
+        "explanation": "Correct. Before any lift, the operator and signalperson must agree on how they will communicate."
+      },
+      {
+        "id": "d",
+        "text": "Gear selected",
+        "explanation": "Incorrect. Gear selection comes after communication is established."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Signalperson & Communication"
+  },
+  {
+    "id": 805,
+    "question": "RIGGING ANGLE MULTIPLIERS: 90°=1.0 | 60°=1.15 | 45°=1.41 | 30°=2.0 — A 2,000 kg load is lifted with two slings at 90°. What load is on each sling?",
+    "options": [
+      {
+        "id": "a",
+        "text": "500 kg",
+        "explanation": "Incorrect. This would be for 4 slings."
+      },
+      {
+        "id": "b",
+        "text": "1,000 kg",
+        "explanation": "Correct. At 90° (vertical), load is evenly shared: 2,000 ÷ 2 = 1,000 kg per sling. Multiplier = 1.0."
+      },
+      {
+        "id": "c",
+        "text": "1,500 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This would mean each sling carries the full load."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging Angle Math"
+  },
+  {
+    "id": 806,
+    "question": "RIGGING ANGLE MULTIPLIERS: 90°=1.0 | 60°=1.15 | 45°=1.41 | 30°=2.0 — A 2,000 kg load is lifted with two slings at 60°. Tension per sling?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,000 kg",
+        "explanation": "Incorrect. This doesn't account for the angle multiplier."
+      },
+      {
+        "id": "b",
+        "text": "1,150 kg",
+        "explanation": "Correct. Base load per sling = 1,000 kg. Multiplier at 60° = 1.15. Tension = 1,000 × 1.15 = 1,150 kg."
+      },
+      {
+        "id": "c",
+        "text": "1,400 kg",
+        "explanation": "Incorrect. This would be closer to 45° angle."
+      },
+      {
+        "id": "d",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This would be at 30° angle."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging Angle Math"
+  },
+  {
+    "id": 807,
+    "question": "RIGGING ANGLE MULTIPLIERS: 90°=1.0 | 60°=1.15 | 45°=1.41 | 30°=2.0 — A 2,000 kg load is lifted with two slings at 45°. Tension per sling?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,000 kg",
+        "explanation": "Incorrect. This doesn't account for the angle multiplier."
+      },
+      {
+        "id": "b",
+        "text": "1,200 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "c",
+        "text": "1,410 kg",
+        "explanation": "Correct. Base load per sling = 1,000 kg. Multiplier at 45° = 1.41. Tension = 1,000 × 1.41 = 1,410 kg."
+      },
+      {
+        "id": "d",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This would be at 30° angle."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging Angle Math"
+  },
+  {
+    "id": 808,
+    "question": "RIGGING ANGLE MULTIPLIERS: 90°=1.0 | 60°=1.15 | 45°=1.41 | 30°=2.0 — A 2,000 kg load is lifted with two slings at 30°. Tension per sling?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,000 kg",
+        "explanation": "Incorrect. This doesn't account for the dangerous 30° angle."
+      },
+      {
+        "id": "b",
+        "text": "1,410 kg",
+        "explanation": "Incorrect. This would be at 45° angle."
+      },
+      {
+        "id": "c",
+        "text": "2,000 kg",
+        "explanation": "Correct. Base load per sling = 1,000 kg. Multiplier at 30° = 2.0. Tension = 1,000 × 2 = 2,000 kg. Each sling carries the entire load weight!"
+      },
+      {
+        "id": "d",
+        "text": "2,500 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging Angle Math"
+  },
+  {
+    "id": 809,
+    "question": "RIGGING ANGLE MULTIPLIERS: 90°=1.0 | 60°=1.15 | 45°=1.41 | 30°=2.0 — What happens to sling tension when the angle decreases?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Decreases",
+        "explanation": "Incorrect. Lower angles increase tension."
+      },
+      {
+        "id": "b",
+        "text": "Remains constant",
+        "explanation": "Incorrect. Angle directly affects tension."
+      },
+      {
+        "id": "c",
+        "text": "Increases dramatically",
+        "explanation": "Correct. As sling angle decreases (becomes more horizontal), tension increases dramatically. At 30°, each sling carries double the base load."
+      },
+      {
+        "id": "d",
+        "text": "Disappears",
+        "explanation": "Incorrect. Tension never disappears during a lift."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging Angle Math"
+  },
+  {
+    "id": 810,
+    "question": "RIGGING ANGLE MULTIPLIERS: 90°=1.0 | 60°=1.15 | 45°=1.41 | 30°=2.0 — Which sling angle produces the least tension?",
+    "options": [
+      {
+        "id": "a",
+        "text": "30°",
+        "explanation": "Incorrect. 30° produces the highest tension (2× multiplier)."
+      },
+      {
+        "id": "b",
+        "text": "45°",
+        "explanation": "Incorrect. 45° has 1.41× multiplier."
+      },
+      {
+        "id": "c",
+        "text": "60°",
+        "explanation": "Incorrect. 60° has 1.15× multiplier."
+      },
+      {
+        "id": "d",
+        "text": "90°",
+        "explanation": "Correct. Vertical slings (90°) have the lowest tension with a 1.0× multiplier. The load is directly supported without angular force multiplication."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Rigging Angle Math"
+  },
+  {
+    "id": 811,
+    "question": "RIGGING ANGLE MULTIPLIERS: 90°=1.0 | 60°=1.15 | 45°=1.41 | 30°=2.0 — Why should sling angles never be too shallow?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduces hook height",
+        "explanation": "Incorrect. Hook height isn't the primary concern."
+      },
+      {
+        "id": "b",
+        "text": "Tension increases beyond sling capacity",
+        "explanation": "Correct. At shallow angles, tension multiplies dramatically. A sling rated for the load weight may fail when angle forces exceed its capacity."
+      },
+      {
+        "id": "c",
+        "text": "Reduces rigging weight",
+        "explanation": "Incorrect. Angle doesn't affect rigging weight."
+      },
+      {
+        "id": "d",
+        "text": "Improves load stability",
+        "explanation": "Incorrect. Shallow angles actually reduce stability."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging Angle Math"
+  },
+  {
+    "id": 812,
+    "question": "RIGGING ANGLE MULTIPLIERS: 90°=1.0 | 60°=1.15 | 45°=1.41 | 30°=2.0 — A 4,000 kg load is lifted with two slings at 60°. Each sling carries:",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This doesn't account for the angle multiplier."
+      },
+      {
+        "id": "b",
+        "text": "2,300 kg",
+        "explanation": "Correct. Base load per sling = 2,000 kg. Multiplier at 60° = 1.15. Tension = 2,000 × 1.15 = 2,300 kg."
+      },
+      {
+        "id": "c",
+        "text": "2,800 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "4,000 kg",
+        "explanation": "Incorrect. This would be at 30° angle."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging Angle Math"
+  },
+  {
+    "id": 813,
+    "question": "RIGGING ANGLE MULTIPLIERS: 90°=1.0 | 60°=1.15 | 45°=1.41 | 30°=2.0 — A 3,000 kg load is lifted with two slings at 45°. Each sling carries:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,500 kg",
+        "explanation": "Incorrect. This doesn't account for the angle multiplier."
+      },
+      {
+        "id": "b",
+        "text": "1,800 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "c",
+        "text": "2,115 kg",
+        "explanation": "Correct. Base load per sling = 1,500 kg. Multiplier at 45° = 1.41. Tension = 1,500 × 1.41 = 2,115 kg."
+      },
+      {
+        "id": "d",
+        "text": "3,000 kg",
+        "explanation": "Incorrect. This would be at 30° angle."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging Angle Math"
+  },
+  {
+    "id": 814,
+    "question": "RIGGING ANGLE MULTIPLIERS: 90°=1.0 | 60°=1.15 | 45°=1.41 | 30°=2.0 — Which rigging configuration is strongest (lowest tension)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "30° sling angle",
+        "explanation": "Incorrect. 30° produces the highest tension and is the weakest configuration."
+      },
+      {
+        "id": "b",
+        "text": "45° sling angle",
+        "explanation": "Incorrect. 45° produces significant tension."
+      },
+      {
+        "id": "c",
+        "text": "60° sling angle",
+        "explanation": "Incorrect. 60° is better but not optimal."
+      },
+      {
+        "id": "d",
+        "text": "90° sling angle",
+        "explanation": "Correct. Vertical (90°) slings produce the lowest tension because the load is supported directly without angular force multiplication."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Rigging Angle Math"
   }
 ]
