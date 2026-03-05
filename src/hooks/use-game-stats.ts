@@ -10,7 +10,7 @@ import {
   BADGES,
 } from "@/lib/gamification";
 
-const STORAGE_KEY = "redtc-game-stats";
+const STORAGE_KEY = "mastertc-game-stats";
 
 function getStoredStats(): GameStats {
   if (typeof window === "undefined") return getDefaultStats();

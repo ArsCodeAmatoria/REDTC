@@ -25,7 +25,7 @@ function formatTime(ms: number): string {
 
 function getLeaderboard(): LeaderboardEntry[] {
   if (typeof window === "undefined") return [];
-  const stored = localStorage.getItem("redtc-leaderboard");
+  const stored = localStorage.getItem("mastertc-leaderboard");
   return stored ? JSON.parse(stored) : [];
 }
 
@@ -37,7 +37,7 @@ export default function ScoresPage() {
   }, []);
 
   const clearLeaderboard = () => {
-    localStorage.removeItem("redtc-leaderboard");
+    localStorage.removeItem("mastertc-leaderboard");
     setLeaderboard([]);
   };
 
@@ -49,9 +49,9 @@ export default function ScoresPage() {
           <div className="flex items-center justify-between h-14">
             <Link href="/" className="flex items-center gap-2">
               <div className="w-8 h-8 bg-accent flex items-center justify-center">
-                <span className="text-xl font-black text-accent-foreground">R</span>
+                <span className="text-xl font-black text-accent-foreground">M</span>
               </div>
-              <span className="font-display text-xl font-bold tracking-tight hidden sm:block">REDTC</span>
+              <span className="font-display text-xl font-bold tracking-tight hidden sm:block">Master TC</span>
             </Link>
             <nav className="flex items-center gap-1 sm:gap-3">
               <Link href="/test" className="px-3 py-2 text-sm font-bold hover:bg-muted transition-colors">

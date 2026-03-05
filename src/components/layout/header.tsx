@@ -10,7 +10,7 @@ export function Header() {
           href="/" 
           className="font-bold text-xl tracking-tighter hover:opacity-80 transition-opacity"
         >
-          REDTC
+          Master TC
         </Link>
       </div>
     </header>
