@@ -658,6 +658,16 @@ export default function HomePage() {
                   <h3 className="font-bold group-hover:text-accent transition-colors">Fulford Certification</h3>
                   <p className="text-sm text-muted-foreground mt-1">Training in Western Canada</p>
                 </a>
+
+                <a
+                  href="https://bigfootcrane.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group p-4 border-l-4 border-foreground/20 hover:border-accent bg-muted/30 hover:bg-muted/50 transition-colors"
+                >
+                  <h3 className="font-bold group-hover:text-accent transition-colors">Bigfoot Crane</h3>
+                  <p className="text-sm text-muted-foreground mt-1">Crane services and resources</p>
+                </a>
               </div>
 
               {/* Standards */}
