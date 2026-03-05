@@ -527,7 +527,7 @@ export default function HomePage() {
             </Link>
           </div>
           
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-black">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
             {categories.map((category, index) => (
               <motion.div
                 key={category.name}
