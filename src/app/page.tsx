@@ -22,12 +22,14 @@ const categories = [
   { name: "Self-Erect & Remote Operation", count: 16, color: "bg-foreground" },
   { name: "Cab Controls & LMI", count: 35, color: "bg-foreground" },
   { name: "Test Blocks & Commissioning", count: 20, color: "bg-foreground" },
+  { name: "12-Month Crane Certification", count: 20, color: "bg-foreground" },
+  { name: "Tower Crane Erection", count: 20, color: "bg-foreground" },
 ];
 
 const features = [
   {
     label: "Practice",
-    title: "1,084 exam questions with detailed explanations",
+    title: "1,124 exam questions with detailed explanations",
     description: "Every question includes why the correct answer is right and why others are wrong.",
   },
   {
@@ -123,7 +125,7 @@ export default function HomePage() {
                 className="space-y-6"
               >
                 <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
-                  Practice with 1,084 questions including Master Level problems covering advanced calculations, 
+                  Practice with 1,124 questions including Master Level problems covering advanced calculations, 
                   structural engineering, and emergency scenarios.
                 </p>
 
@@ -159,7 +161,7 @@ export default function HomePage() {
 
                 <div className="grid grid-cols-3 gap-4">
                   <div className="space-y-1">
-                    <div className="text-4xl font-display font-bold">1,084</div>
+                    <div className="text-4xl font-display font-bold">1,124</div>
                     <div className="text-sm text-muted-foreground">Questions</div>
                   </div>
                   <div className="space-y-1">
@@ -454,7 +456,7 @@ export default function HomePage() {
                   the actual Red Seal certification examination with 120 questions and a strict 4-hour time limit.
                 </p>
                 <p>
-                  This comprehensive test draws from our entire question bank of 1,285+ questions — including load chart 
+                  This comprehensive test draws from our entire question bank of 1,325+ questions — including load chart 
                   questions with links to open the chart PDF. Covers all exam topics: advanced load calculations, structural 
                   engineering, rigging mastery, load chart reading, and emergency scenarios.
                 </p>
@@ -487,7 +489,7 @@ export default function HomePage() {
                   <div className="text-sm text-muted-foreground mt-1">Pass Rate</div>
                 </div>
                 <div className="bg-background border border-border p-6 text-center">
-                  <div className="text-4xl font-display font-bold">1,285+</div>
+                  <div className="text-4xl font-display font-bold">1,325+</div>
                   <div className="text-sm text-muted-foreground mt-1">Question Bank</div>
                 </div>
               </div>
@@ -719,7 +721,7 @@ export default function HomePage() {
             <div className="bg-muted/20 border border-border p-4">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="font-semibold text-sm">All Topics</h3>
-                <span className="text-xs text-muted-foreground">1,084 questions total</span>
+                <span className="text-xs text-muted-foreground">1,124 questions total</span>
               </div>
               <div className="grid grid-cols-2 gap-x-6 gap-y-2">
                 {categories.slice(2).map((category, index) => (

@@ -30240,5 +30240,1125 @@
     ],
     "correctAnswer": "c",
     "category": "Rigging & Sling Angles"
+  },
+  {
+    "id": 1085,
+    "question": "A tower crane annual certification must be performed by:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any experienced crane operator",
+        "explanation": "Incorrect. Operators are not qualified to perform certification."
+      },
+      {
+        "id": "b",
+        "text": "A certified rigger",
+        "explanation": "Incorrect. Riggers inspect rigging, not the crane structure."
+      },
+      {
+        "id": "c",
+        "text": "A professional engineer or qualified crane inspector",
+        "explanation": "Correct. In Canada and BC, annual crane certification must be completed by a qualified engineer or certified crane inspector authorized to evaluate structural and mechanical integrity."
+      },
+      {
+        "id": "d",
+        "text": "Site safety officer",
+        "explanation": "Incorrect. Safety officers coordinate but are not qualified inspectors."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "12-Month Crane Certification"
+  },
+  {
+    "id": 1086,
+    "question": "Which component must be inspected during annual crane certification?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Operator lunchroom",
+        "explanation": "Incorrect. Lunchroom is not part of crane certification."
+      },
+      {
+        "id": "b",
+        "text": "Mast sections and structural welds",
+        "explanation": "Correct. Annual inspections include structural evaluation of mast sections, welds, tower bolts, and jib and counter-jib structures. These are critical load-bearing elements."
+      },
+      {
+        "id": "c",
+        "text": "Site fencing",
+        "explanation": "Incorrect. Site fencing is not part of crane inspection."
+      },
+      {
+        "id": "d",
+        "text": "Traffic control plan",
+        "explanation": "Incorrect. Traffic control is a site planning item."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "12-Month Crane Certification"
+  },
+  {
+    "id": 1087,
+    "question": "Which of the following must be inspected for wear and lubrication during certification?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Concrete forms",
+        "explanation": "Incorrect. Concrete forms are not part of the crane."
+      },
+      {
+        "id": "b",
+        "text": "Slewing ring and slew drive",
+        "explanation": "Correct. The slewing ring bearing must be checked for gear wear, proper lubrication, bolt tightness, and abnormal play. Failure can cause catastrophic crane collapse."
+      },
+      {
+        "id": "c",
+        "text": "Tag lines",
+        "explanation": "Incorrect. Tag lines are rigging accessories."
+      },
+      {
+        "id": "d",
+        "text": "Rigging slings",
+        "explanation": "Incorrect. Slings are inspected separately from the crane."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "12-Month Crane Certification"
+  },
+  {
+    "id": 1088,
+    "question": "During annual certification, which condition would require wire rope replacement?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Minor surface rust",
+        "explanation": "Incorrect. Minor rust may be acceptable; severe corrosion is not."
+      },
+      {
+        "id": "b",
+        "text": "Excessive broken wires",
+        "explanation": "Correct. Wire rope must be replaced if inspection finds excessive broken wires, birdcaging, kinking, or significant wear. These conditions reduce rope strength."
+      },
+      {
+        "id": "c",
+        "text": "Slight grease residue",
+        "explanation": "Incorrect. Grease residue from lubrication is normal."
+      },
+      {
+        "id": "d",
+        "text": "Rope color change",
+        "explanation": "Incorrect. Color change alone doesn't require replacement."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "12-Month Crane Certification"
+  },
+  {
+    "id": 1089,
+    "question": "Which limit switches must be tested during certification?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hoist limit switch",
+        "explanation": "Incorrect. All limit switches must be tested, not just one."
+      },
+      {
+        "id": "b",
+        "text": "Trolley limit switch",
+        "explanation": "Incorrect. All limit switches must be tested."
+      },
+      {
+        "id": "c",
+        "text": "Anti-two-block",
+        "explanation": "Incorrect. All limit switches must be tested."
+      },
+      {
+        "id": "d",
+        "text": "All of the above",
+        "explanation": "Correct. All operational safety limits must be verified to prevent mechanical damage or overload."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "12-Month Crane Certification"
+  },
+  {
+    "id": 1090,
+    "question": "The annual certification must verify that the LMI system:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Is clean",
+        "explanation": "Incorrect. Cleanliness is not the primary certification requirement."
+      },
+      {
+        "id": "b",
+        "text": "Is calibrated and functioning correctly",
+        "explanation": "Correct. The Load Moment Indicator must be calibrated to ensure accurate load monitoring and overload protection."
+      },
+      {
+        "id": "c",
+        "text": "Has new batteries",
+        "explanation": "Incorrect. Battery condition is maintenance, not calibration."
+      },
+      {
+        "id": "d",
+        "text": "Displays in metric units",
+        "explanation": "Incorrect. Unit display preference is not the certification focus."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "12-Month Crane Certification"
+  },
+  {
+    "id": 1091,
+    "question": "During annual inspection, tower connection bolts must be checked for:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Paint color",
+        "explanation": "Incorrect. Paint doesn't affect bolt integrity."
+      },
+      {
+        "id": "b",
+        "text": "Proper torque and condition",
+        "explanation": "Correct. Tower bolts must be inspected for correct torque, cracks, corrosion, and deformation. These bolts maintain structural integrity of the mast."
+      },
+      {
+        "id": "c",
+        "text": "Manufacturer label",
+        "explanation": "Incorrect. Labels are not the primary inspection focus."
+      },
+      {
+        "id": "d",
+        "text": "Thread direction",
+        "explanation": "Incorrect. Thread direction is specified at installation."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "12-Month Crane Certification"
+  },
+  {
+    "id": 1092,
+    "question": "Annual crane certification requires inspection of:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Parking lot",
+        "explanation": "Incorrect. Parking is not part of crane certification."
+      },
+      {
+        "id": "b",
+        "text": "Crane foundation and anchorage",
+        "explanation": "Correct. Foundation must be inspected for structural cracks, anchor bolt condition, settlement, and structural stability."
+      },
+      {
+        "id": "c",
+        "text": "Site office",
+        "explanation": "Incorrect. Site office is not part of crane inspection."
+      },
+      {
+        "id": "d",
+        "text": "Concrete finishing tools",
+        "explanation": "Incorrect. Tools are not crane components."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "12-Month Crane Certification"
+  },
+  {
+    "id": 1093,
+    "question": "Which safety devices must be verified during annual certification?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Horn and lights",
+        "explanation": "Incorrect. All safety systems must be verified."
+      },
+      {
+        "id": "b",
+        "text": "Wind speed indicator",
+        "explanation": "Incorrect. All safety systems must be verified."
+      },
+      {
+        "id": "c",
+        "text": "Load limit protection",
+        "explanation": "Incorrect. All safety systems must be verified."
+      },
+      {
+        "id": "d",
+        "text": "All of the above",
+        "explanation": "Correct. All safety systems must be functional, including wind monitoring and warning systems."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "12-Month Crane Certification"
+  },
+  {
+    "id": 1094,
+    "question": "Annual certification includes inspection of:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Coffee machine",
+        "explanation": "Incorrect. Coffee machines are not crane equipment."
+      },
+      {
+        "id": "b",
+        "text": "Electrical panels and wiring",
+        "explanation": "Correct. Electrical components must be inspected for wiring damage, grounding, control functionality, and panel condition."
+      },
+      {
+        "id": "c",
+        "text": "Lighting poles",
+        "explanation": "Incorrect. Site lighting is not crane equipment."
+      },
+      {
+        "id": "d",
+        "text": "Site generators",
+        "explanation": "Incorrect. Site generators are separate from the crane."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "12-Month Crane Certification"
+  },
+  {
+    "id": 1095,
+    "question": "Which crane brakes must be tested during certification?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hoist brake",
+        "explanation": "Incorrect. All braking systems must be tested."
+      },
+      {
+        "id": "b",
+        "text": "Slew brake",
+        "explanation": "Incorrect. All braking systems must be tested."
+      },
+      {
+        "id": "c",
+        "text": "Trolley brake",
+        "explanation": "Incorrect. All braking systems must be tested."
+      },
+      {
+        "id": "d",
+        "text": "All of the above",
+        "explanation": "Correct. All braking systems must function correctly to control loads and crane motion safely."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "12-Month Crane Certification"
+  },
+  {
+    "id": 1096,
+    "question": "After inspection, what must occur before certification is finalized?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load test or operational function test",
+        "explanation": "Correct. A functional operational test confirms that all crane systems operate safely under load conditions."
+      },
+      {
+        "id": "b",
+        "text": "Crane repainting",
+        "explanation": "Incorrect. Painting is cosmetic, not required for certification."
+      },
+      {
+        "id": "c",
+        "text": "Lubrication only",
+        "explanation": "Incorrect. Lubrication is part of maintenance; functional test is required."
+      },
+      {
+        "id": "d",
+        "text": "Operator training",
+        "explanation": "Incorrect. Operator training is separate from crane certification."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "12-Month Crane Certification"
+  },
+  {
+    "id": 1097,
+    "question": "What document must be produced after successful certification?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Safety poster",
+        "explanation": "Incorrect. Safety posters are general site items."
+      },
+      {
+        "id": "b",
+        "text": "Inspection certificate",
+        "explanation": "Correct. A certification document confirms the crane has passed annual inspection and can operate legally."
+      },
+      {
+        "id": "c",
+        "text": "Operator logbook",
+        "explanation": "Incorrect. Logbooks are maintained by operators."
+      },
+      {
+        "id": "d",
+        "text": "Lift plan",
+        "explanation": "Incorrect. Lift plans are job-specific."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "12-Month Crane Certification"
+  },
+  {
+    "id": 1098,
+    "question": "A crane certification remains valid for:",
+    "options": [
+      {
+        "id": "a",
+        "text": "6 months",
+        "explanation": "Incorrect. Certification is annual (12 months)."
+      },
+      {
+        "id": "b",
+        "text": "12 months",
+        "explanation": "Correct. Tower cranes must undergo annual (12-month) certification."
+      },
+      {
+        "id": "c",
+        "text": "18 months",
+        "explanation": "Incorrect. Certification must be renewed every 12 months."
+      },
+      {
+        "id": "d",
+        "text": "24 months",
+        "explanation": "Incorrect. Certification is annual, not biennial."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "12-Month Crane Certification"
+  },
+  {
+    "id": 1099,
+    "question": "Before operating a crane, the operator must verify:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Paint condition",
+        "explanation": "Incorrect. Paint doesn't affect legal operation."
+      },
+      {
+        "id": "b",
+        "text": "Annual certification is current",
+        "explanation": "Correct. Operating a crane without valid certification violates safety regulations."
+      },
+      {
+        "id": "c",
+        "text": "Weather forecast only",
+        "explanation": "Incorrect. Certification must be verified in addition to weather."
+      },
+      {
+        "id": "d",
+        "text": "Site supervisor approval",
+        "explanation": "Incorrect. Approval doesn't replace certification requirement."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "12-Month Crane Certification"
+  },
+  {
+    "id": 1100,
+    "question": "If structural cracks are found during certification, the crane must:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue operating",
+        "explanation": "Incorrect. Structural defects require correction."
+      },
+      {
+        "id": "b",
+        "text": "Be monitored only",
+        "explanation": "Incorrect. Monitoring alone is not sufficient."
+      },
+      {
+        "id": "c",
+        "text": "Be repaired and re-inspected",
+        "explanation": "Correct. Structural defects require repair and re-inspection before operation."
+      },
+      {
+        "id": "d",
+        "text": "Be repainted",
+        "explanation": "Incorrect. Painting doesn't repair structural defects."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "12-Month Crane Certification"
+  },
+  {
+    "id": 1101,
+    "question": "For cranes with hydraulic systems (e.g., self-erecting cranes), inspection includes checking:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Oil color only",
+        "explanation": "Incorrect. Full hydraulic system inspection is required."
+      },
+      {
+        "id": "b",
+        "text": "Hydraulic leaks and pressure systems",
+        "explanation": "Correct. Hydraulic systems must be inspected for leaks, pressure stability, and proper operation."
+      },
+      {
+        "id": "c",
+        "text": "Paint thickness",
+        "explanation": "Incorrect. Paint is not part of hydraulic inspection."
+      },
+      {
+        "id": "d",
+        "text": "Grease fittings",
+        "explanation": "Incorrect. Grease fittings are for bearings, not hydraulic systems."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "12-Month Crane Certification"
+  },
+  {
+    "id": 1102,
+    "question": "Emergency stop systems must be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Painted red",
+        "explanation": "Incorrect. Color is not the primary requirement."
+      },
+      {
+        "id": "b",
+        "text": "Tested for proper shutdown function",
+        "explanation": "Correct. Emergency stops must immediately shut down crane operation when activated."
+      },
+      {
+        "id": "c",
+        "text": "Locked out",
+        "explanation": "Incorrect. Emergency stops must be functional, not locked."
+      },
+      {
+        "id": "d",
+        "text": "Disabled",
+        "explanation": "Incorrect. Emergency stops must never be disabled."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "12-Month Crane Certification"
+  },
+  {
+    "id": 1103,
+    "question": "Where cranes operate in close proximity, annual certification must verify:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lighting systems",
+        "explanation": "Incorrect. Anti-collision is the critical system for multi-crane sites."
+      },
+      {
+        "id": "b",
+        "text": "Anti-collision devices",
+        "explanation": "Correct. Anti-collision systems prevent crane interference in multi-crane environments."
+      },
+      {
+        "id": "c",
+        "text": "Cab seat condition",
+        "explanation": "Incorrect. Cab seats are not certification items."
+      },
+      {
+        "id": "d",
+        "text": "Paint markings",
+        "explanation": "Incorrect. Paint is cosmetic."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "12-Month Crane Certification"
+  },
+  {
+    "id": 1104,
+    "question": "Wind speed indicators must be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Optional",
+        "explanation": "Incorrect. Wind monitoring is required for crane safety."
+      },
+      {
+        "id": "b",
+        "text": "Installed and operational",
+        "explanation": "Correct. Wind monitoring is critical because wind loads significantly affect crane stability."
+      },
+      {
+        "id": "c",
+        "text": "Replaced monthly",
+        "explanation": "Incorrect. Monthly replacement is not a standard requirement."
+      },
+      {
+        "id": "d",
+        "text": "Painted",
+        "explanation": "Incorrect. Paint doesn't affect functionality."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "12-Month Crane Certification"
+  },
+  {
+    "id": 1105,
+    "question": "Before erecting a tower crane, what must be verified about the ground or foundation?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It is level only",
+        "explanation": "Incorrect. Level is necessary but engineering verification is required."
+      },
+      {
+        "id": "b",
+        "text": "It has proper drainage",
+        "explanation": "Incorrect. Drainage helps but load capacity is critical."
+      },
+      {
+        "id": "c",
+        "text": "It can support the crane loads specified by the engineer",
+        "explanation": "Correct. The crane foundation must be designed and verified by engineering calculations to ensure it can support the vertical loads, overturning moments, and dynamic forces produced by the crane."
+      },
+      {
+        "id": "d",
+        "text": "It is free of debris",
+        "explanation": "Incorrect. Debris clearance is basic but not the primary verification."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Tower Crane Erection"
+  },
+  {
+    "id": 1106,
+    "question": "Before assembling mast sections during erection, what must be inspected?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Paint color",
+        "explanation": "Incorrect. Paint doesn't affect structural integrity."
+      },
+      {
+        "id": "b",
+        "text": "Structural damage and cracks",
+        "explanation": "Correct. Mast sections must be inspected for cracks, deformation, damaged welds, and excessive corrosion. Damaged sections cannot be used."
+      },
+      {
+        "id": "c",
+        "text": "Manufacturer decals",
+        "explanation": "Incorrect. Decals are identification, not structural."
+      },
+      {
+        "id": "d",
+        "text": "Bolt color markings",
+        "explanation": "Incorrect. Bolt markings are for installation verification."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Tower Crane Erection"
+  },
+  {
+    "id": 1107,
+    "question": "What must be verified for mast connection bolts during erection?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Paint thickness",
+        "explanation": "Incorrect. Paint doesn't affect bolt function."
+      },
+      {
+        "id": "b",
+        "text": "Correct torque and proper installation",
+        "explanation": "Correct. Bolts connecting mast sections must be installed according to manufacturer specifications, including correct torque values and proper orientation."
+      },
+      {
+        "id": "c",
+        "text": "Color coding",
+        "explanation": "Incorrect. Torque specification is the critical requirement."
+      },
+      {
+        "id": "d",
+        "text": "Bolt length only",
+        "explanation": "Incorrect. Torque and installation are equally critical."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Tower Crane Erection"
+  },
+  {
+    "id": 1108,
+    "question": "Before installing the crane upper structure, what must be inspected?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Slewing ring bolt torque and condition",
+        "explanation": "Correct. The slewing ring is a critical structural component. Bolts must be properly torqued, undamaged, and installed according to manufacturer specifications."
+      },
+      {
+        "id": "b",
+        "text": "Paint quality",
+        "explanation": "Incorrect. Paint is cosmetic."
+      },
+      {
+        "id": "c",
+        "text": "Cab windows",
+        "explanation": "Incorrect. Cab inspection comes later."
+      },
+      {
+        "id": "d",
+        "text": "Trolley wheels",
+        "explanation": "Incorrect. Trolley is part of the upper structure, but slewing ring is critical first."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Tower Crane Erection"
+  },
+  {
+    "id": 1109,
+    "question": "What must be verified when installing counterweights?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They are painted correctly",
+        "explanation": "Incorrect. Paint doesn't affect weight."
+      },
+      {
+        "id": "b",
+        "text": "They match the manufacturer's specified weight and placement",
+        "explanation": "Correct. Incorrect counterweight installation can lead to crane instability or overturning."
+      },
+      {
+        "id": "c",
+        "text": "They are balanced visually",
+        "explanation": "Incorrect. Visual balance is not sufficient; manufacturer specs must be followed."
+      },
+      {
+        "id": "d",
+        "text": "They are equal size",
+        "explanation": "Incorrect. Weight and placement matter, not size."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Tower Crane Erection"
+  },
+  {
+    "id": 1110,
+    "question": "During erection, the jib must be inspected for:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Straightness and structural integrity",
+        "explanation": "Correct. The jib must be free from structural defects such as bent sections, cracked welds, and damaged connection points."
+      },
+      {
+        "id": "b",
+        "text": "Color uniformity",
+        "explanation": "Incorrect. Color doesn't affect structure."
+      },
+      {
+        "id": "c",
+        "text": "Weather resistance",
+        "explanation": "Incorrect. Structural integrity is the primary concern."
+      },
+      {
+        "id": "d",
+        "text": "Operator visibility",
+        "explanation": "Incorrect. Visibility is a cab design consideration."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Tower Crane Erection"
+  },
+  {
+    "id": 1111,
+    "question": "When installing the hoist rope during erection, what must be verified?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rope color",
+        "explanation": "Incorrect. Rope color doesn't affect function."
+      },
+      {
+        "id": "b",
+        "text": "Correct reeving according to the manufacturer diagram",
+        "explanation": "Correct. Improper reeving can cause mechanical failure or uneven loading."
+      },
+      {
+        "id": "c",
+        "text": "Rope stiffness",
+        "explanation": "Incorrect. Reeving configuration is critical."
+      },
+      {
+        "id": "d",
+        "text": "Hook paint",
+        "explanation": "Incorrect. Hook paint is cosmetic."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Tower Crane Erection"
+  },
+  {
+    "id": 1112,
+    "question": "Before the crane is placed into service, what must be done with limit switches?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Painted",
+        "explanation": "Incorrect. Painting doesn't verify function."
+      },
+      {
+        "id": "b",
+        "text": "Disabled",
+        "explanation": "Incorrect. Limit switches must be operational."
+      },
+      {
+        "id": "c",
+        "text": "Tested for correct operation",
+        "explanation": "Correct. Limit switches must be tested to prevent over-hoisting, over-trolleying, and mechanical damage."
+      },
+      {
+        "id": "d",
+        "text": "Locked",
+        "explanation": "Incorrect. Limit switches must remain operational."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Tower Crane Erection"
+  },
+  {
+    "id": 1113,
+    "question": "After erection, the LMI must be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Repainted",
+        "explanation": "Incorrect. Paint doesn't affect LMI accuracy."
+      },
+      {
+        "id": "b",
+        "text": "Recalibrated or verified for accuracy",
+        "explanation": "Correct. The Load Moment Indicator must accurately reflect crane configuration and load limits."
+      },
+      {
+        "id": "c",
+        "text": "Turned off",
+        "explanation": "Incorrect. LMI must be operational."
+      },
+      {
+        "id": "d",
+        "text": "Reset only",
+        "explanation": "Incorrect. Calibration or verification is required."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Tower Crane Erection"
+  },
+  {
+    "id": 1114,
+    "question": "During erection completion, electrical systems must be checked for:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Correct wiring connections and grounding",
+        "explanation": "Correct. Improper electrical connections can cause system failure or unsafe crane operation."
+      },
+      {
+        "id": "b",
+        "text": "Paint condition",
+        "explanation": "Incorrect. Paint doesn't affect electrical function."
+      },
+      {
+        "id": "c",
+        "text": "Weatherproof labels",
+        "explanation": "Incorrect. Labels are secondary to connections."
+      },
+      {
+        "id": "d",
+        "text": "Cable color",
+        "explanation": "Incorrect. Correct connections matter more than color."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Tower Crane Erection"
+  },
+  {
+    "id": 1115,
+    "question": "If the crane will climb later, what must be inspected during erection?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Climbing frame structural components",
+        "explanation": "Correct. Climbing frames must be inspected for structural integrity, proper installation, and hydraulic or mechanical system readiness."
+      },
+      {
+        "id": "b",
+        "text": "Operator seat",
+        "explanation": "Incorrect. Operator seat is not erection-critical."
+      },
+      {
+        "id": "c",
+        "text": "Counterweights",
+        "explanation": "Incorrect. Counterweights are inspected separately."
+      },
+      {
+        "id": "d",
+        "text": "Trolley motor",
+        "explanation": "Incorrect. Climbing frame is the critical component for future climbing."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Tower Crane Erection"
+  },
+  {
+    "id": 1116,
+    "question": "Before placing the crane into service, the hook block must be inspected for:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Paint scratches",
+        "explanation": "Incorrect. Structural condition matters more."
+      },
+      {
+        "id": "b",
+        "text": "Cracks, safety latch condition, and sheave rotation",
+        "explanation": "Correct. Hook blocks must be structurally sound and able to rotate freely."
+      },
+      {
+        "id": "c",
+        "text": "Rope color",
+        "explanation": "Incorrect. Rope color is irrelevant."
+      },
+      {
+        "id": "d",
+        "text": "Hook temperature",
+        "explanation": "Incorrect. Temperature is not an erection inspection item."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Tower Crane Erection"
+  },
+  {
+    "id": 1117,
+    "question": "After erection, the crane must be tested for:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Smooth slewing operation",
+        "explanation": "Correct. Slewing movement must be smooth and controlled with proper brake operation."
+      },
+      {
+        "id": "b",
+        "text": "Counterweight color",
+        "explanation": "Incorrect. Color is cosmetic."
+      },
+      {
+        "id": "c",
+        "text": "Operator visibility",
+        "explanation": "Incorrect. Slewing function is the critical test."
+      },
+      {
+        "id": "d",
+        "text": "Cab lighting",
+        "explanation": "Incorrect. Slewing operation is the primary test."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Tower Crane Erection"
+  },
+  {
+    "id": 1118,
+    "question": "The trolley system must be tested to ensure:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Proper lighting",
+        "explanation": "Incorrect. Trolley function is the priority."
+      },
+      {
+        "id": "b",
+        "text": "Smooth movement and functioning travel limits",
+        "explanation": "Correct. Trolley limit switches prevent the trolley from striking end stops or structural components."
+      },
+      {
+        "id": "c",
+        "text": "Proper paint finish",
+        "explanation": "Incorrect. Paint doesn't affect safety."
+      },
+      {
+        "id": "d",
+        "text": "Track cleanliness",
+        "explanation": "Incorrect. Movement and limits are critical."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Tower Crane Erection"
+  },
+  {
+    "id": 1119,
+    "question": "Before operation, the hoist system must be tested to confirm:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rope color",
+        "explanation": "Incorrect. Rope color is irrelevant."
+      },
+      {
+        "id": "b",
+        "text": "Proper brake operation and lifting function",
+        "explanation": "Correct. The hoist brake must hold loads safely without slipping."
+      },
+      {
+        "id": "c",
+        "text": "Motor noise level",
+        "explanation": "Incorrect. Brake and lifting function are critical."
+      },
+      {
+        "id": "d",
+        "text": "Hook shine",
+        "explanation": "Incorrect. Cosmetic condition doesn't affect safety."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Tower Crane Erection"
+  },
+  {
+    "id": 1120,
+    "question": "After erection, the crane must have:",
+    "options": [
+      {
+        "id": "a",
+        "text": "A wind speed indicator installed and functioning",
+        "explanation": "Correct. Wind speed monitoring is essential because wind loads significantly affect crane stability."
+      },
+      {
+        "id": "b",
+        "text": "Painted wind cups",
+        "explanation": "Incorrect. Function is required, not paint."
+      },
+      {
+        "id": "c",
+        "text": "Manual wind gauge only",
+        "explanation": "Incorrect. An installed, functioning indicator is required."
+      },
+      {
+        "id": "d",
+        "text": "Site weather report",
+        "explanation": "Incorrect. On-board wind monitoring is required."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Tower Crane Erection"
+  },
+  {
+    "id": 1121,
+    "question": "Before lifting operations begin, what must be confirmed?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Radio or signal communication system is functional",
+        "explanation": "Correct. Clear communication between the operator and signalperson is essential for safe lifting."
+      },
+      {
+        "id": "b",
+        "text": "Operator phone battery",
+        "explanation": "Incorrect. Crane communication system is required."
+      },
+      {
+        "id": "c",
+        "text": "Site internet connection",
+        "explanation": "Incorrect. Crane-specific communication is required."
+      },
+      {
+        "id": "d",
+        "text": "Crane camera system",
+        "explanation": "Incorrect. Operator-signalperson communication is primary."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Tower Crane Erection"
+  },
+  {
+    "id": 1122,
+    "question": "After erection and inspection, the crane must undergo:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Paint inspection",
+        "explanation": "Incorrect. Functional testing is required."
+      },
+      {
+        "id": "b",
+        "text": "Full operational function testing",
+        "explanation": "Correct. All crane motions must be tested: hoist, slew, trolley, and braking systems."
+      },
+      {
+        "id": "c",
+        "text": "Only hoist testing",
+        "explanation": "Incorrect. All motions must be tested."
+      },
+      {
+        "id": "d",
+        "text": "Only slewing testing",
+        "explanation": "Incorrect. Full function testing is required."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Tower Crane Erection"
+  },
+  {
+    "id": 1123,
+    "question": "After erection inspection is complete, what must be recorded?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Weather conditions",
+        "explanation": "Incorrect. Inspection documentation is the legal requirement."
+      },
+      {
+        "id": "b",
+        "text": "Erection inspection documentation and sign-off",
+        "explanation": "Correct. Inspection records verify that the crane was erected and inspected according to regulations and manufacturer requirements."
+      },
+      {
+        "id": "c",
+        "text": "Operator lunch schedule",
+        "explanation": "Incorrect. Documentation is inspection-related."
+      },
+      {
+        "id": "d",
+        "text": "Cab cleaning record",
+        "explanation": "Incorrect. Inspection documentation is required."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Tower Crane Erection"
+  },
+  {
+    "id": 1124,
+    "question": "Who authorizes the crane to be placed into service after erection inspection?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Signalperson",
+        "explanation": "Incorrect. Signalpersons don't authorize crane service."
+      },
+      {
+        "id": "b",
+        "text": "Crane operator",
+        "explanation": "Incorrect. Operators cannot self-authorize."
+      },
+      {
+        "id": "c",
+        "text": "Qualified inspector or engineer",
+        "explanation": "Correct. A qualified inspector or engineer must confirm the crane is safe before operation begins."
+      },
+      {
+        "id": "d",
+        "text": "Site labourer",
+        "explanation": "Incorrect. Only qualified personnel can authorize."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Tower Crane Erection"
   }
 ]
