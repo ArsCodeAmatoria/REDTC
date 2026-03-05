@@ -8,8 +8,11 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-6">
-            <Link href="/" className="font-display text-lg font-bold tracking-tight">
-              REDTC
+            <Link href="/" className="flex items-center gap-2">
+              <div className="w-6 h-6 bg-accent flex items-center justify-center">
+                <span className="font-display text-xs font-black text-accent-foreground">R</span>
+              </div>
+              <span className="font-display text-lg font-bold tracking-tight">REDTC</span>
             </Link>
             <nav className="hidden md:flex items-center gap-6 text-sm text-muted-foreground">
               <Link href="/test" className="hover:text-foreground transition-colors">
@@ -26,7 +29,7 @@ export function Footer() {
               href="https://bigfootcrane.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline-hover text-foreground"
+              className="text-foreground hover:text-accent transition-colors"
             >
               Bigfoot Crane
             </a>

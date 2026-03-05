@@ -9,21 +9,25 @@
     --card: 0 0% 100%;
     --card-foreground: 0 0% 8%;
     --muted: 0 0% 96%;
-    --muted-foreground: 0 0% 40%;
-    --border: 0 0% 88%;
+    --muted-foreground: 0 0% 45%;
+    --border: 0 0% 90%;
     --ring: 0 0% 8%;
     --radius: 0px;
+    --accent: 50 100% 50%;
+    --accent-foreground: 0 0% 8%;
   }
 
   .dark {
-    --background: 0 0% 6%;
+    --background: 0 0% 7%;
     --foreground: 0 0% 98%;
-    --card: 0 0% 8%;
+    --card: 0 0% 10%;
     --card-foreground: 0 0% 98%;
-    --muted: 0 0% 14%;
-    --muted-foreground: 0 0% 60%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 55%;
     --border: 0 0% 20%;
     --ring: 0 0% 98%;
+    --accent: 50 100% 50%;
+    --accent-foreground: 0 0% 8%;
   }
 }
 
@@ -47,11 +51,16 @@ html {
 }
 
 ::selection {
-  @apply bg-foreground text-background;
+  @apply bg-accent text-accent-foreground;
 }
 
 ::-moz-selection {
-  @apply bg-foreground text-background;
+  @apply bg-accent text-accent-foreground;
+}
+
+/* Vox-style category label */
+.category-label {
+  @apply text-xs font-bold uppercase tracking-widest text-accent;
 }
 
 /* Editorial Typography */
@@ -76,16 +85,29 @@ html {
   @apply bg-muted/50;
 }
 
-/* Underline Animation */
-.underline-hover {
-  @apply relative;
+/* Yellow accent underline */
+.accent-underline {
+  @apply relative inline;
+  background-image: linear-gradient(hsl(var(--accent)), hsl(var(--accent)));
+  background-size: 100% 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
 }
 
-.underline-hover::after {
+/* Link hover with yellow */
+.link-hover {
+  @apply relative transition-colors;
+}
+
+.link-hover:hover {
+  @apply text-foreground;
+}
+
+.link-hover::after {
   content: '';
-  @apply absolute bottom-0 left-0 w-0 h-[2px] bg-foreground transition-all duration-300;
+  @apply absolute bottom-0 left-0 w-0 h-[2px] bg-accent transition-all duration-300;
 }
 
-.underline-hover:hover::after {
+.link-hover:hover::after {
   @apply w-full;
 }

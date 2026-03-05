@@ -6,7 +6,6 @@ import { ArrowLeft, ArrowRight, RotateCcw, Check, X, Home } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { QuestionCard, ProgressBar } from "@/components/quiz";
 import { ThemeToggle } from "@/components/theme-toggle";
-import { Separator } from "@/components/ui/separator";
 import { useTest } from "@/hooks/use-test";
 import questionsData from "@/data/questions.json";
 import type { Question } from "@/types/question";
@@ -42,82 +41,79 @@ export default function TestPage() {
         {/* Header */}
         <header className="border-b border-border sticky top-0 bg-background/95 backdrop-blur z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between h-16">
-              <Link href="/" className="flex items-center gap-3">
-                <span className="font-display text-2xl font-bold tracking-tight">REDTC</span>
+            <div className="flex items-center justify-between h-14">
+              <Link href="/" className="flex items-center gap-2">
+                <div className="w-8 h-8 bg-accent flex items-center justify-center">
+                  <span className="font-display text-sm font-black text-accent-foreground">R</span>
+                </div>
+                <span className="font-display text-xl font-bold tracking-tight hidden sm:block">REDTC</span>
               </Link>
               <ThemeToggle />
             </div>
           </div>
         </header>
 
-        <div className="max-w-2xl mx-auto px-4 py-16 md:py-24">
+        <div className="max-w-xl mx-auto px-4 py-16 md:py-24">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             className="space-y-8"
           >
-            {/* Result Badge */}
+            {/* Result */}
             <div className="text-center space-y-6">
               <motion.div
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
                 transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
-                className={`w-24 h-24 mx-auto border-2 flex items-center justify-center ${
-                  isPassed ? "border-foreground" : "border-muted-foreground"
+                className={`w-20 h-20 mx-auto flex items-center justify-center ${
+                  isPassed ? "bg-accent" : "bg-muted"
                 }`}
               >
                 {isPassed ? (
-                  <Check className="w-12 h-12" strokeWidth={2.5} />
+                  <Check className="w-10 h-10 text-accent-foreground" strokeWidth={2.5} />
                 ) : (
-                  <X className="w-12 h-12 text-muted-foreground" strokeWidth={2.5} />
+                  <X className="w-10 h-10 text-muted-foreground" strokeWidth={2.5} />
                 )}
               </motion.div>
 
               <div>
-                <p className="editorial-label mb-2">Test Complete</p>
-                <h1 className="font-display text-6xl md:text-7xl font-bold">
+                <span className={`category-label ${!isPassed && 'text-muted-foreground'}`}>
+                  {isPassed ? "Passed" : "Not Passed"}
+                </span>
+                <h1 className="font-display text-6xl md:text-7xl font-bold mt-2">
                   {results.percentage}%
                 </h1>
               </div>
-
-              <div className={`inline-block px-4 py-2 border ${
-                isPassed ? "border-foreground" : "border-muted-foreground"
-              }`}>
-                <span className={`text-sm font-bold uppercase tracking-widest ${
-                  isPassed ? "" : "text-muted-foreground"
-                }`}>
-                  {isPassed ? "Passed" : "Not Passed"}
-                </span>
-              </div>
             </div>
 
-            <Separator />
+            <div className="h-px bg-border" />
 
             {/* Stats */}
             <div className="grid grid-cols-2 gap-8 py-4">
               <div className="text-center">
-                <div className="text-4xl font-display font-bold">{results.correctCount}</div>
+                <div className="text-3xl font-display font-bold">{results.correctCount}</div>
                 <div className="text-sm text-muted-foreground mt-1">Correct</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-display font-bold">{results.incorrectCount}</div>
+                <div className="text-3xl font-display font-bold">{results.incorrectCount}</div>
                 <div className="text-sm text-muted-foreground mt-1">Incorrect</div>
               </div>
             </div>
 
-            <div className="text-center text-sm text-muted-foreground">
-              Required: {passPercentage}% ({Math.ceil(totalQuestions * passPercentage / 100)} of {totalQuestions})
-              <span className="mx-2">·</span>
-              Question Bank: {totalQuestionsInBank} total
-            </div>
+            <p className="text-center text-sm text-muted-foreground">
+              Required: {passPercentage}% · From {totalQuestionsInBank} total questions
+            </p>
 
-            <Separator />
+            <div className="h-px bg-border" />
 
             {/* Actions */}
-            <div className="space-y-3 pt-4">
-              <Button onClick={resetTest} className="w-full group" size="lg">
+            <div className="space-y-3 pt-2">
+              <Button 
+                onClick={resetTest} 
+                className={`w-full ${isPassed ? 'bg-accent text-accent-foreground hover:bg-accent/90' : ''}`}
+                size="lg"
+              >
                 <RotateCcw className="mr-2 h-4 w-4" />
                 {isPassed ? "Practice Again" : "Try Again"}
               </Button>
@@ -143,7 +139,8 @@ export default function TestPage() {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center space-y-4">
-          <div className="font-display text-2xl font-bold">Loading questions...</div>
+          <div className="w-8 h-8 bg-accent mx-auto animate-pulse" />
+          <div className="font-medium">Loading questions...</div>
         </div>
       </div>
     );
@@ -154,9 +151,12 @@ export default function TestPage() {
       {/* Header */}
       <header className="border-b border-border sticky top-0 bg-background/95 backdrop-blur z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <Link href="/" className="flex items-center gap-3">
-              <span className="font-display text-2xl font-bold tracking-tight">REDTC</span>
+          <div className="flex items-center justify-between h-14">
+            <Link href="/" className="flex items-center gap-2">
+              <div className="w-8 h-8 bg-accent flex items-center justify-center">
+                <span className="font-display text-sm font-black text-accent-foreground">R</span>
+              </div>
+              <span className="font-display text-xl font-bold tracking-tight hidden sm:block">REDTC</span>
             </Link>
             <div className="flex items-center gap-4">
               <span className="text-sm text-muted-foreground hidden sm:block">
@@ -170,13 +170,13 @@ export default function TestPage() {
 
       {/* Progress Bar */}
       <div className="border-b border-border">
-        <div className="max-w-4xl mx-auto px-4 py-4">
+        <div className="max-w-3xl mx-auto px-4 py-4">
           <ProgressBar current={answeredCount} total={totalQuestions} />
         </div>
       </div>
 
       {/* Question Content */}
-      <div className="max-w-4xl mx-auto px-4 py-8 md:py-12">
+      <div className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <AnimatePresence mode="wait">
           <QuestionCard
             key={currentQuestion.id}
@@ -195,23 +195,22 @@ export default function TestPage() {
             variant="outline"
             onClick={previousQuestion}
             disabled={!canGoPrevious}
-            className="group"
           >
-            <ArrowLeft className="mr-2 h-4 w-4 transition-transform group-hover:-translate-x-1" />
+            <ArrowLeft className="mr-2 h-4 w-4" />
             Previous
           </Button>
 
-          <span className="text-sm font-medium text-muted-foreground">
-            {currentQuestionIndex + 1} of {totalQuestions}
+          <span className="text-sm text-muted-foreground">
+            {currentQuestionIndex + 1} / {totalQuestions}
           </span>
 
           <Button
             onClick={nextQuestion}
             disabled={!canGoNext}
-            className="group"
+            className={canGoNext && isLastQuestion ? "bg-accent text-accent-foreground hover:bg-accent/90" : ""}
           >
             {isLastQuestion ? "Finish" : "Next"}
-            <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+            <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
         </div>
       </div>

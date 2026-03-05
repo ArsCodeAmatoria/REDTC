@@ -18,9 +18,9 @@ export function ProgressBar({ current, total }: ProgressBarProps) {
         </span>
         <span className="font-medium">{percentage}%</span>
       </div>
-      <div className="h-1 bg-border overflow-hidden">
+      <div className="h-1.5 bg-muted overflow-hidden">
         <motion.div
-          className="h-full bg-foreground"
+          className="h-full bg-accent"
           initial={{ width: 0 }}
           animate={{ width: `${percentage}%` }}
           transition={{ duration: 0.3, ease: "easeOut" }}

@@ -31,29 +31,29 @@ export function AnswerOption({
 
   return (
     <motion.button
-      whileHover={!disabled ? { scale: 1.005 } : {}}
+      whileHover={!disabled ? { x: 2 } : {}}
       whileTap={!disabled ? { scale: 0.995 } : {}}
       onClick={onClick}
       disabled={disabled}
       className={cn(
         "w-full text-left transition-all duration-200 group",
-        "border p-4 md:p-5",
+        "border p-4",
         "flex items-start gap-4",
         disabled && "cursor-default",
-        !showResult && !disabled && "hover:bg-muted/50",
+        !showResult && !disabled && "hover:border-foreground hover:bg-muted/30",
         !showResult && isSelected && "bg-foreground text-background border-foreground",
-        isCorrectAnswer && "bg-foreground text-background border-foreground",
+        isCorrectAnswer && "bg-accent text-accent-foreground border-accent",
         isWrongSelection && "bg-muted border-muted-foreground/50"
       )}
     >
       {/* Option Letter */}
       <div
         className={cn(
-          "flex-shrink-0 w-8 h-8 flex items-center justify-center text-sm font-bold border",
-          !showResult && !isSelected && "border-border",
-          !showResult && isSelected && "border-background/30",
-          isCorrectAnswer && "border-background/30",
-          isWrongSelection && "border-muted-foreground/30"
+          "flex-shrink-0 w-7 h-7 flex items-center justify-center text-xs font-bold",
+          !showResult && !isSelected && "bg-muted",
+          !showResult && isSelected && "bg-background/20",
+          isCorrectAnswer && "bg-accent-foreground/20",
+          isWrongSelection && "bg-muted-foreground/20"
         )}
       >
         {showResult ? (
@@ -70,7 +70,7 @@ export function AnswerOption({
       </div>
 
       {/* Option Text */}
-      <span className="flex-1 pt-1 text-sm md:text-base leading-relaxed">
+      <span className="flex-1 text-sm leading-relaxed pt-0.5">
         {option.text}
       </span>
 
@@ -78,12 +78,12 @@ export function AnswerOption({
       {showResult && (isCorrect || isWrongSelection) && (
         <span
           className={cn(
-            "flex-shrink-0 text-xs font-bold uppercase tracking-wider pt-1",
-            isCorrect && "opacity-70",
+            "flex-shrink-0 text-xs font-bold uppercase tracking-wider pt-0.5",
+            isCorrect && "opacity-80",
             isWrongSelection && "text-muted-foreground"
           )}
         >
-          {isCorrect ? "Correct" : "Incorrect"}
+          {isCorrect ? "Correct" : "Wrong"}
         </span>
       )}
     </motion.button>
