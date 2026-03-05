@@ -15,7 +15,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "MASTERTC - Red Seal Tower Crane Exam Practice",
+  title: "REDTC - Red Seal Tower Crane Exam Practice",
   description: "Practice for your Red Seal Tower Crane certification exam with comprehensive multiple choice questions and detailed explanations.",
   keywords: ["tower crane", "red seal", "exam", "practice", "certification", "crane operator", "BC", "British Columbia"],
 };

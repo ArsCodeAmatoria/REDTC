@@ -45,7 +45,7 @@ function formatTime(ms: number): string {
 
 function getLeaderboard(): LeaderboardEntry[] {
   if (typeof window === "undefined") return [];
-  const stored = localStorage.getItem("mastertc-leaderboard");
+  const stored = localStorage.getItem("redtc-leaderboard");
   return stored ? JSON.parse(stored) : [];
 }
 
@@ -57,7 +57,7 @@ function saveToLeaderboard(entry: LeaderboardEntry): LeaderboardEntry[] {
     return a.time - b.time;
   });
   const top10 = leaderboard.slice(0, 10);
-  localStorage.setItem("mastertc-leaderboard", JSON.stringify(top10));
+  localStorage.setItem("redtc-leaderboard", JSON.stringify(top10));
   return top10;
 }
 
@@ -143,9 +143,9 @@ export default function TestPage() {
             <div className="flex items-center justify-between h-14">
               <Link href="/" className="flex items-center gap-2">
                 <div className="w-8 h-8 bg-accent flex items-center justify-center">
-                  <span className="text-xl font-black text-accent-foreground">M</span>
+                  <span className="text-xl font-black text-accent-foreground">R</span>
                 </div>
-                <span className="font-display text-xl font-bold tracking-tight hidden sm:block">MASTERTC</span>
+                <span className="font-display text-xl font-bold tracking-tight hidden sm:block">REDTC</span>
               </Link>
             </div>
           </div>
@@ -211,9 +211,9 @@ export default function TestPage() {
             <div className="flex items-center justify-between h-14">
               <Link href="/" className="flex items-center gap-2">
                 <div className="w-8 h-8 bg-accent flex items-center justify-center">
-                  <span className="text-xl font-black text-accent-foreground">M</span>
+                  <span className="text-xl font-black text-accent-foreground">R</span>
                 </div>
-                <span className="font-display text-xl font-bold tracking-tight hidden sm:block">MASTERTC</span>
+                <span className="font-display text-xl font-bold tracking-tight hidden sm:block">REDTC</span>
               </Link>
             </div>
           </div>
@@ -475,9 +475,9 @@ export default function TestPage() {
           <div className="flex items-center justify-between h-14">
             <Link href="/" className="flex items-center gap-2">
               <div className="w-8 h-8 bg-accent flex items-center justify-center">
-                <span className="text-xl font-black text-accent-foreground">M</span>
+                <span className="text-xl font-black text-accent-foreground">R</span>
               </div>
-              <span className="font-display text-xl font-bold tracking-tight hidden sm:block">MASTERTC</span>
+              <span className="font-display text-xl font-bold tracking-tight hidden sm:block">REDTC</span>
             </Link>
             <div className="flex items-center gap-4">
               {selectedDifficulty !== "all" && (
