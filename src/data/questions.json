@@ -20580,5 +20580,565 @@
     ],
     "correctAnswer": "c",
     "category": "Load Chart - Reasoning"
+  },
+  {
+    "id": 740,
+    "question": "HOIST CHART: Gear 1 = 10,000 kg (Slow) | Gear 2 = 6,000 kg (Medium) | Gear 3 = 3,000 kg (Fast) | Hook + rigging = 500 kg — A 2,400 kg load must be lifted. With rigging and hook the total is 2,900 kg. Which gear should be used?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gear 1",
+        "explanation": "Incorrect. Gear 1 would work but is unnecessarily slow."
+      },
+      {
+        "id": "b",
+        "text": "Gear 2",
+        "explanation": "Incorrect. Gear 2 would work but a higher gear is available."
+      },
+      {
+        "id": "c",
+        "text": "Gear 3",
+        "explanation": "Correct. Total weight = 2,900 kg. Gear 3 maximum = 3,000 kg. Operators should use the highest gear that safely lifts the load for efficiency."
+      },
+      {
+        "id": "d",
+        "text": "Lift not possible",
+        "explanation": "Incorrect. Multiple gears can handle this load."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Multi-Gear Selection"
+  },
+  {
+    "id": 741,
+    "question": "HOIST CHART: Gear 1 = 10,000 kg (Slow) | Gear 2 = 6,000 kg (Medium) | Gear 3 = 3,000 kg (Fast) | Hook + rigging = 500 kg — A 3,400 kg load must be lifted. Rigging and hook equal 500 kg. Which gear is required?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gear 3",
+        "explanation": "Incorrect. Gear 3 max = 3,000 kg, which is less than 3,900 kg total."
+      },
+      {
+        "id": "b",
+        "text": "Gear 2",
+        "explanation": "Correct. Total weight: 3,400 + 500 = 3,900 kg. Gear 3 = 3,000 kg is too small. Gear 2 = 6,000 kg is the correct choice."
+      },
+      {
+        "id": "c",
+        "text": "Gear 1",
+        "explanation": "Incorrect. Gear 1 would work but Gear 2 is sufficient and faster."
+      },
+      {
+        "id": "d",
+        "text": "Lift not possible",
+        "explanation": "Incorrect. Gear 2 can handle this load."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Multi-Gear Selection"
+  },
+  {
+    "id": 742,
+    "question": "HOIST CHART: Gear 1 = 10,000 kg (Slow) | Gear 2 = 6,000 kg (Medium) | Gear 3 = 3,000 kg (Fast) | Hook + rigging = 500 kg — A 5,300 kg load including rigging must be lifted. Which gear is appropriate?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gear 3",
+        "explanation": "Incorrect. Gear 3 max = 3,000 kg is far too small."
+      },
+      {
+        "id": "b",
+        "text": "Gear 2",
+        "explanation": "Correct. 5,300 kg fits within Gear 2's 6,000 kg maximum capacity."
+      },
+      {
+        "id": "c",
+        "text": "Gear 1",
+        "explanation": "Incorrect. Gear 1 would work but Gear 2 is sufficient and faster."
+      },
+      {
+        "id": "d",
+        "text": "Lift not possible",
+        "explanation": "Incorrect. Gear 2 can handle this load."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Multi-Gear Selection"
+  },
+  {
+    "id": 743,
+    "question": "HOIST CHART: Gear 1 = 10,000 kg (Slow) | Gear 2 = 6,000 kg (Medium) | Gear 3 = 3,000 kg (Fast) | Hook + rigging = 500 kg — A 7,200 kg load must be lifted. Which gear must be used?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gear 3",
+        "explanation": "Incorrect. Gear 3 max = 3,000 kg is far too small."
+      },
+      {
+        "id": "b",
+        "text": "Gear 2",
+        "explanation": "Incorrect. Gear 2 max = 6,000 kg is insufficient for 7,200 kg."
+      },
+      {
+        "id": "c",
+        "text": "Gear 1",
+        "explanation": "Correct. Gear 2 max = 6,000 kg is insufficient. Gear 1 with 10,000 kg capacity is required."
+      },
+      {
+        "id": "d",
+        "text": "Lift not possible",
+        "explanation": "Incorrect. Gear 1 can handle this load."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Multi-Gear Selection"
+  },
+  {
+    "id": 744,
+    "question": "HOIST CHART: Gear 1 = 10,000 kg (Slow) | Gear 2 = 6,000 kg (Medium) | Gear 3 = 3,000 kg (Fast) | Hook + rigging = 500 kg — A 2,000 kg load is lifted in Gear 1. What problem might occur?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Overload",
+        "explanation": "Incorrect. 2,000 kg is well within Gear 1's capacity."
+      },
+      {
+        "id": "b",
+        "text": "Unnecessarily slow hoisting",
+        "explanation": "Correct. Gear 3 could safely lift 2,000 kg at fast speed. Using Gear 1 results in unnecessarily slow operation and reduced efficiency."
+      },
+      {
+        "id": "c",
+        "text": "Crane instability",
+        "explanation": "Incorrect. Gear choice doesn't affect stability."
+      },
+      {
+        "id": "d",
+        "text": "Gear failure",
+        "explanation": "Incorrect. Light loads don't cause gear failure."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Multi-Gear Selection"
+  },
+  {
+    "id": 745,
+    "question": "HOIST CHART: Gear 1 = 10,000 kg (Slow) | Gear 2 = 6,000 kg (Medium) | Gear 3 = 3,000 kg (Fast) | Hook + rigging = 500 kg — A 3,100 kg load including rigging is lifted using Gear 3. What is the problem?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Crane unstable",
+        "explanation": "Incorrect. Gear selection doesn't directly affect stability."
+      },
+      {
+        "id": "b",
+        "text": "Load too light",
+        "explanation": "Incorrect. The load is not too light—it's too heavy for this gear."
+      },
+      {
+        "id": "c",
+        "text": "Gear overload",
+        "explanation": "Correct. Gear 3 limit = 3,000 kg. A 3,100 kg load exceeds this capacity, causing overload."
+      },
+      {
+        "id": "d",
+        "text": "Radius incorrect",
+        "explanation": "Incorrect. Radius is separate from gear selection."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Multi-Gear Selection"
+  },
+  {
+    "id": 746,
+    "question": "HOIST CHART: Gear 1 = 10,000 kg (Slow) | Gear 2 = 6,000 kg (Medium) | Gear 3 = 3,000 kg (Fast) | Hook + rigging = 500 kg — Which gear should be used for a 2,200 kg total load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gear 1",
+        "explanation": "Incorrect. Would work but is unnecessarily slow."
+      },
+      {
+        "id": "b",
+        "text": "Gear 2",
+        "explanation": "Incorrect. Would work but Gear 3 is faster and sufficient."
+      },
+      {
+        "id": "c",
+        "text": "Gear 3",
+        "explanation": "Correct. Operators normally choose the fastest (highest) gear capable of lifting the load. 2,200 kg is within Gear 3's 3,000 kg limit."
+      },
+      {
+        "id": "d",
+        "text": "Any gear",
+        "explanation": "Incorrect. While any gear works, best practice is to use the highest safe gear."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Multi-Gear Selection"
+  },
+  {
+    "id": 747,
+    "question": "HOIST CHART: Gear 1 = 10,000 kg (Slow) | Gear 2 = 6,000 kg (Medium) | Gear 3 = 3,000 kg (Fast) | Hook + rigging = 500 kg — A 5,900 kg load must be lifted. Which gear should be selected?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gear 3",
+        "explanation": "Incorrect. Gear 3 max = 3,000 kg is far too small."
+      },
+      {
+        "id": "b",
+        "text": "Gear 2",
+        "explanation": "Correct. Gear 2 maximum = 6,000 kg. 5,900 kg is still within safe range."
+      },
+      {
+        "id": "c",
+        "text": "Gear 1",
+        "explanation": "Incorrect. Gear 1 would work but Gear 2 is sufficient and faster."
+      },
+      {
+        "id": "d",
+        "text": "Lift not possible",
+        "explanation": "Incorrect. Gear 2 can handle this load."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Multi-Gear Selection"
+  },
+  {
+    "id": 748,
+    "question": "HOIST CHART: Gear 1 = 10,000 kg (Slow) | Gear 2 = 6,000 kg (Medium) | Gear 3 = 3,000 kg (Fast) | Hook + rigging = 500 kg — A 6,200 kg load must be lifted. Which gear is required?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gear 3",
+        "explanation": "Incorrect. Gear 3 max = 3,000 kg is far too small."
+      },
+      {
+        "id": "b",
+        "text": "Gear 2",
+        "explanation": "Incorrect. Gear 2 max = 6,000 kg. Load of 6,200 kg exceeds Gear 2."
+      },
+      {
+        "id": "c",
+        "text": "Gear 1",
+        "explanation": "Correct. 6,200 kg exceeds Gear 2's 6,000 kg capacity. Gear 1 with 10,000 kg capacity is required."
+      },
+      {
+        "id": "d",
+        "text": "Lift not possible",
+        "explanation": "Incorrect. Gear 1 can handle this load."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Multi-Gear Selection"
+  },
+  {
+    "id": 749,
+    "question": "HOIST CHART: Gear 1 = 10,000 kg (Slow) | Gear 2 = 6,000 kg (Medium) | Gear 3 = 3,000 kg (Fast) | Hook + rigging = 500 kg — Why should operators avoid using a lower gear than necessary?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It increases radius",
+        "explanation": "Incorrect. Gear selection doesn't affect radius."
+      },
+      {
+        "id": "b",
+        "text": "It slows hoisting and reduces efficiency",
+        "explanation": "Correct. Lower gears have slower line speeds. Using a lower gear than needed wastes time and reduces productivity."
+      },
+      {
+        "id": "c",
+        "text": "It reduces capacity",
+        "explanation": "Incorrect. Lower gears actually have higher capacity."
+      },
+      {
+        "id": "d",
+        "text": "It damages the crane",
+        "explanation": "Incorrect. Using lower gears doesn't damage the crane."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Multi-Gear Selection"
+  },
+  {
+    "id": 750,
+    "question": "HOIST CHART: Gear 1 = 10,000 kg (Slow) | Gear 2 = 6,000 kg (Medium) | Gear 3 = 3,000 kg (Fast) | Hook + rigging = 500 kg — A crane operator selects Gear 3 for a 2,800 kg load. What is the advantage?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increased stability",
+        "explanation": "Incorrect. Gear selection doesn't affect stability."
+      },
+      {
+        "id": "b",
+        "text": "Faster hoisting speed",
+        "explanation": "Correct. Gear 3 provides fast line speed. Since 2,800 kg is within Gear 3's 3,000 kg limit, the operator gets efficient, fast hoisting."
+      },
+      {
+        "id": "c",
+        "text": "Lower radius",
+        "explanation": "Incorrect. Gear selection doesn't affect radius."
+      },
+      {
+        "id": "d",
+        "text": "Reduced hook weight",
+        "explanation": "Incorrect. Gear selection doesn't affect hook weight."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Multi-Gear Reasoning"
+  },
+  {
+    "id": 751,
+    "question": "HOIST CHART: Gear 1 = 10,000 kg (Slow) | Gear 2 = 6,000 kg (Medium) | Gear 3 = 3,000 kg (Fast) | Hook + rigging = 500 kg — A 4,500 kg load is lifted using Gear 3. What happens?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lift succeeds",
+        "explanation": "Incorrect. The load exceeds Gear 3 capacity."
+      },
+      {
+        "id": "b",
+        "text": "Gear overload occurs",
+        "explanation": "Correct. Gear 3 maximum = 3,000 kg. A 4,500 kg load causes severe overload, risking equipment damage or failure."
+      },
+      {
+        "id": "c",
+        "text": "Speed increases",
+        "explanation": "Incorrect. Overload doesn't increase speed."
+      },
+      {
+        "id": "d",
+        "text": "Radius decreases",
+        "explanation": "Incorrect. Gear overload doesn't affect radius."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Multi-Gear Reasoning"
+  },
+  {
+    "id": 752,
+    "question": "HOIST CHART: Gear 1 = 10,000 kg (Slow) | Gear 2 = 6,000 kg (Medium) | Gear 3 = 3,000 kg (Fast) | Hook + rigging = 500 kg — A 2,700 kg load is lifted using Gear 2. What is the issue?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Overload",
+        "explanation": "Incorrect. 2,700 kg is well within Gear 2's capacity."
+      },
+      {
+        "id": "b",
+        "text": "Slower than necessary hoisting",
+        "explanation": "Correct. Gear 3 could safely lift 2,700 kg at fast speed. Using Gear 2 (medium speed) is slower than necessary."
+      },
+      {
+        "id": "c",
+        "text": "Crane instability",
+        "explanation": "Incorrect. Gear choice doesn't affect stability."
+      },
+      {
+        "id": "d",
+        "text": "Load imbalance",
+        "explanation": "Incorrect. Gear choice doesn't affect load balance."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Multi-Gear Reasoning"
+  },
+  {
+    "id": 753,
+    "question": "HOIST CHART: Gear 1 = 10,000 kg (Slow) | Gear 2 = 6,000 kg (Medium) | Gear 3 = 3,000 kg (Fast) | Hook + rigging = 500 kg — A 6,100 kg load is lifted in Gear 2. What happens?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Crane stalls",
+        "explanation": "Incorrect. The issue is overload, not stalling."
+      },
+      {
+        "id": "b",
+        "text": "Gear overload",
+        "explanation": "Correct. Gear 2 max = 6,000 kg. A 6,100 kg load exceeds capacity, causing gear overload."
+      },
+      {
+        "id": "c",
+        "text": "Hook failure",
+        "explanation": "Incorrect. Hook failure is not the primary concern here."
+      },
+      {
+        "id": "d",
+        "text": "Counterweight shift",
+        "explanation": "Incorrect. Gear overload doesn't cause counterweight shift."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Multi-Gear Reasoning"
+  },
+  {
+    "id": 754,
+    "question": "HOIST CHART: Gear 1 = 10,000 kg (Slow) | Gear 2 = 6,000 kg (Medium) | Gear 3 = 3,000 kg (Fast) | Hook + rigging = 500 kg — Which gear allows highest hoist speed?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gear 1",
+        "explanation": "Incorrect. Gear 1 is the slowest."
+      },
+      {
+        "id": "b",
+        "text": "Gear 2",
+        "explanation": "Incorrect. Gear 2 is medium speed."
+      },
+      {
+        "id": "c",
+        "text": "Gear 3",
+        "explanation": "Correct. Gear 3 provides fast line speed, but has the lowest load capacity (3,000 kg)."
+      },
+      {
+        "id": "d",
+        "text": "All equal",
+        "explanation": "Incorrect. Each gear has different speed characteristics."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Multi-Gear Reasoning"
+  },
+  {
+    "id": 755,
+    "question": "HOIST CHART: Gear 1 = 10,000 kg (Slow) | Gear 2 = 6,000 kg (Medium) | Gear 3 = 3,000 kg (Fast) | Hook + rigging = 500 kg — A 2,900 kg load is lifted at fast speed. Which gear is likely used?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gear 1",
+        "explanation": "Incorrect. Gear 1 is slow, not fast."
+      },
+      {
+        "id": "b",
+        "text": "Gear 2",
+        "explanation": "Incorrect. Gear 2 is medium speed."
+      },
+      {
+        "id": "c",
+        "text": "Gear 3",
+        "explanation": "Correct. Gear 3 is the only gear with fast speed. 2,900 kg is within its 3,000 kg capacity."
+      },
+      {
+        "id": "d",
+        "text": "Any gear",
+        "explanation": "Incorrect. Only Gear 3 provides fast speed."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Multi-Gear Traps"
+  },
+  {
+    "id": 756,
+    "question": "HOIST CHART: Gear 1 = 10,000 kg (Slow) | Gear 2 = 6,000 kg (Medium) | Gear 3 = 3,000 kg (Fast) | Hook + rigging = 500 kg — A crane operator lifts 6,000 kg in Gear 2. Is this acceptable?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No",
+        "explanation": "Incorrect. 6,000 kg exactly matches Gear 2 capacity."
+      },
+      {
+        "id": "b",
+        "text": "Yes, but at maximum limit",
+        "explanation": "Correct. 6,000 kg equals Gear 2's maximum capacity. The lift is technically acceptable but operates at the absolute limit with no safety margin."
+      },
+      {
+        "id": "c",
+        "text": "Only with extra rigging",
+        "explanation": "Incorrect. Extra rigging would add weight and exceed capacity."
+      },
+      {
+        "id": "d",
+        "text": "Only at short radius",
+        "explanation": "Incorrect. Radius doesn't affect hoist gear capacity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Multi-Gear Traps"
+  },
+  {
+    "id": 757,
+    "question": "HOIST CHART: Gear 1 = 10,000 kg (Slow) | Gear 2 = 6,000 kg (Medium) | Gear 3 = 3,000 kg (Fast) | Hook + rigging = 500 kg — A 3,050 kg load must be lifted quickly. What gear must be used?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gear 3",
+        "explanation": "Incorrect. Gear 3 limit = 3,000 kg. 3,050 kg exceeds this capacity."
+      },
+      {
+        "id": "b",
+        "text": "Gear 2",
+        "explanation": "Correct. Although the operator wants fast speed, Gear 3 cannot handle 3,050 kg. Gear 2 (medium speed) must be used."
+      },
+      {
+        "id": "c",
+        "text": "Gear 1",
+        "explanation": "Incorrect. Gear 2 is sufficient and faster than Gear 1."
+      },
+      {
+        "id": "d",
+        "text": "Lift impossible",
+        "explanation": "Incorrect. Gear 2 can handle this load."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Multi-Gear Traps"
+  },
+  {
+    "id": 758,
+    "question": "HOIST CHART: Gear 1 = 10,000 kg (Slow) | Gear 2 = 6,000 kg (Medium) | Gear 3 = 3,000 kg (Fast) | Hook + rigging = 500 kg — A 9,000 kg load must be lifted. Which gear is required?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gear 3",
+        "explanation": "Incorrect. Gear 3 max = 3,000 kg is far too small."
+      },
+      {
+        "id": "b",
+        "text": "Gear 2",
+        "explanation": "Incorrect. Gear 2 max = 6,000 kg is insufficient."
+      },
+      {
+        "id": "c",
+        "text": "Gear 1",
+        "explanation": "Correct. 9,000 kg exceeds Gear 2 capacity. Gear 1 with 10,000 kg capacity is required."
+      },
+      {
+        "id": "d",
+        "text": "Lift not possible",
+        "explanation": "Incorrect. Gear 1 can handle this load."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Multi-Gear Traps"
+  },
+  {
+    "id": 759,
+    "question": "HOIST CHART: Gear 1 = 10,000 kg (Slow) | Gear 2 = 6,000 kg (Medium) | Gear 3 = 3,000 kg (Fast) | Hook + rigging = 500 kg — Why do cranes use multiple gears?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduce hook weight",
+        "explanation": "Incorrect. Gears don't affect hook weight."
+      },
+      {
+        "id": "b",
+        "text": "Increase counterweight",
+        "explanation": "Incorrect. Gears don't affect counterweight."
+      },
+      {
+        "id": "c",
+        "text": "Provide different load capacities and speeds",
+        "explanation": "Correct. Multiple gears allow operators to match hoist capacity and speed to the specific load, optimizing efficiency and safety."
+      },
+      {
+        "id": "d",
+        "text": "Change radius",
+        "explanation": "Incorrect. Gears don't affect crane radius."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Multi-Gear Traps"
   }
 ]
