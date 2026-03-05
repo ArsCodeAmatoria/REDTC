@@ -12570,5 +12570,705 @@
     ],
     "correctAnswer": "c",
     "category": "Master - BC Regulations"
+  },
+  {
+    "id": 450,
+    "question": "A tower crane load chart shows: 18m = 9000kg, 20m = 8200kg, 25m = 6800kg. A load weighs 7500 kg and must be placed between 19 m and 21 m radius. Which chart value must be used?",
+    "options": [
+      {
+        "id": "a",
+        "text": "18 m",
+        "explanation": "Incorrect. Using 18 m would overestimate capacity since the actual radius is greater."
+      },
+      {
+        "id": "b",
+        "text": "20 m",
+        "explanation": "Incorrect. Since the radius could be up to 21 m, you must use the next greater chart value."
+      },
+      {
+        "id": "c",
+        "text": "25 m",
+        "explanation": "Correct. If the radius is uncertain between 20 m and 25 m, the operator must always assume the greater radius to ensure safety. At 25 m, capacity is 6800 kg, which is less than the 7500 kg load weight, meaning the lift cannot be performed safely."
+      },
+      {
+        "id": "d",
+        "text": "Average radius",
+        "explanation": "Incorrect. Averaging is never permitted in load chart calculations."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Load Chart Reasoning"
+  },
+  {
+    "id": 451,
+    "question": "A hook block weighs 950 kg, rigging weighs 250 kg, and the load weighs 4800 kg. What weight must be checked against the load chart?",
+    "options": [
+      {
+        "id": "a",
+        "text": "4800 kg",
+        "explanation": "Incorrect. This only accounts for the load, not hook block and rigging."
+      },
+      {
+        "id": "b",
+        "text": "5050 kg",
+        "explanation": "Incorrect. This is missing the rigging weight."
+      },
+      {
+        "id": "c",
+        "text": "6000 kg",
+        "explanation": "Correct. All suspended weight must be included: Load (4800) + Hook block (950) + Rigging (250) = 6000 kg."
+      },
+      {
+        "id": "d",
+        "text": "5750 kg",
+        "explanation": "Incorrect. This calculation is missing weight."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Load Chart Reasoning"
+  },
+  {
+    "id": 452,
+    "question": "A crane trolley indicator shows 22 m, but the load is being lowered down a high-rise building face, causing outward drift. What should the operator assume?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Radius decreases",
+        "explanation": "Incorrect. Drift moves the load outward, not inward."
+      },
+      {
+        "id": "b",
+        "text": "Radius stays constant",
+        "explanation": "Incorrect. Load drift changes the effective radius."
+      },
+      {
+        "id": "c",
+        "text": "Radius increases",
+        "explanation": "Correct. Lowering loads along building faces can cause load drift outward, increasing the effective working radius, which reduces lifting capacity."
+      },
+      {
+        "id": "d",
+        "text": "Load chart unaffected",
+        "explanation": "Incorrect. Radius changes directly affect load chart capacity."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Load Chart Reasoning"
+  },
+  {
+    "id": 453,
+    "question": "If the crane boom deflects downward under heavy load, what happens to the radius?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Decreases",
+        "explanation": "Incorrect. Boom deflection moves the load outward."
+      },
+      {
+        "id": "b",
+        "text": "Remains constant",
+        "explanation": "Incorrect. Physical deflection changes the geometry."
+      },
+      {
+        "id": "c",
+        "text": "Increases",
+        "explanation": "Correct. Boom deflection slightly increases horizontal radius, reducing safe lifting capacity."
+      },
+      {
+        "id": "d",
+        "text": "Chart capacity increases",
+        "explanation": "Incorrect. Increased radius means decreased capacity."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Load Chart Reasoning"
+  },
+  {
+    "id": 454,
+    "question": "A crane is rated 6500 kg at 28 m radius. The operator estimates the load radius could be between 27 m and 30 m. Which capacity must be used?",
+    "options": [
+      {
+        "id": "a",
+        "text": "27 m",
+        "explanation": "Incorrect. Using the shortest radius could overestimate capacity."
+      },
+      {
+        "id": "b",
+        "text": "28 m",
+        "explanation": "Incorrect. The radius could be greater than 28 m."
+      },
+      {
+        "id": "c",
+        "text": "30 m",
+        "explanation": "Correct. Always use the largest possible radius when uncertain. This ensures the crane will never exceed chart limits."
+      },
+      {
+        "id": "d",
+        "text": "Average radius",
+        "explanation": "Incorrect. Averaging is never permitted in load calculations."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Load Chart Reasoning"
+  },
+  {
+    "id": 455,
+    "question": "A hook block is rigged with 4 parts of line lifting a 12,000 kg load. Ignoring friction, what tension is carried by each line?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6000 kg",
+        "explanation": "Incorrect. This would be for 2 parts of line."
+      },
+      {
+        "id": "b",
+        "text": "5000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "3000 kg",
+        "explanation": "Correct. Load ÷ Parts of Line = 12,000 ÷ 4 = 3000 kg per line."
+      },
+      {
+        "id": "d",
+        "text": "2000 kg",
+        "explanation": "Incorrect. This would be for 6 parts of line."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Parts of Line"
+  },
+  {
+    "id": 456,
+    "question": "A hoist line has a maximum line pull of 4000 kg. How many parts of line are required to lift 14,000 kg safely?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2",
+        "explanation": "Incorrect. 2 parts = 8000 kg capacity, which is insufficient."
+      },
+      {
+        "id": "b",
+        "text": "3",
+        "explanation": "Incorrect. 3 parts = 12,000 kg capacity, which is insufficient."
+      },
+      {
+        "id": "c",
+        "text": "4",
+        "explanation": "Correct. Each line can carry 4000 kg. 4 parts = 16,000 kg capacity, which safely covers 14,000 kg."
+      },
+      {
+        "id": "d",
+        "text": "5",
+        "explanation": "Incorrect. While 5 parts would work, 4 parts is the minimum required."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Parts of Line"
+  },
+  {
+    "id": 457,
+    "question": "If a crane is designed for 4 parts of line but is operated with 2 parts, what occurs?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Crane lifts faster",
+        "explanation": "Incorrect. While speed increases, this is not the primary concern."
+      },
+      {
+        "id": "b",
+        "text": "Crane lifts heavier loads",
+        "explanation": "Incorrect. Fewer parts reduces capacity."
+      },
+      {
+        "id": "c",
+        "text": "Line tension doubles",
+        "explanation": "Correct. Reducing parts of line reduces mechanical advantage and increases line tension, risking rope or drum overload."
+      },
+      {
+        "id": "d",
+        "text": "Load chart increases",
+        "explanation": "Incorrect. Load chart capacity is not increased."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Parts of Line"
+  },
+  {
+    "id": 458,
+    "question": "A 2-leg sling lifts a 5000 kg load at 60° angle. What is the approximate tension in each sling?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2500 kg",
+        "explanation": "Incorrect. This would only apply to vertical slings."
+      },
+      {
+        "id": "b",
+        "text": "2900 kg",
+        "explanation": "Correct. Using Tension = Load / (2 × sin(angle)): sin 60° ≈ 0.866. Tension = 5000 ÷ (2 × 0.866) = 5000 ÷ 1.732 ≈ 2886 kg, rounded to 2900 kg."
+      },
+      {
+        "id": "c",
+        "text": "3500 kg",
+        "explanation": "Incorrect. This overestimates the tension at 60°."
+      },
+      {
+        "id": "d",
+        "text": "5000 kg",
+        "explanation": "Incorrect. This would be tension at very low angles."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Rigging Angles"
+  },
+  {
+    "id": 459,
+    "question": "A sling angle decreases from 60° to 30°. What happens to sling tension?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Decreases",
+        "explanation": "Incorrect. Lower angles increase tension."
+      },
+      {
+        "id": "b",
+        "text": "Stays same",
+        "explanation": "Incorrect. Angle directly affects tension."
+      },
+      {
+        "id": "c",
+        "text": "Increases dramatically",
+        "explanation": "Correct. As sling angle becomes flatter, tension increases sharply, which can exceed sling ratings."
+      },
+      {
+        "id": "d",
+        "text": "Doubles exactly",
+        "explanation": "Incorrect. The increase is more than double."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Rigging Angles"
+  },
+  {
+    "id": 460,
+    "question": "Which sling configuration produces the least sling tension?",
+    "options": [
+      {
+        "id": "a",
+        "text": "30°",
+        "explanation": "Incorrect. 30° produces very high tension."
+      },
+      {
+        "id": "b",
+        "text": "45°",
+        "explanation": "Incorrect. 45° produces moderate tension."
+      },
+      {
+        "id": "c",
+        "text": "60°",
+        "explanation": "Incorrect. 60° produces higher tension than vertical."
+      },
+      {
+        "id": "d",
+        "text": "90° vertical",
+        "explanation": "Correct. Vertical slings carry direct load without angular force multiplication."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Master - Rigging Angles"
+  },
+  {
+    "id": 461,
+    "question": "A signalperson gives a stop signal, but the supervisor instructs the operator to continue. What must the operator do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Follow supervisor",
+        "explanation": "Incorrect. Supervisors cannot override stop signals."
+      },
+      {
+        "id": "b",
+        "text": "Continue slowly",
+        "explanation": "Incorrect. Any movement violates the stop signal."
+      },
+      {
+        "id": "c",
+        "text": "Stop immediately",
+        "explanation": "Correct. Safety rules state any stop signal must be obeyed immediately."
+      },
+      {
+        "id": "d",
+        "text": "Ask radio confirmation",
+        "explanation": "Incorrect. Stop signals require immediate compliance."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Signals"
+  },
+  {
+    "id": 462,
+    "question": "If the operator loses visual contact with the signalperson, what must occur?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue slowly",
+        "explanation": "Incorrect. Any movement without visual contact is unsafe."
+      },
+      {
+        "id": "b",
+        "text": "Continue if radio available",
+        "explanation": "Incorrect. Visual signal operations cannot substitute radio for visual contact."
+      },
+      {
+        "id": "c",
+        "text": "Stop crane movement",
+        "explanation": "Correct. Visual signal operations require continuous line of sight. Operations must stop until contact is re-established."
+      },
+      {
+        "id": "d",
+        "text": "Lower load only",
+        "explanation": "Incorrect. All movement must stop."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Signals"
+  },
+  {
+    "id": 463,
+    "question": "Who can give an emergency stop signal?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Supervisor only",
+        "explanation": "Incorrect. Emergency stop is not limited to supervisors."
+      },
+      {
+        "id": "b",
+        "text": "Signalperson only",
+        "explanation": "Incorrect. Emergency stop is not limited to signalpersons."
+      },
+      {
+        "id": "c",
+        "text": "Operator only",
+        "explanation": "Incorrect. Emergency stop is not limited to operators."
+      },
+      {
+        "id": "d",
+        "text": "Any worker",
+        "explanation": "Correct. Emergency stop signals may be given by any person on site."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Master - Signals"
+  },
+  {
+    "id": 464,
+    "question": "When two tower cranes overlap operating areas, what is typically required?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increased supervision",
+        "explanation": "Incorrect. Supervision alone is insufficient."
+      },
+      {
+        "id": "b",
+        "text": "Reduced loads",
+        "explanation": "Incorrect. Load reduction doesn't address overlap hazards."
+      },
+      {
+        "id": "c",
+        "text": "Anti-collision system or lift coordination plan",
+        "explanation": "Correct. Overlapping cranes require engineering controls such as anti-collision systems or documented coordination plans."
+      },
+      {
+        "id": "d",
+        "text": "Reduced working radius",
+        "explanation": "Incorrect. Radius reduction alone doesn't prevent collisions."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - BC Safety"
+  },
+  {
+    "id": 465,
+    "question": "According to crane regulations, tower crane operators in British Columbia must be certified through:",
+    "options": [
+      {
+        "id": "a",
+        "text": "WorkSafeBC",
+        "explanation": "Incorrect. WorkSafeBC oversees regulations but doesn't directly certify operators."
+      },
+      {
+        "id": "b",
+        "text": "Transport Canada",
+        "explanation": "Incorrect. Transport Canada does not certify crane operators."
+      },
+      {
+        "id": "c",
+        "text": "BC Crane Safety",
+        "explanation": "Correct. BC Crane Safety administers operator certification and licensing in British Columbia."
+      },
+      {
+        "id": "d",
+        "text": "CSA Group",
+        "explanation": "Incorrect. CSA develops standards but doesn't certify operators."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - BC Safety"
+  },
+  {
+    "id": 466,
+    "question": "A fall protection plan is required when exposure exceeds:",
+    "options": [
+      {
+        "id": "a",
+        "text": "10 ft",
+        "explanation": "Incorrect. This is below the threshold for a written plan."
+      },
+      {
+        "id": "b",
+        "text": "15 ft",
+        "explanation": "Incorrect. This is below the threshold for a written plan."
+      },
+      {
+        "id": "c",
+        "text": "25 ft",
+        "explanation": "Correct. WorkSafeBC requires written fall protection plans above 25 ft (7.5 m)."
+      },
+      {
+        "id": "d",
+        "text": "30 ft",
+        "explanation": "Incorrect. The threshold is lower than 30 ft."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - BC Safety"
+  },
+  {
+    "id": 467,
+    "question": "If a crane operates near energized power lines, what must occur first?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduce load weight",
+        "explanation": "Incorrect. Load weight doesn't address electrical hazards."
+      },
+      {
+        "id": "b",
+        "text": "Increase radius",
+        "explanation": "Incorrect. Increasing radius doesn't address electrical hazards."
+      },
+      {
+        "id": "c",
+        "text": "Establish minimum clearance distances",
+        "explanation": "Correct. Minimum approach distances must be established before crane operations near electrical hazards."
+      },
+      {
+        "id": "d",
+        "text": "Shut down crane",
+        "explanation": "Incorrect. Shutdown may not be required if proper clearances are maintained."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - BC Safety"
+  },
+  {
+    "id": 468,
+    "question": "What is the minimum clearance normally required between cranes operating in overlap zones?",
+    "options": [
+      {
+        "id": "a",
+        "text": "5 ft",
+        "explanation": "Incorrect. This is insufficient clearance."
+      },
+      {
+        "id": "b",
+        "text": "10 ft",
+        "explanation": "Correct. A 10 ft minimum clearance is typically maintained between cranes to prevent collision during overlapping operations."
+      },
+      {
+        "id": "c",
+        "text": "15 ft",
+        "explanation": "Incorrect. While more clearance is safer, 10 ft is the typical minimum."
+      },
+      {
+        "id": "d",
+        "text": "20 ft",
+        "explanation": "Incorrect. This exceeds the typical minimum requirement."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Clearance"
+  },
+  {
+    "id": 469,
+    "question": "What minimum clearance must be maintained between the crane block and boom tip?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1 ft",
+        "explanation": "Incorrect. This is insufficient to prevent two-blocking."
+      },
+      {
+        "id": "b",
+        "text": "2 ft",
+        "explanation": "Correct. A 2 ft minimum clearance prevents two-blocking, which can cause catastrophic hoist failure."
+      },
+      {
+        "id": "c",
+        "text": "4 ft",
+        "explanation": "Incorrect. While more is safer, 2 ft is the minimum requirement."
+      },
+      {
+        "id": "d",
+        "text": "5 ft",
+        "explanation": "Incorrect. This exceeds the minimum requirement."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master - Clearance"
+  },
+  {
+    "id": 470,
+    "question": "Two tower cranes overlap working zones by 18 m (60 ft). What condition exists?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Safe clearance",
+        "explanation": "Incorrect. Overlap creates a hazardous condition."
+      },
+      {
+        "id": "b",
+        "text": "Blind pick",
+        "explanation": "Incorrect. Blind pick refers to visibility, not overlap."
+      },
+      {
+        "id": "c",
+        "text": "Crane overlap zone",
+        "explanation": "Correct. An overlap zone occurs when crane working areas intersect, requiring coordination or anti-collision systems."
+      },
+      {
+        "id": "d",
+        "text": "Restricted lift zone",
+        "explanation": "Incorrect. This is not the correct terminology."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Clearance"
+  },
+  {
+    "id": 471,
+    "question": "When operating cranes in overlap zones, which control is most effective?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Radio communication",
+        "explanation": "Incorrect. Communication alone cannot prevent collisions."
+      },
+      {
+        "id": "b",
+        "text": "Visual signals",
+        "explanation": "Incorrect. Visual signals cannot monitor crane positions in real-time."
+      },
+      {
+        "id": "c",
+        "text": "Anti-collision system",
+        "explanation": "Correct. Anti-collision systems prevent boom, trolley, or hook interference through automated monitoring and limits."
+      },
+      {
+        "id": "d",
+        "text": "Reduced load weight",
+        "explanation": "Incorrect. Load weight doesn't prevent physical collisions."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Clearance"
+  },
+  {
+    "id": 472,
+    "question": "Which factor most reduces crane capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load weight",
+        "explanation": "Incorrect. Load weight is compared against capacity, not a factor that changes it."
+      },
+      {
+        "id": "b",
+        "text": "Wind speed",
+        "explanation": "Incorrect. While wind affects operations, it's not the primary capacity factor."
+      },
+      {
+        "id": "c",
+        "text": "Increased radius",
+        "explanation": "Correct. Crane capacity decreases rapidly as radius increases. This is the most significant factor affecting capacity."
+      },
+      {
+        "id": "d",
+        "text": "Rigging weight",
+        "explanation": "Incorrect. Rigging weight reduces net capacity but doesn't change the crane's rated capacity."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Clearance"
+  },
+  {
+    "id": 473,
+    "question": "When performing a blind lift, what is essential?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Faster lifting",
+        "explanation": "Incorrect. Speed should be reduced for blind lifts."
+      },
+      {
+        "id": "b",
+        "text": "Larger radius",
+        "explanation": "Incorrect. Radius is not related to blind lift requirements."
+      },
+      {
+        "id": "c",
+        "text": "Dedicated signalperson",
+        "explanation": "Correct. Blind lifts require trained signalpersons to maintain control of the load when the operator cannot see the load or landing area."
+      },
+      {
+        "id": "d",
+        "text": "Smaller hook block",
+        "explanation": "Incorrect. Hook block size is not related to blind lift requirements."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Master - Clearance"
+  },
+  {
+    "id": 474,
+    "question": "Who has final authority to refuse an unsafe lift?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Site supervisor",
+        "explanation": "Incorrect. Supervisors cannot override operator safety authority."
+      },
+      {
+        "id": "b",
+        "text": "Rigger",
+        "explanation": "Incorrect. While riggers can refuse to rig, the operator has final lift authority."
+      },
+      {
+        "id": "c",
+        "text": "Safety officer",
+        "explanation": "Incorrect. Safety officers advise but the operator has final authority."
+      },
+      {
+        "id": "d",
+        "text": "Crane operator",
+        "explanation": "Correct. The crane operator has legal authority and responsibility to refuse unsafe operations."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Master - Clearance"
   }
 ]
