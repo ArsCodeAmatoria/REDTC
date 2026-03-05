@@ -15460,5 +15460,565 @@
     ],
     "correctAnswer": "c",
     "category": "Material Weight"
+  },
+  {
+    "id": 555,
+    "question": "Concrete weighs approximately 2400 kg/m³. A concrete block measures 2 m × 1 m × 0.5 m. What is the weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,800 kg",
+        "explanation": "Incorrect. This would be for 0.75 m³."
+      },
+      {
+        "id": "b",
+        "text": "2,400 kg",
+        "explanation": "Correct. Volume = 2 × 1 × 0.5 = 1 m³. Weight = 1 × 2400 = 2,400 kg."
+      },
+      {
+        "id": "c",
+        "text": "3,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "3,600 kg",
+        "explanation": "Incorrect. This would be for 1.5 m³."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Material Weight"
+  },
+  {
+    "id": 556,
+    "question": "A steel plate measures 3 m × 2 m × 20 mm thick. Steel weight = 7850 kg/m³. What is the weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "600 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "942 kg",
+        "explanation": "Correct. Convert thickness: 20 mm = 0.02 m. Volume: 3 × 2 × 0.02 = 0.12 m³. Weight: 0.12 × 7850 = 942 kg."
+      },
+      {
+        "id": "c",
+        "text": "1,200 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "1,500 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Material Weight"
+  },
+  {
+    "id": 557,
+    "question": "A bundle of rebar contains 40 bars. Each bar weighs 18 kg. What is the total weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "540 kg",
+        "explanation": "Incorrect. This would be for 30 bars."
+      },
+      {
+        "id": "b",
+        "text": "640 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "720 kg",
+        "explanation": "Correct. 40 × 18 = 720 kg."
+      },
+      {
+        "id": "d",
+        "text": "820 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Material Weight"
+  },
+  {
+    "id": 558,
+    "question": "A stack of plywood sheets weighs 32 kg per sheet. There are 50 sheets. What is the total weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,200 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "1,400 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "1,600 kg",
+        "explanation": "Correct. 50 × 32 = 1,600 kg."
+      },
+      {
+        "id": "d",
+        "text": "1,800 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Material Weight"
+  },
+  {
+    "id": 559,
+    "question": "A bundle of 2×4 lumber weighs 1.5 kg per linear meter. Each board is 4 m long. There are 60 boards. What is the total weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "300 kg",
+        "explanation": "Incorrect. This would be for 50 boards."
+      },
+      {
+        "id": "b",
+        "text": "320 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "360 kg",
+        "explanation": "Correct. Weight per board: 4 × 1.5 = 6 kg. Total: 60 × 6 = 360 kg."
+      },
+      {
+        "id": "d",
+        "text": "420 kg",
+        "explanation": "Incorrect. This would be for 70 boards."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Material Weight"
+  },
+  {
+    "id": 560,
+    "question": "A concrete bucket contains 0.8 m³ of concrete. Concrete weight = 2400 kg/m³. Bucket weight = 400 kg. What is the total load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,920 kg",
+        "explanation": "Incorrect. This is only the concrete weight, missing the bucket."
+      },
+      {
+        "id": "b",
+        "text": "2,120 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "2,320 kg",
+        "explanation": "Correct. Concrete: 0.8 × 2400 = 1,920 kg. Add bucket: 1,920 + 400 = 2,320 kg."
+      },
+      {
+        "id": "d",
+        "text": "2,520 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Material Weight"
+  },
+  {
+    "id": 561,
+    "question": "A steel beam weighs 85 kg per meter. Length = 12 m. What is the weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "900 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "1,020 kg",
+        "explanation": "Correct. 85 × 12 = 1,020 kg."
+      },
+      {
+        "id": "c",
+        "text": "1,100 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "1,200 kg",
+        "explanation": "Incorrect. This would be for a 100 kg/m beam."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Material Weight"
+  },
+  {
+    "id": 562,
+    "question": "A pallet of bricks contains 500 bricks. Each brick weighs 2.7 kg. What is the total weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,100 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "1,200 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "1,300 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "1,350 kg",
+        "explanation": "Correct. 500 × 2.7 = 1,350 kg."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Material Weight"
+  },
+  {
+    "id": 563,
+    "question": "A steel pipe bundle contains 12 pipes. Each pipe weighs 90 kg. What is the total weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "960 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "1,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "1,080 kg",
+        "explanation": "Correct. 12 × 90 = 1,080 kg."
+      },
+      {
+        "id": "d",
+        "text": "1,200 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Material Weight"
+  },
+  {
+    "id": 564,
+    "question": "A load of drywall consists of 80 sheets. Each sheet weighs 24 kg. What is the total load weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,600 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "1,920 kg",
+        "explanation": "Correct. 80 × 24 = 1,920 kg."
+      },
+      {
+        "id": "c",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "2,200 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Material Weight"
+  },
+  {
+    "id": 565,
+    "question": "A steel plate stack weighs 620 kg. Rigging weight = 80 kg. What is the total lifted load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "620 kg",
+        "explanation": "Incorrect. This is only the plate weight, missing rigging."
+      },
+      {
+        "id": "b",
+        "text": "660 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "700 kg",
+        "explanation": "Correct. 620 + 80 = 700 kg."
+      },
+      {
+        "id": "d",
+        "text": "760 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Material Weight"
+  },
+  {
+    "id": 566,
+    "question": "A formwork panel weighs 350 kg. Four panels are lifted at once. Rigging weight = 100 kg. What is the total load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,400 kg",
+        "explanation": "Incorrect. This is only the panels, missing rigging."
+      },
+      {
+        "id": "b",
+        "text": "1,450 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "1,500 kg",
+        "explanation": "Correct. Panels: 4 × 350 = 1,400 kg. Add rigging: 1,400 + 100 = 1,500 kg."
+      },
+      {
+        "id": "d",
+        "text": "1,600 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Material Weight"
+  },
+  {
+    "id": 567,
+    "question": "A precast concrete stair unit weighs 2,800 kg. Rigging = 150 kg. What is the total lift weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,800 kg",
+        "explanation": "Incorrect. This is only the stair unit, missing rigging."
+      },
+      {
+        "id": "b",
+        "text": "2,900 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "2,950 kg",
+        "explanation": "Correct. 2,800 + 150 = 2,950 kg."
+      },
+      {
+        "id": "d",
+        "text": "3,100 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Material Weight"
+  },
+  {
+    "id": 568,
+    "question": "A concrete column measures 0.5 m × 0.5 m × 3 m. Concrete = 2400 kg/m³. What is the weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,600 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "1,800 kg",
+        "explanation": "Correct. Volume: 0.5 × 0.5 × 3 = 0.75 m³. Weight: 0.75 × 2400 = 1,800 kg."
+      },
+      {
+        "id": "c",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "2,400 kg",
+        "explanation": "Incorrect. This would be for 1 m³."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Material Weight"
+  },
+  {
+    "id": 569,
+    "question": "A steel plate measures 2 m × 1 m × 10 mm thick. Steel = 7850 kg/m³. What is the weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "120 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "157 kg",
+        "explanation": "Correct. 10 mm = 0.01 m. Volume: 2 × 1 × 0.01 = 0.02 m³. Weight: 0.02 × 7850 = 157 kg."
+      },
+      {
+        "id": "c",
+        "text": "200 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "260 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Material Weight"
+  },
+  {
+    "id": 570,
+    "question": "A bundle of conduit contains 30 pieces. Each weighs 12 kg. What is the total weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "300 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "330 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "360 kg",
+        "explanation": "Correct. 30 × 12 = 360 kg."
+      },
+      {
+        "id": "d",
+        "text": "390 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Material Weight"
+  },
+  {
+    "id": 571,
+    "question": "A glass panel crate weighs 1,100 kg. Rigging gear = 120 kg. What is the total load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,100 kg",
+        "explanation": "Incorrect. This is only the crate weight, missing rigging."
+      },
+      {
+        "id": "b",
+        "text": "1,180 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "1,220 kg",
+        "explanation": "Correct. 1,100 + 120 = 1,220 kg."
+      },
+      {
+        "id": "d",
+        "text": "1,300 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Material Weight"
+  },
+  {
+    "id": 572,
+    "question": "A steel column weighs 210 kg per meter. Length = 8 m. What is the total weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,400 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "1,500 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "1,680 kg",
+        "explanation": "Correct. 210 × 8 = 1,680 kg."
+      },
+      {
+        "id": "d",
+        "text": "1,800 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Material Weight"
+  },
+  {
+    "id": 573,
+    "question": "A pallet of cement bags contains 40 bags. Each bag weighs 30 kg. What is the total weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "1,100 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "1,200 kg",
+        "explanation": "Correct. 40 × 30 = 1,200 kg."
+      },
+      {
+        "id": "d",
+        "text": "1,400 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Material Weight"
+  },
+  {
+    "id": 574,
+    "question": "A steel equipment crate weighs 1,450 kg. Rigging + spreader bar = 250 kg. What is the total lift weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,600 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "1,700 kg",
+        "explanation": "Correct. 1,450 + 250 = 1,700 kg."
+      },
+      {
+        "id": "c",
+        "text": "1,750 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "1,800 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Material Weight"
   }
 ]

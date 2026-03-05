@@ -16,13 +16,13 @@ const categories = [
   { name: "Crane Operations & Site", count: 80, color: "bg-foreground" },
   { name: "Structural & Mechanical", count: 40, color: "bg-foreground" },
   { name: "Master Level Questions", count: 90, color: "bg-foreground" },
-  { name: "Material Weight Calculations", count: 10, color: "bg-foreground" },
+  { name: "Material Weight Calculations", count: 30, color: "bg-foreground" },
 ];
 
 const features = [
   {
     label: "Practice",
-    title: "554 exam questions with detailed explanations",
+    title: "574 exam questions with detailed explanations",
     description: "Every question includes why the correct answer is right and why others are wrong.",
   },
   {
@@ -118,7 +118,7 @@ export default function HomePage() {
                 className="space-y-6"
               >
                 <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
-                  Practice with 554 questions including Master Level problems covering advanced calculations, 
+                  Practice with 574 questions including Master Level problems covering advanced calculations, 
                   structural engineering, and emergency scenarios.
                 </p>
 
@@ -154,7 +154,7 @@ export default function HomePage() {
 
                 <div className="grid grid-cols-3 gap-4">
                   <div className="space-y-1">
-                    <div className="text-4xl font-display font-bold">554</div>
+                    <div className="text-4xl font-display font-bold">574</div>
                     <div className="text-sm text-muted-foreground">Questions</div>
                   </div>
                   <div className="space-y-1">
@@ -449,7 +449,7 @@ export default function HomePage() {
                   the actual Red Seal certification examination with 120 questions and a strict 4-hour time limit.
                 </p>
                 <p>
-                  This comprehensive test draws from our entire question bank of 554 questions, covering all exam topics 
+                  This comprehensive test draws from our entire question bank of 574 questions, covering all exam topics 
                   including advanced load calculations, structural engineering concepts, rigging mastery, and emergency scenarios.
                 </p>
                 <p>
@@ -481,7 +481,7 @@ export default function HomePage() {
                   <div className="text-sm text-muted-foreground mt-1">Pass Rate</div>
                 </div>
                 <div className="bg-background border border-border p-6 text-center">
-                  <div className="text-4xl font-display font-bold">554</div>
+                  <div className="text-4xl font-display font-bold">574</div>
                   <div className="text-sm text-muted-foreground mt-1">Question Bank</div>
                 </div>
               </div>
