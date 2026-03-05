@@ -10666,5 +10666,1405 @@
     ],
     "correctAnswer": "a",
     "category": "Load Line & Parts of Line"
+  },
+  {
+    "id": 382,
+    "question": "A tower crane load chart shows: 20 m radius → 12,000 kg capacity, 30 m radius → 8,000 kg capacity. A load weighs 9,000 kg. Where must the trolley be positioned to safely lift the load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "30 m",
+        "explanation": "Incorrect. At 30 m, the capacity is only 8,000 kg, which is insufficient for a 9,000 kg load."
+      },
+      {
+        "id": "b",
+        "text": "25 m",
+        "explanation": "Incorrect. While this may work, the question asks for the safest general answer."
+      },
+      {
+        "id": "c",
+        "text": "Less than 30 m radius",
+        "explanation": "Correct. The trolley must be positioned closer than 30 m, where the chart allows more capacity. This demonstrates how capacity decreases as radius increases."
+      },
+      {
+        "id": "d",
+        "text": "Any radius under 40 m",
+        "explanation": "Incorrect. The capacity at radii approaching 30 m is insufficient."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 383,
+    "question": "Which factor most directly increases crane radius during lifting?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increasing hoist height",
+        "explanation": "Incorrect. Hoist height does not directly change radius."
+      },
+      {
+        "id": "b",
+        "text": "Moving the trolley outward",
+        "explanation": "Correct. Radius is the horizontal distance from the center of rotation to the load. On tower cranes, this is controlled primarily by trolley position."
+      },
+      {
+        "id": "c",
+        "text": "Increasing counterweight",
+        "explanation": "Incorrect. Counterweight affects stability, not radius."
+      },
+      {
+        "id": "d",
+        "text": "Increasing boom angle",
+        "explanation": "Incorrect. Tower cranes have fixed horizontal jibs; boom angle applies to mobile cranes."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 384,
+    "question": "If a trolley moves outward during a lift, what happens to crane capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increases",
+        "explanation": "Incorrect. Moving outward increases radius, which decreases capacity."
+      },
+      {
+        "id": "b",
+        "text": "Remains constant",
+        "explanation": "Incorrect. Capacity changes directly with radius."
+      },
+      {
+        "id": "c",
+        "text": "Decreases",
+        "explanation": "Correct. As radius increases, leverage increases, structural load increases, and lifting capacity decreases."
+      },
+      {
+        "id": "d",
+        "text": "Doubles",
+        "explanation": "Incorrect. Capacity never increases when moving the trolley outward."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 385,
+    "question": "A crane has a capacity of 6,000 kg at 35 m radius. The load weighs 5,800 kg, but wind is causing load swing. What is the safest action?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue lifting",
+        "explanation": "Incorrect. Operating near chart capacity with swing is unsafe."
+      },
+      {
+        "id": "b",
+        "text": "Reduce radius or stop lift",
+        "explanation": "Correct. Swinging loads create dynamic forces, increasing actual crane loading. Operating near chart capacity with swing is unsafe."
+      },
+      {
+        "id": "c",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. Increasing speed can worsen swing."
+      },
+      {
+        "id": "d",
+        "text": "Ignore wind movement",
+        "explanation": "Incorrect. Wind-induced swing must never be ignored."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 386,
+    "question": "Why is radius measurement critical when using load charts?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Determines hoist speed",
+        "explanation": "Incorrect. Hoist speed is determined by reeving, not radius."
+      },
+      {
+        "id": "b",
+        "text": "Determines tower height",
+        "explanation": "Incorrect. Tower height is independent of radius."
+      },
+      {
+        "id": "c",
+        "text": "Determines crane capacity",
+        "explanation": "Correct. Load charts are entirely based on radius. Even small changes in radius can significantly reduce capacity."
+      },
+      {
+        "id": "d",
+        "text": "Determines swing speed",
+        "explanation": "Incorrect. Swing speed is not determined by radius."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 387,
+    "question": "When lifting heavy loads near maximum capacity, the jib will:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rise upward",
+        "explanation": "Incorrect. Jibs deflect downward under load, not upward."
+      },
+      {
+        "id": "b",
+        "text": "Deflect downward",
+        "explanation": "Correct. Crane jibs are designed to flex under load. This deflection increases effective radius and slightly reduces lifting capacity."
+      },
+      {
+        "id": "c",
+        "text": "Twist sideways",
+        "explanation": "Incorrect. Normal loading causes vertical deflection, not twisting."
+      },
+      {
+        "id": "d",
+        "text": "Remain rigid",
+        "explanation": "Incorrect. All structural members flex under load; jibs are designed for controlled deflection."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 388,
+    "question": "Why must operators account for jib deflection when working near maximum radius?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It reduces hook height",
+        "explanation": "Incorrect. While hook height may change slightly, this is not the primary concern."
+      },
+      {
+        "id": "b",
+        "text": "It increases the effective radius of the load",
+        "explanation": "Correct. As the jib bends downward, the load moves farther away from the crane center, increasing radius and reducing available capacity."
+      },
+      {
+        "id": "c",
+        "text": "It increases hoist speed",
+        "explanation": "Incorrect. Jib deflection does not affect hoist speed."
+      },
+      {
+        "id": "d",
+        "text": "It reduces swing",
+        "explanation": "Incorrect. Jib deflection does not reduce swing."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 389,
+    "question": "A crane chart shows 8,000 kg capacity at 30 m radius. Due to jib deflection, the actual radius becomes 31 m. What is the safest decision?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue lift",
+        "explanation": "Incorrect. Operating beyond the stated radius may exceed capacity limits."
+      },
+      {
+        "id": "b",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. Speed does not address the radius issue."
+      },
+      {
+        "id": "c",
+        "text": "Reposition the trolley closer",
+        "explanation": "Correct. Increasing radius reduces capacity, potentially exceeding chart limits. The trolley must be moved closer to restore safe capacity."
+      },
+      {
+        "id": "d",
+        "text": "Ignore the difference",
+        "explanation": "Incorrect. Even 1 m difference in radius affects capacity and must not be ignored."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 390,
+    "question": "Which condition increases jib deflection most?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cold weather",
+        "explanation": "Incorrect. Temperature has minimal effect on jib deflection."
+      },
+      {
+        "id": "b",
+        "text": "Short radius lifts",
+        "explanation": "Incorrect. Short radius lifts create less deflection due to lower moment."
+      },
+      {
+        "id": "c",
+        "text": "Heavy loads at long radius",
+        "explanation": "Correct. Maximum deflection occurs when large loads are placed far from the tower, creating maximum bending moment."
+      },
+      {
+        "id": "d",
+        "text": "Light loads",
+        "explanation": "Incorrect. Light loads create minimal deflection."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 391,
+    "question": "Why are tower crane jibs designed to flex slightly?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To increase speed",
+        "explanation": "Incorrect. Flex does not increase operational speed."
+      },
+      {
+        "id": "b",
+        "text": "To improve stability",
+        "explanation": "Incorrect. Flex is not primarily for stability."
+      },
+      {
+        "id": "c",
+        "text": "To absorb load forces and prevent structural damage",
+        "explanation": "Correct. Controlled flex prevents sudden structural stress concentrations that could cause fatigue or failure."
+      },
+      {
+        "id": "d",
+        "text": "To increase reach",
+        "explanation": "Incorrect. Flex does not meaningfully increase reach."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 392,
+    "question": "Wind primarily affects tower crane loads by:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reducing rope tension",
+        "explanation": "Incorrect. Wind does not reduce rope tension."
+      },
+      {
+        "id": "b",
+        "text": "Increasing side loading and swing forces",
+        "explanation": "Correct. Wind can cause load swing, side loading, and increased stress on the crane structure."
+      },
+      {
+        "id": "c",
+        "text": "Increasing hoist speed",
+        "explanation": "Incorrect. Wind does not increase hoist speed."
+      },
+      {
+        "id": "d",
+        "text": "Increasing counterweight",
+        "explanation": "Incorrect. Wind does not change counterweight."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 393,
+    "question": "Which type of load is most affected by wind?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Solid steel beam",
+        "explanation": "Incorrect. Dense, compact loads have less wind resistance."
+      },
+      {
+        "id": "b",
+        "text": "Concrete block",
+        "explanation": "Incorrect. Dense, compact loads have less wind resistance."
+      },
+      {
+        "id": "c",
+        "text": "Large panel or formwork",
+        "explanation": "Correct. Large flat surfaces create high wind resistance, increasing swing forces."
+      },
+      {
+        "id": "d",
+        "text": "Steel plate",
+        "explanation": "Incorrect. While plates can catch wind, large panels are more affected."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 394,
+    "question": "What is the safest action when wind begins causing uncontrolled load swing?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. Increasing speed can worsen swing."
+      },
+      {
+        "id": "b",
+        "text": "Continue lift",
+        "explanation": "Incorrect. Continuing with uncontrolled swing is dangerous."
+      },
+      {
+        "id": "c",
+        "text": "Lower the load and stop operations",
+        "explanation": "Correct. Uncontrolled swing creates dangerous dynamic loads. Operations must stop until conditions improve."
+      },
+      {
+        "id": "d",
+        "text": "Increase trolley movement",
+        "explanation": "Incorrect. Trolley movement does not control wind-induced swing."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 395,
+    "question": "Why must cranes go into weathervane mode when out of service?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduce power consumption",
+        "explanation": "Incorrect. While power may be saved, this is not the primary reason."
+      },
+      {
+        "id": "b",
+        "text": "Allow the crane to rotate freely with wind",
+        "explanation": "Correct. Weathervaning prevents wind from applying excessive structural loads by allowing the crane to align with wind direction."
+      },
+      {
+        "id": "c",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. Weathervane mode is not related to hoist speed."
+      },
+      {
+        "id": "d",
+        "text": "Lock the boom in place",
+        "explanation": "Incorrect. Weathervane mode allows free rotation, not locking."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 396,
+    "question": "Which component absorbs most wind force when cranes are idle?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tower",
+        "explanation": "Incorrect. While the tower experiences wind, the jib has more surface area."
+      },
+      {
+        "id": "b",
+        "text": "Counterweight",
+        "explanation": "Incorrect. Counterweights have relatively small wind exposure."
+      },
+      {
+        "id": "c",
+        "text": "Jib and counterjib structure",
+        "explanation": "Correct. Large horizontal surfaces catch the wind most."
+      },
+      {
+        "id": "d",
+        "text": "Hoist rope",
+        "explanation": "Incorrect. Ropes have minimal wind surface area."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 397,
+    "question": "Minimum planning distance for crane overlap operations is approximately:",
+    "options": [
+      {
+        "id": "a",
+        "text": "30 ft",
+        "explanation": "Incorrect. This is too close for overlap planning."
+      },
+      {
+        "id": "b",
+        "text": "60 ft (18 m)",
+        "explanation": "Correct. 60 ft is commonly used to ensure controlled overlap coordination."
+      },
+      {
+        "id": "c",
+        "text": "10 ft",
+        "explanation": "Incorrect. This is the power line clearance distance, not overlap distance."
+      },
+      {
+        "id": "d",
+        "text": "2 ft",
+        "explanation": "Incorrect. This is the structural clearance distance, not overlap distance."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 398,
+    "question": "Which system prevents two tower cranes from colliding?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wind sensor",
+        "explanation": "Incorrect. Wind sensors monitor weather, not crane positions."
+      },
+      {
+        "id": "b",
+        "text": "Anti-collision system",
+        "explanation": "Correct. Anti-collision systems monitor crane position, height, and slewing zones to prevent interference."
+      },
+      {
+        "id": "c",
+        "text": "Load indicator",
+        "explanation": "Incorrect. Load indicators monitor weight, not crane positions."
+      },
+      {
+        "id": "d",
+        "text": "Hoist limiter",
+        "explanation": "Incorrect. Hoist limiters prevent two-blocking, not crane collisions."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 399,
+    "question": "What is the greatest hazard when cranes overlap?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hook block failure",
+        "explanation": "Incorrect. Hook block failure is not related to overlap."
+      },
+      {
+        "id": "b",
+        "text": "Jib or load collision",
+        "explanation": "Correct. Collisions between cranes can cause catastrophic structural damage."
+      },
+      {
+        "id": "c",
+        "text": "Rope twist",
+        "explanation": "Incorrect. Rope twist is not the primary overlap hazard."
+      },
+      {
+        "id": "d",
+        "text": "Hoist overheating",
+        "explanation": "Incorrect. Hoist overheating is not related to overlap."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 400,
+    "question": "Which person coordinates multi-crane operations?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Crane mechanic",
+        "explanation": "Incorrect. Mechanics handle maintenance, not coordination."
+      },
+      {
+        "id": "b",
+        "text": "Lift director or site supervisor",
+        "explanation": "Correct. A designated authority coordinates multi-crane movements."
+      },
+      {
+        "id": "c",
+        "text": "Signal person",
+        "explanation": "Incorrect. Signal persons direct individual lifts, not overall coordination."
+      },
+      {
+        "id": "d",
+        "text": "Electrician",
+        "explanation": "Incorrect. Electricians handle electrical systems, not crane coordination."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 401,
+    "question": "Why must crane operators communicate during overlap lifts?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduce noise",
+        "explanation": "Incorrect. Communication is not about noise reduction."
+      },
+      {
+        "id": "b",
+        "text": "Prevent crane interference",
+        "explanation": "Correct. Coordination prevents simultaneous conflicting movements that could cause collisions."
+      },
+      {
+        "id": "c",
+        "text": "Increase speed",
+        "explanation": "Incorrect. Communication is about safety, not speed."
+      },
+      {
+        "id": "d",
+        "text": "Improve hoist control",
+        "explanation": "Incorrect. Hoist control is an individual operator function."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 402,
+    "question": "A load is within chart capacity but wind is increasing rapidly. Safest action?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue lift",
+        "explanation": "Incorrect. Continuing in deteriorating conditions is unsafe."
+      },
+      {
+        "id": "b",
+        "text": "Stop and reassess conditions",
+        "explanation": "Correct. Environmental conditions can override chart limits. Safety requires reassessment."
+      },
+      {
+        "id": "c",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. Increasing speed in high wind is dangerous."
+      },
+      {
+        "id": "d",
+        "text": "Move trolley outward",
+        "explanation": "Incorrect. Moving outward reduces capacity and worsens the situation."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 403,
+    "question": "Which factor most affects crane stability?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hook height",
+        "explanation": "Incorrect. Hook height has less effect than radius on stability."
+      },
+      {
+        "id": "b",
+        "text": "Hoist speed",
+        "explanation": "Incorrect. Hoist speed does not directly affect stability."
+      },
+      {
+        "id": "c",
+        "text": "Load radius",
+        "explanation": "Correct. Radius determines moment force applied to the crane, which is the primary stability factor."
+      },
+      {
+        "id": "d",
+        "text": "Signal position",
+        "explanation": "Incorrect. Signal person position does not affect stability."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 404,
+    "question": "If the load chart limit is reached, what must the operator do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. Speed does not address capacity limits."
+      },
+      {
+        "id": "b",
+        "text": "Reduce radius or reduce load",
+        "explanation": "Correct. Charts represent maximum allowable loads. To proceed safely, either reduce the load or move it to a shorter radius."
+      },
+      {
+        "id": "c",
+        "text": "Increase parts of line",
+        "explanation": "Incorrect. Parts of line affect rope capacity, not crane structural capacity."
+      },
+      {
+        "id": "d",
+        "text": "Ignore chart",
+        "explanation": "Incorrect. Load charts must never be ignored."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 405,
+    "question": "Which factor does NOT change crane capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Radius",
+        "explanation": "Incorrect. Radius directly affects capacity."
+      },
+      {
+        "id": "b",
+        "text": "Wind",
+        "explanation": "Incorrect. Wind can effectively reduce safe operating capacity."
+      },
+      {
+        "id": "c",
+        "text": "Paint color of crane",
+        "explanation": "Correct. A classic exam trap question. Paint color has no effect on crane capacity."
+      },
+      {
+        "id": "d",
+        "text": "Load weight",
+        "explanation": "Incorrect. Load weight must be compared against capacity."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 406,
+    "question": "Which condition creates dynamic loading?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Stationary load",
+        "explanation": "Incorrect. Stationary loads create static loading only."
+      },
+      {
+        "id": "b",
+        "text": "Sudden stopping of swinging load",
+        "explanation": "Correct. Stopping motion increases forces beyond static weight, creating dynamic loading."
+      },
+      {
+        "id": "c",
+        "text": "Vertical lifting at constant speed",
+        "explanation": "Incorrect. Constant speed creates minimal dynamic loading."
+      },
+      {
+        "id": "d",
+        "text": "Idle crane",
+        "explanation": "Incorrect. Idle cranes experience no dynamic loading."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 407,
+    "question": "What happens to crane capacity when radius increases?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Capacity increases",
+        "explanation": "Incorrect. Capacity decreases as radius increases."
+      },
+      {
+        "id": "b",
+        "text": "Capacity stays the same",
+        "explanation": "Incorrect. Capacity is directly related to radius."
+      },
+      {
+        "id": "c",
+        "text": "Capacity decreases",
+        "explanation": "Correct. Capacity decreases when radius increases due to increased moment forces."
+      },
+      {
+        "id": "d",
+        "text": "Capacity doubles",
+        "explanation": "Incorrect. Capacity never increases with radius."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 408,
+    "question": "Moving the trolley outward has what effect on radius?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Decreases radius",
+        "explanation": "Incorrect. Moving outward increases radius."
+      },
+      {
+        "id": "b",
+        "text": "Increases radius",
+        "explanation": "Correct. Moving trolley outward increases radius, which is the horizontal distance from crane center to load."
+      },
+      {
+        "id": "c",
+        "text": "No effect on radius",
+        "explanation": "Incorrect. Trolley position directly determines radius."
+      },
+      {
+        "id": "d",
+        "text": "Doubles radius",
+        "explanation": "Incorrect. The relationship is direct, not doubling."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 409,
+    "question": "Jib deflection has what effect on effective radius?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Decreases effective radius",
+        "explanation": "Incorrect. Deflection increases radius as the jib bends down."
+      },
+      {
+        "id": "b",
+        "text": "Increases effective radius",
+        "explanation": "Correct. Jib deflection increases effective radius as the load moves farther from the crane center."
+      },
+      {
+        "id": "c",
+        "text": "No effect on radius",
+        "explanation": "Incorrect. Deflection changes the load position."
+      },
+      {
+        "id": "d",
+        "text": "Eliminates radius",
+        "explanation": "Incorrect. This is not possible."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 410,
+    "question": "Wind can create what type of forces on suspended loads?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Static forces only",
+        "explanation": "Incorrect. Wind creates dynamic forces."
+      },
+      {
+        "id": "b",
+        "text": "Dynamic load forces",
+        "explanation": "Correct. Wind can create dynamic load forces through swing and side loading."
+      },
+      {
+        "id": "c",
+        "text": "No forces",
+        "explanation": "Incorrect. Wind definitely creates forces on loads."
+      },
+      {
+        "id": "d",
+        "text": "Downward forces only",
+        "explanation": "Incorrect. Wind creates side forces and swing."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 411,
+    "question": "Two cranes operating in close proximity must use what safety system?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load moment indicator only",
+        "explanation": "Incorrect. LMI monitors individual crane capacity, not proximity."
+      },
+      {
+        "id": "b",
+        "text": "Anti-collision systems",
+        "explanation": "Correct. Two cranes must coordinate using anti-collision systems to prevent interference."
+      },
+      {
+        "id": "c",
+        "text": "Wind sensors only",
+        "explanation": "Incorrect. Wind sensors don't prevent crane-to-crane collisions."
+      },
+      {
+        "id": "d",
+        "text": "Hoist limiters only",
+        "explanation": "Incorrect. Hoist limiters prevent two-blocking, not crane collisions."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 412,
+    "question": "What causes maximum stress on a tower crane structure?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Light loads at short radius",
+        "explanation": "Incorrect. This creates minimal stress."
+      },
+      {
+        "id": "b",
+        "text": "Heavy loads at long radius",
+        "explanation": "Correct. Heavy loads at long radius cause maximum crane stress due to maximum moment forces."
+      },
+      {
+        "id": "c",
+        "text": "No load on hook",
+        "explanation": "Incorrect. No load creates minimal stress."
+      },
+      {
+        "id": "d",
+        "text": "Idle crane",
+        "explanation": "Incorrect. Idle cranes experience minimal operational stress."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 413,
+    "question": "Load charts represent what type of limits?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Minimum limits",
+        "explanation": "Incorrect. Charts show maximums, not minimums."
+      },
+      {
+        "id": "b",
+        "text": "Maximum safe limits",
+        "explanation": "Correct. Load charts represent maximum safe limits that must never be exceeded."
+      },
+      {
+        "id": "c",
+        "text": "Approximate guidelines",
+        "explanation": "Incorrect. Charts are exact limits, not guidelines."
+      },
+      {
+        "id": "d",
+        "text": "Suggested limits",
+        "explanation": "Incorrect. Charts are mandatory limits."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 414,
+    "question": "Hook block weight must be included in which calculation?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Swing speed",
+        "explanation": "Incorrect. Swing speed is not calculated from hook block weight."
+      },
+      {
+        "id": "b",
+        "text": "Total load calculations",
+        "explanation": "Correct. Hook block weight must be included in calculations because it contributes to total suspended load."
+      },
+      {
+        "id": "c",
+        "text": "Tower height",
+        "explanation": "Incorrect. Tower height is independent of hook block weight."
+      },
+      {
+        "id": "d",
+        "text": "Wind speed",
+        "explanation": "Incorrect. Wind speed is measured, not calculated from weights."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 415,
+    "question": "Which loads present the highest wind hazard?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dense concrete blocks",
+        "explanation": "Incorrect. Dense loads have less wind surface area."
+      },
+      {
+        "id": "b",
+        "text": "Large panels",
+        "explanation": "Correct. Large panels are high wind hazard loads due to their large surface area."
+      },
+      {
+        "id": "c",
+        "text": "Steel beams",
+        "explanation": "Incorrect. Beams have relatively low wind surface area."
+      },
+      {
+        "id": "d",
+        "text": "Small tools",
+        "explanation": "Incorrect. Small items have minimal wind exposure."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 416,
+    "question": "When a crane is out of service, what mode must it be in?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Locked position",
+        "explanation": "Incorrect. Locking prevents weathervaning and can damage the crane."
+      },
+      {
+        "id": "b",
+        "text": "Weathervane mode",
+        "explanation": "Correct. Crane must weathervane when out of service to allow free rotation with wind."
+      },
+      {
+        "id": "c",
+        "text": "Hoist engaged",
+        "explanation": "Incorrect. Hoist should not be engaged when out of service."
+      },
+      {
+        "id": "d",
+        "text": "Maximum radius",
+        "explanation": "Incorrect. This is not a required out-of-service position."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 417,
+    "question": "Radius is measured from what point to the load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Jib tip to load",
+        "explanation": "Incorrect. Radius is from center of rotation."
+      },
+      {
+        "id": "b",
+        "text": "Center of rotation to load",
+        "explanation": "Correct. Radius is measured from center of rotation to load, which is the horizontal distance."
+      },
+      {
+        "id": "c",
+        "text": "Ground to load",
+        "explanation": "Incorrect. This would be hook height, not radius."
+      },
+      {
+        "id": "d",
+        "text": "Counterweight to load",
+        "explanation": "Incorrect. This is not how radius is measured."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 418,
+    "question": "Longer radius creates what effect on overturning moment?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduces overturning moment",
+        "explanation": "Incorrect. Longer radius increases moment."
+      },
+      {
+        "id": "b",
+        "text": "Greater overturning moment",
+        "explanation": "Correct. Longer radius creates greater overturning moment because moment = load × radius."
+      },
+      {
+        "id": "c",
+        "text": "No effect",
+        "explanation": "Incorrect. Radius directly affects moment."
+      },
+      {
+        "id": "d",
+        "text": "Eliminates moment",
+        "explanation": "Incorrect. This is not possible."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 419,
+    "question": "Swinging loads create what type of forces?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Static forces only",
+        "explanation": "Incorrect. Swinging creates dynamic forces."
+      },
+      {
+        "id": "b",
+        "text": "Dynamic forces",
+        "explanation": "Correct. Swinging loads create dynamic forces that exceed static load weight."
+      },
+      {
+        "id": "c",
+        "text": "No forces",
+        "explanation": "Incorrect. Swing definitely creates forces."
+      },
+      {
+        "id": "d",
+        "text": "Reduced forces",
+        "explanation": "Incorrect. Swing increases forces."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 420,
+    "question": "Operators must follow whose load charts?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Site supervisor's estimates",
+        "explanation": "Incorrect. Estimates cannot replace manufacturer charts."
+      },
+      {
+        "id": "b",
+        "text": "Manufacturer load charts",
+        "explanation": "Correct. Operators must follow manufacturer load charts, which are the only approved capacity references."
+      },
+      {
+        "id": "c",
+        "text": "General industry guidelines",
+        "explanation": "Incorrect. Each crane has specific charts from its manufacturer."
+      },
+      {
+        "id": "d",
+        "text": "Operator's judgment",
+        "explanation": "Incorrect. Judgment cannot override manufacturer specifications."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 421,
+    "question": "Anti-collision zones are used to prevent what?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hoist overload",
+        "explanation": "Incorrect. Anti-collision systems monitor crane positions, not load."
+      },
+      {
+        "id": "b",
+        "text": "Crane interference",
+        "explanation": "Correct. Anti-collision zones prevent crane interference by restricting movement into shared airspace."
+      },
+      {
+        "id": "c",
+        "text": "Wind damage",
+        "explanation": "Incorrect. Anti-collision systems don't monitor weather."
+      },
+      {
+        "id": "d",
+        "text": "Rope twist",
+        "explanation": "Incorrect. Anti-collision systems don't address rope twist."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 422,
+    "question": "Wind increases what type of loading on crane structure?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Vertical loading only",
+        "explanation": "Incorrect. Wind primarily creates side loading."
+      },
+      {
+        "id": "b",
+        "text": "Side loading",
+        "explanation": "Correct. Wind increases side loading on the crane structure."
+      },
+      {
+        "id": "c",
+        "text": "No loading",
+        "explanation": "Incorrect. Wind definitely creates loading."
+      },
+      {
+        "id": "d",
+        "text": "Reduced loading",
+        "explanation": "Incorrect. Wind increases loading."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 423,
+    "question": "Maximum crane capacity occurs at what radius?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Maximum radius",
+        "explanation": "Incorrect. Maximum radius has minimum capacity."
+      },
+      {
+        "id": "b",
+        "text": "Short radius",
+        "explanation": "Correct. Maximum capacity occurs at short radius where moment forces are minimized."
+      },
+      {
+        "id": "c",
+        "text": "Any radius",
+        "explanation": "Incorrect. Capacity varies with radius."
+      },
+      {
+        "id": "d",
+        "text": "Zero radius",
+        "explanation": "Incorrect. Zero radius is not a practical operating position."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 424,
+    "question": "Crane capacity decreases as trolley moves in which direction?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Inward",
+        "explanation": "Incorrect. Moving inward increases capacity."
+      },
+      {
+        "id": "b",
+        "text": "Outward",
+        "explanation": "Correct. Crane capacity decreases as trolley moves outward because radius increases."
+      },
+      {
+        "id": "c",
+        "text": "Neither direction affects capacity",
+        "explanation": "Incorrect. Trolley position directly affects capacity."
+      },
+      {
+        "id": "d",
+        "text": "Upward",
+        "explanation": "Incorrect. Trolleys move horizontally, not vertically."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 425,
+    "question": "Rigging weight counts as part of what measurement?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Crane height",
+        "explanation": "Incorrect. Rigging weight doesn't affect height measurement."
+      },
+      {
+        "id": "b",
+        "text": "Total load",
+        "explanation": "Correct. Rigging weight counts as part of total load and must be subtracted from chart capacity."
+      },
+      {
+        "id": "c",
+        "text": "Swing speed",
+        "explanation": "Incorrect. Rigging weight doesn't affect swing speed calculations."
+      },
+      {
+        "id": "d",
+        "text": "Wind speed",
+        "explanation": "Incorrect. Rigging weight doesn't affect wind measurement."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 426,
+    "question": "Jib deflection occurs under what conditions?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No load",
+        "explanation": "Incorrect. Deflection requires load to create bending."
+      },
+      {
+        "id": "b",
+        "text": "Heavy loads",
+        "explanation": "Correct. Jib deflection occurs under heavy loads, especially at long radius."
+      },
+      {
+        "id": "c",
+        "text": "High wind only",
+        "explanation": "Incorrect. Deflection is primarily caused by load, not wind."
+      },
+      {
+        "id": "d",
+        "text": "Cold weather only",
+        "explanation": "Incorrect. Temperature doesn't significantly affect deflection."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 427,
+    "question": "Overlapping cranes require what type of coordination?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No coordination needed",
+        "explanation": "Incorrect. Overlapping cranes must coordinate."
+      },
+      {
+        "id": "b",
+        "text": "Lift coordination",
+        "explanation": "Correct. Overlapping cranes require lift coordination to prevent collisions."
+      },
+      {
+        "id": "c",
+        "text": "Paint matching",
+        "explanation": "Incorrect. Appearance is not a safety coordination issue."
+      },
+      {
+        "id": "d",
+        "text": "Speed matching only",
+        "explanation": "Incorrect. Coordination involves position and timing, not just speed."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 428,
+    "question": "Stopping a swinging load has what effect on loading?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduces loading",
+        "explanation": "Incorrect. Stopping swing increases instantaneous loading."
+      },
+      {
+        "id": "b",
+        "text": "Increases dynamic loading",
+        "explanation": "Correct. Stopping a swinging load increases dynamic loading as kinetic energy converts to structural force."
+      },
+      {
+        "id": "c",
+        "text": "No effect",
+        "explanation": "Incorrect. Stopping swing definitely affects loading."
+      },
+      {
+        "id": "d",
+        "text": "Eliminates loading",
+        "explanation": "Incorrect. This is not possible."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 429,
+    "question": "Wind and radius together have what combined effect on crane stress?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduce stress",
+        "explanation": "Incorrect. Both factors increase stress."
+      },
+      {
+        "id": "b",
+        "text": "Increase crane stress",
+        "explanation": "Correct. Wind and radius together increase crane stress through combined loading effects."
+      },
+      {
+        "id": "c",
+        "text": "Cancel each other",
+        "explanation": "Incorrect. The effects are additive, not canceling."
+      },
+      {
+        "id": "d",
+        "text": "No combined effect",
+        "explanation": "Incorrect. Both factors contribute to stress."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 430,
+    "question": "Crane stability depends primarily on which factors?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Paint and decals",
+        "explanation": "Incorrect. Appearance has no effect on stability."
+      },
+      {
+        "id": "b",
+        "text": "Radius and load",
+        "explanation": "Correct. Crane stability depends primarily on radius and load, which together determine overturning moment."
+      },
+      {
+        "id": "c",
+        "text": "Operator experience only",
+        "explanation": "Incorrect. Physical factors determine stability, not experience alone."
+      },
+      {
+        "id": "d",
+        "text": "Time of day",
+        "explanation": "Incorrect. Time does not affect stability."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 431,
+    "question": "Operators must never exceed what crane specification?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Recommended paint schedule",
+        "explanation": "Incorrect. Paint is not a capacity specification."
+      },
+      {
+        "id": "b",
+        "text": "Load chart capacity",
+        "explanation": "Correct. Operators must never exceed load chart capacity, which represents the maximum safe operating limits."
+      },
+      {
+        "id": "c",
+        "text": "Suggested rest breaks",
+        "explanation": "Incorrect. Rest breaks are not crane specifications."
+      },
+      {
+        "id": "d",
+        "text": "Radio channel recommendations",
+        "explanation": "Incorrect. Radio channels are not capacity specifications."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
   }
 ]
