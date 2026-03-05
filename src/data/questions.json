@@ -23380,5 +23380,705 @@
     ],
     "correctAnswer": "a",
     "category": "Geometry & Weight"
+  },
+  {
+    "id": 840,
+    "question": "MATERIAL DENSITIES: Concrete = 2,400 kg/m³ | Steel = 7,850 kg/m³ — A steel plate measures: Length = 4 m, Width = 2 m, Thickness = 0.02 m. What is the approximate weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "942 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "b",
+        "text": "1,256 kg",
+        "explanation": "Correct. Volume = 4 × 2 × 0.02 = 0.16 m³. Weight = 0.16 × 7,850 = 1,256 kg."
+      },
+      {
+        "id": "c",
+        "text": "1,570 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "2,512 kg",
+        "explanation": "Incorrect. This would be double the correct weight."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 841,
+    "question": "MATERIAL DENSITIES: Concrete = 2,400 kg/m³ | Steel = 7,850 kg/m³ — A steel plate measures: 3 m × 1.5 m × 0.03 m. What is the weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "706 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "b",
+        "text": "1,059 kg",
+        "explanation": "Correct. Volume = 3 × 1.5 × 0.03 = 0.135 m³. Weight = 0.135 × 7,850 = 1,059 kg."
+      },
+      {
+        "id": "c",
+        "text": "2,118 kg",
+        "explanation": "Incorrect. This would be double the correct weight."
+      },
+      {
+        "id": "d",
+        "text": "530 kg",
+        "explanation": "Incorrect. This is half the correct weight."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 842,
+    "question": "MATERIAL DENSITIES: Concrete = 2,400 kg/m³ | Steel = 7,850 kg/m³ — A steel plate measures: 2 m × 2 m × 0.01 m. What is the weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "314 kg",
+        "explanation": "Correct. Volume = 2 × 2 × 0.01 = 0.04 m³. Weight = 0.04 × 7,850 = 314 kg."
+      },
+      {
+        "id": "b",
+        "text": "628 kg",
+        "explanation": "Incorrect. This would be double the correct weight."
+      },
+      {
+        "id": "c",
+        "text": "157 kg",
+        "explanation": "Incorrect. This is half the correct weight."
+      },
+      {
+        "id": "d",
+        "text": "1,000 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 843,
+    "question": "A steel plate weight doubles if:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Thickness halves",
+        "explanation": "Incorrect. Halving thickness halves weight."
+      },
+      {
+        "id": "b",
+        "text": "Thickness doubles",
+        "explanation": "Correct. Weight is proportional to volume. Doubling thickness doubles volume and therefore doubles weight."
+      },
+      {
+        "id": "c",
+        "text": "Length halves",
+        "explanation": "Incorrect. Halving length halves weight."
+      },
+      {
+        "id": "d",
+        "text": "Width halves",
+        "explanation": "Incorrect. Halving width halves weight."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 844,
+    "question": "MATERIAL DENSITIES: Concrete = 2,400 kg/m³ | Steel = 7,850 kg/m³ — A steel plate measures: 5 m × 1 m × 0.02 m. What is the weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "785 kg",
+        "explanation": "Correct. Volume = 5 × 1 × 0.02 = 0.1 m³. Weight = 0.1 × 7,850 = 785 kg."
+      },
+      {
+        "id": "b",
+        "text": "1,178 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "c",
+        "text": "1,570 kg",
+        "explanation": "Incorrect. This would be double the correct weight."
+      },
+      {
+        "id": "d",
+        "text": "392 kg",
+        "explanation": "Incorrect. This is half the correct weight."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 845,
+    "question": "MATERIAL DENSITIES: Concrete = 2,400 kg/m³ | Steel = 7,850 kg/m³ — A solid steel beam measures: Length = 6 m, Width = 0.3 m, Height = 0.2 m. What is the weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,884 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "b",
+        "text": "2,826 kg",
+        "explanation": "Correct. Volume = 6 × 0.3 × 0.2 = 0.36 m³. Weight = 0.36 × 7,850 = 2,826 kg."
+      },
+      {
+        "id": "c",
+        "text": "3,140 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "4,710 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 846,
+    "question": "MATERIAL DENSITIES: Concrete = 2,400 kg/m³ | Steel = 7,850 kg/m³ — A steel beam measures: Length = 4 m, Cross section = 0.2 m × 0.2 m. What is the weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "942 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "b",
+        "text": "1,256 kg",
+        "explanation": "Correct. Volume = 4 × 0.2 × 0.2 = 0.16 m³. Weight = 0.16 × 7,850 = 1,256 kg."
+      },
+      {
+        "id": "c",
+        "text": "628 kg",
+        "explanation": "Incorrect. This is half the correct weight."
+      },
+      {
+        "id": "d",
+        "text": "1,570 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 847,
+    "question": "A beam weight increases if:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Radius increases",
+        "explanation": "Incorrect. Beams don't have radius (that's cylinders)."
+      },
+      {
+        "id": "b",
+        "text": "Length increases",
+        "explanation": "Correct. Beam weight is proportional to volume. Increasing length increases volume and weight."
+      },
+      {
+        "id": "c",
+        "text": "Sling angle decreases",
+        "explanation": "Incorrect. Sling angle affects tension, not actual weight."
+      },
+      {
+        "id": "d",
+        "text": "Hook weight increases",
+        "explanation": "Incorrect. Hook weight doesn't affect beam weight."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 848,
+    "question": "MATERIAL DENSITIES: Concrete = 2,400 kg/m³ | Steel = 7,850 kg/m³ — A steel beam measures: Length = 8 m, Cross section = 0.15 m × 0.25 m. What is the weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,355 kg",
+        "explanation": "Correct. Volume = 8 × 0.15 × 0.25 = 0.30 m³. Weight = 0.30 × 7,850 = 2,355 kg."
+      },
+      {
+        "id": "b",
+        "text": "1,884 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "c",
+        "text": "3,140 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "4,710 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 849,
+    "question": "A beam is cut in half. What happens to the weight of each piece?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Weight halves",
+        "explanation": "Correct. Cutting a beam in half creates two pieces, each with half the original volume and weight."
+      },
+      {
+        "id": "b",
+        "text": "Weight doubles",
+        "explanation": "Incorrect. Cutting reduces weight, not increases it."
+      },
+      {
+        "id": "c",
+        "text": "Weight unchanged",
+        "explanation": "Incorrect. Reducing length reduces weight."
+      },
+      {
+        "id": "d",
+        "text": "Weight triples",
+        "explanation": "Incorrect. Cutting cannot increase weight."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 850,
+    "question": "MATERIAL DENSITIES: Concrete = 2,400 kg/m³ | Steel = 7,850 kg/m³ — A steel pipe has: Outer radius = 0.3 m, Inner radius = 0.25 m, Length = 4 m. Approximate weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,200 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "b",
+        "text": "1,085 kg",
+        "explanation": "Correct. Outer volume = π × 0.3² × 4 = 1.13 m³. Inner volume = π × 0.25² × 4 = 0.785 m³. Steel volume = 1.13 - 0.785 = 0.345 m³. Weight = 0.345 × 7,850 ≈ 1,085 kg."
+      },
+      {
+        "id": "c",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "850 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 851,
+    "question": "A pipe is heavier if:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Diameter decreases",
+        "explanation": "Incorrect. Smaller diameter means less material."
+      },
+      {
+        "id": "b",
+        "text": "Length decreases",
+        "explanation": "Incorrect. Shorter length means less weight."
+      },
+      {
+        "id": "c",
+        "text": "Wall thickness increases",
+        "explanation": "Correct. Thicker walls mean more material volume between outer and inner radius, increasing weight."
+      },
+      {
+        "id": "d",
+        "text": "Radius decreases",
+        "explanation": "Incorrect. Smaller radius means less material."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 852,
+    "question": "A pipe length doubles. What happens to its weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Same",
+        "explanation": "Incorrect. Length directly affects weight."
+      },
+      {
+        "id": "b",
+        "text": "Doubles",
+        "explanation": "Correct. Pipe weight is proportional to length. Double the length = double the volume = double the weight."
+      },
+      {
+        "id": "c",
+        "text": "Triples",
+        "explanation": "Incorrect. Weight doubles, not triples."
+      },
+      {
+        "id": "d",
+        "text": "Halves",
+        "explanation": "Incorrect. Doubling length increases weight."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 853,
+    "question": "Which shape formula is used to calculate pipe volume?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sphere",
+        "explanation": "Incorrect. Pipes are not spherical."
+      },
+      {
+        "id": "b",
+        "text": "Cone",
+        "explanation": "Incorrect. Pipes are not conical."
+      },
+      {
+        "id": "c",
+        "text": "Cylinder minus inner cylinder",
+        "explanation": "Correct. Pipe volume = outer cylinder volume - inner cylinder volume. This gives the volume of the pipe wall material."
+      },
+      {
+        "id": "d",
+        "text": "Rectangle",
+        "explanation": "Incorrect. Pipes are cylindrical, not rectangular."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 854,
+    "question": "MATERIAL DENSITIES: Concrete = 2,400 kg/m³ | Steel = 7,850 kg/m³ — A steel pipe has: Outer radius = 0.2 m, Inner radius = 0.18 m, Length = 6 m. What is the weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "400 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "b",
+        "text": "556 kg",
+        "explanation": "Correct. Outer volume = π × 0.2² × 6 = 0.754 m³. Inner volume = π × 0.18² × 6 = 0.611 m³. Steel volume = 0.754 - 0.611 = 0.143 m³. Weight = 0.143 × 7,850 ≈ 556 kg."
+      },
+      {
+        "id": "c",
+        "text": "800 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "1,200 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 855,
+    "question": "Why must riggers estimate load weight before lifting?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. Weight estimation doesn't increase speed."
+      },
+      {
+        "id": "b",
+        "text": "Ensure crane capacity is not exceeded",
+        "explanation": "Correct. Accurate weight estimation prevents overloading the crane, which could cause structural failure or tipping."
+      },
+      {
+        "id": "c",
+        "text": "Reduce rigging",
+        "explanation": "Incorrect. Weight estimation doesn't reduce rigging needs."
+      },
+      {
+        "id": "d",
+        "text": "Reduce radius",
+        "explanation": "Incorrect. Weight estimation doesn't affect radius."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 856,
+    "question": "Which shape formula is most commonly used when estimating pipe weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sphere",
+        "explanation": "Incorrect. Pipes are cylindrical."
+      },
+      {
+        "id": "b",
+        "text": "Cone",
+        "explanation": "Incorrect. Pipes are not conical."
+      },
+      {
+        "id": "c",
+        "text": "Cylinder",
+        "explanation": "Correct. Pipes are hollow cylinders. Calculate outer cylinder minus inner cylinder to get pipe wall volume."
+      },
+      {
+        "id": "d",
+        "text": "Triangle",
+        "explanation": "Incorrect. Pipes are not triangular."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 857,
+    "question": "Which component adds to total load weight during a crane lift?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hook only",
+        "explanation": "Incorrect. Rigging also adds weight."
+      },
+      {
+        "id": "b",
+        "text": "Load only",
+        "explanation": "Incorrect. Hook and rigging also count."
+      },
+      {
+        "id": "c",
+        "text": "Rigging and hook block",
+        "explanation": "Correct. Total suspended load = load weight + rigging weight + hook block weight. All must be included in capacity calculations."
+      },
+      {
+        "id": "d",
+        "text": "Radius",
+        "explanation": "Incorrect. Radius affects capacity, not load weight."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 858,
+    "question": "Why must rigging weight be included in lift calculations?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduce swing",
+        "explanation": "Incorrect. Rigging weight doesn't reduce swing."
+      },
+      {
+        "id": "b",
+        "text": "It adds to total crane load",
+        "explanation": "Correct. Rigging (slings, shackles, spreader bars) hangs from the hook and adds to the total weight the crane must lift."
+      },
+      {
+        "id": "c",
+        "text": "Reduce hoist speed",
+        "explanation": "Incorrect. That's not why it's included."
+      },
+      {
+        "id": "d",
+        "text": "Improve stability",
+        "explanation": "Incorrect. Rigging weight doesn't improve stability."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 859,
+    "question": "A steel plate weight increases if:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Radius decreases",
+        "explanation": "Incorrect. Plates don't have radius."
+      },
+      {
+        "id": "b",
+        "text": "Thickness increases",
+        "explanation": "Correct. Increasing any dimension (length, width, or thickness) increases volume and therefore weight."
+      },
+      {
+        "id": "c",
+        "text": "Length decreases",
+        "explanation": "Incorrect. Decreasing dimensions reduces weight."
+      },
+      {
+        "id": "d",
+        "text": "Width decreases",
+        "explanation": "Incorrect. Decreasing dimensions reduces weight."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 860,
+    "question": "MATERIAL DENSITIES: Concrete = 2,400 kg/m³ | Steel = 7,850 kg/m³ — A steel plate measures: 2 m × 1 m × 0.02 m. What is the weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "314 kg",
+        "explanation": "Correct. Volume = 2 × 1 × 0.02 = 0.04 m³. Weight = 0.04 × 7,850 = 314 kg."
+      },
+      {
+        "id": "b",
+        "text": "628 kg",
+        "explanation": "Incorrect. This would be double the correct weight."
+      },
+      {
+        "id": "c",
+        "text": "157 kg",
+        "explanation": "Incorrect. This is half the correct weight."
+      },
+      {
+        "id": "d",
+        "text": "785 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 861,
+    "question": "MATERIAL DENSITIES: Concrete = 2,400 kg/m³ | Steel = 7,850 kg/m³ — A steel beam measures: Length = 10 m, Cross section = 0.1 m × 0.2 m. What is the weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,570 kg",
+        "explanation": "Correct. Volume = 10 × 0.1 × 0.2 = 0.2 m³. Weight = 0.2 × 7,850 = 1,570 kg."
+      },
+      {
+        "id": "b",
+        "text": "785 kg",
+        "explanation": "Incorrect. This is half the correct weight."
+      },
+      {
+        "id": "c",
+        "text": "3,140 kg",
+        "explanation": "Incorrect. This would be double the correct weight."
+      },
+      {
+        "id": "d",
+        "text": "942 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 862,
+    "question": "MATERIAL DENSITIES: Concrete = 2,400 kg/m³ | Steel = 7,850 kg/m³ — A steel cylinder has: Radius = 0.3 m, Height = 2 m. What is the weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "4,435 kg",
+        "explanation": "Correct. Volume = πr²h = 3.1416 × 0.09 × 2 = 0.565 m³. Weight = 0.565 × 7,850 = 4,435 kg."
+      },
+      {
+        "id": "b",
+        "text": "2,200 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "c",
+        "text": "3,140 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "1,570 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 863,
+    "question": "What happens to load weight if all dimensions (length, width, height) double?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Doubles",
+        "explanation": "Incorrect. Volume scales by the cube of dimension change."
+      },
+      {
+        "id": "b",
+        "text": "Quadruples",
+        "explanation": "Incorrect. That's for doubling two dimensions."
+      },
+      {
+        "id": "c",
+        "text": "Increases eight times",
+        "explanation": "Correct. Volume = L × W × H. If each doubles: (2L) × (2W) × (2H) = 8 × (L × W × H). Weight increases 8×."
+      },
+      {
+        "id": "d",
+        "text": "Triples",
+        "explanation": "Incorrect. Volume scales by 8× when all dimensions double."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging Weight Estimation"
+  },
+  {
+    "id": 864,
+    "question": "Why should operators round weight estimates upward?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Faster lifting",
+        "explanation": "Incorrect. Rounding up doesn't make lifting faster."
+      },
+      {
+        "id": "b",
+        "text": "Reduce hook weight",
+        "explanation": "Incorrect. Rounding doesn't affect hook weight."
+      },
+      {
+        "id": "c",
+        "text": "Safety margin against overload",
+        "explanation": "Correct. Rounding up provides a safety buffer. If the estimate is slightly wrong, the crane still won't be overloaded."
+      },
+      {
+        "id": "d",
+        "text": "Reduce radius",
+        "explanation": "Incorrect. Rounding doesn't affect radius."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging Weight Estimation"
   }
 ]
