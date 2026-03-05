@@ -110,6 +110,10 @@ function parseMaterialDensities(chartString: string): { rows: MaterialDensityRow
   return { rows };
 }
 
+function parsePartsOfLine(chartString: string): boolean {
+  return chartString.startsWith("PARTS OF LINE FORMULA:");
+}
+
 function extractQuestionText(fullText: string): string {
   if (fullText.startsWith("LOAD CHART:")) {
     const match = fullText.match(/\(Hook block = \d+\s*kg\)\s*—\s*(.+)/);
@@ -127,6 +131,10 @@ function extractQuestionText(fullText: string): string {
     const match = fullText.match(/MATERIAL DENSITIES:[^—]+—\s*(.+)/);
     return match ? match[1] : fullText;
   }
+  if (fullText.startsWith("PARTS OF LINE FORMULA:")) {
+    const match = fullText.match(/PARTS OF LINE FORMULA:[^—]+—\s*(.+)/);
+    return match ? match[1] : fullText;
+  }
   return fullText;
 }
 
@@ -135,7 +143,31 @@ export function ChartDisplay({ questionText }: ChartDisplayProps) {
   const hoistChart = parseHoistChart(questionText);
   const riggingAngle = parseRiggingAngle(questionText);
   const materialDensities = parseMaterialDensities(questionText);
+  const partsOfLine = parsePartsOfLine(questionText);
   const actualQuestion = extractQuestionText(questionText);
+
+  if (partsOfLine) {
+    return (
+      <div className="space-y-4">
+        <div className="rounded-lg border border-border bg-muted/30 p-3 sm:p-4">
+          <div className="mb-2">
+            <span className="text-xs font-semibold uppercase tracking-wider text-accent">
+              Parts of Line Formula
+            </span>
+          </div>
+          <div className="font-mono text-sm sm:text-base text-foreground">
+            Line Tension = Total Load ÷ Parts of Line
+          </div>
+          <div className="mt-2 text-xs text-muted-foreground">
+            Total Load = Load + Rigging + Hook Block
+          </div>
+        </div>
+        <h2 className="font-display text-xl md:text-2xl font-semibold leading-snug">
+          {actualQuestion}
+        </h2>
+      </div>
+    );
+  }
 
   if (riggingAngle) {
     return (
@@ -316,5 +348,6 @@ export function hasChart(questionText: string): boolean {
   return questionText.startsWith("LOAD CHART:") || 
          questionText.startsWith("HOIST CHART:") ||
          questionText.startsWith("RIGGING ANGLE MULTIPLIERS:") ||
-         questionText.startsWith("MATERIAL DENSITIES:");
+         questionText.startsWith("MATERIAL DENSITIES:") ||
+         questionText.startsWith("PARTS OF LINE FORMULA:");
 }
