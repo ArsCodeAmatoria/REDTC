@@ -986,6 +986,187 @@
           "correctAnswer": "d"
         }
       ]
+    },
+    {
+      "id": "wolff-355-b-us",
+      "name": "WOLFF 355 B US",
+      "manufacturer": "WOLFF",
+      "model": "355 B US",
+      "pdfFile": "wolffe355bus.pdf",
+      "description": "Luffing jib tower crane with 60m max jib. 28 tonne max capacity (2-fall). ANSI B30.3-2012 compliant. Features WOLFF-Boost mode.",
+      "specifications": {
+        "maxCapacity": "28 t (2-fall) / 14 t (1-fall)",
+        "maxJibLength": "60 m (197 ft)",
+        "tipCapacity": "4.4t (60m, 1-fall)",
+        "loadMoment": "5100 kNm"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": "What US safety standard does the WOLFF 355 B US comply with?",
+          "options": [
+            { "id": "a", "text": "OSHA 1926.1400", "explanation": "Incorrect. While OSHA regulations apply to crane operations, the crane design standard is different." },
+            { "id": "b", "text": "ANSI B30.3-2012 (Tower Cranes)", "explanation": "Correct. The chart states the crane is 'Compliant with ANSI Standard B30.3-2012 – Tower Cranes.' This is the American National Standard for tower crane safety." },
+            { "id": "c", "text": "FEM 1.001", "explanation": "Incorrect. FEM is a European standard, not US." },
+            { "id": "d", "text": "CSA Z248", "explanation": "Incorrect. CSA is a Canadian standard." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 2,
+          "question": "What is the WOLFF-Boost function and what restriction applies when using it?",
+          "options": [
+            { "id": "a", "text": "Increases speed by 10%; no restrictions", "explanation": "Incorrect. WOLFF-Boost affects load capacity, not speed." },
+            { "id": "b", "text": "Allows exceeding load torque by up to 10%; hoisting and luffing can only move alternatingly (not simultaneously)", "explanation": "Correct. WOLFF-Boost permits up to 10% overload of the standard moment capacity, BUT hoisting gear and luffing gear must be moved one at a time - you cannot luff while hoisting." },
+            { "id": "c", "text": "Doubles the capacity; requires two operators", "explanation": "Incorrect. WOLFF-Boost only adds 10%, and operator count doesn't change." },
+            { "id": "d", "text": "Reduces wind limits by 10%; applies only in calm conditions", "explanation": "Incorrect. WOLFF-Boost doesn't relate to wind conditions." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 3,
+          "question": "Using the 1-fall (14t max) configuration with 60m jib, what is the capacity at 45m radius?",
+          "options": [
+            { "id": "a", "text": "14.0 tonnes", "explanation": "Incorrect. 14t is only maintained up to about 25m radius with this jib." },
+            { "id": "b", "text": "9.9 tonnes", "explanation": "Incorrect. This is the capacity with the 45m jib, not 60m jib." },
+            { "id": "c", "text": "7.4 tonnes (16,310 lb)", "explanation": "Correct. With 60m jib in 1-fall mode at 45m radius, capacity is 7.4 tonnes (16,310 lb)." },
+            { "id": "d", "text": "4.4 tonnes", "explanation": "Incorrect. 4.4t is the tip capacity at 60m radius." }
+          ],
+          "correctAnswer": "c"
+        },
+        {
+          "id": 4,
+          "question": "Why does the 2-fall (28t) configuration show dashes (-) for the 55m and 60m jib lengths?",
+          "options": [
+            { "id": "a", "text": "The chart has printing errors for longer jibs", "explanation": "Incorrect. This is intentional engineering limitation." },
+            { "id": "b", "text": "2-fall reeving is not available for those jib lengths - the rope path is too long", "explanation": "Correct. With longer jibs, the total rope length required for 2-fall reeving exceeds the drum capacity, or the geometry doesn't allow it. The 2-fall charts only cover 30m-50m jib lengths." },
+            { "id": "c", "text": "Those jibs don't exist for this crane", "explanation": "Incorrect. 55m and 60m jibs exist - they just can't use 2-fall configuration." },
+            { "id": "d", "text": "2-fall is unsafe for longer jibs", "explanation": "Incorrect. It's a mechanical/geometric limitation, not a safety issue." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 5,
+          "question": "Using 2-fall (28t) configuration with 40m jib, what is the maximum capacity at minimum radius?",
+          "options": [
+            { "id": "a", "text": "28.0 tonnes", "explanation": "Incorrect. 28t is the theoretical max, but the chart shows actual capacity is lower." },
+            { "id": "b", "text": "26.0 tonnes (57,330 lb)", "explanation": "Correct. With 40m jib in 2-fall mode at minimum radius (3.6m), capacity is 26.0 tonnes. The shorter jib doesn't generate enough moment to reach the full 28t capacity." },
+            { "id": "c", "text": "14.0 tonnes", "explanation": "Incorrect. This is the 1-fall capacity." },
+            { "id": "d", "text": "12.8 tonnes", "explanation": "Incorrect. This is the 1-fall capacity at 40m radius, not minimum radius." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 6,
+          "question": "What happens to load capacity when the fly-jib is mounted on the WOLFF 355 B US?",
+          "options": [
+            { "id": "a", "text": "Capacity increases because the fly-jib adds reach", "explanation": "Incorrect. Adding the fly-jib actually reduces main hook capacity." },
+            { "id": "b", "text": "Capacity decreases - the fly-jib's weight reduces available payload capacity", "explanation": "Correct. The chart shows bracketed values '(with mounted auxiliary hoist and fly-jib)' that are lower. For example, at 60m radius: 4.4t becomes 2.2t. The fly-jib's 1,260 kg weight must be deducted from capacity." },
+            { "id": "c", "text": "No change to main hook capacity", "explanation": "Incorrect. The fly-jib weight definitely affects main hook capacity." },
+            { "id": "d", "text": "Main hook is disabled when fly-jib is active", "explanation": "Incorrect. Both can be used, just with reduced main hook capacity." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 7,
+          "question": "TRAP: Looking at the 1-fall chart with 60m jib, capacity at 60m radius is 4.4t. With fly-jib mounted, it drops to 2.2t. What does this tell you about the fly-jib assembly weight?",
+          "options": [
+            { "id": "a", "text": "The fly-jib weighs 2.2 tonnes", "explanation": "Correct. The difference (4.4t - 2.2t = 2.2t) represents the weight of the fly-jib assembly at that radius. This matches approximately with fly-jib (1,260 kg) plus auxiliary hoist and hook block components." },
+            { "id": "b", "text": "The fly-jib weighs 4.4 tonnes", "explanation": "Incorrect. This would be the full capacity, not the fly-jib weight." },
+            { "id": "c", "text": "The fly-jib weighs 6.6 tonnes", "explanation": "Incorrect. This would be the sum, not the difference." },
+            { "id": "d", "text": "Cannot determine fly-jib weight from this data", "explanation": "Incorrect. The capacity reduction directly tells you the weight impact." }
+          ],
+          "correctAnswer": "a"
+        },
+        {
+          "id": 8,
+          "question": "The WOLFF 355 B US has two hoist options: Hw 28110 FU (147 hp) and Hw 28132 FU (177 hp). What's the advantage of the more powerful hoist?",
+          "options": [
+            { "id": "a", "text": "Higher lifting capacity", "explanation": "Incorrect. Both hoists have the same capacity ratings (14t/28t)." },
+            { "id": "b", "text": "Faster hoisting speeds - 290 m/min vs 185 m/min for light loads", "explanation": "Correct. The Hw 28132 FU (177 hp) achieves 290 m/min (951 ft/min) for light loads vs 185 m/min (607 ft/min) for the Hw 28110 FU. Same capacity, faster cycle times." },
+            { "id": "c", "text": "Longer rope capacity", "explanation": "Incorrect. Both have 920m hook path in single line mode." },
+            { "id": "d", "text": "Better fuel efficiency", "explanation": "Incorrect. Electric cranes don't use fuel, and the larger motor actually consumes more power." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 9,
+          "question": "What is the maximum load moment of the WOLFF 355 B US?",
+          "options": [
+            { "id": "a", "text": "3550 kNm", "explanation": "Incorrect. This would be the model number misread as load moment." },
+            { "id": "b", "text": "5100 kNm", "explanation": "Correct. The chart states 'Load moment: max. 5100 kNm'. This is the maximum rated moment (capacity × radius) the crane can handle." },
+            { "id": "c", "text": "28000 kNm", "explanation": "Incorrect. This isn't the load moment." },
+            { "id": "d", "text": "1680 kNm", "explanation": "Incorrect. This doesn't match any specification." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 10,
+          "question": "COMPLEX: Using 2-fall configuration with 30m jib, capacity at 25m radius is 18.7t. Using 1-fall with the same 30m jib at 25m radius, capacity is 14.0t. Why isn't the 2-fall capacity double (28t)?",
+          "options": [
+            { "id": "a", "text": "The chart has an error", "explanation": "Incorrect. The values are correct engineering calculations." },
+            { "id": "b", "text": "2-fall doubles the line pull but the crane's structural moment capacity limits the actual load at that radius", "explanation": "Correct. While 2-fall reeving doubles the hoist's lifting force, the crane's structural limit (5100 kNm moment) hasn't changed. At 25m × 28t = 700 kNm would be allowed, but 25m × 18.7t = 468 kNm. The full 28t is only achievable at shorter radii where moment is lower." },
+            { "id": "c", "text": "The motor can't provide enough power", "explanation": "Incorrect. Motor power affects speed, not maximum capacity." },
+            { "id": "d", "text": "Wind conditions reduce capacity", "explanation": "Incorrect. Wind isn't the factor here." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 11,
+          "question": "The fly-jib has what maximum capacity?",
+          "options": [
+            { "id": "a", "text": "14 tonnes", "explanation": "Incorrect. This is the main hoist 1-fall capacity." },
+            { "id": "b", "text": "8 tonnes (17,640 lb)", "explanation": "Correct. The packing list shows 'Fly-Jib with hook block 8 t (17640 lb)'. The auxiliary hoist has a separate 8 tonne capacity." },
+            { "id": "c", "text": "28 tonnes", "explanation": "Incorrect. This is the main hoist 2-fall capacity." },
+            { "id": "d", "text": "2.2 tonnes", "explanation": "Incorrect. This is the reduced main hook capacity at tip with fly-jib mounted." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 12,
+          "question": "Looking at the Operating Speeds table, the main hoist shows '0 - 14.0 t' at '0 ... 40 m/min' and '0 - 2.5 t' at '0 ... 185 m/min' for Hw 28110 FU. What principle does this demonstrate?",
+          "options": [
+            { "id": "a", "text": "Heavier loads require slower speeds due to safety regulations", "explanation": "Incorrect. It's physics, not regulations." },
+            { "id": "b", "text": "Constant power output - heavier loads require more force, leaving less power available for speed", "explanation": "Correct. Power = Force × Speed. With the motor's fixed power output, lifting 14t (high force) limits speed to 40 m/min. Lifting only 2.5t (low force) allows speeds up to 185 m/min. The product (power) remains roughly constant." },
+            { "id": "c", "text": "The crane automatically limits speed based on load", "explanation": "Incorrect. While the crane may have speed controls, the relationship is fundamentally physics-based." },
+            { "id": "d", "text": "Rope wear is faster with heavy loads", "explanation": "Incorrect. This doesn't explain the speed-load relationship." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 13,
+          "question": "HARD: A contractor needs to lift 15 tonnes to 35m radius. Looking at both 1-fall and 2-fall charts, what's the minimum jib length that can accomplish this?",
+          "options": [
+            { "id": "a", "text": "30m jib in 2-fall mode (shows 14.9t at 30m radius)", "explanation": "Incorrect. 14.9t is less than 15t required, and this is at 30m radius, not 35m." },
+            { "id": "b", "text": "35m jib in 2-fall mode (shows 17.5t at 25m and 14.9t at 30m)", "explanation": "Incorrect. At 35m radius, the 35m jib's 2-fall capacity isn't shown - it can't reach that radius in 2-fall mode." },
+            { "id": "c", "text": "Impossible - no configuration can lift 15t at 35m radius", "explanation": "Correct. Looking at all charts: 1-fall maxes at 14t everywhere. For 2-fall, the maximum useful radius for any jib is about 19.8m (30m jib). No combination achieves 15t at 35m radius. The 5100 kNm moment limit prevents it (15t × 35m = 525 kNm is within limit, but geometry restricts 2-fall to shorter radii)." },
+            { "id": "d", "text": "40m jib in 2-fall mode", "explanation": "Incorrect. The 40m jib's 2-fall mode only extends to about 18.6m radius." }
+          ],
+          "correctAnswer": "c"
+        },
+        {
+          "id": 14,
+          "question": "What is the slewing speed of the WOLFF 355 B US?",
+          "options": [
+            { "id": "a", "text": "0.8 revolutions per minute (min⁻¹)", "explanation": "Correct. The Operating Speeds table shows slewing at 0.8 min⁻¹ (0.8 rpm). This means it takes about 75 seconds for a full 360° rotation." },
+            { "id": "b", "text": "25 m/min", "explanation": "Incorrect. This is the trolley/luffing speed, not slewing." },
+            { "id": "c", "text": "1.8 minutes for full rotation", "explanation": "Incorrect. 1.8 min is the luffing time, not slewing speed." },
+            { "id": "d", "text": "185 m/min", "explanation": "Incorrect. This is the maximum hoisting speed for light loads." }
+          ],
+          "correctAnswer": "a"
+        },
+        {
+          "id": 15,
+          "question": "CRITICAL: The hook block weighs 540 kg (1,190 lb). Using 1-fall mode with 60m jib at 55m radius where capacity is 5.2t (11,510 lb), what's the maximum net load you can lift?",
+          "options": [
+            { "id": "a", "text": "5.2 tonnes", "explanation": "Incorrect. You must deduct the hook block weight from chart capacity." },
+            { "id": "b", "text": "4.66 tonnes (10,320 lb)", "explanation": "Correct. Chart capacity 5.2t minus hook block 0.54t = 4.66t available for actual load. Always deduct hook block and rigging from chart capacity!" },
+            { "id": "c", "text": "5.74 tonnes", "explanation": "Incorrect. You subtract, not add the hook block weight." },
+            { "id": "d", "text": "4.4 tonnes", "explanation": "Incorrect. This is the capacity at 60m radius, not 55m." }
+          ],
+          "correctAnswer": "b"
+        }
+      ]
     }
   ]
 }

@@ -10,7 +10,7 @@ import questionsData from "@/data/questions.json";
 
 const categories = [
   { name: "Load Charts & Parts of Line", count: 140, color: "bg-accent" },
-  { name: "PDF Load Chart Practice", count: 81, color: "bg-accent", isCharts: true },
+  { name: "PDF Load Chart Practice", count: 96, color: "bg-accent", isCharts: true },
   { name: "Advanced Operations & Traps", count: 95, color: "bg-foreground" },
   { name: "Master Level Questions", count: 100, color: "bg-foreground" },
   { name: "Rigging & Sling Angles", count: 85, color: "bg-foreground" },
@@ -30,7 +30,7 @@ const features = [
   {
     label: "Charts",
     title: "Real manufacturer load charts (PDF)",
-    description: "Practice reading actual Liebherr and Potain load charts — flat-top, luffing, and heavy-duty cranes.",
+    description: "Practice reading actual Liebherr, Potain, and WOLFF load charts — flat-top, luffing, and heavy-duty cranes.",
   },
   {
     label: "Pass",
@@ -525,7 +525,7 @@ export default function HomePage() {
               <div className="space-y-4 text-muted-foreground">
                 <p>
                   Master the critical skill of reading <strong className="text-foreground">real manufacturer load charts</strong>. 
-                  Our collection includes actual Liebherr and Potain PDF load charts covering different crane types used on modern construction sites.
+                  Our collection includes actual Liebherr, Potain, and WOLFF PDF load charts covering different crane types used on modern construction sites.
                 </p>
                 <p>
                   Open the chart in a separate window or monitor, then answer questions that test your ability to find capacities at 
@@ -615,6 +615,18 @@ export default function HomePage() {
                   </div>
                   <p className="text-sm text-muted-foreground">80m jib, 40t/64t. Dual capacity.</p>
                 </div>
+                <div className="bg-background border border-border p-5">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-10 h-10 bg-foreground/10 flex items-center justify-center">
+                      <FileText className="w-5 h-5 text-foreground" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold">WOLFF 355 B US</h3>
+                      <p className="text-sm text-muted-foreground">Luffing jib crane</p>
+                    </div>
+                  </div>
+                  <p className="text-sm text-muted-foreground">60m jib, 28t. ANSI B30.3.</p>
+                </div>
               </div>
               <div className="bg-muted/30 border border-border p-4">
                 <div className="text-sm font-medium mb-2">Skills you&apos;ll practice:</div>
@@ -638,6 +650,10 @@ export default function HomePage() {
                   <li className="flex items-center gap-2">
                     <div className="w-1.5 h-1.5 bg-accent" />
                     Level luffing and fine positioning
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <div className="w-1.5 h-1.5 bg-accent" />
+                    ANSI vs FEM compliance standards
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="w-1.5 h-1.5 bg-accent" />
@@ -684,7 +700,7 @@ export default function HomePage() {
                     </div>
                     <h3 className="font-medium mt-3 group-hover:text-accent transition-colors">{category.name}</h3>
                     <p className="text-sm text-muted-foreground mt-1">
-                      {(category as { isCharts?: boolean }).isCharts ? "6 crane charts" : `${category.count}+ questions`}
+                      {(category as { isCharts?: boolean }).isCharts ? "7 crane charts" : `${category.count}+ questions`}
                     </p>
                   </div>
                 </Link>
