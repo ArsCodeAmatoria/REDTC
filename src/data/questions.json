@@ -18210,5 +18210,845 @@
     ],
     "correctAnswer": "c",
     "category": "Advanced Operations"
+  },
+  {
+    "id": 655,
+    "question": "A crane lifts 4000 kg at 20 m radius. What is the load moment?",
+    "options": [
+      {
+        "id": "a",
+        "text": "60,000 kg·m",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "80,000 kg·m",
+        "explanation": "Correct. Moment = weight × radius = 4000 × 20 = 80,000 kg·m."
+      },
+      {
+        "id": "c",
+        "text": "100,000 kg·m",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "120,000 kg·m",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Moment"
+  },
+  {
+    "id": 656,
+    "question": "A crane has a maximum load moment of 100,000 kg·m. What load can be lifted at 25 m radius?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "4,000 kg",
+        "explanation": "Correct. Load = moment ÷ radius = 100,000 ÷ 25 = 4,000 kg."
+      },
+      {
+        "id": "c",
+        "text": "5,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Moment"
+  },
+  {
+    "id": 657,
+    "question": "A crane lifts 2500 kg at 30 m radius. What is the moment?",
+    "options": [
+      {
+        "id": "a",
+        "text": "60,000 kg·m",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "75,000 kg·m",
+        "explanation": "Correct. 2500 × 30 = 75,000 kg·m."
+      },
+      {
+        "id": "c",
+        "text": "80,000 kg·m",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "90,000 kg·m",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Moment"
+  },
+  {
+    "id": 658,
+    "question": "A crane's maximum moment is 90,000 kg·m. At 18 m radius, what is the maximum load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "4,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "4,500 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "5,000 kg",
+        "explanation": "Correct. 90,000 ÷ 18 = 5,000 kg."
+      },
+      {
+        "id": "d",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Moment"
+  },
+  {
+    "id": 659,
+    "question": "Which change increases crane stability?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increasing radius",
+        "explanation": "Incorrect. This increases moment and reduces stability."
+      },
+      {
+        "id": "b",
+        "text": "Reducing load radius",
+        "explanation": "Correct. Reducing radius reduces moment force, improving stability."
+      },
+      {
+        "id": "c",
+        "text": "Increasing load weight",
+        "explanation": "Incorrect. This increases moment."
+      },
+      {
+        "id": "d",
+        "text": "Increasing jib length",
+        "explanation": "Incorrect. This allows greater radius potential."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Moment"
+  },
+  {
+    "id": 660,
+    "question": "Which load is most dangerous in strong wind?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Steel pipe bundle",
+        "explanation": "Incorrect. Small exposed area."
+      },
+      {
+        "id": "b",
+        "text": "Concrete bucket",
+        "explanation": "Incorrect. Compact shape."
+      },
+      {
+        "id": "c",
+        "text": "Formwork panel",
+        "explanation": "Correct. Flat surfaces act like sails, creating extreme wind loading."
+      },
+      {
+        "id": "d",
+        "text": "Steel beam",
+        "explanation": "Incorrect. Small surface area relative to weight."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Wind & Sail Area"
+  },
+  {
+    "id": 661,
+    "question": "A 4 m × 3 m panel has what sail area?",
+    "options": [
+      {
+        "id": "a",
+        "text": "7 m²",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "10 m²",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "12 m²",
+        "explanation": "Correct. Area = length × width = 4 × 3 = 12 m²."
+      },
+      {
+        "id": "d",
+        "text": "15 m²",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Wind & Sail Area"
+  },
+  {
+    "id": 662,
+    "question": "If wind speed doubles, wind force roughly increases by:",
+    "options": [
+      {
+        "id": "a",
+        "text": "2×",
+        "explanation": "Incorrect. Wind force increases with velocity squared."
+      },
+      {
+        "id": "b",
+        "text": "4×",
+        "explanation": "Correct. Wind pressure increases approximately with velocity squared. Double speed = 4× force."
+      },
+      {
+        "id": "c",
+        "text": "6×",
+        "explanation": "Incorrect. The relationship is squared, not 6×."
+      },
+      {
+        "id": "d",
+        "text": "8×",
+        "explanation": "Incorrect. The relationship is squared, not cubed."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Wind & Sail Area"
+  },
+  {
+    "id": 663,
+    "question": "Which load should be avoided during high winds?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Concrete bucket",
+        "explanation": "Incorrect. Compact shape handles wind better."
+      },
+      {
+        "id": "b",
+        "text": "Steel coil",
+        "explanation": "Incorrect. Small surface area."
+      },
+      {
+        "id": "c",
+        "text": "Large wall form panel",
+        "explanation": "Correct. Large flat surfaces create extreme wind loading and should be avoided in high winds."
+      },
+      {
+        "id": "d",
+        "text": "Steel plate",
+        "explanation": "Incorrect. Smaller surface area than panels."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Wind & Sail Area"
+  },
+  {
+    "id": 664,
+    "question": "Tower cranes are typically placed out of service when wind exceeds:",
+    "options": [
+      {
+        "id": "a",
+        "text": "40 km/h",
+        "explanation": "Incorrect. Cranes can operate in moderate wind."
+      },
+      {
+        "id": "b",
+        "text": "60 km/h",
+        "explanation": "Incorrect. The threshold is higher."
+      },
+      {
+        "id": "c",
+        "text": "72 km/h",
+        "explanation": "Correct. Many tower cranes must weather vane (free slew) above 72 km/h (45 mph / 20 m/s)."
+      },
+      {
+        "id": "d",
+        "text": "100 km/h",
+        "explanation": "Incorrect. This exceeds safe operating limits."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Wind & Sail Area"
+  },
+  {
+    "id": 665,
+    "question": "Crane tipping occurs when:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rope breaks",
+        "explanation": "Incorrect. Rope failure is different from tipping."
+      },
+      {
+        "id": "b",
+        "text": "Load moment exceeds counterweight moment",
+        "explanation": "Correct. When load moment exceeds counterweight moment, the crane overturns."
+      },
+      {
+        "id": "c",
+        "text": "Trolley moves slowly",
+        "explanation": "Incorrect. Slow movement doesn't cause tipping."
+      },
+      {
+        "id": "d",
+        "text": "Load swings",
+        "explanation": "Incorrect. Swing is a separate issue."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Crane Stability"
+  },
+  {
+    "id": 666,
+    "question": "Moving the trolley outward:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduces moment",
+        "explanation": "Incorrect. Greater radius increases moment."
+      },
+      {
+        "id": "b",
+        "text": "Increases moment",
+        "explanation": "Correct. Moment = load × radius. Increasing radius increases moment."
+      },
+      {
+        "id": "c",
+        "text": "Reduces load weight",
+        "explanation": "Incorrect. Trolley position doesn't change weight."
+      },
+      {
+        "id": "d",
+        "text": "Improves stability",
+        "explanation": "Incorrect. Greater radius reduces stability."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Crane Stability"
+  },
+  {
+    "id": 667,
+    "question": "Which factor most affects crane overturning?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rope diameter",
+        "explanation": "Incorrect. Rope affects line strength, not overturning."
+      },
+      {
+        "id": "b",
+        "text": "Radius distance",
+        "explanation": "Correct. Small increases in radius greatly increase moment, the primary cause of overturning."
+      },
+      {
+        "id": "c",
+        "text": "Hook block weight",
+        "explanation": "Incorrect. Hook block is relatively minor factor."
+      },
+      {
+        "id": "d",
+        "text": "Operator skill",
+        "explanation": "Incorrect. Physics, not skill, determines overturning."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Crane Stability"
+  },
+  {
+    "id": 668,
+    "question": "Counterweights function to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase lifting speed",
+        "explanation": "Incorrect. Counterweights don't affect speed."
+      },
+      {
+        "id": "b",
+        "text": "Balance load moment",
+        "explanation": "Correct. Counterweights balance the overturning moment created by the load."
+      },
+      {
+        "id": "c",
+        "text": "Reduce rope tension",
+        "explanation": "Incorrect. Counterweights don't affect rope tension."
+      },
+      {
+        "id": "d",
+        "text": "Stabilize hoist drum",
+        "explanation": "Incorrect. That's not their function."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Crane Stability"
+  },
+  {
+    "id": 669,
+    "question": "Increasing jib length without increasing counterweight:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Improves capacity",
+        "explanation": "Incorrect. This reduces safe capacity."
+      },
+      {
+        "id": "b",
+        "text": "Reduces maximum lifting capacity",
+        "explanation": "Correct. Longer jibs increase leverage forces, requiring reduced loads to maintain balance."
+      },
+      {
+        "id": "c",
+        "text": "Has no effect",
+        "explanation": "Incorrect. Jib length significantly affects capacity."
+      },
+      {
+        "id": "d",
+        "text": "Increases crane speed",
+        "explanation": "Incorrect. Jib length doesn't affect speed."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Crane Stability"
+  },
+  {
+    "id": 670,
+    "question": "A 4000 kg load is lifted with two slings at 60°. What is the tension per sling?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This doesn't account for the angle."
+      },
+      {
+        "id": "b",
+        "text": "2,310 kg",
+        "explanation": "Correct. Formula: Load ÷ (2 × sin(angle)). 4000 ÷ 1.732 ≈ 2,310 kg."
+      },
+      {
+        "id": "c",
+        "text": "2,500 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "2,800 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging Geometry"
+  },
+  {
+    "id": 671,
+    "question": "The same 4000 kg load at 45° sling angle. What is the tension per sling?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This doesn't account for the angle."
+      },
+      {
+        "id": "b",
+        "text": "2,400 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "2,830 kg",
+        "explanation": "Correct. sin(45°) = 0.707. 4000 ÷ 1.414 ≈ 2,830 kg."
+      },
+      {
+        "id": "d",
+        "text": "3,200 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging Geometry"
+  },
+  {
+    "id": 672,
+    "question": "A 3000 kg load is lifted with 4 vertical slings. What is the tension per sling?",
+    "options": [
+      {
+        "id": "a",
+        "text": "750 kg",
+        "explanation": "Correct. 3000 ÷ 4 = 750 kg per sling when vertical."
+      },
+      {
+        "id": "b",
+        "text": "1,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "1,500 kg",
+        "explanation": "Incorrect. This would be for 2 slings."
+      },
+      {
+        "id": "d",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Rigging Geometry"
+  },
+  {
+    "id": 673,
+    "question": "Which sling angle produces the highest tension?",
+    "options": [
+      {
+        "id": "a",
+        "text": "60°",
+        "explanation": "Incorrect. Higher angles produce less tension."
+      },
+      {
+        "id": "b",
+        "text": "45°",
+        "explanation": "Incorrect. Still not the highest tension."
+      },
+      {
+        "id": "c",
+        "text": "30°",
+        "explanation": "Correct. Lower angles produce higher tension. At 30°, tension dramatically increases."
+      },
+      {
+        "id": "d",
+        "text": "90°",
+        "explanation": "Incorrect. Vertical produces lowest tension."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging Geometry"
+  },
+  {
+    "id": 674,
+    "question": "If sling angle decreases from 60° to 30°, sling tension:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Decreases",
+        "explanation": "Incorrect. Lower angles increase tension."
+      },
+      {
+        "id": "b",
+        "text": "Stays the same",
+        "explanation": "Incorrect. Angle directly affects tension."
+      },
+      {
+        "id": "c",
+        "text": "Increases dramatically",
+        "explanation": "Correct. Shallow sling angles produce high horizontal force, dramatically increasing tension."
+      },
+      {
+        "id": "d",
+        "text": "Doubles exactly",
+        "explanation": "Incorrect. The increase is more than double."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging Geometry"
+  },
+  {
+    "id": 675,
+    "question": "During a long radius lift, which factor becomes most critical?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rope lubrication",
+        "explanation": "Incorrect. Not the most critical factor."
+      },
+      {
+        "id": "b",
+        "text": "Load radius accuracy",
+        "explanation": "Correct. At long radius, small radius changes drastically affect capacity. Accurate radius measurement is critical."
+      },
+      {
+        "id": "c",
+        "text": "Trolley speed",
+        "explanation": "Incorrect. Speed is less critical than accuracy."
+      },
+      {
+        "id": "d",
+        "text": "Signal visibility",
+        "explanation": "Incorrect. Not the most critical factor."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Scenarios"
+  },
+  {
+    "id": 676,
+    "question": "Which operation produces the greatest dynamic load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Slow hoisting",
+        "explanation": "Incorrect. Slow movements minimize dynamic loads."
+      },
+      {
+        "id": "b",
+        "text": "Sudden stopping during swing",
+        "explanation": "Correct. Dynamic forces occur when moving loads are stopped quickly, multiplying effective load."
+      },
+      {
+        "id": "c",
+        "text": "Slow slewing",
+        "explanation": "Incorrect. Slow movements minimize dynamic loads."
+      },
+      {
+        "id": "d",
+        "text": "Slow trolley movement",
+        "explanation": "Incorrect. Slow movements minimize dynamic loads."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Scenarios"
+  },
+  {
+    "id": 677,
+    "question": "Dynamic loading occurs when:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load is static",
+        "explanation": "Incorrect. Static loads don't create dynamic forces."
+      },
+      {
+        "id": "b",
+        "text": "Load is accelerated or stopped quickly",
+        "explanation": "Correct. Acceleration multiplies effective force, creating dynamic loading."
+      },
+      {
+        "id": "c",
+        "text": "Load is small",
+        "explanation": "Incorrect. Size doesn't determine dynamic loading."
+      },
+      {
+        "id": "d",
+        "text": "Load is vertical",
+        "explanation": "Incorrect. Orientation doesn't determine dynamic loading."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Scenarios"
+  },
+  {
+    "id": 678,
+    "question": "Which condition most increases load swing?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Slow lifting",
+        "explanation": "Incorrect. Slow movements minimize swing."
+      },
+      {
+        "id": "b",
+        "text": "Rapid slewing or trolley travel",
+        "explanation": "Correct. Horizontal motion initiates pendulum swing."
+      },
+      {
+        "id": "c",
+        "text": "Heavy loads",
+        "explanation": "Incorrect. Weight doesn't primarily cause swing."
+      },
+      {
+        "id": "d",
+        "text": "Short radius",
+        "explanation": "Incorrect. Radius doesn't primarily cause swing."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Scenarios"
+  },
+  {
+    "id": 679,
+    "question": "The safest way to control load swing is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Faster lifting",
+        "explanation": "Incorrect. Speed doesn't control swing."
+      },
+      {
+        "id": "b",
+        "text": "Smooth gradual movements",
+        "explanation": "Correct. Smooth acceleration minimizes pendulum forces and controls swing."
+      },
+      {
+        "id": "c",
+        "text": "Rapid stops",
+        "explanation": "Incorrect. Rapid stops increase swing."
+      },
+      {
+        "id": "d",
+        "text": "Increased hoisting speed",
+        "explanation": "Incorrect. This doesn't control swing."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Scenarios"
+  },
+  {
+    "id": 680,
+    "question": "Before a critical lift, the operator must verify:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load weight",
+        "explanation": "Incorrect. This is only part of verification."
+      },
+      {
+        "id": "b",
+        "text": "Radius",
+        "explanation": "Incorrect. This is only part of verification."
+      },
+      {
+        "id": "c",
+        "text": "Rigging configuration",
+        "explanation": "Incorrect. This is only part of verification."
+      },
+      {
+        "id": "d",
+        "text": "All of the above",
+        "explanation": "Correct. Every factor affects lift safety: load weight, radius, and rigging configuration must all be verified."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Master Operations"
+  },
+  {
+    "id": 681,
+    "question": "The crane operator has the authority to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ignore unsafe instructions",
+        "explanation": "Incorrect. This is only part of their authority."
+      },
+      {
+        "id": "b",
+        "text": "Stop operations",
+        "explanation": "Incorrect. This is only part of their authority."
+      },
+      {
+        "id": "c",
+        "text": "Refuse unsafe lifts",
+        "explanation": "Incorrect. This is only part of their authority."
+      },
+      {
+        "id": "d",
+        "text": "All of the above",
+        "explanation": "Correct. Operators are legally responsible for safe crane operation and have authority to refuse unsafe work."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Master Operations"
+  },
+  {
+    "id": 682,
+    "question": "Which factor most often causes crane overload?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rope wear",
+        "explanation": "Incorrect. Rope wear is usually detected during inspection."
+      },
+      {
+        "id": "b",
+        "text": "Incorrect load weight estimation",
+        "explanation": "Correct. Most overload incidents involve incorrect load estimates - operators underestimating total weight."
+      },
+      {
+        "id": "c",
+        "text": "Wind",
+        "explanation": "Incorrect. Wind is a factor but not the most common cause."
+      },
+      {
+        "id": "d",
+        "text": "Slow lifting",
+        "explanation": "Incorrect. Slow lifting doesn't cause overload."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master Operations"
+  },
+  {
+    "id": 683,
+    "question": "A crane lifting near maximum capacity should be operated:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rapidly",
+        "explanation": "Incorrect. Rapid movement creates dynamic loads."
+      },
+      {
+        "id": "b",
+        "text": "Slowly and smoothly",
+        "explanation": "Correct. Smooth operation reduces dynamic load spikes when operating near capacity."
+      },
+      {
+        "id": "c",
+        "text": "With quick stops",
+        "explanation": "Incorrect. Quick stops create dynamic loads."
+      },
+      {
+        "id": "d",
+        "text": "At maximum speed",
+        "explanation": "Incorrect. Maximum speed increases dynamic loading."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Master Operations"
+  },
+  {
+    "id": 684,
+    "question": "The final responsibility for safe crane operation lies with:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Site supervisor",
+        "explanation": "Incorrect. The operator has final responsibility."
+      },
+      {
+        "id": "b",
+        "text": "Signal person",
+        "explanation": "Incorrect. The operator has final responsibility."
+      },
+      {
+        "id": "c",
+        "text": "Rigger",
+        "explanation": "Incorrect. The operator has final responsibility."
+      },
+      {
+        "id": "d",
+        "text": "Crane operator",
+        "explanation": "Correct. The crane operator is legally responsible for safe lifting operations."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Master Operations"
   }
 ]
