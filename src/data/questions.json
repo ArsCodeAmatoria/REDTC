@@ -17380,5 +17380,835 @@
     ],
     "correctAnswer": "c",
     "category": "Unit Conversions"
+  },
+  {
+    "id": 625,
+    "question": "A tower crane load chart shows: 15 m → 6000 kg, 20 m → 4500 kg, 25 m → 3200 kg. A load weighs 4000 kg. What is the maximum safe radius to lift this load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "15 m",
+        "explanation": "Incorrect. The crane can lift further than this."
+      },
+      {
+        "id": "b",
+        "text": "20 m",
+        "explanation": "Correct. At 20 m the crane can lift 4500 kg, which exceeds the 4000 kg load. At 25 m capacity drops to 3200 kg, which is less than the load. Therefore 20 m is the maximum safe radius."
+      },
+      {
+        "id": "c",
+        "text": "22 m",
+        "explanation": "Incorrect. This radius is not on the chart and would need interpolation."
+      },
+      {
+        "id": "d",
+        "text": "25 m",
+        "explanation": "Incorrect. Capacity at 25 m (3200 kg) is less than the load."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Chart Interpretation"
+  },
+  {
+    "id": 626,
+    "question": "A crane can lift 5000 kg at 18 m and 4200 kg at 22 m. A load weighs 4500 kg. Where must the trolley be positioned?",
+    "options": [
+      {
+        "id": "a",
+        "text": "18 m",
+        "explanation": "Incorrect. While safe, this isn't the only option."
+      },
+      {
+        "id": "b",
+        "text": "Closer than 22 m",
+        "explanation": "Correct. 4500 kg exceeds the 4200 kg capacity at 22 m, so the trolley must be positioned closer than 22 m to safely lift the load."
+      },
+      {
+        "id": "c",
+        "text": "22 m",
+        "explanation": "Incorrect. Capacity at 22 m (4200 kg) is less than the load."
+      },
+      {
+        "id": "d",
+        "text": "25 m",
+        "explanation": "Incorrect. This would be even further and less capacity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Chart Interpretation"
+  },
+  {
+    "id": 627,
+    "question": "A crane capacity is 3500 kg at 30 m. Rigging and hook block total 500 kg. What is the maximum load weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,500 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "2,800 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "3,000 kg",
+        "explanation": "Correct. Total allowable load includes rigging: 3500 - 500 = 3,000 kg maximum load weight."
+      },
+      {
+        "id": "d",
+        "text": "3,200 kg",
+        "explanation": "Incorrect. This exceeds the available capacity."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Chart Interpretation"
+  },
+  {
+    "id": 628,
+    "question": "A crane load chart shows 2800 kg at 35 m. The lifted object weighs 2600 kg. Rigging weighs 300 kg. Is the lift acceptable?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes",
+        "explanation": "Incorrect. The total load exceeds capacity."
+      },
+      {
+        "id": "b",
+        "text": "No",
+        "explanation": "Correct. Total lifted weight: 2600 + 300 = 2900 kg. Capacity is 2800 kg, therefore the lift exceeds the limit."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Load Chart Interpretation"
+  },
+  {
+    "id": 629,
+    "question": "When estimating radius during a blind pick, the operator should assume:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The shortest possible radius",
+        "explanation": "Incorrect. This could lead to overloading."
+      },
+      {
+        "id": "b",
+        "text": "Average radius",
+        "explanation": "Incorrect. This is not safe practice."
+      },
+      {
+        "id": "c",
+        "text": "The largest possible radius",
+        "explanation": "Correct. Capacity decreases with increasing radius. Operators must err toward the larger radius to avoid overloading."
+      },
+      {
+        "id": "d",
+        "text": "The smallest capacity value",
+        "explanation": "Incorrect. This doesn't address radius estimation."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Load Chart Interpretation"
+  },
+  {
+    "id": 630,
+    "question": "A hoist rope has line pull of 2500 kg. The hook block has 4 parts of line. What is the maximum theoretical lifting capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "8,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "10,000 kg",
+        "explanation": "Correct. 2500 × 4 = 10,000 kg."
+      },
+      {
+        "id": "c",
+        "text": "12,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "15,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Parts of Line"
+  },
+  {
+    "id": 631,
+    "question": "Line pull = 3000 kg, Parts of line = 6, Hook block weight = 900 kg. What is the maximum net load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "15,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "17,100 kg",
+        "explanation": "Correct. Total capacity: 3000 × 6 = 18,000 kg. Subtract block weight: 18,000 - 900 = 17,100 kg."
+      },
+      {
+        "id": "c",
+        "text": "18,000 kg",
+        "explanation": "Incorrect. This doesn't account for hook block weight."
+      },
+      {
+        "id": "d",
+        "text": "18,900 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Parts of Line"
+  },
+  {
+    "id": 632,
+    "question": "If a crane changes from 4 parts of line to 8 parts of line, the line pull load on each rope:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Doubles",
+        "explanation": "Incorrect. More parts reduce tension."
+      },
+      {
+        "id": "b",
+        "text": "Is reduced by half",
+        "explanation": "Correct. More parts share the load, reducing tension on each rope."
+      },
+      {
+        "id": "c",
+        "text": "Remains the same",
+        "explanation": "Incorrect. Parts of line directly affect tension."
+      },
+      {
+        "id": "d",
+        "text": "Triples",
+        "explanation": "Incorrect. This is opposite of what happens."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Parts of Line"
+  },
+  {
+    "id": 633,
+    "question": "Increasing parts of line will:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase lifting speed",
+        "explanation": "Incorrect. More parts reduce speed."
+      },
+      {
+        "id": "b",
+        "text": "Reduce lifting speed",
+        "explanation": "Correct. More rope passes through the block, requiring more drum rotation. Lift becomes slower but stronger."
+      },
+      {
+        "id": "c",
+        "text": "Reduce lifting capacity",
+        "explanation": "Incorrect. More parts increase capacity."
+      },
+      {
+        "id": "d",
+        "text": "Increase trolley speed",
+        "explanation": "Incorrect. Parts of line don't affect trolley."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Parts of Line"
+  },
+  {
+    "id": 634,
+    "question": "A crane hoist line pull is 2000 kg with 5 parts of line. What is the theoretical lifting capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "8,000 kg",
+        "explanation": "Incorrect. This would be for 4 parts."
+      },
+      {
+        "id": "b",
+        "text": "9,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "10,000 kg",
+        "explanation": "Correct. 2000 × 5 = 10,000 kg."
+      },
+      {
+        "id": "d",
+        "text": "12,000 kg",
+        "explanation": "Incorrect. This would be for 6 parts."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Parts of Line"
+  },
+  {
+    "id": 635,
+    "question": "A 2000 kg load is lifted with two slings at 60°. What is the tension in each sling?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,000 kg",
+        "explanation": "Incorrect. This doesn't account for the angle."
+      },
+      {
+        "id": "b",
+        "text": "1,155 kg",
+        "explanation": "Correct. Formula: Load ÷ (2 × sin(angle)). sin(60°) = 0.866. 2000 ÷ 1.732 = 1,155 kg."
+      },
+      {
+        "id": "c",
+        "text": "1,400 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "1,700 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging Angles"
+  },
+  {
+    "id": 636,
+    "question": "A 3000 kg load is lifted using two slings at 45°. What is the tension per sling?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,500 kg",
+        "explanation": "Incorrect. This doesn't account for the angle."
+      },
+      {
+        "id": "b",
+        "text": "1,800 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "2,120 kg",
+        "explanation": "Correct. sin(45°) = 0.707. 3000 ÷ (2 × 0.707) = 2,120 kg."
+      },
+      {
+        "id": "d",
+        "text": "2,600 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging Angles"
+  },
+  {
+    "id": 637,
+    "question": "Two slings support 4000 kg at 30°. What is the tension in each sling?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,500 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "3,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "4,000 kg",
+        "explanation": "Correct. sin(30°) = 0.5. 4000 ÷ (2 × 0.5) = 4,000 kg per sling. Very low angles dramatically increase tension!"
+      },
+      {
+        "id": "d",
+        "text": "4,500 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging Angles"
+  },
+  {
+    "id": 638,
+    "question": "What sling angle produces the lowest tension?",
+    "options": [
+      {
+        "id": "a",
+        "text": "30°",
+        "explanation": "Incorrect. Low angles increase tension."
+      },
+      {
+        "id": "b",
+        "text": "45°",
+        "explanation": "Incorrect. Still not optimal."
+      },
+      {
+        "id": "c",
+        "text": "60°",
+        "explanation": "Incorrect. Better, but not lowest."
+      },
+      {
+        "id": "d",
+        "text": "90°",
+        "explanation": "Correct. Vertical sling legs carry the load directly. As angle decreases from vertical, tension increases."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Rigging Angles"
+  },
+  {
+    "id": 639,
+    "question": "If sling angle decreases from 60° to 30°, sling tension will:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Decrease",
+        "explanation": "Incorrect. Lower angles increase tension."
+      },
+      {
+        "id": "b",
+        "text": "Stay the same",
+        "explanation": "Incorrect. Angle directly affects tension."
+      },
+      {
+        "id": "c",
+        "text": "Increase significantly",
+        "explanation": "Correct. Shallow sling angles create strong horizontal forces, dramatically increasing tension."
+      },
+      {
+        "id": "d",
+        "text": "Be eliminated",
+        "explanation": "Incorrect. Tension cannot be eliminated while supporting a load."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Rigging Angles"
+  },
+  {
+    "id": 640,
+    "question": "What is the minimum clearance between tower crane and structure during slewing?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1 ft",
+        "explanation": "Incorrect. This is too close."
+      },
+      {
+        "id": "b",
+        "text": "2 ft",
+        "explanation": "Correct. Standard industry rule is 2 ft clearance during slewing."
+      },
+      {
+        "id": "c",
+        "text": "5 ft",
+        "explanation": "Incorrect. While safe, the minimum is 2 ft."
+      },
+      {
+        "id": "d",
+        "text": "10 ft",
+        "explanation": "Incorrect. The minimum requirement is 2 ft."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Crane Clearance"
+  },
+  {
+    "id": 641,
+    "question": "What is the minimum separation between tower cranes operating in the same area without anti-collision systems?",
+    "options": [
+      {
+        "id": "a",
+        "text": "5 ft",
+        "explanation": "Incorrect. This is too close."
+      },
+      {
+        "id": "b",
+        "text": "10 ft",
+        "explanation": "Correct. Typical operational clearance is 10 ft between cranes."
+      },
+      {
+        "id": "c",
+        "text": "20 ft",
+        "explanation": "Incorrect. The minimum is 10 ft."
+      },
+      {
+        "id": "d",
+        "text": "30 ft",
+        "explanation": "Incorrect. The minimum is 10 ft."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Crane Clearance"
+  },
+  {
+    "id": 642,
+    "question": "What is the required vertical clearance when tower crane jibs overlap?",
+    "options": [
+      {
+        "id": "a",
+        "text": "30 ft",
+        "explanation": "Incorrect. This is insufficient."
+      },
+      {
+        "id": "b",
+        "text": "40 ft",
+        "explanation": "Incorrect. This is insufficient."
+      },
+      {
+        "id": "c",
+        "text": "60 ft (18 m)",
+        "explanation": "Correct. Standard crane overlap clearance is 60 ft / 18 m."
+      },
+      {
+        "id": "d",
+        "text": "100 ft",
+        "explanation": "Incorrect. The requirement is 60 ft."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Crane Clearance"
+  },
+  {
+    "id": 643,
+    "question": "What is the minimum clearance from power lines up to 75 kV?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3 m",
+        "explanation": "Incorrect. This is too close."
+      },
+      {
+        "id": "b",
+        "text": "5 m",
+        "explanation": "Correct. Canadian electrical safety standard requires 5 m minimum clearance for lines up to 75 kV."
+      },
+      {
+        "id": "c",
+        "text": "7 m",
+        "explanation": "Incorrect. While safe, the minimum is 5 m."
+      },
+      {
+        "id": "d",
+        "text": "10 m",
+        "explanation": "Incorrect. This may be for higher voltages."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "BC Regulations"
+  },
+  {
+    "id": 644,
+    "question": "Who has final authority to stop a lift?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Supervisor",
+        "explanation": "Incorrect. The operator has final authority."
+      },
+      {
+        "id": "b",
+        "text": "Signal person",
+        "explanation": "Incorrect. While they can signal stop, the operator has final authority."
+      },
+      {
+        "id": "c",
+        "text": "Safety officer",
+        "explanation": "Incorrect. The operator has final authority."
+      },
+      {
+        "id": "d",
+        "text": "Crane operator",
+        "explanation": "Correct. The crane operator is legally responsible for safe operation and has final authority to stop any lift."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "BC Regulations"
+  },
+  {
+    "id": 645,
+    "question": "Which factor most increases load swing?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Slow hoisting",
+        "explanation": "Incorrect. Slow movements reduce swing."
+      },
+      {
+        "id": "b",
+        "text": "Sudden slewing",
+        "explanation": "Correct. Rapid rotation creates pendulum motion, dramatically increasing load swing."
+      },
+      {
+        "id": "c",
+        "text": "Slow trolley travel",
+        "explanation": "Incorrect. Slow movements reduce swing."
+      },
+      {
+        "id": "d",
+        "text": "Light loads",
+        "explanation": "Incorrect. Load weight doesn't primarily cause swing."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 646,
+    "question": "Wind force increases with:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Weight of load",
+        "explanation": "Incorrect. Wind acts on surface, not weight."
+      },
+      {
+        "id": "b",
+        "text": "Crane height",
+        "explanation": "Incorrect. Height affects wind speed, not directly force."
+      },
+      {
+        "id": "c",
+        "text": "Surface area exposed to wind",
+        "explanation": "Correct. Wind pressure acts on exposed surface area."
+      },
+      {
+        "id": "d",
+        "text": "Rope diameter",
+        "explanation": "Incorrect. Rope area is minimal."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 647,
+    "question": "Which load is most affected by wind?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Steel beam",
+        "explanation": "Incorrect. Small surface area relative to weight."
+      },
+      {
+        "id": "b",
+        "text": "Formwork panel",
+        "explanation": "Correct. Large flat surfaces act like sails, making them highly susceptible to wind forces."
+      },
+      {
+        "id": "c",
+        "text": "Concrete bucket",
+        "explanation": "Incorrect. Compact shape with less wind exposure."
+      },
+      {
+        "id": "d",
+        "text": "Engine block",
+        "explanation": "Incorrect. Heavy and compact."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 648,
+    "question": "During blind lifts, communication must be through:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Foreman",
+        "explanation": "Incorrect. A designated signal person is required."
+      },
+      {
+        "id": "b",
+        "text": "Radio only",
+        "explanation": "Incorrect. A signal person is required regardless of method."
+      },
+      {
+        "id": "c",
+        "text": "Designated signal person",
+        "explanation": "Correct. One designated signal person prevents conflicting instructions during blind lifts."
+      },
+      {
+        "id": "d",
+        "text": "Anyone nearby",
+        "explanation": "Incorrect. Only a designated signal person should communicate."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 649,
+    "question": "When hoisting a load, the hook should be positioned:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Slightly behind the load",
+        "explanation": "Incorrect. This causes swing."
+      },
+      {
+        "id": "b",
+        "text": "Directly above the center of gravity",
+        "explanation": "Correct. Off-center lifting causes swing and instability. The hook must be directly over the load's center of gravity."
+      },
+      {
+        "id": "c",
+        "text": "In front of the load",
+        "explanation": "Incorrect. This causes swing."
+      },
+      {
+        "id": "d",
+        "text": "Off to the side",
+        "explanation": "Incorrect. This causes swing and instability."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 650,
+    "question": "Which factor most affects crane capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Boom length",
+        "explanation": "Incorrect. Radius is more critical."
+      },
+      {
+        "id": "b",
+        "text": "Wind speed",
+        "explanation": "Incorrect. Radius has more impact on capacity."
+      },
+      {
+        "id": "c",
+        "text": "Radius from crane center",
+        "explanation": "Correct. Moment force increases as radius increases, making radius the primary factor affecting capacity."
+      },
+      {
+        "id": "d",
+        "text": "Rope diameter",
+        "explanation": "Incorrect. Rope affects line pull, not structural capacity."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 651,
+    "question": "The crane's rated capacity is based on:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Operator experience",
+        "explanation": "Incorrect. Capacity is determined by engineering."
+      },
+      {
+        "id": "b",
+        "text": "Structural stability limits",
+        "explanation": "Correct. Load charts reflect structural engineering limits designed to prevent tipping or structural failure."
+      },
+      {
+        "id": "c",
+        "text": "Speed of lift",
+        "explanation": "Incorrect. Speed doesn't determine rated capacity."
+      },
+      {
+        "id": "d",
+        "text": "Weather conditions",
+        "explanation": "Incorrect. Weather affects operations but not rated capacity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 652,
+    "question": "Before lifting, the operator must verify:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load weight",
+        "explanation": "Incorrect. This is only part of the verification."
+      },
+      {
+        "id": "b",
+        "text": "Rigging condition",
+        "explanation": "Incorrect. This is only part of the verification."
+      },
+      {
+        "id": "c",
+        "text": "Radius",
+        "explanation": "Incorrect. This is only part of the verification."
+      },
+      {
+        "id": "d",
+        "text": "All of the above",
+        "explanation": "Correct. All factors affect lift safety: load weight, rigging condition, and radius must all be verified before lifting."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 653,
+    "question": "If two signal persons give different signals, the operator must:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Follow the foreman",
+        "explanation": "Incorrect. Conflicting signals require a stop."
+      },
+      {
+        "id": "b",
+        "text": "Continue lifting",
+        "explanation": "Incorrect. This is unsafe."
+      },
+      {
+        "id": "c",
+        "text": "Stop operations immediately",
+        "explanation": "Correct. Conflicting signals create unsafe conditions. The operator must stop until clear communication is established."
+      },
+      {
+        "id": "d",
+        "text": "Choose one signaler",
+        "explanation": "Incorrect. Operations must stop."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Operations"
+  },
+  {
+    "id": 654,
+    "question": "The most common cause of crane overload is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rope failure",
+        "explanation": "Incorrect. Rope failure is usually a result, not cause."
+      },
+      {
+        "id": "b",
+        "text": "Wind",
+        "explanation": "Incorrect. Wind is a factor but not the most common cause."
+      },
+      {
+        "id": "c",
+        "text": "Incorrect load weight estimation",
+        "explanation": "Correct. Operators often underestimate load weight or rigging weight, leading to overload situations."
+      },
+      {
+        "id": "d",
+        "text": "Poor communication",
+        "explanation": "Incorrect. Communication issues cause other problems."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Advanced Operations"
   }
 ]
