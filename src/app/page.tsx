@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, BookOpen, Clock, Target, CheckCircle, ChevronRight, Award, HardHat, FileText, GraduationCap, Shield, BookMarked, Building2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/theme-toggle";
@@ -93,34 +94,56 @@ export default function HomePage() {
         </div>
       </header>
 
-      {/* Hero Section */}
+      {/* Hero Section with Image */}
       <section className="border-b border-border">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2">
-            {/* Left Column - Main Content */}
-            <div className="px-4 sm:px-6 lg:px-8 py-12 lg:py-20 lg:border-r border-border">
+        {/* Hero Image */}
+        <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] w-full overflow-hidden">
+          <Image
+            src="/images/header.png"
+            alt="Tower crane against sky"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background" />
+          <div className="absolute inset-0 flex items-center">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="space-y-6"
+                className="max-w-2xl"
               >
-                <div className="flex items-center gap-3">
-                  <span className="category-label">BC Red Seal</span>
-                  <span className="w-1 h-1 rounded-full bg-muted-foreground" />
-                  <span className="text-xs text-muted-foreground">Tower Crane Certification</span>
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="bg-accent text-accent-foreground text-xs font-bold uppercase tracking-widest px-2 py-1">BC Red Seal</span>
+                  <span className="text-sm text-foreground/80">Tower Crane Certification</span>
                 </div>
                 
-                <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight">
+                <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight text-foreground drop-shadow-sm">
                   Master your tower crane exam
                 </h1>
-                
+              </motion.div>
+            </div>
+          </div>
+        </div>
+
+        {/* Content Below Image */}
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-2">
+            {/* Left Column - Main Content */}
+            <div className="px-4 sm:px-6 lg:px-8 py-10 lg:py-12 lg:border-r border-border">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+                className="space-y-6"
+              >
                 <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
                   Practice with 305 questions including Master Level problems covering advanced calculations, 
                   structural engineering, and emergency scenarios.
                 </p>
 
-                <div className="flex flex-col sm:flex-row gap-3 pt-2">
+                <div className="flex flex-col sm:flex-row gap-3">
                   <Link href="/test">
                     <Button size="lg" className="w-full sm:w-auto bg-accent text-accent-foreground hover:bg-accent/90">
                       Start Practice Test
@@ -137,12 +160,12 @@ export default function HomePage() {
             </div>
 
             {/* Right Column - Stats Card */}
-            <div className="px-4 sm:px-6 lg:px-8 py-12 lg:py-20 bg-muted/30">
+            <div className="px-4 sm:px-6 lg:px-8 py-10 lg:py-12 bg-muted/30">
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ duration: 0.5, delay: 0.2 }}
-                className="space-y-8"
+                transition={{ duration: 0.5, delay: 0.3 }}
+                className="space-y-6"
               >
                 <div>
                   <span className="category-label">Test Format</span>
@@ -166,9 +189,9 @@ export default function HomePage() {
 
                 <div className="h-px bg-border" />
 
-                <div className="space-y-4">
+                <div className="space-y-3">
                   <p className="text-sm font-medium">What you&apos;ll learn:</p>
-                  <ul className="space-y-2">
+                  <ul className="grid grid-cols-2 gap-2">
                     {["Load charts & calculations", "Safety regulations", "Rigging fundamentals", "Crane operations"].map((item, i) => (
                       <li key={i} className="flex items-center gap-2 text-sm text-muted-foreground">
                         <div className="w-1.5 h-1.5 bg-accent" />
