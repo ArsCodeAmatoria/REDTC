@@ -24,7 +24,7 @@ export function Footer() {
             </nav>
           </div>
           <p className="text-sm text-muted-foreground">
-            Made by{" "}
+            {/* Made by{" "}
             <a
               href="https://bigfootcrane.com/"
               target="_blank"
@@ -33,7 +33,8 @@ export function Footer() {
             >
               Bigfoot Crane
             </a>
-            {" "}– 2026
+            {" "} */}
+            © 2026
           </p>
         </div>
       </div>
