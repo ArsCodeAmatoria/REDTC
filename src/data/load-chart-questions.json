@@ -1,195 +1,149 @@
 {
   "charts": [
     {
-      "id": "liebherr-280ec-h",
-      "name": "Liebherr 280 EC-H 12",
+      "id": "liebherr-470-ec-b",
+      "name": "Liebherr 470 EC-B 20",
       "manufacturer": "Liebherr",
-      "model": "280 EC-H 12",
-      "pdfFile": "liebherr-280ec-h.pdf",
-      "description": "Flat-top tower crane with 80m jib, 12 tonne max capacity",
+      "model": "470 EC-B 20",
+      "pdfFile": "liebherrec-b.pdf",
+      "thumbnail": "/load-charts/liebherrec-b-thumb.png",
+      "description": "Flat-top tower crane with 83m max jib, 20 tonne max capacity. Features LM 1 and Load-Plus modes.",
+      "specifications": {
+        "maxCapacity": "20,000 kg",
+        "maxJibLength": "83.0 m",
+        "tipCapacity": "1,800 kg (LM 1) / 2,200 kg (Load-Plus)",
+        "maxHoistHeight": "80.1 m"
+      },
       "questions": [
         {
           "id": 1,
-          "question": "According to the load chart, what is the maximum capacity at the jib tip (80m radius)?",
+          "question": "According to the load chart (LM 1 mode, 83m jib), what is the maximum capacity at the jib tip (83.0m radius)?",
           "options": [
-            { "id": "a", "text": "1,800 kg", "explanation": "Incorrect. Check the furthest radius column." },
-            { "id": "b", "text": "2,100 kg", "explanation": "Correct. At maximum radius (80m), the crane can lift 2,100 kg." },
-            { "id": "c", "text": "2,500 kg", "explanation": "Incorrect. This capacity is at a shorter radius." },
-            { "id": "d", "text": "3,000 kg", "explanation": "Incorrect. This capacity is at a shorter radius." }
-          ],
-          "correctAnswer": "b"
-        },
-        {
-          "id": 2,
-          "question": "What is the maximum lifting capacity of this crane at minimum radius?",
-          "options": [
-            { "id": "a", "text": "10,000 kg", "explanation": "Incorrect. Check the maximum capacity specification." },
-            { "id": "b", "text": "11,000 kg", "explanation": "Incorrect. The maximum is higher." },
-            { "id": "c", "text": "12,000 kg", "explanation": "Correct. The 280 EC-H 12 has a maximum capacity of 12,000 kg at minimum radius." },
-            { "id": "d", "text": "14,000 kg", "explanation": "Incorrect. This exceeds the crane's rating." }
-          ],
-          "correctAnswer": "c"
-        },
-        {
-          "id": 3,
-          "question": "A load weighs 5,000 kg including rigging. What is the maximum radius where this load can be safely lifted?",
-          "options": [
-            { "id": "a", "text": "35m", "explanation": "Incorrect. The crane can reach further with this load." },
-            { "id": "b", "text": "45m", "explanation": "Incorrect. Check the chart more carefully." },
-            { "id": "c", "text": "50m", "explanation": "Correct. At 50m radius, the capacity is approximately 5,000 kg." },
-            { "id": "d", "text": "60m", "explanation": "Incorrect. Capacity at 60m is less than 5,000 kg." }
-          ],
-          "correctAnswer": "c"
-        },
-        {
-          "id": 4,
-          "question": "What capacity is available at 40m radius?",
-          "options": [
-            { "id": "a", "text": "5,500 kg", "explanation": "Incorrect. Check the 40m column." },
-            { "id": "b", "text": "6,200 kg", "explanation": "Correct. At 40m radius, the capacity is approximately 6,200 kg." },
-            { "id": "c", "text": "7,000 kg", "explanation": "Incorrect. This is at a shorter radius." },
-            { "id": "d", "text": "8,000 kg", "explanation": "Incorrect. This is at a shorter radius." }
-          ],
-          "correctAnswer": "b"
-        },
-        {
-          "id": 5,
-          "question": "If the hook block weighs 800 kg and rigging weighs 200 kg, what is the maximum LOAD weight that can be lifted at 60m radius if chart shows 4,000 kg capacity?",
-          "options": [
-            { "id": "a", "text": "4,000 kg", "explanation": "Incorrect. You must subtract hook block and rigging weight." },
-            { "id": "b", "text": "3,200 kg", "explanation": "Incorrect. Check your subtraction." },
-            { "id": "c", "text": "3,000 kg", "explanation": "Correct. 4,000 kg capacity - 800 kg block - 200 kg rigging = 3,000 kg available for load." },
-            { "id": "d", "text": "2,800 kg", "explanation": "Incorrect. This subtracts too much." }
-          ],
-          "correctAnswer": "c"
-        }
-      ]
-    },
-    {
-      "id": "potain-mdt-219",
-      "name": "Potain MDT 219",
-      "manufacturer": "Potain",
-      "model": "MDT 219",
-      "pdfFile": "potain-mdt-219.pdf",
-      "description": "Topless tower crane with 65m jib, 10 tonne max capacity",
-      "questions": [
-        {
-          "id": 1,
-          "question": "What is the maximum tip capacity of the Potain MDT 219 at 65m radius?",
-          "options": [
-            { "id": "a", "text": "1,500 kg", "explanation": "Incorrect. Check the jib tip specification." },
-            { "id": "b", "text": "1,900 kg", "explanation": "Correct. The MDT 219 can lift 1,900 kg at the 65m jib tip." },
-            { "id": "c", "text": "2,200 kg", "explanation": "Incorrect. This is at a shorter radius." },
-            { "id": "d", "text": "2,500 kg", "explanation": "Incorrect. This is at a shorter radius." }
-          ],
-          "correctAnswer": "b"
-        },
-        {
-          "id": 2,
-          "question": "At what radius does the capacity drop below 5,000 kg?",
-          "options": [
-            { "id": "a", "text": "35m", "explanation": "Incorrect. Capacity is still above 5,000 kg at this radius." },
-            { "id": "b", "text": "40m", "explanation": "Incorrect. Check the chart transition point." },
-            { "id": "c", "text": "45m", "explanation": "Correct. Capacity drops below 5,000 kg beyond approximately 45m radius." },
-            { "id": "d", "text": "50m", "explanation": "Incorrect. Capacity is already below 5,000 kg at 50m." }
-          ],
-          "correctAnswer": "c"
-        },
-        {
-          "id": 3,
-          "question": "A contractor needs to lift 3,500 kg including rigging to a radius between 50-55m. Is this lift possible?",
-          "options": [
-            { "id": "a", "text": "Yes, within capacity", "explanation": "Correct. The MDT 219 has approximately 3,800-4,200 kg capacity in the 50-55m range." },
-            { "id": "b", "text": "No, exceeds capacity", "explanation": "Incorrect. Check the load chart for this radius range." },
-            { "id": "c", "text": "Only at 50m, not 55m", "explanation": "Incorrect. Both radii can handle this load." },
-            { "id": "d", "text": "Need more information", "explanation": "Incorrect. The load chart provides sufficient information." }
+            { "id": "a", "text": "1,800 kg", "explanation": "Correct. At 83.0m radius in LM 1 mode, the capacity is 1.80 tonnes (1,800 kg). This is shown in the first row of the LM 1 table." },
+            { "id": "b", "text": "2,200 kg", "explanation": "Incorrect. 2,200 kg is the tip capacity in Load-Plus mode, not standard LM 1 mode." },
+            { "id": "c", "text": "2,500 kg", "explanation": "Incorrect. 2,500 kg is the capacity at 80.0m radius, not at the jib tip." },
+            { "id": "d", "text": "3,000 kg", "explanation": "Incorrect. This is the capacity at approximately 75-77m radius." }
           ],
           "correctAnswer": "a"
         },
         {
-          "id": 4,
-          "question": "What is the maximum capacity of this crane?",
+          "id": 2,
+          "question": "What is the maximum lifting capacity of this crane (at minimum radius)?",
           "options": [
-            { "id": "a", "text": "8,000 kg", "explanation": "Incorrect. The maximum is higher." },
-            { "id": "b", "text": "10,000 kg", "explanation": "Correct. The MDT 219 has a maximum capacity of 10 tonnes (10,000 kg)." },
-            { "id": "c", "text": "12,000 kg", "explanation": "Incorrect. This exceeds the crane's rating." },
-            { "id": "d", "text": "15,000 kg", "explanation": "Incorrect. This exceeds the crane's rating." }
-          ],
-          "correctAnswer": "b"
-        },
-        {
-          "id": 5,
-          "question": "If operating at 30m radius with capacity of 7,500 kg, and you need to move the load outward to 40m, what should you verify first?",
-          "options": [
-            { "id": "a", "text": "Wind speed only", "explanation": "Incorrect. Load capacity is the primary concern." },
-            { "id": "b", "text": "That the load weight is within the 40m capacity", "explanation": "Correct. You must verify the total load weight doesn't exceed capacity at the new radius before moving outward." },
-            { "id": "c", "text": "Hoist speed", "explanation": "Incorrect. Capacity verification is more critical." },
-            { "id": "d", "text": "Trolley brake condition", "explanation": "Incorrect. While important, capacity verification is the priority." }
-          ],
-          "correctAnswer": "b"
-        }
-      ]
-    },
-    {
-      "id": "terex-ctt-472",
-      "name": "Terex CTT 472-20",
-      "manufacturer": "Terex",
-      "model": "CTT 472-20",
-      "pdfFile": "terex-ctt-472.pdf",
-      "description": "Flat-top tower crane with 75m jib, 20 tonne max capacity",
-      "questions": [
-        {
-          "id": 1,
-          "question": "What is the maximum lifting capacity of the CTT 472-20?",
-          "options": [
-            { "id": "a", "text": "16,000 kg", "explanation": "Incorrect. The maximum is higher." },
-            { "id": "b", "text": "18,000 kg", "explanation": "Incorrect. Check the model designation." },
-            { "id": "c", "text": "20,000 kg", "explanation": "Correct. The CTT 472-20 has a maximum capacity of 20 tonnes as indicated by the model number." },
-            { "id": "d", "text": "22,000 kg", "explanation": "Incorrect. This exceeds the crane's rating." }
+            { "id": "a", "text": "18,000 kg", "explanation": "Incorrect. The maximum capacity is higher than this." },
+            { "id": "b", "text": "19,000 kg", "explanation": "Incorrect. 19,000 kg is available at 24.4m in LM 1 mode, but Load-Plus offers more." },
+            { "id": "c", "text": "20,000 kg", "explanation": "Correct. The 470 EC-B 20 has a maximum capacity of 20 tonnes (20,000 kg). The '20' in the model name indicates this rating." },
+            { "id": "d", "text": "25,000 kg", "explanation": "Incorrect. This exceeds the crane's maximum rating." }
           ],
           "correctAnswer": "c"
-        },
-        {
-          "id": 2,
-          "question": "At 75m (maximum jib length), what is the approximate tip load capacity?",
-          "options": [
-            { "id": "a", "text": "2,800 kg", "explanation": "Incorrect. Check the tip load specification." },
-            { "id": "b", "text": "3,200 kg", "explanation": "Correct. At maximum radius, the CTT 472-20 can lift approximately 3,200 kg." },
-            { "id": "c", "text": "4,000 kg", "explanation": "Incorrect. This is at a shorter radius." },
-            { "id": "d", "text": "4,500 kg", "explanation": "Incorrect. This is at a shorter radius." }
-          ],
-          "correctAnswer": "b"
         },
         {
           "id": 3,
-          "question": "You need to lift 8,000 kg. According to the load chart, what is the approximate maximum radius for this load?",
+          "question": "Using the LM 1 chart (83m jib), a load weighs 8,000 kg including rigging. What is the maximum radius where this load can be safely lifted?",
           "options": [
-            { "id": "a", "text": "40m", "explanation": "Incorrect. The crane can reach further with 8,000 kg." },
-            { "id": "b", "text": "50m", "explanation": "Correct. At approximately 50m radius, capacity is around 8,000 kg." },
-            { "id": "c", "text": "60m", "explanation": "Incorrect. Capacity at 60m is less than 8,000 kg." },
-            { "id": "d", "text": "70m", "explanation": "Incorrect. Capacity at 70m is much less than 8,000 kg." }
+            { "id": "a", "text": "47.5 m", "explanation": "Incorrect. At 47.5m, capacity is 9.10t which would work, but you can reach further." },
+            { "id": "b", "text": "50.0 m", "explanation": "Correct. At 50.0m radius, the capacity is 8.50 tonnes (8,500 kg). At 52.5m, capacity drops to 7.90 tonnes (7,900 kg) which is less than the 8,000 kg load." },
+            { "id": "c", "text": "52.5 m", "explanation": "Incorrect. At 52.5m, capacity is only 7.90t (7,900 kg), which is less than the 8,000 kg load." },
+            { "id": "d", "text": "55.0 m", "explanation": "Incorrect. Capacity at 55m is only 7.30t (7,300 kg)." }
           ],
           "correctAnswer": "b"
         },
         {
           "id": 4,
-          "question": "The load chart shows multiple line configurations. With 4 parts of line, what happens to capacity compared to 2 parts?",
+          "question": "According to the LM 1 chart (83m jib), what is the capacity at 40.0m radius?",
           "options": [
-            { "id": "a", "text": "Capacity decreases", "explanation": "Incorrect. More parts of line increase capacity." },
-            { "id": "b", "text": "Capacity stays the same", "explanation": "Incorrect. Parts of line affect capacity." },
-            { "id": "c", "text": "Capacity increases", "explanation": "Correct. More parts of line provide greater mechanical advantage, increasing lifting capacity." },
-            { "id": "d", "text": "Only affects hoist speed", "explanation": "Incorrect. It affects both capacity and speed." }
+            { "id": "a", "text": "10,400 kg", "explanation": "Incorrect. This is the capacity at 42.5m radius." },
+            { "id": "b", "text": "11,100 kg", "explanation": "Correct. At 40.0m radius, the LM 1 chart shows 11.10 tonnes (11,100 kg) capacity." },
+            { "id": "c", "text": "12,000 kg", "explanation": "Incorrect. This is the capacity at 37.5m radius." },
+            { "id": "d", "text": "13,000 kg", "explanation": "Incorrect. This is the capacity at 35.0m radius." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 5,
+          "question": "If the hook block weighs 1,000 kg and rigging weighs 500 kg, what is the maximum LOAD weight that can be lifted at 60.0m radius (LM 1 mode, 83m jib) where chart shows 6,100 kg capacity?",
+          "options": [
+            { "id": "a", "text": "6,100 kg", "explanation": "Incorrect. You must subtract hook block and rigging weight from capacity." },
+            { "id": "b", "text": "5,100 kg", "explanation": "Incorrect. Check your subtraction." },
+            { "id": "c", "text": "4,600 kg", "explanation": "Correct. 6,100 kg capacity - 1,000 kg block - 500 kg rigging = 4,600 kg available for the actual load." },
+            { "id": "d", "text": "4,100 kg", "explanation": "Incorrect. This subtracts too much." }
           ],
           "correctAnswer": "c"
         },
         {
-          "id": 5,
-          "question": "A precast panel weighs 12,000 kg. Rigging is 500 kg, hook block is 1,000 kg. Total suspended weight is 13,500 kg. At what radius can this be lifted?",
+          "id": 6,
+          "question": "What is the difference in tip capacity between LM 1 mode and Load-Plus mode at 83.0m radius?",
           "options": [
-            { "id": "a", "text": "Only at minimum radius", "explanation": "Incorrect. Check the chart for 13,500 kg capacity." },
-            { "id": "b", "text": "Up to approximately 35m", "explanation": "Correct. The chart shows approximately 13,500 kg capacity around 35m radius." },
-            { "id": "c", "text": "Up to 50m", "explanation": "Incorrect. Capacity at 50m is less than 13,500 kg." },
-            { "id": "d", "text": "This load cannot be lifted", "explanation": "Incorrect. The crane's maximum capacity exceeds this load." }
+            { "id": "a", "text": "200 kg more in Load-Plus", "explanation": "Incorrect. The difference is larger than 200 kg." },
+            { "id": "b", "text": "400 kg more in Load-Plus", "explanation": "Correct. LM 1 shows 1,800 kg at 83m tip, while Load-Plus shows 2,200 kg. The difference is 400 kg (2,200 - 1,800 = 400)." },
+            { "id": "c", "text": "500 kg more in Load-Plus", "explanation": "Incorrect. Check the values in both tables." },
+            { "id": "d", "text": "1,000 kg more in Load-Plus", "explanation": "Incorrect. The difference is not this large." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 7,
+          "question": "Using Load-Plus mode (83m jib), what is the capacity at 50.0m radius?",
+          "options": [
+            { "id": "a", "text": "8,500 kg", "explanation": "Incorrect. This is the LM 1 capacity at 50m, not Load-Plus." },
+            { "id": "b", "text": "9,500 kg", "explanation": "Correct. The Load-Plus table shows 9.50 tonnes (9,500 kg) at 50.0m radius, compared to 8.50 tonnes in LM 1 mode." },
+            { "id": "c", "text": "10,000 kg", "explanation": "Incorrect. Check the Load-Plus table more carefully." },
+            { "id": "d", "text": "10,500 kg", "explanation": "Incorrect. This exceeds the Load-Plus capacity at 50m." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 8,
+          "question": "A contractor needs to lift 12,000 kg at 35-40m radius range. Using LM 1 mode (83m jib), is this possible?",
+          "options": [
+            { "id": "a", "text": "Yes, anywhere in that range", "explanation": "Incorrect. Check the capacities carefully at both ends of the range." },
+            { "id": "b", "text": "Yes, but only at 35m, not 40m", "explanation": "Correct. At 35m, capacity is 13,000 kg (sufficient). At 40m, capacity drops to 11,100 kg (insufficient for 12,000 kg load)." },
+            { "id": "c", "text": "No, the crane cannot lift 12,000 kg at either radius", "explanation": "Incorrect. The crane can lift 12,000 kg at shorter radii." },
+            { "id": "d", "text": "Yes, but only at 40m, not 35m", "explanation": "Incorrect. The capacity is actually lower at 40m." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 9,
+          "question": "According to the chart notes, the lifting capacities are valid up to what hoisting height?",
+          "options": [
+            { "id": "a", "text": "30 m", "explanation": "Incorrect. The chart allows for greater hoisting heights." },
+            { "id": "b", "text": "50 m", "explanation": "Correct. The note states 'Lifting capacities valid up to 50 m hoisting height.' Beyond this, different capacities may apply." },
+            { "id": "c", "text": "80 m", "explanation": "Incorrect. While the crane can reach 80m height, the standard capacity values are valid to 50m." },
+            { "id": "d", "text": "100 m", "explanation": "Incorrect. This exceeds the stated limitation." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 10,
+          "question": "Looking at the LM 1 table, at what radius does capacity first drop below 5,000 kg (83m jib)?",
+          "options": [
+            { "id": "a", "text": "62.5 m", "explanation": "Incorrect. At 62.5m, capacity is still 5,600 kg." },
+            { "id": "b", "text": "65.0 m", "explanation": "Correct. At 65.0m radius, capacity is 5,100 kg. At 67.5m, it drops to 4,600 kg - the first value below 5,000 kg." },
+            { "id": "c", "text": "67.5 m", "explanation": "Incorrect. At 67.5m capacity is already below 5,000 kg (4,600 kg). The drop below 5,000 kg occurs between 65m and 67.5m." },
+            { "id": "d", "text": "70.0 m", "explanation": "Incorrect. Capacity is already well below 5,000 kg at this radius (4,100 kg)." }
+          ],
+          "correctAnswer": "b"
+        },
+        {
+          "id": 11,
+          "question": "A precast concrete panel weighs 9,000 kg. Rigging and hook block total 1,200 kg. Using LM 1 mode (83m jib), what is the maximum radius for this lift?",
+          "options": [
+            { "id": "a", "text": "42.5 m", "explanation": "Incorrect. The crane can reach further with this total load." },
+            { "id": "b", "text": "45.0 m", "explanation": "Incorrect. Check the capacity at 47.5m." },
+            { "id": "c", "text": "47.5 m", "explanation": "Correct. Total load = 9,000 + 1,200 = 10,200 kg. At 47.5m, capacity is 9,100 kg (insufficient). At 45.0m, capacity is 9,700 kg (insufficient). At 42.5m, capacity is 10,400 kg (sufficient)." },
+            { "id": "d", "text": "50.0 m", "explanation": "Incorrect. At 50m, capacity is only 8,500 kg." }
+          ],
+          "correctAnswer": "c"
+        },
+        {
+          "id": 12,
+          "question": "What advantage does Load-Plus mode provide compared to LM 1 mode?",
+          "options": [
+            { "id": "a", "text": "Faster hoisting speed", "explanation": "Incorrect. Load-Plus affects capacity, not speed." },
+            { "id": "b", "text": "Greater lifting capacity at the same radius", "explanation": "Correct. Load-Plus mode provides increased lifting capacity throughout the working range, especially noticeable at longer radii." },
+            { "id": "c", "text": "Longer jib reach", "explanation": "Incorrect. Jib length is the same in both modes." },
+            { "id": "d", "text": "Reduced counterweight requirements", "explanation": "Incorrect. Load-Plus typically requires the same or more counterweight." }
           ],
           "correctAnswer": "b"
         }

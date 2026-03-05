@@ -22,13 +22,22 @@ interface Question {
   correctAnswer: string;
 }
 
+interface ChartSpec {
+  maxCapacity?: string;
+  maxJibLength?: string;
+  tipCapacity?: string;
+  maxHoistHeight?: string;
+}
+
 interface Chart {
   id: string;
   name: string;
   manufacturer: string;
   model: string;
   pdfFile: string;
+  thumbnail?: string;
   description: string;
+  specifications?: ChartSpec;
   questions: Question[];
 }
 
