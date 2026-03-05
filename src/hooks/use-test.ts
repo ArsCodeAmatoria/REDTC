@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useMemo, useEffect, useRef } from "react";
+import { useState, useCallback, useMemo, useRef } from "react";
 import type { Question, TestState, TestResult } from "@/types/question";
 
 const DEFAULT_QUESTIONS_PER_TEST = 10;
@@ -17,19 +17,37 @@ export interface QuestionTiming {
   answeredCorrectly: boolean;
 }
 
+function getRandomValues(count: number): number[] {
+  if (typeof window !== "undefined" && window.crypto) {
+    const array = new Uint32Array(count);
+    window.crypto.getRandomValues(array);
+    return Array.from(array).map(v => v / (0xFFFFFFFF + 1));
+  }
+  return Array.from({ length: count }, () => Math.random());
+}
+
 function shuffleArray<T>(array: T[]): T[] {
   const shuffled = [...array];
+  const randoms = getRandomValues(shuffled.length);
   for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
+    const j = Math.floor(randoms[i] * (i + 1));
     [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
   }
   return shuffled;
 }
 
+function selectRandomQuestions<T>(array: T[], count: number): T[] {
+  const shuffled = shuffleArray(array);
+  return shuffled.slice(0, count);
+}
+
 export function useTest(allQuestions: Question[], options: TestOptions = {}) {
   const questionsPerTest = options.questionsPerTest || DEFAULT_QUESTIONS_PER_TEST;
   const passPercentage = options.passPercentage || DEFAULT_PASS_PERCENTAGE;
-  const [testQuestions, setTestQuestions] = useState<Question[]>([]);
+  
+  const [testQuestions, setTestQuestions] = useState<Question[]>(() => 
+    selectRandomQuestions(allQuestions, questionsPerTest)
+  );
   const [state, setState] = useState<TestState>({
     currentQuestionIndex: 0,
     answers: {},
@@ -41,13 +59,6 @@ export function useTest(allQuestions: Question[], options: TestOptions = {}) {
   const questionStartTime = useRef<number>(Date.now());
   const [questionTimings, setQuestionTimings] = useState<Record<number, number>>({});
   const [totalTestTime, setTotalTestTime] = useState<number>(0);
-
-  useEffect(() => {
-    const shuffled = shuffleArray(allQuestions);
-    setTestQuestions(shuffled.slice(0, questionsPerTest));
-    testStartTime.current = Date.now();
-    questionStartTime.current = Date.now();
-  }, [allQuestions, questionsPerTest]);
 
   const currentQuestion = useMemo(
     () => testQuestions[state.currentQuestionIndex],
@@ -123,8 +134,21 @@ export function useTest(allQuestions: Question[], options: TestOptions = {}) {
   );
 
   const resetTest = useCallback(() => {
-    const shuffled = shuffleArray(allQuestions);
-    setTestQuestions(shuffled.slice(0, questionsPerTest));
+    setTestQuestions(selectRandomQuestions(allQuestions, questionsPerTest));
+    setState({
+      currentQuestionIndex: 0,
+      answers: {},
+      showExplanation: false,
+      isComplete: false,
+    });
+    setQuestionTimings({});
+    setTotalTestTime(0);
+    testStartTime.current = Date.now();
+    questionStartTime.current = Date.now();
+  }, [allQuestions, questionsPerTest]);
+
+  const initializeTest = useCallback(() => {
+    setTestQuestions(selectRandomQuestions(allQuestions, questionsPerTest));
     setState({
       currentQuestionIndex: 0,
       answers: {},
@@ -198,6 +222,7 @@ export function useTest(allQuestions: Question[], options: TestOptions = {}) {
     previousQuestion,
     goToQuestion,
     resetTest,
+    initializeTest,
     results,
     answeredCount,
     totalQuestions: testQuestions.length,

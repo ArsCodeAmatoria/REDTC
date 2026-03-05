@@ -36,6 +36,7 @@ export default function TestPage() {
     nextQuestion,
     previousQuestion,
     resetTest,
+    initializeTest,
     results,
     answeredCount,
     totalQuestions,
@@ -47,6 +48,11 @@ export default function TestPage() {
     totalTestTime,
     timingStats,
   } = useTest(questions);
+
+  const handleStartTest = () => {
+    initializeTest();
+    setHasStarted(true);
+  };
 
   // Start screen
   if (!hasStarted) {
@@ -163,7 +169,7 @@ export default function TestPage() {
             {/* CTA */}
             <div className="space-y-4">
               <Button
-                onClick={() => setHasStarted(true)}
+                onClick={handleStartTest}
                 className="w-full bg-accent text-accent-foreground hover:bg-accent/90 h-14 text-lg font-bold"
               >
                 Start Practice Test
