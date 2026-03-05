@@ -108,8 +108,8 @@ export default function TestPage() {
   // Start screen
   if (!hasStarted) {
     return (
-      <div className="min-h-screen">
-        <header className="border-b border-border sticky top-0 bg-background/95 backdrop-blur z-50">
+      <div className="min-h-screen flex flex-col">
+        <header className="border-b border-border">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-14">
               <Link href="/" className="flex items-center gap-2">
@@ -122,83 +122,48 @@ export default function TestPage() {
           </div>
         </header>
 
-        <div className="max-w-xl mx-auto px-4 py-16 md:py-24">
+        <div className="flex-1 flex items-center justify-center px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="space-y-8"
+            className="w-full max-w-md text-center space-y-10"
           >
-            <div className="text-center space-y-2">
-              <h1 className="font-display text-4xl font-bold">Practice Test</h1>
-              <p className="text-muted-foreground">10 random questions · 70% to pass</p>
+            <div className="space-y-3">
+              <h1 className="font-display text-5xl font-bold">Practice</h1>
+              <p className="text-muted-foreground">10 questions · 70% to pass</p>
             </div>
 
-            <div className="space-y-4">
-              <div className="text-sm font-bold uppercase tracking-wider text-muted-foreground">
-                Select Difficulty
-              </div>
-              <div className="grid grid-cols-2 gap-3">
+            <div className="flex flex-wrap justify-center gap-2">
+              {[
+                { key: "all", label: "All", count: difficultyCounts.all },
+                { key: "easy", label: "Easy", count: difficultyCounts.easy },
+                { key: "medium", label: "Medium", count: difficultyCounts.medium },
+                { key: "hard", label: "Hard", count: difficultyCounts.hard },
+              ].map((item) => (
                 <button
-                  onClick={() => setSelectedDifficulty("all")}
-                  className={`p-4 border text-left transition-colors ${
-                    selectedDifficulty === "all"
-                      ? "border-accent bg-accent/10"
-                      : "border-border hover:border-accent/50"
+                  key={item.key}
+                  onClick={() => setSelectedDifficulty(item.key as Difficulty | "all")}
+                  className={`px-4 py-2 text-sm font-medium transition-all ${
+                    selectedDifficulty === item.key
+                      ? "bg-accent text-accent-foreground"
+                      : "bg-muted text-muted-foreground hover:text-foreground"
                   }`}
                 >
-                  <div className="font-bold">All Levels</div>
-                  <div className="text-sm text-muted-foreground">{difficultyCounts.all} questions</div>
+                  {item.label}
+                  <span className="ml-1.5 opacity-60">{item.count}</span>
                 </button>
-                <button
-                  onClick={() => setSelectedDifficulty("easy")}
-                  className={`p-4 border text-left transition-colors ${
-                    selectedDifficulty === "easy"
-                      ? "border-green-500 bg-green-500/10"
-                      : "border-border hover:border-green-500/50"
-                  }`}
-                >
-                  <div className="font-bold text-green-500">Easy</div>
-                  <div className="text-sm text-muted-foreground">{difficultyCounts.easy} questions</div>
-                </button>
-                <button
-                  onClick={() => setSelectedDifficulty("medium")}
-                  className={`p-4 border text-left transition-colors ${
-                    selectedDifficulty === "medium"
-                      ? "border-yellow-500 bg-yellow-500/10"
-                      : "border-border hover:border-yellow-500/50"
-                  }`}
-                >
-                  <div className="font-bold text-yellow-500">Medium</div>
-                  <div className="text-sm text-muted-foreground">{difficultyCounts.medium} questions</div>
-                </button>
-                <button
-                  onClick={() => setSelectedDifficulty("hard")}
-                  className={`p-4 border text-left transition-colors ${
-                    selectedDifficulty === "hard"
-                      ? "border-red-500 bg-red-500/10"
-                      : "border-border hover:border-red-500/50"
-                  }`}
-                >
-                  <div className="font-bold text-red-500">Hard</div>
-                  <div className="text-sm text-muted-foreground">{difficultyCounts.hard} questions</div>
-                </button>
-              </div>
+              ))}
             </div>
 
             <Button
               onClick={() => setHasStarted(true)}
-              className="w-full bg-accent text-accent-foreground hover:bg-accent/90"
-              size="lg"
+              className="w-full bg-accent text-accent-foreground hover:bg-accent/90 h-12 text-base"
             >
-              Start Test
-              <ArrowRight className="ml-2 h-4 w-4" />
+              Start
             </Button>
 
-            <Link href="/" className="block">
-              <Button variant="ghost" className="w-full" size="lg">
-                <Home className="mr-2 h-4 w-4" />
-                Back to Home
-              </Button>
+            <Link href="/" className="block text-sm text-muted-foreground hover:text-foreground transition-colors">
+              ← Back
             </Link>
           </motion.div>
         </div>
