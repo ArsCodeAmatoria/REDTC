@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, BookOpen, ChevronRight, Award, HardHat, FileText, GraduationCap, Shield, Timer } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Header } from "@/components/layout/header";
 import questionsData from "@/data/questions.json";
 
 const categories = [
@@ -70,27 +71,7 @@ const examTopics = [
 export default function HomePage() {
   return (
     <div className="min-h-screen pt-14">
-      {/* Header */}
-      <header className="fixed top-0 left-0 right-0 bg-background/80 backdrop-blur-md z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-14">
-            <Link href="/" className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-accent flex items-center justify-center">
-                <span className="text-xl font-black text-accent-foreground">R</span>
-              </div>
-              <span className="font-display text-xl font-black tracking-tight hidden sm:block">REDTC</span>
-            </Link>
-            <nav className="flex items-center gap-1 sm:gap-3">
-              <Link href="/test" className="px-3 py-2 text-sm font-bold hover:bg-muted transition-colors">
-                Practice
-              </Link>
-              <Link href="/test/master" className="px-3 py-2 text-sm font-bold hover:bg-muted transition-colors hidden sm:block">
-                Master
-              </Link>
-            </nav>
-          </div>
-        </div>
-      </header>
+      <Header />
 
       {/* Hero Section with Image */}
       <section className="border-b border-border">
@@ -107,8 +88,8 @@ export default function HomePage() {
           <div className="absolute inset-0 flex items-center">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
               <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}
                 className="max-w-2xl"
               >
@@ -131,8 +112,8 @@ export default function HomePage() {
             {/* Left Column - Main Content */}
             <div className="px-4 sm:px-6 lg:px-8 py-10 lg:py-12 lg:border-r border-border">
               <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
                 className="space-y-6"
               >
@@ -212,8 +193,8 @@ export default function HomePage() {
             {features.map((feature, index) => (
               <motion.div
                 key={feature.title}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
                 transition={{ delay: 0.1 * index }}
                 className="py-6 md:py-0 md:px-6 first:md:pl-0 last:md:pr-0"
               >
@@ -364,8 +345,8 @@ export default function HomePage() {
             {certificationSteps.map((item, index) => (
               <motion.div
                 key={item.step}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
                 transition={{ delay: 0.1 * index }}
                 className="relative"
               >

@@ -6,6 +6,7 @@ import Link from "next/link";
 import { ArrowLeft, ArrowRight, RotateCcw, Check, X, Home, Clock, AlertTriangle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { QuestionCard, ProgressBar } from "@/components/quiz";
+import { Header } from "@/components/layout/header";
 import { useTest } from "@/hooks/use-test";
 import questionsData from "@/data/questions.json";
 import type { Question } from "@/types/question";
@@ -86,24 +87,14 @@ export default function MasterTestPage() {
   // Start screen
   if (!hasStarted) {
     return (
-      <div className="min-h-screen">
-        <header className="fixed top-0 left-0 right-0 bg-background/80 backdrop-blur-md z-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between h-14">
-              <Link href="/" className="flex items-center gap-2">
-                <div className="w-8 h-8 bg-accent flex items-center justify-center">
-                  <span className="text-xl font-black text-accent-foreground" style={{ fontFamily: 'Arial Black, sans-serif' }}>b</span>
-                </div>
-                <span className="font-display text-xl font-bold tracking-tight hidden sm:block">REDTC</span>
-              </Link>
-            </div>
-          </div>
-        </header>
+      <div className="min-h-screen pt-14">
+        <Header />
 
-        <div className="min-h-screen flex items-center justify-center px-4 pt-14">
+        <div className="min-h-[calc(100vh-3.5rem)] flex items-center justify-center px-4">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.2 }}
             className="max-w-lg w-full text-center space-y-8"
           >
             <div>
@@ -170,31 +161,17 @@ export default function MasterTestPage() {
     
     return (
       <div className="min-h-screen pt-14">
-        <header className="fixed top-0 left-0 right-0 bg-background/80 backdrop-blur-md z-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between h-14">
-              <Link href="/" className="flex items-center gap-2">
-                <div className="w-8 h-8 bg-accent flex items-center justify-center">
-                  <span className="text-xl font-black text-accent-foreground" style={{ fontFamily: 'Arial Black, sans-serif' }}>b</span>
-                </div>
-                <span className="font-display text-xl font-bold tracking-tight hidden sm:block">REDTC</span>
-              </Link>
-            </div>
-          </div>
-        </header>
+        <Header />
 
         <div className="max-w-xl mx-auto px-4 py-16 md:py-24">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.2 }}
             className="space-y-8"
           >
             <div className="text-center space-y-6">
-              <motion.div
-                initial={{ scale: 0 }}
-                animate={{ scale: 1 }}
-                transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
+              <div
                 className={`w-20 h-20 mx-auto flex items-center justify-center ${
                   isPassed ? "bg-accent" : "bg-muted"
                 }`}
@@ -204,7 +181,7 @@ export default function MasterTestPage() {
                 ) : (
                   <X className="w-10 h-10 text-muted-foreground" strokeWidth={2.5} />
                 )}
-              </motion.div>
+              </div>
 
               <div>
                 <span className={`category-label ${!isPassed && 'text-muted-foreground'}`}>
@@ -279,27 +256,14 @@ export default function MasterTestPage() {
 
   return (
     <div className="min-h-screen pt-14">
-      <header className="fixed top-0 left-0 right-0 bg-background/80 backdrop-blur-md z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-14">
-            <Link href="/" className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-accent flex items-center justify-center">
-                <span className="text-xl font-black text-accent-foreground">R</span>
-              </div>
-              <span className="font-display text-xl font-bold tracking-tight hidden sm:block">REDTC</span>
-            </Link>
-            <div className="flex items-center gap-4">
-              {/* Timer */}
-              <div className={`flex items-center gap-2 px-3 py-1.5 border ${isLowTime ? 'border-red-500 bg-red-500/10' : 'border-border'}`}>
-                <Clock className={`w-4 h-4 ${isLowTime ? 'text-red-500' : 'text-muted-foreground'}`} />
-                <span className={`font-mono text-sm font-medium ${isLowTime ? 'text-red-500' : ''}`}>
-                  {formatTime(timeRemaining)}
-                </span>
-              </div>
-            </div>
-          </div>
+      <Header rightContent={
+        <div className={`flex items-center gap-2 px-3 py-1.5 border ${isLowTime ? 'border-red-500 bg-red-500/10' : 'border-border'}`}>
+          <Clock className={`w-4 h-4 ${isLowTime ? 'text-red-500' : 'text-muted-foreground'}`} />
+          <span className={`font-mono text-sm font-medium ${isLowTime ? 'text-red-500' : ''}`}>
+            {formatTime(timeRemaining)}
+          </span>
         </div>
-      </header>
+      } />
 
       {/* Progress Bar */}
       <div className="border-b border-border">

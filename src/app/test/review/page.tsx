@@ -6,6 +6,7 @@ import Link from "next/link";
 import { ArrowLeft, ArrowRight, Home, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { QuestionCard } from "@/components/quiz";
+import { Header } from "@/components/layout/header";
 import questionsData from "@/data/questions.json";
 import type { Question } from "@/types/question";
 
@@ -92,27 +93,8 @@ export default function ReviewPage() {
   }
 
   return (
-    <div className="min-h-screen">
-      {/* Header */}
-      <header className="border-b border-border sticky top-0 bg-background/95 backdrop-blur z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-14">
-            <Link href="/" className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-accent flex items-center justify-center">
-                <span className="text-xl font-black text-accent-foreground">R</span>
-              </div>
-              <span className="font-display text-xl font-bold tracking-tight hidden sm:block">REDTC</span>
-            </Link>
-            <div className="flex items-center gap-2">
-              <Link href="/test">
-                <Button size="sm" className="bg-accent text-accent-foreground hover:bg-accent/90 hidden sm:flex">
-                  Start Test
-                </Button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </header>
+    <div className="min-h-screen pt-14">
+      <Header />
 
       {/* Title Bar */}
       <div className="border-b border-border bg-muted/30">
@@ -146,8 +128,9 @@ export default function ReviewPage() {
             
             {isDropdownOpen && (
               <motion.div
-                initial={{ opacity: 0, y: -10 }}
-                animate={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.15 }}
                 className="absolute top-full left-0 right-0 sm:right-auto sm:min-w-[300px] mt-1 bg-background border border-border shadow-lg z-40 max-h-[400px] overflow-y-auto"
               >
                 {categories.map((category) => (

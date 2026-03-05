@@ -6,6 +6,7 @@ import Link from "next/link";
 import { ArrowLeft, ArrowRight, RotateCcw, Check, X, Home, Clock, BookOpen, Target, HardHat, Timer, BarChart3 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { QuestionCard, ProgressBar } from "@/components/quiz";
+import { Header } from "@/components/layout/header";
 import { useTest } from "@/hooks/use-test";
 import questionsData from "@/data/questions.json";
 import type { Question } from "@/types/question";
@@ -57,24 +58,14 @@ export default function TestPage() {
   // Start screen
   if (!hasStarted) {
     return (
-      <div className="min-h-screen flex flex-col">
-        <header className="border-b border-border">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between h-14">
-              <Link href="/" className="flex items-center gap-2">
-                <div className="w-8 h-8 bg-accent flex items-center justify-center">
-                  <span className="text-xl font-black text-accent-foreground">R</span>
-                </div>
-                <span className="font-display text-xl font-bold tracking-tight hidden sm:block">REDTC</span>
-              </Link>
-            </div>
-          </div>
-        </header>
+      <div className="min-h-screen pt-14">
+        <Header />
 
-        <div className="flex-1 px-4 py-12 md:py-16">
+        <div className="px-4 py-12 md:py-16">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.2 }}
             className="max-w-2xl mx-auto space-y-10"
           >
             {/* Header */}
@@ -191,26 +182,14 @@ export default function TestPage() {
     const isPassed = results.passed;
     
     return (
-      <div className="min-h-screen flex flex-col">
-        {/* Header */}
-        <header className="border-b border-border">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between h-14">
-              <Link href="/" className="flex items-center gap-2">
-                <div className="w-8 h-8 bg-accent flex items-center justify-center">
-                  <span className="text-xl font-black text-accent-foreground">R</span>
-                </div>
-                <span className="font-display text-xl font-bold tracking-tight hidden sm:block">REDTC</span>
-              </Link>
-            </div>
-          </div>
-        </header>
+      <div className="min-h-screen pt-14">
+        <Header />
 
-        <div className="flex-1 px-4 py-12 md:py-16">
+        <div className="px-4 py-12 md:py-16">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.2 }}
             className="max-w-2xl mx-auto space-y-10"
           >
             {/* Result Header */}
@@ -219,10 +198,7 @@ export default function TestPage() {
                 {isPassed ? "Test Passed" : "Test Not Passed"}
               </span>
               <div className="flex items-center justify-center gap-4">
-                <motion.div
-                  initial={{ scale: 0 }}
-                  animate={{ scale: 1 }}
-                  transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
+                <div
                   className={`w-16 h-16 flex items-center justify-center ${
                     isPassed ? "bg-accent" : "bg-muted"
                   }`}
@@ -232,7 +208,7 @@ export default function TestPage() {
                   ) : (
                     <X className="w-8 h-8 text-muted-foreground" strokeWidth={2.5} />
                   )}
-                </motion.div>
+                </div>
                 <h1 className="font-display text-6xl md:text-7xl font-bold">
                   {results.percentage}%
                 </h1>
@@ -372,23 +348,12 @@ export default function TestPage() {
   }
 
   return (
-    <div className="min-h-screen">
-      {/* Header */}
-      <header className="border-b border-border sticky top-0 bg-background/95 backdrop-blur z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-14">
-            <Link href="/" className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-accent flex items-center justify-center">
-                <span className="text-xl font-black text-accent-foreground">R</span>
-              </div>
-              <span className="font-display text-xl font-bold tracking-tight hidden sm:block">REDTC</span>
-            </Link>
-            <span className="text-sm text-muted-foreground">
-              {passPercentage}% to pass
-            </span>
-          </div>
-        </div>
-      </header>
+    <div className="min-h-screen pt-14">
+      <Header rightContent={
+        <span className="text-sm text-muted-foreground">
+          {passPercentage}% to pass
+        </span>
+      } />
 
       {/* Progress Bar */}
       <div className="border-b border-border">
