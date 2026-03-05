@@ -27,6 +27,9 @@ export function Header({ rightContent }: HeaderProps) {
               <Link href="/test/master" className="px-3 py-2 min-h-[44px] flex items-center text-sm font-bold hover:bg-muted transition-colors">
                 Master
               </Link>
+              <Link href="/load-charts" className="px-3 py-2 min-h-[44px] flex items-center text-sm font-bold hover:bg-muted transition-colors">
+                Charts
+              </Link>
             </nav>
           )}
         </div>
