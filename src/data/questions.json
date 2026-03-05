@@ -26152,5 +26152,285 @@
     ],
     "correctAnswer": "c",
     "category": "Advanced Trap - Brake Holding"
+  },
+  {
+    "id": 939,
+    "question": "A tower crane load chart shows: 30 m radius capacity = 3,500 kg. Hook block weight = 900 kg. Rigging weight = 200 kg. What is the maximum load weight that can be lifted?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3,500 kg",
+        "explanation": "Incorrect. This is total capacity, not available load capacity."
+      },
+      {
+        "id": "b",
+        "text": "2,400 kg",
+        "explanation": "Correct. All suspended weight counts toward crane capacity. Total capacity = 3,500 kg. Subtract hook block (900) and rigging (200): 3,500 − 900 − 200 = 2,400 kg."
+      },
+      {
+        "id": "c",
+        "text": "2,600 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "3,100 kg",
+        "explanation": "Incorrect. This only subtracts one component."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Integrated Physics - Radius + Rigging"
+  },
+  {
+    "id": 940,
+    "question": "A crane lifts 2,700 kg at 28 m radius. During slewing the load swings outward to 31 m. Load chart: 28 m = 3,000 kg, 31 m = 2,500 kg. What condition now exists?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Safe lift",
+        "explanation": "Incorrect. The swing increased radius beyond safe limits."
+      },
+      {
+        "id": "b",
+        "text": "Crane overload",
+        "explanation": "Correct. The crane was safe at 28 m, but when the load swings outward to 31 m, capacity drops to 2,500 kg. Actual load = 2,700 kg. Since 2,700 > 2,500, the crane becomes overloaded. This is a common exam trap."
+      },
+      {
+        "id": "c",
+        "text": "Gear overload",
+        "explanation": "Incorrect. This is a structural overload from radius, not gear."
+      },
+      {
+        "id": "d",
+        "text": "Hoist overload",
+        "explanation": "Incorrect. The hoist isn't the limiting factor here."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Integrated Physics - Swing Radius"
+  },
+  {
+    "id": 941,
+    "question": "Load chart shows: 35 m radius capacity = 2,800 kg. Wind conditions require 15% reduction. Hook block + rigging = 600 kg. What is the maximum load weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,380 kg",
+        "explanation": "Incorrect. This only applies wind reduction, not block/rigging."
+      },
+      {
+        "id": "b",
+        "text": "1,780 kg",
+        "explanation": "Correct. Step 1: Apply 15% wind reduction: 2,800 × 0.15 = 420, so 2,800 − 420 = 2,380 kg. Step 2: Subtract block and rigging: 2,380 − 600 = 1,780 kg."
+      },
+      {
+        "id": "c",
+        "text": "2,200 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Integrated Physics - Wind Reduction"
+  },
+  {
+    "id": 942,
+    "question": "A crane load chart shows: 25 m radius capacity = 4,000 kg. Hoist gears: High gear = 2,800 kg, Low gear = 4,200 kg. You must lift 3,200 kg. Which gear must be used?",
+    "options": [
+      {
+        "id": "a",
+        "text": "High gear",
+        "explanation": "Incorrect. High gear limit is 2,800 kg, which is less than the 3,200 kg load."
+      },
+      {
+        "id": "b",
+        "text": "Either gear",
+        "explanation": "Incorrect. High gear cannot handle this load."
+      },
+      {
+        "id": "c",
+        "text": "Low gear",
+        "explanation": "Correct. Even though the radius allows 4,000 kg, the hoist gear also has limits. High gear limit = 2,800 kg, but load = 3,200 kg. Since 3,200 > 2,800, high gear cannot be used. Low gear must be selected."
+      },
+      {
+        "id": "d",
+        "text": "No lift possible",
+        "explanation": "Incorrect. Low gear can handle this load."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Integrated Physics - Gear Selection"
+  },
+  {
+    "id": 943,
+    "question": "A 2,000 kg load is lifted using two slings at 60° from horizontal. What happens to sling tension?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension is greater than 1,000 kg per sling",
+        "explanation": "Correct. If slings were vertical, each would carry 1,000 kg. But angled slings create horizontal forces, increasing tension. At 60° from horizontal, tension rises significantly above 1,000 kg. This is why flatter angles are dangerous."
+      },
+      {
+        "id": "b",
+        "text": "Tension is exactly 1,000 kg",
+        "explanation": "Incorrect. This would only be true for vertical slings."
+      },
+      {
+        "id": "c",
+        "text": "Tension decreases",
+        "explanation": "Incorrect. Angled slings increase tension."
+      },
+      {
+        "id": "d",
+        "text": "Load weight is halved",
+        "explanation": "Incorrect. Load weight doesn't change."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Integrated Physics - Rigging Angle"
+  },
+  {
+    "id": 944,
+    "question": "A 2,000 kg load is rigged with two slings at 30° from horizontal. What happens?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension equals load weight",
+        "explanation": "Incorrect. Tension exceeds load weight at this angle."
+      },
+      {
+        "id": "b",
+        "text": "Sling tension becomes extremely high",
+        "explanation": "Correct. As sling angle decreases, horizontal force increases and sling tension multiplies rapidly. Angles below 30° are considered dangerous."
+      },
+      {
+        "id": "c",
+        "text": "Sling tension decreases",
+        "explanation": "Incorrect. Flatter angles increase tension."
+      },
+      {
+        "id": "d",
+        "text": "Load becomes lighter",
+        "explanation": "Incorrect. Load weight doesn't change."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Integrated Physics - Flat Sling Danger"
+  },
+  {
+    "id": 945,
+    "question": "Load chart: 32 m radius = 3,200 kg. Wind requires 10% reduction. Hook block = 800 kg, Rigging = 200 kg. What is the maximum load weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,600 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "b",
+        "text": "2,080 kg",
+        "explanation": "Correct. Step 1: Apply 10% wind reduction: 3,200 × 0.10 = 320, so 3,200 − 320 = 2,880 kg. Step 2: Subtract block and rigging: 2,880 − 800 − 200 = 1,880 kg."
+      },
+      {
+        "id": "c",
+        "text": "2,400 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "2,200 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Integrated Physics - Combined Factors"
+  },
+  {
+    "id": 946,
+    "question": "A crane lifts 2,200 kg at 27 m. Load chart: 27 m = 2,600 kg, 30 m = 2,100 kg. If the load swings outward to 30 m, what happens?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lift remains safe",
+        "explanation": "Incorrect. Capacity at 30 m is less than the load weight."
+      },
+      {
+        "id": "b",
+        "text": "Load becomes lighter",
+        "explanation": "Incorrect. Load weight doesn't change."
+      },
+      {
+        "id": "c",
+        "text": "Crane overload occurs",
+        "explanation": "Correct. At 27 m, capacity = 2,600 kg and load = 2,200 kg (safe). But if the load swings to 30 m, capacity = 2,100 kg while actual load = 2,200 kg. Overload occurs because 2,200 > 2,100."
+      },
+      {
+        "id": "d",
+        "text": "Capacity increases",
+        "explanation": "Incorrect. Capacity decreases with increased radius."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Integrated Physics - Swing Radius Trap"
+  },
+  {
+    "id": 947,
+    "question": "A 4 m × 3 m wall panel is lifted at long radius. Why is this dangerous in wind?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load becomes heavier",
+        "explanation": "Incorrect. Wind doesn't change load weight."
+      },
+      {
+        "id": "b",
+        "text": "Hoist speed decreases",
+        "explanation": "Incorrect. Hoist speed isn't the primary concern."
+      },
+      {
+        "id": "c",
+        "text": "Wind increases load swing and radius",
+        "explanation": "Correct. Large flat panels act like sails. Wind can cause outward swing, increased radius, and reduced crane capacity. Area = 4 × 3 = 12 m² of sail area."
+      },
+      {
+        "id": "d",
+        "text": "Hook block weakens",
+        "explanation": "Incorrect. Wind doesn't affect hook block strength."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Integrated Physics - Wind Sail Effect"
+  },
+  {
+    "id": 948,
+    "question": "A crane is lifting: Load = 2,000 kg, Rigging = 200 kg, Hook block = 800 kg. Total = 3,000 kg. Load chart capacity at radius = 3,100 kg. Wind reduction = 10%. Is the lift safe?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes",
+        "explanation": "Incorrect. Wind reduction makes this lift unsafe."
+      },
+      {
+        "id": "b",
+        "text": "No",
+        "explanation": "Correct. Step 1: Apply 10% wind reduction: 3,100 × 0.10 = 310, so 3,100 − 310 = 2,790 kg. Step 2: Compare with actual load: Actual suspended weight = 3,000 kg. Since 3,000 > 2,790, the lift is unsafe."
+      },
+      {
+        "id": "c",
+        "text": "Only in low gear",
+        "explanation": "Incorrect. Gear selection doesn't solve this overload."
+      },
+      {
+        "id": "d",
+        "text": "Only with taglines",
+        "explanation": "Incorrect. Taglines don't change capacity limits."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Integrated Physics - Combined Trap"
   }
 ]
