@@ -15180,5 +15180,285 @@
     ],
     "correctAnswer": "d",
     "category": "Limiting Capacity"
+  },
+  {
+    "id": 545,
+    "question": "Concrete weighs approximately 2400 kg per cubic meter. A concrete bucket contains 1.5 m³ of concrete. What is the approximate weight of the concrete?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,400 kg",
+        "explanation": "Incorrect. This is the weight of 1 m³."
+      },
+      {
+        "id": "b",
+        "text": "3,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "3,600 kg",
+        "explanation": "Correct. Volume × Density = 1.5 × 2400 = 3,600 kg. Remember to also add bucket weight and rigging weight for total suspended load."
+      },
+      {
+        "id": "d",
+        "text": "4,200 kg",
+        "explanation": "Incorrect. This would be for 1.75 m³."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Material Weight"
+  },
+  {
+    "id": 546,
+    "question": "Structural steel weighs approximately 7850 kg per cubic meter. A steel beam contains 0.5 m³ of steel. What is the weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,500 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "3,925 kg",
+        "explanation": "Correct. 0.5 × 7850 = 3,925 kg. Steel is one of the heaviest common construction materials."
+      },
+      {
+        "id": "c",
+        "text": "4,500 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "5,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Material Weight"
+  },
+  {
+    "id": 547,
+    "question": "A stack of lumber weighs approximately 550 kg per cubic meter. A bundle measures: Length = 4 m, Width = 1 m, Height = 0.5 m. What is the approximate weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "550 kg",
+        "explanation": "Incorrect. This would be for 1 m³."
+      },
+      {
+        "id": "b",
+        "text": "1,100 kg",
+        "explanation": "Correct. Volume: 4 × 1 × 0.5 = 2 m³. Weight: 2 × 550 = 1,100 kg."
+      },
+      {
+        "id": "c",
+        "text": "1,500 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Material Weight"
+  },
+  {
+    "id": 548,
+    "question": "A concrete wall panel measures: Height = 3 m, Width = 2 m, Thickness = 0.2 m. Concrete density = 2400 kg/m³. What is the weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,400 kg",
+        "explanation": "Incorrect. This would be for 1 m³."
+      },
+      {
+        "id": "b",
+        "text": "2,880 kg",
+        "explanation": "Correct. Volume: 3 × 2 × 0.2 = 1.2 m³. Weight: 1.2 × 2400 = 2,880 kg."
+      },
+      {
+        "id": "c",
+        "text": "3,600 kg",
+        "explanation": "Incorrect. This would be for 1.5 m³."
+      },
+      {
+        "id": "d",
+        "text": "4,200 kg",
+        "explanation": "Incorrect. This would be for 1.75 m³."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Material Weight"
+  },
+  {
+    "id": 549,
+    "question": "A pallet of bricks weighs 1,800 kg. Rigging = 200 kg, Hook block = 400 kg. Total suspended load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,800 kg",
+        "explanation": "Incorrect. This is only the brick weight."
+      },
+      {
+        "id": "b",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. Missing hook block weight."
+      },
+      {
+        "id": "c",
+        "text": "2,200 kg",
+        "explanation": "Incorrect. Missing rigging weight."
+      },
+      {
+        "id": "d",
+        "text": "2,400 kg",
+        "explanation": "Correct. Total load: 1,800 + 200 + 400 = 2,400 kg. Operators must include all suspended weight."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Material Weight"
+  },
+  {
+    "id": 550,
+    "question": "A steel plate measures: 2 m × 1.5 m × 0.02 m. Steel density = 7850 kg/m³. What is the weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "350 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "471 kg",
+        "explanation": "Correct. Volume: 2 × 1.5 × 0.02 = 0.06 m³. Weight: 0.06 × 7850 = 471 kg."
+      },
+      {
+        "id": "c",
+        "text": "600 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "d",
+        "text": "800 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Material Weight"
+  },
+  {
+    "id": 551,
+    "question": "A load of gravel weighs approximately 1600 kg per cubic meter. A hopper contains 3 m³. What is the weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3,200 kg",
+        "explanation": "Incorrect. This would be for 2 m³."
+      },
+      {
+        "id": "b",
+        "text": "4,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "4,800 kg",
+        "explanation": "Correct. 3 × 1600 = 4,800 kg."
+      },
+      {
+        "id": "d",
+        "text": "6,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Material Weight"
+  },
+  {
+    "id": 552,
+    "question": "A drywall bundle weighs 900 kg. Rigging weighs 150 kg. Hook block weighs 350 kg. Total suspended load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "900 kg",
+        "explanation": "Incorrect. This is only the drywall weight."
+      },
+      {
+        "id": "b",
+        "text": "1,050 kg",
+        "explanation": "Incorrect. Missing hook block weight."
+      },
+      {
+        "id": "c",
+        "text": "1,200 kg",
+        "explanation": "Incorrect. Missing rigging weight."
+      },
+      {
+        "id": "d",
+        "text": "1,400 kg",
+        "explanation": "Correct. 900 + 150 + 350 = 1,400 kg."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Material Weight"
+  },
+  {
+    "id": 553,
+    "question": "A steel column has a volume of 0.8 m³. Steel density = 7850 kg/m³. What is the weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "4,800 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "5,200 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "6,280 kg",
+        "explanation": "Correct. 0.8 × 7850 = 6,280 kg."
+      },
+      {
+        "id": "d",
+        "text": "7,000 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Material Weight"
+  },
+  {
+    "id": 554,
+    "question": "Sand weighs approximately 1500 kg per cubic meter. A container holds 2.5 m³. What is the weight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,500 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "b",
+        "text": "3,000 kg",
+        "explanation": "Incorrect. This would be for 2 m³."
+      },
+      {
+        "id": "c",
+        "text": "3,750 kg",
+        "explanation": "Correct. 2.5 × 1500 = 3,750 kg."
+      },
+      {
+        "id": "d",
+        "text": "4,200 kg",
+        "explanation": "Incorrect. This calculation is incorrect."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Material Weight"
   }
 ]
