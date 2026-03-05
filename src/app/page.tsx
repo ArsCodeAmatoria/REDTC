@@ -3,13 +3,14 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, BookOpen, ChevronRight, Award, HardHat, FileText, GraduationCap, Shield, Timer } from "lucide-react";
+import { ArrowRight, BookOpen, ChevronRight, Award, HardHat, FileText, GraduationCap, Shield, Timer, FileSpreadsheet } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import questionsData from "@/data/questions.json";
 
 const categories = [
   { name: "Load Charts & Parts of Line", count: 140, color: "bg-accent" },
+  { name: "PDF Load Chart Practice", count: 36, color: "bg-accent", isCharts: true },
   { name: "Advanced Operations & Traps", count: 95, color: "bg-foreground" },
   { name: "Master Level Questions", count: 100, color: "bg-foreground" },
   { name: "Rigging & Sling Angles", count: 85, color: "bg-foreground" },
@@ -18,7 +19,6 @@ const categories = [
   { name: "Gear, Drive & Capacity", count: 65, color: "bg-foreground" },
   { name: "Safety, Regulations & Comms", count: 60, color: "bg-foreground" },
   { name: "Weather & Environmental", count: 50, color: "bg-foreground" },
-  { name: "Slewing, Clearance & Scenarios", count: 55, color: "bg-foreground" },
 ];
 
 const features = [
@@ -28,9 +28,9 @@ const features = [
     description: "Every question includes why the correct answer is right and why others are wrong.",
   },
   {
-    label: "Learn",
-    title: "Aligned with BC Red Seal standards",
-    description: "Questions based on WorkSafeBC regulations and certification requirements.",
+    label: "Charts",
+    title: "Real manufacturer load charts (PDF)",
+    description: "Practice reading actual Liebherr load charts — flat-top, luffing, and hammerhead cranes.",
   },
   {
     label: "Pass",
@@ -131,10 +131,10 @@ export default function HomePage() {
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </Button>
                   </Link>
-                  <Link href="/test/master">
+                  <Link href="/load-charts">
                     <Button size="lg" variant="outline" className="w-full sm:w-auto">
-                      <Timer className="mr-2 h-4 w-4" />
-                      Master Exam
+                      <FileSpreadsheet className="mr-2 h-4 w-4" />
+                      Load Charts
                     </Button>
                   </Link>
                 </div>
@@ -174,7 +174,7 @@ export default function HomePage() {
                 <div className="space-y-3">
                   <p className="text-sm font-medium">What you&apos;ll learn:</p>
                   <ul className="grid grid-cols-2 gap-2">
-                    {["Load charts & calculations", "Safety regulations", "Rigging fundamentals", "Crane operations"].map((item, i) => (
+                    {["Real PDF load charts", "Capacity calculations", "Rigging fundamentals", "Crane operations"].map((item, i) => (
                       <li key={i} className="flex items-center gap-2 text-sm text-muted-foreground">
                         <div className="w-1.5 h-1.5 bg-accent" />
                         {item}
@@ -513,6 +513,95 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Load Chart Practice Section */}
+      <section className="border-b border-border">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6">
+              <div>
+                <span className="category-label">Real Charts</span>
+                <h2 className="font-display text-3xl md:text-4xl font-bold mt-2">Load Chart Practice</h2>
+              </div>
+              <div className="space-y-4 text-muted-foreground">
+                <p>
+                  Master the critical skill of reading <strong className="text-foreground">real manufacturer load charts</strong>. 
+                  Our collection includes actual Liebherr PDF load charts covering different crane types used on modern construction sites.
+                </p>
+                <p>
+                  Open the chart in a separate window or monitor, then answer questions that test your ability to find capacities at 
+                  specific radii, understand operating modes, and calculate actual load limits — exactly like you&apos;ll do on the job.
+                </p>
+              </div>
+              <div className="pt-2">
+                <Link href="/load-charts">
+                  <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
+                    <FileSpreadsheet className="mr-2 h-4 w-4" />
+                    Practice with Load Charts
+                  </Button>
+                </Link>
+              </div>
+            </div>
+            <div className="space-y-4">
+              <div className="grid grid-cols-1 gap-4">
+                <div className="bg-background border border-border p-5">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-10 h-10 bg-accent flex items-center justify-center">
+                      <FileText className="w-5 h-5 text-accent-foreground" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold">470 EC-B 20</h3>
+                      <p className="text-sm text-muted-foreground">Flat-top tower crane</p>
+                    </div>
+                  </div>
+                  <p className="text-sm text-muted-foreground">83m jib, 20t capacity. LM 1 & Load-Plus modes.</p>
+                </div>
+                <div className="bg-background border border-border p-5">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-10 h-10 bg-foreground/10 flex items-center justify-center">
+                      <FileText className="w-5 h-5 text-foreground" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold">195 HC-LH 6/12</h3>
+                      <p className="text-sm text-muted-foreground">Luffing jib crane</p>
+                    </div>
+                  </div>
+                  <p className="text-sm text-muted-foreground">55m jib, 6t/12t capacity. Level luffing feature.</p>
+                </div>
+                <div className="bg-background border border-border p-5">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-10 h-10 bg-foreground/10 flex items-center justify-center">
+                      <FileText className="w-5 h-5 text-foreground" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold">550 EC-H 20</h3>
+                      <p className="text-sm text-muted-foreground">Hammerhead tower crane</p>
+                    </div>
+                  </div>
+                  <p className="text-sm text-muted-foreground">81.5m jib, 20t capacity. Speed2Lift technology.</p>
+                </div>
+              </div>
+              <div className="bg-muted/30 border border-border p-4">
+                <div className="text-sm font-medium mb-2">Skills you&apos;ll practice:</div>
+                <ul className="text-sm text-muted-foreground space-y-1">
+                  <li className="flex items-center gap-2">
+                    <div className="w-1.5 h-1.5 bg-accent" />
+                    Finding capacity at specific radii
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <div className="w-1.5 h-1.5 bg-accent" />
+                    Understanding LM 1 vs LM 2 / Load-Plus modes
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <div className="w-1.5 h-1.5 bg-accent" />
+                    Calculating net load after rigging deductions
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Categories Section */}
       <section className="border-b border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -535,14 +624,20 @@ export default function HomePage() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.05 * index }}
               >
-                <Link href="/test/review">
+                <Link href={(category as { isCharts?: boolean }).isCharts ? "/load-charts" : "/test/review"}>
                   <div className="bg-background p-5 h-full card-hover group">
                     <div className="flex items-start justify-between">
-                      <div className={`w-2 h-2 mt-1 ${index === 0 ? 'bg-accent' : 'bg-muted-foreground/30'}`} />
-                      <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                      <div className={`w-2 h-2 mt-1 ${index <= 1 ? 'bg-accent' : 'bg-muted-foreground/30'}`} />
+                      {(category as { isCharts?: boolean }).isCharts ? (
+                        <FileSpreadsheet className="w-4 h-4 text-accent opacity-70 group-hover:opacity-100 transition-opacity" />
+                      ) : (
+                        <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                      )}
                     </div>
                     <h3 className="font-medium mt-3 group-hover:text-accent transition-colors">{category.name}</h3>
-                    <p className="text-sm text-muted-foreground mt-1">{category.count}+ questions</p>
+                    <p className="text-sm text-muted-foreground mt-1">
+                      {(category as { isCharts?: boolean }).isCharts ? "3 crane charts" : `${category.count}+ questions`}
+                    </p>
                   </div>
                 </Link>
               </motion.div>
@@ -678,7 +773,7 @@ export default function HomePage() {
               Start your exam preparation now
             </h2>
             <p className="text-muted-foreground">
-              Choose a quick 10-question practice or simulate the full Red Seal exam
+              Practice questions, read real load charts, or simulate the full Red Seal exam
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-2">
               <Link href="/test">
@@ -687,10 +782,16 @@ export default function HomePage() {
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link>
+              <Link href="/load-charts">
+                <Button size="lg" variant="outline" className="w-full sm:w-auto">
+                  <FileSpreadsheet className="mr-2 h-4 w-4" />
+                  Load Charts
+                </Button>
+              </Link>
               <Link href="/test/master">
                 <Button size="lg" variant="outline" className="w-full sm:w-auto">
                   <Timer className="mr-2 h-4 w-4" />
-                  Master Exam (4 hrs)
+                  Master Exam
                 </Button>
               </Link>
             </div>
