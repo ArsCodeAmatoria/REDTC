@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { Footprints } from "lucide-react";
 
 export function Footer() {
   return (
@@ -11,7 +10,7 @@ export function Footer() {
           <div className="flex items-center gap-6">
             <Link href="/" className="flex items-center gap-2">
               <div className="w-6 h-6 bg-accent flex items-center justify-center">
-                <Footprints className="w-4 h-4 text-accent-foreground" />
+                <span className="text-sm">🐾</span>
               </div>
               <span className="font-display text-lg font-bold tracking-tight">REDTC</span>
             </Link>
