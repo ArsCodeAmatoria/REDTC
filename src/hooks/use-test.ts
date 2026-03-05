@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useMemo, useEffect } from "react";
+import { useState, useCallback, useMemo, useEffect, useRef } from "react";
 import type { Question, TestState, TestResult } from "@/types/question";
 
 const DEFAULT_QUESTIONS_PER_TEST = 10;
@@ -9,6 +9,12 @@ const DEFAULT_PASS_PERCENTAGE = 70;
 interface TestOptions {
   questionsPerTest?: number;
   passPercentage?: number;
+}
+
+export interface QuestionTiming {
+  questionId: number;
+  timeSpent: number;
+  answeredCorrectly: boolean;
 }
 
 function shuffleArray<T>(array: T[]): T[] {
@@ -31,9 +37,16 @@ export function useTest(allQuestions: Question[], options: TestOptions = {}) {
     isComplete: false,
   });
 
+  const testStartTime = useRef<number>(Date.now());
+  const questionStartTime = useRef<number>(Date.now());
+  const [questionTimings, setQuestionTimings] = useState<Record<number, number>>({});
+  const [totalTestTime, setTotalTestTime] = useState<number>(0);
+
   useEffect(() => {
     const shuffled = shuffleArray(allQuestions);
     setTestQuestions(shuffled.slice(0, questionsPerTest));
+    testStartTime.current = Date.now();
+    questionStartTime.current = Date.now();
   }, [allQuestions, questionsPerTest]);
 
   const currentQuestion = useMemo(
@@ -50,6 +63,12 @@ export function useTest(allQuestions: Question[], options: TestOptions = {}) {
     (answerId: string) => {
       if (state.showExplanation || !currentQuestion) return;
       
+      const timeSpent = Date.now() - questionStartTime.current;
+      setQuestionTimings(prev => ({
+        ...prev,
+        [currentQuestion.id]: timeSpent,
+      }));
+      
       setState((prev) => ({
         ...prev,
         answers: {
@@ -64,12 +83,14 @@ export function useTest(allQuestions: Question[], options: TestOptions = {}) {
 
   const nextQuestion = useCallback(() => {
     if (state.currentQuestionIndex < testQuestions.length - 1) {
+      questionStartTime.current = Date.now();
       setState((prev) => ({
         ...prev,
         currentQuestionIndex: prev.currentQuestionIndex + 1,
         showExplanation: !!prev.answers[testQuestions[prev.currentQuestionIndex + 1]?.id],
       }));
     } else {
+      setTotalTestTime(Date.now() - testStartTime.current);
       setState((prev) => ({
         ...prev,
         isComplete: true,
@@ -79,6 +100,7 @@ export function useTest(allQuestions: Question[], options: TestOptions = {}) {
 
   const previousQuestion = useCallback(() => {
     if (state.currentQuestionIndex > 0) {
+      questionStartTime.current = Date.now();
       setState((prev) => ({
         ...prev,
         currentQuestionIndex: prev.currentQuestionIndex - 1,
@@ -109,6 +131,10 @@ export function useTest(allQuestions: Question[], options: TestOptions = {}) {
       showExplanation: false,
       isComplete: false,
     });
+    setQuestionTimings({});
+    setTotalTestTime(0);
+    testStartTime.current = Date.now();
+    questionStartTime.current = Date.now();
   }, [allQuestions, questionsPerTest]);
 
   const results = useMemo((): TestResult & { passed: boolean; passPercentage: number } => {
@@ -145,6 +171,17 @@ export function useTest(allQuestions: Question[], options: TestOptions = {}) {
     };
   }, [testQuestions, state.answers, passPercentage]);
 
+  const timingStats = useMemo(() => {
+    const times = Object.values(questionTimings);
+    if (times.length === 0) return { average: 0, fastest: 0, slowest: 0 };
+    
+    return {
+      average: Math.round(times.reduce((a, b) => a + b, 0) / times.length),
+      fastest: Math.min(...times),
+      slowest: Math.max(...times),
+    };
+  }, [questionTimings]);
+
   const answeredCount = Object.keys(state.answers).length;
   const canGoNext = state.showExplanation;
   const canGoPrevious = state.currentQuestionIndex > 0;
@@ -170,5 +207,8 @@ export function useTest(allQuestions: Question[], options: TestOptions = {}) {
     isLastQuestion,
     questionsPerTest,
     passPercentage,
+    questionTimings,
+    totalTestTime,
+    timingStats,
   };
 }

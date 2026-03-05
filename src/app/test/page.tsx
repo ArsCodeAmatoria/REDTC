@@ -1,8 +1,9 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, RotateCcw, Check, X, Home } from "lucide-react";
+import { ArrowLeft, ArrowRight, RotateCcw, Check, X, Home, Clock, Trophy, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { QuestionCard, ProgressBar } from "@/components/quiz";
 import { useTest } from "@/hooks/use-test";
@@ -10,6 +11,41 @@ import questionsData from "@/data/questions.json";
 import type { Question } from "@/types/question";
 
 const questions = questionsData as Question[];
+
+interface LeaderboardEntry {
+  name: string;
+  score: number;
+  time: number;
+  date: string;
+}
+
+function formatTime(ms: number): string {
+  const seconds = Math.floor(ms / 1000);
+  const minutes = Math.floor(seconds / 60);
+  const remainingSeconds = seconds % 60;
+  if (minutes > 0) {
+    return `${minutes}m ${remainingSeconds}s`;
+  }
+  return `${remainingSeconds}s`;
+}
+
+function getLeaderboard(): LeaderboardEntry[] {
+  if (typeof window === "undefined") return [];
+  const stored = localStorage.getItem("redtc-leaderboard");
+  return stored ? JSON.parse(stored) : [];
+}
+
+function saveToLeaderboard(entry: LeaderboardEntry): LeaderboardEntry[] {
+  const leaderboard = getLeaderboard();
+  leaderboard.push(entry);
+  leaderboard.sort((a, b) => {
+    if (b.score !== a.score) return b.score - a.score;
+    return a.time - b.time;
+  });
+  const top10 = leaderboard.slice(0, 10);
+  localStorage.setItem("redtc-leaderboard", JSON.stringify(top10));
+  return top10;
+}
 
 export default function TestPage() {
   const {
@@ -30,7 +66,30 @@ export default function TestPage() {
     canGoPrevious,
     isLastQuestion,
     passPercentage,
+    totalTestTime,
+    timingStats,
   } = useTest(questions);
+
+  const [playerName, setPlayerName] = useState("");
+  const [leaderboard, setLeaderboard] = useState<LeaderboardEntry[]>([]);
+  const [hasSubmitted, setHasSubmitted] = useState(false);
+
+  useEffect(() => {
+    setLeaderboard(getLeaderboard());
+  }, []);
+
+  const handleSubmitScore = () => {
+    if (!playerName.trim()) return;
+    const entry: LeaderboardEntry = {
+      name: playerName.trim(),
+      score: results.percentage,
+      time: totalTestTime,
+      date: new Date().toLocaleDateString(),
+    };
+    const updated = saveToLeaderboard(entry);
+    setLeaderboard(updated);
+    setHasSubmitted(true);
+  };
 
   if (isComplete) {
     const isPassed = results.passed;
@@ -43,7 +102,7 @@ export default function TestPage() {
             <div className="flex items-center justify-between h-14">
               <Link href="/" className="flex items-center gap-2">
                 <div className="w-8 h-8 bg-accent flex items-center justify-center">
-                  <span className="text-xl font-black text-accent-foreground" style={{ fontFamily: 'Arial Black, sans-serif' }}>b</span>
+                  <span className="text-xl font-black text-accent-foreground">R</span>
                 </div>
                 <span className="font-display text-xl font-bold tracking-tight hidden sm:block">REDTC</span>
               </Link>
@@ -51,7 +110,7 @@ export default function TestPage() {
           </div>
         </header>
 
-        <div className="max-w-xl mx-auto px-4 py-16 md:py-24">
+        <div className="max-w-2xl mx-auto px-4 py-12 md:py-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -87,16 +146,36 @@ export default function TestPage() {
 
             <div className="h-px bg-border" />
 
-            {/* Stats */}
-            <div className="grid grid-cols-2 gap-8 py-4">
-              <div className="text-center">
-                <div className="text-3xl font-display font-bold">{results.correctCount}</div>
-                <div className="text-sm text-muted-foreground mt-1">Correct</div>
+            {/* Stats Grid */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+              <div className="text-center p-4 bg-muted/30 border border-border">
+                <div className="text-2xl font-display font-bold text-accent">{results.correctCount}</div>
+                <div className="text-xs text-muted-foreground mt-1">Correct</div>
               </div>
-              <div className="text-center">
-                <div className="text-3xl font-display font-bold">{results.incorrectCount}</div>
-                <div className="text-sm text-muted-foreground mt-1">Incorrect</div>
+              <div className="text-center p-4 bg-muted/30 border border-border">
+                <div className="text-2xl font-display font-bold">{results.incorrectCount}</div>
+                <div className="text-xs text-muted-foreground mt-1">Incorrect</div>
               </div>
+              <div className="text-center p-4 bg-muted/30 border border-border">
+                <div className="text-2xl font-display font-bold flex items-center justify-center gap-1">
+                  <Clock className="w-4 h-4 text-muted-foreground" />
+                  {formatTime(totalTestTime)}
+                </div>
+                <div className="text-xs text-muted-foreground mt-1">Total Time</div>
+              </div>
+              <div className="text-center p-4 bg-muted/30 border border-border">
+                <div className="text-2xl font-display font-bold flex items-center justify-center gap-1">
+                  <Zap className="w-4 h-4 text-muted-foreground" />
+                  {formatTime(timingStats.average)}
+                </div>
+                <div className="text-xs text-muted-foreground mt-1">Avg/Question</div>
+              </div>
+            </div>
+
+            {/* Time Stats */}
+            <div className="flex justify-center gap-8 text-sm text-muted-foreground">
+              <div>Fastest: <span className="text-foreground font-medium">{formatTime(timingStats.fastest)}</span></div>
+              <div>Slowest: <span className="text-foreground font-medium">{formatTime(timingStats.slowest)}</span></div>
             </div>
 
             <p className="text-center text-sm text-muted-foreground">
@@ -105,10 +184,79 @@ export default function TestPage() {
 
             <div className="h-px bg-border" />
 
+            {/* Leaderboard Entry */}
+            {!hasSubmitted ? (
+              <div className="space-y-4">
+                <div className="flex items-center gap-2">
+                  <Trophy className="w-5 h-5 text-accent" />
+                  <span className="font-bold">Add to Leaderboard</span>
+                </div>
+                <div className="flex gap-2">
+                  <input
+                    type="text"
+                    placeholder="Enter your name"
+                    value={playerName}
+                    onChange={(e) => setPlayerName(e.target.value)}
+                    onKeyDown={(e) => e.key === "Enter" && handleSubmitScore()}
+                    className="flex-1 px-4 py-2 bg-muted border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-accent"
+                    maxLength={20}
+                  />
+                  <Button onClick={handleSubmitScore} disabled={!playerName.trim()}>
+                    Submit
+                  </Button>
+                </div>
+              </div>
+            ) : (
+              <div className="text-center text-sm text-accent font-medium">
+                Score submitted!
+              </div>
+            )}
+
+            {/* Leaderboard */}
+            {leaderboard.length > 0 && (
+              <div className="space-y-4">
+                <div className="flex items-center gap-2">
+                  <Trophy className="w-5 h-5 text-accent" />
+                  <span className="font-bold">Top 10 Leaderboard</span>
+                </div>
+                <div className="border border-border divide-y divide-border">
+                  {leaderboard.map((entry, index) => (
+                    <div
+                      key={index}
+                      className={`flex items-center justify-between px-4 py-3 ${
+                        index === 0 ? "bg-accent/10" : index < 3 ? "bg-muted/30" : ""
+                      }`}
+                    >
+                      <div className="flex items-center gap-3">
+                        <span className={`w-6 text-center font-bold ${
+                          index === 0 ? "text-accent" : "text-muted-foreground"
+                        }`}>
+                          {index + 1}
+                        </span>
+                        <span className="font-medium">{entry.name}</span>
+                      </div>
+                      <div className="flex items-center gap-4 text-sm">
+                        <span className="text-muted-foreground">{formatTime(entry.time)}</span>
+                        <span className={`font-bold ${entry.score >= 70 ? "text-accent" : ""}`}>
+                          {entry.score}%
+                        </span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <div className="h-px bg-border" />
+
             {/* Actions */}
-            <div className="space-y-3 pt-2">
+            <div className="space-y-3">
               <Button 
-                onClick={resetTest} 
+                onClick={() => {
+                  setHasSubmitted(false);
+                  setPlayerName("");
+                  resetTest();
+                }} 
                 className={`w-full ${isPassed ? 'bg-accent text-accent-foreground hover:bg-accent/90' : ''}`}
                 size="lg"
               >
