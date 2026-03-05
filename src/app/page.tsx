@@ -832,7 +832,7 @@ export default function HomePage() {
                 <span className="text-xs font-bold uppercase tracking-wider text-muted-foreground">Industry Standards</span>
                 <div className="mt-3 flex flex-wrap gap-x-6 gap-y-2">
                   <a
-                    href="https://www.asme.org/codes-standards/find-codes-standards/b30-series-safety-standard-cranes-derricks-hoists-hooks-jacks-slings"
+                    href="https://www.asme.org/codes-standards/find-codes-standards/b30-3-tower-cranes"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group inline-flex items-center gap-1 text-sm font-medium hover:text-accent transition-colors"
