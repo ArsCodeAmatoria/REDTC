@@ -101,7 +101,7 @@ export default function ReviewPage() {
               <div className="w-8 h-8 bg-accent flex items-center justify-center">
                 <span className="text-xl font-black text-accent-foreground">M</span>
               </div>
-              <span className="font-display text-xl font-bold tracking-tight hidden sm:block">Master TC</span>
+              <span className="font-display text-xl font-bold tracking-tight hidden sm:block">MASTERTC</span>
             </Link>
             <div className="flex items-center gap-2">
               <Link href="/test">

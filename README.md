@@ -1,6 +1,6 @@
 <div align="center">
 
-# Master TC
+# MASTERTC
 
 **Red Seal Tower Crane Exam Practice**
 
@@ -12,7 +12,7 @@ Practice for your BC Red Seal Tower Crane Operator certification exam.
 
 <br />
 
-<img src="https://github.com/user-attachments/assets/61cad24d-0d4a-4bfd-aa03-04531709e266" alt="Master TC Screenshot" width="600" />
+<img src="https://github.com/user-attachments/assets/61cad24d-0d4a-4bfd-aa03-04531709e266" alt="MASTERTC Screenshot" width="600" />
 
 <br />
 <br />
@@ -23,7 +23,7 @@ Practice for your BC Red Seal Tower Crane Operator certification exam.
 
 ## About
 
-Master TC is a free practice exam platform for tower crane operators preparing for the<br />
+MASTERTC is a free practice exam platform for tower crane operators preparing for the<br />
 **Red Seal Interprovincial Certification** in British Columbia.<br />
 The Red Seal endorsement allows certified operators to work anywhere in Canada.
 

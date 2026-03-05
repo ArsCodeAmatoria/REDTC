@@ -12,7 +12,7 @@ export function Footer() {
               <div className="w-6 h-6 bg-accent flex items-center justify-center">
                 <span className="text-sm font-black text-accent-foreground">M</span>
               </div>
-              <span className="font-display text-lg font-bold tracking-tight">Master TC</span>
+              <span className="font-display text-lg font-bold tracking-tight">MASTERTC</span>
             </Link>
             <nav className="hidden md:flex items-center gap-6 text-sm text-muted-foreground">
               <Link href="/test" className="hover:text-foreground transition-colors">
