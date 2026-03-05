@@ -577,143 +577,157 @@ export default function HomePage() {
       {/* Resources Section */}
       <section className="border-b border-border bg-muted/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="text-center mb-12">
-            <span className="category-label">Resources</span>
-            <h2 className="font-display text-3xl md:text-4xl font-bold mt-2">Official Resources</h2>
-            <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
-              For official information about the Tower Crane Operator certification in British Columbia
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6 mb-12">
-            <a 
-              href="https://skilledtradesbc.ca/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-background border border-border p-6 card-hover group"
-            >
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 bg-accent flex items-center justify-center">
-                  <FileText className="w-5 h-5 text-accent-foreground" />
-                </div>
-                <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity ml-auto" />
+          <div className="grid lg:grid-cols-3 gap-12">
+            {/* Left - Resources List */}
+            <div className="lg:col-span-2 space-y-8">
+              <div>
+                <span className="category-label">Resources</span>
+                <h2 className="font-display text-3xl md:text-4xl font-bold mt-2">Official Resources</h2>
+                <p className="text-muted-foreground mt-4">
+                  For official information about Tower Crane Operator certification in British Columbia
+                </p>
               </div>
-              <h3 className="font-semibold group-hover:text-accent transition-colors">SkilledTradesBC</h3>
-              <p className="text-sm text-muted-foreground mt-2">
-                Official apprenticeship registration and program information for BC trades
-              </p>
-            </a>
 
-            <a 
-              href="https://www.red-seal.ca/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-background border border-border p-6 card-hover group"
-            >
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 bg-accent flex items-center justify-center">
-                  <Award className="w-5 h-5 text-accent-foreground" />
-                </div>
-                <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity ml-auto" />
+              <div className="grid sm:grid-cols-2 gap-4">
+                <a
+                  href="https://skilledtradesbc.ca/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-background border border-border p-5 card-hover group"
+                >
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-9 h-9 bg-accent flex items-center justify-center">
+                      <FileText className="w-4 h-4 text-accent-foreground" />
+                    </div>
+                    <h3 className="font-semibold group-hover:text-accent transition-colors">SkilledTradesBC</h3>
+                  </div>
+                  <p className="text-sm text-muted-foreground">
+                    Apprenticeship registration and program information
+                  </p>
+                </a>
+
+                <a
+                  href="https://www.red-seal.ca/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-background border border-border p-5 card-hover group"
+                >
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-9 h-9 bg-accent flex items-center justify-center">
+                      <Award className="w-4 h-4 text-accent-foreground" />
+                    </div>
+                    <h3 className="font-semibold group-hover:text-accent transition-colors">Red Seal Program</h3>
+                  </div>
+                  <p className="text-sm text-muted-foreground">
+                    National Occupational Analysis and exam specs
+                  </p>
+                </a>
+
+                <a
+                  href="https://www.worksafebc.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-background border border-border p-5 card-hover group"
+                >
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-9 h-9 bg-accent flex items-center justify-center">
+                      <HardHat className="w-4 h-4 text-accent-foreground" />
+                    </div>
+                    <h3 className="font-semibold group-hover:text-accent transition-colors">WorkSafeBC</h3>
+                  </div>
+                  <p className="text-sm text-muted-foreground">
+                    Safety regulations for crane operations
+                  </p>
+                </a>
+
+                <a
+                  href="https://bccranesafety.ca/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-background border border-border p-5 card-hover group"
+                >
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-9 h-9 bg-accent flex items-center justify-center">
+                      <Shield className="w-4 h-4 text-accent-foreground" />
+                    </div>
+                    <h3 className="font-semibold group-hover:text-accent transition-colors">BC Crane Safety</h3>
+                  </div>
+                  <p className="text-sm text-muted-foreground">
+                    Provincial certification authority
+                  </p>
+                </a>
+
+                <a
+                  href="https://fulford.ca/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-background border border-border p-5 card-hover group"
+                >
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-9 h-9 bg-accent flex items-center justify-center">
+                      <GraduationCap className="w-4 h-4 text-accent-foreground" />
+                    </div>
+                    <h3 className="font-semibold group-hover:text-accent transition-colors">Fulford Certification</h3>
+                  </div>
+                  <p className="text-sm text-muted-foreground">
+                    Crane operator certification in Western Canada
+                  </p>
+                </a>
               </div>
-              <h3 className="font-semibold group-hover:text-accent transition-colors">Red Seal Program</h3>
-              <p className="text-sm text-muted-foreground mt-2">
-                National Occupational Analysis and official exam specifications
-              </p>
-            </a>
 
-            <a 
-              href="https://www.worksafebc.com/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-background border border-border p-6 card-hover group"
-            >
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 bg-accent flex items-center justify-center">
-                  <HardHat className="w-5 h-5 text-accent-foreground" />
+              {/* Standards */}
+              <div className="pt-6 border-t border-border">
+                <span className="category-label">Standards</span>
+                <h3 className="font-display text-xl font-bold mt-2 mb-4">Industry Standards</h3>
+                <div className="grid sm:grid-cols-2 gap-4">
+                  <a
+                    href="https://www.asme.org/codes-standards/find-codes-standards/b30-series-safety-standard-cranes-derricks-hoists-hooks-jacks-slings"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-background border border-border p-5 card-hover group"
+                  >
+                    <h3 className="font-semibold group-hover:text-accent transition-colors">ASME B30</h3>
+                    <p className="text-sm text-muted-foreground mt-1">
+                      Safety standard for cranes and lifting equipment
+                    </p>
+                  </a>
+
+                  <a 
+                    href="https://www.csagroup.org/store/product/Z248-17/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="bg-background border border-border p-5 card-hover group"
+                  >
+                    <h3 className="font-semibold group-hover:text-accent transition-colors">CSA Z248</h3>
+                    <p className="text-sm text-muted-foreground mt-1">
+                      Canadian code for tower crane operation
+                    </p>
+                  </a>
                 </div>
-                <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity ml-auto" />
               </div>
-              <h3 className="font-semibold group-hover:text-accent transition-colors">WorkSafeBC</h3>
-              <p className="text-sm text-muted-foreground mt-2">
-                Occupational health and safety regulations for crane operations
-              </p>
-            </a>
-
-            <a 
-              href="https://bccranesafety.ca/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-background border border-border p-6 card-hover group"
-            >
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 bg-accent flex items-center justify-center">
-                  <Shield className="w-5 h-5 text-accent-foreground" />
-                </div>
-                <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity ml-auto" />
-              </div>
-              <h3 className="font-semibold group-hover:text-accent transition-colors">BC Crane Safety</h3>
-              <p className="text-sm text-muted-foreground mt-2">
-                Provincial authority responsible for crane operator certification in British Columbia
-              </p>
-            </a>
-
-            <a 
-              href="https://fulford.ca/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-background border border-border p-6 card-hover group"
-            >
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 bg-accent flex items-center justify-center">
-                  <GraduationCap className="w-5 h-5 text-accent-foreground" />
-                </div>
-                <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity ml-auto" />
-              </div>
-              <h3 className="font-semibold group-hover:text-accent transition-colors">Fulford Certification</h3>
-              <p className="text-sm text-muted-foreground mt-2">
-                Crane operator and rigger certification services in Western Canada
-              </p>
-            </a>
-          </div>
-
-          {/* Standards Section */}
-          <div className="border-t border-border pt-12">
-            <div className="text-center mb-8">
-              <span className="category-label">Standards</span>
-              <h3 className="font-display text-2xl font-bold mt-2">Industry Standards & References</h3>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-              <a 
-                href="https://www.asme.org/codes-standards/find-codes-standards/b30-series-safety-standard-cranes-derricks-hoists-hooks-jacks-slings" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="bg-background border border-border p-6 card-hover group"
-              >
-                <div className="flex items-center justify-between mb-4">
-                  <h3 className="font-semibold group-hover:text-accent transition-colors">ASME B30 Safety Standard</h3>
-                  <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+            {/* Right - Image Card */}
+            <div className="lg:col-span-1">
+              <div className="sticky top-20">
+                <div className="relative overflow-hidden border border-border bg-background">
+                  <Image
+                    src="/images/resources.png"
+                    alt="Tower crane operator"
+                    width={400}
+                    height={500}
+                    className="w-full h-auto object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
+                  <div className="absolute bottom-0 left-0 right-0 p-6">
+                    <span className="category-label">Certification</span>
+                    <h3 className="font-display text-xl font-bold mt-1">Build Your Career</h3>
+                    <p className="text-sm text-muted-foreground mt-2">
+                      Red Seal certification opens doors across Canada
+                    </p>
+                  </div>
                 </div>
-                <p className="text-sm text-muted-foreground">
-                  American Society of Mechanical Engineers standard for cranes, derricks, hoists, hooks, jacks, and slings
-                </p>
-              </a>
-
-              <a 
-                href="https://www.csagroup.org/store/product/Z248-17/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="bg-background border border-border p-6 card-hover group"
-              >
-                <div className="flex items-center justify-between mb-4">
-                  <h3 className="font-semibold group-hover:text-accent transition-colors">CSA Z248</h3>
-                  <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
-                </div>
-                <p className="text-sm text-muted-foreground">
-                  Canadian Standards Association code for tower cranes covering design, construction, and operation
-                </p>
-              </a>
+              </div>
             </div>
           </div>
         </div>
