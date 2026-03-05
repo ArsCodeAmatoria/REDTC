@@ -8538,5 +8538,173 @@
     ],
     "correctAnswer": "b",
     "category": "Master - Emergency Response"
+  },
+  {
+    "id": 306,
+    "question": "When two tower cranes operate on the same site, what distance generally indicates that their working radii overlap and coordination is required?",
+    "options": [
+      {
+        "id": "a",
+        "text": "10 ft (3 m)",
+        "explanation": "Incorrect. 10 ft (3 m) is typically the minimum safe clearance from power lines, not the crane overlap reference distance."
+      },
+      {
+        "id": "b",
+        "text": "30 ft (9 m)",
+        "explanation": "Incorrect. 30 ft is not the standard overlap reference distance used in crane planning."
+      },
+      {
+        "id": "c",
+        "text": "60 ft (18 m)",
+        "explanation": "Correct. The 60 ft (18 m) rule is widely used in crane planning to identify when two cranes' operating envelopes may overlap. If the distance between crane masts is less than 60 ft, their jibs or loads may enter the same airspace, triggering requirements for coordination procedures, anti-collision systems, designated lift zones, and communication protocols."
+      },
+      {
+        "id": "d",
+        "text": "100 ft (30 m)",
+        "explanation": "Incorrect. 100 ft exceeds the standard overlap reference distance. Cranes 100 ft apart would typically not require overlap coordination."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Crane Clearance & Overlap"
+  },
+  {
+    "id": 307,
+    "question": "Why is the 60 ft overlap distance important during crane planning?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It defines the maximum jib length",
+        "explanation": "Incorrect. Jib length is determined by crane model and manufacturer specifications, not the overlap distance."
+      },
+      {
+        "id": "b",
+        "text": "It indicates when cranes may operate within each other's swing radius",
+        "explanation": "Correct. The 18 m (60 ft) reference distance is used to determine whether crane swing radii can intersect. When cranes operate within this distance, their jibs may pass above or below each other, loads may enter shared airspace, and collision risk increases. Sites must implement anti-collision planning or sequencing procedures."
+      },
+      {
+        "id": "c",
+        "text": "It determines mast height",
+        "explanation": "Incorrect. Mast height is determined by site requirements and crane configuration, not the overlap distance."
+      },
+      {
+        "id": "d",
+        "text": "It determines counterweight size",
+        "explanation": "Incorrect. Counterweight size is determined by the crane manufacturer based on structural design and load capacity requirements."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Crane Clearance & Overlap"
+  },
+  {
+    "id": 308,
+    "question": "If two cranes are 50 ft apart, what must be assumed?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No risk exists",
+        "explanation": "Incorrect. At 50 ft separation, significant collision risk exists as this is within the 60 ft overlap zone."
+      },
+      {
+        "id": "b",
+        "text": "Only hook collision is possible",
+        "explanation": "Incorrect. Multiple collision types are possible including jib-to-jib, counterjib-to-load, and load-to-load collisions."
+      },
+      {
+        "id": "c",
+        "text": "Their operating zones overlap and coordination is required",
+        "explanation": "Correct. Because 50 ft is less than 60 ft, the cranes are considered within the overlap zone. This means crane jibs may intersect, loads may cross paths, and anti-collision systems or lift coordination may be required. Operators must follow the site crane coordination plan."
+      },
+      {
+        "id": "d",
+        "text": "One crane must shut down",
+        "explanation": "Incorrect. Both cranes can operate with proper coordination procedures. Shutdown is not automatically required—coordination is."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Crane Clearance & Overlap"
+  },
+  {
+    "id": 309,
+    "question": "What is the primary hazard created by crane overlap?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduced lifting capacity",
+        "explanation": "Incorrect. Overlap does not directly reduce lifting capacity—that is determined by load charts and radius."
+      },
+      {
+        "id": "b",
+        "text": "Increased wind load",
+        "explanation": "Incorrect. Wind load is affected by surface area and conditions, not crane proximity."
+      },
+      {
+        "id": "c",
+        "text": "Collision between jibs, loads, or counterjibs",
+        "explanation": "Correct. When cranes overlap, the greatest risk is structural collision. Possible impacts include jib striking jib, counterjib striking load, hook block striking structure, and load-to-load collision. Such collisions can cause dropped loads, crane structural damage, and catastrophic crane failure."
+      },
+      {
+        "id": "d",
+        "text": "Reduced hoist speed",
+        "explanation": "Incorrect. Hoist speed is a mechanical function not affected by crane proximity."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Crane Clearance & Overlap"
+  },
+  {
+    "id": 310,
+    "question": "When cranes operate in an overlap zone, which system is commonly used to prevent collisions?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load moment indicator",
+        "explanation": "Incorrect. LMI monitors load capacity, not collision prevention between cranes."
+      },
+      {
+        "id": "b",
+        "text": "Anemometer",
+        "explanation": "Incorrect. Anemometers measure wind speed, not crane positions."
+      },
+      {
+        "id": "c",
+        "text": "Anti-collision system",
+        "explanation": "Correct. Modern tower cranes often use anti-collision systems that monitor crane position, jib angle, trolley position, and hook height. The system can warn operators, limit movement automatically, and prevent cranes from entering restricted zones. These systems are common on dense high-rise projects."
+      },
+      {
+        "id": "d",
+        "text": "Hoist limiter",
+        "explanation": "Incorrect. Hoist limiters prevent two-blocking, not crane-to-crane collisions."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Crane Clearance & Overlap"
+  },
+  {
+    "id": 311,
+    "question": "Two tower cranes are installed 55 ft apart. What must be assumed?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cranes cannot operate simultaneously",
+        "explanation": "Incorrect. Cranes can operate simultaneously with proper coordination procedures in place."
+      },
+      {
+        "id": "b",
+        "text": "No special procedure required",
+        "explanation": "Incorrect. At 55 ft separation, cranes are within the 60 ft overlap zone and special procedures are required."
+      },
+      {
+        "id": "c",
+        "text": "Crane overlap exists and coordination or anti-collision control is required",
+        "explanation": "Correct. Because 55 ft is less than 60 ft, the cranes are within the overlap zone. This requires implementation of coordination procedures, anti-collision systems, or designated lift zones to prevent collisions."
+      },
+      {
+        "id": "d",
+        "text": "One crane must reduce load capacity",
+        "explanation": "Incorrect. Load capacity is determined by load charts and radius, not crane proximity. Coordination procedures address overlap, not capacity reduction."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Crane Clearance & Overlap"
   }
 ]
