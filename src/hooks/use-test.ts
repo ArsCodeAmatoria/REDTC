@@ -5,6 +5,7 @@ import type { Question, TestState, TestResult } from "@/types/question";
 
 const DEFAULT_QUESTIONS_PER_TEST = 10;
 const DEFAULT_PASS_PERCENTAGE = 70;
+const SEEN_QUESTIONS_KEY = "redtc-seen-questions";
 
 interface TestOptions {
   questionsPerTest?: number;
@@ -26,19 +27,78 @@ function getRandomValues(count: number): number[] {
   return Array.from({ length: count }, () => Math.random());
 }
 
-function shuffleArray<T>(array: T[]): T[] {
-  const shuffled = [...array];
-  const randoms = getRandomValues(shuffled.length);
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(randoms[i] * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+function shuffleArray<T>(array: T[], passes: number = 3): T[] {
+  let shuffled = [...array];
+  for (let pass = 0; pass < passes; pass++) {
+    const randoms = getRandomValues(shuffled.length);
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(randoms[i] * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
   }
   return shuffled;
 }
 
-function selectRandomQuestions<T>(array: T[], count: number): T[] {
-  const shuffled = shuffleArray(array);
-  return shuffled.slice(0, count);
+function getSeenQuestions(): Set<number> {
+  if (typeof window === "undefined") return new Set();
+  try {
+    const stored = localStorage.getItem(SEEN_QUESTIONS_KEY);
+    if (stored) {
+      const data = JSON.parse(stored);
+      return new Set(data.ids || []);
+    }
+  } catch {
+    // Ignore errors
+  }
+  return new Set();
+}
+
+function saveSeenQuestions(ids: number[]): void {
+  if (typeof window === "undefined") return;
+  try {
+    localStorage.setItem(SEEN_QUESTIONS_KEY, JSON.stringify({ 
+      ids, 
+      lastUpdated: Date.now() 
+    }));
+  } catch {
+    // Ignore errors
+  }
+}
+
+function selectWeightedRandomQuestions(questions: Question[], count: number): Question[] {
+  const seenIds = getSeenQuestions();
+  
+  const unseen = questions.filter(q => !seenIds.has(q.id));
+  const seen = questions.filter(q => seenIds.has(q.id));
+  
+  let selected: Question[] = [];
+  
+  if (unseen.length >= count) {
+    const shuffledUnseen = shuffleArray(unseen);
+    selected = shuffledUnseen.slice(0, count);
+  } else if (unseen.length > 0) {
+    selected = [...shuffleArray(unseen)];
+    const remaining = count - unseen.length;
+    const shuffledSeen = shuffleArray(seen);
+    selected = [...selected, ...shuffledSeen.slice(0, remaining)];
+  } else {
+    saveSeenQuestions([]);
+    const shuffled = shuffleArray(questions);
+    selected = shuffled.slice(0, count);
+  }
+  
+  selected = shuffleArray(selected);
+  
+  const newSeenIds = [...seenIds, ...selected.map(q => q.id)];
+  const uniqueSeenIds = [...new Set(newSeenIds)];
+  
+  if (uniqueSeenIds.length >= questions.length * 0.9) {
+    saveSeenQuestions(selected.map(q => q.id));
+  } else {
+    saveSeenQuestions(uniqueSeenIds);
+  }
+  
+  return selected;
 }
 
 export function useTest(allQuestions: Question[], options: TestOptions = {}) {
@@ -46,7 +106,7 @@ export function useTest(allQuestions: Question[], options: TestOptions = {}) {
   const passPercentage = options.passPercentage || DEFAULT_PASS_PERCENTAGE;
   
   const [testQuestions, setTestQuestions] = useState<Question[]>(() => 
-    selectRandomQuestions(allQuestions, questionsPerTest)
+    selectWeightedRandomQuestions(allQuestions, questionsPerTest)
   );
   const [state, setState] = useState<TestState>({
     currentQuestionIndex: 0,
@@ -134,7 +194,7 @@ export function useTest(allQuestions: Question[], options: TestOptions = {}) {
   );
 
   const resetTest = useCallback(() => {
-    setTestQuestions(selectRandomQuestions(allQuestions, questionsPerTest));
+    setTestQuestions(selectWeightedRandomQuestions(allQuestions, questionsPerTest));
     setState({
       currentQuestionIndex: 0,
       answers: {},
@@ -148,7 +208,7 @@ export function useTest(allQuestions: Question[], options: TestOptions = {}) {
   }, [allQuestions, questionsPerTest]);
 
   const initializeTest = useCallback(() => {
-    setTestQuestions(selectRandomQuestions(allQuestions, questionsPerTest));
+    setTestQuestions(selectWeightedRandomQuestions(allQuestions, questionsPerTest));
     setState({
       currentQuestionIndex: 0,
       answers: {},
