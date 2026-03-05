@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import type { Question } from "@/types/question";
 import { AnswerOption } from "./answer-option";
 import { ExplanationPanel } from "./explanation-panel";
+import { ChartDisplay } from "./chart-display";
 
 interface QuestionCardProps {
   question: Question;
@@ -43,9 +44,7 @@ export function QuestionCard({
             </>
           )}
         </div>
-        <h2 className="font-display text-xl md:text-2xl font-semibold leading-snug">
-          {question.question}
-        </h2>
+        <ChartDisplay questionText={question.question} />
       </div>
 
       <div className="h-px bg-border" />
