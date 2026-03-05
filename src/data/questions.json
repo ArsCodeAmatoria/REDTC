@@ -24668,5 +24668,285 @@
     ],
     "correctAnswer": "c",
     "category": "Radius vs Gear Capacity"
+  },
+  {
+    "id": 886,
+    "question": "WIND REDUCTION FORMULA: Safe Load = Chart Capacity × (1 - Reduction%) — A tower crane load chart shows 20 m radius = 6,000 kg. Due to strong wind, the manufacturer requires 20% load reduction. What is the new safe load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "5,400 kg",
+        "explanation": "Incorrect. This is only a 10% reduction."
+      },
+      {
+        "id": "b",
+        "text": "4,800 kg",
+        "explanation": "Correct. 20% reduction: 6,000 × 0.20 = 1,200. Safe load = 6,000 - 1,200 = 4,800 kg."
+      },
+      {
+        "id": "c",
+        "text": "5,200 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "3,600 kg",
+        "explanation": "Incorrect. This would be a 40% reduction."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Wind Load Reduction"
+  },
+  {
+    "id": 887,
+    "question": "WIND REDUCTION FORMULA: Safe Load = Chart Capacity × (1 - Reduction%) — A crane load chart shows 30 m radius = 3,500 kg. Wind conditions require a 15% reduction. What is the safe lifting capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3,150 kg",
+        "explanation": "Incorrect. This is only a 10% reduction."
+      },
+      {
+        "id": "b",
+        "text": "3,100 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "c",
+        "text": "2,975 kg",
+        "explanation": "Correct. 15% of 3,500: 3,500 × 0.15 = 525. Safe load = 3,500 - 525 = 2,975 kg."
+      },
+      {
+        "id": "d",
+        "text": "3,300 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Wind Load Reduction"
+  },
+  {
+    "id": 888,
+    "question": "WIND REDUCTION FORMULA: Safe Load = Chart Capacity × (1 - Reduction%) — A crane is lifting 3,000 kg at 28 m radius. Load chart allows 28 m = 3,200 kg. However strong wind requires 10% reduction. Is the lift safe?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes",
+        "explanation": "Incorrect. After wind reduction, the load exceeds capacity."
+      },
+      {
+        "id": "b",
+        "text": "No",
+        "explanation": "Correct. 10% reduction: 3,200 × 0.10 = 320. Safe load = 3,200 - 320 = 2,880 kg. Load = 3,000 kg exceeds 2,880 kg safe limit."
+      },
+      {
+        "id": "c",
+        "text": "Only with taglines",
+        "explanation": "Incorrect. Taglines don't increase capacity."
+      },
+      {
+        "id": "d",
+        "text": "Only at slower speed",
+        "explanation": "Incorrect. Speed doesn't affect wind reduction requirements."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Wind Load Reduction"
+  },
+  {
+    "id": 889,
+    "question": "WIND REDUCTION FORMULA: Safe Load = Chart Capacity × (1 - Reduction%) — A crane is lifting a large panel at 35 m radius. Load chart allows 2,500 kg. Wind conditions require 25% reduction. What is the safe load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,000 kg",
+        "explanation": "Incorrect. This is a 20% reduction."
+      },
+      {
+        "id": "b",
+        "text": "2,125 kg",
+        "explanation": "Incorrect. This is a 15% reduction."
+      },
+      {
+        "id": "c",
+        "text": "1,875 kg",
+        "explanation": "Correct. 25% reduction: 2,500 × 0.25 = 625. Safe load = 2,500 - 625 = 1,875 kg. Large surface loads increase wind drag dramatically."
+      },
+      {
+        "id": "d",
+        "text": "2,200 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Wind Load Reduction"
+  },
+  {
+    "id": 890,
+    "question": "WIND REDUCTION FORMULA: Safe Load = Chart Capacity × (1 - Reduction%) — A crane operator notices wind increasing while lifting 2,400 kg at 32 m radius. Load chart shows 32 m = 2,600 kg. Wind reduction required = 10%. Is the lift still safe?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No",
+        "explanation": "Correct. 10% reduction: 2,600 × 0.10 = 260. Safe load = 2,600 - 260 = 2,340 kg. Load = 2,400 kg exceeds the 2,340 kg safe capacity."
+      },
+      {
+        "id": "b",
+        "text": "Yes",
+        "explanation": "Incorrect. The lift exceeds safe capacity after wind reduction."
+      },
+      {
+        "id": "c",
+        "text": "Only if hoisted quickly",
+        "explanation": "Incorrect. Speed doesn't make an unsafe lift safe."
+      },
+      {
+        "id": "d",
+        "text": "Only with taglines",
+        "explanation": "Incorrect. Taglines don't increase capacity."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Wind Load Reduction"
+  },
+  {
+    "id": 891,
+    "question": "WIND REDUCTION FORMULA: Safe Load = Chart Capacity × (1 - Reduction%) — A crane lifts steel decking panels at 40 m radius. Chart capacity: 40 m = 2,000 kg. Wind reduction = 20%. Maximum safe load becomes:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,800 kg",
+        "explanation": "Incorrect. This is only a 10% reduction."
+      },
+      {
+        "id": "b",
+        "text": "1,600 kg",
+        "explanation": "Correct. 20% reduction: 2,000 × 0.20 = 400. Safe load = 2,000 - 400 = 1,600 kg. Wind loads are much worse at long radius."
+      },
+      {
+        "id": "c",
+        "text": "1,700 kg",
+        "explanation": "Incorrect. This is a 15% reduction."
+      },
+      {
+        "id": "d",
+        "text": "1,500 kg",
+        "explanation": "Incorrect. This would be a 25% reduction."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Wind Load Reduction"
+  },
+  {
+    "id": 892,
+    "question": "WIND REDUCTION FORMULA: Safe Load = Chart Capacity × (1 - Reduction%) — A crane lifts 2,000 kg at 25 m radius. Load chart capacity: 25 m = 2,400 kg. Wind reduction = 20%. Is the lift safe?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes",
+        "explanation": "Incorrect. After reduction, load exceeds capacity."
+      },
+      {
+        "id": "b",
+        "text": "No",
+        "explanation": "Correct. 20% reduction: 2,400 × 0.20 = 480. Safe load = 2,400 - 480 = 1,920 kg. Load = 2,000 kg exceeds 1,920 kg. Operator should reduce radius or load."
+      },
+      {
+        "id": "c",
+        "text": "Only if radius reduced",
+        "explanation": "Incorrect. As stated, the lift is not safe."
+      },
+      {
+        "id": "d",
+        "text": "Only if taglines used",
+        "explanation": "Incorrect. Taglines don't increase capacity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Wind Load Reduction"
+  },
+  {
+    "id": 893,
+    "question": "WIND REDUCTION FORMULA: Safe Load = Chart Capacity × (1 - Reduction%) — Why does wind become more dangerous at longer radius?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Load weight increases",
+        "explanation": "Incorrect. Load weight doesn't change with radius."
+      },
+      {
+        "id": "b",
+        "text": "Moment arm increases",
+        "explanation": "Correct. Overturning moment = Force × Distance. Wind force applied further from the tower greatly increases tipping forces."
+      },
+      {
+        "id": "c",
+        "text": "Rope strength decreases",
+        "explanation": "Incorrect. Rope strength doesn't change with radius."
+      },
+      {
+        "id": "d",
+        "text": "Gear capacity decreases",
+        "explanation": "Incorrect. Gear capacity is independent of radius."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Wind Load Reduction"
+  },
+  {
+    "id": 894,
+    "question": "WIND REDUCTION FORMULA: Safe Load = Chart Capacity × (1 - Reduction%) — A crane is lifting 2,000 kg steel plate at 38 m radius. Load chart allows 2,200 kg. Wind increases suddenly requiring 15% reduction. What should the operator do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue lifting",
+        "explanation": "Incorrect. The lift now exceeds safe capacity."
+      },
+      {
+        "id": "b",
+        "text": "Hoist faster",
+        "explanation": "Incorrect. Speed doesn't make an unsafe lift safe."
+      },
+      {
+        "id": "c",
+        "text": "Reduce radius or lower load",
+        "explanation": "Correct. 15% reduction: 2,200 × 0.15 = 330. Safe load = 2,200 - 330 = 1,870 kg. Load = 2,000 kg exceeds capacity. Operator must reduce radius or lower the load."
+      },
+      {
+        "id": "d",
+        "text": "Add parts of line",
+        "explanation": "Incorrect. Parts of line doesn't affect wind capacity."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Wind Load Reduction"
+  },
+  {
+    "id": 895,
+    "question": "WIND REDUCTION FORMULA: Safe Load = Chart Capacity × (1 - Reduction%) — A crane is lifting 2,200 kg at 30 m radius. Chart capacity: 30 m = 2,600 kg. Wind reduction required = 20%. What is the safe capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,200 kg",
+        "explanation": "Incorrect. This is the current load, not the safe capacity."
+      },
+      {
+        "id": "b",
+        "text": "2,100 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "c",
+        "text": "2,080 kg",
+        "explanation": "Correct. 20% reduction: 2,600 × 0.20 = 520. Safe load = 2,600 - 520 = 2,080 kg. Note: The 2,200 kg load exceeds this limit."
+      },
+      {
+        "id": "d",
+        "text": "2,300 kg",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Wind Load Reduction"
   }
 ]

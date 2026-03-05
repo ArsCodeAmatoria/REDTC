@@ -118,6 +118,10 @@ function parseCapacityRule(chartString: string): boolean {
   return chartString.startsWith("CAPACITY RULE:");
 }
 
+function parseWindReduction(chartString: string): boolean {
+  return chartString.startsWith("WIND REDUCTION FORMULA:");
+}
+
 function extractQuestionText(fullText: string): string {
   if (fullText.startsWith("LOAD CHART:")) {
     const match = fullText.match(/\(Hook block = \d+\s*kg\)\s*—\s*(.+)/);
@@ -143,6 +147,10 @@ function extractQuestionText(fullText: string): string {
     const match = fullText.match(/CAPACITY RULE:[^—]+—\s*(.+)/);
     return match ? match[1] : fullText;
   }
+  if (fullText.startsWith("WIND REDUCTION FORMULA:")) {
+    const match = fullText.match(/WIND REDUCTION FORMULA:[^—]+—\s*(.+)/);
+    return match ? match[1] : fullText;
+  }
   return fullText;
 }
 
@@ -153,7 +161,31 @@ export function ChartDisplay({ questionText }: ChartDisplayProps) {
   const materialDensities = parseMaterialDensities(questionText);
   const partsOfLine = parsePartsOfLine(questionText);
   const capacityRule = parseCapacityRule(questionText);
+  const windReduction = parseWindReduction(questionText);
   const actualQuestion = extractQuestionText(questionText);
+
+  if (windReduction) {
+    return (
+      <div className="space-y-4">
+        <div className="rounded-lg border border-border bg-muted/30 p-3 sm:p-4">
+          <div className="mb-2">
+            <span className="text-xs font-semibold uppercase tracking-wider text-accent">
+              Wind Reduction Formula
+            </span>
+          </div>
+          <div className="font-mono text-sm sm:text-base text-foreground">
+            Safe Load = Chart Capacity × (1 - <span className="text-yellow-400">Reduction%</span>)
+          </div>
+          <div className="mt-2 text-xs text-muted-foreground">
+            Example: 20% reduction → multiply by 0.80
+          </div>
+        </div>
+        <h2 className="font-display text-xl md:text-2xl font-semibold leading-snug">
+          {actualQuestion}
+        </h2>
+      </div>
+    );
+  }
 
   if (capacityRule) {
     return (
@@ -383,5 +415,6 @@ export function hasChart(questionText: string): boolean {
          questionText.startsWith("RIGGING ANGLE MULTIPLIERS:") ||
          questionText.startsWith("MATERIAL DENSITIES:") ||
          questionText.startsWith("PARTS OF LINE FORMULA:") ||
-         questionText.startsWith("CAPACITY RULE:");
+         questionText.startsWith("CAPACITY RULE:") ||
+         questionText.startsWith("WIND REDUCTION FORMULA:");
 }
