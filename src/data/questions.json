@@ -13970,5 +13970,285 @@
     ],
     "correctAnswer": "d",
     "category": "Master - Operator Decisions"
+  },
+  {
+    "id": 500,
+    "question": "What is the primary function of the gearbox in a tower crane hoist system?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase hoist speed",
+        "explanation": "Incorrect. Gearboxes reduce speed, not increase it."
+      },
+      {
+        "id": "b",
+        "text": "Reduce rope friction",
+        "explanation": "Incorrect. Rope friction is not managed by the gearbox."
+      },
+      {
+        "id": "c",
+        "text": "Convert high-speed motor rotation into high torque",
+        "explanation": "Correct. Electric motors rotate at very high speeds but produce relatively low torque. The gearbox reduces speed and increases torque, allowing the hoist drum to lift heavy loads with controlled movement."
+      },
+      {
+        "id": "d",
+        "text": "Increase crane radius",
+        "explanation": "Incorrect. Radius is not affected by the gearbox."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Gear & Drive Systems"
+  },
+  {
+    "id": 501,
+    "question": "What type of gear system is commonly used in tower crane hoist drives?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Spur gears only",
+        "explanation": "Incorrect. Spur gears alone are not typically used for heavy crane applications."
+      },
+      {
+        "id": "b",
+        "text": "Bevel gears only",
+        "explanation": "Incorrect. Bevel gears are used for direction change, not primary reduction."
+      },
+      {
+        "id": "c",
+        "text": "Planetary gear systems",
+        "explanation": "Correct. Tower cranes commonly use planetary gearboxes because they handle very high loads, provide compact design, distribute force across multiple gears, and improve efficiency and durability."
+      },
+      {
+        "id": "d",
+        "text": "Rack and pinion",
+        "explanation": "Incorrect. Rack and pinion is used for linear motion, not hoist rotation."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Gear & Drive Systems"
+  },
+  {
+    "id": 502,
+    "question": "If a gear ratio is 10:1, what does this mean?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Output shaft spins faster than input",
+        "explanation": "Incorrect. Higher ratios mean slower output speed."
+      },
+      {
+        "id": "b",
+        "text": "Motor torque decreases",
+        "explanation": "Incorrect. Torque increases with reduction ratio."
+      },
+      {
+        "id": "c",
+        "text": "Motor rotates 10 times for one output rotation",
+        "explanation": "Correct. A 10:1 ratio means 10 motor rotations = 1 output shaft rotation. Result: speed decreases, torque increases."
+      },
+      {
+        "id": "d",
+        "text": "Load weight is reduced by 10",
+        "explanation": "Incorrect. Gear ratio affects speed and torque, not load weight."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Gear & Drive Systems"
+  },
+  {
+    "id": 503,
+    "question": "Which gear system is typically used in tower crane slewing drives?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Worm gear",
+        "explanation": "Incorrect. Worm gears are not typically used for slewing."
+      },
+      {
+        "id": "b",
+        "text": "Planetary gear with ring gear",
+        "explanation": "Correct. Slewing mechanisms often use planetary gear systems with large ring gears. These allow the crane to rotate smoothly under heavy loads."
+      },
+      {
+        "id": "c",
+        "text": "Spur gear only",
+        "explanation": "Incorrect. Spur gears alone don't provide the reduction needed."
+      },
+      {
+        "id": "d",
+        "text": "Chain drive",
+        "explanation": "Incorrect. Chain drives are not used for tower crane slewing."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Gear & Drive Systems"
+  },
+  {
+    "id": 504,
+    "question": "What is the purpose of a worm gear drive?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase rotation speed",
+        "explanation": "Incorrect. Worm gears reduce speed significantly."
+      },
+      {
+        "id": "b",
+        "text": "Reduce friction",
+        "explanation": "Incorrect. Worm gears actually have higher friction than some other gear types."
+      },
+      {
+        "id": "c",
+        "text": "Provide high reduction ratio and self-locking capability",
+        "explanation": "Correct. Worm gears provide large speed reduction, can be self-locking, and prevent back-driving. This improves load control and safety."
+      },
+      {
+        "id": "d",
+        "text": "Increase crane radius",
+        "explanation": "Incorrect. Gear drives do not affect crane radius."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Gear & Drive Systems"
+  },
+  {
+    "id": 505,
+    "question": "Which component actually winds the hoist rope?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gearbox",
+        "explanation": "Incorrect. The gearbox transmits power but doesn't wind rope."
+      },
+      {
+        "id": "b",
+        "text": "Motor",
+        "explanation": "Incorrect. The motor provides power but doesn't directly wind rope."
+      },
+      {
+        "id": "c",
+        "text": "Hoist drum",
+        "explanation": "Correct. The hoist drum rotates using gearbox torque, spools the hoist rope, and raises or lowers the hook block."
+      },
+      {
+        "id": "d",
+        "text": "Sheave block",
+        "explanation": "Incorrect. Sheaves guide the rope but don't wind it."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Gear & Drive Systems"
+  },
+  {
+    "id": 506,
+    "question": "What happens if gear teeth become worn or damaged?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increased lifting capacity",
+        "explanation": "Incorrect. Damage reduces reliability, not increases capacity."
+      },
+      {
+        "id": "b",
+        "text": "Reduced hoist speed",
+        "explanation": "Incorrect. While speed may be affected, this is not the primary concern."
+      },
+      {
+        "id": "c",
+        "text": "Possible gear slipping or mechanical failure",
+        "explanation": "Correct. Damaged gears can cause slipping, uneven torque transfer, and catastrophic gearbox failure. This is why gear inspection is critical during maintenance."
+      },
+      {
+        "id": "d",
+        "text": "Increased crane radius",
+        "explanation": "Incorrect. Gear damage does not affect radius."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Gear & Drive Systems"
+  },
+  {
+    "id": 507,
+    "question": "Which crane movement uses rack and pinion gears?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hoist",
+        "explanation": "Incorrect. Hoist uses drum and cable systems."
+      },
+      {
+        "id": "b",
+        "text": "Slewing",
+        "explanation": "Incorrect. Slewing uses ring gear and planetary systems."
+      },
+      {
+        "id": "c",
+        "text": "Trolley travel on the jib",
+        "explanation": "Correct. Many tower cranes move the trolley along the jib using rack and pinion systems driven by electric motors."
+      },
+      {
+        "id": "d",
+        "text": "Hook rotation",
+        "explanation": "Incorrect. Hook rotation uses swivel mechanisms, not rack and pinion."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Gear & Drive Systems"
+  },
+  {
+    "id": 508,
+    "question": "Why are multiple gear stages used in crane gearboxes?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase crane height",
+        "explanation": "Incorrect. Gear stages don't affect crane height."
+      },
+      {
+        "id": "b",
+        "text": "Reduce electrical consumption",
+        "explanation": "Incorrect. While efficiency matters, this is not the primary reason."
+      },
+      {
+        "id": "c",
+        "text": "Achieve large speed reduction gradually",
+        "explanation": "Correct. Multiple gear stages allow smooth speed reduction, high torque generation, and reduced stress on individual gears."
+      },
+      {
+        "id": "d",
+        "text": "Increase wind resistance",
+        "explanation": "Incorrect. Gear stages have no effect on wind resistance."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Gear & Drive Systems"
+  },
+  {
+    "id": 509,
+    "question": "If the motor rotates at 1500 RPM and the gearbox ratio is 15:1, what is the output shaft speed?",
+    "options": [
+      {
+        "id": "a",
+        "text": "150 RPM",
+        "explanation": "Incorrect. This would be a 10:1 ratio."
+      },
+      {
+        "id": "b",
+        "text": "120 RPM",
+        "explanation": "Incorrect. This calculation is incorrect."
+      },
+      {
+        "id": "c",
+        "text": "100 RPM",
+        "explanation": "Correct. Output speed = Motor speed ÷ gear ratio = 1500 ÷ 15 = 100 RPM. The gearbox converts high motor speed into lower speed but higher torque."
+      },
+      {
+        "id": "d",
+        "text": "75 RPM",
+        "explanation": "Incorrect. This would be a 20:1 ratio."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Gear & Drive Systems"
   }
 ]
