@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, BookOpen, ChevronRight, Award, HardHat, FileText, GraduationCap, Shield, Timer } from "lucide-react";
+import { ArrowRight, BookOpen, ChevronRight, Award, HardHat, FileText, GraduationCap, Shield, Timer, PawPrint } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/theme-toggle";
 import questionsData from "@/data/questions.json";
@@ -77,7 +77,7 @@ export default function HomePage() {
           <div className="flex items-center justify-between h-14">
             <Link href="/" className="flex items-center gap-2">
               <div className="w-8 h-8 bg-accent flex items-center justify-center">
-                <span className="text-lg">🐾</span>
+                <PawPrint className="w-5 h-5 text-accent-foreground" />
               </div>
               <span className="font-display text-xl font-black tracking-tight hidden sm:block">REDTC</span>
             </Link>
