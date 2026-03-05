@@ -122,6 +122,14 @@ function parseWindReduction(chartString: string): boolean {
   return chartString.startsWith("WIND REDUCTION FORMULA:");
 }
 
+function parseSailArea(chartString: string): boolean {
+  return chartString.startsWith("SAIL AREA FORMULA:");
+}
+
+function parseLightningDistance(chartString: string): boolean {
+  return chartString.startsWith("LIGHTNING DISTANCE:");
+}
+
 function extractQuestionText(fullText: string): string {
   if (fullText.startsWith("LOAD CHART:")) {
     const match = fullText.match(/\(Hook block = \d+\s*kg\)\s*—\s*(.+)/);
@@ -151,6 +159,14 @@ function extractQuestionText(fullText: string): string {
     const match = fullText.match(/WIND REDUCTION FORMULA:[^—]+—\s*(.+)/);
     return match ? match[1] : fullText;
   }
+  if (fullText.startsWith("SAIL AREA FORMULA:")) {
+    const match = fullText.match(/SAIL AREA FORMULA:[^—]+—\s*(.+)/);
+    return match ? match[1] : fullText;
+  }
+  if (fullText.startsWith("LIGHTNING DISTANCE:")) {
+    const match = fullText.match(/LIGHTNING DISTANCE:[^—]+—\s*(.+)/);
+    return match ? match[1] : fullText;
+  }
   return fullText;
 }
 
@@ -162,7 +178,55 @@ export function ChartDisplay({ questionText }: ChartDisplayProps) {
   const partsOfLine = parsePartsOfLine(questionText);
   const capacityRule = parseCapacityRule(questionText);
   const windReduction = parseWindReduction(questionText);
+  const sailArea = parseSailArea(questionText);
+  const lightningDistance = parseLightningDistance(questionText);
   const actualQuestion = extractQuestionText(questionText);
+
+  if (sailArea) {
+    return (
+      <div className="space-y-4">
+        <div className="rounded-lg border border-border bg-muted/30 p-3 sm:p-4">
+          <div className="mb-2">
+            <span className="text-xs font-semibold uppercase tracking-wider text-accent">
+              Sail Area Formula
+            </span>
+          </div>
+          <div className="font-mono text-sm sm:text-base text-foreground">
+            Area = Length × Width
+          </div>
+          <div className="mt-2 text-xs text-muted-foreground">
+            Large flat loads act like sails in wind
+          </div>
+        </div>
+        <h2 className="font-display text-xl md:text-2xl font-semibold leading-snug">
+          {actualQuestion}
+        </h2>
+      </div>
+    );
+  }
+
+  if (lightningDistance) {
+    return (
+      <div className="space-y-4">
+        <div className="rounded-lg border border-border bg-muted/30 p-3 sm:p-4">
+          <div className="mb-2">
+            <span className="text-xs font-semibold uppercase tracking-wider text-accent">
+              Lightning Distance Rule
+            </span>
+          </div>
+          <div className="font-mono text-sm sm:text-base text-foreground">
+            <span className="text-yellow-400">5 seconds</span> between flash and thunder ≈ <span className="text-yellow-400">1 mile</span>
+          </div>
+          <div className="mt-2 text-xs text-muted-foreground">
+            Distance = Seconds ÷ 5
+          </div>
+        </div>
+        <h2 className="font-display text-xl md:text-2xl font-semibold leading-snug">
+          {actualQuestion}
+        </h2>
+      </div>
+    );
+  }
 
   if (windReduction) {
     return (
@@ -416,5 +480,7 @@ export function hasChart(questionText: string): boolean {
          questionText.startsWith("MATERIAL DENSITIES:") ||
          questionText.startsWith("PARTS OF LINE FORMULA:") ||
          questionText.startsWith("CAPACITY RULE:") ||
-         questionText.startsWith("WIND REDUCTION FORMULA:");
+         questionText.startsWith("WIND REDUCTION FORMULA:") ||
+         questionText.startsWith("SAIL AREA FORMULA:") ||
+         questionText.startsWith("LIGHTNING DISTANCE:");
 }

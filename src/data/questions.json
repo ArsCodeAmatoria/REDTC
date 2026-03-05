@@ -24948,5 +24948,369 @@
     ],
     "correctAnswer": "c",
     "category": "Wind Load Reduction"
+  },
+  {
+    "id": 896,
+    "question": "SAIL AREA FORMULA: Area = Length × Width — A tower crane is lifting a steel panel measuring 4 m × 3 m. What is the approximate sail area exposed to wind?",
+    "options": [
+      {
+        "id": "a",
+        "text": "7 m²",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "b",
+        "text": "12 m²",
+        "explanation": "Correct. Area = 4 × 3 = 12 m². Large flat loads act like sails in the wind, dramatically increasing lateral force."
+      },
+      {
+        "id": "c",
+        "text": "14 m²",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "18 m²",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Wind Sail Area"
+  },
+  {
+    "id": 897,
+    "question": "SAIL AREA FORMULA: Area = Length × Width — A formwork panel measures 5 m × 2 m. What is its sail area?",
+    "options": [
+      {
+        "id": "a",
+        "text": "7 m²",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "b",
+        "text": "10 m²",
+        "explanation": "Correct. Area = 5 × 2 = 10 m². Formwork tables are one of the most dangerous wind loads for tower cranes."
+      },
+      {
+        "id": "c",
+        "text": "12 m²",
+        "explanation": "Incorrect. This calculation is wrong."
+      },
+      {
+        "id": "d",
+        "text": "15 m²",
+        "explanation": "Incorrect. This calculation is wrong."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Wind Sail Area"
+  },
+  {
+    "id": 898,
+    "question": "Why are large flat loads more dangerous in wind than compact loads?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They weigh less",
+        "explanation": "Incorrect. Weight isn't the primary danger factor."
+      },
+      {
+        "id": "b",
+        "text": "They create larger wind resistance area",
+        "explanation": "Correct. Large flat surfaces catch wind, create lateral force, and increase swing instability."
+      },
+      {
+        "id": "c",
+        "text": "They reduce hoist speed",
+        "explanation": "Incorrect. Hoist speed isn't the primary danger."
+      },
+      {
+        "id": "d",
+        "text": "They increase rope tension",
+        "explanation": "Incorrect. While they may affect tension, the sail area is the primary danger."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Wind Sail Area"
+  },
+  {
+    "id": 899,
+    "question": "LIGHTNING DISTANCE: 5 seconds between flash and thunder ≈ 1 mile — An operator sees lightning and hears thunder 10 seconds later. How far away is the storm?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2 miles",
+        "explanation": "Correct. 10 ÷ 5 = 2 miles. Lightning can travel many miles from the storm center."
+      },
+      {
+        "id": "b",
+        "text": "5 miles",
+        "explanation": "Incorrect. This would be 25 seconds."
+      },
+      {
+        "id": "c",
+        "text": "1 mile",
+        "explanation": "Incorrect. This would be 5 seconds."
+      },
+      {
+        "id": "d",
+        "text": "3 miles",
+        "explanation": "Incorrect. This would be 15 seconds."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Lightning Safety"
+  },
+  {
+    "id": 900,
+    "question": "LIGHTNING DISTANCE: 5 seconds between flash and thunder ≈ 1 mile — Lightning flash occurs and thunder follows 25 seconds later. What is the approximate distance?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3 miles",
+        "explanation": "Incorrect. This would be 15 seconds."
+      },
+      {
+        "id": "b",
+        "text": "4 miles",
+        "explanation": "Incorrect. This would be 20 seconds."
+      },
+      {
+        "id": "c",
+        "text": "5 miles",
+        "explanation": "Correct. 25 ÷ 5 = 5 miles. Most crane safety policies stop work if lightning is within about 10 miles."
+      },
+      {
+        "id": "d",
+        "text": "7 miles",
+        "explanation": "Incorrect. This would be 35 seconds."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Lightning Safety"
+  },
+  {
+    "id": 901,
+    "question": "Why are tower cranes especially dangerous during lightning storms?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They rotate slowly",
+        "explanation": "Incorrect. Rotation speed isn't the danger factor."
+      },
+      {
+        "id": "b",
+        "text": "They are tall conductive structures",
+        "explanation": "Correct. Tower cranes are very tall, made of steel, and often the highest point on site - making them natural lightning attractors."
+      },
+      {
+        "id": "c",
+        "text": "They contain hydraulic systems",
+        "explanation": "Incorrect. Hydraulics aren't the primary lightning concern."
+      },
+      {
+        "id": "d",
+        "text": "They operate remotely",
+        "explanation": "Incorrect. Remote operation isn't the danger factor."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Lightning Safety"
+  },
+  {
+    "id": 902,
+    "question": "At very low temperatures, steel becomes:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Stronger and more flexible",
+        "explanation": "Incorrect. Cold reduces flexibility."
+      },
+      {
+        "id": "b",
+        "text": "More brittle",
+        "explanation": "Correct. Cold temperatures reduce steel ductility, increasing risk of brittle fracture and sudden structural failure."
+      },
+      {
+        "id": "c",
+        "text": "Softer",
+        "explanation": "Incorrect. Cold doesn't make steel softer."
+      },
+      {
+        "id": "d",
+        "text": "More elastic",
+        "explanation": "Incorrect. Cold reduces elasticity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cold Weather Operations"
+  },
+  {
+    "id": 903,
+    "question": "Which crane component is most affected by extreme cold?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Paint",
+        "explanation": "Incorrect. Paint isn't the primary concern."
+      },
+      {
+        "id": "b",
+        "text": "Hydraulic oil and lubricants",
+        "explanation": "Correct. Cold thickens fluids which can cause slow response, mechanical strain, and system failure."
+      },
+      {
+        "id": "c",
+        "text": "Electrical wiring",
+        "explanation": "Incorrect. While affected, hydraulics are more critical."
+      },
+      {
+        "id": "d",
+        "text": "Operator seat",
+        "explanation": "Incorrect. The seat isn't a safety-critical concern."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cold Weather Operations"
+  },
+  {
+    "id": 904,
+    "question": "When temperature rises, steel crane components:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Shrink",
+        "explanation": "Incorrect. Heat causes expansion, not shrinking."
+      },
+      {
+        "id": "b",
+        "text": "Expand",
+        "explanation": "Correct. Steel expands with heat. This affects jib alignment, bolt tension, and structural stress."
+      },
+      {
+        "id": "c",
+        "text": "Harden",
+        "explanation": "Incorrect. Normal temperature changes don't harden steel."
+      },
+      {
+        "id": "d",
+        "text": "Become lighter",
+        "explanation": "Incorrect. Mass doesn't change with temperature."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Thermal Expansion"
+  },
+  {
+    "id": 905,
+    "question": "Why must tower cranes sometimes be re-checked during extreme heat?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Paint damage",
+        "explanation": "Incorrect. Paint isn't the primary concern."
+      },
+      {
+        "id": "b",
+        "text": "Cable stretching",
+        "explanation": "Incorrect. While cables may be affected, structural issues are more critical."
+      },
+      {
+        "id": "c",
+        "text": "Thermal expansion changes structural alignment",
+        "explanation": "Correct. Large cranes can expand several millimeters or more during temperature swings, affecting bolt torque, rail alignment, and structural stresses."
+      },
+      {
+        "id": "d",
+        "text": "Tower sway increases",
+        "explanation": "Incorrect. Sway is more related to wind than heat."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Thermal Expansion"
+  },
+  {
+    "id": 906,
+    "question": "Typical tower crane shutdown wind speed is approximately:",
+    "options": [
+      {
+        "id": "a",
+        "text": "30 km/h",
+        "explanation": "Incorrect. This is too low for shutdown."
+      },
+      {
+        "id": "b",
+        "text": "40 km/h",
+        "explanation": "Incorrect. This is too low for shutdown."
+      },
+      {
+        "id": "c",
+        "text": "72 km/h (45 mph)",
+        "explanation": "Correct. Many tower cranes stop lifting operations around 70-75 km/h wind speeds, though exact limits depend on manufacturer specifications."
+      },
+      {
+        "id": "d",
+        "text": "100 km/h",
+        "explanation": "Incorrect. This is too high for safe operations."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Wind Shutdown"
+  },
+  {
+    "id": 907,
+    "question": "When cranes are taken out of service in high winds, the jib should usually be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Locked in position",
+        "explanation": "Incorrect. Locking creates dangerous wind loading."
+      },
+      {
+        "id": "b",
+        "text": "Allowed to weather-vane freely",
+        "explanation": "Correct. Free-slewing allows the crane to align with wind direction, reduce structural loading, and prevent tower damage."
+      },
+      {
+        "id": "c",
+        "text": "Secured with rigging",
+        "explanation": "Incorrect. Securing prevents necessary movement."
+      },
+      {
+        "id": "d",
+        "text": "Lowered to ground",
+        "explanation": "Incorrect. Tower crane jibs cannot be lowered."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Wind Shutdown"
+  },
+  {
+    "id": 908,
+    "question": "A crane is lifting large wall panels when wind speed increases rapidly. What is the safest operator action?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continue lift quickly",
+        "explanation": "Incorrect. Continuing is dangerous with increasing wind."
+      },
+      {
+        "id": "b",
+        "text": "Hoist faster",
+        "explanation": "Incorrect. Faster hoisting increases instability."
+      },
+      {
+        "id": "c",
+        "text": "Land the load immediately",
+        "explanation": "Correct. Flat panel loads behave like giant sails. Increasing wind can cause uncontrolled swinging, loss of load control, and structural overload. Landing the load is the safest action."
+      },
+      {
+        "id": "d",
+        "text": "Increase swing speed",
+        "explanation": "Incorrect. Faster swinging increases instability."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Weather Judgment"
   }
 ]
