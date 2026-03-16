@@ -80,114 +80,82 @@ export default function HomePage() {
     <div className="min-h-screen pt-14">
       <Header />
 
-      {/* Hero Section with Image */}
-      <section className="border-b border-border">
-        {/* Hero Image */}
-        <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] w-full overflow-hidden">
-          <Image
-            src="/images/header1.png"
-            alt="Tower crane against sky"
-            fill
-            className="object-cover"
-            priority
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background" />
-          <div className="absolute inset-0 flex items-center">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.5 }}
-                className="max-w-2xl"
-              >
-                <div className="flex items-center gap-3 mb-4">
-                  <span className="bg-accent text-accent-foreground text-xs font-bold uppercase tracking-widest px-2 py-1">BC Red Seal</span>
-                  <span className="text-sm text-foreground/80">Tower Crane Certification</span>
-                </div>
-                
-                <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight text-foreground drop-shadow-sm">
-                  Master your tower crane exam
-                </h1>
-              </motion.div>
-            </div>
+      {/* Hero Section */}
+      <section className="border-b border-border bg-black">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Main Hero Content */}
+          <div className="grid lg:grid-cols-[1fr_auto] gap-8 lg:gap-16 items-end pt-16 pb-12 lg:pt-24 lg:pb-16">
+            {/* Left - Headline & CTA */}
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.5 }}
+              className="space-y-8"
+            >
+              <div className="flex items-center gap-3">
+                <span className="bg-accent text-accent-foreground text-xs font-bold uppercase tracking-widest px-2 py-1">BC Red Seal</span>
+                <span className="text-sm text-muted-foreground">Tower Crane Certification</span>
+              </div>
+
+              <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight text-foreground max-w-3xl">
+                Master your<br />
+                tower crane<br />
+                <span className="text-accent">exam.</span>
+              </h1>
+
+              <p className="text-lg text-muted-foreground max-w-xl leading-relaxed">
+                Practice with 1,124 questions including Master Level problems covering advanced calculations,
+                structural engineering, and emergency scenarios.
+              </p>
+
+              <div className="flex flex-col sm:flex-row gap-3">
+                <Link href="/test">
+                  <Button size="lg" className="w-full sm:w-auto bg-accent text-accent-foreground hover:bg-accent/90">
+                    Start Practice Test
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </Link>
+                <Link href="/load-charts">
+                  <Button size="lg" variant="outline" className="w-full sm:w-auto">
+                    <FileSpreadsheet className="mr-2 h-4 w-4" />
+                    Load Charts
+                  </Button>
+                </Link>
+              </div>
+            </motion.div>
+
+            {/* Right - Stats Block */}
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              className="flex lg:flex-col border border-border divide-x lg:divide-x-0 lg:divide-y divide-border shrink-0"
+            >
+              <div className="px-8 py-6 flex flex-col gap-1">
+                <div className="text-5xl font-display font-bold tabular-nums">1,124</div>
+                <div className="text-sm text-muted-foreground">Questions</div>
+              </div>
+              <div className="px-8 py-6 flex flex-col gap-1">
+                <div className="text-5xl font-display font-bold tabular-nums">70%</div>
+                <div className="text-sm text-muted-foreground">Pass Mark</div>
+              </div>
+              <div className="px-8 py-6 flex flex-col gap-1">
+                <div className="text-5xl font-display font-bold tabular-nums">2026</div>
+                <div className="text-sm text-muted-foreground">Standards</div>
+              </div>
+            </motion.div>
           </div>
-        </div>
 
-        {/* Content Below Image */}
-        <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2">
-            {/* Left Column - Main Content */}
-            <div className="px-4 sm:px-6 lg:px-8 py-10 lg:py-12 lg:border-r border-border">
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.5, delay: 0.2 }}
-                className="space-y-6"
-              >
-                <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
-                  Practice with 1,124 questions including Master Level problems covering advanced calculations, 
-                  structural engineering, and emergency scenarios.
-                </p>
-
-                <div className="flex flex-col sm:flex-row gap-3">
-                  <Link href="/test">
-                    <Button size="lg" className="w-full sm:w-auto bg-accent text-accent-foreground hover:bg-accent/90">
-                      Start Practice Test
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Button>
-                  </Link>
-                  <Link href="/load-charts">
-                    <Button size="lg" variant="outline" className="w-full sm:w-auto">
-                      <FileSpreadsheet className="mr-2 h-4 w-4" />
-                      Load Charts
-                    </Button>
-                  </Link>
+          {/* Bottom Strip - Coverage Tags */}
+          <div className="border-t border-border py-5">
+            <div className="flex flex-wrap items-center gap-x-8 gap-y-3">
+              <span className="text-xs font-bold uppercase tracking-widest text-muted-foreground">Covers</span>
+              {["Real PDF load charts", "Capacity calculations", "Rigging fundamentals", "Crane operations", "Safety regulations"].map((item, i) => (
+                <div key={i} className="flex items-center gap-2 text-sm text-muted-foreground">
+                  <div className="w-1.5 h-1.5 bg-accent flex-shrink-0" />
+                  {item}
                 </div>
-              </motion.div>
-            </div>
-
-            {/* Right Column - Stats Card */}
-            <div className="px-4 sm:px-6 lg:px-8 py-10 lg:py-12 bg-muted/30">
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.5, delay: 0.3 }}
-                className="space-y-6"
-              >
-                <div>
-                  <span className="category-label">Test Format</span>
-                  <p className="text-sm text-muted-foreground mt-1">Updated for 2026 standards</p>
-                </div>
-
-                <div className="grid grid-cols-3 gap-4">
-                  <div className="space-y-1">
-                    <div className="text-4xl font-display font-bold">1,124</div>
-                    <div className="text-sm text-muted-foreground">Questions</div>
-                  </div>
-                  <div className="space-y-1">
-                    <div className="text-4xl font-display font-bold">10</div>
-                    <div className="text-sm text-muted-foreground">Per Test</div>
-                  </div>
-                  <div className="space-y-1">
-                    <div className="text-4xl font-display font-bold">70%</div>
-                    <div className="text-sm text-muted-foreground">To Pass</div>
-                  </div>
-                </div>
-
-                <div className="h-px bg-border" />
-
-                <div className="space-y-3">
-                  <p className="text-sm font-medium">What you&apos;ll learn:</p>
-                  <ul className="grid grid-cols-2 gap-2">
-                    {["Real PDF load charts", "Capacity calculations", "Rigging fundamentals", "Crane operations"].map((item, i) => (
-                      <li key={i} className="flex items-center gap-2 text-sm text-muted-foreground">
-                        <div className="w-1.5 h-1.5 bg-accent" />
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </motion.div>
+              ))}
             </div>
           </div>
         </div>
