@@ -81,23 +81,23 @@ export default function HomePage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="border-b border-border bg-black">
+      <section className="border-b border-border bg-black overflow-x-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Main Hero Content */}
-          <div className="grid lg:grid-cols-[1fr_auto] gap-8 lg:gap-16 items-end pt-16 pb-12 lg:pt-24 lg:pb-16">
+          <div className="grid lg:grid-cols-[1fr_auto] gap-8 lg:gap-16 items-stretch lg:items-end pt-16 pb-12 lg:pt-24 lg:pb-16 min-w-0">
             {/* Left - Headline & CTA */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
-              className="space-y-8"
+              className="space-y-6 sm:space-y-8 min-w-0"
             >
-              <div className="flex items-center gap-3">
+              <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
                 <span className="bg-accent text-accent-foreground text-xs font-bold uppercase tracking-widest px-2 py-1">BC Red Seal</span>
-                <span className="text-sm text-muted-foreground">Tower Crane Certification</span>
+                <span className="text-xs sm:text-sm text-muted-foreground">Tower Crane Certification</span>
               </div>
 
-              <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight text-foreground max-w-3xl">
+              <h1 className="font-display text-4xl sm:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight text-foreground max-w-3xl break-words">
                 Master your<br />
                 tower crane<br />
                 <span className="text-accent">exam.</span>
@@ -129,18 +129,18 @@ export default function HomePage() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="flex lg:flex-col border border-border divide-x lg:divide-x-0 lg:divide-y divide-border shrink-0"
+              className="flex w-full min-w-0 flex-col divide-y divide-x-0 border border-border sm:flex-row sm:divide-x sm:divide-y-0 lg:flex-col lg:divide-x-0 lg:divide-y shrink-0"
             >
-              <div className="px-8 py-6 flex flex-col gap-1">
-                <div className="text-5xl font-display font-bold tabular-nums">1,124</div>
+              <div className="flex flex-1 flex-col gap-1 px-4 py-5 sm:min-w-0 sm:px-6 lg:px-8 lg:py-6">
+                <div className="text-4xl sm:text-5xl font-display font-bold tabular-nums">1,124</div>
                 <div className="text-sm text-muted-foreground">Questions</div>
               </div>
-              <div className="px-8 py-6 flex flex-col gap-1">
-                <div className="text-5xl font-display font-bold tabular-nums">70%</div>
+              <div className="flex flex-1 flex-col gap-1 px-4 py-5 sm:min-w-0 sm:px-6 lg:px-8 lg:py-6">
+                <div className="text-4xl sm:text-5xl font-display font-bold tabular-nums">70%</div>
                 <div className="text-sm text-muted-foreground">Pass Mark</div>
               </div>
-              <div className="px-8 py-6 flex flex-col gap-1">
-                <div className="text-5xl font-display font-bold tabular-nums">2026</div>
+              <div className="flex flex-1 flex-col gap-1 px-4 py-5 sm:min-w-0 sm:px-6 lg:px-8 lg:py-6">
+                <div className="text-4xl sm:text-5xl font-display font-bold tabular-nums">2026</div>
                 <div className="text-sm text-muted-foreground">Standards</div>
               </div>
             </motion.div>

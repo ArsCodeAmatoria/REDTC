@@ -58,26 +58,26 @@ export function Header({ rightContent }: HeaderProps) {
           {rightContent ? (
             rightContent
           ) : (
-            <nav className="flex items-center gap-1">
-              <Link href="/test" className="px-3 py-2 min-h-[44px] flex items-center text-sm font-bold hover:bg-muted transition-colors">
+            <nav className="flex items-center gap-0 sm:gap-1 -mr-2 sm:mr-0 min-w-0">
+              <Link href="/test" className="px-2 py-2 sm:px-3 min-h-[44px] flex items-center text-xs sm:text-sm font-bold hover:bg-muted transition-colors shrink-0">
                 Practice
               </Link>
-              <Link href="/test/master" className="px-3 py-2 min-h-[44px] flex items-center text-sm font-bold hover:bg-muted transition-colors">
+              <Link href="/test/master" className="px-2 py-2 sm:px-3 min-h-[44px] flex items-center text-xs sm:text-sm font-bold hover:bg-muted transition-colors shrink-0">
                 Master
               </Link>
               
               {/* Charts Dropdown */}
-              <div className="relative" ref={dropdownRef}>
+              <div className="relative shrink-0" ref={dropdownRef}>
                 <button
                   onClick={() => setIsOpen(!isOpen)}
-                  className="px-3 py-2 min-h-[44px] flex items-center gap-1 text-sm font-bold hover:bg-muted transition-colors"
+                  className="px-2 py-2 sm:px-3 min-h-[44px] flex items-center gap-0.5 sm:gap-1 text-xs sm:text-sm font-bold hover:bg-muted transition-colors"
                 >
                   Charts
                   <ChevronDown className={`w-4 h-4 transition-transform ${isOpen ? 'rotate-180' : ''}`} />
                 </button>
                 
                 {isOpen && (
-                  <div className="absolute right-0 top-full mt-1 w-72 bg-background border border-border shadow-lg">
+                  <div className="absolute right-0 top-full z-50 mt-1 w-72 max-w-[min(18rem,calc(100vw-2rem))] bg-background border border-border shadow-lg">
                     {/* View All Link */}
                     <Link 
                       href="/load-charts" 
