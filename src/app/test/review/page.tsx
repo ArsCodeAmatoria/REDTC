@@ -8,12 +8,29 @@ import { Button } from "@/components/ui/button";
 import { QuestionCard } from "@/components/quiz";
 import { Header } from "@/components/layout/header";
 import questionsData from "@/data/questions.json";
+import loadChartData from "@/data/load-chart-questions.json";
 import type { Question } from "@/types/question";
+import { EXAM_LABELS, type ExamId } from "@/data/exam-tracks";
 
-const questions = questionsData as Question[];
+const questions: Question[] = [
+  ...(questionsData as Question[]),
+  ...(() => {
+    let id = 20000;
+    return loadChartData.charts.flatMap((chart) =>
+      chart.questions.map((q) => ({
+        ...(q as Question),
+        id: id++,
+        category: `Load Chart: ${chart.name}`,
+        chartPdf: chart.pdfFile,
+        chartName: chart.name,
+      }))
+    );
+  })(),
+];
 
 const categories = [
   "All Questions",
+  "PDF Load Charts",
   "Safety & Legislation",
   "Load Charts & Calculations",
   "Advanced Load Charts & Math",
@@ -47,17 +64,33 @@ const categories = [
   "Master - Emergency Response",
 ];
 
+const examFilters: { id: "all" | ExamId; label: string }[] = [
+  { id: "all", label: "All exams" },
+  { id: "b", label: EXAM_LABELS.b },
+  { id: "l1", label: EXAM_LABELS.l1 },
+  { id: "l2", label: EXAM_LABELS.l2 },
+  { id: "ip", label: EXAM_LABELS.ip },
+  { id: "lcr", label: EXAM_LABELS.lcr },
+];
+
 export default function ReviewPage() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedCategory, setSelectedCategory] = useState("All Questions");
+  const [selectedExam, setSelectedExam] = useState<"all" | ExamId>("all");
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const filteredQuestions = useMemo(() => {
-    if (selectedCategory === "All Questions") {
-      return questions;
-    }
-    return questions.filter((q) => q.category === selectedCategory);
-  }, [selectedCategory]);
+    return questions.filter((q) => {
+      const catOk =
+        selectedCategory === "All Questions" ||
+        (selectedCategory === "PDF Load Charts"
+          ? Boolean(q.category?.startsWith("Load Chart:"))
+          : q.category === selectedCategory);
+      const examOk =
+        selectedExam === "all" || (q.exams && q.exams.includes(selectedExam));
+      return catOk && examOk;
+    });
+  }, [selectedCategory, selectedExam]);
 
   const currentQuestion = filteredQuestions[currentIndex];
 
@@ -83,8 +116,15 @@ export default function ReviewPage() {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center space-y-4">
-          <p className="text-muted-foreground">No questions found in this category.</p>
-          <Button onClick={() => handleCategoryChange("All Questions")} className="bg-accent text-accent-foreground">
+          <p className="text-muted-foreground">No questions found for this filter.</p>
+          <Button
+            onClick={() => {
+              setSelectedCategory("All Questions");
+              setSelectedExam("all");
+              setCurrentIndex(0);
+            }}
+            className="bg-accent text-accent-foreground"
+          >
             View All Questions
           </Button>
         </div>
@@ -113,7 +153,26 @@ export default function ReviewPage() {
 
       {/* Category Filter */}
       <div className="border-b border-border">
-        <div className="max-w-3xl mx-auto px-4 py-4">
+        <div className="max-w-3xl mx-auto px-4 py-4 space-y-3">
+          <div className="flex flex-wrap gap-1.5">
+            {examFilters.map((exam) => (
+              <button
+                key={exam.id}
+                type="button"
+                onClick={() => {
+                  setSelectedExam(exam.id);
+                  setCurrentIndex(0);
+                }}
+                className={`px-2.5 py-1 text-xs font-medium border ${
+                  selectedExam === exam.id
+                    ? "border-accent bg-accent/10 text-accent"
+                    : "border-border text-muted-foreground hover:text-foreground"
+                }`}
+              >
+                {exam.label}
+              </button>
+            ))}
+          </div>
           <div className="relative">
             <button
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}

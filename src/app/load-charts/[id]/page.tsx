@@ -7,6 +7,7 @@ import Link from "next/link";
 import { ArrowLeft, ArrowRight, FileText, ExternalLink, Check, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
+import { ChartDisplay } from "@/components/quiz/chart-display";
 import loadChartData from "@/data/load-chart-questions.json";
 
 interface Option {
@@ -20,6 +21,7 @@ interface Question {
   question: string;
   options: Option[];
   correctAnswer: string;
+  src?: string;
 }
 
 interface ChartSpec {
@@ -229,10 +231,11 @@ export default function LoadChartQuizPage() {
           transition={{ duration: 0.3 }}
           className="space-y-6"
         >
-          <div className="p-6 border border-border rounded-lg">
-            <h2 className="font-display text-lg sm:text-xl font-medium leading-relaxed">
-              {currentQuestion.question}
-            </h2>
+          <div className="p-6 border border-border rounded-lg space-y-3">
+            {currentQuestion.src && (
+              <p className="text-xs text-muted-foreground leading-relaxed">{currentQuestion.src}</p>
+            )}
+            <ChartDisplay questionText={currentQuestion.question} />
           </div>
 
           <div className="space-y-3">

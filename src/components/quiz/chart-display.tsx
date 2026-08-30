@@ -210,7 +210,45 @@ function extractQuestionText(fullText: string): string {
   return fullText;
 }
 
+function parseConfigQuestion(text: string): { stem: string; bullets: string[] } | null {
+  if (!text.includes("\n• ")) return null;
+  const lines = text.split("\n");
+  const stem = lines[0].trim();
+  const bullets = lines
+    .map((line) => line.trim())
+    .filter((line) => line.startsWith("• "))
+    .map((line) => line.slice(2).trim());
+  if (!stem || bullets.length < 2) return null;
+  return { stem, bullets };
+}
+
+function ConfigQuestion({ stem, bullets }: { stem: string; bullets: string[] }) {
+  return (
+    <div className="space-y-4">
+      <h2 className="font-display text-xl md:text-2xl font-semibold leading-snug">
+        {stem}
+      </h2>
+      <div className="rounded-lg border border-border bg-muted/30 p-3 sm:p-4">
+        <div className="mb-2">
+          <span className="text-xs font-semibold uppercase tracking-wider text-accent">
+            Configuration
+          </span>
+        </div>
+        <ul className="space-y-1.5 text-sm sm:text-base">
+          {bullets.map((item) => (
+            <li key={item} className="flex gap-2">
+              <span className="text-accent select-none">•</span>
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+}
+
 export function ChartDisplay({ questionText }: ChartDisplayProps) {
+  const configQuestion = parseConfigQuestion(questionText);
   const loadChart = parseLoadChart(questionText);
   const hoistChart = parseHoistChart(questionText);
   const riggingAngle = parseRiggingAngle(questionText);
@@ -226,6 +264,10 @@ export function ChartDisplay({ questionText }: ChartDisplayProps) {
   const totalLoadRule = parseTotalLoadRule(questionText);
   const operatorRule = parseOperatorRule(questionText);
   const actualQuestion = extractQuestionText(questionText);
+
+  if (configQuestion) {
+    return <ConfigQuestion stem={configQuestion.stem} bullets={configQuestion.bullets} />;
+  }
 
   if (operatorRule) {
     return (
@@ -620,7 +662,7 @@ export function ChartDisplay({ questionText }: ChartDisplayProps) {
   }
 
   return (
-    <h2 className="font-display text-xl md:text-2xl font-semibold leading-snug">
+    <h2 className="font-display text-xl md:text-2xl font-semibold leading-snug whitespace-pre-line">
       {questionText}
     </h2>
   );

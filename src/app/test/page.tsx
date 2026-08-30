@@ -3,16 +3,30 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, RotateCcw, Check, X, Home, Clock, BookOpen, Target, HardHat, Timer, BarChart3 } from "lucide-react";
+import { ArrowLeft, ArrowRight, RotateCcw, Check, X, Home, Clock, Timer, BarChart3 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { QuestionCard, ProgressBar } from "@/components/quiz";
 import { Header } from "@/components/layout/header";
 import { useTest } from "@/hooks/use-test";
 import questionsData from "@/data/questions.json";
+import loadChartData from "@/data/load-chart-questions.json";
 import type { Question } from "@/types/question";
+import { EXAM_TRACKS, selectTrackQuestions, type ExamTrack } from "@/data/exam-tracks";
 
-const questions = questionsData as Question[];
-const TOTAL_QUESTIONS = questions.length;
+const theoryQuestions = questionsData as Question[];
+const chartQuestions: Question[] = (() => {
+  let id = 20000;
+  return loadChartData.charts.flatMap((chart) =>
+    chart.questions.map((q) => ({
+      ...(q as Question),
+      id: id++,
+      category: `Load Chart: ${chart.name}`,
+      chartPdf: chart.pdfFile,
+      chartName: chart.name,
+    }))
+  );
+})();
+const questions: Question[] = [...theoryQuestions, ...chartQuestions];
 
 function formatTime(ms: number): string {
   const seconds = Math.floor(ms / 1000);
@@ -26,6 +40,8 @@ function formatTime(ms: number): string {
 
 export default function TestPage() {
   const [hasStarted, setHasStarted] = useState(false);
+  const [selectedTrack, setSelectedTrack] = useState<ExamTrack["id"]>("practice");
+  const track = EXAM_TRACKS.find((t) => t.id === selectedTrack)!;
 
   const {
     currentQuestion,
@@ -48,10 +64,13 @@ export default function TestPage() {
     passPercentage,
     totalTestTime,
     timingStats,
-  } = useTest(questions);
+  } = useTest(questions, {
+    questionsPerTest: track.questions,
+    passPercentage: track.passPercent,
+  });
 
   const handleStartTest = () => {
-    initializeTest();
+    initializeTest(selectTrackQuestions(questions, selectedTrack));
     setHasStarted(true);
   };
 
@@ -70,88 +89,54 @@ export default function TestPage() {
           >
             {/* Header */}
             <div className="text-center space-y-4">
-              <span className="category-label">Practice Mode</span>
-              <h1 className="font-display text-5xl md:text-6xl font-bold">Quick Practice</h1>
+              <span className="category-label">Practice by exam</span>
+              <h1 className="font-display text-5xl md:text-6xl font-bold">Choose a paper</h1>
               <p className="text-lg text-muted-foreground max-w-md mx-auto">
-                Test your knowledge with 10 randomly selected questions from our question bank.
+                Papers follow Fulford Level B, SkilledTradesBC Level 1 & 2, Red Seal IP, and the load-chart practical. Every question is tagged to the section and regulation it tests.
               </p>
             </div>
 
-            {/* Stats Cards */}
+            <div className="grid gap-2">
+              {EXAM_TRACKS.map((item) => {
+                const selected = item.id === selectedTrack;
+                return (
+                  <button
+                    key={item.id}
+                    type="button"
+                    onClick={() => setSelectedTrack(item.id)}
+                    className={`text-left p-4 border transition-colors ${
+                      selected
+                        ? "border-accent bg-accent/10"
+                        : "border-border hover:bg-muted/40"
+                    }`}
+                  >
+                    <div className="flex items-baseline justify-between gap-3">
+                      <span className="font-bold">{item.title}</span>
+                      <span className="text-xs text-muted-foreground shrink-0">
+                        {item.questions} Q · {item.passPercent}%
+                        {item.minutes ? ` · ${item.minutes} min` : ""}
+                      </span>
+                    </div>
+                    <p className="text-xs text-muted-foreground mt-1">{item.subtitle}</p>
+                  </button>
+                );
+              })}
+            </div>
+
+            <p className="text-sm text-muted-foreground leading-relaxed">{track.body}</p>
+
             <div className="grid grid-cols-3 gap-4">
               <div className="text-center p-4 border border-border bg-muted/20">
-                <div className="text-3xl font-display font-bold text-accent">10</div>
+                <div className="text-3xl font-display font-bold text-accent">{track.questions}</div>
                 <div className="text-xs text-muted-foreground mt-1">Questions</div>
               </div>
               <div className="text-center p-4 border border-border bg-muted/20">
-                <div className="text-3xl font-display font-bold text-accent">70%</div>
+                <div className="text-3xl font-display font-bold text-accent">{track.passPercent}%</div>
                 <div className="text-xs text-muted-foreground mt-1">To Pass</div>
               </div>
               <div className="text-center p-4 border border-border bg-muted/20">
-                <div className="text-3xl font-display font-bold text-accent">{TOTAL_QUESTIONS}</div>
+                <div className="text-3xl font-display font-bold text-accent">{questions.length}</div>
                 <div className="text-xs text-muted-foreground mt-1">In Bank</div>
-              </div>
-            </div>
-
-            <div className="h-px bg-border" />
-
-            {/* What to Expect */}
-            <div className="space-y-6">
-              <h2 className="font-display text-xl font-bold text-center">What to Expect</h2>
-              <div className="grid sm:grid-cols-3 gap-4">
-                <div className="flex flex-col items-center text-center p-4 space-y-2">
-                  <div className="w-10 h-10 bg-accent/10 border border-accent/20 flex items-center justify-center">
-                    <BookOpen className="w-5 h-5 text-accent" />
-                  </div>
-                  <h3 className="font-bold text-sm">Multiple Choice</h3>
-                  <p className="text-xs text-muted-foreground">
-                    Each question has 4 options with detailed explanations after answering.
-                  </p>
-                </div>
-                <div className="flex flex-col items-center text-center p-4 space-y-2">
-                  <div className="w-10 h-10 bg-accent/10 border border-accent/20 flex items-center justify-center">
-                    <Target className="w-5 h-5 text-accent" />
-                  </div>
-                  <h3 className="font-bold text-sm">Instant Feedback</h3>
-                  <p className="text-xs text-muted-foreground">
-                    See correct answers immediately with explanations for each question.
-                  </p>
-                </div>
-                <div className="flex flex-col items-center text-center p-4 space-y-2">
-                  <div className="w-10 h-10 bg-accent/10 border border-accent/20 flex items-center justify-center">
-                    <HardHat className="w-5 h-5 text-accent" />
-                  </div>
-                  <h3 className="font-bold text-sm">Real Exam Topics</h3>
-                  <p className="text-xs text-muted-foreground">
-                    Questions cover safety, load charts, rigging, operations, and more.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="h-px bg-border" />
-
-            {/* Topics Covered */}
-            <div className="space-y-4">
-              <h2 className="font-display text-xl font-bold text-center">Topics Covered</h2>
-              <div className="flex flex-wrap justify-center gap-2">
-                {[
-                  "Safety & Legislation",
-                  "Load Charts & Calculations",
-                  "Rigging & Slinging",
-                  "Crane Components",
-                  "Communication",
-                  "Site Conditions",
-                  "Inspection & Maintenance",
-                  "Emergency Procedures",
-                ].map((topic) => (
-                  <span
-                    key={topic}
-                    className="px-3 py-1.5 text-xs font-medium bg-muted/50 border border-border"
-                  >
-                    {topic}
-                  </span>
-                ))}
               </div>
             </div>
 
@@ -163,7 +148,7 @@ export default function TestPage() {
                 onClick={handleStartTest}
                 className="w-full bg-accent text-accent-foreground hover:bg-accent/90 h-14 text-lg font-bold"
               >
-                Start Practice Test
+                Start {track.title}
               </Button>
               <p className="text-center text-xs text-muted-foreground">
                 Questions are randomly selected each time you practice.

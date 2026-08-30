@@ -6,6 +6,7 @@ import { AnswerOption } from "./answer-option";
 import { ExplanationPanel } from "./explanation-panel";
 import { ChartDisplay } from "./chart-display";
 import { FileSpreadsheet, ExternalLink } from "lucide-react";
+import { EXAM_SHORT, examBadgeClass } from "@/data/exam-tracks";
 
 interface QuestionCardProps {
   question: Question;
@@ -15,6 +16,8 @@ interface QuestionCardProps {
   questionNumber: number;
   totalQuestions: number;
   isReviewMode?: boolean;
+  /** Hide exam badges and source lines (closed-book sitting). */
+  hideMeta?: boolean;
 }
 
 export function QuestionCard({
@@ -25,6 +28,7 @@ export function QuestionCard({
   questionNumber,
   totalQuestions,
   isReviewMode = false,
+  hideMeta = false,
 }: QuestionCardProps) {
   const chartPdf = question.chartPdf;
   const chartName = question.chartName;
@@ -39,15 +43,31 @@ export function QuestionCard({
     >
       {/* Question Header */}
       <div className="space-y-4">
-        <div className="flex flex-wrap items-center gap-3">
+        <div className="flex flex-wrap items-center gap-2">
           <span className="category-label">Question {questionNumber}</span>
-          {question.category && (
-            <>
-              <span className="text-muted-foreground">·</span>
-              <span className="text-xs text-muted-foreground">{question.category}</span>
-            </>
+          {question.category && !hideMeta && (
+            <span className="text-xs text-muted-foreground">{question.category}</span>
           )}
         </div>
+        {(question.exams?.length || question.src) && !hideMeta && (
+          <div className="space-y-2">
+            {question.exams && question.exams.length > 0 && (
+              <div className="flex flex-wrap gap-1.5">
+                {question.exams.map((exam) => (
+                  <span
+                    key={exam}
+                    className={`text-[10px] font-semibold uppercase tracking-wider px-1.5 py-0.5 border ${examBadgeClass(exam)}`}
+                  >
+                    {EXAM_SHORT[exam]}
+                  </span>
+                ))}
+              </div>
+            )}
+            {question.src && (
+              <p className="text-xs text-muted-foreground leading-relaxed">{question.src}</p>
+            )}
+          </div>
+        )}
         {chartPdf && (
           <a
             href={`/load-charts/${chartPdf}`}

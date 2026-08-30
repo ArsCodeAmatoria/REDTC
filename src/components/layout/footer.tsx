@@ -20,7 +20,7 @@ export function Footer() {
               Red Seal Tower Crane exam preparation. Master load charts, safety protocols, and operational knowledge.
             </p>
             <div className="flex gap-4 text-xs text-muted-foreground">
-              <span>1000+ Questions</span>
+              <span>1,160+ Questions</span>
               <span>•</span>
               <span>14 Load Charts</span>
             </div>

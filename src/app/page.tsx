@@ -3,10 +3,13 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, BookOpen, ChevronRight, Award, HardHat, FileText, GraduationCap, Shield, Timer, FileSpreadsheet, Calculator } from "lucide-react";
+import { ArrowRight, ChevronRight, Award, HardHat, GraduationCap, Timer, FileSpreadsheet, Calculator, Smartphone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import questionsData from "@/data/questions.json";
+
+const QUESTION_COUNT = (questionsData as { id: number }[]).length;
+const QUESTION_COUNT_LABEL = QUESTION_COUNT.toLocaleString("en-US");
 
 const categories = [
   { name: "Load Charts & Parts of Line", count: 140, color: "bg-accent" },
@@ -29,7 +32,7 @@ const categories = [
 const features = [
   {
     label: "Practice",
-    title: "1,124 exam questions with detailed explanations",
+    title: `${QUESTION_COUNT_LABEL} exam questions tagged to B.C. papers`,
     description: "Every question includes why the correct answer is right and why others are wrong.",
   },
   {
@@ -47,32 +50,65 @@ const features = [
 const certificationSteps = [
   {
     step: "01",
-    title: "Register as Apprentice",
-    description: "Sign up with SkilledTradesBC (formerly ITA) and find a sponsor employer.",
+    title: "Register",
+    description: "Register with BC Crane Safety (required for every crane operator in B.C.), then enrol with SkilledTradesBC as an apprentice or trade qualifier with a sponsor employer.",
   },
   {
     step: "02",
-    title: "Complete Work Hours",
-    description: "Accumulate 4,200 hours of supervised on-the-job training operating tower cranes.",
+    title: "Get Provisional Status",
+    description: "Pass Fulford’s Level B provisional theory exam so you can operate under a written supervision plan while you train.",
   },
   {
     step: "03",
-    title: "Technical Training",
-    description: "Complete required technical training levels at an approved training provider.",
+    title: "Train & Log Hours",
+    description: "Complete two levels of technical training (175 + 140 hours) and 2,685 hours of work-based training. Log crane hours in SkillRecord Passport; your SkilledTradesBC sponsor reports apprenticeship hours in the Portal.",
   },
   {
     step: "04",
-    title: "Pass Red Seal Exam",
-    description: "Write and pass the interprovincial Red Seal certification examination.",
+    title: "Pass Exams & Practical",
+    description: "Pass SkilledTradesBC Level 1 and Level 2 exams, the Interprovincial Red Seal exam, and a Fulford practical assessment.",
   },
 ];
 
 const examTopics = [
-  { topic: "Occupational Skills", percentage: 12 },
-  { topic: "Crane Setup & Dismantling", percentage: 18 },
-  { topic: "Crane Operations", percentage: 40 },
-  { topic: "Rigging", percentage: 18 },
-  { topic: "Maintenance & Troubleshooting", percentage: 12 },
+  { topic: "Occupational Skills", percentage: 11 },
+  { topic: "Inspects & Maintains Crane", percentage: 21 },
+  { topic: "Set-up, Calculations & Lift Planning", percentage: 23 },
+  { topic: "Rigging", percentage: 17 },
+  { topic: "Operates Crane", percentage: 28 },
+];
+
+const authorities = [
+  {
+    name: "WorkSafeBC",
+    role: "Regulator",
+    description: "OHS Regulation Part 14 (Cranes and Hoists) and Part 15 (Rigging) make operator certification mandatory and set the rules for lifts, signals, and equipment.",
+    href: "https://www.worksafebc.com/en/law-policy/occupational-health-safety/searchable-ohs-regulation/ohs-regulation/part-14-cranes-and-hoists",
+  },
+  {
+    name: "BC Crane Safety",
+    role: "Administrator",
+    description: "Administers the B.C. and Yukon crane operator certification system. Registration is required before you train or operate. They do not deliver training or exams.",
+    href: "https://bccranesafety.ca/",
+  },
+  {
+    name: "SkilledTradesBC",
+    role: "Apprenticeship",
+    description: "Runs the Tower Crane Operator apprenticeship, Standardized Level Exams, the Red Seal exam sitting, and issues the B.C. Certificate of Qualification.",
+    href: "https://skilledtradesbc.ca/tower-crane-operator",
+  },
+  {
+    name: "Fulford Certification",
+    role: "Testing partner",
+    description: "Independent assessor for BC Crane Safety. Issues Level B provisional certificates and conducts the on-crane practical assessment for full-scope certification.",
+    href: "https://fulford.ca/",
+  },
+  {
+    name: "Red Seal Program",
+    role: "National standard",
+    description: "Sets the 2023 Red Seal Occupational Standard and the 100-question interprovincial exam. A Red Seal endorsement on your CofQ is recognized across Canada.",
+    href: "https://www.red-seal.ca/eng/trades/tower-crane-op.shtml",
+  },
 ];
 
 export default function HomePage() {
@@ -104,8 +140,8 @@ export default function HomePage() {
               </h1>
 
               <p className="text-lg text-muted-foreground max-w-xl leading-relaxed">
-                Practice with 1,124 questions including Master Level problems covering advanced calculations,
-                structural engineering, and emergency scenarios.
+                Practice with {QUESTION_COUNT_LABEL} questions tagged to Fulford Level B, SkilledTradesBC
+                Level 1 and 2, Red Seal IP, and the load-chart practical — WorkSafeBC Part 14 and Part 15.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3">
@@ -132,7 +168,7 @@ export default function HomePage() {
               className="flex w-full min-w-0 flex-col divide-y divide-x-0 border border-border sm:flex-row sm:divide-x sm:divide-y-0 lg:flex-col lg:divide-x-0 lg:divide-y shrink-0"
             >
               <div className="flex flex-1 flex-col gap-1 px-4 py-5 sm:min-w-0 sm:px-6 lg:px-8 lg:py-6">
-                <div className="text-4xl sm:text-5xl font-display font-bold tabular-nums">1,124</div>
+                <div className="text-4xl sm:text-5xl font-display font-bold tabular-nums">{QUESTION_COUNT_LABEL}</div>
                 <div className="text-sm text-muted-foreground">Questions</div>
               </div>
               <div className="flex flex-1 flex-col gap-1 px-4 py-5 sm:min-w-0 sm:px-6 lg:px-8 lg:py-6">
@@ -140,8 +176,8 @@ export default function HomePage() {
                 <div className="text-sm text-muted-foreground">Pass Mark</div>
               </div>
               <div className="flex flex-1 flex-col gap-1 px-4 py-5 sm:min-w-0 sm:px-6 lg:px-8 lg:py-6">
-                <div className="text-4xl sm:text-5xl font-display font-bold tabular-nums">2026</div>
-                <div className="text-sm text-muted-foreground">Standards</div>
+                <div className="text-4xl sm:text-5xl font-display font-bold tabular-nums">2023</div>
+                <div className="text-sm text-muted-foreground">RSOS Exam</div>
               </div>
             </motion.div>
           </div>
@@ -193,18 +229,17 @@ export default function HomePage() {
               </div>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  The <strong className="text-foreground">Red Seal Program</strong> is the Canadian interprovincial standard 
-                  of excellence in skilled trades. A Red Seal endorsement on your provincial/territorial trade certificate 
-                  allows you to practice your trade in any province or territory in Canada without additional examination.
+                  The <strong className="text-foreground">Red Seal Program</strong> is Canada’s interprovincial standard
+                  of excellence in the skilled trades. A Red Seal endorsement on your provincial Certificate of Qualification
+                  lets you work as a Tower Crane Operator in other Red Seal jurisdictions without rewriting the exam.
                 </p>
                 <p>
-                  For <strong className="text-foreground">Tower Crane Operators</strong>, the Red Seal certification 
-                  demonstrates that you have met the national standard of competency for safely operating tower cranes 
-                  on construction sites across Canada.
+                  The current exam is based on the <strong className="text-foreground">2023 Red Seal Occupational Standard (RSOS)</strong>,
+                  not the older National Occupational Analysis. Interprovincial exams were aligned to that standard in 2025.
                 </p>
                 <p>
-                  The certification is recognized nationwide and is often required by major construction companies, 
-                  making it essential for career advancement in the crane operation industry.
+                  In B.C., a Tower Crane Operator CofQ is still valid on its own. If you already hold one, you can add
+                  the Red Seal endorsement by writing and passing the Interprovincial Red Seal exam through SkilledTradesBC.
                 </p>
               </div>
             </div>
@@ -215,7 +250,7 @@ export default function HomePage() {
                 </div>
                 <div>
                   <h3 className="font-semibold">Interprovincial Recognition</h3>
-                  <p className="text-sm text-muted-foreground">Work anywhere in Canada</p>
+                  <p className="text-sm text-muted-foreground">Work in other Red Seal jurisdictions</p>
                 </div>
               </div>
               <div className="h-px bg-border" />
@@ -224,8 +259,8 @@ export default function HomePage() {
                   <HardHat className="w-5 h-5 text-accent-foreground" />
                 </div>
                 <div>
-                  <h3 className="font-semibold">Industry Standard</h3>
-                  <p className="text-sm text-muted-foreground">Required by major employers</p>
+                  <h3 className="font-semibold">B.C. compulsory trade</h3>
+                  <p className="text-sm text-muted-foreground">Skilled Trades Certification from July 5, 2027</p>
                 </div>
               </div>
               <div className="h-px bg-border" />
@@ -243,65 +278,290 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Hour Requirements Section */}
+      {/* Who Does What */}
       <section className="border-b border-border bg-muted/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="text-center mb-12">
-            <span className="category-label">Requirements</span>
-            <h2 className="font-display text-3xl md:text-4xl font-bold mt-2">Hour Requirements for Certification</h2>
+            <span className="category-label">British Columbia</span>
+            <h2 className="font-display text-3xl md:text-4xl font-bold mt-2">Who runs certification in B.C.</h2>
             <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
-              In British Columbia, Tower Crane Operators must complete a structured apprenticeship program 
-              before being eligible to write the Red Seal examination.
+              Five organizations share the system. Registration, testing, apprenticeship, and workplace law
+              are separate jobs — mixing them up is a common source of bad exam-prep advice.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {authorities.map((item) => (
+              <a
+                key={item.name}
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block bg-background border border-border p-5 hover:border-accent transition-colors h-full"
+              >
+                <span className="text-xs font-bold uppercase tracking-wider text-accent">{item.role}</span>
+                <h3 className="font-display text-lg font-semibold mt-2">{item.name}</h3>
+                <p className="text-sm text-muted-foreground mt-2">{item.description}</p>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* SkilledTradesBC + SkillRecord Passport */}
+      <section className="border-b border-border">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <div className="text-center mb-12">
+            <span className="category-label">Register and log hours</span>
+            <h2 className="font-display text-3xl md:text-4xl font-bold mt-2">SkilledTradesBC and the Passport app</h2>
+            <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
+              Two official systems. SkilledTradesBC runs the apprenticeship and exams in a web portal.
+              BC Crane Safety issues the SkillRecord Passport app for your crane logbook.
             </p>
           </div>
 
+          <div className="grid lg:grid-cols-2 gap-6">
+            <div className="border border-border p-6 md:p-8 space-y-5 bg-background">
+              <div>
+                <span className="text-xs font-bold uppercase tracking-wider text-accent">Apprenticeship</span>
+                <h3 className="font-display text-2xl font-bold mt-1">SkilledTradesBC — Tower Crane Operator</h3>
+                <p className="text-sm text-muted-foreground mt-3">
+                  Two-level Red Seal trade. Register with a sponsor after BC Crane Safety registration.
+                  Technical training is about nine weeks over two years (Level 1: 175 hours, Level 2: 140 hours).
+                  Work-based training is 2,685 hours. Pass mark on level exams and the IP is 70%. No code book.
+                </p>
+              </div>
+              <ul className="text-sm text-muted-foreground space-y-2">
+                <li className="flex gap-2">
+                  <span className="w-1.5 h-1.5 bg-accent mt-1.5 shrink-0" />
+                  Book Level 1 SLE, Level 2 SLE, and the Red Seal IP; see results
+                </li>
+                <li className="flex gap-2">
+                  <span className="w-1.5 h-1.5 bg-accent mt-1.5 shrink-0" />
+                  Sponsors report work-based hours (every 3–6 months recommended)
+                </li>
+                <li className="flex gap-2">
+                  <span className="w-1.5 h-1.5 bg-accent mt-1.5 shrink-0" />
+                  Trade qualifier / challenge path: 3,000 crane-related hours
+                </li>
+                <li className="flex gap-2">
+                  <span className="w-1.5 h-1.5 bg-accent mt-1.5 shrink-0" />
+                  Compulsory trade after July 5, 2027 — apprentice, trade qualifier, or journeyperson
+                </li>
+              </ul>
+              <div className="flex flex-wrap gap-2 pt-1">
+                <a
+                  href="https://skilledtradesbc.ca/tower-crane-operator"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center h-11 px-4 bg-accent text-accent-foreground text-sm font-bold hover:bg-accent/90"
+                >
+                  Tower Crane Operator
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </a>
+                <a
+                  href="https://portal.skilledtradesbc.ca/Account/Login/Register"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center h-11 px-4 border border-border text-sm font-medium hover:bg-muted"
+                >
+                  Create a Portal account
+                </a>
+                <a
+                  href="https://portal.skilledtradesbc.ca/Account/Login/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center h-11 px-4 border border-border text-sm font-medium hover:bg-muted"
+                >
+                  Portal sign-in
+                </a>
+              </div>
+              <p className="text-xs text-muted-foreground">
+                There is no SkilledTradesBC app on the App Store or Google Play. Hours toward your CofQ are reported in the{" "}
+                <a
+                  href="https://skilledtradesbc.ca/manage-apprenticeship-information-skilledtradesbc-portal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-foreground underline underline-offset-2 hover:text-accent"
+                >
+                  SkilledTradesBC Portal
+                </a>
+                {" "}(mobile-friendly website). Customer service: 1-866-660-6011.
+              </p>
+            </div>
+
+            <div className="border border-border p-6 md:p-8 space-y-5 bg-background">
+              <div className="flex items-start gap-3">
+                <div className="w-10 h-10 border border-border flex items-center justify-center shrink-0">
+                  <Smartphone className="w-5 h-5" />
+                </div>
+                <div>
+                  <span className="text-xs font-bold uppercase tracking-wider text-accent">Logbook app</span>
+                  <h3 className="font-display text-2xl font-bold mt-1">SkillRecord Passport</h3>
+                </div>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                Free iOS and Android app provided to every BC Crane Safety member. This is the crane operator logbook
+                (it replaced SkillRecord Logbook in April 2024). Provisional operators must keep a logbook; WorkSafeBC
+                may ask to see it. SkilledTradesBC apprentices are expected to use it for operating hours.
+              </p>
+              <ul className="text-sm text-muted-foreground space-y-2">
+                <li className="flex gap-2">
+                  <span className="w-1.5 h-1.5 bg-accent mt-1.5 shrink-0" />
+                  Log daily crane time, photos, and supervisor sign-offs
+                </li>
+                <li className="flex gap-2">
+                  <span className="w-1.5 h-1.5 bg-accent mt-1.5 shrink-0" />
+                  See your BC Crane Safety ID and current credentials
+                </li>
+                <li className="flex gap-2">
+                  <span className="w-1.5 h-1.5 bg-accent mt-1.5 shrink-0" />
+                  Sign in with the same email you used to register with BC Crane Safety
+                </li>
+              </ul>
+              <div className="flex flex-wrap items-center gap-3">
+                <a
+                  href="https://apps.apple.com/ca/app/skillrecord-passport/id1606993730"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                  aria-label="Download SkillRecord Passport on the App Store"
+                >
+                  {/* Official Apple badge: https://toolbox.marketingtools.apple.com */}
+                  <img
+                    src="/images/store-badges/download-on-the-app-store-white.svg"
+                    alt="Download on the App Store"
+                    width={120}
+                    height={40}
+                    className="h-10 w-auto"
+                  />
+                </a>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.skillrecord.skillspassport"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                  aria-label="Get SkillRecord Passport on Google Play"
+                >
+                  {/* Official Google Play badge: https://play.google.com/intl/en_us/badges/ */}
+                  <img
+                    src="/images/store-badges/get-it-on-google-play.png"
+                    alt="Get it on Google Play"
+                    width={134}
+                    height={40}
+                    className="h-10 w-auto"
+                  />
+                </a>
+              </div>
+              <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs">
+                <a
+                  href="https://bccranesafety.ca/resources/crane-operator-logbook/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-foreground underline underline-offset-2 hover:text-accent"
+                >
+                  Logbook &amp; Passport guide
+                </a>
+                <a
+                  href="https://bccranesafety.ca/resources/crane-operator-logbook/skillrecord-passport-app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-foreground underline underline-offset-2 hover:text-accent"
+                >
+                  Get the app (BC Crane Safety)
+                </a>
+                <a
+                  href="https://bccranesafety.ca/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-foreground underline underline-offset-2 hover:text-accent"
+                >
+                  Register with BC Crane Safety first
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Hour Requirements Section */}
+      <section className="border-b border-border">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <div className="text-center mb-12">
+            <span className="category-label">Requirements</span>
+            <h2 className="font-display text-3xl md:text-4xl font-bold mt-2">B.C. apprenticeship requirements</h2>
+            <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
+              Tower Crane Operator is a two-level Red Seal trade at SkilledTradesBC — not a three-level, 4,200-hour program.
+              Technical training is typically nine weeks over two years.
+            </p>
+          </div>
+
+          <div className="mb-10 border border-accent/40 bg-accent/5 p-5 md:p-6">
+            <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-3">
+              <div>
+                <span className="text-xs font-bold uppercase tracking-wider text-accent">Skilled Trades Certification</span>
+                <h3 className="font-display text-xl font-semibold mt-1">Compulsory trade as of July 5, 2027</h3>
+                <p className="text-sm text-muted-foreground mt-2 max-w-3xl">
+                  A one-year transition began July 6, 2026. After July 5, 2027, Tower Crane Operators in B.C. must be
+                  a registered apprentice, a trade qualifier, or a certified journeyperson. Existing B.C. CofQ or
+                  Red Seal holders already meet the requirement. Employers will also need a 2:1 apprentice-to-journeyperson ratio.
+                </p>
+              </div>
+              <a
+                href="https://skilledtradesbc.ca/skilledtradescertification"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-medium text-accent hover:underline shrink-0"
+              >
+                Official details
+              </a>
+            </div>
+          </div>
+
           <div className="grid md:grid-cols-3 gap-6 mb-12">
-            <div className="bg-background border border-border p-6 text-center">
-              <div className="text-5xl font-display font-bold text-accent">4,200</div>
-              <div className="text-lg font-semibold mt-2">Work Hours</div>
+            <div className="bg-muted/20 border border-border p-6 text-center">
+              <div className="text-5xl font-display font-bold text-accent">2,685</div>
+              <div className="text-lg font-semibold mt-2">Work-Based Hours</div>
               <p className="text-sm text-muted-foreground mt-2">
-                Minimum on-the-job training hours required under supervision of a certified journeyperson
+                Apprenticeship hours logged with a sponsor, including at least 1,000 hours operating a tower crane
+                with a mast of 90 ft or more, and 1,000 hours of documented rigging.
               </p>
             </div>
-            <div className="bg-background border border-border p-6 text-center">
-              <div className="text-5xl font-display font-bold">3</div>
-              <div className="text-lg font-semibold mt-2">Levels of Training</div>
+            <div className="bg-muted/20 border border-border p-6 text-center">
+              <div className="text-5xl font-display font-bold">2</div>
+              <div className="text-lg font-semibold mt-2">Technical Levels</div>
               <p className="text-sm text-muted-foreground mt-2">
-                Technical training levels completed at approved institutions throughout apprenticeship
+                Level 1 is 175 hours (about 5 weeks) and Level 2 is 140 hours (about 4 weeks) at a
+                SkilledTradesBC-designated training provider. Pass mark is 70% at each level.
               </p>
             </div>
-            <div className="bg-background border border-border p-6 text-center">
-              <div className="text-5xl font-display font-bold">2-3</div>
-              <div className="text-lg font-semibold mt-2">Years Duration</div>
+            <div className="bg-muted/20 border border-border p-6 text-center">
+              <div className="text-5xl font-display font-bold">3,000</div>
+              <div className="text-lg font-semibold mt-2">Challenge Hours</div>
               <p className="text-sm text-muted-foreground mt-2">
-                Typical time to complete the full apprenticeship program depending on work availability
+                Experienced operators can apply as a trade qualifier with 3,000 crane-related hours
+                (same 1,000-hour rigging and 90 ft mast operating minimums) instead of a full apprenticeship.
               </p>
             </div>
           </div>
 
-          <div className="bg-background border border-border p-6">
-            <h3 className="font-display text-xl font-semibold mb-4">Hour Breakdown by Level</h3>
-            <div className="grid sm:grid-cols-3 gap-4">
-              <div className="flex items-center gap-3">
-                <div className="w-8 h-8 bg-accent flex items-center justify-center text-accent-foreground font-bold text-sm">1</div>
-                <div>
-                  <div className="font-medium">Level 1</div>
-                  <div className="text-sm text-muted-foreground">0 - 1,400 hours</div>
-                </div>
+          <div className="bg-muted/20 border border-border p-6">
+            <h3 className="font-display text-xl font-semibold mb-4">What you still have to pass</h3>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              <div>
+                <div className="font-medium">Fulford Level B</div>
+                <div className="text-sm text-muted-foreground">40-question provisional theory exam, 70% to pass. Required to operate under supervision.</div>
               </div>
-              <div className="flex items-center gap-3">
-                <div className="w-8 h-8 bg-accent flex items-center justify-center text-accent-foreground font-bold text-sm">2</div>
-                <div>
-                  <div className="font-medium">Level 2</div>
-                  <div className="text-sm text-muted-foreground">1,400 - 2,800 hours</div>
-                </div>
+              <div>
+                <div className="font-medium">Level 1 &amp; 2 SLEs</div>
+                <div className="text-sm text-muted-foreground">SkilledTradesBC Standardized Level Exams. 70% each; Level 1 before Level 2.</div>
               </div>
-              <div className="flex items-center gap-3">
-                <div className="w-8 h-8 bg-accent flex items-center justify-center text-accent-foreground font-bold text-sm">3</div>
-                <div>
-                  <div className="font-medium">Level 3</div>
-                  <div className="text-sm text-muted-foreground">2,800 - 4,200 hours</div>
-                </div>
+              <div>
+                <div className="font-medium">Red Seal IP Exam</div>
+                <div className="text-sm text-muted-foreground">100 multiple-choice questions, 70% to pass, based on the 2023 RSOS.</div>
+              </div>
+              <div>
+                <div className="font-medium">Fulford Practical</div>
+                <div className="text-sm text-muted-foreground">On-crane full-scope assessment booked through Fulford after the written exams.</div>
               </div>
             </div>
           </div>
@@ -313,7 +573,10 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="text-center mb-12">
             <span className="category-label">Path to Certification</span>
-            <h2 className="font-display text-3xl md:text-4xl font-bold mt-2">How to Get Your Red Seal</h2>
+            <h2 className="font-display text-3xl md:text-4xl font-bold mt-2">How certification works in B.C.</h2>
+            <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
+              BC Crane Safety registration first. Then SkilledTradesBC apprenticeship or challenge, Fulford testing, and the Red Seal exam.
+            </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -352,17 +615,17 @@ export default function HomePage() {
               </div>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  The Red Seal examination for Tower Crane Operators is a comprehensive test that evaluates your 
-                  knowledge and understanding of all aspects of tower crane operation.
+                  The Interprovincial Red Seal exam for Tower Crane Operator has <strong className="text-foreground">100 multiple-choice questions</strong>,
+                  each with four options. The pass mark is 70%. Questions are drawn from the 2023 RSOS, not the former NOA.
                 </p>
                 <div className="grid grid-cols-2 gap-4 py-4">
                   <div className="border border-border p-4">
-                    <div className="text-2xl font-display font-bold">120</div>
+                    <div className="text-2xl font-display font-bold">100</div>
                     <div className="text-sm text-muted-foreground">Questions on exam</div>
                   </div>
                   <div className="border border-border p-4">
                     <div className="text-2xl font-display font-bold">4 hrs</div>
-                    <div className="text-sm text-muted-foreground">Time limit</div>
+                    <div className="text-sm text-muted-foreground">Typical time limit</div>
                   </div>
                   <div className="border border-border p-4">
                     <div className="text-2xl font-display font-bold">70%</div>
@@ -370,12 +633,12 @@ export default function HomePage() {
                   </div>
                   <div className="border border-border p-4">
                     <div className="text-2xl font-display font-bold">MC</div>
-                    <div className="text-sm text-muted-foreground">Multiple choice</div>
+                    <div className="text-sm text-muted-foreground">Four-option multiple choice</div>
                   </div>
                 </div>
                 <p>
-                  Questions are drawn from the National Occupational Analysis (NOA) and cover theory, safety, 
-                  calculations, and practical knowledge required for competent tower crane operation.
+                  In B.C. you sit the exam through SkilledTradesBC. No code book is provided. Formulas and acronyms
+                  are supplied at the sitting. You must pass the Level 1 Standardized Level Exam before attempting the Red Seal exam.
                 </p>
               </div>
             </div>
@@ -402,7 +665,7 @@ export default function HomePage() {
                 ))}
               </div>
               <p className="text-sm text-muted-foreground pt-4">
-                * Percentages based on National Occupational Analysis for Tower Crane Operator trade.
+                Question counts from the official Red Seal Tower Crane Operator exam breakdown (2023 RSOS). Percentages shown are rounded.
               </p>
             </div>
           </div>
@@ -416,21 +679,18 @@ export default function HomePage() {
             <div className="space-y-6">
               <div>
                 <span className="category-label">Simulation</span>
-                <h2 className="font-display text-3xl md:text-4xl font-bold mt-2">Master Exam Mode</h2>
+                <h2 className="font-display text-3xl md:text-4xl font-bold mt-2">Master Exam</h2>
               </div>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Ready to test yourself under real exam conditions? Our <strong className="text-foreground">Master Exam</strong> simulates 
-                  the actual Red Seal certification examination with 120 questions and a strict 4-hour time limit.
+                  Closed-book simulation of the Interprovincial exam: <strong className="text-foreground">100 questions</strong>,
+                  4 hours, <strong className="text-foreground">70/100 to pass</strong>, weighted to the 2023 RSOS task counts.
+                  No answer key until you submit. The official formula and acronym sheet is available during the sitting.
                 </p>
                 <p>
-                  This comprehensive test draws from our entire question bank of 1,325+ questions — including load chart 
-                  questions with links to open the chart PDF. Covers all exam topics: advanced load calculations, structural 
-                  engineering, rigging mastery, load chart reading, and emergency scenarios.
-                </p>
-                <p>
-                  The timer cannot be paused once started, and unanswered questions count as incorrect — just like the real exam. 
-                  Use this mode when you&apos;re ready for a full dress rehearsal before your certification day.
+                  The paper is built like the real exam: A 11 · B 21 · C 23 · D 17 · E 28, including a few manufacturer
+                  load-chart items in lift planning. Unanswered questions count as incorrect. Time expiry submits what you have —
+                  you still pass if you have 70.
                 </p>
               </div>
               <div className="pt-2">
@@ -445,7 +705,7 @@ export default function HomePage() {
             <div className="space-y-4">
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-background border border-border p-6 text-center">
-                  <div className="text-4xl font-display font-bold">120</div>
+                  <div className="text-4xl font-display font-bold">100</div>
                   <div className="text-sm text-muted-foreground mt-1">Questions</div>
                 </div>
                 <div className="bg-background border border-border p-6 text-center">
@@ -457,32 +717,32 @@ export default function HomePage() {
                   <div className="text-sm text-muted-foreground mt-1">Pass Rate</div>
                 </div>
                 <div className="bg-background border border-border p-6 text-center">
-                  <div className="text-4xl font-display font-bold">1,325+</div>
+                  <div className="text-4xl font-display font-bold">1,300+</div>
                   <div className="text-sm text-muted-foreground mt-1">Question Bank</div>
                 </div>
               </div>
               <div className="bg-background border border-border p-4 space-y-2">
-                <div className="text-sm font-medium">Master Exam includes:</div>
+                <div className="text-sm font-medium">Matches the IP sitting</div>
                 <ul className="text-sm text-muted-foreground space-y-1">
                   <li className="flex items-center gap-2">
                     <div className="w-1.5 h-1.5 bg-accent" />
-                    Load chart questions with Open Chart PDF link
+                    2023 RSOS task counts (A 11 · B 21 · C 23 · D 17 · E 28)
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="w-1.5 h-1.5 bg-accent" />
-                    Countdown timer with low-time warning
+                    Closed book — key and explanations after submit
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="w-1.5 h-1.5 bg-accent" />
-                    Randomized question selection
+                    Formula and acronym sheet (as at the sitting)
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="w-1.5 h-1.5 bg-accent" />
-                    Auto-submit when time expires
+                    Skip, flag, change answers; auto-submit at 4:00
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="w-1.5 h-1.5 bg-accent" />
-                    Detailed results breakdown
+                    Results by major work activity
                   </li>
                 </ul>
               </div>
@@ -645,7 +905,7 @@ export default function HomePage() {
           <div className="text-center mb-10">
             <span className="category-label">Topics</span>
             <h2 className="font-display text-2xl md:text-3xl font-bold mt-1">Question Categories</h2>
-            <p className="text-sm text-muted-foreground mt-2">1,124 questions across exam topics</p>
+            <p className="text-sm text-muted-foreground mt-2">{QUESTION_COUNT_LABEL} questions across exam topics</p>
           </div>
 
           {/* Featured: Load Charts & PDF Practice */}
@@ -717,7 +977,7 @@ export default function HomePage() {
                 <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 via-black/50 to-transparent">
                   <span className="category-label">Certification</span>
                   <h3 className="font-display text-xl font-bold mt-2 text-white">Build Your Career</h3>
-                  <p className="text-sm text-white/70 mt-2">Red Seal opens doors across Canada</p>
+                  <p className="text-sm text-white/70 mt-2">B.C. CofQ plus Red Seal endorsement</p>
                 </div>
               </div>
             </div>
@@ -740,7 +1000,7 @@ export default function HomePage() {
                   <div>
                     <span className="text-xs font-bold uppercase tracking-wider text-accent">Featured</span>
                     <h3 className="font-display text-xl font-bold mt-1 group-hover:text-accent transition-colors">BC Crane Safety</h3>
-                    <p className="text-muted-foreground mt-2">Provincial authority for crane operator certification in British Columbia</p>
+                    <p className="text-muted-foreground mt-2">Administers crane operator certification in B.C. and Yukon. Register here before you train or operate — they do not deliver exams.</p>
                   </div>
                   <ChevronRight className="w-5 h-5 text-muted-foreground group-hover:text-accent mt-1 transition-colors" />
                 </div>
@@ -749,33 +1009,63 @@ export default function HomePage() {
               {/* Resource Grid */}
               <div className="grid sm:grid-cols-2 gap-4">
                 <a
-                  href="https://skilledtradesbc.ca/"
+                  href="https://skilledtradesbc.ca/tower-crane-operator"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group p-4 border-l-4 border-accent bg-muted/30 hover:bg-muted/50 transition-colors"
                 >
-                  <h3 className="font-bold group-hover:text-accent transition-colors">SkilledTradesBC</h3>
-                  <p className="text-sm text-muted-foreground mt-1">Apprenticeship registration</p>
+                  <h3 className="font-bold group-hover:text-accent transition-colors">SkilledTradesBC Tower Crane</h3>
+                  <p className="text-sm text-muted-foreground mt-1">Trade page, exams, 2,685 hours, CofQ</p>
                 </a>
 
                 <a
-                  href="https://www.red-seal.ca/"
+                  href="https://portal.skilledtradesbc.ca/Account/Login/Register"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group p-4 border-l-4 border-accent bg-muted/30 hover:bg-muted/50 transition-colors"
+                >
+                  <h3 className="font-bold group-hover:text-accent transition-colors">SkilledTradesBC Portal</h3>
+                  <p className="text-sm text-muted-foreground mt-1">Register, hours, book exams</p>
+                </a>
+
+                <a
+                  href="https://bccranesafety.ca/resources/crane-operator-logbook/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group p-4 border-l-4 border-accent bg-muted/30 hover:bg-muted/50 transition-colors"
+                >
+                  <h3 className="font-bold group-hover:text-accent transition-colors">SkillRecord Passport</h3>
+                  <p className="text-sm text-muted-foreground mt-1">Free iOS &amp; Android crane logbook</p>
+                </a>
+
+                <a
+                  href="https://www.red-seal.ca/eng/trades/towercrane_op/exam-information.shtml"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group p-4 border-l-4 border-accent bg-muted/30 hover:bg-muted/50 transition-colors"
                 >
                   <h3 className="font-bold group-hover:text-accent transition-colors">Red Seal Program</h3>
-                  <p className="text-sm text-muted-foreground mt-1">National exam standards</p>
+                  <p className="text-sm text-muted-foreground mt-1">2023 RSOS and 100-question exam</p>
                 </a>
 
                 <a
-                  href="https://www.worksafebc.com/"
+                  href="https://www.worksafebc.com/en/law-policy/occupational-health-safety/searchable-ohs-regulation/ohs-regulation/part-14-cranes-and-hoists"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group p-4 border-l-4 border-foreground/20 hover:border-accent bg-muted/30 hover:bg-muted/50 transition-colors"
                 >
-                  <h3 className="font-bold group-hover:text-accent transition-colors">WorkSafeBC</h3>
-                  <p className="text-sm text-muted-foreground mt-1">Safety regulations</p>
+                  <h3 className="font-bold group-hover:text-accent transition-colors">WorkSafeBC Part 14</h3>
+                  <p className="text-sm text-muted-foreground mt-1">Cranes and hoists, operator certification</p>
+                </a>
+
+                <a
+                  href="https://www.worksafebc.com/en/law-policy/occupational-health-safety/searchable-ohs-regulation/ohs-regulation/part-15-rigging"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group p-4 border-l-4 border-foreground/20 hover:border-accent bg-muted/30 hover:bg-muted/50 transition-colors"
+                >
+                  <h3 className="font-bold group-hover:text-accent transition-colors">WorkSafeBC Part 15</h3>
+                  <p className="text-sm text-muted-foreground mt-1">Rigging, slings, and hand signals</p>
                 </a>
 
                 <a
@@ -785,7 +1075,7 @@ export default function HomePage() {
                   className="group p-4 border-l-4 border-foreground/20 hover:border-accent bg-muted/30 hover:bg-muted/50 transition-colors"
                 >
                   <h3 className="font-bold group-hover:text-accent transition-colors">Fulford Certification</h3>
-                  <p className="text-sm text-muted-foreground mt-1">Training in Western Canada</p>
+                  <p className="text-sm text-muted-foreground mt-1">Provisional exam and practical assessment</p>
                 </a>
               </div>
 
@@ -793,15 +1083,6 @@ export default function HomePage() {
               <div className="pt-6 border-t border-border">
                 <span className="text-xs font-bold uppercase tracking-wider text-muted-foreground">Industry Standards</span>
                 <div className="mt-3 flex flex-wrap gap-x-6 gap-y-2">
-                  <a
-                    href="https://www.asme.org/codes-standards/find-codes-standards/b30-3-tower-cranes"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="group inline-flex items-center gap-1 text-sm font-medium hover:text-accent transition-colors"
-                  >
-                    <span className="border-b border-transparent group-hover:border-accent">ASME B30</span>
-                    <ChevronRight className="w-3 h-3 opacity-50 group-hover:opacity-100" />
-                  </a>
                   <a
                     href="https://www.csagroup.org/store/product/Z248-17/"
                     target="_blank"
@@ -811,7 +1092,20 @@ export default function HomePage() {
                     <span className="border-b border-transparent group-hover:border-accent">CSA Z248</span>
                     <ChevronRight className="w-3 h-3 opacity-50 group-hover:opacity-100" />
                   </a>
+                  <a
+                    href="https://www.asme.org/codes-standards/find-codes-standards/b30-3-tower-cranes"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group inline-flex items-center gap-1 text-sm font-medium hover:text-accent transition-colors"
+                  >
+                    <span className="border-b border-transparent group-hover:border-accent">ASME B30.3</span>
+                    <ChevronRight className="w-3 h-3 opacity-50 group-hover:opacity-100" />
+                  </a>
                 </div>
+                <p className="text-xs text-muted-foreground mt-3">
+                  WorkSafeBC Part 14.2 requires tower, hammerhead, and self-erecting tower cranes to meet CSA Z248.
+                  Part 14.34.1 requires a valid operator certificate from a person acceptable to the Board — in B.C., that system is administered by BC Crane Safety.
+                </p>
               </div>
             </div>
           </div>

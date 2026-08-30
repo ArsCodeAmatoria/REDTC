@@ -10,6 +10,8 @@ const SEEN_QUESTIONS_KEY = "redtc-seen-questions";
 interface TestOptions {
   questionsPerTest?: number;
   passPercentage?: number;
+  /** Closed-book sitting: answers can change, no live key, skip allowed. */
+  examMode?: boolean;
 }
 
 export interface QuestionTiming {
@@ -104,6 +106,7 @@ function selectWeightedRandomQuestions(questions: Question[], count: number): Qu
 export function useTest(allQuestions: Question[], options: TestOptions = {}) {
   const questionsPerTest = options.questionsPerTest || DEFAULT_QUESTIONS_PER_TEST;
   const passPercentage = options.passPercentage || DEFAULT_PASS_PERCENTAGE;
+  const examMode = options.examMode === true;
   
   const [testQuestions, setTestQuestions] = useState<Question[]>(() => 
     selectWeightedRandomQuestions(allQuestions, questionsPerTest)
@@ -132,24 +135,25 @@ export function useTest(allQuestions: Question[], options: TestOptions = {}) {
 
   const selectAnswer = useCallback(
     (answerId: string) => {
-      if (state.showExplanation || !currentQuestion) return;
-      
+      if (!currentQuestion) return;
+      if (!examMode && state.showExplanation) return;
+
       const timeSpent = Date.now() - questionStartTime.current;
       setQuestionTimings(prev => ({
         ...prev,
         [currentQuestion.id]: timeSpent,
       }));
-      
+
       setState((prev) => ({
         ...prev,
         answers: {
           ...prev.answers,
           [currentQuestion.id]: answerId,
         },
-        showExplanation: true,
+        showExplanation: examMode ? false : true,
       }));
     },
-    [currentQuestion, state.showExplanation]
+    [currentQuestion, state.showExplanation, examMode]
   );
 
   const nextQuestion = useCallback(() => {
@@ -158,7 +162,9 @@ export function useTest(allQuestions: Question[], options: TestOptions = {}) {
       setState((prev) => ({
         ...prev,
         currentQuestionIndex: prev.currentQuestionIndex + 1,
-        showExplanation: !!prev.answers[testQuestions[prev.currentQuestionIndex + 1]?.id],
+        showExplanation: examMode
+          ? false
+          : !!prev.answers[testQuestions[prev.currentQuestionIndex + 1]?.id],
       }));
     } else {
       setTotalTestTime(Date.now() - testStartTime.current);
@@ -167,7 +173,7 @@ export function useTest(allQuestions: Question[], options: TestOptions = {}) {
         isComplete: true,
       }));
     }
-  }, [state.currentQuestionIndex, testQuestions]);
+  }, [state.currentQuestionIndex, testQuestions, examMode]);
 
   const previousQuestion = useCallback(() => {
     if (state.currentQuestionIndex > 0) {
@@ -175,10 +181,12 @@ export function useTest(allQuestions: Question[], options: TestOptions = {}) {
       setState((prev) => ({
         ...prev,
         currentQuestionIndex: prev.currentQuestionIndex - 1,
-        showExplanation: !!prev.answers[testQuestions[prev.currentQuestionIndex - 1]?.id],
+        showExplanation: examMode
+          ? false
+          : !!prev.answers[testQuestions[prev.currentQuestionIndex - 1]?.id],
       }));
     }
-  }, [state.currentQuestionIndex, testQuestions]);
+  }, [state.currentQuestionIndex, testQuestions, examMode]);
 
   const goToQuestion = useCallback(
     (index: number) => {
@@ -186,12 +194,20 @@ export function useTest(allQuestions: Question[], options: TestOptions = {}) {
         setState((prev) => ({
           ...prev,
           currentQuestionIndex: index,
-          showExplanation: !!prev.answers[testQuestions[index]?.id],
+          showExplanation: examMode ? false : !!prev.answers[testQuestions[index]?.id],
         }));
       }
     },
-    [testQuestions]
+    [testQuestions, examMode]
   );
+
+  const submitExam = useCallback(() => {
+    setTotalTestTime(Date.now() - testStartTime.current);
+    setState((prev) => ({
+      ...prev,
+      isComplete: true,
+    }));
+  }, []);
 
   const resetTest = useCallback(() => {
     setTestQuestions(selectWeightedRandomQuestions(allQuestions, questionsPerTest));
@@ -207,8 +223,12 @@ export function useTest(allQuestions: Question[], options: TestOptions = {}) {
     questionStartTime.current = Date.now();
   }, [allQuestions, questionsPerTest]);
 
-  const initializeTest = useCallback(() => {
-    setTestQuestions(selectWeightedRandomQuestions(allQuestions, questionsPerTest));
+  const initializeTest = useCallback((customQuestions?: Question[]) => {
+    setTestQuestions(
+      customQuestions && customQuestions.length > 0
+        ? customQuestions
+        : selectWeightedRandomQuestions(allQuestions, questionsPerTest)
+    );
     setState({
       currentQuestionIndex: 0,
       answers: {},
@@ -267,7 +287,7 @@ export function useTest(allQuestions: Question[], options: TestOptions = {}) {
   }, [questionTimings]);
 
   const answeredCount = Object.keys(state.answers).length;
-  const canGoNext = state.showExplanation;
+  const canGoNext = examMode ? true : state.showExplanation;
   const canGoPrevious = state.currentQuestionIndex > 0;
   const isLastQuestion = state.currentQuestionIndex === testQuestions.length - 1;
 
@@ -281,8 +301,10 @@ export function useTest(allQuestions: Question[], options: TestOptions = {}) {
     nextQuestion,
     previousQuestion,
     goToQuestion,
+    submitExam,
     resetTest,
     initializeTest,
+    testQuestions,
     results,
     answeredCount,
     totalQuestions: testQuestions.length,

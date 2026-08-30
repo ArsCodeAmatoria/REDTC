@@ -81,6 +81,15 @@ export function ExplanationPanel({
                     ))}
                 </div>
               </div>
+              {question.src && (
+                <>
+                  <div className="h-px bg-border" />
+                  <p className="text-xs text-muted-foreground leading-relaxed">
+                    <span className="font-semibold text-foreground">Source: </span>
+                    {question.src}
+                  </p>
+                </>
+              )}
             </div>
           </div>
         </motion.div>
