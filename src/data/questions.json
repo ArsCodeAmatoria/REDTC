@@ -1237,7 +1237,7 @@
       "ip"
     ],
     "competency": "L1-H3",
-    "rsos": "E-12",
+    "rsos": "E-14",
     "ohs": "14.92",
     "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · L1-H3 · RSOS E-12 · OHS 14.92"
   },
@@ -1858,7 +1858,7 @@
       "ip"
     ],
     "competency": "L1-A5",
-    "rsos": "A-2",
+    "rsos": "E-14",
     "ohs": "14.47",
     "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · L1-A5 · RSOS A-2 · OHS 14.47"
   },
@@ -2905,7 +2905,7 @@
       "ip"
     ],
     "competency": "L1-H3",
-    "rsos": "E-12",
+    "rsos": "E-14",
     "ohs": "14.92",
     "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · L1-H3 · RSOS E-12 · OHS 14.92"
   },
@@ -3878,7 +3878,7 @@
       "ip"
     ],
     "competency": "L1-H3",
-    "rsos": "E-12",
+    "rsos": "B-5",
     "ohs": "14.92",
     "src": "SkilledTradesBC Level 1 SLE · SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L1-H3 · RSOS E-12 · OHS 14.92"
   },
@@ -6731,7 +6731,7 @@
       "ip"
     ],
     "competency": "L1-H3",
-    "rsos": "E-12",
+    "rsos": "E-14",
     "ohs": "14.92",
     "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · L1-H3 · RSOS E-12 · OHS 14.92"
   },
@@ -10573,7 +10573,7 @@
       "ip"
     ],
     "competency": "L1-H3",
-    "rsos": "E-12",
+    "rsos": "E-14",
     "ohs": "14.92",
     "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · L1-H3 · RSOS E-12 · OHS 14.92"
   },
@@ -14543,7 +14543,7 @@
       "ip"
     ],
     "competency": "L1-H3",
-    "rsos": "E-12",
+    "rsos": "E-14",
     "ohs": "14.92",
     "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · L1-H3 · RSOS E-12 · OHS 14.92"
   },
@@ -15301,7 +15301,7 @@
       "ip"
     ],
     "competency": "L1-H3",
-    "rsos": "E-12",
+    "rsos": "E-14",
     "ohs": "14.92",
     "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · L1-H3 · RSOS E-12 · OHS 14.92"
   },
@@ -24380,39 +24380,39 @@
   },
   {
     "id": 664,
-    "question": "Tower cranes are typically placed out of service when wind exceeds:",
+    "question": "OHS 14.92: a tower crane must not be operated when wind exceeds:",
     "options": [
       {
         "id": "a",
-        "text": "40 km/h",
-        "explanation": "Incorrect. Cranes can operate in moderate wind."
+        "text": "A universal 72 km/h Red Seal number",
+        "explanation": "Incorrect. There is no single national 72 km/h operating limit on the IP. Use the manufacturer, then 14.92."
       },
       {
         "id": "b",
-        "text": "60 km/h",
-        "explanation": "Incorrect. The threshold is higher."
+        "text": "The manufacturer’s maximum; if the manufacturer has not specified, 50 km/h. Also stop sooner if the load cannot be controlled (14.92(3))",
+        "explanation": "Correct. 14.92(1)–(3). 14.92(6): do not erect, operate, climb, or dismantle above the manufacturer’s wind limit. Out-of-service weathervane settings are also manufacturer-specified — do not invent a storm number. RSOS B-4.01."
       },
       {
         "id": "c",
-        "text": "72 km/h",
-        "explanation": "Correct. Many tower cranes must weather vane (free slew) above 72 km/h (45 mph / 20 m/s)."
+        "text": "100 km/h for all hammerheads",
+        "explanation": "Incorrect. Not a B.C. or Red Seal default."
       },
       {
         "id": "d",
-        "text": "100 km/h",
-        "explanation": "Incorrect. This exceeds safe operating limits."
+        "text": "Any wind at all — towers cannot run in wind",
+        "explanation": "Incorrect. They operate within manufacturer and 14.92 limits."
       }
     ],
-    "correctAnswer": "c",
+    "correctAnswer": "b",
     "category": "Wind & Sail Area",
     "exams": [
       "l1",
       "ip"
     ],
     "competency": "L1-H3",
-    "rsos": "E-12",
+    "rsos": "B-4",
     "ohs": "14.92",
-    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · L1-H3 · RSOS E-12 · OHS 14.92"
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS B-4.01 · OHS 14.92"
   },
   {
     "id": 665,
@@ -33440,7 +33440,7 @@
       "ip"
     ],
     "competency": "L1-H3",
-    "rsos": "E-12",
+    "rsos": "E-14",
     "ohs": "14.92",
     "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · L1-H3 · RSOS E-12 · OHS 14.92"
   },
@@ -33928,7 +33928,7 @@
       "ip"
     ],
     "competency": "L1-H3",
-    "rsos": "E-12",
+    "rsos": "E-14",
     "ohs": "14.92",
     "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · L1-H3 · RSOS E-12 · OHS 14.92"
   },
@@ -38215,7 +38215,7 @@
       "ip"
     ],
     "competency": "L1-C4",
-    "rsos": "E-12",
+    "rsos": "E-11",
     "ohs": "14.82",
     "src": "SkilledTradesBC Level 1 SLE · SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L1-C4 · RSOS E-12 · OHS 14.82"
   },
@@ -38397,7 +38397,7 @@
       "ip"
     ],
     "competency": "L2-I1",
-    "rsos": "C-6",
+    "rsos": "E-11",
     "ohs": "14.82",
     "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I1 · RSOS C-6 · OHS 14.82"
   },
@@ -38578,7 +38578,7 @@
       "ip"
     ],
     "competency": "L1-C4",
-    "rsos": "E-12",
+    "rsos": "E-11",
     "ohs": "14.82",
     "src": "SkilledTradesBC Level 1 SLE · SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L1-C4 · RSOS E-12 · OHS 14.82"
   },
@@ -38724,7 +38724,7 @@
       "ip"
     ],
     "competency": "L1-C4",
-    "rsos": "E-12",
+    "rsos": "E-11",
     "ohs": "14.82",
     "src": "SkilledTradesBC Level 1 SLE · SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L1-C4 · RSOS E-12 · OHS 14.82"
   },
@@ -42686,7 +42686,7 @@
       "ip"
     ],
     "competency": "L2-I1",
-    "rsos": "C-6",
+    "rsos": "E-11",
     "ohs": "14.82",
     "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I1 · RSOS C-6 · OHS 14.82"
   },
@@ -42876,5 +42876,3388 @@
     "rsos": "D-9",
     "ohs": "15.47",
     "src": "Fulford Level B §7 Identify slings & hardware · SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · Fulford LCR practical · L1-D1 · RSOS D-9 · OHS 15.47"
+  },
+{
+    "id": 1161,
+    "question": "On the 2023 Red Seal Occupational Standard, bottom-climbing a tower crane means:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hoisting new mast sections into a climbing frame just below the upper works",
+        "explanation": "Incorrect. That is top-climbing (RSOS C-7.02)."
+      },
+      {
+        "id": "b",
+        "text": "Raising the entire crane and mast and supporting it on beams or collars resting on the building structure",
+        "explanation": "Correct. RSOS Task C-7: bottom-climbing raises the whole crane on beams/collars on the host structure. Top-climbing inserts mast under the upper works."
+      },
+      {
+        "id": "c",
+        "text": "Travelling the crane along its rail or track during normal operation",
+        "explanation": "Incorrect. Horizontal travel on rails is excluded from WorkSafeBC “reposition” when it is normal operation (OHS 14.73.1(2))."
+      },
+      {
+        "id": "d",
+        "text": "Changing parts of line on the hook block",
+        "explanation": "Incorrect. Parts of line is reconfiguration (C-7.03), not climbing."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Climbing & Erection",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I2",
+    "rsos": "C-7",
+    "ohs": "14.73.2",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I2 · RSOS C-7 · OHS 14.73.2"
+  },
+  {
+    "id": 1162,
+    "question": "What is the procedure to mount climbing collars to the floor when preparing for a bottom-climbing procedure?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Level, bolt, then grout the collars",
+        "explanation": "Correct. This is the official Red Seal IP sample for Task C-7 (procedural/application). Level first so the collar sits true, bolt it, then grout."
+      },
+      {
+        "id": "b",
+        "text": "Grout, bolt, then level the collars",
+        "explanation": "Incorrect. Grouting first locks an unlevel collar."
+      },
+      {
+        "id": "c",
+        "text": "Level, grout, then bolt the collars",
+        "explanation": "Incorrect. Bolting after grout is the wrong sequence on the Red Seal key."
+      },
+      {
+        "id": "d",
+        "text": "Bolt, grout, then level the collars",
+        "explanation": "Incorrect. You cannot level after grout has set."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Climbing & Erection",
+    "difficulty": "hard",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I2",
+    "rsos": "C-7",
+    "ohs": "14.73.2",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I2 · RSOS C-7 · OHS 14.73.2 · Red Seal exam sample C-7"
+  },
+  {
+    "id": 1163,
+    "question": "After a bottom-climb, the crane structure is made plumb by:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Slewing the jib until the spirit level in the cab reads zero",
+        "explanation": "Incorrect. Cab level is not how RSOS C-7.01.09P plumbs the mast after a bottom-climb."
+      },
+      {
+        "id": "b",
+        "text": "Adding counterweight until the hook hangs over the tower centre",
+        "explanation": "Incorrect. Counterweight is not the plumb method for collars and wedges."
+      },
+      {
+        "id": "c",
+        "text": "Adjusting and securing the top and bottom wedges, and using a level to assess",
+        "explanation": "Correct. RSOS C-7.01.09P: secure plumb by adjusting and securing top and bottom wedges, and using a level. The crane also rests on support beams per engineering and manufacturer specs (C-7.01.08P)."
+      },
+      {
+        "id": "d",
+        "text": "Tensioning the hoist rope to pull the mast vertical",
+        "explanation": "Incorrect. The hoist rope is not a plumbing tool."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Climbing & Erection",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I2",
+    "rsos": "C-7",
+    "ohs": "14.74",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I2 · RSOS C-7 · OHS 14.74"
+  },
+  {
+    "id": 1164,
+    "question": "Before bottom-climbing, the climb path must be unobstructed by materials such as:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only ice on the jib, because the mast can push through formwork",
+        "explanation": "Incorrect. Formwork and rebar in the slab are listed climb-path obstructions."
+      },
+      {
+        "id": "b",
+        "text": "Formwork and reinforcing steel in the slab",
+        "explanation": "Correct. RSOS C-7.01.04P: climb path unobstructed. Range of variables includes formwork and reinforcing steel in the slab."
+      },
+      {
+        "id": "c",
+        "text": "Only vehicles at street level; the floor opening can stay boarded",
+        "explanation": "Incorrect. The floor opening and path the collars travel must be clear."
+      },
+      {
+        "id": "d",
+        "text": "Nothing — the climbing dogs will cut through debris",
+        "explanation": "Incorrect. Dogs are load-transfer devices, not demolition tools."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Climbing & Erection",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I2",
+    "rsos": "C-7",
+    "ohs": "14.73.2",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I2 · RSOS C-7 · OHS 14.73.2"
+  },
+  {
+    "id": 1165,
+    "question": "In a top-climb, when are the connecting pins or bolts of the upper works removed?",
+    "options": [
+      {
+        "id": "a",
+        "text": "First, so the climbing frame can be installed around a free-standing slewing unit",
+        "explanation": "Incorrect. The climbing unit is installed and the crane balanced before weight is transferred."
+      },
+      {
+        "id": "b",
+        "text": "After the new mast section is already bolted, to save time",
+        "explanation": "Incorrect. Pins come out so the upper works can be raised to make room for the new section."
+      },
+      {
+        "id": "c",
+        "text": "Never — top-climbing only uses hydraulic dogs and never unpins the tower",
+        "explanation": "Incorrect. RSOS C-7.02.10P requires removing pins or bolts to transfer weight to the climbing frame."
+      },
+      {
+        "id": "d",
+        "text": "After the climbing unit is installed and the crane is balanced, so the weight of the upper works transfers to the climbing frame",
+        "explanation": "Correct. RSOS C-7.02.07P–10P: install climbing unit, hoist mast/balance, then remove pins or bolts so upper-works weight transfers to the climbing frame before raising (C-7.02.11P)."
+      }
+    ],
+    "correctAnswer": "d",
+    "category": "Climbing & Erection",
+    "difficulty": "hard",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I2",
+    "rsos": "C-7",
+    "ohs": "14.73.2",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I2 · RSOS C-7 · OHS 14.73.2"
+  },
+  {
+    "id": 1166,
+    "question": "Why does RSOS C-7.02 require mast sections to be aligned in front of the crane before a top-climb?",
+    "options": [
+      {
+        "id": "a",
+        "text": "So the jib remains immobile during the climb",
+        "explanation": "Correct. C-7.02.06P: align mast sections in front of the crane to ensure the jib remains immobile during the climb. The sections are then hoisted into the climbing unit (C-7.02.08P)."
+      },
+      {
+        "id": "b",
+        "text": "So the operator can keep producing lifts while the crew climbs",
+        "explanation": "Incorrect. Production lifts are not done with the mast open and the upper works on the climbing frame."
+      },
+      {
+        "id": "c",
+        "text": "So the anemometer reads a lower wind speed",
+        "explanation": "Incorrect. Wind is checked independently (C-7.02.02P and OHS 14.92)."
+      },
+      {
+        "id": "d",
+        "text": "So counterweights can be removed from the counter-jib",
+        "explanation": "Incorrect. Counterweights stay as specified; you do not strip them to climb."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Climbing & Erection",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I2",
+    "rsos": "C-7",
+    "ohs": "14.73.2",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I2 · RSOS C-7 · OHS 14.73.2"
+  },
+  {
+    "id": 1167,
+    "question": "How is a tower crane balanced during climbing (RSOS C-7)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Always trolley the empty hook to maximum radius",
+        "explanation": "Incorrect. Maximum radius is not the rule. Follow the manufacturer’s climbing radius."
+      },
+      {
+        "id": "b",
+        "text": "Always park the trolley at the mast with a production load on the hook",
+        "explanation": "Incorrect. A production load is not a climbing balance weight."
+      },
+      {
+        "id": "c",
+        "text": "By the manufacturer’s method: change radius (trolley or luff) and, for top-climbing, hoist mast sections or an approved balance weight, with only minor swing adjustments",
+        "explanation": "Correct. C-7.01.07P (bottom): adjust configuration and change radius with the balancing weight by trolleying or luffing per manufacturer. C-7.02.09P (top): hoist mast sections or an approved balance weight, change load radius, minor swing adjustments. NCCCO Domain 2 likewise: manufacturer climbing notes and trolley position — not a one-size radius."
+      },
+      {
+        "id": "d",
+        "text": "By filling the water tank in the cab until the LMI reads zero moment",
+        "explanation": "Incorrect. There is no cab water-tank balance method in the RSOS."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Climbing & Erection",
+    "difficulty": "hard",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I2",
+    "rsos": "C-7",
+    "ohs": "14.73.2",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I2 · RSOS C-7 · OHS 14.73.2 · NCCCO tower Domain 2 (manufacturer climbing notes)"
+  },
+  {
+    "id": 1168,
+    "question": "After the new mast section and upper works are pinned or bolted on a top-climb, the operator and crew must:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Leave the climbing frame carrying operating loads so the next jump is faster",
+        "explanation": "Incorrect. Operating loads must go through the mast splice, not the climbing frame."
+      },
+      {
+        "id": "b",
+        "text": "Complete the procedure by disconnecting the climbing unit and removing or stowing it per the manufacturer",
+        "explanation": "Correct. RSOS C-7.02.12P–14P: pin/bolt the new section and upper works, install added support (tiebacks/collars) as required, then disconnect and remove or stow the climbing unit per manufacturer. NCCCO Domain 2 also tests parked/secured position of the top-climbing unit after the climb."
+      },
+      {
+        "id": "c",
+        "text": "Immediately resume production lifts before torqueing splices, because the dogs will hold",
+        "explanation": "Incorrect. Sequence and manufacturer torque/pin requirements come first. Then 14.75 before putting the crane back in service."
+      },
+      {
+        "id": "d",
+        "text": "Remove all tie-ins so the mast can weathervane freely",
+        "explanation": "Incorrect. Tie-ins stay as engineered. Weathervaning is a shutdown/slew setting, not a reason to drop ties."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Climbing & Erection",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I2",
+    "rsos": "C-7",
+    "ohs": "14.75",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I2 · RSOS C-7 · OHS 14.75 · NCCCO tower Domain 2"
+  },
+  {
+    "id": 1169,
+    "question": "Before a top-climb, RSOS C-7.02 requires confirmation that:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The power cable and grounding are of sufficient length for the climb needed",
+        "explanation": "Correct. C-7.02.05P. Short feeder or ground after a jump is a shock and stop-work hazard. Also confirm shoring/tiebacks (C-7.02.04P) and engineering documentation that the host structure can take the loads (C-7.02.01P)."
+      },
+      {
+        "id": "b",
+        "text": "The anemometer has been unplugged so it cannot stop the job",
+        "explanation": "Incorrect. OHS 14.92 requires an anemometer the operator can read. Climbing still needs weather monitoring."
+      },
+      {
+        "id": "c",
+        "text": "The overload prevention system is bypassed for the whole shift",
+        "explanation": "Incorrect. After a climb, 14.75(3) requires a qualified person to adjust the overload prevention system as necessary — not leave it defeated."
+      },
+      {
+        "id": "d",
+        "text": "All tiebacks have been removed so the mast can rise without hang-up",
+        "explanation": "Incorrect. You confirm shoring and tiebacks are in place and adequate (C-7.02.04P), not remove them."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Climbing & Erection",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I2",
+    "rsos": "C-7",
+    "ohs": "14.73.2",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I2 · RSOS C-7 · OHS 14.73.2"
+  },
+  {
+    "id": 1170,
+    "question": "Before top-climbing, shoring and tiebacks must be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "In place and adequate to support the weight of the crane, per engineering and manufacturer specifications",
+        "explanation": "Correct. RSOS C-7.02.04P. WorkSafeBC 14.74: foundation, shoring, bracing, and building connections must be PE-certified. If the climb affects those connections, 14.75(4) requires PE recertification before the crane goes back in service."
+      },
+      {
+        "id": "b",
+        "text": "Optional if the mast is still under the manufacturer’s freestanding height",
+        "explanation": "Incorrect. Freestanding height does not cancel engineered ties required for that climb or that height."
+      },
+      {
+        "id": "c",
+        "text": "Installed by the operator from the cab using the climbing controls",
+        "explanation": "Incorrect. Ties and shoring are erection/engineering work under a qualified supervisor (14.73.2)."
+      },
+      {
+        "id": "d",
+        "text": "Designed on site by the rigger using the load chart",
+        "explanation": "Incorrect. 14.74 requires a professional engineer’s design and certification."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Climbing & Erection",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I2 / L1-A1",
+    "rsos": "C-7",
+    "ohs": "14.74",
+    "src": "SkilledTradesBC Level 1 SLE · SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I2 · RSOS C-7 · OHS 14.74"
+  },
+  {
+    "id": 1171,
+    "question": "Weather for climbing (RSOS C-7.01 / C-7.02) must be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Checked once at dawn; climbing can continue in any wind if the operational 50 km/h default has not been reached",
+        "explanation": "Incorrect. 14.92(4)’s 50 km/h default is for operation in the absence of manufacturer specs — not a climbing limit. Climbing follows manufacturer erection/climbing limits (14.73.2 and 14.92(6) for erect/dismantle)."
+      },
+      {
+        "id": "b",
+        "text": "Checked before starting and monitored continually (wind, freezing rain, temperature, snow, lightning, fog)",
+        "explanation": "Correct. C-7.01.01P and C-7.02.02P. 14.92(6): do not erect, operate, or dismantle above the manufacturer’s upper limit for that activity. 14.93: stop operations below −18 °C unless the manufacturer or a PE specifies otherwise."
+      },
+      {
+        "id": "c",
+        "text": "Ignored if a qualified supervisor is on site",
+        "explanation": "Incorrect. The supervisor does not waive manufacturer weather limits."
+      },
+      {
+        "id": "d",
+        "text": "Based only on the Environment Canada downtown forecast",
+        "explanation": "Incorrect. You need site wind at the crane (14.92 anemometer) and manufacturer limits for the activity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Climbing & Erection",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I2",
+    "rsos": "C-7",
+    "ohs": "14.92",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I2 · RSOS C-7 · OHS 14.92 / 14.93"
+  },
+  {
+    "id": 1172,
+    "question": "During climbing, radio or cell communication with the erection crew must be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Maintained throughout the climb",
+        "explanation": "Correct. RSOS C-7.01.06P, C-7.02.03P, C-7.03.05P. The operator participates as part of a crew: specialized erectors, crane supervisor, and assembling/dismantling director. In B.C. the climb is directed by a qualified supervisor for that particular crane (OHS 14.73.1–14.73.2)."
+      },
+      {
+        "id": "b",
+        "text": "Used only to start and finish; mid-climb is hand signals only",
+        "explanation": "Incorrect. The standard requires communication throughout."
+      },
+      {
+        "id": "c",
+        "text": "Optional if the operator can see the climbing frame",
+        "explanation": "Incorrect. Visibility of the frame does not replace crew comms."
+      },
+      {
+        "id": "d",
+        "text": "Replaced by the LMI alarm",
+        "explanation": "Incorrect. LMI is not a substitute for crew communication."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Climbing & Erection",
+    "difficulty": "easy",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I2",
+    "rsos": "C-7",
+    "ohs": "14.73.2",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I2 · RSOS C-7 · OHS 14.73.2"
+  },
+  {
+    "id": 1173,
+    "question": "Who directs a tower-crane climb in British Columbia?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any Red Seal operator in the cab, because climbing is an operator-only task",
+        "explanation": "Incorrect. The operator participates (RSOS C-7). Direction is a qualified-supervisor duty."
+      },
+      {
+        "id": "b",
+        "text": "The site superintendent, even with no training on that crane’s climbing system",
+        "explanation": "Incorrect. 14.73.1: qualified supervisor means qualified to climb that particular tower crane."
+      },
+      {
+        "id": "c",
+        "text": "A qualified supervisor for that particular crane and activity; work is done by qualified persons to manufacturer instructions (or a PE if the installation varies)",
+        "explanation": "Correct. OHS 14.73.1–14.73.2. Fulford Level B does not make you the climb director. NCCCO Domain 2: a qualified/competent person designated for erection/climbing — same idea, different statute (OSHA/CCO is US; in B.C. use WorkSafeBC)."
+      },
+      {
+        "id": "d",
+        "text": "WorkSafeBC, who must be on site for every pin pulled",
+        "explanation": "Incorrect. WorkSafeBC receives the NOP-TC (14.73.3) at least two weeks before; they do not run the climb."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Climbing & Erection",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I1 / L2-I2",
+    "rsos": "C-7",
+    "ohs": "14.73.2",
+    "src": "SkilledTradesBC Level 1 SLE · SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I2 · RSOS C-7 · OHS 14.73.1–14.73.2"
+  },
+  {
+    "id": 1174,
+    "question": "Before a tower crane is put back in service after climbing, OHS 14.75 requires a qualified supervisor to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Verbal-OK the crew and start production lifts immediately",
+        "explanation": "Incorrect. 14.75(5) requires a written report available at the workplace."
+      },
+      {
+        "id": "b",
+        "text": "Verify the climb followed manufacturer (or PE) specs and make a report available on site covering verification, certifications, overload-prevention adjustment, limit-device settings, and counterweight/ballast weights",
+        "explanation": "Correct. 14.75(1) and (5). If the climb was not to manufacturer specs, a PE must certify variations, adjusted load charts, and that the crane is safe (14.75(2))."
+      },
+      {
+        "id": "c",
+        "text": "Only photograph the climbing frame for the SkillRecord Passport",
+        "explanation": "Incorrect. Passport hours are not a substitute for the 14.75 report."
+      },
+      {
+        "id": "d",
+        "text": "Reset the hour-meter so the next annual NDT starts today",
+        "explanation": "Incorrect. Structural NDT intervals are 14.77, not reset by a jump."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Climbing & Erection",
+    "difficulty": "hard",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I1 / L2-I2",
+    "rsos": "C-7",
+    "ohs": "14.75",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I2 · RSOS C-7 · OHS 14.75"
+  },
+  {
+    "id": 1175,
+    "question": "After a tower crane is climbed or repositioned, the overload prevention system must be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Left as it was at the previous height so charts stay familiar",
+        "explanation": "Incorrect. Height and configuration change moment and limits."
+      },
+      {
+        "id": "b",
+        "text": "Adjusted as necessary by a qualified person according to manufacturer specs, or PE specs if the PE authorized a variation",
+        "explanation": "Correct. OHS 14.75(3). The 14.75(5) report must confirm this was done and must state the load limits set on the limit devices (14.81)."
+      },
+      {
+        "id": "c",
+        "text": "Bypassed until the next annual inspection",
+        "explanation": "Incorrect. Defeating overload prevention is not a climb close-out."
+      },
+      {
+        "id": "d",
+        "text": "Set to 75% of chart because every climb is a critical lift",
+        "explanation": "Incorrect. Critical lift is OHS 14.1 / 14.42.1 — not a generic 75% after a jump. Limits follow manufacturer/PE for the new configuration."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Climbing & Erection",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I2",
+    "rsos": "C-7",
+    "ohs": "14.75",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I2 · RSOS C-7 · OHS 14.75(3)"
+  },
+  {
+    "id": 1176,
+    "question": "If climbing affects connections, bracing, or shoring that a professional engineer certified under OHS 14.74(3), before the crane goes back in service:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The operator initials the load chart and continues",
+        "explanation": "Incorrect. Operator initials do not recertify structure."
+      },
+      {
+        "id": "b",
+        "text": "A professional engineer must certify that affected parts were properly installed and that building connections and bracing/shoring are in place",
+        "explanation": "Correct. OHS 14.75(4). This is the B.C. counterpart to “engineer verifies the host structure can take climbing forces” in CCO/NCCCO Domain 2 — in B.C. it is 14.74 / 14.75(4), not OSHA 1926.1435."
+      },
+      {
+        "id": "c",
+        "text": "The qualified supervisor’s 14.75 report replaces the engineer",
+        "explanation": "Incorrect. The supervisor’s report must include copies of the PE certifications; it does not replace them."
+      },
+      {
+        "id": "d",
+        "text": "No further engineering is needed if the original foundation stamp is still in the site binder",
+        "explanation": "Incorrect. 14.75(4) is specifically about effects of this climb or reposition on PE-certified connections."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Climbing & Erection",
+    "difficulty": "hard",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I1 / L2-I2",
+    "rsos": "C-7",
+    "ohs": "14.75",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I2 · RSOS C-7 · OHS 14.75(4) / 14.74(3)"
+  },
+  {
+    "id": 1177,
+    "question": "OHS 14.74 tower-crane support: which statement is true?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The foundation, shoring/bracing design, building connections, and bearing capacity of the supporting surface must be determined or certified by a professional engineer",
+        "explanation": "Correct. 14.74(1)–(4). Loads must be distributed so bearing capacity is not exceeded (14.74(5)). Climbing loads go through this system."
+      },
+      {
+        "id": "b",
+        "text": "The manufacturer’s generic base drawing is enough without a B.C. engineer if the crane is under 8 tonnes",
+        "explanation": "Incorrect. 14.74 is not waived by capacity."
+      },
+      {
+        "id": "c",
+        "text": "The operator may design shoring from the load chart’s out-of-service wind column",
+        "explanation": "Incorrect. Shoring design is PE work."
+      },
+      {
+        "id": "d",
+        "text": "Only the first pour needs an engineer; later climbs reuse the same stamp with no review",
+        "explanation": "Incorrect. Later climbs that affect connections trigger 14.75(4)."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Climbing & Erection",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-A1 / L2-I1",
+    "rsos": "C-6",
+    "ohs": "14.74",
+    "src": "SkilledTradesBC Level 1 SLE · SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L1-A1 · RSOS C-6 · OHS 14.74"
+  },
+  {
+    "id": 1178,
+    "question": "For wind during erection, climbing, or dismantling of a tower crane in B.C.:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The 50 km/h operational default in 14.92(4) is the climbing limit if the manual is silent on climbing wind",
+        "explanation": "Incorrect. 14.92(4) is the operational default when the manufacturer has no operating wind spec. Climbing is done to manufacturer (or PE) instructions under 14.73.2. 14.92(6) forbids erecting, operating, or dismantling above the manufacturer’s upper limit for that activity."
+      },
+      {
+        "id": "b",
+        "text": "There is no wind rule if the NOP-TC was filed",
+        "explanation": "Incorrect. NOP-TC does not waive 14.92 or manufacturer limits."
+      },
+      {
+        "id": "c",
+        "text": "Use the manufacturer’s limit for that activity; do not erect, operate, or dismantle above it; stop if the load (or the climb) cannot be handled safely",
+        "explanation": "Correct. 14.92(3), (6) and 14.73.2. An anemometer must be on the crown/apex/cab with a readout the operator can see (14.92(1)–(2)). RSOS: check and continually monitor weather. NCCCO Domain 2 also tests manufacturer max wind for erection, climbing, dismantling, and operation."
+      },
+      {
+        "id": "d",
+        "text": "Climbing is always allowed up to 80 km/h if the slew brake is locked",
+        "explanation": "Incorrect. 80 km/h is not a B.C. climbing limit."
+      }
+    ],
+    "correctAnswer": "c",
+    "category": "Climbing & Erection",
+    "difficulty": "hard",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I2",
+    "rsos": "C-7",
+    "ohs": "14.92",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I2 · RSOS C-7 · OHS 14.92 / 14.73.2"
+  },
+  {
+    "id": 1179,
+    "question": "Before a jib-length or parts-of-line reconfiguration (RSOS C-7.03), the configuration must be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Verified as acceptable by the crane manufacturer or a professional engineer",
+        "explanation": "Correct. C-7.03.01P. Additional components need documented NDT before operation (C-7.03.02P). Permits as required (C-7.03.03P). Then reconfigure the LMI and set and test limits for the new configuration (C-7.03.11P)."
+      },
+      {
+        "id": "b",
+        "text": "Approved verbally by any operator who has jumped that model before",
+        "explanation": "Incorrect. Manufacturer or PE — not informal operator custom."
+      },
+      {
+        "id": "c",
+        "text": "Done first, then reverse-engineered into the load chart",
+        "explanation": "Incorrect. Charts and LMI follow an approved configuration, not the other way around."
+      },
+      {
+        "id": "d",
+        "text": "Exempt from NDT because used mast sections are “already certified”",
+        "explanation": "Incorrect. C-7.03.02P: NDT of additional components must be documented before operation. 14.77 also requires NDT/PE certification of structural components before erection."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Climbing & Erection",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I3",
+    "rsos": "C-7",
+    "ohs": "14.73.2",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I2 · RSOS C-7 · OHS 14.73.2 / 14.77"
+  },
+  {
+    "id": 1180,
+    "question": "After a crane reconfiguration, RSOS C-7.03.11P requires the operator/crew to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reconfigure the LMI and verify limits are set and tested for the new configuration",
+        "explanation": "Correct. Limits and LMI must match the new jib, counterweight, parts of line, and height. This aligns with 14.75(3) (overload prevention) and 14.81 limit devices."
+      },
+      {
+        "id": "b",
+        "text": "Leave the old LMI program so historical lifts remain comparable",
+        "explanation": "Incorrect. Wrong configuration in the LMI is a known collapse path."
+      },
+      {
+        "id": "c",
+        "text": "Disable all limits until the next Fulford practical",
+        "explanation": "Incorrect. Fulford’s practical (hand signals, on-crane, LCR) does not authorize defeated limits."
+      },
+      {
+        "id": "d",
+        "text": "Only update the SkillRecord Passport hours",
+        "explanation": "Incorrect. Hours logging is separate from putting a reconfigured crane in service."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Climbing & Erection",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I3",
+    "rsos": "C-7",
+    "ohs": "14.81",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I2 · RSOS C-7 · OHS 14.81 / 14.75(3)"
+  },
+  {
+    "id": 1181,
+    "question": "While the upper works is supported on the climbing frame (mast open), production lifting is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Allowed at 50% of chart because the frame is designed for it",
+        "explanation": "Incorrect. The climbing frame is for the climb sequence, not production load charts."
+      },
+      {
+        "id": "b",
+        "text": "Not done. The structure is not a complete load path until the new section is pinned/bolted and the climbing unit is disconnected or stowed per the manufacturer",
+        "explanation": "Correct. RSOS sequence C-7.02.10P–14P. NCCCO Domain 2 climbing notes: during a climb the crane is temporarily not a complete structure; follow manufacturer prohibitions. In B.C. that is 14.73.2 (manufacturer instructions) plus 14.75 before return to service."
+      },
+      {
+        "id": "c",
+        "text": "Required, to prove the climbing rams under live load",
+        "explanation": "Incorrect. That is not a test method in the RSOS or OHS Part 14."
+      },
+      {
+        "id": "d",
+        "text": "Allowed only for personnel platforms",
+        "explanation": "Incorrect. Personnel platforms are a specialty/critical operation (14.1 / 14.42.1), not a climbing-frame use."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Climbing & Erection",
+    "difficulty": "hard",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I2",
+    "rsos": "C-7",
+    "ohs": "14.73.2",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I2 · RSOS C-7 · OHS 14.73.2 / 14.75 · NCCCO tower Domain 2"
+  },
+  {
+    "id": 1182,
+    "question": "Maximum freestanding mast height and tie-in spacing for a tower crane are:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Always 90 ft, because that is the SkilledTradesBC hours rule",
+        "explanation": "Incorrect. 90 ft is a work-based-training hour minimum for the operator apprenticeship, not a structural tie-in height."
+      },
+      {
+        "id": "b",
+        "text": "Taken from the manufacturer (and the PE’s support/tie design). Do not exceed them",
+        "explanation": "Correct. RSOS C-7 and C-6: manufacturer and engineering specs. NCCCO Domain 2 tests max freestanding height, min/max tie-in spacing, and max height above ties. In B.C., 14.74 PE-certifies ties/bracing; 14.73.2 requires manufacturer or PE instructions."
+      },
+      {
+        "id": "c",
+        "text": "Set by the operator using 3% of chart capacity per mast section",
+        "explanation": "Incorrect. There is no 3%-per-section rule."
+      },
+      {
+        "id": "d",
+        "text": "Unlimited if the climbing dogs are engaged",
+        "explanation": "Incorrect. Dogs are climb hardware, not a substitute for ties and freestanding limits."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Climbing & Erection",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I2",
+    "rsos": "C-7",
+    "ohs": "14.74",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I2 · RSOS C-7 · OHS 14.74 / 14.73.2 · NCCCO tower Domain 2"
+  },
+  {
+    "id": 1183,
+    "question": "OHS 14.73.3 treats climbing a tower crane as a “crane activity.” That means:",
+    "options": [
+      {
+        "id": "a",
+        "text": "An NOP-TC must reach WorkSafeBC at least 2 weeks before the climb (unless 14.73.3(5) emergency), naming the qualified supervisor and attaching site-specific procedures",
+        "explanation": "Correct. Climbing is listed with erect, reposition, and dismantle. Post the notice on site. Significant changes to the NOP must be sent in writing. BC Crane Safety’s Qualified Supervisor registry can be cited for 14.73.3(3)(g)."
+      },
+      {
+        "id": "b",
+        "text": "Only the first erection needs an NOP; later jumps are maintenance",
+        "explanation": "Incorrect. Each climb is a crane activity."
+      },
+      {
+        "id": "c",
+        "text": "Fulford’s Level B exam is the notice of project",
+        "explanation": "Incorrect. Level B is provisional operator theory, not an NOP-TC."
+      },
+      {
+        "id": "d",
+        "text": "Only luffing cranes need NOP-TC for climbs",
+        "explanation": "Incorrect. 14.73.1 applies to tower cranes erected from components and to self-erecting tower cranes."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Climbing & Erection",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I1 / L1-A1",
+    "rsos": "C-7",
+    "ohs": "14.73.3",
+    "src": "SkilledTradesBC Level 1 SLE · SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I2 · RSOS C-7 · OHS 14.73.3"
+  },
+  {
+    "id": 1184,
+    "question": "On the Red Seal IP, how many of the 100 questions are Task C-7 (climbing and reconfigurations)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "23 — all of Major Work Activity C",
+        "explanation": "Incorrect. MWA C is 23 questions total, split C-6 assembly 6, C-7 climbing 8, C-8 lift planning 9."
+      },
+      {
+        "id": "b",
+        "text": "8",
+        "explanation": "Correct. Official Red Seal Tower Crane Operator exam breakdown (2023 RSOS): Task 7 is 8 questions. Know bottom-climb, top-climb, and reconfiguration. In B.C. you also apply OHS 14.73–14.75, 14.74, 14.92. Fulford Level B Core Theory does not include a climbing section; climbing is Level 2 SLE and IP. NCCCO tower written Domain 2 (erection, climbing, dismantling) is a larger share of that US exam (~25%) — do not mix the percentages."
+      },
+      {
+        "id": "c",
+        "text": "0 — climbing is erectors only and is not on the operator exam",
+        "explanation": "Incorrect. The operator participates (C-7) and is examined on it. 8 questions."
+      },
+      {
+        "id": "d",
+        "text": "40 — the same as Fulford Level B",
+        "explanation": "Incorrect. Level B is 40 questions on 15 core-theory sections; climbing is not one of them."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Climbing & Erection",
+    "difficulty": "easy",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I2",
+    "rsos": "C-7",
+    "ohs": "14.73.2",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · L2-I2 · RSOS C-7 · Red Seal exam breakdown Task 7 = 8/100"
+  },
+{
+    "id": 1185,
+    "question": "RSOS B-3.05: during pre-operational inspection of electrical components, the operator must verify that:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The slip rings (collector rings) and power cable are free of damage and stress, and electrical functions work",
+        "explanation": "Correct. B-3.05 includes verifying the power-cable supply is not damaged and that electrical system components function. The Red Seal sample on slip rings: they let the crane slew without damaging the power supply."
+      },
+      {
+        "id": "b",
+        "text": "All electrical work is deferred to the next annual NDT",
+        "explanation": "Incorrect. Daily/shift electrical checks are operator inspection, not annual NDT."
+      },
+      {
+        "id": "c",
+        "text": "The anemometer is unplugged so it cannot nuisance-trip the job",
+        "explanation": "Incorrect. 14.92 requires an anemometer the operator can read."
+      },
+      {
+        "id": "d",
+        "text": "The trolley travel limit is bypassed for the first hour",
+        "explanation": "Incorrect. Limits are tested each shift (14.81(2)), not bypassed."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Electrical & Safety Systems",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-F4",
+    "rsos": "B-3",
+    "ohs": "14.35",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS B-3.05 · OHS 14.35"
+  },
+  {
+    "id": 1186,
+    "question": "RSOS B-3.07: inspecting track (rail) travel components includes checking:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only the hoist brake, because rail-mounted cranes do not travel under load",
+        "explanation": "Incorrect. Travel path, rails, locks, and stops are inspected. Travelling with a load has its own rules (OHS 14.43 / E-12.05)."
+      },
+      {
+        "id": "b",
+        "text": "Rails, bogies, locking devices, travel stops, and that the travel path is clear and the track is level",
+        "explanation": "Correct. B-3.07 plus E-12.05: consult the manual, confirm a clear/level path, release then reinstall locking devices, allow stopping distance."
+      },
+      {
+        "id": "c",
+        "text": "Only aviation beacons",
+        "explanation": "Incorrect. Beacons are E-14.02 out-of-service, not the rail inspection."
+      },
+      {
+        "id": "d",
+        "text": "Tire pressure on the tower",
+        "explanation": "Incorrect. Tower cranes on rails do not use pneumatic tires as the travel system."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-F4",
+    "rsos": "B-3",
+    "ohs": "14.43",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS B-3.07 / E-12.05 · OHS 14.43"
+  },
+  {
+    "id": 1187,
+    "question": "RSOS B-3.09: inspection of safety and access components includes:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Skipping the mast ladder if the operator rode the hook up (OHS 14.51)",
+        "explanation": "Incorrect. 14.51 forbids riding the hook or load. Access is by manufacturer access (14.88)."
+      },
+      {
+        "id": "b",
+        "text": "Access ladders, rest platforms, fall-arrest anchorage, and that passage is unobstructed",
+        "explanation": "Correct. B-3.09 covers safety and access. OHS 14.88 requires safe access. Fall arrest is A-1.02 when climbing the mast."
+      },
+      {
+        "id": "c",
+        "text": "Only the cab seatbelt",
+        "explanation": "Incorrect. Access to the cab is part of the inspection, not the whole of B-3.09."
+      },
+      {
+        "id": "d",
+        "text": "Only the climbing frame dogs, even if the crane will not climb today",
+        "explanation": "Incorrect. Climbing hardware is B-3.06 support/climbing components; access is separate."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-F4",
+    "rsos": "B-3",
+    "ohs": "14.88",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS B-3.09 · OHS 14.88"
+  },
+  {
+    "id": 1188,
+    "question": "Wire-rope diameter on a tower crane hoist line is checked (RSOS B-3.03) by:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Guessing from the load chart parts-of-line note",
+        "explanation": "Incorrect. Charts do not replace measurement."
+      },
+      {
+        "id": "b",
+        "text": "Measuring with calipers and comparing to CSA Z248 and the manufacturer’s specifications",
+        "explanation": "Correct. B-3.03.01P: measure diameter with calipers vs CSA Z248 and manufacturer. Also look for broken wires, birdcaging, kinks, corrosion, lubrication, spooling, hook latch, sheave wear."
+      },
+      {
+        "id": "c",
+        "text": "Weighing a 1 m sample",
+        "explanation": "Incorrect. Diameter, not mass, is the check."
+      },
+      {
+        "id": "d",
+        "text": "Using the LMI radius display",
+        "explanation": "Incorrect. LMI does not measure rope diameter."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-F4",
+    "rsos": "B-3",
+    "ohs": "14.91",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS B-3.03 · OHS 14.91 / CSA Z248"
+  },
+  {
+    "id": 1189,
+    "question": "RSOS B-3.04 hydraulic inspection on a tower or self-erect includes looking for:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Leaking seals and hoses, chafing, bent rams, wrong oil level, unusual noise, and high temperature",
+        "explanation": "Correct. B-3.04: visual inspection, fluid level, pump within pressure if gauges are accessible. High-pressure fluid is a hazard during this check."
+      },
+      {
+        "id": "b",
+        "text": "Only the colour of the hoist rope grease",
+        "explanation": "Incorrect. That is B-3.03 / B-5.02, not hydraulics."
+      },
+      {
+        "id": "c",
+        "text": "Whether the foundation PE stamp is in the cab",
+        "explanation": "Incorrect. That is 14.74 documentation, not a hydraulic inspection."
+      },
+      {
+        "id": "d",
+        "text": "Only the counterweight serial numbers",
+        "explanation": "Incorrect. Counterweights are structural (B-3.01 / 14.80)."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-F4",
+    "rsos": "B-3",
+    "ohs": "14.35",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS B-3.04 · OHS 14.35"
+  },
+  {
+    "id": 1190,
+    "question": "RSOS B-3.10: inspection findings must be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Kept only in the operator’s memory until the annual",
+        "explanation": "Incorrect. The RSOS requires logbook documentation."
+      },
+      {
+        "id": "b",
+        "text": "Documented in the logbook and reported to the superintendent / owner when repairs are needed",
+        "explanation": "Correct. B-3.10: complete inspection documentation and report issues. 14.35 pre-use; BC Crane Safety SkillRecord Passport is the B.C. logbook."
+      },
+      {
+        "id": "c",
+        "text": "Posted on social media so the next shift sees them",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "d",
+        "text": "Erased after a successful function test",
+        "explanation": "Incorrect. Machine history must be preserved."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-F4",
+    "rsos": "B-3",
+    "ohs": "14.35",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS B-3.10 · OHS 14.35"
+  },
+  {
+    "id": 1191,
+    "question": "RSOS B-4 (continual checks) means the operator, during the shift, must:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Repeat the full annual NDT every hour",
+        "explanation": "Incorrect. Continual checks are operational monitoring, not NDT."
+      },
+      {
+        "id": "b",
+        "text": "Monitor weather, site changes, ropes/hoist system, equipment performance, and structural/support components",
+        "explanation": "Correct. B-4.01–B-4.05. Weather: anemometer/forecasts (14.92). Site: personnel, overlaps, excavations (B-4.02). Stop if conditions require it."
+      },
+      {
+        "id": "c",
+        "text": "Leave the cab to grease every sheave each lift",
+        "explanation": "Incorrect. Lubrication is B-5, on interval, not every lift."
+      },
+      {
+        "id": "d",
+        "text": "Ignore wind if the LMI has not tripped",
+        "explanation": "Incorrect. 14.92(3): stop when wind makes the load unsafe — LMI is not a wind meter substitute."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-F4 / L2-F1",
+    "rsos": "B-4",
+    "ohs": "14.92",
+    "src": "SkilledTradesBC Level 1 SLE · SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · RSOS B-4 · OHS 14.92"
+  },
+  {
+    "id": 1192,
+    "question": "If you hear unusual noise or see high temperature on a winch or gearbox during the shift (RSOS B-4.04), you should:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increase speed to clear the heat",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "b",
+        "text": "Stop, investigate, and do not continue until the condition is safe — report it",
+        "explanation": "Correct. B-4.04 monitors equipment performance. Abnormal noise/heat/leaks are stop items. Minor top-up/adjust is B-5 only after lockout if required; major repair is a technician."
+      },
+      {
+        "id": "c",
+        "text": "Keep lifting at 50% of chart",
+        "explanation": "Incorrect. Percentage of chart does not fix a failing component."
+      },
+      {
+        "id": "d",
+        "text": "Reset the LMI; noise is usually a false alarm",
+        "explanation": "Incorrect. LMI does not diagnose gearbox noise."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-F1",
+    "rsos": "B-4",
+    "ohs": "14.35",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · RSOS B-4.04 · OHS 14.35"
+  },
+  {
+    "id": 1193,
+    "question": "RSOS B-5: which statement is true?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The operator does all structural welding on the mast",
+        "explanation": "Incorrect. Larger maintenance is trained technicians; operator may assist."
+      },
+      {
+        "id": "b",
+        "text": "Operators do minor maintenance (fluids, fasteners, brakes as specified). Lock out and tag out before working on powered components. Major work is technicians",
+        "explanation": "Correct. B-5.01.02P lockout/tagout. B-5.01.03–05: brakes, fluids, fasteners. B-5.02: manufacturer lubricant, intervals, and environment. Technicians do larger work (RSOS B-5 descriptor)."
+      },
+      {
+        "id": "c",
+        "text": "Any grease is acceptable if it is black",
+        "explanation": "Incorrect. Use the product specified by the manufacturer."
+      },
+      {
+        "id": "d",
+        "text": "Lockout is optional if the crane is in free slew",
+        "explanation": "Incorrect. Free slew is not lockout."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-F2",
+    "rsos": "B-5",
+    "ohs": "14.35",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · RSOS B-5 · OHS 14.35"
+  },
+  {
+    "id": 1194,
+    "question": "OHS 14.81(2): tower-crane limit devices must be tested:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Once per year with NDT",
+        "explanation": "Incorrect. Annual NDT is 14.77, not the shift limit test."
+      },
+      {
+        "id": "b",
+        "text": "Before the crane is first used on each work shift, to manufacturer procedures (or PE procedures if the manufacturer’s are not available)",
+        "explanation": "Correct. 14.81(1): automatic travel limits and overload prevention. 14.81(3): any malfunction found must be remedied before use. Luffing cranes also need a max boom-angle limit (14.81(5)). This is RSOS E-11 function test / confirm limits."
+      },
+      {
+        "id": "c",
+        "text": "Only after a climb",
+        "explanation": "Incorrect. After a climb is extra (14.75(3)); the shift test is every shift."
+      },
+      {
+        "id": "d",
+        "text": "Only if the LMI alarm sounded yesterday",
+        "explanation": "Incorrect. Every shift, not complaint-driven."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-C4",
+    "rsos": "E-11",
+    "ohs": "14.81",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS E-11 · OHS 14.81"
+  },
+  {
+    "id": 1195,
+    "question": "RSOS E-11.01 function test includes:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Swinging in all speeds and both directions, checking swing limits and brakes; trolley in/out slow-down and final limits; hoist high-speed/slow-down/final up and down; luff limits if fitted; travel limits if rail-mounted",
+        "explanation": "Correct. E-11.01.02P–06P. Also confirm LMI against a known load (E-11.01.01P). Cold-weather function test per manufacturer (E-11.01.07P). Record in the logbook."
+      },
+      {
+        "id": "b",
+        "text": "Only hoisting the heaviest production load of the day",
+        "explanation": "Incorrect. Function tests use specified motions and test blocks, not a random production piece."
+      },
+      {
+        "id": "c",
+        "text": "Bypassing slow-down limits so the test goes faster",
+        "explanation": "Incorrect. You are testing those limits."
+      },
+      {
+        "id": "d",
+        "text": "A radio check only",
+        "explanation": "Incorrect. Radio is A-2 / 14.49, not the function test."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Cab Controls & LMI",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-C4",
+    "rsos": "E-11",
+    "ohs": "14.81",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS E-11.01 · OHS 14.81"
+  },
+  {
+    "id": 1196,
+    "question": "RSOS E-11.02 confirming limits with test blocks: pick up the test block to verify:",
+    "options": [
+      {
+        "id": "a",
+        "text": "That the aviation beacon is on",
+        "explanation": "Incorrect. Beacons are E-14.02."
+      },
+      {
+        "id": "b",
+        "text": "Hoist, hoist brakes, maximum load limit at jib tip / line pull, and that cut-outs match manufacturer settings",
+        "explanation": "Correct. E-11.02: tests with known weight; pick up test block; max-weight block tests gear capacity, hoist and brakes. OHS 14.82: blocks on site, weight marked, designed by manufacturer or PE."
+      },
+      {
+        "id": "c",
+        "text": "Only the horn",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "d",
+        "text": "Only trolley travel with an empty hook, never a known weight",
+        "explanation": "Incorrect. Confirming limits uses known weight / test blocks."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-C4",
+    "rsos": "E-11",
+    "ohs": "14.82",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS E-11.02 · OHS 14.82"
+  },
+  {
+    "id": 1197,
+    "question": "OHS 14.81(4): if workplace layout makes it not practicable to position enough test weights to test the maximum load-limit switch at the start of the shift, you must:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Skip the test until a mobile crane can deliver blocks next week",
+        "explanation": "Incorrect. The section provides a reduced-setting procedure, not a skip."
+      },
+      {
+        "id": "b",
+        "text": "Set the switch to activate at less than 80% of maximum rated capacity, test with blocks, then reset and retest with blocks before any lift greater than that reduced setting",
+        "explanation": "Correct. 14.81(4)(a)–(b). This is a B.C. rule the IP sitting still expects you to know as jurisdictional OHS."
+      },
+      {
+        "id": "c",
+        "text": "Set it to 110% so you have a safety margin",
+        "explanation": "Incorrect. That defeats overload prevention."
+      },
+      {
+        "id": "d",
+        "text": "Use a person on the hook as the test weight (14.51)",
+        "explanation": "Incorrect. 14.51 forbids riding the hook."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-C4",
+    "rsos": "E-11",
+    "ohs": "14.81",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS E-11 · OHS 14.81(4)"
+  },
+  {
+    "id": 1198,
+    "question": "OHS 14.82 test blocks for tower-crane overload-prevention testing must:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Be any convenient concrete scrap with the weight guessed",
+        "explanation": "Incorrect. Weight must be accurately determined and marked."
+      },
+      {
+        "id": "b",
+        "text": "Be available at the site; weight specified by the manufacturer (or PE if erection varied); accurately determined and durably marked; lifting point designed by manufacturer or PE",
+        "explanation": "Correct. 14.82(1)–(3). Used in E-11.02 and after erection/climb as required."
+      },
+      {
+        "id": "c",
+        "text": "Stay at the rental yard until the annual",
+        "explanation": "Incorrect. They must be at the tower-crane site."
+      },
+      {
+        "id": "d",
+        "text": "Equal 50 km/h of wind load",
+        "explanation": "Incorrect. Blocks test load limits, not wind."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-C4",
+    "rsos": "E-11",
+    "ohs": "14.82",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS E-11.02 · OHS 14.82"
+  },
+  {
+    "id": 1199,
+    "question": "When trolleying a load, RSOS E-12.01 requires the operator to identify maximum trolley radius:",
+    "options": [
+      {
+        "id": "a",
+        "text": "By running into the limit switch so the LMI can learn it",
+        "explanation": "Incorrect. E-12.01.07P: identify max trolley radius with load using load charts and without relying on limits to stop the load."
+      },
+      {
+        "id": "b",
+        "text": "From the load chart, without relying on limits to stop the load",
+        "explanation": "Correct. Limits are backups. Charts first. Centre the hook over the load; decrease radius to increase capacity."
+      },
+      {
+        "id": "c",
+        "text": "By the length of the tag line",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "d",
+        "text": "By doubling the jib length",
+        "explanation": "Incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Crane Components & Operation",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-H3",
+    "rsos": "E-12",
+    "ohs": "14.38",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS E-12.01 · OHS 14.38"
+  },
+  {
+    "id": 1200,
+    "question": "When picking or landing a load, boom/jib deflection means you must (RSOS E-12.04):",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ignore radius; deflection cancels at the hook",
+        "explanation": "Incorrect. Deflection increases radius as the load comes on."
+      },
+      {
+        "id": "b",
+        "text": "Adjust trolley or luff to keep the load line vertical and compensate as weight comes on or off the crane",
+        "explanation": "Correct. E-12.04.04P/06P. OHS 14.46: keep the load line vertical to prevent side loading. The official Red Seal critical-thinking sample: at max radius, deflection increases radius and the load swings out."
+      },
+      {
+        "id": "c",
+        "text": "Side-load the mast to keep the hook over the mark",
+        "explanation": "Incorrect. 14.46 forbids side loading."
+      },
+      {
+        "id": "d",
+        "text": "Boom down without checking the chart because deflection adds capacity",
+        "explanation": "Incorrect. Deflection reduces margin at radius, it does not add capacity."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Crane Components & Operation",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-H3",
+    "rsos": "E-12",
+    "ohs": "14.46",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS E-12.04 · OHS 14.46"
+  },
+  {
+    "id": 1201,
+    "question": "Before travelling a rail-mounted tower crane (RSOS E-12.05):",
+    "options": [
+      {
+        "id": "a",
+        "text": "Leave storm pins in so the crane cannot run away",
+        "explanation": "Incorrect. You release locking devices to travel, then reinstall them after."
+      },
+      {
+        "id": "b",
+        "text": "Consult the operating manual, confirm a clear and level path, release locking devices, allow stopping distance, then reinstall locks",
+        "explanation": "Correct. E-12.05.01P–06P. OHS 14.43 travelling with a load has extra restrictions — follow manufacturer and regulation."
+      },
+      {
+        "id": "c",
+        "text": "Travel with the hook on the ground as an anchor",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "d",
+        "text": "Remove all ballast so the bogies roll easier",
+        "explanation": "Incorrect. Ballast is specified."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Crane Components & Operation",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-H1",
+    "rsos": "E-12",
+    "ohs": "14.43",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · RSOS E-12.05 · OHS 14.43"
+  },
+  {
+    "id": 1202,
+    "question": "RSOS E-12.06 performing functions simultaneously means:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Running hoist, trolley/luff, swing, and travel together only if you keep control of the load and can bring functions to a stop under control",
+        "explanation": "Correct. E-12.06. Physics: momentum and CoG. Hazards include overspeed into limits and load swing. Smooth, not slammed, controls."
+      },
+      {
+        "id": "b",
+        "text": "Always using every function at once to save time",
+        "explanation": "Incorrect. Simultaneous is permitted when controlled, not mandatory."
+      },
+      {
+        "id": "c",
+        "text": "Disabling brakes so functions do not fight each other",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "d",
+        "text": "Letting the LMI sequence the motions automatically on all tower cranes",
+        "explanation": "Incorrect. Most towers are operator-controlled."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Crane Components & Operation",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-H3",
+    "rsos": "E-12",
+    "ohs": "14.38",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS E-12.06 · OHS 14.38"
+  },
+  {
+    "id": 1203,
+    "question": "On a luffing tower crane, radius is changed by (RSOS E-12.02):",
+    "options": [
+      {
+        "id": "a",
+        "text": "Trolleying a hammerhead-style trolley along a level jib",
+        "explanation": "Incorrect. That is E-12.01 hammerhead/flat-top."
+      },
+      {
+        "id": "b",
+        "text": "Booming (luffing) the jib up and down; confirm the jib-angle indicator; stay within min/max limits; 14.81(5) requires an automatic device that prevents raising beyond maximum permitted boom angle",
+        "explanation": "Correct. E-12.02 plus 14.81(5)–(6). Centre hook and boom tip over the load."
+      },
+      {
+        "id": "c",
+        "text": "Telescoping the mast",
+        "explanation": "Incorrect. Mast telescoping is climbing, C-7."
+      },
+      {
+        "id": "d",
+        "text": "Adding counterweight in the cab",
+        "explanation": "Incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Crane Components & Operation",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-C2",
+    "rsos": "E-12",
+    "ohs": "14.81",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS E-12.02 · OHS 14.81(5)"
+  },
+  {
+    "id": 1204,
+    "question": "OHS 14.84.1 when two tower-crane operating zones overlap:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The operators agree informally by horn",
+        "explanation": "Incorrect. The section sets procedures, including which crane has priority."
+      },
+      {
+        "id": "b",
+        "text": "If practicable, erect to avoid overlap. If overlap exists, follow 14.84.1 procedures (higher crane typically has priority in the overlap; communication 14.49.1)",
+        "explanation": "Correct. E-13.02 operate on a multi-crane site. 14.84.1 and 14.49.1. Distinct from a tandem lift of one load (14.42 / E-13.01), which needs an engineered plan."
+      },
+      {
+        "id": "c",
+        "text": "Both cranes must free-slew through the overlap all day",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "d",
+        "text": "Overlap is prohibited in all cases, so one crane must be laid down",
+        "explanation": "Incorrect. Avoid if practicable; if not, follow 14.84.1."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Site Operations & Planning",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-J2",
+    "rsos": "E-13",
+    "ohs": "14.84.1",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · RSOS E-13.02 · OHS 14.84.1"
+  },
+  {
+    "id": 1205,
+    "question": "RSOS E-13.03 hoisting personnel requires:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Riding the headache ball if the platform is late (OHS 14.51)",
+        "explanation": "Incorrect. 14.51: no riding hook or load."
+      },
+      {
+        "id": "b",
+        "text": "A lift plan; PE-certified platform where required with a current inspection; correct rigging safety factor; fall arrest tied off; communication with people in the basket; rescue plan. In B.C. this is a critical lift (OHS 14.1 / 14.42.1)",
+        "explanation": "Correct. E-13.03.01P–07P. Fulford Level B §6 covers suspended work platforms."
+      },
+      {
+        "id": "c",
+        "text": "Any pallet with a handrail",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "d",
+        "text": "No extra rules if the load is under 500 kg",
+        "explanation": "Incorrect. Personnel rules are not a weight exemption."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Site Operations & Planning",
+    "difficulty": "hard",
+    "exams": [
+      "b",
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-J1",
+    "rsos": "E-13",
+    "ohs": "14.42.1",
+    "src": "Fulford Level B §6 · SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · RSOS E-13.03 · OHS 14.1 / 14.42.1 / 14.51"
+  },
+  {
+    "id": 1206,
+    "question": "RSOS E-13.01 a multi-crane (tandem) lift of one load requires:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Each operator following their own plan without a coordinator",
+        "explanation": "Incorrect. One designated signaller coordinates."
+      },
+      {
+        "id": "b",
+        "text": "An engineered lift plan; weather monitored; one designated signaller; constant load control and a vertical lift point; emergency signals as in the plan. In B.C., tandem at 75% or more of any crane’s capacity is a critical lift, and a tower-crane tandem plan must be PE-certified (14.42 / 14.42.1)",
+        "explanation": "Correct. E-13.01. Do not confuse with two cranes on one site that are not sharing one load (E-13.02 / 14.84.1)."
+      },
+      {
+        "id": "c",
+        "text": "Using the lighter crane as a tag line only",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "d",
+        "text": "No plan if both operators are Red Seal",
+        "explanation": "Incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Site Operations & Planning",
+    "difficulty": "medium",
+    "exams": [
+      "b",
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-J2",
+    "rsos": "E-13",
+    "ohs": "14.42",
+    "src": "Fulford Level B §15 · SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · RSOS E-13.01 · OHS 14.42 / 14.42.1"
+  },
+  {
+    "id": 1207,
+    "question": "RSOS E-14.01 short-term leave of the controls (still on shift, not leaving the crane for the day) requires:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Leaving the load one metre off the ground with the swing brake off so it can weathervane",
+        "explanation": "Incorrect. Weathervane is out-of-service (E-14.02). Short-term: land the load, lock swing so you do not hit nearby obstructions."
+      },
+      {
+        "id": "b",
+        "text": "Land the load (OHS 14.45); park the crane clear of other operations; disable controls; lock the swing brake; tell ground personnel you are leaving the controls",
+        "explanation": "Correct. E-14.01.01P–05P. 14.45: a load must not be left suspended when the operator is not at the controls."
+      },
+      {
+        "id": "c",
+        "text": "Apply rail clamps and aviation lights only",
+        "explanation": "Incorrect. Those are E-14.02 items."
+      },
+      {
+        "id": "d",
+        "text": "Leave a rigger at the controls",
+        "explanation": "Incorrect. The operator must be at the controls if a load is suspended."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-H4",
+    "rsos": "E-14",
+    "ohs": "14.45",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS E-14.01 · OHS 14.45"
+  },
+  {
+    "id": 1208,
+    "question": "RSOS E-14.02 securing the crane out of service (end of shift / leaving the crane) includes:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Locking the swing brake so it cannot weathervane",
+        "explanation": "Incorrect. Out of service: allow the jib to weathervane per manufacturer (unless the manufacturer says otherwise)."
+      },
+      {
+        "id": "b",
+        "text": "Tell ground crew; land the load; raise the hook; park trolley (and luff jib) per manufacturer; weathervane; lock out remote; rail clamps if rail-mounted; power off; vandal guards as required; check clearance lights and aviation beacons",
+        "explanation": "Correct. E-14.02.01P–11P. Distinct from short-term (E-14.01) where swing is locked."
+      },
+      {
+        "id": "c",
+        "text": "Leaving a light load on the hook to keep the ropes taut",
+        "explanation": "Incorrect. 14.45 and E-14.02.02P: remove the load."
+      },
+      {
+        "id": "d",
+        "text": "Parking the trolley at maximum radius for all manufacturers",
+        "explanation": "Incorrect. Trolley park position is manufacturer-specified."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-H4",
+    "rsos": "E-14",
+    "ohs": "14.45",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS E-14.02 · OHS 14.45 / 14.85"
+  },
+  {
+    "id": 1209,
+    "question": "OHS 14.45 unattended loads:",
+    "options": [
+      {
+        "id": "a",
+        "text": "A load may hang if the swing brake is on and you are on the mast ladder",
+        "explanation": "Incorrect. Operator must be at the controls."
+      },
+      {
+        "id": "b",
+        "text": "A load must not be left suspended from or supported by a crane or hoist when an operator is not at the controls",
+        "explanation": "Correct. Matches RSOS E-14.01.01P. Lunch, washroom, or climbing the mast: land the load first."
+      },
+      {
+        "id": "c",
+        "text": "A load may hang for 15 minutes if tagged",
+        "explanation": "Incorrect. No time exemption in 14.45."
+      },
+      {
+        "id": "d",
+        "text": "Self-erect remote operators may leave a load if the transmitter is in a pocket",
+        "explanation": "Incorrect. Not at the controls means land it."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Safety & Legislation",
+    "difficulty": "medium",
+    "exams": [
+      "b",
+      "l1",
+      "ip"
+    ],
+    "competency": "L1-A1",
+    "rsos": "E-14",
+    "ohs": "14.45",
+    "src": "Fulford Level B §1 · SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS E-14 · OHS 14.45"
+  },
+  {
+    "id": 1210,
+    "question": "RSOS D-9.03 storing rigging: slings and hardware should be stored:",
+    "options": [
+      {
+        "id": "a",
+        "text": "On the muddy deck so they stay cool",
+        "explanation": "Incorrect. Moisture and grit destroy slings."
+      },
+      {
+        "id": "b",
+        "text": "Off the ground, dry, away from chemicals, UV, and sharp edges, according to manufacturer and site rules",
+        "explanation": "Correct. D-9.03. Operators may not rig every lift but must refuse unsafe rigging (D-9 / D-10 descriptor)."
+      },
+      {
+        "id": "c",
+        "text": "Wound around the hoist drum",
+        "explanation": "Incorrect. Hoist rope is not sling storage."
+      },
+      {
+        "id": "d",
+        "text": "In the diesel tank room for warmth",
+        "explanation": "Incorrect. Chemicals/heat."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging Practices",
+    "difficulty": "medium",
+    "exams": [
+      "b",
+      "l1",
+      "ip"
+    ],
+    "competency": "L1-D3",
+    "rsos": "D-9",
+    "ohs": "15.25",
+    "src": "Fulford Level B §8 · SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS D-9.03 · OHS Part 15"
+  },
+  {
+    "id": 1211,
+    "question": "RSOS D-9.02 lubrication of slings and hardware:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Soak synthetic web slings in used gear oil weekly",
+        "explanation": "Incorrect. Oil ruins synthetics. D-9.02 is for wire-rope slings/hardware that the manufacturer says to lubricate."
+      },
+      {
+        "id": "b",
+        "text": "Lubricate wire-rope slings and hardware with the specified product where the manufacturer requires it; do not lubricate synthetics or chain unless the manufacturer says so",
+        "explanation": "Correct. D-9.02. Wire rope on the crane hoist is B-5.02 with manufacturer product and intervals."
+      },
+      {
+        "id": "c",
+        "text": "Never lubricate any wire rope; grease hides broken wires",
+        "explanation": "Incorrect. Proper lube is required; inspection still looks through for broken wires (D-9.01 / B-3.03)."
+      },
+      {
+        "id": "d",
+        "text": "Use any aerosol chain lube on all sling types",
+        "explanation": "Incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Rigging Practices",
+    "difficulty": "medium",
+    "exams": [
+      "b",
+      "l1",
+      "ip"
+    ],
+    "competency": "L1-D3",
+    "rsos": "D-9",
+    "ohs": "15.25",
+    "src": "Fulford Level B §8 · SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS D-9.02 · OHS Part 15"
+  },
+  {
+    "id": 1212,
+    "question": "RSOS A-1.02 PPE when accessing the tower or jib:",
+    "options": [
+      {
+        "id": "a",
+        "text": "A hard hat in the cab is enough; harnesses are for ironworkers only",
+        "explanation": "Incorrect. Climbing the mast/jib requires fall arrest per task and manufacturer."
+      },
+      {
+        "id": "b",
+        "text": "Select, fit, inspect, and use PPE for the task (including fall arrest for mast/jib access); replace damaged PPE",
+        "explanation": "Correct. A-1.02.01P–05P. CSA Z248 / OHS Part 11 fall protection as applicable."
+      },
+      {
+        "id": "c",
+        "text": "PPE is optional if the wind is below 50 km/h",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "d",
+        "text": "Use a boatswain’s chair on the hoist line instead of the ladder",
+        "explanation": "Incorrect. 14.51 and access rules."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Safety & Legislation",
+    "difficulty": "medium",
+    "exams": [
+      "b",
+      "l1",
+      "ip"
+    ],
+    "competency": "L1-A2",
+    "rsos": "A-1",
+    "ohs": "14.88",
+    "src": "Fulford Level B §1 · SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS A-1.02 · OHS 14.88"
+  },
+  {
+    "id": 1213,
+    "question": "RSOS A-2.02 mentoring an apprentice on the crane:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Leave them alone on a production lift on day one so they learn faster",
+        "explanation": "Incorrect. Practice conditions: guided, then limited independence, then full independence."
+      },
+      {
+        "id": "b",
+        "text": "Identify the learning objective, demonstrate the skill, set up safe practice, give supportive and corrective feedback, and support technical training",
+        "explanation": "Correct. A-2.02.01P–07P. Also anti-harassment/discrimination (A-2.02.08P). The journeyperson remains responsible for safe operation."
+      },
+      {
+        "id": "c",
+        "text": "Mentoring is not on the Red Seal exam",
+        "explanation": "Incorrect. A-2 is 3 of 100 IP questions (31% of MWA A)."
+      },
+      {
+        "id": "d",
+        "text": "Have them skip Level 1 SLE if they can run the cab",
+        "explanation": "Incorrect. B.C. still requires the SLE path."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Communication & Supervision",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-B2",
+    "rsos": "A-2",
+    "ohs": "14.34.1",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS A-2.02"
+  },
+  {
+    "id": 1214,
+    "question": "OHS 14.47(2): the operator must stop on a stop signal from:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only the designated signaller",
+        "explanation": "Incorrect. Stop from any person."
+      },
+      {
+        "id": "b",
+        "text": "Any person",
+        "explanation": "Correct. 14.47(2). 14.47(1): if the operator cannot see boom, jib, line, hook, and load, they act only on a qualified signaller who can. Radios: 14.48–14.49. This is RSOS A-2.01 communication."
+      },
+      {
+        "id": "c",
+        "text": "Only the qualified supervisor for climbing",
+        "explanation": "Incorrect. Climbing comms are additional, not a replacement for 14.47."
+      },
+      {
+        "id": "d",
+        "text": "Only if the LMI agrees",
+        "explanation": "Incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Communication & Supervision",
+    "difficulty": "medium",
+    "exams": [
+      "b",
+      "l1",
+      "ip"
+    ],
+    "competency": "L1-B1",
+    "rsos": "A-2",
+    "ohs": "14.47",
+    "src": "Fulford Level B §3 · SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS A-2.01 · OHS 14.47"
+  },
+  {
+    "id": 1215,
+    "question": "RSOS C-6.02 disassembly of a tower crane must:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Start with the base bolts so the mast can be pulled over",
+        "explanation": "Incorrect. Sequence is manufacturer-specified; typically reverse of erection."
+      },
+      {
+        "id": "b",
+        "text": "Follow manufacturer sequence: disable operating systems, unreeve as required, dismantle components in sequence, load for transport. In B.C., 14.73.2–3 (qualified supervisor, NOP-TC) still apply",
+        "explanation": "Correct. C-6.02. Same crew idea as assembly (C-6.01). Wind: 14.92(6)."
+      },
+      {
+        "id": "c",
+        "text": "Be done by the operator alone from the cab",
+        "explanation": "Incorrect. Team of qualified persons."
+      },
+      {
+        "id": "d",
+        "text": "Skip NDT because the crane is coming down",
+        "explanation": "Incorrect. Components still need integrity for the next job (14.76/14.77)."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Tower Crane Erection",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I1",
+    "rsos": "C-6",
+    "ohs": "14.73.2",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · RSOS C-6.02 · OHS 14.73.2"
+  },
+  {
+    "id": 1216,
+    "question": "RSOS C-6.03 transporting a self-erecting tower crane:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Is a core B.C. apprenticeship task for every tower operator",
+        "explanation": "Incorrect. The 2023 RSOS marks C-6.03 as not applicable in B.C. (BC column: no). The national IP can still ask general knowledge: secure per manufacturer, permits, route, class of licence."
+      },
+      {
+        "id": "b",
+        "text": "Where it is in the trade: confirm route, secure the crane per manufacturer, move on site/roads per regulation, confirm site conditions. B.C. does not include this as a required TCO task",
+        "explanation": "Correct. RSOS jurisdictional table: BC = no for C-6.03. C-6.04 self-erect assembly/disassembly is yes in B.C."
+      },
+      {
+        "id": "c",
+        "text": "Requires a tower-crane Red Seal before you can drive the truck",
+        "explanation": "Incorrect. Transport is a driving/permit issue plus manufacturer travel config."
+      },
+      {
+        "id": "d",
+        "text": "Is identical to jumping a hammerhead",
+        "explanation": "Incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Self-Erect & Remote Operation",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I4",
+    "rsos": "C-6",
+    "ohs": "14.73.2",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · RSOS C-6.03 (BC: not required) / C-6.04"
+  },
+  {
+    "id": 1217,
+    "question": "OHS 14.81(5): a tower crane with a luffing boom must have:",
+    "options": [
+      {
+        "id": "a",
+        "text": "No boom-angle limit if the operator watches the indicator",
+        "explanation": "Incorrect. An automatic device is required."
+      },
+      {
+        "id": "b",
+        "text": "An automatic limit device that prevents the boom being raised beyond the maximum permitted boom angle",
+        "explanation": "Correct. 14.81(5)–(6). Tested in the E-11 function test (E-11.01.05P)."
+      },
+      {
+        "id": "c",
+        "text": "A trolley limit instead of a boom-angle limit",
+        "explanation": "Incorrect. Luffing radius is boom angle, not a hammerhead trolley."
+      },
+      {
+        "id": "d",
+        "text": "A 50 km/h cut-out tied to boom angle",
+        "explanation": "Incorrect. Wind is 14.92, separate from boom-angle limit."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-C2",
+    "rsos": "E-11",
+    "ohs": "14.81",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS E-11 / E-12.02 · OHS 14.81(5)"
+  },
+  {
+    "id": 1218,
+    "question": "RSOS C-8.04 preparing for specialty lifts (engineered, tandem, personnel, unusual CoG) requires:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Treating them as ordinary lifts if you have Red Seal",
+        "explanation": "Incorrect. C-8.04 is separate from ordinary C-8.03."
+      },
+      {
+        "id": "b",
+        "text": "Following the engineered/specialty plan: weights, CoG, communication, sequence, and B.C. critical-lift rules where they apply (14.1, 14.42, 14.42.1)",
+        "explanation": "Correct. C-8.01–03 still apply (weight, chart, procedure). Specialty is extra planning. Fulford Level B §14–15 ordinary vs critical."
+      },
+      {
+        "id": "c",
+        "text": "Skipping the chart because the PE signed the plan",
+        "explanation": "Incorrect. The plan uses charts; it does not replace them."
+      },
+      {
+        "id": "d",
+        "text": "Only a verbal OK from the rigger",
+        "explanation": "Incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Site Operations & Planning",
+    "difficulty": "medium",
+    "exams": [
+      "b",
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-G2",
+    "rsos": "C-8",
+    "ohs": "14.42.1",
+    "src": "Fulford Level B §14–15 · SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · RSOS C-8.04 · OHS 14.42.1"
+  },
+{
+    "id": 1219,
+    "question": "RSOS B-4.01 / OHS 14.92: the operator monitors wind during the shift using:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only the radio weather at coffee break",
+        "explanation": "Incorrect. Wind can change between breaks. 14.92(2) requires a device the operator can read."
+      },
+      {
+        "id": "b",
+        "text": "An anemometer (or equivalent) the operator can read, plus visual/auditory cues and forecasts",
+        "explanation": "Correct. B-4.01 gauges include anemometers, thermometers, lightning detectors. 14.92(2): a tower crane must have a device that provides a continuous indication of wind speed that the operator can read."
+      },
+      {
+        "id": "c",
+        "text": "The LMI overload alarm as a wind meter",
+        "explanation": "Incorrect. LMI is load/radius, not wind."
+      },
+      {
+        "id": "d",
+        "text": "Guessing from flag movement on neighbouring buildings only",
+        "explanation": "Incorrect. Flags are a cue, not a substitute for the anemometer."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-F4",
+    "rsos": "B-4",
+    "ohs": "14.92",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS B-4.01 · OHS 14.92"
+  },
+  {
+    "id": 1220,
+    "question": "OHS 14.92(3): even if wind is under the manufacturer’s operating limit, the operator must stop when:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The load becomes difficult to control (tag line, swing, or sail)",
+        "explanation": "Correct. 14.92(3): must not operate when wind makes it difficult to control the load. B-4.01.03P: cease when weather requires it. Manufacturer limit is a ceiling, not permission to fight an unstable load."
+      },
+      {
+        "id": "b",
+        "text": "Wind is exactly 49 km/h",
+        "explanation": "Incorrect. 50 km/h is the B.C. default only if the manufacturer did not specify (14.92(1)). Control of the load can require stopping sooner."
+      },
+      {
+        "id": "c",
+        "text": "The superintendent wants production",
+        "explanation": "Incorrect. 14.92 is not optional."
+      },
+      {
+        "id": "d",
+        "text": "The anemometer has not been calibrated this year",
+        "explanation": "Incorrect. Calibration is good practice; the stop rule is about controlling the load."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-H3",
+    "rsos": "B-4",
+    "ohs": "14.92",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS B-4.01 · OHS 14.92(3)"
+  },
+  {
+    "id": 1221,
+    "question": "Lightning, hoar frost, dense fog, or ice on mast access (RSOS B-4.01) means the operator must:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Keep lifting at reduced speed until the LMI trips",
+        "explanation": "Incorrect. These are cease/evacuate or delayed-access conditions, not LMI items."
+      },
+      {
+        "id": "b",
+        "text": "Identify the hazard, determine whether access/egress is still safe, and cease operations when required by manufacturer, company, CSA Z248, and OHS",
+        "explanation": "Correct. B-4.01.01P–03P. Lightning: land, secure, weathervane per manufacturer, evacuate. Ice on ladders is an access/egress change (B-4.01.02P)."
+      },
+      {
+        "id": "c",
+        "text": "Only log it; production continues",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "d",
+        "text": "Raise a personnel platform to wipe the jib in the storm",
+        "explanation": "Incorrect. E-13.03 personnel lifts are not a weather workaround."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-F4",
+    "rsos": "B-4",
+    "ohs": "14.92",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS B-4.01 · OHS 14.92 / 14.93"
+  },
+  {
+    "id": 1222,
+    "question": "OHS 14.93 cold: a crane must not be operated when the temperature is below:",
+    "options": [
+      {
+        "id": "a",
+        "text": "0 °C unless the diesel is idling",
+        "explanation": "Incorrect. The regulation is −18 °C unless the manufacturer specifies a different limit."
+      },
+      {
+        "id": "b",
+        "text": "−18 °C, or a different limit if specified by the manufacturer",
+        "explanation": "Correct. 14.93. B-4.01 includes temperature. Cold also triggers E-11.01.07P manufacturer warm-up/function test."
+      },
+      {
+        "id": "c",
+        "text": "−40 °C for all tower cranes in Canada",
+        "explanation": "Incorrect. Do not invent a national number; use 14.93 and the manufacturer."
+      },
+      {
+        "id": "d",
+        "text": "The temperature in the cab, regardless of ambient",
+        "explanation": "Incorrect. The limit is ambient operating temperature for the crane."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-F4",
+    "rsos": "B-4",
+    "ohs": "14.93",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS B-4.01 · OHS 14.93"
+  },
+  {
+    "id": 1223,
+    "question": "RSOS B-4.02 monitoring site conditions during the shift includes watching for:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only the colour of the hoist rope",
+        "explanation": "Incorrect. That is B-3.03 / B-4.03."
+      },
+      {
+        "id": "b",
+        "text": "Ground personnel vs the load path, new equipment or taller obstructions, overlapping cranes, excavations, and ground/bearing changes",
+        "explanation": "Correct. B-4.02 range of variables: new equipment, height of obstructions, overlaps, excavation; ground: compaction, standing water, utilities, grade, thaw. E-13.02 / 14.84.1 if overlap exists."
+      },
+      {
+        "id": "c",
+        "text": "Only the next day’s pour schedule",
+        "explanation": "Incorrect. Continual means this shift."
+      },
+      {
+        "id": "d",
+        "text": "Only aircraft because tower cranes never affect ground crews",
+        "explanation": "Incorrect. Ground personnel are B-4.02.01P."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-F4",
+    "rsos": "B-4",
+    "ohs": "14.84.1",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · RSOS B-4.02 · OHS 14.84.1"
+  },
+  {
+    "id": 1224,
+    "question": "RSOS B-4.03: while operating, the operator must monitor lines, wire ropes, and hoisting components for:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Birdcaging, kinks, bird nests on the drum, jumping a sheave, or unusual spooling — and stop if they appear",
+        "explanation": "Correct. Continual check, not only the morning walkaround (B-3.03). Damage can start mid-shift."
+      },
+      {
+        "id": "b",
+        "text": "Nothing; ropes are a technician-only item",
+        "explanation": "Incorrect. Operators monitor during operations (B-4.03); technicians do major repair."
+      },
+      {
+        "id": "c",
+        "text": "Only the annual NDT report",
+        "explanation": "Incorrect. NDT is 14.77, not a substitute for watching the rope this lift."
+      },
+      {
+        "id": "d",
+        "text": "Only synthetic slings on the hook",
+        "explanation": "Incorrect. The hoist line is in scope even when the sling is synthetic."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-F4",
+    "rsos": "B-4",
+    "ohs": "14.91",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS B-4.03 · OHS 14.91"
+  },
+  {
+    "id": 1225,
+    "question": "RSOS B-4.05 continual structural/support checks during operations include noticing:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Unusual mast movement, tie-in noise, wedge/beam issues on a bottom-climber, or foundation water/excavation",
+        "explanation": "Correct. B-4.05. Ties and climbing support are B-3.06 on the walkaround and B-4.05 while running. 14.74 PE for foundation/shoring/ties."
+      },
+      {
+        "id": "b",
+        "text": "Only the colour of aviation lights",
+        "explanation": "Incorrect. Lights are E-14.02."
+      },
+      {
+        "id": "c",
+        "text": "Only counterweight serial numbers once a year",
+        "explanation": "Incorrect. Mounts and pins are also a shift concern if something looks wrong."
+      },
+      {
+        "id": "d",
+        "text": "Nothing until the next climb",
+        "explanation": "Incorrect."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-F1",
+    "rsos": "B-4",
+    "ohs": "14.74",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · RSOS B-4.05 · OHS 14.74"
+  },
+  {
+    "id": 1226,
+    "question": "If site access to the tower changes mid-shift (new excavation, blocked ladder, ice) the operator (RSOS B-4.02.04P) must:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Keep running; the morning FLRA covers the whole day",
+        "explanation": "Incorrect. Continual checks include access/egress changes."
+      },
+      {
+        "id": "b",
+        "text": "Re-evaluate a safe way up and down, and stop if a safe route no longer exists",
+        "explanation": "Correct. B-4.01.02P (weather) and B-4.02.04P (site). OHS 14.88 access."
+      },
+      {
+        "id": "c",
+        "text": "Ride the hook to skip the ladder (14.51)",
+        "explanation": "Incorrect. 14.51 forbids riding the hook."
+      },
+      {
+        "id": "d",
+        "text": "Use the personnel platform as a daily elevator without a lift plan",
+        "explanation": "Incorrect. E-13.03 still applies."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-F4",
+    "rsos": "B-4",
+    "ohs": "14.88",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS B-4.02 · OHS 14.88"
+  },
+  {
+    "id": 1227,
+    "question": "Before an operator adjusts a brake, tops a reservoir, or works on a powered component (RSOS B-5.01):",
+    "options": [
+      {
+        "id": "a",
+        "text": "Leave the diesel running so gauges stay live",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "b",
+        "text": "Lock out and tag out according to site and manufacturer procedures",
+        "explanation": "Correct. B-5.01.02P. Then do only the minor tasks the trade allows (brakes, fluids, fasteners). Major repair is a technician."
+      },
+      {
+        "id": "c",
+        "text": "Ask a rigger to hold the E-stop",
+        "explanation": "Incorrect. E-stop is not lockout."
+      },
+      {
+        "id": "d",
+        "text": "Set the crane to weathervane; that counts as lockout",
+        "explanation": "Incorrect. Weathervane is E-14.02, not energy isolation."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-F2",
+    "rsos": "B-5",
+    "ohs": "14.35",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · RSOS B-5.01 · OHS 14.35"
+  },
+  {
+    "id": 1228,
+    "question": "Checking hydraulic or gearbox fluid as minor maintenance (RSOS B-5.01) means:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mixing whatever oil is in the gang box",
+        "explanation": "Incorrect. Use the specified product."
+      },
+      {
+        "id": "b",
+        "text": "Checking level (sight glass/dipstick as specified), using the manufacturer’s fluid, and reporting leaks you cannot correct",
+        "explanation": "Correct. B-5.01.04P. High-pressure injection is a hazard around hydraulics (also B-3.04)."
+      },
+      {
+        "id": "c",
+        "text": "Opening the slew-ring race in the field to top it up",
+        "explanation": "Incorrect. That is technician/major work."
+      },
+      {
+        "id": "d",
+        "text": "Waiting until the annual certification",
+        "explanation": "Incorrect. Shift/interval checks are operator work."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-F2",
+    "rsos": "B-5",
+    "ohs": "14.35",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · RSOS B-5.01 · OHS 14.35"
+  },
+  {
+    "id": 1229,
+    "question": "Loose or missing fasteners found by the operator (RSOS B-5.01.05P) should be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ignored if the LMI still works",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "b",
+        "text": "Tightened to manufacturer torque where that is an operator task, or the crane stopped and the defect reported if it is structural/technician work",
+        "explanation": "Correct. Fasteners on guards and specified operator items vs mast/slewing-ring bolts (often technician/torque procedure). Do not invent a field torque on a slewing-ring bolt."
+      },
+      {
+        "id": "c",
+        "text": "Replaced with any grade 5 hardware from a truck",
+        "explanation": "Incorrect. Specified grade and procedure."
+      },
+      {
+        "id": "d",
+        "text": "Painted so they are easier to see next year",
+        "explanation": "Incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-F2",
+    "rsos": "B-5",
+    "ohs": "14.35",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · RSOS B-5.01 · OHS 14.35"
+  },
+  {
+    "id": 1230,
+    "question": "Which job is outside ordinary operator minor maintenance (RSOS B-5 descriptor)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Checking a sight glass",
+        "explanation": "Incorrect. That is B-5.01."
+      },
+      {
+        "id": "b",
+        "text": "Welding a cracked mast section or rebuilding a hoist gearbox",
+        "explanation": "Correct. Larger maintenance is trained technicians; operators may assist. Operators lock out, do specified minor items, and report the rest."
+      },
+      {
+        "id": "c",
+        "text": "Wiping a window so you can see the load",
+        "explanation": "Incorrect. Cab condition is B-3.08; keeping glass clear is operator work."
+      },
+      {
+        "id": "d",
+        "text": "Applying specified hoist-rope dressing on interval",
+        "explanation": "Incorrect. That is B-5.02."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-F2",
+    "rsos": "B-5",
+    "ohs": "14.35",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · RSOS B-5 · OHS 14.35"
+  },
+  {
+    "id": 1231,
+    "question": "RSOS B-5.02 lubricating ropes and components:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Use the manufacturer’s product, at the specified interval, considering temperature and contamination; do not substitute random grease",
+        "explanation": "Correct. B-5.02. Hoist rope lube reduces internal friction and corrosion. Inspect as you lube (B-3.03) — grease does not hide a discard criterion if you inspect properly."
+      },
+      {
+        "id": "b",
+        "text": "Any motor oil is fine if it is cheap",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "c",
+        "text": "Never lubricate; CSA Z248 forbids it",
+        "explanation": "Incorrect. Z248 and manufacturers require proper lubrication."
+      },
+      {
+        "id": "d",
+        "text": "Soak the rope overnight in diesel to clean it, then grease",
+        "explanation": "Incorrect. Diesel strips lubricant and is a fire/chemical hazard."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-F2",
+    "rsos": "B-5",
+    "ohs": "14.91",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · RSOS B-5.02 · OHS 14.91"
+  },
+  {
+    "id": 1232,
+    "question": "If a defect is beyond operator minor maintenance, the operator must:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Keep lifting at 50% of chart until Friday",
+        "explanation": "Incorrect. Percentage of chart does not fix a defective brake or structure."
+      },
+      {
+        "id": "b",
+        "text": "Stop using the crane as required, document it, and report to the supervisor / owner so a technician can repair it",
+        "explanation": "Correct. B-3.10 documentation plus B-5 scope. 14.35 pre-use: do not operate with a dangerous defect."
+      },
+      {
+        "id": "c",
+        "text": "Bypass the limit and finish the pour",
+        "explanation": "Incorrect. 14.81(3): malfunctioning limits must be remedied before use."
+      },
+      {
+        "id": "d",
+        "text": "Cover the logbook page so the next shift is not scared",
+        "explanation": "Incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-F2",
+    "rsos": "B-5",
+    "ohs": "14.35",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · RSOS B-5 / B-3.10 · OHS 14.35"
+  },
+  {
+    "id": 1233,
+    "question": "Winch or hoist brake adjustment as an operator task (RSOS B-5.01.03P) is allowed only:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Whenever the load drifts, using a pipe on the adjuster for extra leverage",
+        "explanation": "Incorrect. Follow the manual; drifting under load is a stop item."
+      },
+      {
+        "id": "b",
+        "text": "To manufacturer procedures, after lockout, within the limits of what operators (not technicians) are permitted to do",
+        "explanation": "Correct. If the manual says technician-only, stop and report. Test per E-11 after any adjustment that affects brakes/limits."
+      },
+      {
+        "id": "c",
+        "text": "By lengthening the hoist rope instead",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "d",
+        "text": "By turning down the LMI so drift looks like a lighter load",
+        "explanation": "Incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-F2",
+    "rsos": "B-5",
+    "ohs": "14.81",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · RSOS B-5.01 · OHS 14.81"
+  },
+  {
+    "id": 1234,
+    "question": "RSOS E-11.01.01P: confirm the LMI (or equivalent rated-capacity limiter) against:",
+    "options": [
+      {
+        "id": "a",
+        "text": "A known load / test weight, and that displayed radius and load match the condition",
+        "explanation": "Correct. Then function-test motions (E-11.01.02P–06P). 14.81 shift test of limits. Do not use a mystery scrap pile as the known weight."
+      },
+      {
+        "id": "b",
+        "text": "Yesterday’s heaviest production piece, weight unknown",
+        "explanation": "Incorrect. Known weight."
+      },
+      {
+        "id": "c",
+        "text": "The radio channel number",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "d",
+        "text": "Cab temperature",
+        "explanation": "Incorrect."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Cab Controls & LMI",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-C4",
+    "rsos": "E-11",
+    "ohs": "14.81",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS E-11.01 · OHS 14.81"
+  },
+  {
+    "id": 1235,
+    "question": "RSOS E-11.01.07P cold-weather function test:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Skip limits until the cab is warm",
+        "explanation": "Incorrect. Cold is when limits and brakes most need a manufacturer warm-up."
+      },
+      {
+        "id": "b",
+        "text": "Follow the manufacturer’s warm-up and function-test procedure before production lifts (fluids, brakes, motions)",
+        "explanation": "Correct. Combined with 14.93 if ambient is below −18 °C (or manufacturer limit)."
+      },
+      {
+        "id": "c",
+        "text": "Only idle the diesel; motions are optional",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "d",
+        "text": "Use a personnel lift to keep the operator warm instead of warming the crane",
+        "explanation": "Incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-C4",
+    "rsos": "E-11",
+    "ohs": "14.93",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS E-11.01.07P · OHS 14.93"
+  },
+  {
+    "id": 1236,
+    "question": "After the pre-lift function test (RSOS E-11), results should be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Remembered only",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "b",
+        "text": "Entered in the logbook (and defects reported). In B.C. that is typically the SkillRecord Passport / crane log",
+        "explanation": "Correct. E-11.01 documentation. 14.35 pre-use. 14.81(3) defects in limits remedied before use."
+      },
+      {
+        "id": "c",
+        "text": "Posted on the jib so neighbours can see",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "d",
+        "text": "Deleted if everything passed",
+        "explanation": "Incorrect. Passes are still history."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-C4",
+    "rsos": "E-11",
+    "ohs": "14.35",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS E-11 · OHS 14.35 / 14.81"
+  },
+  {
+    "id": 1237,
+    "question": "On a hammerhead, the trolley function test (RSOS E-11.01.03P) must prove:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only that the trolley motor hums",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "b",
+        "text": "Slow-down (pre-limit) and final trolley limits in both directions, plus that you can stop under control without relying on the limit as a production brake",
+        "explanation": "Correct. Then in operations (E-12.01) you still use the chart, not the limit, to choose max radius."
+      },
+      {
+        "id": "c",
+        "text": "Only inward travel, because outbound is never used",
+        "explanation": "Incorrect. Both directions."
+      },
+      {
+        "id": "d",
+        "text": "That the trolley can crash the stops at full speed",
+        "explanation": "Incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-C4",
+    "rsos": "E-11",
+    "ohs": "14.81",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS E-11.01 · OHS 14.81"
+  },
+  {
+    "id": 1238,
+    "question": "Hoist function test (RSOS E-11.01.04P) includes:",
+    "options": [
+      {
+        "id": "a",
+        "text": "High speed, slow-down, and final limits up and down, and that the hoist brake holds",
+        "explanation": "Correct. E-11.02 then uses a known test block to confirm load-limit / brake / gear at the specified radius."
+      },
+      {
+        "id": "b",
+        "text": "Only lowering, because raising is not a limit",
+        "explanation": "Incorrect. Upper final/slow-down are critical."
+      },
+      {
+        "id": "c",
+        "text": "Two-blocking on purpose to set the switch",
+        "explanation": "Incorrect. You test the anti-two-block; you do not two-block a production rope to 'set' it."
+      },
+      {
+        "id": "d",
+        "text": "Free-fall if the crane has a winch",
+        "explanation": "Incorrect. Tower cranes are not typical friction-crane free-fall machines."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Cab Controls & LMI",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-C4",
+    "rsos": "E-11",
+    "ohs": "14.81",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS E-11.01 · OHS 14.81"
+  },
+  {
+    "id": 1239,
+    "question": "Slew (swing) function test (RSOS E-11.01.02P) includes:",
+    "options": [
+      {
+        "id": "a",
+        "text": "One nudge left only",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "b",
+        "text": "Both directions, the speeds used in service, swing limits if fitted, and that the swing brake holds when applied",
+        "explanation": "Correct. Then E-12.03: centre CoG, accelerate/decelerate smoothly. E-14.01 locks swing for short-term leave; E-14.02 weathervanes out of service."
+      },
+      {
+        "id": "c",
+        "text": "Disabling the brake for the whole test",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "d",
+        "text": "Slewing with a suspended unattended load to warm the ring",
+        "explanation": "Incorrect. 14.45."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-C4",
+    "rsos": "E-11",
+    "ohs": "14.81",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS E-11.01 · OHS 14.81"
+  },
+  {
+    "id": 1240,
+    "question": "The maximum-weight test block in E-11.02 is used to confirm:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Aviation beacon lux",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "b",
+        "text": "That hoist, brakes, and overload cut-out match manufacturer settings at the specified configuration (often including a specified radius)",
+        "explanation": "Correct. Combined with 14.82 marked blocks. After a climb, 14.75(3) also requires overload-prevention verification."
+      },
+      {
+        "id": "c",
+        "text": "Only trolley speed",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "d",
+        "text": "Only that the horn works",
+        "explanation": "Incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Cab Controls & LMI",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-C4",
+    "rsos": "E-11",
+    "ohs": "14.82",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS E-11.02 · OHS 14.81 / 14.82"
+  },
+  {
+    "id": 1241,
+    "question": "RSOS B-3.01 structural inspection includes:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fasteners, welds/NDT status as required, counterweight mounts, and obvious cracks or missing pins before you rely on the crane",
+        "explanation": "Correct. 14.77 NDT before erection as required. 14.80 counterweights. Report, do not 'watch' a structural crack."
+      },
+      {
+        "id": "b",
+        "text": "Only the seat upholstery",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "c",
+        "text": "Only the load chart paper",
+        "explanation": "Incorrect. Charts are C-8; structure is B-3.01."
+      },
+      {
+        "id": "d",
+        "text": "Only after a tip-over",
+        "explanation": "Incorrect. Pre-operational."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-F4",
+    "rsos": "B-3",
+    "ohs": "14.77",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS B-3.01 · OHS 14.77 / 14.80"
+  },
+  {
+    "id": 1242,
+    "question": "RSOS B-3.02 mechanical inspection includes:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Winch brakes, sheaves, drums, rope end connections, breathers, and unusual wear or contamination",
+        "explanation": "Correct. B-3.02. Hook latch is often grouped with B-3.03. Do not operate with a missing latch where required."
+      },
+      {
+        "id": "b",
+        "text": "Only the radio battery",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "c",
+        "text": "Only counterweight colour",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "d",
+        "text": "Only the foundation PE letter, never the machine",
+        "explanation": "Incorrect. Both matter (14.74 and B-3)."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-F4",
+    "rsos": "B-3",
+    "ohs": "14.35",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS B-3.02 · OHS 14.35"
+  },
+  {
+    "id": 1243,
+    "question": "RSOS B-3.06 support-system inspection differs by crane type:",
+    "options": [
+      {
+        "id": "a",
+        "text": "On a top-climber, check tie-in connections specified for this height; on a bottom-climber, also check climbing beams, wedges, and dogs as specified",
+        "explanation": "Correct. B-3.06. Do not treat SkilledTradesBC’s 90 ft seat-time hour rule as a structural tie-in height. Tie spacing is manufacturer + PE (14.74)."
+      },
+      {
+        "id": "b",
+        "text": "All B.C. towers must be tied at exactly 90 ft",
+        "explanation": "Incorrect. 90 ft is a seat-time criterion, not a tie-in height."
+      },
+      {
+        "id": "c",
+        "text": "Support hardware is never an operator check",
+        "explanation": "Incorrect. Operators inspect; PE designs."
+      },
+      {
+        "id": "d",
+        "text": "Wedges are left out during production so the mast can breathe",
+        "explanation": "Incorrect. Production lifts with the climbing system open are forbidden."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-F1",
+    "rsos": "B-3",
+    "ohs": "14.74",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · RSOS B-3.06 · OHS 14.74"
+  },
+  {
+    "id": 1244,
+    "question": "RSOS B-3.08 cab inspection includes:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Windows/visibility, fire extinguisher where required, seat/controls, indicators (LMI, anemometer, jib angle), and that documentation/charts in the cab are the ones for this configuration",
+        "explanation": "Correct. You cannot run what you cannot see (14.47). Charts must match the current jib/counterweight/parts of line (C-8 / 14.38)."
+      },
+      {
+        "id": "b",
+        "text": "Only the cup holder",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "c",
+        "text": "Removing the load chart so it does not block the window",
+        "explanation": "Incorrect. Keep the correct chart available."
+      },
+      {
+        "id": "d",
+        "text": "Disconnecting the anemometer display to reduce clutter",
+        "explanation": "Incorrect. 14.92(2)."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-F4",
+    "rsos": "B-3",
+    "ohs": "14.35",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS B-3.08 · OHS 14.35 / 14.92"
+  },
+  {
+    "id": 1245,
+    "question": "Rail-mounted tower crane out of service (RSOS E-14.02) also requires:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Leaving bogies unlocked so it can travel with the wind down the track",
+        "explanation": "Incorrect. Travel locks/rail clamps are applied out of service."
+      },
+      {
+        "id": "b",
+        "text": "Rail clamps / locking devices applied after the crane is parked, plus weathervane of the jib per manufacturer",
+        "explanation": "Correct. E-14.02.10P-style rail clamps. Distinct from E-12.05 where you release locks to travel."
+      },
+      {
+        "id": "c",
+        "text": "Removing the rails",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "d",
+        "text": "Parking on a slope to drain the gearboxes",
+        "explanation": "Incorrect. Track should be level for travel and parking as specified."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-H4",
+    "rsos": "E-14",
+    "ohs": "14.43",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · RSOS E-14.02 · OHS 14.43"
+  },
+  {
+    "id": 1246,
+    "question": "Remote/pendant control when leaving a self-erect out of service (RSOS E-14.02):",
+    "options": [
+      {
+        "id": "a",
+        "text": "Leave the transmitter on so the next operator can grab it",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "b",
+        "text": "Lock out / secure the remote so unauthorized people cannot run the crane; land the load; weathervane/park per manufacturer",
+        "explanation": "Correct. E-14.02 lock out remote. 14.45 still applies. C-6.04 self-erect is in scope in B.C.; C-6.03 transport is not a required B.C. TCO task."
+      },
+      {
+        "id": "c",
+        "text": "Hide the transmitter in the counterweight without landing the load",
+        "explanation": "Incorrect. 14.45."
+      },
+      {
+        "id": "d",
+        "text": "Leave a suspended load if the remote is in your pocket on the ground",
+        "explanation": "Incorrect. You are not at the controls."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Self-Erect & Remote Operation",
+    "difficulty": "medium",
+    "exams": [
+      "l2",
+      "ip"
+    ],
+    "competency": "L2-I4",
+    "rsos": "E-14",
+    "ohs": "14.45",
+    "src": "SkilledTradesBC Level 2 SLE · Red Seal IP 2023 RSOS · RSOS E-14.02 · OHS 14.45"
+  },
+  {
+    "id": 1247,
+    "question": "Aviation warning lights / beacons on a tower crane (RSOS E-14.02) should be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Switched off at night to save power",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "b",
+        "text": "Checked so they operate as required for the site/airport protocol when the crane is up",
+        "explanation": "Correct. E-14.02 includes checking clearance lights and aviation beacons. Follow Transport Canada / site protocol as applicable — do not invent a colour."
+      },
+      {
+        "id": "c",
+        "text": "Replaced by the cab dome light",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "d",
+        "text": "Only required during climbing",
+        "explanation": "Incorrect."
+      }
+    ],
+    "correctAnswer": "b",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-H4",
+    "rsos": "E-14",
+    "ohs": "14.85",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS E-14.02"
+  },
+  {
+    "id": 1248,
+    "question": "Short-term vs out-of-service: the swing brake is typically:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Locked for a short leave of the controls so the jib cannot hit nearby structures; released to weathervane when the crane is out of service per manufacturer",
+        "explanation": "Correct. E-14.01.04P lock swing brake (short-term). E-14.02 weathervane. Storm/out-of-service is not the same as a washroom break beside another crane’s mast."
+      },
+      {
+        "id": "b",
+        "text": "Always locked 24/7",
+        "explanation": "Incorrect. That prevents weathervaning."
+      },
+      {
+        "id": "c",
+        "text": "Always released, even with a load on the hook at lunch",
+        "explanation": "Incorrect. 14.45 land the load; short-term locks swing."
+      },
+      {
+        "id": "d",
+        "text": "Irrelevant on luffing cranes",
+        "explanation": "Incorrect. Luffing cranes still slew."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Inspection & Maintenance",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-H4",
+    "rsos": "E-14",
+    "ohs": "14.45",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS E-14.01 / E-14.02 · OHS 14.45"
+  },
+  {
+    "id": 1249,
+    "question": "RSOS A-1.01 maintaining a safe work environment includes:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Housekeeping, identifying energized systems, barriers, and following WHMIS / OHS / CSA Z248 as they apply to the crane",
+        "explanation": "Correct. A-1.01. Fulford Level B §1–2. Energized: 14.52.1 → Part 19 (3 m over 750 V–75 kV is the common B.C. figure — confirm voltage)."
+      },
+      {
+        "id": "b",
+        "text": "Removing all guards so inspection is faster",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "c",
+        "text": "Storing slings in the diesel room",
+        "explanation": "Incorrect. D-9.03."
+      },
+      {
+        "id": "d",
+        "text": "Disabling limits that nuisance-trip",
+        "explanation": "Incorrect. 14.81."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Safety & Legislation",
+    "difficulty": "medium",
+    "exams": [
+      "b",
+      "l1",
+      "ip"
+    ],
+    "competency": "L1-A1",
+    "rsos": "A-1",
+    "ohs": "14.52.1",
+    "src": "Fulford Level B §1–2 · SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS A-1.01 · OHS 14.52.1"
+  },
+  {
+    "id": 1250,
+    "question": "RSOS A-1.03 documentation the operator uses includes:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Logbook/Passport, FLRA, load charts for this configuration, erection/PE papers as required, and manufacturer procedures",
+        "explanation": "Correct. A-1.03. 14.73.3 NOP-TC, 14.74 PE, 14.35 pre-use. Charts must match the crane as erected (C-8)."
+      },
+      {
+        "id": "b",
+        "text": "Only a text to the superintendent",
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "c",
+        "text": "A chart from a different jib length because the numbers look similar",
+        "explanation": "Incorrect. Never use the wrong configuration chart."
+      },
+      {
+        "id": "d",
+        "text": "Verbal PE approval with no drawing",
+        "explanation": "Incorrect. 14.74 is not a shrug."
+      }
+    ],
+    "correctAnswer": "a",
+    "category": "Safety & Legislation",
+    "difficulty": "medium",
+    "exams": [
+      "l1",
+      "l2",
+      "ip"
+    ],
+    "competency": "L1-A3",
+    "rsos": "A-1",
+    "ohs": "14.73.3",
+    "src": "SkilledTradesBC Level 1 SLE · Red Seal IP 2023 RSOS · RSOS A-1.03 · OHS 14.73.3 / 14.74"
   }
 ]

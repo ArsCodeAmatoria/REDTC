@@ -22,11 +22,12 @@ const categories = [
   { name: "Gear, Drive & Capacity", count: 65, color: "bg-foreground" },
   { name: "Safety, Regulations & Comms", count: 60, color: "bg-foreground" },
   { name: "Weather & Environmental", count: 50, color: "bg-foreground" },
-  { name: "Self-Erect & Remote Operation", count: 16, color: "bg-foreground" },
-  { name: "Cab Controls & LMI", count: 35, color: "bg-foreground" },
+  { name: "Self-Erect & Remote Operation", count: 18, color: "bg-foreground" },
+  { name: "Cab Controls & LMI", count: 48, color: "bg-foreground" },
   { name: "Test Blocks & Commissioning", count: 20, color: "bg-foreground" },
   { name: "12-Month Crane Certification", count: 20, color: "bg-foreground" },
   { name: "Tower Crane Erection", count: 20, color: "bg-foreground" },
+  { name: "Climbing & Reconfiguration", count: 34, color: "bg-foreground" },
 ];
 
 const features = [
