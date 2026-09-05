@@ -48,7 +48,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    locale: "en_CA",
+    locale: "en_US",
+    alternateLocale: ["en_CA"],
     url: SITE_URL,
     siteName: SITE_NAME,
     title: SITE_TITLE,
@@ -112,7 +113,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en-CA" className="dark" suppressHydrationWarning>
+    <html lang="en-CA" prefix="og: https://ogp.me/ns#" className="dark" suppressHydrationWarning>
       <body className={`${inter.variable} ${playfair.variable} font-sans min-h-screen flex flex-col`}>
         <script
           type="application/ld+json"

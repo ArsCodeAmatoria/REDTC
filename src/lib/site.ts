@@ -28,9 +28,10 @@ export const SITE_KEYWORDS = [
 export const OG_IMAGE_ALT = "Tower crane operator — REDTC Red Seal exam practice";
 
 export const OG_IMAGE = {
-  url: `${SITE_URL}/og.jpg`,
+  url: `${SITE_URL}/share.jpg`,
+  secureUrl: `${SITE_URL}/share.jpg`,
   width: 1200,
-  height: 630,
+  height: 627,
   alt: OG_IMAGE_ALT,
   type: "image/jpeg",
 };
@@ -51,7 +52,8 @@ export function pageMetadata({ title, description, path }: PageMetaInput): Metad
     alternates: { canonical: path },
     openGraph: {
       type: "website",
-      locale: "en_CA",
+      locale: "en_US",
+      alternateLocale: ["en_CA"],
       siteName: SITE_NAME,
       title: fullTitle,
       description,
